@@ -45,7 +45,7 @@
     },
     {
         "nid": "MAGIC_DEFENSE",
-        "expression": "RES"
+        "expression": "MAG"
     },
     {
         "nid": "MAGIC_RANGE",
@@ -69,7 +69,7 @@
     },
     {
         "nid": "RATING",
-        "expression": "(HP - 10)//2 + max(STR, MAG) + SKL + SPD + LCK//2 + DEF + RES"
+        "expression": "(HP - 10)//2 + max(STR, MAG) + SKL + SPD + LCK//2 + DEF + MAG"
     },
     {
         "nid": "RESCUE_AID",
@@ -125,6 +125,6 @@
     },
     {
         "nid": "STATUS_STAFF_AVOID",
-        "expression": "RES*5"
+        "expression": "MAG*5"
     }
 ]

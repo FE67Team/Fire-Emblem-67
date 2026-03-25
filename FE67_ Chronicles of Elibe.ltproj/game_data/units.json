@@ -5,7 +5,7 @@
         "desc": "The princess of the Kingdom of Renais. She's elegant and kind.",
         "variant": "",
         "level": 1,
-        "klass": "Rogue",
+        "klass": "Myrmidon",
         "tags": [
             "Lord"
         ],
@@ -18,8 +18,7 @@
             "LCK": 5,
             "DEF": 3,
             "CON": 5,
-            "MOV": 5,
-            "RES": 1
+            "MOV": 5
         },
         "growths": {
             "HP": 70,
@@ -30,10 +29,19 @@
             "LCK": 60,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0,
-            "RES": 30
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Vulnerary",
@@ -91,6 +99,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -115,8 +128,7 @@
             "LCK": 2,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7,
-            "RES": 1
+            "MOV": 7
         },
         "growths": {
             "HP": 80,
@@ -127,10 +139,19 @@
             "LCK": 40,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0,
-            "RES": 20
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -193,6 +214,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -220,8 +246,7 @@
             "LCK": 2,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7,
-            "RES": 1
+            "MOV": 7
         },
         "growths": {
             "HP": 80,
@@ -232,10 +257,19 @@
             "LCK": 40,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0,
-            "RES": 20
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -298,6 +332,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -325,8 +364,7 @@
             "LCK": 2,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7,
-            "RES": 1
+            "MOV": 7
         },
         "growths": {
             "HP": 80,
@@ -337,10 +375,19 @@
             "LCK": 40,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0,
-            "RES": 20
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -406,6 +453,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -429,7 +481,6 @@
             "SPD": 7,
             "LCK": 3,
             "DEF": 5,
-            "RES": 1,
             "CON": 14,
             "MOV": 5
         },
@@ -441,11 +492,20 @@
             "SPD": 20,
             "LCK": 40,
             "DEF": 25,
-            "RES": 15,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Axe",
@@ -507,6 +567,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -530,7 +595,6 @@
             "SPD": 11,
             "LCK": 4,
             "DEF": 6,
-            "RES": 5,
             "CON": 5,
             "MOV": 7
         },
@@ -542,11 +606,20 @@
             "SPD": 60,
             "LCK": 50,
             "DEF": 20,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Slim_Lance",
@@ -608,6 +681,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -632,8 +710,7 @@
             "LCK": 2,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7,
-            "RES": 1
+            "MOV": 7
         },
         "growths": {
             "HP": 80,
@@ -644,10 +721,19 @@
             "LCK": 40,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0,
-            "RES": 20
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -713,6 +799,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -726,7 +817,7 @@
         "desc": "An armoured knight from Frelia. He's quiet yet dependable.",
         "variant": null,
         "level": 4,
-        "klass": "Knight",
+        "klass": "Lance_Armor",
         "tags": [],
         "bases": {
             "HP": 25,
@@ -737,8 +828,7 @@
             "LCK": 3,
             "DEF": 9,
             "CON": 14,
-            "MOV": 4,
-            "RES": 3
+            "MOV": 4
         },
         "growths": {
             "HP": 90,
@@ -749,10 +839,19 @@
             "LCK": 30,
             "DEF": 55,
             "CON": 0,
-            "MOV": 0,
-            "RES": 20
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -806,6 +905,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -829,7 +933,6 @@
             "SPD": 11,
             "LCK": 4,
             "DEF": 13,
-            "RES": 7,
             "CON": 12,
             "MOV": 8
         },
@@ -841,11 +944,20 @@
             "SPD": 40,
             "LCK": 25,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Sword",
@@ -907,6 +1019,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -930,7 +1047,6 @@
             "SPD": 9,
             "LCK": 1,
             "DEF": 2,
-            "RES": 5,
             "CON": 9,
             "MOV": 5
         },
@@ -942,11 +1058,20 @@
             "SPD": 40,
             "LCK": 20,
             "DEF": 25,
-            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Heal",
@@ -1004,6 +1129,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1027,7 +1157,6 @@
             "SPD": 14,
             "LCK": 7,
             "DEF": 5,
-            "RES": 2,
             "CON": 8,
             "MOV": 5
         },
@@ -1039,11 +1168,20 @@
             "SPD": 55,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Killing_Edge",
@@ -1097,6 +1235,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1121,8 +1264,7 @@
             "LCK": 13,
             "DEF": 11,
             "CON": 11,
-            "MOV": 8,
-            "RES": 8
+            "MOV": 8
         },
         "growths": {
             "HP": 90,
@@ -1133,10 +1275,19 @@
             "LCK": 25,
             "DEF": 40,
             "CON": 0,
-            "MOV": 0,
-            "RES": 30
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Steel_Sword",
@@ -1198,6 +1349,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1221,7 +1377,6 @@
             "SPD": 9,
             "LCK": 1,
             "DEF": 2,
-            "RES": 5,
             "CON": 9,
             "MOV": 5
         },
@@ -1233,11 +1388,20 @@
             "SPD": 40,
             "LCK": 20,
             "DEF": 25,
-            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Heal",
@@ -1295,6 +1459,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1318,7 +1487,6 @@
             "SPD": 3,
             "LCK": 8,
             "DEF": 3,
-            "RES": 0,
             "CON": 8,
             "MOV": 5
         },
@@ -1330,11 +1498,20 @@
             "SPD": 40,
             "LCK": 50,
             "DEF": 30,
-            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Hatchet",
@@ -1392,6 +1569,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1415,7 +1597,6 @@
             "SPD": 6,
             "LCK": 4,
             "DEF": 3,
-            "RES": 2,
             "CON": 5,
             "MOV": 5
         },
@@ -1427,11 +1608,20 @@
             "SPD": 60,
             "LCK": 50,
             "DEF": 15,
-            "RES": 35,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Bow",
@@ -1489,6 +1679,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1512,7 +1707,6 @@
             "SPD": 10,
             "LCK": 8,
             "DEF": 3,
-            "RES": 1,
             "CON": 6,
             "MOV": 6
         },
@@ -1524,11 +1718,20 @@
             "SPD": 65,
             "LCK": 45,
             "DEF": 25,
-            "RES": 20,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -1590,6 +1793,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1613,7 +1821,6 @@
             "SPD": 8,
             "LCK": 2,
             "DEF": 2,
-            "RES": 6,
             "CON": 6,
             "MOV": 5
         },
@@ -1625,11 +1832,20 @@
             "SPD": 40,
             "LCK": 25,
             "DEF": 15,
-            "RES": 55,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Lightning",
@@ -1687,6 +1903,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1700,7 +1921,7 @@
         "desc": "A young mage of Renais. She believes she is a prodigy.",
         "variant": "Female",
         "level": 1,
-        "klass": "Mage",
+        "klass": "Fire_Mage",
         "tags": [],
         "bases": {
             "HP": 17,
@@ -1710,7 +1931,6 @@
             "SPD": 7,
             "LCK": 8,
             "DEF": 3,
-            "RES": 5,
             "CON": 3,
             "MOV": 5
         },
@@ -1722,11 +1942,20 @@
             "SPD": 45,
             "LCK": 45,
             "DEF": 15,
-            "RES": 40,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Fire",
@@ -1780,6 +2009,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                true,
+                71,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1803,7 +2037,6 @@
             "SPD": 8,
             "LCK": 6,
             "DEF": 2,
-            "RES": 6,
             "CON": 4,
             "MOV": 5
         },
@@ -1815,11 +2048,20 @@
             "SPD": 40,
             "LCK": 60,
             "DEF": 15,
-            "RES": 55,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Mend",
@@ -1877,6 +2119,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -1900,7 +2147,6 @@
             "SPD": 11,
             "LCK": 8,
             "DEF": 7,
-            "RES": 2,
             "CON": 8,
             "MOV": 5
         },
@@ -1912,11 +2158,20 @@
             "SPD": 45,
             "LCK": 50,
             "DEF": 35,
-            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Reginleif",
@@ -1978,6 +2233,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2001,7 +2261,6 @@
             "SPD": 8,
             "LCK": 7,
             "DEF": 8,
-            "RES": 2,
             "CON": 9,
             "MOV": 7
         },
@@ -2013,11 +2272,20 @@
             "SPD": 45,
             "LCK": 35,
             "DEF": 20,
-            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Steel_Sword",
@@ -2079,6 +2347,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2102,7 +2375,6 @@
             "SPD": 7,
             "LCK": 6,
             "DEF": 9,
-            "RES": 1,
             "CON": 10,
             "MOV": 7
         },
@@ -2114,11 +2386,20 @@
             "SPD": 40,
             "LCK": 20,
             "DEF": 25,
-            "RES": 20,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -2180,6 +2461,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2203,7 +2489,6 @@
             "SPD": 13,
             "LCK": 8,
             "DEF": 6,
-            "RES": 7,
             "CON": 5,
             "MOV": 7
         },
@@ -2215,11 +2500,20 @@
             "SPD": 65,
             "LCK": 60,
             "DEF": 20,
-            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Heavy_Spear",
@@ -2281,6 +2575,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2304,7 +2603,6 @@
             "SPD": 4,
             "LCK": 6,
             "DEF": 2,
-            "RES": 3,
             "CON": 6,
             "MOV": 4
         },
@@ -2316,11 +2614,20 @@
             "SPD": 50,
             "LCK": 60,
             "DEF": 35,
-            "RES": 20,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Slim_Lance",
@@ -2382,6 +2689,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2405,7 +2717,6 @@
             "SPD": 15,
             "LCK": 14,
             "DEF": 10,
-            "RES": 9,
             "CON": 9,
             "MOV": 6
         },
@@ -2417,11 +2728,20 @@
             "SPD": 45,
             "LCK": 45,
             "DEF": 20,
-            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Bow",
@@ -2483,6 +2803,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2506,7 +2831,6 @@
             "SPD": 13,
             "LCK": 8,
             "DEF": 10,
-            "RES": 4,
             "CON": 13,
             "MOV": 5
         },
@@ -2518,18 +2842,27 @@
             "SPD": 30,
             "LCK": 30,
             "DEF": 35,
-            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Steel_Blade",
                 false
             ],
             [
-                "Hero_Crest",
+                "Placeholder",
                 false
             ],
             [
@@ -2584,6 +2917,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2607,7 +2945,6 @@
             "SPD": 12,
             "LCK": 10,
             "DEF": 5,
-            "RES": 4,
             "CON": 5,
             "MOV": 5
         },
@@ -2619,11 +2956,20 @@
             "SPD": 70,
             "LCK": 80,
             "DEF": 30,
-            "RES": 75,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Elixir",
@@ -2685,6 +3031,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2708,7 +3059,6 @@
             "SPD": 13,
             "LCK": 9,
             "DEF": 4,
-            "RES": 3,
             "CON": 5,
             "MOV": 5
         },
@@ -2720,11 +3070,20 @@
             "SPD": 60,
             "LCK": 50,
             "DEF": 15,
-            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Shamshir",
@@ -2782,6 +3141,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2805,7 +3169,6 @@
             "SPD": 10,
             "LCK": 12,
             "DEF": 5,
-            "RES": 8,
             "CON": 5,
             "MOV": 6
         },
@@ -2817,11 +3180,20 @@
             "SPD": 45,
             "LCK": 65,
             "DEF": 15,
-            "RES": 50,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Mend",
@@ -2883,6 +3255,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -2906,7 +3283,6 @@
             "SPD": 9,
             "LCK": 4,
             "DEF": 11,
-            "RES": 6,
             "CON": 16,
             "MOV": 6
         },
@@ -2918,11 +3294,20 @@
             "SPD": 40,
             "LCK": 30,
             "DEF": 30,
-            "RES": 25,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Battle_Axe",
@@ -2980,6 +3365,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -3003,7 +3393,6 @@
             "SPD": 14,
             "LCK": 11,
             "DEF": 8,
-            "RES": 13,
             "CON": 8,
             "MOV": 6
         },
@@ -3015,11 +3404,20 @@
             "SPD": 40,
             "LCK": 40,
             "DEF": 30,
-            "RES": 35,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Elfire",
@@ -3077,6 +3475,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                true,
+                181,
+                251
             ]
         },
         "alternate_classes": [],
@@ -3100,7 +3503,6 @@
             "SPD": 5,
             "LCK": 5,
             "DEF": 0,
-            "RES": 3,
             "CON": 5,
             "MOV": 4
         },
@@ -3112,11 +3514,20 @@
             "SPD": 45,
             "LCK": 60,
             "DEF": 20,
-            "RES": 45,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Fire",
@@ -3178,6 +3589,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                true,
+                1,
+                251
             ]
         },
         "alternate_classes": [],
@@ -3201,7 +3617,6 @@
             "SPD": 10,
             "LCK": 4,
             "DEF": 12,
-            "RES": 2,
             "CON": 11,
             "MOV": 7
         },
@@ -3213,11 +3628,20 @@
             "SPD": 45,
             "LCK": 35,
             "DEF": 25,
-            "RES": 15,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Killer_Lance",
@@ -3279,6 +3703,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -3302,7 +3731,6 @@
             "SPD": 17,
             "LCK": 5,
             "DEF": 9,
-            "RES": 11,
             "CON": 7,
             "MOV": 0
         },
@@ -3314,11 +3742,20 @@
             "SPD": 60,
             "LCK": 25,
             "DEF": 25,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Steel_Sword",
@@ -3376,6 +3813,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -3399,7 +3841,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -3411,11 +3852,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -3474,6 +3924,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -3500,7 +3955,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -3512,11 +3966,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -3575,6 +4038,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -3601,7 +4069,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -3613,11 +4080,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -3676,6 +4152,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -3702,7 +4183,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -3714,11 +4194,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -3777,6 +4266,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -3803,7 +4297,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -3815,11 +4308,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -3878,6 +4380,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -3904,7 +4411,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -3916,11 +4422,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -3979,6 +4494,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4005,7 +4525,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -4017,11 +4536,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -4080,6 +4608,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4106,7 +4639,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -4118,11 +4650,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -4181,6 +4722,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4207,7 +4753,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -4219,11 +4764,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -4282,6 +4836,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4308,7 +4867,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -4320,11 +4878,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -4383,6 +4950,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4409,7 +4981,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -4421,11 +4992,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -4484,6 +5064,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4510,7 +5095,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -4522,11 +5106,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -4585,6 +5178,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4611,7 +5209,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -4623,11 +5220,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -4686,6 +5292,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4712,7 +5323,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -4724,11 +5334,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -4787,6 +5406,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4813,7 +5437,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -4825,11 +5448,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -4888,6 +5520,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4914,7 +5551,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -4926,11 +5562,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -4989,6 +5634,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -5015,7 +5665,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -5027,11 +5676,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -5090,6 +5748,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -5116,7 +5779,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -5128,11 +5790,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -5191,6 +5862,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -5217,7 +5893,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -5229,11 +5904,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -5292,6 +5976,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -5318,7 +6007,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -5330,11 +6018,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -5393,6 +6090,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -5419,7 +6121,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -5431,11 +6132,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -5494,6 +6204,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -5520,7 +6235,6 @@
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
-            "RES": 9,
             "CON": 15,
             "MOV": 6
         },
@@ -5532,11 +6246,20 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
-            "RES": 30,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Silver_Lance",
@@ -5595,6 +6318,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -5624,8 +6352,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 11,
-            "MOV": 5,
-            "RES": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 0,
@@ -5636,10 +6363,19 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Axe",
@@ -5693,6 +6429,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -5706,7 +6447,7 @@
         "desc": "Commander of a Grado military force.",
         "variant": null,
         "level": 4,
-        "klass": "Knight",
+        "klass": "Lance_Armor",
         "tags": [
             "Boss"
         ],
@@ -5719,8 +6460,7 @@
             "LCK": 2,
             "DEF": 9,
             "CON": 13,
-            "MOV": 4,
-            "RES": 0
+            "MOV": 4
         },
         "growths": {
             "HP": 80,
@@ -5731,10 +6471,19 @@
             "LCK": 25,
             "DEF": 28,
             "CON": 0,
-            "MOV": 0,
-            "RES": 20
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -5788,6 +6537,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -5814,8 +6568,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 12,
-            "MOV": 5,
-            "RES": 1
+            "MOV": 5
         },
         "growths": {
             "HP": 0,
@@ -5826,10 +6579,19 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Iron_Axe",
@@ -5883,6 +6645,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -5909,8 +6676,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 12,
-            "MOV": 5,
-            "RES": 3
+            "MOV": 5
         },
         "growths": {
             "HP": 0,
@@ -5921,10 +6687,19 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Steel_Axe",
@@ -5982,6 +6757,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -5995,7 +6775,7 @@
         "desc": "Commander of Grado's border guard. His loyalty is unshakable.",
         "variant": "",
         "level": 8,
-        "klass": "Knight",
+        "klass": "Lance_Armor",
         "tags": [
             "Boss"
         ],
@@ -6008,8 +6788,7 @@
             "LCK": 4,
             "DEF": 11,
             "CON": 13,
-            "MOV": 4,
-            "RES": 3
+            "MOV": 4
         },
         "growths": {
             "HP": 0,
@@ -6020,10 +6799,19 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0
+            "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Javelin",
@@ -6077,6 +6865,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -6100,7 +6893,6 @@
             "SPD": 17,
             "LCK": 11,
             "DEF": 11,
-            "RES": 18,
             "CON": 6,
             "MOV": 7
         },
@@ -6112,11 +6904,20 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Bolting",
@@ -6174,6 +6975,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                181,
+                251
             ]
         },
         "alternate_classes": [],
@@ -6197,7 +7003,6 @@
             "SPD": 11,
             "LCK": 10,
             "DEF": 21,
-            "RES": 13,
             "CON": 17,
             "MOV": 5
         },
@@ -6209,18 +7014,27 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Spear",
                 false
             ],
             [
-                "Knight_Crest",
+                "Placeholder",
                 true
             ]
         ],
@@ -6271,6 +7085,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -6294,7 +7113,6 @@
             "SPD": 14,
             "LCK": 15,
             "DEF": 16,
-            "RES": 14,
             "CON": 13,
             "MOV": 6
         },
@@ -6306,11 +7124,20 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Tomahawk",
@@ -6372,6 +7199,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -6395,7 +7227,6 @@
             "SPD": 18,
             "LCK": 4,
             "DEF": 14,
-            "RES": 13,
             "CON": 11,
             "MOV": 8
         },
@@ -6407,11 +7238,20 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Spear",
@@ -6473,6 +7313,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -6496,7 +7341,6 @@
             "SPD": 20,
             "LCK": 11,
             "DEF": 16,
-            "RES": 20,
             "CON": 7,
             "MOV": 6
         },
@@ -6508,11 +7352,20 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Aura",
@@ -6566,6 +7419,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "alternate_classes": [],
@@ -6589,7 +7447,6 @@
             "SPD": 12,
             "LCK": 5,
             "DEF": 17,
-            "RES": 20,
             "CON": 7,
             "MOV": 6
         },
@@ -6601,11 +7458,20 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
             "MOV": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "starting_items": [
             [
                 "Nosferatu",
@@ -6660,6 +7526,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251

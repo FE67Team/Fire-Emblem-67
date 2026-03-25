@@ -20,9 +20,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 5,
-            "MOV": 5,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 65,
@@ -33,9 +31,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -46,9 +42,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -59,9 +53,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -72,10 +64,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
-            "RES": 20,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -123,6 +112,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -158,9 +152,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 5,
-            "MOV": 5,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 90,
@@ -171,9 +163,7 @@
             "LCK": 40,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0,
-            "RES": 20,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -184,9 +174,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -197,9 +185,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -210,10 +196,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
-            "RES": 20,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -261,6 +244,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -295,10 +283,8 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 5,
-            "RES": 0,
             "CON": 7,
-            "MOV": 7,
-            "LEAD": 0
+            "MOV": 7
         },
         "growths": {
             "HP": 90,
@@ -308,10 +294,8 @@
             "SPD": 45,
             "LCK": 40,
             "DEF": 15,
-            "RES": 20,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -321,10 +305,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 4,
@@ -334,10 +316,8 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 3,
-            "RES": 5,
             "CON": 2,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -347,11 +327,8 @@
             "SPD": 30,
             "LCK": 30,
             "DEF": 22,
-            "RES": 25,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -404,6 +381,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -437,10 +419,8 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 6,
-            "RES": 0,
             "CON": 8,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 90,
@@ -450,10 +430,8 @@
             "SPD": 45,
             "LCK": 40,
             "DEF": 15,
-            "RES": 15,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -463,10 +441,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -476,10 +452,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -489,11 +463,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -541,6 +512,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -574,10 +550,8 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 5,
-            "RES": 0,
             "CON": 10,
-            "MOV": 7,
-            "LEAD": 0
+            "MOV": 7
         },
         "growths": {
             "HP": 90,
@@ -587,10 +561,8 @@
             "SPD": 45,
             "LCK": 40,
             "DEF": 15,
-            "RES": 15,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -600,10 +572,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 4,
@@ -613,10 +583,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "RES": 5,
             "CON": 2,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -626,11 +594,8 @@
             "SPD": 27,
             "LCK": 30,
             "DEF": 23,
-            "RES": 23,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -683,6 +648,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -714,10 +684,8 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 0,
-            "RES": 1,
             "CON": 4,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 45,
@@ -727,10 +695,8 @@
             "SPD": 60,
             "LCK": 70,
             "DEF": 0,
-            "RES": 13,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -740,10 +706,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -753,10 +717,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -766,11 +728,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -823,6 +782,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -858,9 +822,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 8,
-            "MOV": 5,
-            "RES": 1,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 70,
@@ -871,9 +833,7 @@
             "LCK": 30,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0,
-            "RES": 20,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -884,9 +844,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -897,9 +855,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -910,10 +866,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
-            "RES": 20,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -961,6 +914,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Myrmidon",
@@ -992,10 +950,8 @@
             "SPD": 12,
             "LCK": 0,
             "DEF": 5,
-            "RES": 3,
             "CON": 9,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 65,
@@ -1005,10 +961,8 @@
             "SPD": 30,
             "LCK": 25,
             "DEF": 15,
-            "RES": 22,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -1018,10 +972,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 5,
@@ -1031,10 +983,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "RES": 1,
             "CON": 2,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -1044,11 +994,8 @@
             "SPD": 30,
             "LCK": 30,
             "DEF": 22,
-            "RES": 25,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -1101,6 +1048,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Swordmaster",
@@ -1121,7 +1073,7 @@
         "promotes_from": null,
         "turns_into": [
             "Hero",
-            "Ranger"
+            "Nomad_Trooper"
         ],
         "tags": [
             "Sword"
@@ -1135,10 +1087,8 @@
             "SPD": 8,
             "LCK": 0,
             "DEF": 4,
-            "RES": 0,
             "CON": 9,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 80,
@@ -1148,10 +1098,8 @@
             "SPD": 32,
             "LCK": 30,
             "DEF": 18,
-            "RES": 30,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -1161,10 +1109,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -1174,10 +1120,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -1187,11 +1131,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -1225,10 +1166,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -1236,6 +1187,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
                 false,
                 0,
                 251
@@ -1270,10 +1226,8 @@
             "SPD": 11,
             "LCK": 0,
             "DEF": 8,
-            "RES": 3,
             "CON": 11,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 75,
@@ -1283,10 +1237,8 @@
             "SPD": 20,
             "LCK": 25,
             "DEF": 20,
-            "RES": 20,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -1296,10 +1248,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 4,
@@ -1309,10 +1259,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "RES": 2,
             "CON": 2,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -1322,11 +1270,8 @@
             "SPD": 26,
             "LCK": 30,
             "DEF": 25,
-            "RES": 24,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -1360,10 +1305,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -1371,6 +1326,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
                 false,
                 0,
                 251
@@ -1408,10 +1368,8 @@
             "SPD": 9,
             "LCK": 0,
             "DEF": 2,
-            "RES": 0,
             "CON": 6,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 50,
@@ -1421,10 +1379,8 @@
             "SPD": 40,
             "LCK": 40,
             "DEF": 5,
-            "RES": 20,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -1434,10 +1390,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -1447,10 +1401,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -1460,11 +1412,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -1503,10 +1452,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -1514,6 +1473,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
                 false,
                 0,
                 251
@@ -1548,10 +1512,8 @@
             "SPD": 9,
             "LCK": 0,
             "DEF": 2,
-            "RES": 0,
             "CON": 8,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 50,
@@ -1561,10 +1523,8 @@
             "SPD": 40,
             "LCK": 40,
             "DEF": 5,
-            "RES": 20,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -1574,10 +1534,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 3,
@@ -1587,10 +1545,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "RES": 2,
             "CON": 2,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -1600,11 +1556,8 @@
             "SPD": 30,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -1657,6 +1610,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Assassin",
@@ -1688,10 +1646,8 @@
             "SPD": 9,
             "LCK": 0,
             "DEF": 2,
-            "RES": 0,
             "CON": 7,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 50,
@@ -1701,10 +1657,8 @@
             "SPD": 35,
             "LCK": 40,
             "DEF": 5,
-            "RES": 20,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -1714,10 +1668,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 2,
@@ -1727,10 +1679,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "RES": 2,
             "CON": 1,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -1740,11 +1690,8 @@
             "SPD": 30,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -1797,6 +1744,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Assassin",
@@ -1817,7 +1769,7 @@
         "promotes_from": null,
         "turns_into": [
             "Cavalier",
-            "Knight"
+            "Lance_Armor"
         ],
         "tags": [
             "AutoPromote",
@@ -1832,10 +1784,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 1,
             "CON": 6,
-            "MOV": 4,
-            "LEAD": 0
+            "MOV": 4
         },
         "growths": {
             "HP": 75,
@@ -1845,10 +1795,8 @@
             "SPD": 40,
             "LCK": 40,
             "DEF": 25,
-            "RES": 35,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -1858,10 +1806,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -1871,10 +1817,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -1884,11 +1828,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -1933,6 +1874,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -1965,10 +1911,8 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 6,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 80,
@@ -1978,10 +1922,8 @@
             "SPD": 20,
             "LCK": 25,
             "DEF": 12,
-            "RES": 15,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -1991,10 +1933,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -2004,10 +1944,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -2017,11 +1955,8 @@
             "SPD": 20,
             "LCK": 20,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -2066,6 +2001,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -2105,9 +2045,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 7
         },
         "growths": {
             "HP": 75,
@@ -2118,9 +2056,7 @@
             "LCK": 30,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0,
-            "RES": 15,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2131,9 +2067,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -2144,9 +2078,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -2157,10 +2089,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15,
-            "RES": 20,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -2210,6 +2139,425 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Cavalier",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Cavalier",
+        "combat_anim_nid": "Cavalier",
+        "fields": []
+    },
+    {
+        "nid": "Sword_Knight",
+        "name": "Sword Knight",
+        "desc": "Mounted knights with superior movement.",
+        "tier": 1,
+        "movement_group": "Heavy Cav",
+        "promotes_from": null,
+        "turns_into": [
+            "Paladin",
+            "Great_Knight"
+        ],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 20,
+            "STR": 5,
+            "MAG": 2,
+            "SKL": 3,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 6,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 35,
+            "MAG": 17,
+            "SKL": 40,
+            "SPD": 28,
+            "LCK": 30,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Cavalier",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Cavalier",
+        "combat_anim_nid": "Cavalier",
+        "fields": []
+    },
+    {
+        "nid": "Lance_Knight",
+        "name": "Lance Knight",
+        "desc": "Mounted knights with superior movement.",
+        "tier": 1,
+        "movement_group": "Heavy Cav",
+        "promotes_from": null,
+        "turns_into": [
+            "Paladin",
+            "Great_Knight"
+        ],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 20,
+            "STR": 5,
+            "MAG": 2,
+            "SKL": 3,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 6,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 35,
+            "MAG": 17,
+            "SKL": 40,
+            "SPD": 28,
+            "LCK": 30,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Cavalier",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Cavalier",
+        "combat_anim_nid": "Cavalier",
+        "fields": []
+    },
+    {
+        "nid": "Knight_Axe",
+        "name": "Axe Knight",
+        "desc": "Mounted knights with superior movement.",
+        "tier": 1,
+        "movement_group": "Heavy Cav",
+        "promotes_from": null,
+        "turns_into": [
+            "Paladin",
+            "Great_Knight"
+        ],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 20,
+            "STR": 5,
+            "MAG": 2,
+            "SKL": 3,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 6,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 35,
+            "MAG": 17,
+            "SKL": 40,
+            "SPD": 28,
+            "LCK": 30,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -2246,9 +2594,7 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 11,
-            "MOV": 8,
-            "RES": 6,
-            "LEAD": 0
+            "MOV": 8
         },
         "growths": {
             "HP": 70,
@@ -2259,9 +2605,7 @@
             "LCK": 25,
             "DEF": 12,
             "CON": 0,
-            "MOV": 0,
-            "RES": 25,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2272,9 +2616,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 2,
@@ -2285,9 +2627,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99,
-            "RES": 2,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -2298,10 +2638,7 @@
             "LCK": 30,
             "DEF": 25,
             "CON": 25,
-            "MOV": 15,
-            "RES": 26,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -2354,6 +2691,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Paladin",
@@ -2387,10 +2729,8 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 11,
-            "RES": 3,
             "CON": 13,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 70,
@@ -2400,10 +2740,8 @@
             "SPD": 20,
             "LCK": 20,
             "DEF": 21,
-            "RES": 22,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2413,10 +2751,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 3,
@@ -2426,10 +2762,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "RES": 2,
             "CON": 4,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -2439,11 +2773,8 @@
             "SPD": 25,
             "LCK": 30,
             "DEF": 29,
-            "RES": 26,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -2482,10 +2813,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -2493,6 +2834,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
                 false,
                 0,
                 251
@@ -2531,10 +2877,8 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 3,
-            "RES": 2,
             "CON": 5,
-            "MOV": 7,
-            "LEAD": 0
+            "MOV": 7
         },
         "growths": {
             "HP": 65,
@@ -2544,10 +2888,8 @@
             "SPD": 40,
             "LCK": 35,
             "DEF": 12,
-            "RES": 35,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2557,10 +2899,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -2570,10 +2910,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -2583,11 +2921,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -2640,6 +2975,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Pegasus_Knight",
@@ -2672,10 +3012,8 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 5,
-            "RES": 4,
             "CON": 6,
-            "MOV": 8,
-            "LEAD": 0
+            "MOV": 8
         },
         "growths": {
             "HP": 60,
@@ -2685,10 +3023,8 @@
             "SPD": 30,
             "LCK": 30,
             "DEF": 12,
-            "RES": 30,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2698,10 +3034,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 5,
@@ -2711,10 +3045,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "RES": 2,
             "CON": 1,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -2724,11 +3056,8 @@
             "SPD": 28,
             "LCK": 30,
             "DEF": 23,
-            "RES": 26,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -2762,10 +3091,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -2773,6 +3112,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
                 false,
                 0,
                 251
@@ -2788,8 +3132,8 @@
         "fields": []
     },
     {
-        "nid": "Knight",
-        "name": "Knight",
+        "nid": "Lance_Armor",
+        "name": "Lance Armor",
         "desc": "Heavily armored knights with poor movement.",
         "tier": 1,
         "movement_group": "Armors",
@@ -2811,9 +3155,7 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 13,
-            "MOV": 4,
-            "RES": 1,
-            "LEAD": 0
+            "MOV": 4
         },
         "growths": {
             "HP": 80,
@@ -2824,9 +3166,7 @@
             "LCK": 25,
             "DEF": 28,
             "CON": 0,
-            "MOV": 0,
-            "RES": 20,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2837,9 +3177,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -2850,9 +3188,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -2863,10 +3199,291 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
-            "RES": 20,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Knight",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Knight",
+        "combat_anim_nid": "Knight",
+        "fields": []
+    },
+    {
+        "nid": "Sword_Armor",
+        "name": "Sword Armor",
+        "desc": "Heavily armored knights with poor movement.",
+        "tier": 1,
+        "movement_group": "Armors",
+        "promotes_from": null,
+        "turns_into": [
+            "Great_Knight",
+            "General"
+        ],
+        "tags": [
+            "Armor"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 17,
+            "STR": 5,
+            "MAG": 0,
+            "SKL": 3,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 9,
+            "CON": 13,
+            "MOV": 4
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 40,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 15,
+            "LCK": 25,
+            "DEF": 28,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                31,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Knight",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Knight",
+        "combat_anim_nid": "Knight",
+        "fields": []
+    },
+    {
+        "nid": "Axe_Armor",
+        "name": "Axe Armor",
+        "desc": "Heavily armored knights with poor movement.",
+        "tier": 1,
+        "movement_group": "Armors",
+        "promotes_from": null,
+        "turns_into": [
+            "Great_Knight",
+            "General"
+        ],
+        "tags": [
+            "Armor"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 17,
+            "STR": 5,
+            "MAG": 0,
+            "SKL": 3,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 9,
+            "CON": 13,
+            "MOV": 4
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 40,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 15,
+            "LCK": 25,
+            "DEF": 28,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -2914,6 +3531,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Knight",
@@ -2931,7 +3553,7 @@
         "desc": "Knights of great skill.",
         "tier": 2,
         "movement_group": "Armors",
-        "promotes_from": "Knight",
+        "promotes_from": "Lance_Armor",
         "turns_into": [],
         "tags": [
             "Armor"
@@ -2945,10 +3567,8 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 13,
-            "RES": 4,
             "CON": 11,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 75,
@@ -2958,10 +3578,8 @@
             "SPD": 10,
             "LCK": 20,
             "DEF": 23,
-            "RES": 25,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2971,10 +3589,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 4,
@@ -2984,10 +3600,8 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 3,
-            "RES": 3,
             "CON": 2,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -2997,11 +3611,8 @@
             "SPD": 25,
             "LCK": 30,
             "DEF": 30,
-            "RES": 26,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -3054,6 +3665,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_General",
@@ -3089,10 +3705,8 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 1,
-            "RES": 0,
             "CON": 8,
-            "MOV": 4,
-            "LEAD": 0
+            "MOV": 4
         },
         "growths": {
             "HP": 85,
@@ -3102,10 +3716,8 @@
             "SPD": 32,
             "LCK": 40,
             "DEF": 18,
-            "RES": 20,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3115,10 +3727,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -3128,10 +3738,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -3141,11 +3749,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -3193,6 +3798,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -3226,9 +3836,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 11,
-            "MOV": 5,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 85,
@@ -3239,9 +3847,7 @@
             "LCK": 15,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0,
-            "RES": 15,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3252,9 +3858,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0,
-            "RES": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 2,
@@ -3265,9 +3869,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 3,
-            "MOV": -99,
-            "RES": 1,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -3278,10 +3880,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
-            "RES": 20,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -3329,6 +3928,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Fighter",
@@ -3358,10 +3962,8 @@
             "SPD": 6,
             "LCK": 0,
             "DEF": 5,
-            "RES": 0,
             "CON": 13,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 80,
@@ -3371,10 +3973,8 @@
             "SPD": 20,
             "LCK": 15,
             "DEF": 16,
-            "RES": 17,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3384,10 +3984,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 3,
@@ -3397,10 +3995,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 3,
-            "RES": 3,
             "CON": 2,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -3410,11 +4006,8 @@
             "SPD": 26,
             "LCK": 30,
             "DEF": 26,
-            "RES": 22,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -3462,6 +4055,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Warrior",
@@ -3493,10 +4091,8 @@
             "SPD": 6,
             "LCK": 0,
             "DEF": 3,
-            "RES": 0,
             "CON": 10,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 75,
@@ -3506,10 +4102,8 @@
             "SPD": 25,
             "LCK": 15,
             "DEF": 10,
-            "RES": 13,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3519,10 +4113,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 2,
@@ -3532,10 +4124,8 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 1,
-            "RES": 0,
             "CON": 2,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -3545,11 +4135,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -3597,6 +4184,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Pirate",
@@ -3626,10 +4218,8 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 6,
-            "RES": 0,
             "CON": 13,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 75,
@@ -3639,10 +4229,8 @@
             "SPD": 25,
             "LCK": 15,
             "DEF": 10,
-            "RES": 13,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3652,10 +4240,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 4,
@@ -3665,10 +4251,8 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 2,
-            "RES": 2,
             "CON": 3,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -3678,11 +4262,8 @@
             "SPD": 28,
             "LCK": 30,
             "DEF": 23,
-            "RES": 21,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -3735,6 +4316,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Berserker",
@@ -3766,10 +4352,8 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 3,
-            "RES": 0,
             "CON": 12,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 82,
@@ -3779,10 +4363,8 @@
             "SPD": 20,
             "LCK": 15,
             "DEF": 10,
-            "RES": 13,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3792,10 +4374,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -3805,10 +4385,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -3818,11 +4396,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -3867,6 +4442,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -3890,7 +4470,7 @@
         "promotes_from": null,
         "turns_into": [
             "Sniper",
-            "Ranger"
+            "Nomad_Trooper"
         ],
         "tags": [],
         "max_level": 20,
@@ -3902,10 +4482,8 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 3,
-            "RES": 0,
             "CON": 7,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 70,
@@ -3915,10 +4493,8 @@
             "SPD": 32,
             "LCK": 35,
             "DEF": 15,
-            "RES": 20,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3928,10 +4504,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -3941,10 +4515,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -3954,11 +4526,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -4003,6 +4572,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -4035,10 +4609,8 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 5,
-            "RES": 3,
             "CON": 8,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 65,
@@ -4048,10 +4620,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 15,
-            "RES": 25,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4061,10 +4631,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 4,
@@ -4074,10 +4642,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "RES": 3,
             "CON": 1,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -4087,11 +4653,8 @@
             "SPD": 29,
             "LCK": 30,
             "DEF": 25,
-            "RES": 24,
             "CON": 20,
-            "MOV": 30,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 30
         },
         "learned_skills": [
             [
@@ -4144,6 +4707,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Sniper",
@@ -4156,8 +4724,8 @@
         "fields": []
     },
     {
-        "nid": "Ranger",
-        "name": "Ranger",
+        "nid": "Nomad",
+        "name": "Nomad",
         "desc": "Fighters skilled in both sword and bow.",
         "tier": 2,
         "movement_group": "Light Cav",
@@ -4176,10 +4744,8 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 6,
-            "RES": 4,
             "CON": 9,
-            "MOV": 7,
-            "LEAD": 0
+            "MOV": 7
         },
         "growths": {
             "HP": 60,
@@ -4189,10 +4755,8 @@
             "SPD": 35,
             "LCK": 25,
             "DEF": 15,
-            "RES": 20,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4202,10 +4766,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 3,
@@ -4215,10 +4777,8 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 3,
-            "RES": 3,
             "CON": 3,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -4228,11 +4788,143 @@
             "SPD": 30,
             "LCK": 30,
             "DEF": 24,
-            "RES": 25,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                true,
+                31,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Ranger",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Ranger",
+        "combat_anim_nid": "Ranger",
+        "fields": []
+    },
+    {
+        "nid": "Nomad_Trooper",
+        "name": "Nomad Trooper",
+        "desc": "Fighters skilled in both sword and bow.",
+        "tier": 2,
+        "movement_group": "Light Cav",
+        "promotes_from": "Archer",
+        "turns_into": [],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 21,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 0,
+            "DEF": 6,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 25,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 35,
+            "LCK": 25,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 3,
+            "STR": 2,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 3,
+            "CON": 3,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 25,
+            "MAG": 20,
+            "SKL": 28,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 24,
+            "CON": 25,
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -4285,6 +4977,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Ranger",
@@ -4317,10 +5014,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 1,
-            "RES": 5,
             "CON": 6,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 50,
@@ -4330,10 +5025,8 @@
             "SPD": 32,
             "LCK": 45,
             "DEF": 8,
-            "RES": 40,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4343,10 +5036,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 1,
@@ -4356,10 +5047,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 0,
-            "RES": 2,
             "CON": 1,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -4369,11 +5058,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -4421,6 +5107,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Monk",
@@ -4456,10 +5147,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 1,
-            "RES": 6,
             "CON": 5,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 50,
@@ -4469,10 +5158,8 @@
             "SPD": 32,
             "LCK": 45,
             "DEF": 8,
-            "RES": 50,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4482,10 +5169,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -4495,10 +5180,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -4508,11 +5191,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -4560,6 +5240,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Cleric",
@@ -4589,10 +5274,8 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 3,
-            "RES": 9,
             "CON": 7,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 45,
@@ -4602,10 +5285,8 @@
             "SPD": 22,
             "LCK": 40,
             "DEF": 8,
-            "RES": 50,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4615,10 +5296,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 3,
@@ -4628,10 +5307,8 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 3,
-            "RES": 2,
             "CON": 2,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -4641,11 +5318,8 @@
             "SPD": 26,
             "LCK": 30,
             "DEF": 22,
-            "RES": 30,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -4698,6 +5372,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Bishop",
@@ -4717,7 +5396,7 @@
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [
-            "Mage",
+            "Fire_Mage",
             "Shaman"
         ],
         "tags": [
@@ -4733,7 +5412,6 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 0,
-            "RES": 3,
             "CON": 5,
             "MOV": 4
         },
@@ -4745,10 +5423,31 @@
             "SPD": 35,
             "LCK": 40,
             "DEF": 10,
-            "RES": 30
+            "MOV": 0,
+            "CON": 0
         },
-        "growth_bonus": {},
-        "promotion": {},
+        "growth_bonus": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
+        "promotion": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "max_stats": {
             "HP": 60,
             "STR": 0,
@@ -4757,7 +5456,6 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
             "MOV": 15
         },
@@ -4807,6 +5505,11 @@
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                true,
+                1,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -4819,8 +5522,8 @@
         "fields": []
     },
     {
-        "nid": "Mage",
-        "name": "Mage",
+        "nid": "Fire_Mage",
+        "name": "Fire Mage",
         "desc": "Curious practioners of anima magic.",
         "tier": 1,
         "movement_group": "Mages",
@@ -4839,10 +5542,8 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 3,
-            "RES": 4,
             "CON": 5,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 55,
@@ -4852,10 +5553,8 @@
             "SPD": 35,
             "LCK": 20,
             "DEF": 5,
-            "RES": 40,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4865,10 +5564,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 1,
@@ -4878,10 +5575,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 1,
-            "RES": 2,
             "CON": 1,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -4891,11 +5586,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -4942,6 +5634,271 @@
             "Default": [
                 false,
                 0,
+                251
+            ],
+            "Wind": [
+                true,
+                31,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Mage (1)",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Mage",
+        "combat_anim_nid": "Mage",
+        "fields": []
+    },
+    {
+        "nid": "Thunder_Mage",
+        "name": "Thunder Mage",
+        "desc": "Curious practioners of anima magic.",
+        "tier": 1,
+        "movement_group": "Mages",
+        "promotes_from": null,
+        "turns_into": [
+            "Sage",
+            "Mage_Knight"
+        ],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 16,
+            "STR": 0,
+            "MAG": 1,
+            "SKL": 3,
+            "SPD": 3,
+            "LCK": 0,
+            "DEF": 3,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 0,
+            "MAG": 55,
+            "SKL": 40,
+            "SPD": 35,
+            "LCK": 20,
+            "DEF": 5,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 1,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 1,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 1,
+            "CON": 1,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                true,
+                31,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
+                true,
+                31,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Mage (1)",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Mage",
+        "combat_anim_nid": "Mage",
+        "fields": []
+    },
+    {
+        "nid": "Wind_Mage",
+        "name": "Wind_Mage",
+        "desc": "Curious practioners of anima magic.",
+        "tier": 1,
+        "movement_group": "Mages",
+        "promotes_from": null,
+        "turns_into": [
+            "Sage",
+            "Mage_Knight"
+        ],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 16,
+            "STR": 0,
+            "MAG": 1,
+            "SKL": 3,
+            "SPD": 3,
+            "LCK": 0,
+            "DEF": 3,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 0,
+            "MAG": 55,
+            "SKL": 40,
+            "SPD": 35,
+            "LCK": 20,
+            "DEF": 5,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 1,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 1,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 1,
+            "CON": 1,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                true,
+                31,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
+                true,
+                31,
                 251
             ]
         },
@@ -4960,7 +5917,7 @@
         "desc": "Advanced wielders of the natural magics.",
         "tier": 2,
         "movement_group": "Mages",
-        "promotes_from": "Mage",
+        "promotes_from": "Fire_Mage",
         "turns_into": [],
         "tags": [],
         "max_level": 20,
@@ -4972,10 +5929,8 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 5,
-            "RES": 6,
             "CON": 7,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 45,
@@ -4985,10 +5940,8 @@
             "SPD": 25,
             "LCK": 15,
             "DEF": 10,
-            "RES": 40,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4998,10 +5951,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 4,
@@ -5011,10 +5962,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 3,
-            "RES": 3,
             "CON": 1,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -5024,11 +5973,8 @@
             "SPD": 26,
             "LCK": 30,
             "DEF": 21,
-            "RES": 25,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -5075,6 +6021,11 @@
             "Default": [
                 false,
                 0,
+                251
+            ],
+            "Wind": [
+                true,
+                31,
                 251
             ]
         },
@@ -5108,10 +6059,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "RES": 5,
             "CON": 7,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 50,
@@ -5121,10 +6070,8 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 10,
-            "RES": 40,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5134,10 +6081,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 1,
@@ -5147,10 +6092,8 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 1,
-            "RES": 2,
             "CON": 2,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -5160,11 +6103,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -5212,6 +6152,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Shaman",
@@ -5241,7 +6186,6 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 4,
-            "RES": 6,
             "CON": 8,
             "MOV": 6
         },
@@ -5253,9 +6197,20 @@
             "SPD": 25,
             "LCK": 20,
             "DEF": 10,
-            "RES": 35
+            "MOV": 0,
+            "CON": 0
         },
-        "growth_bonus": {},
+        "growth_bonus": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "promotion": {
             "HP": 4,
             "STR": 0,
@@ -5264,7 +6219,6 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 2,
-            "RES": 2,
             "CON": 1,
             "MOV": 1
         },
@@ -5276,7 +6230,6 @@
             "SPD": 26,
             "LCK": 30,
             "DEF": 21,
-            "RES": 28,
             "CON": 20,
             "MOV": 15
         },
@@ -5326,6 +6279,11 @@
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                true,
+                31,
+                null
             ]
         },
         "icon_nid": "Druid (M) Magic {IS}",
@@ -5355,7 +6313,6 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 3,
-            "RES": 5,
             "CON": 8,
             "MOV": 6
         },
@@ -5367,9 +6324,20 @@
             "SPD": 25,
             "LCK": 20,
             "DEF": 8,
-            "RES": 35
+            "MOV": 0,
+            "CON": 0
         },
-        "growth_bonus": {},
+        "growth_bonus": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "promotion": {
             "CON": 1,
             "MOV": 1,
@@ -5379,8 +6347,7 @@
             "SKL": 1,
             "SPD": 3,
             "LCK": 0,
-            "DEF": 1,
-            "RES": 3
+            "DEF": 1
         },
         "max_stats": {
             "HP": 60,
@@ -5390,7 +6357,6 @@
             "SPD": 26,
             "LCK": 30,
             "DEF": 20,
-            "RES": 28,
             "CON": 20,
             "MOV": 15
         },
@@ -5445,6 +6411,11 @@
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -5462,7 +6433,7 @@
         "desc": "Knights trained in both anima and staves.",
         "tier": 2,
         "movement_group": "Light Cav",
-        "promotes_from": "Mage",
+        "promotes_from": "Fire_Mage",
         "turns_into": [],
         "tags": [
             "Mounted"
@@ -5476,10 +6447,8 @@
             "SPD": 6,
             "LCK": 0,
             "DEF": 5,
-            "RES": 6,
             "CON": 8,
-            "MOV": 7,
-            "LEAD": 0
+            "MOV": 7
         },
         "growths": {
             "HP": 45,
@@ -5489,10 +6458,8 @@
             "SPD": 25,
             "LCK": 15,
             "DEF": 10,
-            "RES": 40,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5502,10 +6469,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 4,
@@ -5515,10 +6480,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "RES": 2,
             "CON": 3,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -5528,11 +6491,8 @@
             "SPD": 25,
             "LCK": 30,
             "DEF": 24,
-            "RES": 28,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -5585,6 +6545,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                true,
+                71,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Mage_Knight",
@@ -5620,10 +6585,8 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 2,
-            "RES": 5,
             "CON": 5,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 50,
@@ -5633,10 +6596,8 @@
             "SPD": 55,
             "LCK": 45,
             "DEF": 12,
-            "RES": 40,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5646,10 +6607,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -5659,10 +6618,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -5672,11 +6629,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -5726,6 +6680,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -5761,10 +6720,8 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 4,
-            "RES": 8,
             "CON": 6,
-            "MOV": 7,
-            "LEAD": 0
+            "MOV": 7
         },
         "growths": {
             "HP": 45,
@@ -5774,10 +6731,8 @@
             "SPD": 45,
             "LCK": 40,
             "DEF": 10,
-            "RES": 40,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5787,10 +6742,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -5800,10 +6753,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -5813,11 +6764,8 @@
             "SPD": 25,
             "LCK": 30,
             "DEF": 24,
-            "RES": 28,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -5867,6 +6815,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -5906,10 +6859,8 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 8,
-            "RES": 0,
             "CON": 10,
-            "MOV": 7,
-            "LEAD": 0
+            "MOV": 7
         },
         "growths": {
             "HP": 80,
@@ -5919,10 +6870,8 @@
             "SPD": 30,
             "LCK": 25,
             "DEF": 25,
-            "RES": 17,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5932,10 +6881,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -5945,10 +6892,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -5958,11 +6903,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -6015,6 +6957,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Wyvern_Rider",
@@ -6048,10 +6995,8 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 10,
-            "RES": 2,
             "CON": 11,
-            "MOV": 8,
-            "LEAD": 0
+            "MOV": 8
         },
         "growths": {
             "HP": 75,
@@ -6061,10 +7006,8 @@
             "SPD": 20,
             "LCK": 20,
             "DEF": 20,
-            "RES": 17,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6074,10 +7017,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 4,
@@ -6087,10 +7028,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "RES": 0,
             "CON": 1,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -6100,11 +7039,8 @@
             "SPD": 24,
             "LCK": 30,
             "DEF": 28,
-            "RES": 23,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -6157,6 +7093,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Wyvern_Lord",
@@ -6190,10 +7131,8 @@
             "SPD": 9,
             "LCK": 0,
             "DEF": 7,
-            "RES": 2,
             "CON": 9,
-            "MOV": 8,
-            "LEAD": 0
+            "MOV": 8
         },
         "growths": {
             "HP": 65,
@@ -6203,10 +7142,8 @@
             "SPD": 30,
             "LCK": 25,
             "DEF": 15,
-            "RES": 20,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6216,10 +7153,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 3,
@@ -6229,10 +7164,8 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 0,
-            "RES": 1,
             "CON": 0,
-            "MOV": -99,
-            "LEAD": 0
+            "MOV": -99
         },
         "max_stats": {
             "HP": 60,
@@ -6242,11 +7175,8 @@
             "SPD": 29,
             "LCK": 30,
             "DEF": 24,
-            "RES": 23,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [
             [
@@ -6303,6 +7233,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Wyvern Knight (U) Lance {IS}",
@@ -6334,10 +7269,8 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 3,
-            "RES": 8,
             "CON": 7,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 45,
@@ -6347,10 +7280,8 @@
             "SPD": 25,
             "LCK": 20,
             "DEF": 10,
-            "RES": 25,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6360,10 +7291,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -6373,10 +7302,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6386,11 +7313,8 @@
             "SPD": 25,
             "LCK": 30,
             "DEF": 30,
-            "RES": 30,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -6435,6 +7359,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -6472,10 +7401,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 6,
-            "MOV": 4,
-            "LEAD": 0
+            "MOV": 4
         },
         "growths": {
             "HP": 95,
@@ -6485,10 +7412,8 @@
             "SPD": 20,
             "LCK": 10,
             "DEF": 10,
-            "RES": 13,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6498,10 +7423,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -6511,10 +7434,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6524,11 +7445,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -6573,6 +7491,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -6608,10 +7531,8 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 6,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 85,
@@ -6621,10 +7542,8 @@
             "SPD": 17,
             "LCK": 50,
             "DEF": 10,
-            "RES": 13,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6634,10 +7553,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -6647,10 +7564,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6660,11 +7575,8 @@
             "SPD": 21,
             "LCK": 30,
             "DEF": 24,
-            "RES": 22,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -6709,6 +7621,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -6746,10 +7663,8 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 3,
-            "RES": 0,
             "CON": 7,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 80,
@@ -6759,10 +7674,8 @@
             "SPD": 20,
             "LCK": 10,
             "DEF": 12,
-            "RES": 15,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6772,10 +7685,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -6785,10 +7696,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6798,11 +7707,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -6847,6 +7753,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -6882,10 +7793,8 @@
             "SPD": 6,
             "LCK": 0,
             "DEF": 5,
-            "RES": 2,
             "CON": 9,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 85,
@@ -6895,10 +7804,8 @@
             "SPD": 17,
             "LCK": 50,
             "DEF": 10,
-            "RES": 13,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6908,10 +7815,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -6921,10 +7826,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6934,11 +7837,8 @@
             "SPD": 26,
             "LCK": 30,
             "DEF": 22,
-            "RES": 23,
             "CON": 25,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -6983,6 +7883,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -7020,10 +7925,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 3,
-            "RES": 0,
             "CON": 6,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 70,
@@ -7033,10 +7936,8 @@
             "SPD": 32,
             "LCK": 10,
             "DEF": 15,
-            "RES": 15,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7046,10 +7947,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -7059,10 +7958,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -7072,11 +7969,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -7124,6 +8018,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -7156,10 +8055,8 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 5,
-            "RES": 2,
             "CON": 8,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 65,
@@ -7169,10 +8066,8 @@
             "SPD": 20,
             "LCK": 10,
             "DEF": 15,
-            "RES": 20,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7182,10 +8077,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -7195,10 +8088,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -7208,11 +8099,8 @@
             "SPD": 28,
             "LCK": 30,
             "DEF": 25,
-            "RES": 23,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -7257,6 +8145,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -7295,10 +8188,8 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "RES": 4,
             "CON": 4,
-            "MOV": 5,
-            "LEAD": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 50,
@@ -7308,10 +8199,8 @@
             "SPD": 30,
             "LCK": 30,
             "DEF": 10,
-            "RES": 28,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7321,10 +8210,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -7334,10 +8221,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -7347,11 +8232,8 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -7399,6 +8281,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Mogall",
@@ -7432,10 +8319,8 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 3,
-            "RES": 47,
             "CON": 5,
-            "MOV": 6,
-            "LEAD": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 45,
@@ -7445,10 +8330,8 @@
             "SPD": 25,
             "LCK": 20,
             "DEF": 10,
-            "RES": 28,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7458,10 +8341,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -7471,10 +8352,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
@@ -7484,11 +8363,8 @@
             "SPD": 26,
             "LCK": 30,
             "DEF": 20,
-            "RES": 29,
             "CON": 20,
-            "MOV": 15,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 15
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -7536,6 +8412,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Arch_Mogall",
@@ -7568,7 +8449,6 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "RES": 2,
             "CON": 5,
             "MOV": 6
         },
@@ -7580,7 +8460,6 @@
             "SPD": 20,
             "LCK": 25,
             "DEF": 0,
-            "RES": 10,
             "CON": 0,
             "MOV": 0
         },
@@ -7592,7 +8471,6 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
             "MOV": 0
         },
@@ -7604,7 +8482,6 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
             "MOV": 0
         },
@@ -7616,7 +8493,6 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 20,
-            "RES": 20,
             "CON": 25,
             "MOV": 15
         },
@@ -7666,6 +8542,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -7698,10 +8579,8 @@
             "SPD": 40,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growths": {
             "HP": 0,
@@ -7711,10 +8590,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7724,10 +8601,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -7737,10 +8612,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 30,
@@ -7750,11 +8623,8 @@
             "SPD": 40,
             "LCK": 30,
             "DEF": 30,
-            "RES": 30,
             "CON": 30,
-            "MOV": 30,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 30
         },
         "learned_skills": [
             [
@@ -7808,6 +8678,11 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Wind": [
                 false,
                 0,
                 251
@@ -7843,10 +8718,8 @@
             "SPD": 40,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growths": {
             "HP": 0,
@@ -7856,10 +8729,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7869,10 +8740,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
@@ -7882,10 +8751,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 0,
-            "MOV": 0,
-            "LEAD": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 30,
@@ -7895,11 +8762,8 @@
             "SPD": 40,
             "LCK": 30,
             "DEF": 30,
-            "RES": 30,
             "CON": 30,
-            "MOV": 30,
-            "LEAD": 60,
-            "New Stat": 30
+            "MOV": 30
         },
         "learned_skills": [
             [
@@ -7956,6 +8820,11 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                0,
+                251
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -7987,7 +8856,6 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 0,
-            "RES": 0,
             "CON": 11,
             "MOV": 5
         },
@@ -7998,10 +8866,32 @@
             "SPD": 45,
             "LCK": 50,
             "DEF": 15,
-            "RES": 15
+            "MOV": 0,
+            "HP": 0,
+            "CON": 0
         },
-        "growth_bonus": {},
-        "promotion": {},
+        "growth_bonus": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
+        "promotion": {
+            "MOV": 0,
+            "SKL": 0,
+            "DEF": 0,
+            "SPD": 0,
+            "STR": 0,
+            "LCK": 0,
+            "MAG": 0,
+            "HP": 0,
+            "CON": 0
+        },
         "max_stats": {
             "HP": 60,
             "STR": 20,
@@ -8010,7 +8900,6 @@
             "SPD": 20,
             "LCK": 30,
             "DEF": 0,
-            "RES": 0,
             "CON": 20,
             "MOV": 15
         },
@@ -8057,6 +8946,11 @@
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 null

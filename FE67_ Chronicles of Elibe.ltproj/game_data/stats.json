@@ -18,15 +18,6 @@
         "hidden_stat": false
     },
     {
-        "nid": "MAG",
-        "name": "Mag",
-        "maximum": 30,
-        "desc": "Magical power. Increases spell and staff effectiveness.",
-        "position": "left",
-        "growth_colors": false,
-        "hidden_stat": false
-    },
-    {
         "nid": "SKL",
         "name": "Skill",
         "maximum": 30,
@@ -63,10 +54,10 @@
         "hidden_stat": false
     },
     {
-        "nid": "RES",
-        "name": "Res",
+        "nid": "MAG",
+        "name": "Mag",
         "maximum": 30,
-        "desc": "Reduces damage from magic.",
+        "desc": "Magical power. Increases spell and staff effectiveness.",
         "position": "left",
         "growth_colors": false,
         "hidden_stat": false
