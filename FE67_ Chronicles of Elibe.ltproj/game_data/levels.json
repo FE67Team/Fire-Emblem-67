@@ -3,7 +3,7 @@
         "nid": "0",
         "name": "Prologue",
         "tilemap": "New Tilemap",
-        "bg_tilemap": null,
+        "bg_tilemap": "New Tilemap",
         "party": "Eirika",
         "music": {
             "player_phase": "Distant Roads",
