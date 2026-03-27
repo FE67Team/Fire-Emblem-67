@@ -1332,7 +1332,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina.png (By Mr. Stark)",
+        "nid": "Alan",
         "blinking_offset": [
             24,
             24
@@ -1344,7 +1344,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora.png (By Mr. Stark)",
+        "nid": "Alan!Farina.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1356,7 +1356,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina.png (By Mr. Stark)",
+        "nid": "Alan!Fiora.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1368,7 +1368,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora.png (By Mr. Stark)",
+        "nid": "Alan!Florina.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1380,7 +1380,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla.png (By Mr. Stark)",
+        "nid": "Alan!Isadora.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1392,7 +1392,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila.png (By Mr. Stark)",
+        "nid": "Alan!Karla.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1404,7 +1404,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn.png (By Mr. Stark)",
+        "nid": "Alan!Leila.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1416,7 +1416,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian.png (By Mr. Stark)",
+        "nid": "Alan!Lyn (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1428,7 +1428,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino.png (By Mr. Stark)",
+        "nid": "Alan!Ninian (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1440,7 +1440,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla (By Mr. Stark)",
+        "nid": "Alan!Nino (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1452,7 +1452,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca.png (By Mr. Stark)",
+        "nid": "Alan!Priscilla (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1464,7 +1464,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra.png (By Mr. Stark)",
+        "nid": "Alan!Rebecca.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1476,7 +1476,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida.png (By Mr. Stark)",
+        "nid": "Alan!Serra.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -1488,7 +1488,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina_1",
+        "nid": "Alan!Vaida (By Mr. Stark)",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Astore",
         "blinking_offset": [
             16,
             24
@@ -1500,7 +1512,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora_1",
+        "nid": "Astore!Farina",
         "blinking_offset": [
             16,
             24
@@ -1512,7 +1524,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina_1",
+        "nid": "Astore!Fiora",
         "blinking_offset": [
             16,
             24
@@ -1524,7 +1536,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora_1",
+        "nid": "Astore!Florina",
         "blinking_offset": [
             16,
             24
@@ -1536,7 +1548,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla_1",
+        "nid": "Astore!Isadora",
         "blinking_offset": [
             16,
             24
@@ -1548,7 +1560,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila",
+        "nid": "Astore!Karla",
         "blinking_offset": [
             16,
             24
@@ -1560,7 +1572,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn_1",
+        "nid": "Astore!Leila",
         "blinking_offset": [
             16,
             24
@@ -1572,7 +1584,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian_1",
+        "nid": "Astore!Lyn",
         "blinking_offset": [
             16,
             24
@@ -1584,7 +1596,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino_1",
+        "nid": "Astore!Ninian",
         "blinking_offset": [
             16,
             24
@@ -1596,7 +1608,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla_1",
+        "nid": "Astore!Nino",
         "blinking_offset": [
             16,
             24
@@ -1608,7 +1620,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_1",
+        "nid": "Astore!Priscilla",
         "blinking_offset": [
             16,
             24
@@ -1620,7 +1632,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra_1",
+        "nid": "Astore!Rebecca",
         "blinking_offset": [
             16,
             24
@@ -1632,7 +1644,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida_1",
+        "nid": "Astore!Serra",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Astore!Vaida",
         "blinking_offset": [
             16,
             24
@@ -1800,7 +1824,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina!Bors",
+        "nid": "Bors_1",
         "blinking_offset": [
             24,
             16
@@ -1812,7 +1836,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora!Bors",
+        "nid": "Bors!Farina",
         "blinking_offset": [
             24,
             16
@@ -1824,7 +1848,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina!Bors",
+        "nid": "Bors!Fiora",
         "blinking_offset": [
             24,
             16
@@ -1836,7 +1860,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora!Bors",
+        "nid": "Bors!Florina",
         "blinking_offset": [
             24,
             16
@@ -1848,7 +1872,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla!Bors",
+        "nid": "Bors!Isadora",
         "blinking_offset": [
             24,
             16
@@ -1860,7 +1884,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila!Bors",
+        "nid": "Bors!Karla",
         "blinking_offset": [
             24,
             16
@@ -1872,7 +1896,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn!Bors",
+        "nid": "Bors!Karla_1",
         "blinking_offset": [
             24,
             16
@@ -1884,7 +1908,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian!Bors",
+        "nid": "Bors!Leila",
         "blinking_offset": [
             24,
             16
@@ -1896,7 +1920,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino!Bors",
+        "nid": "Bors!Lyn",
         "blinking_offset": [
             24,
             16
@@ -1908,7 +1932,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla!Bors",
+        "nid": "Bors!Ninian",
         "blinking_offset": [
             24,
             16
@@ -1920,7 +1944,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca!Bors",
+        "nid": "Bors!Priscilla",
         "blinking_offset": [
             24,
             16
@@ -1932,7 +1956,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra!Bors",
+        "nid": "Bors!Rebecca",
         "blinking_offset": [
             24,
             16
@@ -1944,7 +1968,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida!Bors",
+        "nid": "Bors!Serra",
         "blinking_offset": [
             24,
             16
@@ -1956,7 +1980,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Cath Eliwood (By Michael The X)-1.png",
+        "nid": "Bors!Vaida",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cath_1",
         "blinking_offset": [
             24,
             32
@@ -1968,7 +2004,43 @@
         "info_offset": 0
     },
     {
-        "nid": "Cath Lucius (By Michael The X)-1.png",
+        "nid": "Cath!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cath!Erik (By JoshuaDragonPillow)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cath!Heath (By JoshuaDragonPillow)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cath!Lucius (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -2148,7 +2220,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina_2",
+        "nid": "Chad_1",
         "blinking_offset": [
             24,
             32
@@ -2160,7 +2232,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora_2",
+        "nid": "Chad!Farina",
         "blinking_offset": [
             24,
             32
@@ -2172,7 +2244,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina_2",
+        "nid": "Chad!Fiora",
         "blinking_offset": [
             24,
             32
@@ -2184,7 +2256,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora_2",
+        "nid": "Chad!Florina",
         "blinking_offset": [
             24,
             32
@@ -2196,7 +2268,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla_2",
+        "nid": "Chad!Isadora",
         "blinking_offset": [
             24,
             32
@@ -2208,7 +2280,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila_1",
+        "nid": "Chad!Karla",
         "blinking_offset": [
             24,
             32
@@ -2220,7 +2292,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn_2",
+        "nid": "Chad!Leila",
         "blinking_offset": [
             24,
             32
@@ -2232,7 +2304,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian_2",
+        "nid": "Chad!Lyn",
         "blinking_offset": [
             24,
             32
@@ -2244,7 +2316,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino_2",
+        "nid": "Chad!Ninian",
         "blinking_offset": [
             24,
             32
@@ -2256,7 +2328,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla_2",
+        "nid": "Chad!Nino",
         "blinking_offset": [
             24,
             32
@@ -2268,7 +2340,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_2",
+        "nid": "Chad!Priscilla",
         "blinking_offset": [
             24,
             32
@@ -2280,7 +2352,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra_2",
+        "nid": "Chad!Rebecca",
         "blinking_offset": [
             24,
             32
@@ -2292,7 +2364,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida_2",
+        "nid": "Chad!Serra",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Chad!Vaida",
         "blinking_offset": [
             24,
             32
@@ -2460,18 +2544,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Alen",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Anna",
         "blinking_offset": [
             24,
@@ -2484,9 +2556,9 @@
         "info_offset": 0
     },
     {
-        "nid": "Arcardo",
+        "nid": "Astore_1",
         "blinking_offset": [
-            24,
+            16,
             24
         ],
         "smiling_offset": [
@@ -2496,9 +2568,9 @@
         "info_offset": 0
     },
     {
-        "nid": "Astolfo",
+        "nid": "Arcardo",
         "blinking_offset": [
-            16,
+            24,
             24
         ],
         "smiling_offset": [
@@ -2736,18 +2808,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Elen",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Elffin",
         "blinking_offset": [
             16,
@@ -2756,6 +2816,18 @@
         "smiling_offset": [
             16,
             40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ellen",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
         ],
         "info_offset": 0
     },
@@ -2892,7 +2964,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Gwendolyn",
+        "nid": "Wendy",
         "blinking_offset": [
             24,
             32
@@ -3096,7 +3168,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Larum",
+        "nid": "Lalum",
         "blinking_offset": [
             24,
             32
@@ -3204,7 +3276,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Melady",
+        "nid": "Milady",
         "blinking_offset": [
             32,
             24
@@ -3432,7 +3504,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ogier",
+        "nid": "Oujay",
         "blinking_offset": [
             24,
             32
@@ -3660,7 +3732,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin",
+        "nid": "Shin",
         "blinking_offset": [
             24,
             24
@@ -3792,7 +3864,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Thea",
+        "nid": "Tate",
         "blinking_offset": [
             24,
             32
@@ -3800,18 +3872,6 @@
         "smiling_offset": [
             24,
             48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Tick Recolor 1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
         ],
         "info_offset": 0
     },
@@ -3853,6 +3913,18 @@
     },
     {
         "nid": "Villager 1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tick Recolor 1",
         "blinking_offset": [
             24,
             24
@@ -4740,7 +4812,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina (By Quest)",
+        "nid": "Dieck_1",
         "blinking_offset": [
             16,
             24
@@ -4752,7 +4824,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora (By Quest)",
+        "nid": "Dieck!Farina (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4764,7 +4836,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina (By Quest)",
+        "nid": "Dieck!Fiora (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4776,7 +4848,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora (By Quest)",
+        "nid": "Dieck!Florina (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4788,7 +4860,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla (By Quest)",
+        "nid": "Dieck!Isadora (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4800,7 +4872,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila (By Quest)",
+        "nid": "Dieck!Karla (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4812,7 +4884,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn (By Quest)",
+        "nid": "Dieck!Leila (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4824,7 +4896,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian (By Quest)",
+        "nid": "Dieck!Lyn (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4836,7 +4908,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino (By Quest)",
+        "nid": "Dieck!Ninian (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4848,7 +4920,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla (By Quest)",
+        "nid": "Dieck!Nino (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4860,7 +4932,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca (By Quest)",
+        "nid": "Dieck!Priscilla (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4872,7 +4944,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra (By Quest)",
+        "nid": "Dieck!Rebecca (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4884,7 +4956,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida (By Quest)",
+        "nid": "Dieck!Serra (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -4896,9 +4968,9 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina_3",
+        "nid": "Dieck!Vaida (By Quest)",
         "blinking_offset": [
-            24,
+            16,
             24
         ],
         "smiling_offset": [
@@ -4908,19 +4980,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora_3",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Florina_3",
+        "nid": "Dorothy_1",
         "blinking_offset": [
             24,
             24
@@ -4932,7 +4992,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora_3",
+        "nid": "Dorothy!Farina",
         "blinking_offset": [
             24,
             24
@@ -4944,7 +5004,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla_3",
+        "nid": "Dorothy!Fiora",
         "blinking_offset": [
             24,
             24
@@ -4956,7 +5016,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila_2",
+        "nid": "Dorothy!Florina",
         "blinking_offset": [
             24,
             24
@@ -4968,7 +5028,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn_3",
+        "nid": "Dorothy!Isadora",
         "blinking_offset": [
             24,
             24
@@ -4980,7 +5040,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian_3",
+        "nid": "Dorothy!Karla",
         "blinking_offset": [
             24,
             24
@@ -4992,7 +5052,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino_3",
+        "nid": "Dorothy!Leila",
         "blinking_offset": [
             24,
             24
@@ -5004,7 +5064,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla_3",
+        "nid": "Dorothy!Lyn",
         "blinking_offset": [
             24,
             24
@@ -5016,7 +5076,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_3",
+        "nid": "Dorothy!Ninian",
         "blinking_offset": [
             24,
             24
@@ -5028,7 +5088,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra_3",
+        "nid": "Dorothy!Nino",
         "blinking_offset": [
             24,
             24
@@ -5040,7 +5100,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida_3",
+        "nid": "Dorothy!Rebecca",
         "blinking_offset": [
             24,
             24
@@ -5052,7 +5112,31 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Farina (By Michael The X)-1.png",
+        "nid": "Dorothy!Serra",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Dorothy!Vaida",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Ellen_1",
         "blinking_offset": [
             24,
             32
@@ -5064,7 +5148,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Fiora (By Michael The X)-1.png",
+        "nid": "Ellen!Farina (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5076,7 +5160,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Florina (By Michael The X)-1.png",
+        "nid": "Ellen!Fiora (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5088,7 +5172,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Isadora (By Michael The X)-1.png",
+        "nid": "Ellen!Florina (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5100,7 +5184,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Karla (By Michael The X)-1.png",
+        "nid": "Ellen!Isadora (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5112,7 +5196,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Leila (By Michael The X)-1.png",
+        "nid": "Ellen!Karla (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5124,7 +5208,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Lyn (By Michael The X)-1.png",
+        "nid": "Ellen!Leila (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5136,7 +5220,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Ninian (By Michael The X)-1.png",
+        "nid": "Ellen!Lyn (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5148,7 +5232,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Nino (By Michael The X)-1.png",
+        "nid": "Ellen!Ninian (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5160,7 +5244,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Priscilla (By Michael The X)-1.png",
+        "nid": "Ellen!Nino (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5172,7 +5256,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Rebecca (By Michael The X)-1.png (1)",
+        "nid": "Ellen!Priscilla (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5184,7 +5268,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Serra (By Michael The X)-1.png",
+        "nid": "Ellen!Rebecca (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5196,7 +5280,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ellen Vaida (By Michael The X)-1.png",
+        "nid": "Ellen!Serra (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5208,7 +5292,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fir Eliwood (By Michael The X)-1.png",
+        "nid": "Ellen!Vaida (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -5220,7 +5304,415 @@
         "info_offset": 0
     },
     {
-        "nid": "Fir Lucius (By Michael The X)-1.png",
+        "nid": "Fir_1",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Bartre",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Batta",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Canas",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Dart",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Dorcas",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Douglas",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Eagler",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Erik",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Erk",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Fargus",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Geitz",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Glass",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Guy",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Harken",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Hawkeye",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Heath",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Hector",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Jaffar",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Karel",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Kent",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Legault",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Linus",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Lloyd",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Lowen",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Lucius (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Marcus",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Matthew",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Oswin",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Rath",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Raven",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Renault",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Sain",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Fir!Uhai",
         "blinking_offset": [
             24,
             32
@@ -5244,7 +5736,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina_4",
+        "nid": "Fir!Wil",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Geese_1",
         "blinking_offset": [
             24,
             24
@@ -5256,7 +5760,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora_4",
+        "nid": "Geese!Farina",
         "blinking_offset": [
             24,
             24
@@ -5268,7 +5772,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina_4",
+        "nid": "Geese!Fiora",
         "blinking_offset": [
             24,
             24
@@ -5280,7 +5784,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora_4",
+        "nid": "Geese!Florina",
         "blinking_offset": [
             24,
             24
@@ -5292,7 +5796,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla_4",
+        "nid": "Geese!Isadora",
         "blinking_offset": [
             24,
             24
@@ -5304,7 +5808,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila_3",
+        "nid": "Geese!Karla",
         "blinking_offset": [
             24,
             24
@@ -5316,7 +5820,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn_4",
+        "nid": "Geese!Leila",
         "blinking_offset": [
             24,
             24
@@ -5328,7 +5832,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian_4",
+        "nid": "Geese!Lyn",
         "blinking_offset": [
             24,
             24
@@ -5340,7 +5844,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino_4",
+        "nid": "Geese!Ninian",
         "blinking_offset": [
             24,
             24
@@ -5352,7 +5856,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla_4",
+        "nid": "Geese!Nino",
         "blinking_offset": [
             24,
             24
@@ -5364,7 +5868,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_4",
+        "nid": "Geese!Priscilla",
         "blinking_offset": [
             24,
             24
@@ -5376,7 +5880,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra_4",
+        "nid": "Geese!Rebecca",
         "blinking_offset": [
             24,
             24
@@ -5388,7 +5892,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida_4",
+        "nid": "Geese!Serra",
         "blinking_offset": [
             24,
             24
@@ -5400,7 +5904,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina_5",
+        "nid": "Geese!Vaida",
         "blinking_offset": [
             24,
             24
@@ -5412,7 +5916,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora_5",
+        "nid": "Henning_1",
         "blinking_offset": [
             24,
             24
@@ -5424,7 +5928,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina_5",
+        "nid": "Henning Recolor_1",
         "blinking_offset": [
             24,
             24
@@ -5436,7 +5940,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora_5",
+        "nid": "Henning!Farina",
         "blinking_offset": [
             24,
             24
@@ -5448,7 +5952,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla_5",
+        "nid": "Henning!Fiora",
         "blinking_offset": [
             24,
             24
@@ -5460,7 +5964,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila_4",
+        "nid": "Henning!Florina",
         "blinking_offset": [
             24,
             24
@@ -5472,7 +5976,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn_5",
+        "nid": "Henning!Isadora",
         "blinking_offset": [
             24,
             24
@@ -5484,7 +5988,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian_5",
+        "nid": "Henning!Karla",
         "blinking_offset": [
             24,
             24
@@ -5496,7 +6000,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino_5",
+        "nid": "Henning!Leila",
         "blinking_offset": [
             24,
             24
@@ -5508,7 +6012,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla_5",
+        "nid": "Henning!Lyn",
         "blinking_offset": [
             24,
             24
@@ -5520,7 +6024,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_5",
+        "nid": "Henning!Ninian",
         "blinking_offset": [
             24,
             24
@@ -5532,7 +6036,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra_5",
+        "nid": "Henning!Nino",
         "blinking_offset": [
             24,
             24
@@ -5544,7 +6048,43 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida_5",
+        "nid": "Henning!Priscilla",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Henning!Rebecca",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Henning!Serra",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Henning!Vaida",
         "blinking_offset": [
             24,
             24
@@ -5712,7 +6252,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina!Igrene (By Quest)",
+        "nid": "Igrene_1",
         "blinking_offset": [
             24,
             24
@@ -5724,7 +6264,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora!Igrene (By Quest)",
+        "nid": "Igrene!Farina(By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5736,7 +6276,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina!Igrene (By Quest)",
+        "nid": "Igrene!Fiora (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5748,7 +6288,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora!Igrene (By Quest)",
+        "nid": "Igrene!Florina (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5760,7 +6300,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla!Igrene (By Quest)",
+        "nid": "Igrene!Isadora (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5772,7 +6312,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila!Igrene (By Quest)",
+        "nid": "Igrene!Karla (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5784,7 +6324,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn!Igrene (By Quest)",
+        "nid": "Igrene!Leila (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5796,7 +6336,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian!Igrene (By Quest)",
+        "nid": "Igrene!Lyn (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5808,7 +6348,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino!Igrene (By Quest)",
+        "nid": "Igrene!Ninian (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5820,7 +6360,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla!Igrene (By Quest)",
+        "nid": "Igrene!Nino (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5832,7 +6372,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_6",
+        "nid": "Igrene!Priscilla (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5844,7 +6384,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra!Igrene (By Quest)",
+        "nid": "Igrene!Rebecca",
         "blinking_offset": [
             24,
             24
@@ -5856,7 +6396,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida!Igrene (By Quest)",
+        "nid": "Igrene!Serra (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5868,7 +6408,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Kel Eliwood (By Michael The X)-1.png",
+        "nid": "Igrene!Vaida (By Quest)",
         "blinking_offset": [
             24,
             24
@@ -5880,7 +6420,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Kel Lucius (By Michael The X)-1.png",
+        "nid": "Kel_1",
         "blinking_offset": [
             24,
             24
@@ -5892,7 +6432,31 @@
         "info_offset": 0
     },
     {
-        "nid": "Lalum Eliwood (By Michael The X)-1.png",
+        "nid": "Kel!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Kel!Lucius (By Michael The X)",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum_1",
         "blinking_offset": [
             24,
             32
@@ -5904,7 +6468,391 @@
         "info_offset": 0
     },
     {
-        "nid": "Lalum Lucius (By Michael The X)-1.png",
+        "nid": "Lalum!Bartre",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Batta",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Canas",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Dart",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Dorcas",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Eagler",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Erik",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Erk",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Fargus",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Geitz",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Glass",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Guy",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Harken",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Hawkeye Tan",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Hawkeye",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Hector",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Jaffar",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Karel",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Kent",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Legault",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Linus",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Lloyd",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Lowen",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Lucius (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Marcus",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Matthew",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Oswin",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Rath",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Raven",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Renault",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Sain",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lalum!Uhai",
         "blinking_offset": [
             24,
             32
@@ -5928,163 +6876,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina.png (By Mr. Stark)_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Fiora.png (By Mr. Stark)_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Florina.png (By Mr. Stark)_",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Isadora.png (By Mr. Stark)_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Karla_6",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Leila.png (By Mr. Stark)_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Lyn.png (By Mr. Stark)_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Ninian.png (By Mr. Stark)_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Nino.png (By Mr. Stark)_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Priscilla.png (By Mr. Stark)",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Rebecca.png (By Mr. Stark)_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Serra.png (By Mr. Stark)_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Vaida.png (By Mr. Stark)_1",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Hector Farina (By Trenkh\u00f6hr)",
+        "nid": "Lalum!Wil",
         "blinking_offset": [
             24,
             32
@@ -6096,151 +6888,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Hector Fiora (By Trenkh\u00f6hr)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Hector Florina (By Trenkh\u00f6hr)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Hector Isadora (By Trenkh\u00f6hr)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Hector Lyn (By Trenkh\u00f6hr)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Hector Ninian (By Trenkh\u00f6hr)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Hector Nino (By Trenkh\u00f6hr)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Hector Priscilla (By Trenkh\u00f6hr)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Hector Rebecca (By Trenkh\u00f6hr)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Hector Serra (By Trenkh\u00f6hr)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Karla (By Quest)_1",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Leila (By Quest)_1",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Vaida (By Quest)_1",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Farina_6",
+        "nid": "Lance_1",
         "blinking_offset": [
             24,
             24
@@ -6252,7 +6900,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora_6",
+        "nid": "Lance!Farina.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -6264,7 +6912,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina_6",
+        "nid": "Lance!Fiora.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -6276,7 +6924,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora_6",
+        "nid": "Lance!Florina.png (By Mr. Stark)_",
         "blinking_offset": [
             24,
             24
@@ -6288,7 +6936,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla_7",
+        "nid": "Lance!Isadora (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -6300,7 +6948,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila_5",
+        "nid": "Lance!Karla",
         "blinking_offset": [
             24,
             24
@@ -6312,7 +6960,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn_6",
+        "nid": "Lance!Leila (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -6324,7 +6972,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian_6",
+        "nid": "Lance!Lyn (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -6336,7 +6984,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino_6",
+        "nid": "Lance!Ninian (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -6348,7 +6996,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla_6",
+        "nid": "Lance!Nino (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -6360,7 +7008,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_7",
+        "nid": "Lance!Priscilla (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -6372,7 +7020,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra_6",
+        "nid": "Lance!Rebecca (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -6384,7 +7032,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida_6",
+        "nid": "Lance!Serra.png (By Mr. Stark)",
         "blinking_offset": [
             24,
             24
@@ -6396,7 +7044,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Lugh Eliwood (By Michael The X)-1.png",
+        "nid": "Lance!Vaida (By Mr. Stark)",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina_1",
         "blinking_offset": [
             24,
             32
@@ -6408,7 +7068,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lugh Lucius (By Michael The X)-1.png",
+        "nid": "Lilina!Farina (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -6420,7 +7080,223 @@
         "info_offset": 0
     },
     {
-        "nid": "Milady Eliwood (By Michael The X)-1.png",
+        "nid": "Lilina!Fiora (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot_1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Farina",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Fiora",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Florina",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Isadora",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Karla",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Leila",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Lyn",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Ninian",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Nino",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Priscilla",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Rebecca",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Serra",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lot!Vaida",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lugh_1",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lugh!Lucius (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lugh!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Milady_1",
         "blinking_offset": [
             32,
             24
@@ -6432,7 +7308,31 @@
         "info_offset": 0
     },
     {
-        "nid": "Milady Lucius (By Michael The X)-1.png",
+        "nid": "Milady!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Milady!Heath (By Quest)",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Milady!Lucius (By Michael The X)",
         "blinking_offset": [
             32,
             24
@@ -6456,7 +7356,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina_7",
+        "nid": "Noah_1",
         "blinking_offset": [
             24,
             24
@@ -6468,7 +7368,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora_7",
+        "nid": "Noah!Farina",
         "blinking_offset": [
             24,
             24
@@ -6480,7 +7380,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina_7",
+        "nid": "Noah!Fiora",
         "blinking_offset": [
             24,
             24
@@ -6492,7 +7392,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora_7",
+        "nid": "Noah!Florina",
         "blinking_offset": [
             24,
             24
@@ -6504,7 +7404,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla_8",
+        "nid": "Noah!Isadora",
         "blinking_offset": [
             24,
             24
@@ -6516,7 +7416,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila_6",
+        "nid": "Noah!Karla",
         "blinking_offset": [
             24,
             24
@@ -6528,7 +7428,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn_7",
+        "nid": "Noah!Leila",
         "blinking_offset": [
             24,
             24
@@ -6540,7 +7440,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian_7",
+        "nid": "Noah!Lyn",
         "blinking_offset": [
             24,
             24
@@ -6552,7 +7452,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino_7",
+        "nid": "Noah!Ninian",
         "blinking_offset": [
             24,
             24
@@ -6564,7 +7464,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscila",
+        "nid": "Noah!Nino",
         "blinking_offset": [
             24,
             24
@@ -6576,7 +7476,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_8",
+        "nid": "Noah!Priscila",
         "blinking_offset": [
             24,
             24
@@ -6588,7 +7488,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra_7",
+        "nid": "Noah!Rebecca",
         "blinking_offset": [
             24,
             24
@@ -6600,7 +7500,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida_7",
+        "nid": "Noah!Serra",
         "blinking_offset": [
             24,
             24
@@ -6612,7 +7512,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Ogjer (By Michael The X)-1.png",
+        "nid": "Noah!Vaida",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Oujay_1",
         "blinking_offset": [
             24,
             32
@@ -6624,7 +7536,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Oujay Lucius (By Michael The X)-1.png",
+        "nid": "Oujay!Eliwood (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -6636,7 +7548,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Raigh Eliwood (By Michael The X)-1.png",
+        "nid": "Oujay!Heath (By Quest)",
         "blinking_offset": [
             24,
             32
@@ -6648,7 +7560,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Raigh Lucius (By Michael The X)-1.png",
+        "nid": "Oujay!Lucius (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -6660,7 +7572,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina (By Micheal The X)",
+        "nid": "Raigh_1",
         "blinking_offset": [
             24,
             32
@@ -6672,7 +7584,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora (By Micheal The X)",
+        "nid": "Raigh!Eliwood (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -6684,7 +7596,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina (By Micheal The X)",
+        "nid": "Raigh!Lucius (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -6696,7 +7608,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora (By Michael The X)-1.png",
+        "nid": "Roy_1",
         "blinking_offset": [
             24,
             32
@@ -6708,7 +7620,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla (By Quest)_2",
+        "nid": "Roy!Farina (By Micheal The X)",
         "blinking_offset": [
             24,
             32
@@ -6720,7 +7632,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila (By Mr. Stark)",
+        "nid": "Roy!Fiora (By Micheal The X)",
         "blinking_offset": [
             24,
             32
@@ -6732,7 +7644,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn (By Quest)_1",
+        "nid": "Roy!Florina (By Micheal The X)",
         "blinking_offset": [
             24,
             32
@@ -6744,7 +7656,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian (By Quest)_1",
+        "nid": "Roy!Isadora (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -6756,7 +7668,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino (By Michael The X)-1.png",
+        "nid": "Roy!Karla (By Quest)",
         "blinking_offset": [
             24,
             32
@@ -6768,7 +7680,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla (By Michael The X)-1.png",
+        "nid": "Roy!Leila (By Mr. Stark)",
         "blinking_offset": [
             24,
             32
@@ -6780,7 +7692,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca (By Michael The X)",
+        "nid": "Roy!Lyn (By Quest)",
         "blinking_offset": [
             24,
             32
@@ -6792,7 +7704,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra (By Mr. Stark)",
+        "nid": "Roy!Ninian (By Quest)",
         "blinking_offset": [
             24,
             32
@@ -6804,7 +7716,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida (By Mr. Stark)",
+        "nid": "Roy!Nino (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -6816,7 +7728,55 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina (By Quest)_1",
+        "nid": "Roy!Priscilla (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Roy!Rebecca (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Roy!Serra (By Mr. Stark)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Roy!Vaida (By Mr. Stark)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Rutger_1",
         "blinking_offset": [
             16,
             24
@@ -6828,7 +7788,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora (By Quest)_1",
+        "nid": "Rutger!Farina (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6840,7 +7800,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina (By Quest)_1",
+        "nid": "Rutger!Fiora (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6852,7 +7812,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora (By Quest)_1",
+        "nid": "Rutger!Florina (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6864,7 +7824,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla (By Quest)_3",
+        "nid": "Rutger!Isadora (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6876,7 +7836,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila (By Quest)_2",
+        "nid": "Rutger!Karla (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6888,7 +7848,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn (By Quest)_2",
+        "nid": "Rutger!Leila (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6900,7 +7860,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian (By Quest)_2",
+        "nid": "Rutger!Lyn (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6912,7 +7872,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino (By Quest)_1",
+        "nid": "Rutger!Ninian (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6924,7 +7884,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla (By Quest)_1",
+        "nid": "Rutger!Nino (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6936,7 +7896,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca (By Quest)_1",
+        "nid": "Rutger!Priscilla (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6948,7 +7908,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra (By Quest)_1",
+        "nid": "Rutger!Rebecca (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -6960,7 +7920,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida (By Quest)_2",
+        "nid": "Rutger!Serra (By Quest)",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Rutger!Vaida (By Quest)",
         "blinking_offset": [
             16,
             24
@@ -7128,7 +8100,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Shanna Eliwood (By Michael The X)-1.png",
+        "nid": "Shanna_1",
         "blinking_offset": [
             24,
             32
@@ -7140,7 +8112,31 @@
         "info_offset": 0
     },
     {
-        "nid": "Shanna Lucius (By Michael The X)-1.png",
+        "nid": "Shanna!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Shanna!Heath (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Shanna!Lucius (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -7164,7 +8160,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Farina",
+        "nid": "Shin_1",
         "blinking_offset": [
             24,
             24
@@ -7176,7 +8172,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Fiora",
+        "nid": "Shin!Farina",
         "blinking_offset": [
             24,
             24
@@ -7188,7 +8184,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Florina",
+        "nid": "Shin!Fiora",
         "blinking_offset": [
             24,
             24
@@ -7200,7 +8196,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Isadora",
+        "nid": "Shin!Florina",
         "blinking_offset": [
             24,
             24
@@ -7212,7 +8208,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Karla",
+        "nid": "Shin!Isadora",
         "blinking_offset": [
             24,
             24
@@ -7224,7 +8220,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Leila",
+        "nid": "Shin!Karla",
         "blinking_offset": [
             24,
             24
@@ -7236,7 +8232,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Lyn",
+        "nid": "Shin!Leila",
         "blinking_offset": [
             24,
             24
@@ -7248,7 +8244,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Ninian",
+        "nid": "Shin!Lyn",
         "blinking_offset": [
             24,
             24
@@ -7260,7 +8256,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Nino",
+        "nid": "Shin!Ninian",
         "blinking_offset": [
             24,
             24
@@ -7272,7 +8268,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Priscilla",
+        "nid": "Shin!Nino",
         "blinking_offset": [
             24,
             24
@@ -7284,7 +8280,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Rebecca",
+        "nid": "Shin!Priscilla",
         "blinking_offset": [
             24,
             24
@@ -7296,7 +8292,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Serra",
+        "nid": "Shin!Rebecca",
         "blinking_offset": [
             24,
             24
@@ -7308,7 +8304,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Sin!Vaida",
+        "nid": "Shin!Serra",
         "blinking_offset": [
             24,
             24
@@ -7320,7 +8316,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Sophia Eliwood (By Michael The X)-1.png",
+        "nid": "Shin!Vaida",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia_1",
         "blinking_offset": [
             24,
             32
@@ -7332,7 +8340,31 @@
         "info_offset": 0
     },
     {
-        "nid": "Sophia Lucius (By Michael The X)-1.png",
+        "nid": "Sophia!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Heath (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Lucius (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -7356,7 +8388,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina_8",
+        "nid": "Sue_1",
         "blinking_offset": [
             24,
             24
@@ -7368,7 +8400,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora_8",
+        "nid": "Sue!Farina",
         "blinking_offset": [
             24,
             24
@@ -7380,7 +8412,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina_8",
+        "nid": "Sue!Fiora",
         "blinking_offset": [
             24,
             24
@@ -7392,7 +8424,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora_8",
+        "nid": "Sue!Florina",
         "blinking_offset": [
             24,
             24
@@ -7404,7 +8436,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla_9",
+        "nid": "Sue!Isadora",
         "blinking_offset": [
             24,
             24
@@ -7416,7 +8448,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila_7",
+        "nid": "Sue!Karla",
         "blinking_offset": [
             24,
             24
@@ -7428,7 +8460,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn_8",
+        "nid": "Sue!Leila",
         "blinking_offset": [
             24,
             24
@@ -7440,7 +8472,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian_8",
+        "nid": "Sue!Lyn",
         "blinking_offset": [
             24,
             24
@@ -7452,7 +8484,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino_8",
+        "nid": "Sue!Ninian",
         "blinking_offset": [
             24,
             24
@@ -7464,7 +8496,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla_7",
+        "nid": "Sue!Nino",
         "blinking_offset": [
             24,
             24
@@ -7476,7 +8508,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_9",
+        "nid": "Sue!Priscilla",
         "blinking_offset": [
             24,
             24
@@ -7488,7 +8520,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra_8",
+        "nid": "Sue!Rebecca",
         "blinking_offset": [
             24,
             24
@@ -7500,7 +8532,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida_8",
+        "nid": "Sue!Serra",
         "blinking_offset": [
             24,
             24
@@ -7512,7 +8544,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Tate Eliwood (By Michael The X)-1.png",
+        "nid": "Sue!Vaida",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate_1",
         "blinking_offset": [
             24,
             32
@@ -7524,7 +8568,403 @@
         "info_offset": 0
     },
     {
-        "nid": "Tate Lucius (By Michael The X)-1.png",
+        "nid": "Tate!Bartre",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Batta",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Canas",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Dart",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Dorcas",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Eagler",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Erik",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Erk",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Fargus",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Geitz",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Glass",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Guy",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Harken",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Hawkeye Normal",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Hawkeye Tan Skin",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Heath (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Hector",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Jaffar",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Karel",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Kent",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Legault",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Linus",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Lloyd",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Lowen",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Lucius (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Marcus",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Matthew",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Oswin",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Rath",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Raven",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Renault",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Sain",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Tate!Uhai",
         "blinking_offset": [
             24,
             32
@@ -7548,7 +8988,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Thea!Bartre",
+        "nid": "Tate!Wil",
         "blinking_offset": [
             24,
             32
@@ -7560,391 +9000,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Thea!Batta",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Canas",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Dart",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Dorcas",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Eagler",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Erik",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Erk",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Fargus",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Geitz",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Glass",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Guy",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Harken",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Hawkeye Normal",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Hawkeye Tan Skin",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Heath (By Quest)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Hector",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Jaffar",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Karel",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Kent",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Legault",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Linus",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Lloyd",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Lowen",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Marcus",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Matthew",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Oswin",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Rath",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Raven",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Renault",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Sain",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Uhai",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Thea!Wil",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Farina v.1",
+        "nid": "Trec_1",
         "blinking_offset": [
             24,
             24
@@ -7956,7 +9012,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina v.2",
+        "nid": "Trec!Farina v.1",
         "blinking_offset": [
             24,
             24
@@ -7968,7 +9024,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora_9",
+        "nid": "Trec!Farina v.2",
         "blinking_offset": [
             24,
             24
@@ -7980,7 +9036,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina_9",
+        "nid": "Trec!Fiora",
         "blinking_offset": [
             24,
             24
@@ -7992,7 +9048,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora_9",
+        "nid": "Trec!Florina",
         "blinking_offset": [
             24,
             24
@@ -8004,7 +9060,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla_10",
+        "nid": "Trec!Isadora",
         "blinking_offset": [
             24,
             24
@@ -8016,7 +9072,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila_8",
+        "nid": "Trec!Karla",
         "blinking_offset": [
             24,
             24
@@ -8028,7 +9084,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Limstella",
+        "nid": "Trec!Leila",
         "blinking_offset": [
             24,
             24
@@ -8040,7 +9096,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn_9",
+        "nid": "Trec!Lyn",
         "blinking_offset": [
             24,
             24
@@ -8052,7 +9108,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian_9",
+        "nid": "Trec!Ninian",
         "blinking_offset": [
             24,
             24
@@ -8064,7 +9120,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino_9",
+        "nid": "Trec!Nino",
         "blinking_offset": [
             24,
             24
@@ -8076,7 +9132,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla_8",
+        "nid": "Trec!Priscilla",
         "blinking_offset": [
             24,
             24
@@ -8088,7 +9144,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_10",
+        "nid": "Trec!Rebecca",
         "blinking_offset": [
             24,
             24
@@ -8100,7 +9156,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra_9",
+        "nid": "Trec!Serra",
         "blinking_offset": [
             24,
             24
@@ -8112,7 +9168,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida_9",
+        "nid": "Trec!Vaida",
         "blinking_offset": [
             24,
             24
@@ -8124,7 +9180,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Farina_9",
+        "nid": "Wade_1",
         "blinking_offset": [
             16,
             24
@@ -8136,7 +9192,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Fiora_10",
+        "nid": "Wade!Farina",
         "blinking_offset": [
             16,
             24
@@ -8148,7 +9204,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Florina_10",
+        "nid": "Wade!Fiora",
         "blinking_offset": [
             16,
             24
@@ -8160,7 +9216,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Isadora_10",
+        "nid": "Wade!Florina",
         "blinking_offset": [
             16,
             24
@@ -8172,7 +9228,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karla_11",
+        "nid": "Wade!Isadora",
         "blinking_offset": [
             16,
             24
@@ -8184,7 +9240,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Leila_9",
+        "nid": "Wade!Karla",
         "blinking_offset": [
             16,
             24
@@ -8196,7 +9252,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Lyn_10",
+        "nid": "Wade!Leila",
         "blinking_offset": [
             16,
             24
@@ -8208,7 +9264,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Ninian_10",
+        "nid": "Wade!Lyn",
         "blinking_offset": [
             16,
             24
@@ -8220,7 +9276,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Nino_10",
+        "nid": "Wade!Ninian",
         "blinking_offset": [
             16,
             24
@@ -8232,7 +9288,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Priscilla_9",
+        "nid": "Wade!Nino",
         "blinking_offset": [
             16,
             24
@@ -8244,7 +9300,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Rebecca_11",
+        "nid": "Wade!Priscilla",
         "blinking_offset": [
             16,
             24
@@ -8256,7 +9312,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Serra_10",
+        "nid": "Wade!Rebecca",
         "blinking_offset": [
             16,
             24
@@ -8268,7 +9324,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Vaida_10",
+        "nid": "Wade!Serra",
         "blinking_offset": [
             16,
             24
@@ -8280,7 +9336,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Wendy Eliwood (By Michael The X)-1.png",
+        "nid": "Wade!Vaida",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy_1",
         "blinking_offset": [
             24,
             32
@@ -8292,7 +9360,31 @@
         "info_offset": 0
     },
     {
-        "nid": "Wendy Lucius (By Michael The X)-1.png",
+        "nid": "Wendy!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Heath (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Lucius (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -8316,7 +9408,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Wolt Eliwood (By Michael The X)-1.png",
+        "nid": "Wolt_1",
         "blinking_offset": [
             24,
             32
@@ -8328,7 +9420,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Wolt Erk (By Trekh\u00f6hr)",
+        "nid": "Wolt!Barthe (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -8340,7 +9432,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Wolt Hector (By Trenkh\u00f6hr)",
+        "nid": "Wolt!Batta (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -8352,7 +9444,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Wolt Kent (By Trenkh\u00f6hr)",
+        "nid": "Wolt!Dorcas (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -8364,7 +9456,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Wolt Lowen (By Trenkh\u00f6hr)",
+        "nid": "Wolt!Eliwood (By Michael The X)",
         "blinking_offset": [
             24,
             32
@@ -8376,7 +9468,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Wolt Lucius (By Michael The X)-1.png",
+        "nid": "Wolt!Erk (By Trekh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -8388,7 +9480,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Wolt Matthew (By Trenkh\u00f6hr)",
+        "nid": "Wolt!Glass(By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -8400,7 +9492,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Wolt Sain (By Trenkh\u00f6hr)",
+        "nid": "Wolt!Hector (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -8412,7 +9504,115 @@
         "info_offset": 0
     },
     {
-        "nid": "Wolt Wil (By Trenkh\u00f6hr)",
+        "nid": "Wolt!Kent (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Lowen (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Lucius (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Marcus (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Matthew (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Oswin (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Rath (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Sain (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Uhai (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Wil (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
