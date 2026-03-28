@@ -7092,6 +7092,138 @@
         "info_offset": 0
     },
     {
+        "nid": "Lilina!Florina (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina!Isadora (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina!Karla (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina!Leila (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina!Lyn (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina!Ninian (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina!Nino (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina!Priscilla (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina!Rebecca (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina!Serra (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lilina!Vaida (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Lot_1",
         "blinking_offset": [
             24,
