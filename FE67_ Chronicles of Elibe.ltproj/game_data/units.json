@@ -49,7 +49,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                251,
+                4,
                 251
             ],
             "Lance": [
@@ -147,7 +147,7 @@
             ],
             "Lance": [
                 true,
-                71,
+                1,
                 251
             ],
             "Axe": [
@@ -235,7 +235,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                71,
+                1,
                 251
             ],
             "Lance": [
@@ -301,8 +301,12 @@
             "LCK": 7,
             "DEF": 5,
             "CON": 9,
+<<<<<<< Updated upstream
             "MOV": 7,
             "RES": 1
+=======
+            "MOV": 5
+>>>>>>> Stashed changes
         },
         "growths": {
             "HP": 75,
@@ -343,7 +347,7 @@
             ],
             "Bow": [
                 false,
-                181,
+                3,
                 251
             ],
             "Staff": [
@@ -439,7 +443,7 @@
             ],
             "Axe": [
                 true,
-                181,
+                3,
                 251
             ],
             "Bow": [
@@ -535,7 +539,7 @@
             ],
             "Lance": [
                 true,
-                71,
+                1,
                 251
             ],
             "Axe": [
@@ -638,7 +642,7 @@
             ],
             "Bow": [
                 false,
-                71,
+                1,
                 251
             ],
             "Staff": [
@@ -673,6 +677,129 @@
         "fields": []
     },
     {
+<<<<<<< Updated upstream
+=======
+        "nid": "Erk",
+        "name": "Erk",
+        "desc": "A young mage from Etruria. Charming, but uptight.",
+        "variant": null,
+        "level": 1,
+        "klass": "Thunder_Mage",
+        "tags": [],
+        "bases": {
+            "HP": 17,
+            "STR": 2,
+            "MAG": 5,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 3,
+            "DEF": 2,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 20,
+            "MAG": 40,
+            "SKL": 40,
+            "SPD": 50,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "MAG": 0,
+            "DEF": 0,
+            "MOV": 0,
+            "SPD": 0,
+            "CON": 0,
+            "LCK": 0,
+            "STR": 0,
+            "SKL": 0,
+            "HP": 0
+        },
+        "starting_items": [
+            [
+                "Thunder",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Fire": [
+                false,
+                1,
+                null
+            ],
+            "Wind": [
+                false,
+                1,
+                null
+            ],
+            "Thunder": [
+                false,
+                3,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Erk",
+        "affinity": "Thunder",
+        "fields": []
+    },
+    {
+>>>>>>> Stashed changes
         "nid": "Wallace",
         "name": "Wallace",
         "desc": "A retired knight of Caelin. Constantly testing himself.",
@@ -726,7 +853,7 @@
             ],
             "Axe": [
                 false,
-                181,
+                3,
                 251
             ],
             "Bow": [
@@ -817,12 +944,12 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                251,
+                4,
                 251
             ],
             "Lance": [
                 true,
-                251,
+                4,
                 251
             ],
             "Axe": [
@@ -900,10 +1027,6 @@
         },
         "stat_cap_modifiers": {},
         "starting_items": [
-            [
-                "Ninis_s_Grace",
-                false
-            ],
             [
                 "Vulnerary",
                 false
@@ -1011,7 +1134,7 @@
         },
         "starting_items": [
             [
-                "Killing_Edge",
+                "Iron_Sword",
                 false
             ]
         ],
@@ -1020,7 +1143,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                251,
+                4,
                 251
             ],
             "Lance": [
@@ -1104,15 +1227,11 @@
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Steel_Sword",
+                "Iron_Lance",
                 false
             ],
             [
-                "Silver_Lance",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Iron_Sword",
                 false
             ]
         ],
@@ -1121,12 +1240,12 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                121,
+                2,
                 251
             ],
             "Lance": [
                 true,
-                181,
+                3,
                 251
             ],
             "Axe": [
@@ -1176,7 +1295,7 @@
         "desc": "A knight in service to House Pherae. A fresh recruit.",
         "variant": null,
         "level": 2,
-        "klass": "Cavalier",
+        "klass": "Knight_Axe",
         "tags": [],
         "bases": {
             "HP": 23,
@@ -1188,7 +1307,7 @@
             "DEF": 7,
             "RES": 0,
             "CON": 9,
-            "MOV": 5
+            "MOV": 7
         },
         "growths": {
             "HP": 90,
@@ -1228,7 +1347,7 @@
             ],
             "Axe": [
                 false,
-                71,
+                1,
                 251
             ],
             "Bow": [
@@ -1330,7 +1449,7 @@
             ],
             "Bow": [
                 false,
-                121,
+                2,
                 251
             ],
             "Staff": [
@@ -1422,7 +1541,7 @@
             ],
             "Axe": [
                 false,
-                121,
+                2,
                 251
             ],
             "Bow": [
@@ -1466,7 +1585,7 @@
         "name": "Hector",
         "desc": "Marquess Ostia\u2019s younger brother. Reckless, but loyal.",
         "variant": "",
-        "level": 2,
+        "level": 1,
         "klass": "Fighter",
         "tags": [
             "Lord"
@@ -1481,7 +1600,7 @@
             "DEF": 8,
             "RES": 0,
             "CON": 6,
-            "MOV": 6
+            "MOV": 5
         },
         "growths": {
             "HP": 90,
@@ -1502,7 +1621,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1517,7 +1641,7 @@
             ],
             "Axe": [
                 true,
-                251,
+                4,
                 251
             ],
             "Bow": [
@@ -1574,7 +1698,7 @@
             "DEF": 13,
             "RES": 3,
             "CON": 6,
-            "MOV": 5
+            "MOV": 4
         },
         "growths": {
             "HP": 90,
@@ -1609,7 +1733,7 @@
             ],
             "Lance": [
                 false,
-                121,
+                2,
                 251
             ],
             "Axe": [
@@ -1717,7 +1841,7 @@
             ],
             "Staff": [
                 false,
-                181,
+                3,
                 251
             ],
             "Light": [
@@ -1764,7 +1888,7 @@
             "DEF": 3,
             "RES": 0,
             "CON": 4,
-            "MOV": 5
+            "MOV": 6
         },
         "growths": {
             "HP": 75,
@@ -1794,7 +1918,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                71,
+                1,
                 251
             ],
             "Lance": [
@@ -1887,7 +2011,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                3,
                 251
             ],
             "Lance": [
@@ -2042,7 +2166,7 @@
             "DEF": 6,
             "RES": 1,
             "CON": 10,
-            "MOV": 7
+            "MOV": 5
         },
         "growths": {
             "HP": 70,
@@ -2078,7 +2202,7 @@
             ],
             "Axe": [
                 false,
-                121,
+                2,
                 251
             ],
             "Bow": [
@@ -2122,6 +2246,7 @@
         "name": "Erk",
         "desc": "A young mage from Etruria. Charming, but uptight.",
         "variant": null,
+<<<<<<< Updated upstream
         "level": 1,
         "klass": "Mage",
         "tags": [],
@@ -2146,13 +2271,41 @@
             "LCK": 30,
             "DEF": 20,
             "RES": 40,
+=======
+        "level": 3,
+        "klass": "Troubadour",
+        "tags": [],
+        "bases": {
+            "HP": 16,
+            "STR": 3,
+            "MAG": 6,
+            "SKL": 6,
+            "SPD": 8,
+            "LCK": 7,
+            "DEF": 3,
+            "CON": 6,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 15,
+            "MAG": 50,
+            "SKL": 50,
+            "SPD": 40,
+            "LCK": 65,
+            "DEF": 15,
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
+<<<<<<< Updated upstream
                 "Thunder",
+=======
+                "Heal",
+>>>>>>> Stashed changes
                 false
             ]
         ],
@@ -2181,7 +2334,7 @@
             ],
             "Staff": [
                 false,
-                0,
+                2,
                 251
             ],
             "Light": [
@@ -2319,9 +2472,12 @@
             "SPD": 13,
             "LCK": 2,
             "DEF": 5,
+<<<<<<< Updated upstream
             "RES": 1,
+=======
+>>>>>>> Stashed changes
             "CON": 9,
-            "MOV": 6
+            "MOV": 5
         },
         "growths": {
             "HP": 85,
@@ -2331,7 +2487,10 @@
             "SPD": 45,
             "LCK": 35,
             "DEF": 25,
+<<<<<<< Updated upstream
             "RES": 15,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -2347,7 +2506,11 @@
         "wexp_gain": {
             "Sword": [
                 false,
+<<<<<<< Updated upstream
                 181,
+=======
+                3,
+>>>>>>> Stashed changes
                 251
             ],
             "Lance": [
@@ -2412,7 +2575,10 @@
             "SPD": 10,
             "LCK": 2,
             "DEF": 1,
+<<<<<<< Updated upstream
             "RES": 7,
+=======
+>>>>>>> Stashed changes
             "CON": 13,
             "MOV": 5
         },
@@ -2424,7 +2590,10 @@
             "SPD": 40,
             "LCK": 20,
             "DEF": 10,
+<<<<<<< Updated upstream
             "RES": 60,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -2465,7 +2634,11 @@
             ],
             "Light": [
                 false,
+<<<<<<< Updated upstream
                 121,
+=======
+                2,
+>>>>>>> Stashed changes
                 251
             ],
             "Anima": [
@@ -2505,9 +2678,12 @@
             "SPD": 16,
             "LCK": 10,
             "DEF": 8,
+<<<<<<< Updated upstream
             "RES": 6,
+=======
+>>>>>>> Stashed changes
             "CON": 5,
-            "MOV": 5
+            "MOV": 8
         },
         "growths": {
             "HP": 75,
@@ -2517,7 +2693,10 @@
             "SPD": 50,
             "LCK": 45,
             "DEF": 20,
+<<<<<<< Updated upstream
             "RES": 25,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -2533,12 +2712,20 @@
         "wexp_gain": {
             "Sword": [
                 false,
+<<<<<<< Updated upstream
                 181,
+=======
+                3,
+>>>>>>> Stashed changes
                 251
             ],
             "Lance": [
                 false,
+<<<<<<< Updated upstream
                 121,
+=======
+                2,
+>>>>>>> Stashed changes
                 251
             ],
             "Axe": [
@@ -2585,7 +2772,11 @@
     {
         "nid": "Batta",
         "name": "Batta",
+<<<<<<< Updated upstream
         "desc": "A Ganelon Bandit. Called the Beast for his savagery",
+=======
+        "desc": "A Ganelon Bandit. Called the Beast for his Savagery\n",
+>>>>>>> Stashed changes
         "variant": null,
         "level": 2,
         "klass": "Brigand",
@@ -2598,19 +2789,30 @@
             "SPD": 3,
             "LCK": 2,
             "DEF": 3,
+<<<<<<< Updated upstream
             "RES": 3,
+=======
+>>>>>>> Stashed changes
             "CON": 5,
             "MOV": 5
         },
         "growths": {
             "HP": 0,
+<<<<<<< Updated upstream
             "STR": 30,
             "MAG": 20,
+=======
+            "STR": 0,
+            "MAG": 0,
+>>>>>>> Stashed changes
             "SKL": 0,
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
+<<<<<<< Updated upstream
             "RES": 0,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -2636,7 +2838,11 @@
             ],
             "Axe": [
                 false,
+<<<<<<< Updated upstream
                 121,
+=======
+                2,
+>>>>>>> Stashed changes
                 251
             ],
             "Bow": [
@@ -2678,7 +2884,11 @@
     {
         "nid": "Glass",
         "name": "Glass",
+<<<<<<< Updated upstream
         "desc": "A Sacaen Swordsman with a greddy heart.",
+=======
+        "desc": "A Sacaen swordsman with a greedy heart.",
+>>>>>>> Stashed changes
         "variant": null,
         "level": 3,
         "klass": "Mercenary",
@@ -2691,9 +2901,12 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 3,
+<<<<<<< Updated upstream
             "RES": 0,
+=======
+>>>>>>> Stashed changes
             "CON": 5,
-            "MOV": 6
+            "MOV": 5
         },
         "growths": {
             "HP": 0,
@@ -2703,7 +2916,10 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
+<<<<<<< Updated upstream
             "RES": 0,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -2719,7 +2935,11 @@
         "wexp_gain": {
             "Sword": [
                 false,
+<<<<<<< Updated upstream
                 181,
+=======
+                3,
+>>>>>>> Stashed changes
                 251
             ],
             "Lance": [
@@ -2771,10 +2991,17 @@
     {
         "nid": "Erik",
         "name": "Erik",
+<<<<<<< Updated upstream
         "desc": "Son of Marquess Laus",
         "variant": null,
         "level": 14,
         "klass": "Cavalier",
+=======
+        "desc": "The Son of Marquess Laus. Despises Eliwood and Hector\n",
+        "variant": null,
+        "level": 14,
+        "klass": "Lance_Knight",
+>>>>>>> Stashed changes
         "tags": [],
         "bases": {
             "HP": 33,
@@ -2784,9 +3011,12 @@
             "SPD": 10,
             "LCK": 6,
             "DEF": 9,
+<<<<<<< Updated upstream
             "RES": 10,
+=======
+>>>>>>> Stashed changes
             "CON": 16,
-            "MOV": 6
+            "MOV": 7
         },
         "growths": {
             "HP": 0,
@@ -2796,7 +3026,10 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
+<<<<<<< Updated upstream
             "RES": 0,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -2817,7 +3050,11 @@
             ],
             "Lance": [
                 false,
+<<<<<<< Updated upstream
                 121,
+=======
+                1,
+>>>>>>> Stashed changes
                 251
             ],
             "Axe": [
@@ -2867,7 +3104,11 @@
         "desc": "A former Black Fang once known as Hurricane.",
         "variant": null,
         "level": 12,
+<<<<<<< Updated upstream
         "klass": "Thief",
+=======
+        "klass": "Sage",
+>>>>>>> Stashed changes
         "tags": [],
         "bases": {
             "HP": 26,
@@ -2889,7 +3130,10 @@
             "SPD": 60,
             "LCK": 60,
             "DEF": 25,
+<<<<<<< Updated upstream
             "RES": 25,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -2905,7 +3149,11 @@
         "wexp_gain": {
             "Sword": [
                 false,
+<<<<<<< Updated upstream
                 121,
+=======
+                2,
+>>>>>>> Stashed changes
                 251
             ],
             "Lance": [
@@ -2970,9 +3218,12 @@
             "SPD": 12,
             "LCK": 10,
             "DEF": 5,
+<<<<<<< Updated upstream
             "RES": 4,
+=======
+>>>>>>> Stashed changes
             "CON": 5,
-            "MOV": 4
+            "MOV": 5
         },
         "growths": {
             "HP": 85,
@@ -2982,14 +3233,21 @@
             "SPD": 70,
             "LCK": 80,
             "DEF": 30,
+<<<<<<< Updated upstream
             "RES": 70,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
+<<<<<<< Updated upstream
                 "Ninis_s_Grace",
+=======
+                "Vulnerary",
+>>>>>>> Stashed changes
                 false
             ]
         ],
@@ -3063,19 +3321,29 @@
             "SPD": 7,
             "LCK": 7,
             "DEF": 10,
+<<<<<<< Updated upstream
             "RES": 2,
+=======
+>>>>>>> Stashed changes
             "CON": 11,
             "MOV": 7
         },
         "growths": {
             "HP": 80,
             "STR": 50,
+<<<<<<< Updated upstream
             "MAG": 20,
+=======
+            "MAG": 10,
+>>>>>>> Stashed changes
             "SKL": 50,
             "SPD": 45,
             "LCK": 20,
             "DEF": 30,
+<<<<<<< Updated upstream
             "RES": 15,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -3101,7 +3369,11 @@
             ],
             "Axe": [
                 false,
+<<<<<<< Updated upstream
                 121,
+=======
+                2,
+>>>>>>> Stashed changes
                 251
             ],
             "Bow": [
@@ -3156,9 +3428,12 @@
             "SPD": 18,
             "LCK": 16,
             "DEF": 11,
+<<<<<<< Updated upstream
             "RES": 12,
+=======
+>>>>>>> Stashed changes
             "CON": 7,
-            "MOV": 0
+            "MOV": 6
         },
         "growths": {
             "HP": 60,
@@ -3168,14 +3443,21 @@
             "SPD": 55,
             "LCK": 40,
             "DEF": 10,
+<<<<<<< Updated upstream
             "RES": 20,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
+<<<<<<< Updated upstream
                 "Steel_Sword",
+=======
+                "Iron_Sword",
+>>>>>>> Stashed changes
                 false
             ]
         ],
@@ -3184,7 +3466,11 @@
         "wexp_gain": {
             "Sword": [
                 true,
+<<<<<<< Updated upstream
                 251,
+=======
+                4,
+>>>>>>> Stashed changes
                 251
             ],
             "Lance": [
@@ -3249,9 +3535,12 @@
             "SPD": 13,
             "LCK": 5,
             "DEF": 11,
+<<<<<<< Updated upstream
             "RES": 7,
+=======
+>>>>>>> Stashed changes
             "CON": 15,
-            "MOV": 6
+            "MOV": 8
         },
         "growths": {
             "HP": 75,
@@ -3261,22 +3550,17 @@
             "SPD": 20,
             "LCK": 15,
             "DEF": 30,
+<<<<<<< Updated upstream
             "RES": 15,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Silver_Lance",
-                false
-            ],
-            [
-                "Silver_Axe",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Iron_Sword",
                 false
             ]
         ],
@@ -3285,17 +3569,21 @@
         "wexp_gain": {
             "Sword": [
                 false,
+<<<<<<< Updated upstream
                 251,
+=======
+                3,
+>>>>>>> Stashed changes
                 251
             ],
             "Lance": [
                 false,
-                181,
+                2,
                 251
             ],
             "Axe": [
                 false,
-                181,
+                0,
                 251
             ],
             "Bow": [
@@ -3338,7 +3626,11 @@
         "nid": "Juno",
         "name": "Juno",
         "desc": "A former squad leader of Ilia\u2019s pegasus knights. Zealot\u2019s wife.",
+<<<<<<< Updated upstream
         "variant": null,
+=======
+        "variant": "",
+>>>>>>> Stashed changes
         "level": 9,
         "klass": "Falcoknight",
         "tags": [],
@@ -3350,9 +3642,12 @@
             "SPD": 18,
             "LCK": 14,
             "DEF": 12,
+<<<<<<< Updated upstream
             "RES": 14,
+=======
+>>>>>>> Stashed changes
             "CON": 15,
-            "MOV": 6
+            "MOV": 8
         },
         "growths": {
             "HP": 0,
@@ -3362,14 +3657,21 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
+<<<<<<< Updated upstream
             "RES": 0,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
+<<<<<<< Updated upstream
                 "Silver_Lance",
+=======
+                "Iron_Lance",
+>>>>>>> Stashed changes
                 false
             ]
         ],
@@ -3378,12 +3680,16 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                2,
                 251
             ],
             "Lance": [
                 false,
+<<<<<<< Updated upstream
                 251,
+=======
+                3,
+>>>>>>> Stashed changes
                 251
             ],
             "Axe": [
@@ -3443,9 +3749,12 @@
             "SPD": 13,
             "LCK": 6,
             "DEF": 6,
+<<<<<<< Updated upstream
             "RES": 7,
+=======
+>>>>>>> Stashed changes
             "CON": 15,
-            "MOV": 6
+            "MOV": 7
         },
         "growths": {
             "HP": 70,
@@ -3455,7 +3764,10 @@
             "SPD": 50,
             "LCK": 30,
             "DEF": 20,
+<<<<<<< Updated upstream
             "RES": 50,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -3476,7 +3788,11 @@
             ],
             "Lance": [
                 false,
+<<<<<<< Updated upstream
                 121,
+=======
+                2,
+>>>>>>> Stashed changes
                 251
             ],
             "Axe": [
@@ -3536,7 +3852,10 @@
             "SPD": 17,
             "LCK": 14,
             "DEF": 11,
+<<<<<<< Updated upstream
             "RES": 18,
+=======
+>>>>>>> Stashed changes
             "CON": 15,
             "MOV": 6
         },
@@ -3548,18 +3867,29 @@
             "SPD": 40,
             "LCK": 40,
             "DEF": 30,
+<<<<<<< Updated upstream
             "RES": 35,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
+<<<<<<< Updated upstream
                 "Heal",
                 false
             ],
             [
                 "Fire",
+=======
+                "Fire",
+                false
+            ],
+            [
+                "Heal",
+>>>>>>> Stashed changes
                 false
             ]
         ],
@@ -3588,7 +3918,11 @@
             ],
             "Staff": [
                 false,
+<<<<<<< Updated upstream
                 121,
+=======
+                2,
+>>>>>>> Stashed changes
                 251
             ],
             "Light": [
@@ -3610,6 +3944,21 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                3,
+                null
+            ],
+            "Fire": [
+                false,
+                3,
+                null
+            ],
+            "Thunder": [
+                false,
+                4,
+                null
             ]
         },
         "alternate_classes": [],
@@ -3622,7 +3971,11 @@
         "name": "Louise",
         "desc": "The wife of Marquess Reglay. A lethal beauty.",
         "variant": null,
+<<<<<<< Updated upstream
         "level": 12,
+=======
+        "level": 4,
+>>>>>>> Stashed changes
         "klass": "Sniper",
         "tags": [],
         "bases": {
@@ -3633,7 +3986,10 @@
             "SPD": 17,
             "LCK": 16,
             "DEF": 9,
+<<<<<<< Updated upstream
             "RES": 12,
+=======
+>>>>>>> Stashed changes
             "CON": 15,
             "MOV": 6
         },
@@ -3645,7 +4001,10 @@
             "SPD": 40,
             "LCK": 30,
             "DEF": 20,
+<<<<<<< Updated upstream
             "RES": 30,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -3676,7 +4035,11 @@
             ],
             "Bow": [
                 false,
+<<<<<<< Updated upstream
                 251,
+=======
+                4,
+>>>>>>> Stashed changes
                 251
             ],
             "Staff": [
@@ -3726,7 +4089,10 @@
             "SPD": 20,
             "LCK": 15,
             "DEF": 13,
+<<<<<<< Updated upstream
             "RES": 12,
+=======
+>>>>>>> Stashed changes
             "CON": 15,
             "MOV": 6
         },
@@ -3738,7 +4104,10 @@
             "SPD": 50,
             "LCK": 30,
             "DEF": 10,
+<<<<<<< Updated upstream
             "RES": 15,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -3754,7 +4123,11 @@
         "wexp_gain": {
             "Sword": [
                 false,
+<<<<<<< Updated upstream
                 251,
+=======
+                4,
+>>>>>>> Stashed changes
                 251
             ],
             "Lance": [
@@ -3819,7 +4192,10 @@
             "SPD": 17,
             "LCK": 12,
             "DEF": 15,
+<<<<<<< Updated upstream
             "RES": 10,
+=======
+>>>>>>> Stashed changes
             "CON": 15,
             "MOV": 6
         },
@@ -3831,7 +4207,10 @@
             "SPD": 40,
             "LCK": 20,
             "DEF": 30,
+<<<<<<< Updated upstream
             "RES": 25,
+=======
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
@@ -3839,10 +4218,13 @@
         "starting_items": [
             [
                 "Iron_Sword",
+<<<<<<< Updated upstream
                 false
             ],
             [
                 "Iron_Axe",
+=======
+>>>>>>> Stashed changes
                 false
             ]
         ],
@@ -3851,7 +4233,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                3,
                 251
             ],
             "Lance": [
@@ -3861,7 +4243,7 @@
             ],
             "Axe": [
                 false,
-                181,
+                3,
                 251
             ],
             "Bow": [
@@ -3903,12 +4285,13 @@
     {
         "nid": "Douglas",
         "name": "Douglas",
-        "desc": "A courageous general in Grado\u2019s army. He\u2019s better known as Obsidian.",
+        "desc": "The Great General of Etruria.",
         "variant": null,
-        "level": 9,
-        "klass": "Great_Knight",
+        "level": 8,
+        "klass": "General",
         "tags": [],
         "bases": {
+<<<<<<< Updated upstream
             "HP": 41,
             "STR": 17,
             "MAG": 2,
@@ -3917,33 +4300,38 @@
             "LCK": 8,
             "DEF": 17,
             "RES": 9,
+=======
+            "HP": 46,
+            "STR": 19,
+            "MAG": 5,
+            "SKL": 13,
+            "SPD": 8,
+            "LCK": 11,
+            "DEF": 20,
+>>>>>>> Stashed changes
             "CON": 15,
-            "MOV": 6
+            "MOV": 5
         },
         "growths": {
-            "HP": 85,
-            "STR": 55,
+            "HP": 60,
+            "STR": 30,
             "MAG": 5,
-            "SKL": 40,
+            "SKL": 30,
             "SPD": 30,
             "LCK": 20,
+<<<<<<< Updated upstream
             "DEF": 45,
             "RES": 30,
+=======
+            "DEF": 30,
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Silver_Lance",
-                false
-            ],
-            [
-                "Silver_Axe",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Iron_Axe",
                 false
             ]
         ],
@@ -3952,22 +4340,22 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                2,
                 251
             ],
             "Lance": [
                 false,
-                181,
+                2,
                 251
             ],
             "Axe": [
                 false,
-                181,
+                3,
                 251
             ],
             "Bow": [
                 false,
-                0,
+                2,
                 251
             ],
             "Staff": [
@@ -3997,19 +4385,20 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Faceless Blob",
+        "portrait_nid": "Douglas",
         "affinity": "Anima",
         "fields": []
     },
     {
         "nid": "Canas",
         "name": "Canas",
-        "desc": "A courageous general in Grado\u2019s army. He\u2019s better known as Obsidian.",
+        "desc": "A scholar, and a novice student of ancient magics.",
         "variant": null,
-        "level": 9,
-        "klass": "Great_Knight",
+        "level": 8,
+        "klass": "Shaman",
         "tags": [],
         "bases": {
+<<<<<<< Updated upstream
             "HP": 41,
             "STR": 17,
             "MAG": 2,
@@ -4018,33 +4407,40 @@
             "LCK": 8,
             "DEF": 17,
             "RES": 9,
+=======
+            "HP": 21,
+            "STR": 5,
+            "MAG": 10,
+            "SKL": 9,
+            "SPD": 8,
+            "LCK": 7,
+            "DEF": 5,
+>>>>>>> Stashed changes
             "CON": 15,
-            "MOV": 6
+            "MOV": 5
         },
         "growths": {
-            "HP": 85,
-            "STR": 55,
-            "MAG": 5,
+            "HP": 70,
+            "STR": 25,
+            "MAG": 45,
             "SKL": 40,
+<<<<<<< Updated upstream
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
             "RES": 30,
+=======
+            "SPD": 35,
+            "LCK": 25,
+            "DEF": 25,
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Silver_Lance",
-                false
-            ],
-            [
-                "Silver_Axe",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Flux",
                 false
             ]
         ],
@@ -4053,17 +4449,17 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                0,
                 251
             ],
             "Lance": [
                 false,
-                181,
+                0,
                 251
             ],
             "Axe": [
                 false,
-                181,
+                0,
                 251
             ],
             "Bow": [
@@ -4088,7 +4484,7 @@
             ],
             "Dark": [
                 false,
-                0,
+                3,
                 251
             ],
             "Default": [
@@ -4105,12 +4501,13 @@
     {
         "nid": "Hawkeye",
         "name": "Hawkeye",
-        "desc": "A courageous general in Grado\u2019s army. He\u2019s better known as Obsidian.",
+        "desc": "The protector of Nabata. A mysterious air surrounds him.",
         "variant": null,
-        "level": 9,
-        "klass": "Great_Knight",
+        "level": 4,
+        "klass": "Berserker",
         "tags": [],
         "bases": {
+<<<<<<< Updated upstream
             "HP": 41,
             "STR": 17,
             "MAG": 2,
@@ -4119,10 +4516,20 @@
             "LCK": 8,
             "DEF": 17,
             "RES": 9,
+=======
+            "HP": 50,
+            "STR": 18,
+            "MAG": 10,
+            "SKL": 14,
+            "SPD": 11,
+            "LCK": 13,
+            "DEF": 14,
+>>>>>>> Stashed changes
             "CON": 15,
             "MOV": 6
         },
         "growths": {
+<<<<<<< Updated upstream
             "HP": 85,
             "STR": 55,
             "MAG": 5,
@@ -4131,21 +4538,22 @@
             "LCK": 20,
             "DEF": 45,
             "RES": 30,
+=======
+            "HP": 50,
+            "STR": 40,
+            "MAG": 35,
+            "SKL": 30,
+            "SPD": 25,
+            "LCK": 40,
+            "DEF": 20,
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Silver_Lance",
-                false
-            ],
-            [
-                "Silver_Axe",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Iron_Axe",
                 false
             ]
         ],
@@ -4154,17 +4562,17 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                0,
                 251
             ],
             "Lance": [
                 false,
-                181,
+                0,
                 251
             ],
             "Axe": [
                 false,
-                181,
+                3,
                 251
             ],
             "Bow": [
@@ -4206,25 +4614,32 @@
     {
         "nid": "Geitz",
         "name": "Geitz",
-        "desc": "A courageous general in Grado\u2019s army. He\u2019s better known as Obsidian.",
+        "desc": "The eldest son of a wealthy merchant. Finding himself.",
         "variant": null,
-        "level": 9,
-        "klass": "Great_Knight",
+        "level": 3,
+        "klass": "Warrior",
         "tags": [],
         "bases": {
-            "HP": 41,
+            "HP": 40,
             "STR": 17,
-            "MAG": 2,
+            "MAG": 3,
             "SKL": 12,
+<<<<<<< Updated upstream
             "SPD": 12,
             "LCK": 8,
             "DEF": 17,
             "RES": 9,
+=======
+            "SPD": 13,
+            "LCK": 10,
+            "DEF": 11,
+>>>>>>> Stashed changes
             "CON": 15,
             "MOV": 6
         },
         "growths": {
             "HP": 85,
+<<<<<<< Updated upstream
             "STR": 55,
             "MAG": 5,
             "SKL": 40,
@@ -4232,21 +4647,21 @@
             "LCK": 20,
             "DEF": 45,
             "RES": 30,
+=======
+            "STR": 50,
+            "MAG": 20,
+            "SKL": 30,
+            "SPD": 40,
+            "LCK": 40,
+            "DEF": 20,
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Silver_Lance",
-                false
-            ],
-            [
-                "Silver_Axe",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Iron_Axe",
                 false
             ]
         ],
@@ -4255,22 +4670,22 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                0,
                 251
             ],
             "Lance": [
                 false,
-                181,
+                0,
                 251
             ],
             "Axe": [
                 false,
-                181,
+                3,
                 251
             ],
             "Bow": [
                 false,
-                0,
+                3,
                 251
             ],
             "Staff": [
@@ -4307,12 +4722,13 @@
     {
         "nid": "Farina",
         "name": "Farina",
-        "desc": "A courageous general in Grado\u2019s army. He\u2019s better known as Obsidian.",
+        "desc": "A member of the 3rd wing of Ilia\u2019s pegasus knights.",
         "variant": null,
-        "level": 9,
-        "klass": "Great_Knight",
+        "level": 12,
+        "klass": "Pegasus_Knight",
         "tags": [],
         "bases": {
+<<<<<<< Updated upstream
             "HP": 41,
             "STR": 17,
             "MAG": 2,
@@ -4321,33 +4737,40 @@
             "LCK": 8,
             "DEF": 17,
             "RES": 9,
+=======
+            "HP": 24,
+            "STR": 10,
+            "MAG": 12,
+            "SKL": 13,
+            "SPD": 14,
+            "LCK": 10,
+            "DEF": 10,
+>>>>>>> Stashed changes
             "CON": 15,
             "MOV": 6
         },
         "growths": {
-            "HP": 85,
-            "STR": 55,
-            "MAG": 5,
+            "HP": 75,
+            "STR": 50,
+            "MAG": 30,
             "SKL": 40,
+<<<<<<< Updated upstream
             "SPD": 30,
             "LCK": 20,
             "DEF": 45,
             "RES": 30,
+=======
+            "SPD": 45,
+            "LCK": 45,
+            "DEF": 25,
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Silver_Lance",
-                false
-            ],
-            [
-                "Silver_Axe",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Iron_Lance",
                 false
             ]
         ],
@@ -4356,17 +4779,17 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                0,
                 251
             ],
             "Lance": [
                 false,
-                181,
+                2,
                 251
             ],
             "Axe": [
                 false,
-                181,
+                0,
                 251
             ],
             "Bow": [
@@ -4408,13 +4831,14 @@
     {
         "nid": "Nino",
         "name": "Nino",
-        "desc": "A courageous general in Grado\u2019s army. He\u2019s better known as Obsidian.",
+        "desc": "One of the Black Fang. True and innocent.",
         "variant": null,
         "level": 9,
-        "klass": "Great_Knight",
+        "klass": "Wind_Mage",
         "tags": [],
         "bases": {
             "HP": 41,
+<<<<<<< Updated upstream
             "STR": 17,
             "MAG": 2,
             "SKL": 12,
@@ -4422,10 +4846,19 @@
             "LCK": 8,
             "DEF": 17,
             "RES": 9,
+=======
+            "STR": 4,
+            "MAG": 7,
+            "SKL": 8,
+            "SPD": 11,
+            "LCK": 10,
+            "DEF": 4,
+>>>>>>> Stashed changes
             "CON": 15,
-            "MOV": 6
+            "MOV": 5
         },
         "growths": {
+<<<<<<< Updated upstream
             "HP": 85,
             "STR": 55,
             "MAG": 5,
@@ -4434,21 +4867,22 @@
             "LCK": 20,
             "DEF": 45,
             "RES": 30,
+=======
+            "HP": 55,
+            "STR": 15,
+            "MAG": 50,
+            "SKL": 55,
+            "SPD": 60,
+            "LCK": 45,
+            "DEF": 15,
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Silver_Lance",
-                false
-            ],
-            [
-                "Silver_Axe",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Fire",
                 false
             ]
         ],
@@ -4457,17 +4891,17 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                0,
                 251
             ],
             "Lance": [
                 false,
-                181,
+                0,
                 251
             ],
             "Axe": [
                 false,
-                181,
+                0,
                 251
             ],
             "Bow": [
@@ -4499,6 +4933,21 @@
                 false,
                 0,
                 251
+            ],
+            "Wind": [
+                false,
+                3,
+                null
+            ],
+            "Fire": [
+                false,
+                1,
+                null
+            ],
+            "Thunder": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -4509,12 +4958,13 @@
     {
         "nid": "Jaffar",
         "name": "Jaffar",
-        "desc": "A courageous general in Grado\u2019s army. He\u2019s better known as Obsidian.",
+        "desc": "The Black Fang\u2019s Angel of Death. Once served Nergal.",
         "variant": null,
-        "level": 9,
-        "klass": "Great_Knight",
+        "level": 13,
+        "klass": "Assassin",
         "tags": [],
         "bases": {
+<<<<<<< Updated upstream
             "HP": 41,
             "STR": 17,
             "MAG": 2,
@@ -4523,33 +4973,38 @@
             "LCK": 8,
             "DEF": 17,
             "RES": 9,
+=======
+            "HP": 34,
+            "STR": 19,
+            "MAG": 11,
+            "SKL": 25,
+            "SPD": 24,
+            "LCK": 10,
+            "DEF": 15,
+>>>>>>> Stashed changes
             "CON": 15,
             "MOV": 6
         },
         "growths": {
-            "HP": 85,
-            "STR": 55,
-            "MAG": 5,
+            "HP": 65,
+            "STR": 15,
+            "MAG": 30,
             "SKL": 40,
-            "SPD": 30,
+            "SPD": 35,
             "LCK": 20,
+<<<<<<< Updated upstream
             "DEF": 45,
             "RES": 30,
+=======
+            "DEF": 30,
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Silver_Lance",
-                false
-            ],
-            [
-                "Silver_Axe",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Iron_Sword",
                 false
             ]
         ],
@@ -4610,24 +5065,29 @@
     {
         "nid": "Leila",
         "name": "Leila",
-        "desc": "A courageous general in Grado\u2019s army. He\u2019s better known as Obsidian.",
+        "desc": "A spy in service to House Ostia.",
         "variant": null,
         "level": 9,
-        "klass": "Great_Knight",
+        "klass": "Thief",
         "tags": [],
         "bases": {
-            "HP": 41,
-            "STR": 17,
-            "MAG": 2,
-            "SKL": 12,
-            "SPD": 12,
+            "HP": 24,
+            "STR": 14,
+            "MAG": 15,
+            "SKL": 20,
+            "SPD": 20,
             "LCK": 8,
+<<<<<<< Updated upstream
             "DEF": 17,
             "RES": 9,
+=======
+            "DEF": 12,
+>>>>>>> Stashed changes
             "CON": 15,
             "MOV": 6
         },
         "growths": {
+<<<<<<< Updated upstream
             "HP": 85,
             "STR": 55,
             "MAG": 5,
@@ -4636,21 +5096,22 @@
             "LCK": 20,
             "DEF": 45,
             "RES": 30,
+=======
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+>>>>>>> Stashed changes
             "CON": 0,
             "MOV": 0
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Silver_Lance",
-                false
-            ],
-            [
-                "Silver_Axe",
-                false
-            ],
-            [
-                "Vulnerary",
+                "Iron_Sword",
                 false
             ]
         ],
@@ -4659,17 +5120,17 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                2,
                 251
             ],
             "Lance": [
                 false,
-                181,
+                0,
                 251
             ],
             "Axe": [
                 false,
-                181,
+                0,
                 251
             ],
             "Bow": [

@@ -10,7 +10,7 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 10,
+        "max_level": 40,
         "bases": {
             "HP": 10,
             "STR": 0,
@@ -148,7 +148,7 @@
             "Sword",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 4,
@@ -286,7 +286,7 @@
             "Sword",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 3,
@@ -390,10 +390,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -403,7 +413,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -428,7 +447,7 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 6,
@@ -527,10 +546,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -540,7 +569,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -565,7 +603,7 @@
             "Mounted",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 3,
@@ -669,10 +707,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -682,7 +730,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -705,7 +762,7 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 14,
             "STR": 1,
@@ -809,10 +866,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -822,7 +889,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -848,7 +924,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 4,
@@ -947,10 +1023,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -960,7 +1046,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Myrmidon",
@@ -983,7 +1078,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 6,
@@ -1087,10 +1182,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -1100,7 +1205,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Swordmaster",
@@ -1126,7 +1240,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -1261,7 +1375,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 22,
             "STR": 6,
@@ -1399,7 +1513,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 3,
@@ -1539,7 +1653,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 3,
@@ -1643,10 +1757,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -1656,7 +1780,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Assassin",
@@ -1679,7 +1812,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 3,
@@ -1783,10 +1916,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -1796,7 +1939,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Assassin",
@@ -1823,7 +1975,7 @@
             "AutoPromote",
             "ArenaIgnore"
         ],
-        "max_level": 10,
+        "max_level": 40,
         "bases": {
             "HP": 13,
             "STR": 3,
@@ -1922,10 +2074,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -1935,7 +2097,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -1956,7 +2127,7 @@
         "promotes_from": null,
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 3,
@@ -2055,10 +2226,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -2068,7 +2249,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Soldier",
@@ -2095,7 +2285,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -2199,10 +2389,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -2212,7 +2412,460 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Cavalier",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Cavalier",
+        "combat_anim_nid": "Cavalier",
+        "fields": []
+    },
+    {
+        "nid": "Sword_Knight",
+        "name": "Sword Knight",
+        "desc": "Mounted knights with superior movement.",
+        "tier": 1,
+        "movement_group": "Heavy Cav",
+        "promotes_from": null,
+        "turns_into": [
+            "Paladin",
+            "Great_Knight"
+        ],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 20,
+            "STR": 5,
+            "MAG": 2,
+            "SKL": 3,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 6,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 35,
+            "MAG": 17,
+            "SKL": 40,
+            "SPD": 28,
+            "LCK": 30,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                4
+            ],
+            "Lance": [
+                true,
+                31,
+                4
+            ],
+            "Axe": [
+                false,
+                0,
+                4
+            ],
+            "Bow": [
+                false,
+                0,
+                4
+            ],
+            "Staff": [
+                false,
+                0,
+                4
+            ],
+            "Light": [
+                false,
+                0,
+                4
+            ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                4
+            ],
+            "Default": [
+                false,
+                0,
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Cavalier",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Cavalier",
+        "combat_anim_nid": "Cavalier",
+        "fields": []
+    },
+    {
+        "nid": "Lance_Knight",
+        "name": "Lance Knight",
+        "desc": "Mounted knights with superior movement.",
+        "tier": 1,
+        "movement_group": "Heavy Cav",
+        "promotes_from": null,
+        "turns_into": [
+            "Paladin",
+            "Great_Knight"
+        ],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 20,
+            "STR": 5,
+            "MAG": 2,
+            "SKL": 3,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 6,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 35,
+            "MAG": 17,
+            "SKL": 40,
+            "SPD": 28,
+            "LCK": 30,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                4
+            ],
+            "Lance": [
+                true,
+                31,
+                4
+            ],
+            "Axe": [
+                false,
+                0,
+                4
+            ],
+            "Bow": [
+                false,
+                0,
+                4
+            ],
+            "Staff": [
+                false,
+                0,
+                4
+            ],
+            "Light": [
+                false,
+                0,
+                4
+            ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                4
+            ],
+            "Default": [
+                false,
+                0,
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Cavalier",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Cavalier",
+        "combat_anim_nid": "Cavalier",
+        "fields": []
+    },
+    {
+        "nid": "Knight_Axe",
+        "name": "Axe Knight",
+        "desc": "Mounted knights with superior movement.",
+        "tier": 1,
+        "movement_group": "Heavy Cav",
+        "promotes_from": null,
+        "turns_into": [
+            "Paladin",
+            "Great_Knight"
+        ],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 20,
+            "STR": 5,
+            "MAG": 2,
+            "SKL": 3,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 6,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 35,
+            "MAG": 17,
+            "SKL": 40,
+            "SPD": 28,
+            "LCK": 30,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                1,
+                4
+            ],
+            "Lance": [
+                true,
+                31,
+                4
+            ],
+            "Axe": [
+                false,
+                0,
+                4
+            ],
+            "Bow": [
+                false,
+                0,
+                4
+            ],
+            "Staff": [
+                false,
+                0,
+                4
+            ],
+            "Light": [
+                false,
+                0,
+                4
+            ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                4
+            ],
+            "Default": [
+                false,
+                0,
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Cavalier",
@@ -2236,7 +2889,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 23,
             "STR": 7,
@@ -2340,10 +2993,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -2353,7 +3016,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Paladin",
@@ -2378,7 +3050,7 @@
             "Mounted",
             "Armor"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 8,
@@ -2522,7 +3194,7 @@
             "Mounted",
             "Flying"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 14,
             "STR": 4,
@@ -2626,10 +3298,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -2639,7 +3321,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Pegasus_Knight",
@@ -2663,7 +3354,7 @@
             "Mounted",
             "Flying"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 6,
@@ -2801,7 +3492,7 @@
         "tags": [
             "Armor"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 17,
             "STR": 5,
@@ -2903,7 +3594,138 @@
             "Anima": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Knight",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Knight",
+        "combat_anim_nid": "Knight",
+        "fields": []
+    },
+    {
+        "nid": "Sword_Armor",
+        "name": "Sword Armor",
+        "desc": "Heavily armored knights with poor movement.",
+        "tier": 1,
+        "movement_group": "Armors",
+        "promotes_from": null,
+        "turns_into": [
+            "Great_Knight",
+            "General"
+        ],
+        "tags": [
+            "Armor"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 17,
+            "STR": 5,
+            "MAG": 0,
+            "SKL": 3,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 9,
+            "CON": 13,
+            "MOV": 4
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 40,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 15,
+            "LCK": 25,
+            "DEF": 28,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                4
+            ],
+            "Lance": [
+                true,
+                31,
+                4
+            ],
+            "Axe": [
+                false,
+                0,
+                4
+            ],
+            "Bow": [
+                false,
+                0,
+                4
+            ],
+            "Staff": [
+                false,
+                0,
+                4
+            ],
+            "Light": [
+                false,
+                0,
+                4
+            ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+>>>>>>> Stashed changes
             ],
             "Dark": [
                 false,
@@ -2913,7 +3735,158 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Knight",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Knight",
+        "combat_anim_nid": "Knight",
+        "fields": []
+    },
+    {
+        "nid": "Axe_Armor",
+        "name": "Axe Armor",
+        "desc": "Heavily armored knights with poor movement.",
+        "tier": 1,
+        "movement_group": "Armors",
+        "promotes_from": null,
+        "turns_into": [
+            "Great_Knight",
+            "General"
+        ],
+        "tags": [
+            "Armor"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 17,
+            "STR": 5,
+            "MAG": 0,
+            "SKL": 3,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 9,
+            "CON": 13,
+            "MOV": 4
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 40,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 15,
+            "LCK": 25,
+            "DEF": 28,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                4
+            ],
+            "Lance": [
+                true,
+                31,
+                4
+            ],
+            "Axe": [
+                false,
+                0,
+                4
+            ],
+            "Bow": [
+                false,
+                0,
+                4
+            ],
+            "Staff": [
+                false,
+                0,
+                4
+            ],
+            "Light": [
+                false,
+                0,
+                4
+            ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                4
+            ],
+            "Default": [
+                false,
+                0,
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Knight",
@@ -2936,7 +3909,7 @@
         "tags": [
             "Armor"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 8,
@@ -3040,10 +4013,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -3053,7 +4036,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_General",
@@ -3080,7 +4072,7 @@
             "AutoPromote",
             "ArenaIgnore"
         ],
-        "max_level": 10,
+        "max_level": 40,
         "bases": {
             "HP": 14,
             "STR": 3,
@@ -3179,10 +4171,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -3192,7 +4194,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -3216,7 +4227,7 @@
             "Warrior"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -3315,10 +4326,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -3328,7 +4349,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Fighter",
@@ -3349,7 +4379,7 @@
         "promotes_from": "Fighter",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 28,
             "STR": 8,
@@ -3448,10 +4478,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -3461,7 +4501,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Warrior",
@@ -3484,7 +4533,7 @@
             "Berserker"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 19,
             "STR": 4,
@@ -3583,10 +4632,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -3596,7 +4655,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Pirate",
@@ -3617,7 +4685,7 @@
         "promotes_from": "Pirate",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 24,
             "STR": 7,
@@ -3721,10 +4789,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -3734,7 +4812,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Berserker",
@@ -3757,7 +4844,7 @@
             "Berserker"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -3856,10 +4943,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -3869,7 +4966,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Brigand",
@@ -3893,7 +4999,7 @@
             "Ranger"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -4026,7 +5132,7 @@
         "promotes_from": "Archer",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 7,
@@ -4156,8 +5262,153 @@
         "fields": []
     },
     {
+<<<<<<< Updated upstream
         "nid": "Ranger",
         "name": "Ranger",
+=======
+        "nid": "Ballistician",
+        "name": "Ballistician",
+        "desc": "Lightly armored soldiers armed with bows. Can attack from a distance.",
+        "tier": 2,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Sniper",
+            "Nomad_Trooper"
+        ],
+        "tags": [],
+        "max_level": 40,
+        "bases": {
+            "HP": 18,
+            "STR": 4,
+            "MAG": 0,
+            "SKL": 3,
+            "SPD": 4,
+            "LCK": 0,
+            "DEF": 3,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 35,
+            "MAG": 0,
+            "SKL": 40,
+            "SPD": 32,
+            "LCK": 35,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                4
+            ],
+            "Lance": [
+                false,
+                0,
+                4
+            ],
+            "Axe": [
+                false,
+                0,
+                4
+            ],
+            "Bow": [
+                true,
+                3,
+                4
+            ],
+            "Staff": [
+                false,
+                0,
+                4
+            ],
+            "Light": [
+                false,
+                0,
+                4
+            ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                4
+            ],
+            "Default": [
+                false,
+                0,
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Archer",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Archer",
+        "combat_anim_nid": "Archer",
+        "fields": []
+    },
+    {
+        "nid": "Nomad",
+        "name": "Nomad",
+>>>>>>> Stashed changes
         "desc": "Fighters skilled in both sword and bow.",
         "tier": 2,
         "movement_group": "Light Cav",
@@ -4167,7 +5418,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 7,
@@ -4230,9 +5481,158 @@
             "DEF": 24,
             "RES": 25,
             "CON": 25,
+<<<<<<< Updated upstream
             "MOV": 15,
             "LEAD": 60,
             "New Stat": 30
+=======
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                4
+            ],
+            "Lance": [
+                false,
+                0,
+                4
+            ],
+            "Axe": [
+                false,
+                0,
+                4
+            ],
+            "Bow": [
+                true,
+                31,
+                4
+            ],
+            "Staff": [
+                false,
+                0,
+                4
+            ],
+            "Light": [
+                false,
+                0,
+                4
+            ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                4
+            ],
+            "Default": [
+                false,
+                0,
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Ranger",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Ranger",
+        "combat_anim_nid": "Ranger",
+        "fields": []
+    },
+    {
+        "nid": "Nomad_Trooper",
+        "name": "Nomad Trooper",
+        "desc": "Fighters skilled in both sword and bow.",
+        "tier": 2,
+        "movement_group": "Light Cav",
+        "promotes_from": "Archer",
+        "turns_into": [],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 21,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 0,
+            "DEF": 6,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 25,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 35,
+            "LCK": 25,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 3,
+            "STR": 2,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 1,
+            "LCK": 0,
+            "DEF": 3,
+            "CON": 3,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 25,
+            "MAG": 20,
+            "SKL": 28,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 24,
+            "CON": 25,
+            "MOV": 15
+>>>>>>> Stashed changes
         },
         "learned_skills": [
             [
@@ -4271,10 +5671,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -4284,7 +5694,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Ranger",
@@ -4308,7 +5727,7 @@
             "Sage"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -4407,10 +5826,20 @@
                 1,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -4420,7 +5849,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Monk",
@@ -4447,7 +5885,7 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -4546,10 +5984,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -4559,7 +6007,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Cleric",
@@ -4580,7 +6037,7 @@
         "promotes_from": "Cleric",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 0,
@@ -4684,10 +6141,20 @@
                 16,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -4697,7 +6164,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Bishop",
@@ -4724,7 +6200,7 @@
             "AutoPromote",
             "ArenaIgnore"
         ],
-        "max_level": 10,
+        "max_level": 40,
         "bases": {
             "HP": 13,
             "STR": 0,
@@ -4793,9 +6269,19 @@
                 0,
                 null
             ],
-            "Anima": [
+            "Wind": [
                 true,
                 1,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
                 null
             ],
             "Dark": [
@@ -4807,6 +6293,14 @@
                 false,
                 0,
                 null
+<<<<<<< Updated upstream
+=======
+            ],
+            "Anima": [
+                true,
+                1,
+                null
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -4830,7 +6324,7 @@
             "Mage_Knight"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 0,
@@ -4929,10 +6423,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 true,
                 31,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -4942,7 +6446,296 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                true,
+                31,
+                4
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Mage (1)",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Mage",
+        "combat_anim_nid": "Mage",
+        "fields": []
+    },
+    {
+        "nid": "Thunder_Mage",
+        "name": "Thunder Mage",
+        "desc": "Curious practioners of anima magic.",
+        "tier": 1,
+        "movement_group": "Mages",
+        "promotes_from": null,
+        "turns_into": [
+            "Sage",
+            "Mage_Knight"
+        ],
+        "tags": [],
+        "max_level": 40,
+        "bases": {
+            "HP": 16,
+            "STR": 0,
+            "MAG": 1,
+            "SKL": 3,
+            "SPD": 3,
+            "LCK": 0,
+            "DEF": 3,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 0,
+            "MAG": 55,
+            "SKL": 40,
+            "SPD": 35,
+            "LCK": 20,
+            "DEF": 5,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 1,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 1,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 1,
+            "CON": 1,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                4
+            ],
+            "Lance": [
+                false,
+                0,
+                4
+            ],
+            "Axe": [
+                false,
+                0,
+                4
+            ],
+            "Bow": [
+                false,
+                0,
+                4
+            ],
+            "Staff": [
+                false,
+                0,
+                4
+            ],
+            "Light": [
+                false,
+                0,
+                4
+            ],
+            "Wind": [
+                true,
+                31,
+                4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                4
+            ],
+            "Default": [
+                false,
+                0,
+                4
+            ],
+            "Anima": [
+                true,
+                31,
+                4
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Mage (1)",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Mage",
+        "combat_anim_nid": "Mage",
+        "fields": []
+    },
+    {
+        "nid": "Wind_Mage",
+        "name": "Wind_Mage",
+        "desc": "Curious practioners of anima magic.",
+        "tier": 1,
+        "movement_group": "Mages",
+        "promotes_from": null,
+        "turns_into": [
+            "Sage",
+            "Mage_Knight"
+        ],
+        "tags": [],
+        "max_level": 40,
+        "bases": {
+            "HP": 16,
+            "STR": 0,
+            "MAG": 1,
+            "SKL": 3,
+            "SPD": 3,
+            "LCK": 0,
+            "DEF": 3,
+            "CON": 5,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 0,
+            "MAG": 55,
+            "SKL": 40,
+            "SPD": 35,
+            "LCK": 20,
+            "DEF": 5,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 1,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 1,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 1,
+            "CON": 1,
+            "MOV": -99
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 20,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                4
+            ],
+            "Lance": [
+                false,
+                0,
+                4
+            ],
+            "Axe": [
+                false,
+                0,
+                4
+            ],
+            "Bow": [
+                false,
+                0,
+                4
+            ],
+            "Staff": [
+                false,
+                0,
+                4
+            ],
+            "Light": [
+                false,
+                0,
+                4
+            ],
+            "Wind": [
+                true,
+                31,
+                4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                4
+            ],
+            "Default": [
+                false,
+                0,
+                4
+            ],
+            "Anima": [
+                true,
+                31,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Mage (1)",
@@ -4963,7 +6756,7 @@
         "promotes_from": "Mage",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 0,
@@ -5062,10 +6855,20 @@
                 31,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 true,
                 31,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -5075,7 +6878,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                true,
+                31,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Sage",
@@ -5099,7 +6911,7 @@
             "Summoner"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 0,
@@ -5198,10 +7010,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 true,
@@ -5211,7 +7033,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Shaman",
@@ -5232,7 +7063,7 @@
         "promotes_from": "Shaman",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 19,
             "STR": 0,
@@ -5312,9 +7143,19 @@
                 0,
                 null
             ],
-            "Anima": [
+            "Wind": [
                 true,
                 31,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
                 null
             ],
             "Dark": [
@@ -5326,6 +7167,14 @@
                 false,
                 0,
                 null
+<<<<<<< Updated upstream
+=======
+            ],
+            "Anima": [
+                true,
+                31,
+                null
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Druid (M) Magic {IS}",
@@ -5346,7 +7195,7 @@
         "promotes_from": "Shaman",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -5431,7 +7280,17 @@
                 0,
                 null
             ],
-            "Anima": [
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
                 false,
                 0,
                 null
@@ -5445,6 +7304,14 @@
                 false,
                 0,
                 null
+<<<<<<< Updated upstream
+=======
+            ],
+            "Anima": [
+                false,
+                0,
+                null
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -5467,7 +7334,7 @@
         "tags": [
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 0,
@@ -5571,10 +7438,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 true,
                 71,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -5584,7 +7461,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                true,
+                71,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Mage_Knight",
@@ -5611,7 +7497,7 @@
             "Mounted",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 15,
             "STR": 0,
@@ -5715,10 +7601,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -5728,7 +7624,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Troubadour",
@@ -5752,7 +7657,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 0,
@@ -5856,10 +7761,20 @@
                 31,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -5869,7 +7784,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Valkyrie",
@@ -5897,7 +7821,7 @@
             "Dragon",
             "Flying"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 7,
@@ -6001,10 +7925,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -6014,7 +7948,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Wyvern_Rider",
@@ -6039,7 +7982,7 @@
             "Dragon",
             "Flying"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 9,
@@ -6143,10 +8086,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -6156,7 +8109,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Wyvern_Lord",
@@ -6181,7 +8143,7 @@
             "Dragon",
             "Flying"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 7,
@@ -6289,10 +8251,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -6302,7 +8274,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Wyvern Knight (U) Lance {IS}",
@@ -6325,7 +8306,7 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -6424,10 +8405,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 true,
@@ -6437,7 +8428,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -6463,7 +8463,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 25,
             "STR": 2,
@@ -6562,10 +8562,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -6575,7 +8585,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Revenant",
@@ -6599,7 +8618,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 35,
             "STR": 3,
@@ -6698,10 +8717,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -6711,7 +8740,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Entombed",
@@ -6737,7 +8775,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 4,
@@ -6836,10 +8874,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -6849,7 +8897,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -6873,7 +8930,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 7,
@@ -6972,10 +9029,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -6985,7 +9052,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Wight",
@@ -7011,7 +9087,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -7110,10 +9186,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -7123,7 +9209,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -7147,7 +9242,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 6,
@@ -7246,10 +9341,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -7259,7 +9364,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Wight",
@@ -7286,7 +9400,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 15,
             "STR": 0,
@@ -7385,10 +9499,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 true,
@@ -7398,7 +9522,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Mogall",
@@ -7423,7 +9556,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 17,
             "STR": 0,
@@ -7522,10 +9655,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 true,
@@ -7535,7 +9678,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Arch_Mogall",
@@ -7559,7 +9711,7 @@
             "Dragon",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 0,
@@ -7652,10 +9804,20 @@
                 0,
                 251
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -7665,7 +9827,16 @@
             "Default": [
                 false,
                 0,
+<<<<<<< Updated upstream
                 251
+=======
+                4
+            ],
+            "Anima": [
+                false,
+                0,
+                4
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -7689,7 +9860,7 @@
             "Tile",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 25,
             "STR": 0,
@@ -7834,7 +10005,7 @@
             "Tile",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 0,
@@ -7978,7 +10149,7 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 1,
             "STR": 5,
@@ -8046,7 +10217,17 @@
                 0,
                 null
             ],
-            "Anima": [
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
                 false,
                 0,
                 null
@@ -8060,6 +10241,14 @@
                 false,
                 0,
                 null
+<<<<<<< Updated upstream
+=======
+            ],
+            "Anima": [
+                false,
+                0,
+                null
+>>>>>>> Stashed changes
             ]
         },
         "icon_nid": "Phantom (U) Axe {IS}",
