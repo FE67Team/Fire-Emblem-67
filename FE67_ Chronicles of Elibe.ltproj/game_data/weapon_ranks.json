@@ -1,26 +1,18 @@
 [
     {
-        "rank": "E",
+        "rank": "C",
         "requirement": 1
     },
     {
-        "rank": "D",
-        "requirement": 31
-    },
-    {
-        "rank": "C",
-        "requirement": 71
-    },
-    {
         "rank": "B",
-        "requirement": 121
+        "requirement": 2
     },
     {
         "rank": "A",
-        "requirement": 181
+        "requirement": 3
     },
     {
         "rank": "S",
-        "requirement": 251
+        "requirement": 4
     }
 ]

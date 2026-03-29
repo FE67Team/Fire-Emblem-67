@@ -5,7 +5,44 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
-        "rank_bonus": [],
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 5,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 10,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "advantage": [
             {
                 "weapon_type": "Axe",
@@ -46,7 +83,44 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
-        "rank_bonus": [],
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 5,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 10,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "advantage": [
             {
                 "weapon_type": "Sword",
@@ -87,7 +161,44 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
-        "rank_bonus": [],
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 5,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 10,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "advantage": [
             {
                 "weapon_type": "Lance",
@@ -128,7 +239,44 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
-        "rank_bonus": [],
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 5,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 10,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "advantage": [],
         "disadvantage": [],
         "icon_nid": "wexp_icons",
@@ -143,7 +291,44 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
-        "rank_bonus": [],
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 5,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 10,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 0,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 15,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "advantage": [],
         "disadvantage": [],
         "icon_nid": "wexp_icons",
@@ -158,7 +343,44 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
-        "rank_bonus": [],
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 5,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 10,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "advantage": [
             {
                 "weapon_type": "Dark",
@@ -199,7 +421,44 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
-        "rank_bonus": [],
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 5,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 10,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "advantage": [
             {
                 "weapon_type": "Light",
@@ -240,7 +499,44 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
-        "rank_bonus": [],
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 5,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 10,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "advantage": [
             {
                 "weapon_type": "Light",
@@ -281,7 +577,44 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
-        "rank_bonus": [],
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 5,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 10,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "advantage": [
             {
                 "weapon_type": "Light",
@@ -322,7 +655,44 @@
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
-        "rank_bonus": [],
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 5,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 10,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "advantage": [
             {
                 "weapon_type": "Wind",

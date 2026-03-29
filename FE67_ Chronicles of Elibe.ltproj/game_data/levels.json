@@ -88,7 +88,7 @@
                 "generic": true
             },
             {
-                "nid": "O'Neill",
+                "nid": "Beyard",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -987,7 +987,7 @@
                 "generic": false
             },
             {
-                "nid": "O'Neill",
+                "nid": "Beyard",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1000,7 +1000,7 @@
                 "generic": false
             },
             {
-                "nid": "Breguet",
+                "nid": "Yogi",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1013,7 +1013,7 @@
                 "generic": false
             },
             {
-                "nid": "Bone",
+                "nid": "Heintz",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1065,7 +1065,7 @@
                 "generic": false
             },
             {
-                "nid": "Vigarde",
+                "nid": "Lundgren",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1167,7 +1167,7 @@
                     1
                 ],
                 "sub_nid": "Seize",
-                "highlight": "red",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1186,7 +1186,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
-                "highlight": "green",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1205,7 +1205,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
-                "highlight": "yellow",
+                "highlight": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1296,7 +1296,7 @@
                 "generic": false
             },
             {
-                "nid": "Breguet",
+                "nid": "Yogi",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -1635,7 +1635,7 @@
             {
                 "nid": "Enemy1",
                 "units": [
-                    "Breguet",
+                    "Yogi",
                     "101",
                     "102",
                     "103",
@@ -1644,10 +1644,6 @@
                     "106"
                 ],
                 "positions": {
-                    "Breguet": [
-                        2,
-                        5
-                    ],
                     "101": [
                         1,
                         6
@@ -1671,6 +1667,10 @@
                     "103": [
                         1,
                         8
+                    ],
+                    "Yogi": [
+                        2,
+                        5
                     ]
                 }
             },
@@ -1847,7 +1847,7 @@
                 "generic": false
             },
             {
-                "nid": "Bone",
+                "nid": "Heintz",
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,
@@ -2190,7 +2190,7 @@
                 "units": [
                     "TopBandit",
                     "105",
-                    "Bone",
+                    "Heintz",
                     "BoneBuddy"
                 ],
                 "positions": {
@@ -2202,12 +2202,12 @@
                         14,
                         9
                     ],
-                    "Bone": [
-                        13,
-                        7
-                    ],
                     "BoneBuddy": [
                         11,
+                        7
+                    ],
+                    "Heintz": [
+                        13,
                         7
                     ]
                 }
@@ -3038,7 +3038,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3062,7 +3062,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3086,7 +3086,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3110,7 +3110,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 2,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3134,7 +3134,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 2,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3158,7 +3158,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3182,7 +3182,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 3,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3206,7 +3206,7 @@
                 "nid": "108",
                 "variant": null,
                 "level": 3,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3230,7 +3230,7 @@
                 "nid": "118",
                 "variant": null,
                 "level": 2,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3255,7 +3255,7 @@
                 "nid": "119",
                 "variant": null,
                 "level": 2,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3276,7 +3276,7 @@
                 "nid": "120",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3297,7 +3297,7 @@
                 "nid": "121",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3318,7 +3318,7 @@
                 "nid": "Boss",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Entombed",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3342,7 +3342,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 2,
-                "klass": "Citizen",
+                "klass": "Sword_Bonewalker",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3366,7 +3366,7 @@
                 "nid": "110",
                 "variant": null,
                 "level": 3,
-                "klass": "Citizen",
+                "klass": "Sword_Bonewalker",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3390,7 +3390,7 @@
                 "nid": "111",
                 "variant": null,
                 "level": 3,
-                "klass": "Citizen",
+                "klass": "Sword_Bonewalker",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3414,7 +3414,7 @@
                 "nid": "115",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Sword_Bonewalker",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3435,7 +3435,7 @@
                 "nid": "116",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Sword_Bonewalker",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3456,7 +3456,7 @@
                 "nid": "117",
                 "variant": null,
                 "level": 2,
-                "klass": "Citizen",
+                "klass": "Sword_Bonewalker",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3477,7 +3477,7 @@
                 "nid": "112",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Mogall",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3501,7 +3501,7 @@
                 "nid": "113",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Mogall",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3525,7 +3525,7 @@
                 "nid": "114",
                 "variant": null,
                 "level": 2,
-                "klass": "Citizen",
+                "klass": "Mogall",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3549,7 +3549,7 @@
                 "nid": "Mogall",
                 "variant": null,
                 "level": 1,
-                "klass": "Citizen",
+                "klass": "Mogall",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4952,7 +4952,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Bone",
+                "nid": "Heintz",
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
