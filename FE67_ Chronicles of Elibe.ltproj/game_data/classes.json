@@ -5801,22 +5801,32 @@
                 0,
                 4
             ],
-            "Anima": [
-                true,
-                31,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                true,
+                2,
+                null
+            ],
+            "Wind": [
+                true,
+                1,
+                4
+            ],
+            "Thunder": [
+                true,
+                1,
+                null
             ],
             "Default": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Anima": [
                 true,
                 31,
                 4
@@ -5931,22 +5941,32 @@
                 0,
                 4
             ],
-            "Anima": [
-                true,
-                31,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                true,
+                1,
+                null
+            ],
+            "Wind": [
+                true,
+                1,
+                4
+            ],
+            "Thunder": [
+                true,
+                2,
+                null
             ],
             "Default": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Anima": [
                 true,
                 31,
                 4
@@ -6061,22 +6081,32 @@
                 0,
                 4
             ],
-            "Anima": [
-                true,
-                31,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                true,
+                1,
+                null
+            ],
+            "Wind": [
+                true,
+                2,
+                4
+            ],
+            "Thunder": [
+                true,
+                1,
+                null
             ],
             "Default": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Anima": [
                 true,
                 31,
                 4
