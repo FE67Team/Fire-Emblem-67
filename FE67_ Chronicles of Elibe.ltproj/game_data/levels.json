@@ -33,8 +33,69 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    22,
-                    2
+                    25,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 2,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "O'Neill",
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    10,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -46,8 +107,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    24,
-                    5
+                    26,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -59,8 +120,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    4
+                    27,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -72,8 +133,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    3
+                    26,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -85,8 +146,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    3
+                    28,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -98,8 +159,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    2
+                    24,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -111,21 +172,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Erk",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    21,
-                    1
+                    27,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -144,752 +192,53 @@
                 "generic": false
             },
             {
+                "nid": "Eagler",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    51,
+                    77
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Nils",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Beyard",
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    4,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Eagler",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    51,
-                    75
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Lundgren",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    78
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Yogi",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    28,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Heintz",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "PrologueSquad",
-                "variant": null,
-                "level": 6,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
                     29,
-                    3
+                    21
                 ],
                 "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "PrologueSquad2",
-                "variant": null,
-                "level": 6,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    29,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "PrologueSquad3",
-                "variant": null,
-                "level": 6,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    27,
-                    0
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "PrologueSquad4",
-                "variant": null,
-                "level": 6,
-                "klass": "Archer",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    30,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "PrologueSquad5",
-                "variant": null,
-                "level": 6,
-                "klass": "Archer",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    30,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "PrologueSquad6",
-                "variant": null,
-                "level": 6,
-                "klass": "Sword_Armor",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Blade",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    28,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "PrologueSquad7",
-                "variant": null,
-                "level": 6,
-                "klass": "Fire_Mage",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Fire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    29,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AntiWallaceSquad",
-                "variant": null,
-                "level": 6,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    45,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AntiWallaceSquad_1",
-                "variant": null,
-                "level": 6,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    47,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AntiWallaceSquad_2",
-                "variant": null,
-                "level": 6,
-                "klass": "Lance_Armor",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    45,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AntiWallaceSquad_3",
-                "variant": null,
-                "level": 6,
-                "klass": "Lance_Armor",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    47,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AntiWallaceSquad_4",
-                "variant": null,
-                "level": 6,
-                "klass": "Archer",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    47,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AntiWallaceSquad_6",
-                "variant": null,
-                "level": 6,
-                "klass": "Archer",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    48,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AntiWallaceSquad_5",
-                "variant": null,
-                "level": 6,
-                "klass": "Lance_Armor",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Blade",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    45,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AfterWallaceSquad",
-                "variant": null,
-                "level": 6,
-                "klass": "Lance_Armor",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    47,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AfterWallaceSquad_1",
-                "variant": null,
-                "level": 6,
-                "klass": "Axe_Armor",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Steel_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    48,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AfterWallaceSquad_6",
-                "variant": null,
-                "level": 6,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Steel_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    47,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AfterWallaceSquad_7",
-                "variant": null,
-                "level": 6,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Steel_Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    48,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AfterWallaceSquad_2",
-                "variant": null,
-                "level": 6,
-                "klass": "Archer",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    46,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AfterWallaceSquad_4",
-                "variant": null,
-                "level": 6,
-                "klass": "Archer",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    49,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AfterWallaceSquad_3",
-                "variant": null,
-                "level": 6,
-                "klass": "Ballistician",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Ballista",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    53,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "AfterWallaceSquad_5",
-                "variant": null,
-                "level": 6,
-                "klass": "Ballistician",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Ballista",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    54,
-                    17
-                ],
-                "starting_traveler": null,
-                "generic": true
+                "generic": false
             }
         ],
         "regions": [],
         "unit_groups": [
             {
-                "nid": "PrologueSquad",
+                "nid": "Enemy1",
                 "units": [
-                    "PrologueSquad",
-                    "PrologueSquad2",
-                    "PrologueSquad3",
-                    "PrologueSquad4",
-                    "PrologueSquad5",
-                    "PrologueSquad6",
-                    "PrologueSquad7"
+                    "101",
+                    "102"
                 ],
                 "positions": {
-                    "PrologueSquad": [
-                        27,
-                        0
-                    ],
-                    "PrologueSquad2": [
-                        28,
-                        1
-                    ],
-                    "PrologueSquad4": [
-                        28,
-                        0
-                    ],
-                    "PrologueSquad5": [
-                        29,
-                        1
-                    ],
-                    "PrologueSquad6": [
-                        28,
-                        3
-                    ],
-                    "PrologueSquad7": [
-                        29,
-                        2
-                    ],
-                    "PrologueSquad3": [
-                        28,
-                        2
-                    ]
-                }
-            },
-            {
-                "nid": "AntiWallaceSquad",
-                "units": [
-                    "AntiWallaceSquad",
-                    "AntiWallaceSquad_1",
-                    "AntiWallaceSquad_2",
-                    "AntiWallaceSquad_3",
-                    "AntiWallaceSquad_4",
-                    "AntiWallaceSquad_6",
-                    "AntiWallaceSquad_5"
-                ],
-                "positions": {
-                    "AntiWallaceSquad_2": [
-                        45,
-                        5
-                    ],
-                    "AntiWallaceSquad_3": [
-                        47,
-                        6
-                    ],
-                    "AntiWallaceSquad": [
-                        45,
-                        6
-                    ],
-                    "AntiWallaceSquad_1": [
-                        47,
-                        5
-                    ],
-                    "AntiWallaceSquad_4": [
-                        48,
-                        6
-                    ],
-                    "AntiWallaceSquad_6": [
-                        47,
+                    "101": [
+                        14,
                         7
                     ],
-                    "AntiWallaceSquad_5": [
-                        45,
-                        4
-                    ]
-                }
-            },
-            {
-                "nid": "AfterWallaceSquad",
-                "units": [
-                    "AfterWallaceSquad",
-                    "AfterWallaceSquad_1",
-                    "AfterWallaceSquad_6",
-                    "AfterWallaceSquad_7",
-                    "AfterWallaceSquad_2",
-                    "AfterWallaceSquad_5",
-                    "AfterWallaceSquad_3",
-                    "AfterWallaceSquad_4"
-                ],
-                "positions": {
-                    "AfterWallaceSquad": [
-                        47,
-                        14
-                    ],
-                    "AfterWallaceSquad_1": [
-                        48,
-                        14
-                    ],
-                    "AfterWallaceSquad_6": [
-                        47,
-                        16
-                    ],
-                    "AfterWallaceSquad_7": [
-                        48,
-                        16
-                    ],
-                    "AfterWallaceSquad_2": [
-                        46,
-                        15
-                    ],
-                    "AfterWallaceSquad_4": [
-                        49,
-                        15
-                    ],
-                    "AfterWallaceSquad_5": [
-                        53,
-                        14
-                    ],
-                    "AfterWallaceSquad_3": [
-                        54,
-                        17
+                    "102": [
+                        14,
+                        8
                     ]
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "test",
@@ -897,16 +246,11 @@
         "tilemap": "Chapter 1_1",
         "bg_tilemap": "Chapter 1_1",
         "party": "Eirika",
-        "music": {
-            "player_phase": "Quiet Burn",
-            "enemy_phase": "Shadow of the Enemy",
-            "enemy_battle": null,
-            "player_battle": "Attack"
-        },
+        "music": {},
         "objective": {
-            "simple": "Capture all castles",
-            "win": "Seize castle Cutthroat,Seize castle Soldier",
-            "loss": "Lyn dies,Your Castle is seized"
+            "simple": "objective",
+            "win": "win",
+            "loss": "lose"
         },
         "roam": false,
         "roam_unit": null,
@@ -1643,7 +987,7 @@
                 "generic": false
             },
             {
-                "nid": "Beyard",
+                "nid": "O'Neill",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1656,7 +1000,7 @@
                 "generic": false
             },
             {
-                "nid": "Yogi",
+                "nid": "Breguet",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1669,7 +1013,7 @@
                 "generic": false
             },
             {
-                "nid": "Heintz",
+                "nid": "Bone",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1721,7 +1065,7 @@
                 "generic": false
             },
             {
-                "nid": "Lundgren",
+                "nid": "Vigarde",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -1790,282 +1134,10 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Fighter",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 1,
-                "klass": "Brigand",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "test_boss",
-                "variant": null,
-                "level": 1,
-                "klass": "Warrior",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    17,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": null,
-                "level": 1,
-                "klass": "Archer",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    16,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 1,
-                "klass": "Archer",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Short_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "Kill_This_Guy_NOW"
-                ],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    7,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 1,
-                "klass": "Thief",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Torch",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    2,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "reinforce1",
-                "variant": null,
-                "level": 1,
-                "klass": "Brigand",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "reinforce2",
-                "variant": null,
-                "level": 1,
-                "klass": "Brigand",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "reinforce3",
-                "variant": null,
-                "level": 1,
-                "klass": "Brigand",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "reinforce4",
-                "variant": null,
-                "level": 1,
-                "klass": "Brigand",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "reinforce5",
-                "variant": null,
-                "level": 1,
-                "klass": "Brigand",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "reinforce6",
-                "variant": null,
-                "level": 1,
-                "klass": "Brigand",
-                "faction": "Enemy",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 1,
-                "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Slim_Lance",
+                        "Iron_Axe",
                         false
                     ]
                 ],
@@ -2075,8 +1147,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    12
+                    1,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -2087,15 +1159,15 @@
                 "nid": "OtherCastle_a",
                 "region_type": "event",
                 "position": [
-                    18,
-                    7
+                    7,
+                    2
                 ],
                 "size": [
                     1,
                     1
                 ],
                 "sub_nid": "Seize",
-                "highlight": null,
+                "highlight": "red",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -2114,7 +1186,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
-                "highlight": null,
+                "highlight": "green",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -2133,7 +1205,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
-                "highlight": null,
+                "highlight": "yellow",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -2224,7 +1296,7 @@
                 "generic": false
             },
             {
-                "nid": "Yogi",
+                "nid": "Breguet",
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
@@ -2563,7 +1635,7 @@
             {
                 "nid": "Enemy1",
                 "units": [
-                    "Yogi",
+                    "Breguet",
                     "101",
                     "102",
                     "103",
@@ -2572,6 +1644,10 @@
                     "106"
                 ],
                 "positions": {
+                    "Breguet": [
+                        2,
+                        5
+                    ],
                     "101": [
                         1,
                         6
@@ -2595,10 +1671,6 @@
                     "103": [
                         1,
                         8
-                    ],
-                    "Yogi": [
-                        2,
-                        5
                     ]
                 }
             },
@@ -2775,7 +1847,7 @@
                 "generic": false
             },
             {
-                "nid": "Heintz",
+                "nid": "Bone",
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,
@@ -3118,7 +2190,7 @@
                 "units": [
                     "TopBandit",
                     "105",
-                    "Heintz",
+                    "Bone",
                     "BoneBuddy"
                 ],
                 "positions": {
@@ -3130,12 +2202,12 @@
                         14,
                         9
                     ],
-                    "BoneBuddy": [
-                        11,
+                    "Bone": [
+                        13,
                         7
                     ],
-                    "Heintz": [
-                        13,
+                    "BoneBuddy": [
+                        11,
                         7
                     ]
                 }
@@ -3966,7 +3038,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -3990,7 +3062,7 @@
                 "nid": "102",
                 "variant": null,
                 "level": 1,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4014,7 +3086,7 @@
                 "nid": "103",
                 "variant": null,
                 "level": 1,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4038,7 +3110,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 2,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4062,7 +3134,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 2,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4086,7 +3158,7 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4110,7 +3182,7 @@
                 "nid": "107",
                 "variant": null,
                 "level": 3,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4134,7 +3206,7 @@
                 "nid": "108",
                 "variant": null,
                 "level": 3,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4158,7 +3230,7 @@
                 "nid": "118",
                 "variant": null,
                 "level": 2,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4183,7 +3255,7 @@
                 "nid": "119",
                 "variant": null,
                 "level": 2,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4204,7 +3276,7 @@
                 "nid": "120",
                 "variant": null,
                 "level": 1,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4225,7 +3297,7 @@
                 "nid": "121",
                 "variant": null,
                 "level": 1,
-                "klass": "Revenant",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4246,7 +3318,7 @@
                 "nid": "Boss",
                 "variant": null,
                 "level": 1,
-                "klass": "Entombed",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4270,7 +3342,7 @@
                 "nid": "109",
                 "variant": null,
                 "level": 2,
-                "klass": "Sword_Bonewalker",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4294,7 +3366,7 @@
                 "nid": "110",
                 "variant": null,
                 "level": 3,
-                "klass": "Sword_Bonewalker",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4318,7 +3390,7 @@
                 "nid": "111",
                 "variant": null,
                 "level": 3,
-                "klass": "Sword_Bonewalker",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4342,7 +3414,7 @@
                 "nid": "115",
                 "variant": null,
                 "level": 1,
-                "klass": "Sword_Bonewalker",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4363,7 +3435,7 @@
                 "nid": "116",
                 "variant": null,
                 "level": 1,
-                "klass": "Sword_Bonewalker",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4384,7 +3456,7 @@
                 "nid": "117",
                 "variant": null,
                 "level": 2,
-                "klass": "Sword_Bonewalker",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4405,7 +3477,7 @@
                 "nid": "112",
                 "variant": null,
                 "level": 1,
-                "klass": "Mogall",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4429,7 +3501,7 @@
                 "nid": "113",
                 "variant": null,
                 "level": 1,
-                "klass": "Mogall",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4453,7 +3525,7 @@
                 "nid": "114",
                 "variant": null,
                 "level": 2,
-                "klass": "Mogall",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -4477,7 +3549,7 @@
                 "nid": "Mogall",
                 "variant": null,
                 "level": 1,
-                "klass": "Mogall",
+                "klass": "Citizen",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -5880,7 +4952,7 @@
         "tags": [],
         "units": [
             {
-                "nid": "Heintz",
+                "nid": "Bone",
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
