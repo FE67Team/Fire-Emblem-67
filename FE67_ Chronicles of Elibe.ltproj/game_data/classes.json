@@ -6101,7 +6101,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -6116,7 +6116,7 @@
                 0,
                 null
             ],
-            "Dark": [
+            "Wind": [
                 false,
                 0,
                 4
@@ -6124,11 +6124,6 @@
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
@@ -6241,7 +6236,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -6256,7 +6251,7 @@
                 2,
                 null
             ],
-            "Dark": [
+            "Wind": [
                 false,
                 0,
                 4
@@ -6264,11 +6259,6 @@
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
@@ -6404,11 +6394,6 @@
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
