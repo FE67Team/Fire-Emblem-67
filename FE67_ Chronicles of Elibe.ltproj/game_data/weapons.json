@@ -487,10 +487,10 @@
                 "defense_speed": "0"
             }
         ],
-        "icon_nid": "wexp_icons",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            6
+            7
         ]
     },
     {
@@ -565,10 +565,10 @@
                 "defense_speed": "0"
             }
         ],
-        "icon_nid": "wexp_icons",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            6
+            4
         ]
     },
     {
@@ -643,10 +643,10 @@
                 "defense_speed": "0"
             }
         ],
-        "icon_nid": "wexp_icons",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            6
+            0 
         ]
     },
     {
