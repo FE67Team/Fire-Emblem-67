@@ -14820,5 +14820,15 @@
         "nid": "Prologuev2",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "3_1",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "FE67__village_set_1",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
