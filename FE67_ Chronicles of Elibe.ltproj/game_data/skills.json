@@ -1569,5 +1569,34 @@
                 "item_system.weapon_type(unit, item) == 'Staff'"
             ]
         ]
+    },
+    {
+        "nid": "Kill_This_Guy_NOW",
+        "name": "Kill This Guy NOW",
+        "desc": "You ever miss an enemy so many times during testing that you create a skill specifically for killing them?",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                -400
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        -10
+                    ]
+                ]
+            ]
+        ]
     }
 ]
