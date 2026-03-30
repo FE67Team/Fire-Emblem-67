@@ -1668,6 +1668,18 @@
         "info_offset": 0
     },
     {
+        "nid": "Barthe_1",
+        "blinking_offset": [
+            16,
+            16
+        ],
+        "smiling_offset": [
+            16,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Barthe!Farina (By cypressyeah)",
         "blinking_offset": [
             16,
@@ -2060,6 +2072,18 @@
         "smiling_offset": [
             16,
             48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Cecilia_1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
         ],
         "info_offset": 0
     },
@@ -7404,7 +7428,19 @@
         "info_offset": 0
     },
     {
-        "nid": "Lugh!Lucius (By Michael The X)",
+        "nid": "Lugh!Batta (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lugh!Dart (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -7417,6 +7453,66 @@
     },
     {
         "nid": "Lugh!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lugh!Erik (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lugh!Glass (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lugh!Heath (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lugh!Lucius (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Lugh!Uhai (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -7717,6 +7813,18 @@
     },
     {
         "nid": "Raigh!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Raigh!Heath (By Quest)",
         "blinking_offset": [
             24,
             32
@@ -8832,7 +8940,187 @@
         "info_offset": 0
     },
     {
+        "nid": "Sophia!Bartre (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Batta (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Canas (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Dart (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Dorcas (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Douglas (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Eagler (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Sophia!Eliwood (By Michael The X)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Erik (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Erk (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Geitz (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Glass (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Guy (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Harken (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Hawkeye (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Hawkeye Tan (By Quest)",
         "blinking_offset": [
             24,
             32
@@ -8856,6 +9144,78 @@
         "info_offset": 0
     },
     {
+        "nid": "Sophia!Hector (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Jaffar (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Karel (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Kent (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Legault (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Lowen (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Sophia!Lucius (By Michael The X)",
         "blinking_offset": [
             24,
@@ -8868,7 +9228,115 @@
         "info_offset": 0
     },
     {
+        "nid": "Sophia!Marcus (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Matthew (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Oswin (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Rath (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Raven (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Renault (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Sain (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Uhai (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Sophia!Wallace (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Sophia!Wil (By Quest)",
         "blinking_offset": [
             24,
             32
@@ -9936,6 +10404,30 @@
         "info_offset": 0
     },
     {
+        "nid": "Wolt!Canas (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Dart (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Wolt!Dorcas (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
@@ -9960,7 +10452,31 @@
         "info_offset": 0
     },
     {
+        "nid": "Wolt!Erik (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Wolt!Erk (By Trekh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Gietz (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -9984,6 +10500,54 @@
         "info_offset": 0
     },
     {
+        "nid": "Wolt!Guy (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Harken (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Hawkeye (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Heath (By Trenkh\u00f6hr and Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Wolt!Hector (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
@@ -9996,7 +10560,67 @@
         "info_offset": 0
     },
     {
+        "nid": "Wolt!Jaffar (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Karel (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Wolt!Kent (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Legault (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Linus (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Lloyd (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -10069,6 +10693,30 @@
     },
     {
         "nid": "Wolt!Rath (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Raven (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wolt!Renault (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -10264,18 +10912,6 @@
         "blinking_offset": [
             16,
             24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Yuno",
-        "blinking_offset": [
-            56,
-            0
         ],
         "smiling_offset": [
             16,
