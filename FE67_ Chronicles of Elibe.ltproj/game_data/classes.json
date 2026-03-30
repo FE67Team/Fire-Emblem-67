@@ -5147,7 +5147,7 @@
         "nid": "Nomad",
         "name": "Nomad",
         "desc": "Fighters skilled in both sword and bow.",
-        "tier": 2,
+        "tier": 1,
         "movement_group": "Light Cav",
         "promotes_from": "Archer",
         "turns_into": [],
@@ -5294,7 +5294,7 @@
         "desc": "Fighters skilled in both sword and bow.",
         "tier": 2,
         "movement_group": "Light Cav",
-        "promotes_from": "Archer",
+        "promotes_from": "Nomad",
         "turns_into": [],
         "tags": [
             "Horse",
