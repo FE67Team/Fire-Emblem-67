@@ -11451,7 +11451,7 @@
         "nid": "Broken_sword",
         "name": "Broken sword",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
             0
@@ -11515,10 +11515,10 @@
         "nid": "Broken_Lance",
         "name": "Broken Lance",
         "desc": "",
-        "icon_nid": "Lance",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -11579,10 +11579,10 @@
         "nid": "Broken_Axe",
         "name": "Broken Axe",
         "desc": "",
-        "icon_nid": "Axe",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
@@ -11643,10 +11643,10 @@
         "nid": "Broken_Bow",
         "name": "Broken Bow",
         "desc": "",
-        "icon_nid": "Bow",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            3
         ],
         "components": [
             [
@@ -11719,10 +11719,10 @@
         "nid": "Broken_Staff",
         "name": "Broken Staff",
         "desc": "",
-        "icon_nid": "Staff",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            5
         ],
         "components": [
             [
@@ -11759,10 +11759,10 @@
         "nid": "Drained_Tome_Fire",
         "name": "Drained Tome",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
@@ -11815,10 +11815,10 @@
         "nid": "Drained_Tome_Thunder",
         "name": "Drained Tome",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            1
+            4
         ],
         "components": [
             [
@@ -11871,10 +11871,10 @@
         "nid": "Drained_Tome_Wind",
         "name": "Drained Tome",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            5
+            4
         ],
         "components": [
             [
@@ -11927,10 +11927,10 @@
         "nid": "Drained_Tome_Light",
         "name": "Drained Tome",
         "desc": "",
-        "icon_nid": "Light",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
@@ -11983,10 +11983,10 @@
         "nid": "Drained_Tome_Dark",
         "name": "Drained Tome",
         "desc": "",
-        "icon_nid": "Dark",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
