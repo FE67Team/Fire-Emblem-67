@@ -337,7 +337,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -624,7 +624,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -716,24 +716,50 @@
     },
     {
         "nid": "Lyn_Lord",
-        "name": "Lyn Lord",
-        "desc": "",
+        "name": "Lord",
+        "desc": "A noble attached to a ruling\nhouse. Has great potential.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [
-            "Lyn_Great_Lord"
+            "Blade_Lord"
         ],
         "tags": [
             "Sword",
             "ArenaIgnore"
         ],
         "max_level": 40,
-        "bases": {},
-        "growths": {},
+        "bases": {
+            "HP": 21,
+            "STR": 4,
+            "SKL": 7,
+            "SPD": 9,
+            "DEF": 2,
+            "MOV": 5,
+            "CON": 5
+        },
+        "growths": {
+            "MAG": 20,
+            "DEF": 20,
+            "LCK": 20,
+            "SPD": 20,
+            "SKL": 20,
+            "STR": 20,
+            "HP": 20
+        },
         "growth_bonus": {},
         "promotion": {},
-        "max_stats": {},
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 20
+        },
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
@@ -802,9 +828,9 @@
         "fields": []
     },
     {
-        "nid": "Lyn_Great_Lord",
-        "name": "new_1",
-        "desc": "",
+        "nid": "Blade_Lord",
+        "name": "Blade Lord",
+        "desc": "An honorific bestowed upon\nmasters of sword and bow.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Lyn_Lord",
@@ -814,11 +840,37 @@
             "ArenaIgnore"
         ],
         "max_level": 40,
-        "bases": {},
+        "bases": {
+            "MOV": 6,
+            "CON": 6,
+            "HP": 23,
+            "STR": 3,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 5
+        },
         "growths": {},
         "growth_bonus": {},
-        "promotion": {},
-        "max_stats": {},
+        "promotion": {
+            "HP": 3,
+            "STR": 2,
+            "SKL": 2,
+            "DEF": 3,
+            "MAG": 5,
+            "MOV": -97,
+            "CON": 1
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 24,
+            "SKL": 29,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 22,
+            "MOV": 15,
+            "CON": 25,
+            "MAG": 22
+        },
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
@@ -888,24 +940,54 @@
     },
     {
         "nid": "Eliwood_Lord",
-        "name": "new_3",
-        "desc": "",
+        "name": "Lord",
+        "desc": "A noble attached to a ruling\nhouse. Has great potential.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [
-            "Eliwood_Great_lord"
+            "Knight_Lord"
         ],
         "tags": [
             "Sword",
             "ArenaIgnore"
         ],
         "max_level": 40,
-        "bases": {},
-        "growths": {},
-        "growth_bonus": {},
-        "promotion": {},
-        "max_stats": {},
+        "bases": {
+            "HP": 23,
+            "STR": 5,
+            "SKL": 5,
+            "SPD": 7,
+            "DEF": 5,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "SKL": 20,
+            "HP": 80,
+            "STR": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20
+        },
+        "growth_bonus": {
+            "SKL": 0
+        },
+        "promotion": {
+            "SKL": 0
+        },
+        "max_stats": {
+            "SKL": 20,
+            "HP": 60,
+            "STR": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 20
+        },
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
@@ -974,9 +1056,9 @@
         "fields": []
     },
     {
-        "nid": "Eliwood_Great_lord",
-        "name": "new_2",
-        "desc": "",
+        "nid": "Knight_Lord",
+        "name": "Knight Lord",
+        "desc": "An honorific bestowed upon\nLycia's mounted knights.",
         "tier": 2,
         "movement_group": "Heavy Cav",
         "promotes_from": "Eliwood_Lord",
@@ -988,11 +1070,45 @@
             "ArenaIgnore"
         ],
         "max_level": 40,
-        "bases": {},
-        "growths": {},
+        "bases": {
+            "MOV": 9,
+            "CON": 7,
+            "HP": 23,
+            "STR": 3,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 5
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20
+        },
         "growth_bonus": {},
-        "promotion": {},
-        "max_stats": {},
+        "promotion": {
+            "HP": 4,
+            "STR": 2,
+            "SPD": 1,
+            "DEF": 1,
+            "MAG": 3,
+            "MOV": -97,
+            "CON": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 27,
+            "SKL": 26,
+            "SPD": 24,
+            "LCK": 30,
+            "DEF": 23,
+            "MAG": 25,
+            "MOV": 15,
+            "CON": 25
+        },
         "learned_skills": [
             [
                 1,
@@ -1067,8 +1183,8 @@
     },
     {
         "nid": "Hector_Lord",
-        "name": "Hector Lord",
-        "desc": "",
+        "name": "Lord",
+        "desc": "A noble attached to a ruling\nhouse. Has great potential.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -1079,11 +1195,39 @@
             "ArenaIgnore"
         ],
         "max_level": 40,
-        "bases": {},
-        "growths": {},
+        "bases": {
+            "MOV": 4,
+            "CON": 13,
+            "HP": 24,
+            "STR": 7,
+            "SKL": 4,
+            "SPD": 5,
+            "DEF": 8
+        },
+        "growths": {
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 0,
+            "CON": 0,
+            "HP": 80
+        },
         "growth_bonus": {},
         "promotion": {},
-        "max_stats": {},
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 20
+        },
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
@@ -1153,8 +1297,8 @@
     },
     {
         "nid": "Hector_Great_Lord",
-        "name": "new_1",
-        "desc": "",
+        "name": "Hector Great Lord",
+        "desc": "An honorific bestowed upon\nespecially gifted generals.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Hector_Lord",
@@ -1163,11 +1307,48 @@
             "ArenaIgnore"
         ],
         "max_level": 40,
-        "bases": {},
-        "growths": {},
+        "bases": {
+            "CON": 15,
+            "MOV": 5,
+            "MAG": 0,
+            "HP": 23,
+            "STR": 3,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 5
+        },
+        "growths": {
+            "CON": 0,
+            "MOV": 0,
+            "HP": 80,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20
+        },
         "growth_bonus": {},
-        "promotion": {},
-        "max_stats": {},
+        "promotion": {
+            "HP": 3,
+            "SKL": 2,
+            "SPD": 3,
+            "DEF": 1,
+            "MAG": 5,
+            "MOV": -97,
+            "CON": 2
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 30,
+            "SKL": 24,
+            "SPD": 24,
+            "LCK": 30,
+            "DEF": 29,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 25
+        },
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
@@ -1237,8 +1418,8 @@
     },
     {
         "nid": "Roy_Lord",
-        "name": "Roy Lord",
-        "desc": "",
+        "name": "Lord",
+        "desc": "A noble attached to a ruling\nhouse. Has great potential.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -1250,8 +1431,24 @@
             "ArenaIgnore"
         ],
         "max_level": 40,
-        "bases": {},
-        "growths": {},
+        "bases": {
+            "HP": 18,
+            "STR": 3,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 5,
+            "MOV": 5,
+            "CON": 6
+        },
+        "growths": {
+            "HP": 95,
+            "STR": 40,
+            "SKL": 45,
+            "SPD": 40,
+            "LCK": 40,
+            "DEF": 15,
+            "MAG": 12
+        },
         "growth_bonus": {},
         "promotion": {},
         "max_stats": {},
@@ -1324,8 +1521,8 @@
     },
     {
         "nid": "Roy_Great_Lord",
-        "name": "Roy Great Lord",
-        "desc": "",
+        "name": "Great Lord",
+        "desc": "A promoted Lord bearing the title\nof the Champion of Elibe.",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": "Roy_Lord",
@@ -1335,11 +1532,46 @@
             "ArenaIgnore"
         ],
         "max_level": 40,
-        "bases": {},
-        "growths": {},
+        "bases": {
+            "HP": 22,
+            "STR": 5,
+            "SKL": 6,
+            "SPD": 6,
+            "DEF": 7,
+            "MAG": 5,
+            "MOV": 6,
+            "CON": 8
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 35,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 15,
+            "DEF": 35,
+            "MAG": 10
+        },
         "growth_bonus": {},
-        "promotion": {},
-        "max_stats": {},
+        "promotion": {
+            "HP": 4,
+            "STR": 2,
+            "SKL": 3,
+            "SPD": 2,
+            "DEF": 2,
+            "MAG": 5,
+            "CON": 2
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 25,
+            "SKL": 25,
+            "SPD": 25,
+            "LCK": 30,
+            "DEF": 25,
+            "MAG": 25,
+            "MOV": 15,
+            "CON": 25
+        },
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
@@ -1409,8 +1641,8 @@
     },
     {
         "nid": "Dancer",
-        "name": "Dancer",
-        "desc": "Dancers whose dances revitalize their allies.",
+        "name": "Dancer ",
+        "desc": "Dancers whose arts aid\nallies. Unable to attack.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -1420,7 +1652,7 @@
         ],
         "max_level": 40,
         "bases": {
-            "HP": 14,
+            "HP": 19,
             "STR": 1,
             "MAG": 1,
             "SKL": 2,
@@ -1433,7 +1665,7 @@
         "growths": {
             "HP": 45,
             "STR": 45,
-            "MAG": 45,
+            "MAG": 13,
             "SKL": 30,
             "SPD": 60,
             "LCK": 70,
@@ -1465,12 +1697,12 @@
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "STR": 10,
+            "MAG": 26,
+            "SKL": 10,
+            "SPD": 30,
             "LCK": 30,
-            "DEF": 20,
+            "DEF": 24,
             "CON": 20,
             "MOV": 15
         },
@@ -1552,9 +1784,9 @@
         "fields": []
     },
     {
-        "nid": "Dancer2",
-        "name": "Dancer2",
-        "desc": "",
+        "nid": "Dancer_Lalum",
+        "name": "Dancer",
+        "desc": "Entertainers who dance to support their\nallies. Cannot attack.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -1564,12 +1796,36 @@
         ],
         "max_level": 40,
         "bases": {
-            "HP": 14
+            "HP": 14,
+            "STR": 1,
+            "SKL": 2,
+            "SPD": 7,
+            "MAG": 1,
+            "MOV": 5,
+            "CON": 4
         },
-        "growths": {},
+        "growths": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20
+        },
         "growth_bonus": {},
         "promotion": {},
-        "max_stats": {},
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 20
+        },
         "learned_skills": [
             [
                 1,
@@ -1643,9 +1899,9 @@
         "fields": []
     },
     {
-        "nid": "Bard",
+        "nid": "Bard_Nils",
         "name": "Bard",
-        "desc": "",
+        "desc": "Musicians whose melodies\naid allies. Unable to attack.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -1655,25 +1911,45 @@
         ],
         "max_level": 40,
         "bases": {
-            "HP": 14,
+            "HP": 19,
             "STR": 1,
             "SKL": 2,
             "SPD": 7,
-            "MAG": 1,
+            "MAG": 0,
             "MOV": 5,
-            "CON": 4
+            "CON": 3,
+            "DEF": 1
         },
         "growths": {
             "HP": 45,
-            "STR": 35,
+            "STR": 45,
             "SKL": 30,
             "SPD": 60,
             "LCK": 70,
-            "MAG": 45
+            "MAG": 13
         },
         "growth_bonus": {},
-        "promotion": {},
-        "max_stats": {},
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 10,
+            "SKL": 10,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 24,
+            "MAG": 26,
+            "MOV": 15,
+            "CON": 20
+        },
         "learned_skills": [
             [
                 1,
@@ -1747,8 +2023,8 @@
         "fields": []
     },
     {
-        "nid": "Bard2",
-        "name": "Bard2",
+        "nid": "Bard_Elfin",
+        "name": "Bard",
         "desc": "",
         "tier": 1,
         "movement_group": "Light Foot",
@@ -2033,7 +2309,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -2319,7 +2595,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -2605,7 +2881,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -2749,7 +3025,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -3766,7 +4042,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -3912,7 +4188,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 4,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -4205,7 +4481,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -4570,7 +4846,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Knight",
+        "map_sprite_nid": "Knight (U) Sword {Agro}-stand",
         "combat_anim_nid": "Sword_Armor",
         "fields": []
     },
@@ -4712,7 +4988,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Knight",
+        "map_sprite_nid": "Knight (U) Sword {Agro}-stand",
         "combat_anim_nid": "Axe_Armor",
         "fields": []
     },
@@ -4770,7 +5046,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -5009,7 +5285,7 @@
         "desc": "Ruffians with great strength but\npoor defense.",
         "tier": 1,
         "movement_group": "Regular",
-        "promotes_from": null,
+        "promotes_from": "Journeyman",
         "turns_into": [
             "Hero",
             "Warrior"
@@ -5058,7 +5334,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 3,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -5195,7 +5471,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -5286,7 +5562,7 @@
         "desc": "Untrained but fanatical combatant.",
         "tier": 1,
         "movement_group": "Pirates",
-        "promotes_from": null,
+        "promotes_from": "Journeyman",
         "turns_into": [
             "Berserker"
         ],
@@ -5334,7 +5610,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -5471,7 +5747,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 3,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -5892,7 +6168,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -6004,7 +6280,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 7,
-            "MOV": 5
+            "MOV": 0
         },
         "growths": {
             "HP": 70,
@@ -6118,14 +6394,14 @@
             0,
             0
         ],
-        "map_sprite_nid": "Archer",
-        "combat_anim_nid": "Archer",
+        "map_sprite_nid": "Ballista Normal Mounted {IS}-stand",
+        "combat_anim_nid": "Balistissian",
         "fields": []
     },
     {
         "nid": "Nomad",
         "name": "Nomad",
-        "desc": "Fighters skilled in both sword and bow.",
+        "desc": "Sacaen plainsmen with good\nmovement. Armed with bows.",
         "tier": 1,
         "movement_group": "Light Cav",
         "promotes_from": "Archer",
@@ -6177,7 +6453,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 3,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -6270,7 +6546,7 @@
     {
         "nid": "Nomad_Trooper",
         "name": "Nomad Trooper",
-        "desc": "Fighters skilled in both sword and bow.",
+        "desc": "An honorific bestowed upon\nnomads of great skill.",
         "tier": 2,
         "movement_group": "Light Cav",
         "promotes_from": "Nomad",
@@ -6322,7 +6598,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 3,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -6467,7 +6743,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -6747,7 +7023,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -7035,7 +7311,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -7175,7 +7451,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -7257,7 +7533,7 @@
             0
         ],
         "map_sprite_nid": "Mage",
-        "combat_anim_nid": "Thunder_mage",
+        "combat_anim_nid": "Thunder_Mage",
         "fields": []
     },
     {
@@ -7315,7 +7591,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -7397,7 +7673,7 @@
             0
         ],
         "map_sprite_nid": "Mage",
-        "combat_anim_nid": "Wind_mage",
+        "combat_anim_nid": "Wind_Mage",
         "fields": []
     },
     {
@@ -7452,7 +7728,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -7592,7 +7868,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -7729,7 +8005,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": 1
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -7859,7 +8135,7 @@
         },
         "promotion": {
             "CON": 1,
-            "MOV": 1,
+            "MOV": -97,
             "HP": 3,
             "STR": 0,
             "MAG": 0,
@@ -8010,7 +8286,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 3,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -8295,15 +8571,15 @@
             "MOV": 0
         },
         "promotion": {
-            "HP": 0,
+            "HP": 3,
             "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
+            "MAG": 3,
+            "SKL": 1,
             "SPD": 0,
             "LCK": 0,
-            "DEF": 0,
-            "CON": 0,
-            "MOV": 0
+            "DEF": 2,
+            "CON": 1,
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -8598,7 +8874,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -8744,7 +9020,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,

@@ -1044,7 +1044,7 @@
         "desc": "A bard possessing arcane powers. Brother of Ninian.",
         "variant": null,
         "level": 1,
-        "klass": "Bard",
+        "klass": "Bard_Nils",
         "tags": [],
         "bases": {
             "HP": 14,
