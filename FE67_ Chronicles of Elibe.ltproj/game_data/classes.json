@@ -4988,7 +4988,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Knight (U) Sword {Agro}-stand",
+        "map_sprite_nid": "Knight (U) Axe {Agro}-stand",
         "combat_anim_nid": "Axe_Armor",
         "fields": []
     },
