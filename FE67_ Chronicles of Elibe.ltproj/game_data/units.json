@@ -5,7 +5,7 @@
         "desc": "A young girl from the Lorca tribe. Stouthhearted and kind.",
         "variant": "",
         "level": 4,
-        "klass": "Eirika_Lord",
+        "klass": "Lyn_Lord",
         "tags": [
             "Lord"
         ],
@@ -112,7 +112,7 @@
         "desc": "A knight in service to house Caelin. A bit of a scoundrel.\n\n",
         "variant": "",
         "level": 4,
-        "klass": "Cavalier",
+        "klass": "Lance_Knight",
         "tags": [],
         "bases": {
             "HP": 22,
@@ -213,7 +213,7 @@
         "desc": "A knight in service to house Caelin. Virtuous to a fault.",
         "variant": "",
         "level": 5,
-        "klass": "Cavalier",
+        "klass": "Sword_Knight",
         "tags": [],
         "bases": {
             "HP": 23,
@@ -1044,7 +1044,7 @@
         "desc": "A bard possessing arcane powers. Brother of Ninian.",
         "variant": null,
         "level": 1,
-        "klass": "Dancer",
+        "klass": "Bard",
         "tags": [],
         "bases": {
             "HP": 14,
@@ -1149,7 +1149,7 @@
         "desc": "Marquess Pherae\u2019s young son. Just and honourable.",
         "variant": "",
         "level": 1,
-        "klass": "Eirika_Lord",
+        "klass": "Eliwood_Lord",
         "tags": [
             "Lord"
         ],
@@ -1668,7 +1668,7 @@
         "desc": "Marquess Ostia\u2019s younger brother. Reckless, but loyal.",
         "variant": "",
         "level": 1,
-        "klass": "Ephraim_Lord",
+        "klass": "Hector_Lord",
         "tags": [
             "Lord"
         ],
@@ -3683,7 +3683,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Yuno",
+        "portrait_nid": "Juno",
         "affinity": "Anima",
         "fields": []
     },
@@ -6482,7 +6482,7 @@
         "nid": "Caellach",
         "name": "Caellach",
         "desc": "An ambitious general in Grado's army. He's better known as Tiger Eye.",
-        "variant": null,
+        "variant": "",
         "level": 12,
         "klass": "Hero",
         "tags": [],
