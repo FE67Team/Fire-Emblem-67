@@ -715,6 +715,699 @@
         "fields": []
     },
     {
+        "nid": "Lyn_Lord",
+        "name": "Lyn Lord",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Lyn_Great_Lord"
+        ],
+        "tags": [
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {},
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Lord (F) Lyn Sword {IS}-stand",
+        "combat_anim_nid": "Lyn_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Lyn_Great_Lord",
+        "name": "new_1",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Light Foot",
+        "promotes_from": "Lyn_Lord",
+        "turns_into": [],
+        "tags": [
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {},
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                true,
+                2,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Blade Lord (F) Lyn Sword {IS}-stand",
+        "combat_anim_nid": "Lyn_Great_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Eliwood_Lord",
+        "name": "new_3",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Eliwood_Great_lord"
+        ],
+        "tags": [
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {},
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Lord (M) Eliwood Sword {IS}-stand",
+        "combat_anim_nid": "Eliwood_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Eliwood_Great_lord",
+        "name": "new_2",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Heavy Cav",
+        "promotes_from": "Eliwood_Lord",
+        "turns_into": [],
+        "tags": [
+            "Horse",
+            "Mounted",
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {},
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                true,
+                2,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Knight Lord (M) Eliwood Sword {IS}-stand",
+        "combat_anim_nid": "Eliwood_Great_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Hector_Lord",
+        "name": "Hector Lord",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Hector_Great_Lord"
+        ],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {},
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                true,
+                4,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Lord (M) Hector Axe {IS}-stand",
+        "combat_anim_nid": "Hectro_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Hector_Great_Lord",
+        "name": "new_1",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Light Foot",
+        "promotes_from": "Hector_Lord",
+        "turns_into": [],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {},
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                2,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                true,
+                4,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Great Lord (M) Hector {IS}-stand",
+        "combat_anim_nid": "Hector_Great_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Roy_Lord",
+        "name": "Roy Lord",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Roy_Great_Lord"
+        ],
+        "tags": [
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {},
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": null,
+        "combat_anim_nid": "Roy_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Roy_Great_Lord",
+        "name": "Roy Great Lord",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Light Foot",
+        "promotes_from": "Roy_Lord",
+        "turns_into": [],
+        "tags": [
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {},
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": null,
+        "combat_anim_nid": "Roy_Great_Lord",
+        "fields": []
+    },
+    {
         "nid": "Dancer",
         "name": "Dancer",
         "desc": "Dancers whose dances revitalize their allies.",
@@ -1049,7 +1742,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Dancer",
+        "map_sprite_nid": "Bard (M) Nils {IS}-stand",
         "combat_anim_nid": "BardNils",
         "fields": []
     },
@@ -1140,7 +1833,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Dancer",
+        "map_sprite_nid": "Bard (M) Elffin {IS}-stand",
         "combat_anim_nid": "BardElphin",
         "fields": []
     },
@@ -2718,8 +3411,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Cavalier",
-        "combat_anim_nid": "Cavalier",
+        "map_sprite_nid": "Cavalier (M) Sword {Agro}-stand",
+        "combat_anim_nid": "Sword_Knight",
         "fields": []
     },
     {
@@ -2867,7 +3560,7 @@
             0
         ],
         "map_sprite_nid": "Cavalier",
-        "combat_anim_nid": "Cavalier",
+        "combat_anim_nid": "Lance_Knight",
         "fields": []
     },
     {
@@ -3014,8 +3707,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Cavalier",
-        "combat_anim_nid": "Cavalier",
+        "map_sprite_nid": "Cavalier (M) Axe {Siuloir}-stand",
+        "combat_anim_nid": "Axe_Knight",
         "fields": []
     },
     {
@@ -5570,7 +6263,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Ranger",
+        "map_sprite_nid": "Nomad (M) {IS}-stand",
         "combat_anim_nid": "Ranger",
         "fields": []
     },
@@ -5715,7 +6408,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Ranger",
+        "map_sprite_nid": "Nomad Trooper (M) {IS}-stand",
         "combat_anim_nid": "Ranger",
         "fields": []
     },
