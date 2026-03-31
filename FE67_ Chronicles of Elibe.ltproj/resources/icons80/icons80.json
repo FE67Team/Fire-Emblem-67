@@ -110,7 +110,12 @@
     },
     {
         "nid": "Generic_Portrait_Sage",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "Generic_Portrait_Sage 0, 0": [
+                0,
+                0
+            ]
+        }
     },
     {
         "nid": "Generic_Portrait_Shaman",
