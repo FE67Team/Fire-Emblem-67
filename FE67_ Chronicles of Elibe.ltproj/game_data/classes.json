@@ -122,11 +122,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -266,11 +261,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -420,11 +410,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -563,11 +548,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -713,11 +693,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -1824,11 +1799,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -2301,11 +2271,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Myrmidon",
@@ -2446,11 +2411,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -2596,11 +2556,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Mercenary",
@@ -2737,11 +2692,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -2891,11 +2841,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Thief",
@@ -3036,11 +2981,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3187,11 +3127,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Assassin",
@@ -3335,11 +3270,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -3474,11 +3404,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3629,11 +3554,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Cavalier",
@@ -3778,11 +3698,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3933,11 +3848,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Cavalier",
@@ -4085,11 +3995,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Cavalier",
@@ -4231,11 +4136,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4381,11 +4281,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4536,11 +4431,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Pegasus_Knight",
@@ -4682,11 +4572,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4832,11 +4717,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Knight",
@@ -4979,11 +4859,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Knight",
@@ -5123,11 +4998,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5274,11 +5144,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_General",
@@ -5422,11 +5287,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -5567,11 +5427,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Fighter",
@@ -5706,11 +5561,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5850,11 +5700,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5999,11 +5844,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Berserker",
@@ -6140,11 +5980,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6285,11 +6120,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6434,11 +6264,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Sniper",
@@ -6576,11 +6401,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6728,11 +6548,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Ranger",
@@ -6877,11 +6692,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Ranger",
@@ -7019,11 +6829,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -7165,11 +6970,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Cleric",
@@ -7308,11 +7108,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -7459,11 +7254,6 @@
                 false,
                 0,
                 null
-            ],
-            "Anima": [
-                true,
-                1,
-                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -7478,7 +7268,7 @@
     {
         "nid": "Fire_Mage",
         "name": "Fire Mage",
-        "desc": "Curious practioners of anima magic.",
+        "desc": "Curious practioners of fire magic.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -7603,11 +7393,6 @@
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
@@ -7623,7 +7408,7 @@
     {
         "nid": "Thunder_Mage",
         "name": "Thunder Mage",
-        "desc": "Curious practioners of anima magic.",
+        "desc": "Curious practioners of thunder magic.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -7748,11 +7533,6 @@
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
@@ -7768,7 +7548,7 @@
     {
         "nid": "Wind_Mage",
         "name": "Wind_Mage",
-        "desc": "Curious practioners of anima magic.",
+        "desc": "Curious practioners of wind magic.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -7893,11 +7673,6 @@
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
@@ -8035,11 +7810,6 @@
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
@@ -8181,11 +7951,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Shaman",
@@ -8322,11 +8087,6 @@
             "Default": [
                 false,
                 0,
-                null
-            ],
-            "Anima": [
-                true,
-                31,
                 null
             ]
         },
@@ -8469,11 +8229,6 @@
                 false,
                 0,
                 null
-            ],
-            "Anima": [
-                false,
-                0,
-                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -8488,7 +8243,7 @@
     {
         "nid": "Mage_Knight",
         "name": "Mage Knight",
-        "desc": "Knights trained in both anima and staves.",
+        "desc": "Knights trained in both magic and staves.",
         "tier": 2,
         "movement_group": "Light Cav",
         "promotes_from": "Fire_Mage",
@@ -8616,11 +8371,6 @@
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                71,
                 4
             ]
         },
@@ -8765,11 +8515,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Troubadour",
@@ -8911,11 +8656,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -9067,11 +8807,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Wyvern_Rider",
@@ -9214,11 +8949,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -9371,11 +9101,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Wyvern Knight (U) Lance {IS}",
@@ -9512,11 +9237,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -9657,11 +9377,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Revenant",
@@ -9794,11 +9509,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -9939,11 +9649,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -10076,11 +9781,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -10221,11 +9921,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -10358,11 +10053,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -10504,11 +10194,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Mogall",
@@ -10642,11 +10327,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -10794,11 +10474,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -10940,11 +10615,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -11092,11 +10762,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -11233,11 +10898,6 @@
                 null
             ],
             "Default": [
-                false,
-                0,
-                null
-            ],
-            "Anima": [
                 false,
                 0,
                 null
