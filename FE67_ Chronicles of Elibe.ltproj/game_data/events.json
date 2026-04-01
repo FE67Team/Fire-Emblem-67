@@ -3775,7 +3775,7 @@
             "$level_var \"_current_Soldiers\" 0",
             "#For each unit that is deployed, if that unit's faction isn't generic or a wall, increment their corresponding faction's level_var.",
             "for eUnit in allEnemies:",
-            "    if (eUnit.faction != \"Enemy\") and (eUnit.faction != \"Wall\"):",
+            "    if eUnit.faction and (eUnit.faction != \"Enemy\") and (eUnit.faction != \"Wall\"):",
             "        game.level_vars[\"_total_\" + eUnit.faction + \"s\"] += 1",
             "        game.level_vars[\"_current_\" + eUnit.faction + \"s\"] += 1",
             "",

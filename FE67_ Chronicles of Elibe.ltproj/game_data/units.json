@@ -4,7 +4,7 @@
         "name": "Lyn",
         "desc": "A young girl from the Lorca tribe. Stouthhearted and kind.",
         "variant": "",
-        "level": 4,
+        "level": 15,
         "klass": "Lyn_Lord",
         "tags": [
             "Lord",
@@ -5188,7 +5188,7 @@
             ],
             [
                 1,
-                "Paragon"
+                "Paragon_1"
             ]
         ],
         "unit_notes": [],
@@ -6826,7 +6826,20 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Paragon_1"
+            ],
+            [
+                1,
+                "Paragon_2"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Wind": [

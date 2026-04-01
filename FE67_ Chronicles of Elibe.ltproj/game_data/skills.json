@@ -1559,7 +1559,7 @@
     {
         "nid": "Pursuit",
         "name": "Pursuit",
-        "desc": "",
+        "desc": "Allows the user to make follow-up attacks.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -1569,10 +1569,6 @@
             [
                 "class_skill",
                 null
-            ],
-            [
-                "combat_condition",
-                "target.stats['SPD'] - unit.stats['SPD'] >= 4"
             ]
         ]
     },
@@ -2992,9 +2988,9 @@
         ]
     },
     {
-        "nid": "Paragon",
+        "nid": "Paragon_1",
         "name": "Paragon",
-        "desc": "",
+        "desc": "Doubles EXP until level 15.{br}1.2x EXP for all levels afterward.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -3006,8 +3002,36 @@
                 null
             ],
             [
+                "condition",
+                "unit.level < 15"
+            ],
+            [
                 "enemy_exp_multiplier",
                 2.0
+            ]
+        ]
+    },
+    {
+        "nid": "Paragon_2",
+        "name": "Paragon",
+        "desc": "Doubles EXP until level 15.{br}1.2x EXP for all levels afterward.\nA unit will need to have both Paragon skills in order for it to function properly.\nThis means if you want to remove Paragon you will also need to remove both.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "unit.level >= 15"
+            ],
+            [
+                "enemy_exp_multiplier",
+                1.2
             ]
         ]
     },
