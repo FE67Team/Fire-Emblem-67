@@ -1975,10 +1975,10 @@
         "nid": "Sword_Proficiency",
         "name": "Sword Proficiency",
         "desc": "Unit has improved weapon rank with Swords.",
-        "icon_nid": "Sword",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            2
+            0
         ],
         "components": [
             [
@@ -1995,10 +1995,10 @@
         "nid": "Sword_Proficiency_visonly",
         "name": "Sword Proficiency",
         "desc": "Unit has improved weapon rank with Swords.",
-        "icon_nid": "Sword",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            2
+            0
         ],
         "components": [
             [
@@ -2011,10 +2011,10 @@
         "nid": "Lance_Proficiency",
         "name": "Lance Proficiency",
         "desc": "Unit has improved weapon rank with Lances.",
-        "icon_nid": "Lance",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -2031,10 +2031,10 @@
         "nid": "Lance_Proficiency_visonly",
         "name": "Lance Proficiency",
         "desc": "Unit has improved weapon rank with Lances.",
-        "icon_nid": "Lance",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -2047,10 +2047,10 @@
         "nid": "Axe_Proficiency",
         "name": "Axe Proficiency",
         "desc": "Unit has improved weapon rank with Axes.",
-        "icon_nid": "Axe",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
@@ -2067,10 +2067,10 @@
         "nid": "Axe_Proficiency_visonly",
         "name": "Axe Proficiency",
         "desc": "Unit has improved weapon rank with Axes.",
-        "icon_nid": "Axe",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
@@ -2083,10 +2083,10 @@
         "nid": "Bow_Proficiency",
         "name": "Bow Proficiency",
         "desc": "Unit has improved weapon rank with Bows.",
-        "icon_nid": "Bow",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            3
         ],
         "components": [
             [
@@ -2103,10 +2103,10 @@
         "nid": "Bow_Proficiency_visonly",
         "name": "Bow Proficiency",
         "desc": "Unit has improved weapon rank with Bows.",
-        "icon_nid": "Bow",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            3
         ],
         "components": [
             [
@@ -2119,10 +2119,10 @@
         "nid": "Fire_Proficiency",
         "name": "Fire Proficiency",
         "desc": "Unit has improved weapon rank with Fire magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
@@ -2139,10 +2139,10 @@
         "nid": "Fire_Proficiency_visonly",
         "name": "Fire Proficiency",
         "desc": "Unit has improved weapon rank with Fire magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
@@ -2155,10 +2155,10 @@
         "nid": "Thunder_Proficiency",
         "name": "Thunder Proficiency",
         "desc": "Unit has improved weapon rank with Thunder magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            1
+            0
         ],
         "components": [
             [
@@ -2175,10 +2175,10 @@
         "nid": "Thunder_Proficiency_visonly",
         "name": "Thunder Proficiency",
         "desc": "Unit has improved weapon rank with Thunder magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            1
+            0
         ],
         "components": [
             [
@@ -2191,10 +2191,10 @@
         "nid": "Wind_Proficiency",
         "name": "Wind Proficiency",
         "desc": "Unit has improved weapon rank with Wind magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            5
+            7
         ],
         "components": [
             [
@@ -2211,10 +2211,10 @@
         "nid": "Wind_Proficiency_visonly",
         "name": "Wind Proficiency",
         "desc": "Unit has improved weapon rank with Wind magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            5
+            7
         ],
         "components": [
             [
@@ -2227,10 +2227,10 @@
         "nid": "Light_Proficiency",
         "name": "Light Proficiency",
         "desc": "Unit has improved weapon rank with Light magic.",
-        "icon_nid": "Light",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            1
+            5
         ],
         "components": [
             [
@@ -2247,10 +2247,10 @@
         "nid": "Light_Proficiency_visonly",
         "name": "Light Proficiency",
         "desc": "Unit has improved weapon rank with Light magic.",
-        "icon_nid": "Light",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            1
+            5
         ],
         "components": [
             [
@@ -2263,10 +2263,10 @@
         "nid": "Dark_Proficiency",
         "name": "Dark Proficiency",
         "desc": "Unit has improved weapon rank with Dark magic.",
-        "icon_nid": "Dark",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            7
         ],
         "components": [
             [
@@ -2283,10 +2283,10 @@
         "nid": "Dark_Proficiency_visonly",
         "name": "Dark Proficiency",
         "desc": "Unit has improved weapon rank with Dark magic.",
-        "icon_nid": "Dark",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            7
         ],
         "components": [
             [
@@ -2299,10 +2299,10 @@
         "nid": "Staff_Proficiency",
         "name": "Staff Proficiency",
         "desc": "Unit has improved weapon rank with Staves.",
-        "icon_nid": "Staff",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            1
+            4
         ],
         "components": [
             [
@@ -2319,10 +2319,10 @@
         "nid": "Staff_Proficiency_visonly",
         "name": "Staff Proficiency",
         "desc": "Unit has improved weapon rank with Staves.",
-        "icon_nid": "Staff",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            1
+            4
         ],
         "components": [
             [
