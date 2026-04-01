@@ -98,7 +98,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -108,22 +108,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -208,7 +203,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -240,7 +240,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -250,22 +250,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -354,6 +349,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -387,7 +386,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -397,22 +396,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -496,7 +490,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -528,7 +527,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -538,22 +537,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -641,6 +635,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -674,7 +672,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -684,22 +682,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -760,7 +753,12 @@
             "MOV": 15,
             "CON": 20
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -792,7 +790,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -802,12 +800,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -871,7 +869,12 @@
             "CON": 25,
             "MAG": 22
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -903,7 +906,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -913,12 +916,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -988,7 +991,12 @@
             "MOV": 15,
             "CON": 20
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -1020,7 +1028,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -1030,12 +1038,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -1113,6 +1121,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -1146,7 +1158,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -1156,12 +1168,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -1228,7 +1240,12 @@
             "MOV": 15,
             "CON": 20
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -1260,7 +1277,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -1270,12 +1287,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -1349,7 +1366,12 @@
             "MOV": 15,
             "CON": 25
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -1381,7 +1403,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -1391,12 +1413,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -1452,7 +1474,12 @@
         "growth_bonus": {},
         "promotion": {},
         "max_stats": {},
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -1484,7 +1511,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -1494,12 +1521,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -1572,7 +1599,12 @@
             "MOV": 15,
             "CON": 25
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -1604,7 +1636,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -1614,12 +1646,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -1743,7 +1775,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -1753,22 +1785,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -1863,7 +1890,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -1873,12 +1900,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -1987,7 +2014,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -1997,12 +2024,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -2183,7 +2210,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -2215,7 +2247,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -2225,22 +2257,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -2326,6 +2353,10 @@
             [
                 1,
                 "Crit_Plus15"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -2359,7 +2390,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -2369,22 +2400,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -2469,7 +2495,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -2501,7 +2532,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -2511,22 +2542,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -2608,7 +2634,12 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -2640,7 +2671,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -2650,22 +2681,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -2754,6 +2780,10 @@
             [
                 1,
                 "Steal"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -2787,7 +2817,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -2797,22 +2827,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -2898,6 +2923,10 @@
             [
                 1,
                 "Lethality"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -2931,7 +2960,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -2941,22 +2970,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3042,6 +3066,10 @@
             [
                 1,
                 "Locktouch"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -3075,7 +3103,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -3085,22 +3113,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3186,7 +3209,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -3218,7 +3246,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -3228,22 +3256,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3323,7 +3346,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -3355,7 +3383,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -3365,22 +3393,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3470,6 +3493,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -3503,7 +3530,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -3513,22 +3540,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3618,6 +3640,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -3651,7 +3677,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -3661,22 +3687,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3766,6 +3787,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -3799,7 +3824,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -3809,22 +3834,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3914,6 +3934,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -3947,7 +3971,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -3957,22 +3981,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4059,6 +4078,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -4092,7 +4115,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -4102,22 +4125,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4205,6 +4223,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -4238,7 +4260,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -4248,22 +4270,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4353,6 +4370,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -4386,7 +4407,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -4396,22 +4417,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4494,7 +4510,16 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -4526,7 +4551,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -4536,22 +4561,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4636,7 +4656,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -4668,7 +4693,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -4678,22 +4703,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4778,7 +4798,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -4810,7 +4835,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -4820,22 +4845,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4920,7 +4940,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -4952,7 +4977,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -4962,22 +4987,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5063,6 +5083,10 @@
             [
                 1,
                 "Pavise"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -5096,7 +5120,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -5106,22 +5130,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5207,7 +5226,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -5239,7 +5263,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -5249,22 +5273,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5347,7 +5366,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -5379,7 +5403,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -5389,22 +5413,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5484,7 +5503,12 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -5516,7 +5540,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -5526,22 +5550,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5623,7 +5642,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -5655,7 +5679,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -5665,22 +5689,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5764,6 +5783,10 @@
             [
                 1,
                 "Crit_Plus15"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -5797,7 +5820,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -5807,22 +5830,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5904,7 +5922,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -5936,7 +5959,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -5946,22 +5969,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6044,7 +6062,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -6076,7 +6099,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -6086,22 +6109,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6185,6 +6203,10 @@
             [
                 1,
                 "Sure_Strike"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -6218,7 +6240,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -6228,22 +6250,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6326,7 +6343,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -6358,7 +6380,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -6368,22 +6390,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6470,6 +6487,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -6503,7 +6524,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -6513,22 +6534,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6615,6 +6631,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -6648,7 +6668,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -6658,22 +6678,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6756,7 +6771,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -6788,7 +6808,7 @@
                 2,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -6798,22 +6818,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6931,7 +6946,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -6941,22 +6956,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -7040,6 +7050,10 @@
             [
                 1,
                 "Slayer"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -7073,7 +7087,7 @@
                 1,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -7083,22 +7097,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -7184,7 +7193,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -7216,9 +7230,9 @@
                 0,
                 null
             ],
-            "Wind": [
-                true,
-                1,
+            "Dark": [
+                false,
+                0,
                 null
             ],
             "Fire": [
@@ -7226,12 +7240,12 @@
                 0,
                 null
             ],
-            "Thunder": [
-                false,
-                0,
+            "Wind": [
+                true,
+                1,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -7239,11 +7253,6 @@
             "Default": [
                 false,
                 0,
-                null
-            ],
-            "Anima": [
-                true,
-                1,
                 null
             ]
         },
@@ -7259,7 +7268,7 @@
     {
         "nid": "Fire_Mage",
         "name": "Fire Mage",
-        "desc": "Curious practioners of anima magic.",
+        "desc": "Curious practioners of fire magic.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -7324,7 +7333,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -7356,7 +7370,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -7366,24 +7380,19 @@
                 2,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
@@ -7399,7 +7408,7 @@
     {
         "nid": "Thunder_Mage",
         "name": "Thunder Mage",
-        "desc": "Curious practioners of anima magic.",
+        "desc": "Curious practioners of thunder magic.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -7464,7 +7473,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -7496,7 +7510,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -7506,24 +7520,19 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 true,
                 2,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
@@ -7539,7 +7548,7 @@
     {
         "nid": "Wind_Mage",
         "name": "Wind_Mage",
-        "desc": "Curious practioners of anima magic.",
+        "desc": "Curious practioners of wind magic.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -7604,7 +7613,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -7636,9 +7650,9 @@
                 0,
                 4
             ],
-            "Wind": [
-                true,
-                2,
+            "Dark": [
+                false,
+                0,
                 4
             ],
             "Fire": [
@@ -7646,24 +7660,19 @@
                 0,
                 null
             ],
+            "Wind": [
+                true,
+                2,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
@@ -7741,7 +7750,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -7773,9 +7787,9 @@
                 0,
                 4
             ],
-            "Wind": [
-                true,
-                1,
+            "Dark": [
+                false,
+                0,
                 4
             ],
             "Fire": [
@@ -7783,24 +7797,19 @@
                 1,
                 null
             ],
+            "Wind": [
+                true,
+                1,
+                4
+            ],
             "Thunder": [
                 true,
                 1,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
                 4
             ]
         },
@@ -7881,7 +7890,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -7913,9 +7927,9 @@
                 0,
                 4
             ],
-            "Wind": [
-                false,
-                0,
+            "Dark": [
+                true,
+                2,
                 4
             ],
             "Fire": [
@@ -7923,22 +7937,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                true,
-                2,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -8018,7 +8027,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -8050,12 +8064,17 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
+                true,
+                1,
+                null
+            ],
+            "Fire": [
                 false,
                 0,
                 null
             ],
-            "Fire": [
+            "Wind": [
                 false,
                 0,
                 null
@@ -8065,19 +8084,9 @@
                 0,
                 null
             ],
-            "Dark": [
-                true,
-                1,
-                null
-            ],
             "Default": [
                 false,
                 0,
-                null
-            ],
-            "Anima": [
-                true,
-                31,
                 null
             ]
         },
@@ -8159,6 +8168,10 @@
             [
                 1,
                 "Summon"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -8192,12 +8205,17 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
+                true,
+                1,
+                null
+            ],
+            "Fire": [
                 false,
                 0,
                 null
             ],
-            "Fire": [
+            "Wind": [
                 false,
                 0,
                 null
@@ -8207,17 +8225,7 @@
                 0,
                 null
             ],
-            "Dark": [
-                true,
-                1,
-                null
-            ],
             "Default": [
-                false,
-                0,
-                null
-            ],
-            "Anima": [
                 false,
                 0,
                 null
@@ -8235,7 +8243,7 @@
     {
         "nid": "Mage_Knight",
         "name": "Mage Knight",
-        "desc": "Knights trained in both anima and staves.",
+        "desc": "Knights trained in both magic and staves.",
         "tier": 2,
         "movement_group": "Light Cav",
         "promotes_from": "Fire_Mage",
@@ -8303,6 +8311,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -8336,7 +8348,7 @@
                 1,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -8346,24 +8358,19 @@
                 1,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 true,
                 1,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
                 false,
                 0,
-                4
-            ],
-            "Anima": [
-                true,
-                71,
                 4
             ]
         },
@@ -8484,7 +8491,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -8494,22 +8501,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -8596,6 +8598,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -8629,7 +8635,7 @@
                 1,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -8639,22 +8645,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -8745,6 +8746,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -8778,7 +8783,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -8788,22 +8793,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -8891,6 +8891,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -8924,7 +8928,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -8934,22 +8938,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -9041,6 +9040,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -9074,7 +9077,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -9084,22 +9087,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -9181,7 +9179,12 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -9213,9 +9216,9 @@
                 0,
                 4
             ],
-            "Wind": [
-                false,
-                0,
+            "Dark": [
+                true,
+                1,
                 4
             ],
             "Fire": [
@@ -9223,22 +9226,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                true,
-                1,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -9379,11 +9377,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Revenant",
@@ -9516,11 +9509,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -9661,11 +9649,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -9798,11 +9781,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -9943,11 +9921,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -10080,11 +10053,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -10226,11 +10194,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Mogall",
@@ -10367,11 +10330,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Arch_Mogall",
@@ -10451,7 +10409,16 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Dragonblood"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -10483,7 +10450,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -10493,22 +10460,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -10656,11 +10618,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -10805,11 +10762,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -10888,7 +10840,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -10902,7 +10859,7 @@
             ],
             "Axe": [
                 true,
-                71,
+                1,
                 null
             ],
             "Bow": [
@@ -10920,7 +10877,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -10930,22 +10887,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                null
-            ],
             "Default": [
-                false,
-                0,
-                null
-            ],
-            "Anima": [
                 false,
                 0,
                 null

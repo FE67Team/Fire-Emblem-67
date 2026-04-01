@@ -426,5 +426,21 @@
     {
         "nid": "prep_gba_save_desc",
         "text": "Save any changes. Choose Restart Chapter to restart this chapter. You can't return to the world map after saving."
+    },
+    {
+        "nid": "repair_opener",
+        "text": "Need something repaired?"
+    },
+    {
+        "nid": "repair_buy",
+        "text": "It's as good as new!"
+    },
+    {
+        "nid": "repair_no_money",
+        "text": "Sorry. You don't have enough money."
+    },
+    {
+        "nid": "repair_again",
+        "text": "Does anything else need fixing?"
     }
 ]
