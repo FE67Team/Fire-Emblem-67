@@ -25,11 +25,11 @@
     },
     {
         "nid": "CRIT_HIT",
-        "expression": "SKL//2"
+        "expression": "0"
     },
     {
         "nid": "CRIT_AVOID",
-        "expression": "LCK"
+        "expression": "0"
     },
     {
         "nid": "DAMAGE",
