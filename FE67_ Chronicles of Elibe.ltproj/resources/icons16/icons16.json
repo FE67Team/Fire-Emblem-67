@@ -46,7 +46,20 @@
     },
     {
         "nid": "Skills",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "Skills 1, 3": [
+                1,
+                3
+            ],
+            "Skills 7, 7": [
+                7,
+                7
+            ],
+            "Skills 8, 8": [
+                8,
+                8
+            ]
+        }
     },
     {
         "nid": "Staff",

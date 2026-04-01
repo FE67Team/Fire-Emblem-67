@@ -122,5 +122,17 @@
     {
         "nid": "STATUS_STAFF_AVOID",
         "expression": "MAG*5"
+    },
+    {
+        "nid": "SPEED_PROC",
+        "expression": "20 + ATTACK_SPEED"
+    },
+    {
+        "nid": "LUCK_PROC",
+        "expression": "LCK"
+    },
+    {
+        "nid": "HP_PROC",
+        "expression": "ATTACK_SPEED+(HP/2)"
     }
 ]
