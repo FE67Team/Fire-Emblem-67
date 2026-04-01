@@ -7236,8 +7236,8 @@
                 null
             ],
             "Fire": [
-                false,
-                0,
+                true,
+                1,
                 null
             ],
             "Wind": [
@@ -7246,8 +7246,8 @@
                 null
             ],
             "Thunder": [
-                false,
-                0,
+                true,
+                1,
                 null
             ],
             "Default": [
@@ -7381,13 +7381,13 @@
                 null
             ],
             "Wind": [
-                false,
-                0,
+                true,
+                1,
                 4
             ],
             "Thunder": [
-                false,
-                0,
+                true,
+                1,
                 null
             ],
             "Default": [
@@ -7516,13 +7516,13 @@
                 4
             ],
             "Fire": [
-                false,
-                0,
+                true,
+                1,
                 null
             ],
             "Wind": [
-                false,
-                0,
+                true,
+                1,
                 4
             ],
             "Thunder": [
@@ -7656,8 +7656,8 @@
                 4
             ],
             "Fire": [
-                false,
-                0,
+                true,
+                1,
                 null
             ],
             "Wind": [
@@ -7666,8 +7666,8 @@
                 4
             ],
             "Thunder": [
-                false,
-                0,
+                true,
+                1,
                 null
             ],
             "Default": [
