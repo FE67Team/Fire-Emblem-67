@@ -11555,7 +11555,7 @@
         "nid": "Broken_Sword",
         "name": "Broken Sword",
         "desc": "A completely ruined sword.{br}It cannot be repaired.",
-        "icon_nid": "Sword",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
             0
@@ -11619,10 +11619,10 @@
         "nid": "Broken_Lance",
         "name": "Broken Lance",
         "desc": "A completely ruined lance.{br}It cannot be repaired.",
-        "icon_nid": "Lance",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -11683,10 +11683,10 @@
         "nid": "Broken_Axe",
         "name": "Broken Axe",
         "desc": "A completely ruined axe.{br}It cannot be repaired.",
-        "icon_nid": "Axe",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
@@ -11747,10 +11747,10 @@
         "nid": "Broken_Bow",
         "name": "Broken Bow",
         "desc": "A completely ruined bow.{br}It cannot be repaired.",
-        "icon_nid": "Bow",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            3
         ],
         "components": [
             [
@@ -11823,10 +11823,10 @@
         "nid": "Broken_Staff",
         "name": "Broken Staff",
         "desc": "A completely ruined staff.{br}It cannot be repaired.",
-        "icon_nid": "Staff",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            5
         ],
         "components": [
             [
@@ -11863,10 +11863,10 @@
         "nid": "Broken_Fire",
         "name": "Drained Tome",
         "desc": "A completely empty fire tome.{br}It cannot be repaired.",
-        "icon_nid": "Anima",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
@@ -11919,10 +11919,10 @@
         "nid": "Broken_Thunder",
         "name": "Drained Tome",
         "desc": "A completely empty thunder tome.{br}It cannot be repaired.",
-        "icon_nid": "Anima",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            1
+            4
         ],
         "components": [
             [
@@ -11975,10 +11975,10 @@
         "nid": "Broken_Wind",
         "name": "Drained Tome",
         "desc": "A completely empty wind tome.{br}It cannot be repaired.",
-        "icon_nid": "Anima",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            5
+            4
         ],
         "components": [
             [
@@ -12031,10 +12031,10 @@
         "nid": "Broken_Light",
         "name": "Drained Tome",
         "desc": "A completely empty light tome.{br}It cannot be repaired.",
-        "icon_nid": "Light",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
@@ -12087,10 +12087,10 @@
         "nid": "Broken_Dark",
         "name": "Drained Tome",
         "desc": "A completely empty dark tome.{br}It cannot be repaired.",
-        "icon_nid": "Dark",
+        "icon_nid": "Broken_weapons (Batima & Lisandra Brave)",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
