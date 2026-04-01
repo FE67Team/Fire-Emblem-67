@@ -14,7 +14,7 @@
                 null
             ],
             [
-                "canto",
+                "canto_plus",
                 null
             ]
         ]
@@ -1003,9 +1003,57 @@
         ]
     },
     {
+        "nid": "Charm",
+        "name": "Charm",
+        "desc": "Aura - Grants +10 Hit/Avoid to allies with in 3 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Charm_child"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    },
+    {
+        "nid": "Charm_child",
+        "name": "Charm child",
+        "desc": " Grants +10 Hit/Avoid",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "hit",
+                10
+            ],
+            [
+                "avoid",
+                10
+            ]
+        ]
+    },
+    {
         "nid": "Inspiration",
         "name": "Inspiration",
-        "desc": "Aura - Grants +1 damage and +1 resist to allies.",
+        "desc": "Aura - Grants +1 damage and +1 resist to allies with in 3 tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -1205,6 +1253,330 @@
         ]
     },
     {
+        "nid": "Sol",
+        "name": "Sol",
+        "desc": "Proc Rate: SKL/4%\nHeals for damage dealt.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_proc",
+                "Sol_Proc"
+            ],
+            [
+                "proc_rate",
+                "SKILL_PROC"
+            ]
+        ]
+    },
+    {
+        "nid": "Sol_Proc",
+        "name": "Sol Proc",
+        "desc": "Heals for damage dealt.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "lifelink",
+                1.0
+            ]
+        ]
+    },
+    {
+        "nid": "Astra",
+        "name": "Astra",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_proc",
+                "Astra_Proc"
+            ],
+            [
+                "proc_rate",
+                "SKILL_PROC"
+            ]
+        ]
+    },
+    {
+        "nid": "Astra_Proc",
+        "name": "Astra Proc",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            1
+        ],
+        "components": [
+            [
+                "astra_proc",
+                {
+                    "extra_attacks": 4,
+                    "damage_percent": 0.5,
+                    "show_proc_effects": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Adept",
+        "name": "Adept",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_proc",
+                "Adept_Proc"
+            ],
+            [
+                "proc_rate",
+                "SPEED_PROC"
+            ]
+        ]
+    },
+    {
+        "nid": "Adept_Proc",
+        "name": "new_1",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "astra_proc",
+                {
+                    "extra_attacks": 1,
+                    "damage_percent": 1.0,
+                    "show_proc_effects": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Miracle",
+        "name": "Miracle",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "defense_proc",
+                "Miracle_Proc"
+            ],
+            [
+                "proc_rate",
+                "LUCK_PROC"
+            ]
+        ]
+    },
+    {
+        "nid": "Miracle_Proc",
+        "name": "Miracle Proc",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "miracle",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Accost",
+        "name": "Accost",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "defense_proc",
+                "Canto"
+            ],
+            [
+                "proc_rate",
+                "HP_PROC"
+            ]
+        ]
+    },
+    {
+        "nid": "Accost_Proc",
+        "name": "Accost Proc",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            7
+        ],
+        "components": []
+    },
+    {
+        "nid": "Wrath",
+        "name": "Wrath",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "unit.get_hp() <= (unit.get_max_hp()//2)"
+            ],
+            [
+                "crit",
+                50
+            ]
+        ]
+    },
+    {
+        "nid": "Vantage",
+        "name": "Vantage",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "unit.get_hp() <= (unit.get_max_hp()//2)"
+            ],
+            [
+                "vantage",
+                null
+            ],
+            [
+                "nihil",
+                [
+                    "Accost"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Renewal",
+        "name": "Renewal",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "regeneration",
+                0.1
+            ]
+        ]
+    },
+    {
+        "nid": "Nihil",
+        "name": "Nihil",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "nihil",
+                [
+                    "Critical",
+                    "Luna",
+                    "Sol",
+                    "Astra",
+                    "Adept",
+                    "Accost"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Pursuit",
+        "name": "Pursuit",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.stats['SPD'] - unit.stats['SPD'] >= 4"
+            ]
+        ]
+    },
+    {
         "nid": "Pavise",
         "name": "Pavise",
         "desc": "Proc Rate: SKL/4%\nNullifies damage done to unit.",
@@ -1350,8 +1722,8 @@
         "desc": "Reduces cost of items by half.",
         "icon_nid": "Skills",
         "icon_index": [
-            0,
-            0
+            7,
+            10
         ],
         "components": [
             [
@@ -2491,6 +2863,22 @@
         ]
     },
     {
+        "nid": "Wary_Fighter",
+        "name": "Wary Fighter",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Critical_Force",
         "name": "Critical Force",
         "desc": "Add Skill*2 to Crit.",
@@ -2527,6 +2915,22 @@
             [
                 "eval_crit",
                 "unit.equipped_weapon.weight.value"
+            ]
+        ]
+    },
+    {
+        "nid": "Acrobat",
+        "name": "Acrobat",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
             ]
         ]
     },
@@ -2594,12 +2998,16 @@
         "icon_nid": "Skills",
         "icon_index": [
             1,
-            2
+            9
         ],
         "components": [
             [
                 "class_skill",
                 null
+            ],
+            [
+                "enemy_exp_multiplier",
+                2.0
             ]
         ]
     },

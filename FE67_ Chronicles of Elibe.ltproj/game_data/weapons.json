@@ -535,7 +535,7 @@
                 "defense_speed": "0"
             }
         ],
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
             7
@@ -543,7 +543,7 @@
     },
     {
         "nid": "Fire",
-        "name": "Anima",
+        "name": "Fire",
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
@@ -747,7 +747,7 @@
     },
     {
         "nid": "Thunder",
-        "name": "Anima",
+        "name": "Thunder",
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
@@ -841,7 +841,7 @@
                 "defense_speed": 0
             }
         ],
-        "icon_nid": "wexp_icons",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
             7
