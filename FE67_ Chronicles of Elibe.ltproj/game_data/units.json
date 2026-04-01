@@ -7,8 +7,7 @@
         "level": 4,
         "klass": "Eirika_Lord",
         "tags": [
-            "Lord",
-            "Female"
+            "Lord"
         ],
         "bases": {
             "HP": 18,
@@ -45,11 +44,11 @@
         },
         "starting_items": [
             [
-                "Iron_Sword",
+                "Vulnerary",
                 false
             ],
             [
-                "Vulnerary",
+                "Rapier",
                 false
             ]
         ],
@@ -58,7 +57,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                1,
+                251,
                 251
             ],
             "Lance": [
@@ -114,9 +113,7 @@
         "variant": "",
         "level": 4,
         "klass": "Cavalier",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 22,
             "STR": 9,
@@ -166,7 +163,7 @@
             ],
             "Lance": [
                 true,
-                1,
+                71,
                 251
             ],
             "Axe": [
@@ -217,9 +214,7 @@
         "variant": "",
         "level": 5,
         "klass": "Cavalier",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 23,
             "STR": 8,
@@ -264,7 +259,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                1,
+                71,
                 251
             ],
             "Lance": [
@@ -320,9 +315,7 @@
         "variant": "",
         "level": 4,
         "klass": "Archer",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 21,
             "STR": 6,
@@ -382,7 +375,7 @@
             ],
             "Bow": [
                 false,
-                1,
+                181,
                 251
             ],
             "Staff": [
@@ -423,9 +416,7 @@
         "variant": "",
         "level": 3,
         "klass": "Fighter",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 30,
             "STR": 7,
@@ -534,9 +525,7 @@
         "variant": "",
         "level": 3,
         "klass": "Pegasus_Knight",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 18,
             "STR": 6,
@@ -645,9 +634,7 @@
         "variant": "",
         "level": 9,
         "klass": "Nomad",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 27,
             "STR": 9,
@@ -748,9 +735,7 @@
         "variant": null,
         "level": 4,
         "klass": "Thunder_Mage",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 20,
             "STR": 7,
@@ -870,9 +855,7 @@
         "variant": null,
         "level": 12,
         "klass": "Axe_Armor",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 30,
             "STR": 13,
@@ -973,9 +956,7 @@
         "variant": null,
         "level": 1,
         "klass": "Paladin",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 30,
             "STR": 10,
@@ -1084,9 +1065,7 @@
         "variant": null,
         "level": 1,
         "klass": "Dancer",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 14,
             "STR": 0,
@@ -1192,8 +1171,7 @@
         "level": 1,
         "klass": "Eirika_Lord",
         "tags": [
-            "Lord",
-            "Male"
+            "Lord"
         ],
         "bases": {
             "HP": 18,
@@ -1230,7 +1208,7 @@
         },
         "starting_items": [
             [
-                "Rapier",
+                "Killing_Edge",
                 false
             ]
         ],
@@ -1295,9 +1273,7 @@
         "variant": "",
         "level": 1,
         "klass": "Paladin",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 32,
             "STR": 9,
@@ -1406,9 +1382,7 @@
         "variant": null,
         "level": 2,
         "klass": "Cavalier",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 23,
             "STR": 7,
@@ -1513,9 +1487,7 @@
         "variant": "",
         "level": 1,
         "klass": "Archer",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 17,
             "STR": 4,
@@ -1620,9 +1592,7 @@
         "variant": "Female",
         "level": 2,
         "klass": "Fighter",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 29,
             "STR": 9,
@@ -1728,8 +1698,7 @@
         "level": 2,
         "klass": "Fighter",
         "tags": [
-            "Lord",
-            "Male"
+            "Lord"
         ],
         "bases": {
             "HP": 19,
@@ -1831,9 +1800,7 @@
         "variant": "",
         "level": 9,
         "klass": "Lance_Armor",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 28,
             "STR": 13,
@@ -1938,9 +1905,7 @@
         "variant": "Female",
         "level": 1,
         "klass": "Cleric",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 17,
             "STR": 2,
@@ -2041,9 +2006,7 @@
         "variant": "Female",
         "level": 2,
         "klass": "Thief",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -2148,9 +2111,7 @@
         "variant": "",
         "level": 3,
         "klass": "Myrmidon",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 21,
             "STR": 6,
@@ -2251,9 +2212,7 @@
         "variant": null,
         "level": 5,
         "klass": "Phantom",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -2349,9 +2308,7 @@
         "variant": null,
         "level": 8,
         "klass": "Pirate",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 34,
             "STR": 12,
@@ -2452,9 +2409,7 @@
         "variant": null,
         "level": 1,
         "klass": "Recruit",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 16,
             "STR": 4,
@@ -2563,9 +2518,7 @@
         "variant": null,
         "level": 1,
         "klass": "Sniper",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 31,
             "STR": 14,
@@ -2674,9 +2627,7 @@
         "variant": null,
         "level": 10,
         "klass": "Mercenary",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 32,
             "STR": 14,
@@ -2785,9 +2736,7 @@
         "variant": null,
         "level": 1,
         "klass": "Dancer",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 18,
             "STR": 1,
@@ -2896,9 +2845,7 @@
         "variant": null,
         "level": 5,
         "klass": "Myrmidon",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 23,
             "STR": 7,
@@ -3003,9 +2950,7 @@
         "variant": null,
         "level": 3,
         "klass": "Troubadour",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -3114,9 +3059,7 @@
         "variant": null,
         "level": 1,
         "klass": "Berserker",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 43,
             "STR": 16,
@@ -3221,9 +3164,7 @@
         "variant": null,
         "level": 1,
         "klass": "Sage",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 30,
             "STR": 0,
@@ -3328,9 +3269,7 @@
         "variant": null,
         "level": 1,
         "klass": "Pupil",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 15,
             "STR": 0,
@@ -3439,9 +3378,7 @@
         "variant": null,
         "level": 9,
         "klass": "Wyvern_Rider",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 30,
             "STR": 14,
@@ -3550,9 +3487,7 @@
         "variant": null,
         "level": 1,
         "klass": "Rogue",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 28,
             "STR": 10,
@@ -3657,9 +3592,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -3768,9 +3701,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -3868,7 +3799,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Juno",
+        "portrait_nid": "Klokinator in FE6",
         "affinity": "Anima",
         "fields": []
     },
@@ -3879,9 +3810,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -3990,9 +3919,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -4101,9 +4028,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -4212,9 +4137,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -4323,9 +4246,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -4434,9 +4355,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -4534,7 +4453,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Douglas",
+        "portrait_nid": "Faceless Blob",
         "affinity": "Anima",
         "fields": []
     },
@@ -4545,9 +4464,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -4656,9 +4573,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -4767,9 +4682,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -4878,9 +4791,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -4989,9 +4900,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -5100,9 +5009,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -5211,9 +5118,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -5322,9 +5227,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -5433,9 +5336,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -5544,9 +5445,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -5655,9 +5554,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -5766,9 +5663,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -5877,9 +5772,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -5988,9 +5881,7 @@
         "variant": null,
         "level": 9,
         "klass": "Great_Knight",
-        "tags": [
-            "Male"
-        ],
+        "tags": [],
         "bases": {
             "HP": 41,
             "STR": 17,
@@ -6197,7 +6088,7 @@
     },
     {
         "nid": "Yogi",
-        "name": "Yogi",
+        "name": "Breguet",
         "desc": "Commander of a Grado military force.",
         "variant": "",
         "level": 4,
@@ -6254,7 +6145,7 @@
             ],
             "Lance": [
                 true,
-                1,
+                71,
                 251
             ],
             "Axe": [
@@ -6408,9 +6299,7 @@
         "variant": "",
         "level": 15,
         "klass": "General",
-        "tags": [
-            "Boss"
-        ],
+        "tags": [],
         "bases": {
             "HP": 35,
             "STR": 12,
@@ -6576,7 +6465,7 @@
             ],
             "Axe": [
                 true,
-                1,
+                71,
                 251
             ],
             "Bow": [
@@ -6674,12 +6563,12 @@
             ],
             "Lance": [
                 false,
-                1,
+                71,
                 251
             ],
             "Axe": [
                 true,
-                0,
+                710,
                 251
             ],
             "Bow": [
@@ -6725,10 +6614,7 @@
         "variant": "Female",
         "level": 11,
         "klass": "Mage_Knight",
-        "tags": [
-            "Boss",
-            "Female"
-        ],
+        "tags": [],
         "bases": {
             "HP": 39,
             "STR": 6,
@@ -6797,7 +6683,7 @@
             ],
             "Staff": [
                 false,
-                2,
+                121,
                 251
             ],
             "Light": [
@@ -6830,12 +6716,10 @@
         "nid": "Caellach",
         "name": "Caellach",
         "desc": "An ambitious general in Grado's army. He's better known as Tiger Eye.",
-        "variant": "",
+        "variant": null,
         "level": 12,
         "klass": "Hero",
-        "tags": [
-            "Boss"
-        ],
+        "tags": [],
         "bases": {
             "HP": 50,
             "STR": 20,
@@ -6888,7 +6772,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                4,
+                181,
                 251
             ],
             "Lance": [
@@ -6898,7 +6782,7 @@
             ],
             "Axe": [
                 false,
-                4,
+                251,
                 251
             ],
             "Bow": [
@@ -6944,9 +6828,7 @@
         "variant": "",
         "level": 131,
         "klass": "Wyvern_Knight",
-        "tags": [
-            "Boss"
-        ],
+        "tags": [],
         "bases": {
             "HP": 48,
             "STR": 20,
@@ -7004,7 +6886,7 @@
             ],
             "Lance": [
                 false,
-                4,
+                251,
                 251
             ],
             "Axe": [
@@ -7055,9 +6937,7 @@
         "variant": null,
         "level": 16,
         "klass": "Bishop",
-        "tags": [
-            "Boss"
-        ],
+        "tags": [],
         "bases": {
             "HP": 51,
             "STR": 0,
@@ -7122,12 +7002,12 @@
             ],
             "Staff": [
                 false,
-                3,
+                181,
                 251
             ],
             "Light": [
                 false,
-                4,
+                251,
                 251
             ],
             "Anima": [
@@ -7158,9 +7038,7 @@
         "variant": null,
         "level": 14,
         "klass": "Necromancer",
-        "tags": [
-            "Boss"
-        ],
+        "tags": [],
         "bases": {
             "HP": 46,
             "STR": 1,
@@ -7229,7 +7107,7 @@
             ],
             "Staff": [
                 false,
-                3,
+                181,
                 251
             ],
             "Light": [
@@ -7244,7 +7122,7 @@
             ],
             "Dark": [
                 false,
-                4,
+                251,
                 251
             ],
             "Default": [

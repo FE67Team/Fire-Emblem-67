@@ -884,7 +884,12 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "test",
@@ -1837,10 +1842,6 @@
                 "starting_items": [
                     [
                         "Iron_Axe",
-                        false
-                    ],
-                    [
-                        "Hand_Axe",
                         false
                     ]
                 ],

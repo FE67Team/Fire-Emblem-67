@@ -1,7 +1,12 @@
 [
     {
         "nid": "Affinity",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "Affinity 0, 7": [
+                0,
+                7
+            ]
+        }
     },
     {
         "nid": "Anima",
@@ -65,6 +70,15 @@
     },
     {
         "nid": "anima_icons",
+        "subicon_dict": {
+            "anima_icons 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "anima_icons_1",
         "subicon_dict": {}
     }
 ]

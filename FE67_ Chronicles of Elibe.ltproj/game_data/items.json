@@ -25,6 +25,10 @@
                 null
             ],
             [
+                "value",
+                320
+            ],
+            [
                 "target_enemy",
                 null
             ],
@@ -64,16 +68,8 @@
                 }
             ],
             [
-                "value",
-                320
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -82,6 +78,10 @@
             [
                 "weapon_rank",
                 "C"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -98,6 +98,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                3000
             ],
             [
                 "target_enemy",
@@ -121,7 +125,7 @@
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "weight",
@@ -139,16 +143,8 @@
                 }
             ],
             [
-                "value",
-                3000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -157,6 +153,10 @@
             [
                 "weapon_rank",
                 "C"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -173,6 +173,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                3000
             ],
             [
                 "target_enemy",
@@ -214,16 +218,8 @@
                 }
             ],
             [
-                "value",
-                3000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -232,6 +228,10 @@
             [
                 "weapon_rank",
                 "B"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -248,6 +248,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                6000
             ],
             [
                 "target_enemy",
@@ -278,6 +282,18 @@
                 8
             ],
             [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
                 "uses",
                 50
             ],
@@ -289,24 +305,8 @@
                 }
             ],
             [
-                "value",
-                6000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "A"
             ]
         ]
     },
@@ -329,12 +329,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -345,12 +341,12 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Sword"
             ],
             [
-                "weight",
-                12
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -364,24 +360,28 @@
                 }
             ],
             [
-                "value",
-                2000
+                "weight",
+                12
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                0
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Sword"
+                "value",
+                2000
             ],
             [
-                "weapon_rank",
-                "C"
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -404,12 +404,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -420,12 +416,12 @@
                 65
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Sword"
             ],
             [
-                "weight",
-                14
+                "weapon_rank",
+                "A"
             ],
             [
                 "uses",
@@ -439,24 +435,28 @@
                 }
             ],
             [
-                "value",
-                6000
+                "weight",
+                14
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                0
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Sword"
+                "value",
+                6000
             ],
             [
-                "weapon_rank",
-                "A"
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -479,12 +479,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -495,12 +491,12 @@
                 60
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Sword"
             ],
             [
-                "weight",
-                13
+                "weapon_rank",
+                "A"
             ],
             [
                 "uses",
@@ -514,24 +510,28 @@
                 }
             ],
             [
-                "value",
-                10000
+                "weight",
+                13
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                0
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Sword"
+                "value",
+                10000
             ],
             [
-                "weapon_rank",
-                "A"
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -554,12 +554,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -570,12 +566,12 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Sword"
             ],
             [
-                "weight",
-                6
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -589,24 +585,28 @@
                 }
             ],
             [
-                "level_exp",
-                null
+                "weight",
+                6
             ],
             [
-                "wexp",
+                "crit",
                 0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
             ],
             [
                 "status_on_hit",
                 "Poisoned"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -623,6 +623,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                10000
             ],
             [
                 "target_enemy",
@@ -653,6 +657,18 @@
                 7
             ],
             [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
                 "uses",
                 50
             ],
@@ -664,28 +680,12 @@
                 }
             ],
             [
-                "value",
-                10000
-            ],
-            [
-                "level_exp",
+                "warning",
                 null
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "warning",
-                null
             ]
         ]
     },
@@ -708,12 +708,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -724,12 +720,12 @@
                 80
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Sword"
             ],
             [
-                "weight",
-                7
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -743,24 +739,24 @@
                 }
             ],
             [
+                "weight",
+                7
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -773,6 +769,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -795,12 +795,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -811,12 +807,12 @@
                 75
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Sword"
             ],
             [
-                "weight",
-                5
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -830,24 +826,24 @@
                 }
             ],
             [
+                "weight",
+                5
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "B"
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -862,16 +858,8 @@
                 }
             ],
             [
-                "status_on_equip",
-                "Anti_Dragonblood"
-            ],
-            [
-                "eval_warning",
-                "'Dragon' in target.tags or 'CanUseDragonstone' in target.tags"
-            ],
-            [
-                "item_icon_flash",
-                "'CanUseDragonstone' in target.tags"
+                "wexp",
+                0
             ]
         ]
     },
@@ -894,12 +882,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -910,12 +894,12 @@
                 85
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Sword"
             ],
             [
-                "weight",
-                11
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -929,24 +913,24 @@
                 }
             ],
             [
+                "weight",
+                11
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -959,6 +943,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -975,6 +963,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                5000
             ],
             [
                 "target_enemy",
@@ -998,11 +990,23 @@
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "weight",
                 9
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -1016,24 +1020,8 @@
                 }
             ],
             [
-                "value",
-                5000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "B"
             ],
             [
                 "reaver",
@@ -1054,6 +1042,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                8000
             ],
             [
                 "target_enemy",
@@ -1084,6 +1076,18 @@
                 12
             ],
             [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
                 "uses",
                 50
             ],
@@ -1095,35 +1099,19 @@
                 }
             ],
             [
-                "value",
-                8000
-            ],
-            [
-                "level_exp",
+                "brave",
                 null
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "brave",
-                null
             ]
         ]
     },
     {
         "nid": "Rapier",
         "name": "Rapier",
-        "desc": "Eliwood Only, effective against horseback and armoured units",
+        "desc": "Eirika Only, effective against horseback and armoured units",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1156,11 +1144,23 @@
             ],
             [
                 "crit",
-                0
+                10
             ],
             [
                 "weight",
                 5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -1174,25 +1174,9 @@
                 }
             ],
             [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
                 "prf_unit",
                 [
-                    "Eliwood"
+                    "Lyn"
                 ]
             ],
             [
@@ -1207,6 +1191,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -1229,12 +1217,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -1245,12 +1229,8 @@
                 75
             ],
             [
-                "crit",
-                35
-            ],
-            [
-                "weight",
-                5
+                "weapon_type",
+                "Sword"
             ],
             [
                 "uses",
@@ -1264,24 +1244,28 @@
                 }
             ],
             [
+                "weight",
+                5
+            ],
+            [
+                "crit",
+                35
+            ],
+            [
+                "warning",
+                null
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "B"
+                "max_range",
+                1
             ],
             [
                 "prf_class",
@@ -1295,8 +1279,12 @@
                 ]
             ],
             [
-                "warning",
-                null
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -1319,15 +1307,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -1339,8 +1319,12 @@
                 70
             ],
             [
-                "weight",
-                9
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -1354,32 +1338,36 @@
                 }
             ],
             [
+                "weight",
+                9
+            ],
+            [
                 "value",
                 12000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
+                "max_range",
+                2
             ],
             [
                 "battle_cast_anim",
                 "Lightning"
             ],
             [
+                "magic",
+                null
+            ],
+            [
                 "status_on_equip",
                 "LightOverride"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -1402,15 +1390,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -1422,8 +1402,12 @@
                 65
             ],
             [
-                "weight",
-                11
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -1437,24 +1421,28 @@
                 }
             ],
             [
+                "weight",
+                11
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "lifelink",
+                1.0
+            ],
+            [
                 "value",
                 10000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
+                "max_range",
+                2
             ],
             [
                 "battle_cast_anim",
@@ -1465,8 +1453,8 @@
                 "DarkOverride"
             ],
             [
-                "lifelink",
-                1.0
+                "wexp",
+                0
             ]
         ]
     },
@@ -1489,15 +1477,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -1509,8 +1489,12 @@
                 70
             ],
             [
-                "weight",
-                9
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -1524,32 +1508,20 @@
                 }
             ],
             [
+                "weight",
+                9
+            ],
+            [
                 "value",
                 10000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "battle_cast_anim",
-                "Gustblade"
-            ],
-            [
-                "status_on_equip",
-                "AnimaOverride"
+                "max_range",
+                2
             ],
             [
                 "effective_damage",
@@ -1562,6 +1534,18 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "battle_cast_anim",
+                "Gustblade"
+            ],
+            [
+                "status_on_equip",
+                "AnimaOverride"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -1584,12 +1568,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -1600,12 +1580,8 @@
                 90
             ],
             [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                9
+                "weapon_type",
+                "Sword"
             ],
             [
                 "uses",
@@ -1619,32 +1595,28 @@
                 }
             ],
             [
-                "value",
-                50000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "S"
-            ],
-            [
-                "prf_unit",
-                []
+                "weight",
+                9
             ],
             [
                 "status_on_equip",
                 "Strength_Plus5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "prf_unit",
+                []
             ],
             [
                 "effective_damage",
@@ -1657,6 +1629,18 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "weapon_rank",
+                "S"
             ]
         ]
     },
@@ -1679,12 +1663,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -1695,12 +1675,12 @@
                 85
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Sword"
             ],
             [
-                "weight",
-                9
+                "weapon_rank",
+                "S"
             ],
             [
                 "uses",
@@ -1714,28 +1694,24 @@
                 }
             ],
             [
-                "value",
-                50000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "S"
+                "weight",
+                9
             ],
             [
                 "status_on_equip",
                 "Resistance_Plus5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -1748,6 +1724,14 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -1764,6 +1748,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                1000
             ],
             [
                 "target_enemy",
@@ -1794,6 +1782,18 @@
                 8
             ],
             [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
                 "uses",
                 50
             ],
@@ -1805,24 +1805,8 @@
                 }
             ],
             [
-                "value",
-                1000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "C"
             ]
         ]
     },
@@ -1839,6 +1823,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                3000
             ],
             [
                 "target_enemy",
@@ -1862,11 +1850,23 @@
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "weight",
                 4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -1880,24 +1880,8 @@
                 }
             ],
             [
-                "value",
-                3000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "C"
             ]
         ]
     },
@@ -1920,12 +1904,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -1936,12 +1916,12 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
             ],
             [
-                "weight",
-                13
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -1955,24 +1935,28 @@
                 }
             ],
             [
-                "value",
-                3000
-            ],
-            [
-                "level_exp",
-                null
+                "weight",
+                13
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Axe"
+                "crit",
+                0
             ],
             [
-                "weapon_rank",
-                "B"
+                "value",
+                3000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -1989,6 +1973,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                5000
             ],
             [
                 "target_enemy",
@@ -2019,6 +2007,18 @@
                 10
             ],
             [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
                 "uses",
                 50
             ],
@@ -2030,24 +2030,8 @@
                 }
             ],
             [
-                "value",
-                5000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "S"
             ]
         ]
     },
@@ -2070,12 +2054,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -2086,12 +2066,12 @@
                 65
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Lance"
             ],
             [
-                "weight",
-                8
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -2105,28 +2085,32 @@
                 }
             ],
             [
-                "value",
-                3000
+                "weight",
+                8
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                0
+            ],
+            [
+                "status_on_hit",
+                "Poisoned"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "status_on_hit",
-                "Poisoned"
+                "value",
+                3000
             ]
         ]
     },
@@ -2143,6 +2127,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                10000
             ],
             [
                 "target_enemy",
@@ -2173,6 +2161,18 @@
                 9
             ],
             [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
                 "uses",
                 50
             ],
@@ -2184,28 +2184,12 @@
                 }
             ],
             [
-                "value",
-                10000
-            ],
-            [
-                "level_exp",
+                "warning",
                 null
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "warning",
-                null
             ]
         ]
     },
@@ -2222,6 +2206,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                3000
             ],
             [
                 "target_enemy",
@@ -2252,6 +2240,18 @@
                 11
             ],
             [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
                 "uses",
                 50
             ],
@@ -2263,24 +2263,8 @@
                 }
             ],
             [
-                "value",
-                3000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "C"
             ]
         ]
     },
@@ -2303,12 +2287,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -2319,12 +2299,12 @@
                 60
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Lance"
             ],
             [
-                "weight",
-                12
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -2338,24 +2318,28 @@
                 }
             ],
             [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "B"
             ]
         ]
     },
@@ -2372,6 +2356,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                10000
             ],
             [
                 "target_enemy",
@@ -2395,11 +2383,23 @@
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "weight",
                 10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "A"
             ],
             [
                 "uses",
@@ -2413,24 +2413,8 @@
                 }
             ],
             [
-                "value",
-                10000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "A"
             ]
         ]
     },
@@ -2453,12 +2437,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -2469,12 +2449,12 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Lance"
             ],
             [
-                "weight",
-                14
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -2488,28 +2468,32 @@
                 }
             ],
             [
+                "brave",
+                null
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 8000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "brave",
-                null
             ]
         ]
     },
@@ -2532,12 +2516,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -2548,12 +2528,12 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Lance"
             ],
             [
-                "weight",
-                13
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -2567,24 +2547,24 @@
                 }
             ],
             [
+                "weight",
+                13
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "C"
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -2597,6 +2577,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -2619,12 +2603,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -2635,12 +2615,12 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Lance"
             ],
             [
-                "weight",
-                14
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -2654,24 +2634,24 @@
                 }
             ],
             [
+                "weight",
+                14
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "C"
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -2684,6 +2664,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -2706,12 +2690,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -2722,12 +2702,12 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Lance"
             ],
             [
-                "weight",
-                8
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -2741,24 +2721,24 @@
                 }
             ],
             [
+                "weight",
+                8
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "B"
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -2773,16 +2753,8 @@
                 }
             ],
             [
-                "status_on_equip",
-                "Anti_Dragonblood"
-            ],
-            [
-                "eval_warning",
-                "'Dragon' in target.tags or 'CanUseDragonstone' in target.tags"
-            ],
-            [
-                "item_icon_flash",
-                "'CanUseDragonstone' in target.tags"
+                "wexp",
+                0
             ]
         ]
     },
@@ -2805,12 +2777,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -2821,12 +2789,12 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Lance"
             ],
             [
-                "weight",
-                11
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -2840,28 +2808,32 @@
                 }
             ],
             [
-                "value",
-                5000
+                "reaver",
+                null
             ],
             [
-                "level_exp",
-                null
+                "weight",
+                11
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Lance"
+                "crit",
+                5
             ],
             [
-                "weapon_rank",
-                "B"
+                "value",
+                5000
             ],
             [
-                "reaver",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -2884,12 +2856,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -2900,12 +2868,8 @@
                 80
             ],
             [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                8
+                "weapon_type",
+                "Lance"
             ],
             [
                 "uses",
@@ -2919,24 +2883,28 @@
                 }
             ],
             [
-                "value",
-                5000
+                "weight",
+                8
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                10
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Lance"
+                "value",
+                5000
             ],
             [
-                "weapon_rank",
-                "C"
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "prf_unit",
@@ -2954,6 +2922,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "weapon_rank",
+                "C"
             ]
         ]
     },
@@ -2976,12 +2948,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -2992,12 +2960,12 @@
                 85
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Lance"
             ],
             [
-                "weight",
-                11
+                "weapon_rank",
+                "S"
             ],
             [
                 "uses",
@@ -3011,28 +2979,24 @@
                 }
             ],
             [
-                "value",
-                50000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "S"
+                "weight",
+                11
             ],
             [
                 "status_on_equip",
                 "Defense_Plus5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -3045,6 +3009,14 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3067,12 +3039,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -3083,12 +3051,8 @@
                 80
             ],
             [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                11
+                "weapon_type",
+                "Lance"
             ],
             [
                 "uses",
@@ -3102,28 +3066,28 @@
                 }
             ],
             [
-                "value",
-                50000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "prf_unit",
-                []
+                "weight",
+                11
             ],
             [
                 "status_on_equip",
                 "Strength_Plus5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "prf_unit",
+                []
             ],
             [
                 "effective_damage",
@@ -3136,6 +3100,14 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3152,6 +3124,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                1000
             ],
             [
                 "target_enemy",
@@ -3193,16 +3169,8 @@
                 }
             ],
             [
-                "value",
-                1000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -3211,6 +3179,10 @@
             [
                 "weapon_rank",
                 "C"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3227,6 +3199,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                3000
             ],
             [
                 "target_enemy",
@@ -3268,16 +3244,8 @@
                 }
             ],
             [
-                "value",
-                3000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -3286,6 +3254,10 @@
             [
                 "weapon_rank",
                 "C"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3302,6 +3274,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                5000
             ],
             [
                 "target_enemy",
@@ -3343,16 +3319,8 @@
                 }
             ],
             [
-                "value",
-                5000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -3361,6 +3329,10 @@
             [
                 "weapon_rank",
                 "A"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3383,12 +3355,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -3399,12 +3367,12 @@
                 60
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
             ],
             [
-                "weight",
-                10
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -3418,28 +3386,32 @@
                 }
             ],
             [
-                "value",
-                5000
+                "weight",
+                10
             ],
             [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
+                "crit",
                 0
-            ],
-            [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "C"
             ],
             [
                 "status_on_hit",
                 "Poisoned"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3497,16 +3469,8 @@
                 }
             ],
             [
-                "value",
-                5000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -3515,6 +3479,14 @@
             [
                 "weapon_rank",
                 "C"
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3572,16 +3544,8 @@
                 }
             ],
             [
-                "value",
-                3000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -3590,6 +3554,14 @@
             [
                 "weapon_rank",
                 "C"
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3647,16 +3619,8 @@
                 }
             ],
             [
-                "value",
-                8000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -3665,6 +3629,14 @@
             [
                 "weapon_rank",
                 "A"
+            ],
+            [
+                "value",
+                8000
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3687,12 +3659,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -3703,12 +3671,12 @@
                 65
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
             ],
             [
-                "weight",
-                11
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -3722,28 +3690,32 @@
                 }
             ],
             [
-                "value",
-                10000
+                "weight",
+                11
             ],
             [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "C"
+                "crit",
+                30
             ],
             [
                 "warning",
                 "True"
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3766,12 +3738,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -3782,12 +3750,12 @@
                 60
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
             ],
             [
-                "weight",
-                15
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -3801,24 +3769,24 @@
                 }
             ],
             [
+                "weight",
+                15
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "C"
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -3831,6 +3799,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -3853,12 +3825,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -3869,12 +3837,12 @@
                 55
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
             ],
             [
-                "weight",
-                15
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -3888,24 +3856,28 @@
                 }
             ],
             [
-                "value",
-                5000
+                "weight",
+                15
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                0
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Axe"
+                "value",
+                5000
             ],
             [
-                "weapon_rank",
-                "C"
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -3940,12 +3912,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -3956,12 +3924,12 @@
                 60
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
             ],
             [
-                "weight",
-                11
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -3975,24 +3943,24 @@
                 }
             ],
             [
+                "weight",
+                11
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "B"
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -4007,16 +3975,8 @@
                 }
             ],
             [
-                "status_on_equip",
-                "Anti_Dragonblood"
-            ],
-            [
-                "eval_warning",
-                "'CanUseDragonstone' in target.tags"
-            ],
-            [
-                "item_icon_flash",
-                "'CanUseDragonstone' in target.tags"
+                "wexp",
+                0
             ]
         ]
     },
@@ -4039,12 +3999,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -4055,8 +4011,12 @@
                 55
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "C"
             ],
             [
                 "weight",
@@ -4074,28 +4034,28 @@
                 }
             ],
             [
-                "value",
-                5000
-            ],
-            [
-                "level_exp",
-                null
+                "crit",
+                0
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
                 "status_on_equip",
                 "Devil_Luck"
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -4112,6 +4072,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                5000
             ],
             [
                 "target_enemy",
@@ -4135,7 +4099,7 @@
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "weight",
@@ -4153,16 +4117,8 @@
                 }
             ],
             [
-                "value",
-                5000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -4175,6 +4131,10 @@
             [
                 "reaver",
                 null
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -4197,12 +4157,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -4213,12 +4169,12 @@
                 80
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
             ],
             [
-                "weight",
-                13
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -4232,28 +4188,28 @@
                 }
             ],
             [
+                "reaver",
+                null
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "reaver",
-                null
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -4266,6 +4222,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -4288,12 +4248,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -4304,12 +4260,12 @@
                 65
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
             ],
             [
-                "weight",
-                16
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -4323,28 +4279,32 @@
                 }
             ],
             [
+                "brave",
+                null
+            ],
+            [
+                "weight",
+                16
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 8000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "brave",
-                null
             ]
         ]
     },
@@ -4367,12 +4327,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -4383,8 +4339,12 @@
                 60
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "A"
             ],
             [
                 "weight",
@@ -4402,24 +4362,24 @@
                 }
             ],
             [
+                "crit",
+                5
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "A"
             ]
         ]
     },
@@ -4442,12 +4402,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -4458,12 +4414,12 @@
                 75
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Axe"
             ],
             [
-                "weight",
-                13
+                "weapon_rank",
+                "S"
             ],
             [
                 "uses",
@@ -4477,28 +4433,24 @@
                 }
             ],
             [
-                "value",
-                50000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "weapon_rank",
-                "S"
+                "weight",
+                13
             ],
             [
                 "status_on_equip",
                 "Speed_Plus5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "effective_damage",
@@ -4511,6 +4463,14 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "value",
+                50000
             ]
         ]
     },
@@ -4527,6 +4487,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "value",
+                1000
             ],
             [
                 "target_enemy",
@@ -4568,16 +4532,8 @@
                 }
             ],
             [
-                "value",
-                1000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -4598,6 +4554,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -4620,12 +4580,8 @@
                 null
             ],
             [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -4636,12 +4592,12 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Bow"
             ],
             [
-                "weight",
-                9
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -4655,24 +4611,24 @@
                 }
             ],
             [
+                "weight",
+                9
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 3000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                2
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "B"
+                "max_range",
+                2
             ],
             [
                 "effective_damage",
@@ -4685,6 +4641,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -4707,12 +4667,8 @@
                 null
             ],
             [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -4723,12 +4679,12 @@
                 75
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Bow"
             ],
             [
-                "weight",
-                6
+                "weapon_rank",
+                "A"
             ],
             [
                 "uses",
@@ -4742,24 +4698,24 @@
                 }
             ],
             [
+                "weight",
+                6
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                2
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "A"
+                "max_range",
+                2
             ],
             [
                 "effective_damage",
@@ -4772,6 +4728,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -4794,12 +4754,8 @@
                 null
             ],
             [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -4810,12 +4766,12 @@
                 65
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Bow"
             ],
             [
-                "weight",
-                5
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -4829,24 +4785,24 @@
                 }
             ],
             [
-                "value",
-                5000
+                "status_on_hit",
+                "Poisoned"
             ],
             [
-                "level_exp",
-                null
+                "weight",
+                5
             ],
             [
-                "wexp",
+                "crit",
                 0
             ],
             [
-                "weapon_type",
-                "Bow"
+                "min_range",
+                2
             ],
             [
-                "weapon_rank",
-                "C"
+                "max_range",
+                2
             ],
             [
                 "effective_damage",
@@ -4861,8 +4817,12 @@
                 }
             ],
             [
-                "status_on_hit",
-                "Poisoned"
+                "value",
+                5000
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -4885,12 +4845,8 @@
                 null
             ],
             [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -4901,12 +4857,12 @@
                 75
             ],
             [
-                "crit",
-                30
+                "weapon_type",
+                "Bow"
             ],
             [
-                "weight",
-                7
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -4920,24 +4876,28 @@
                 }
             ],
             [
+                "weight",
+                7
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "warning",
+                null
+            ],
+            [
                 "value",
                 10000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                2
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "C"
+                "max_range",
+                2
             ],
             [
                 "effective_damage",
@@ -4952,8 +4912,8 @@
                 }
             ],
             [
-                "warning",
-                null
+                "wexp",
+                0
             ]
         ]
     },
@@ -4976,12 +4936,8 @@
                 null
             ],
             [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -4992,12 +4948,12 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Bow"
             ],
             [
-                "weight",
-                12
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -5011,24 +4967,28 @@
                 }
             ],
             [
+                "brave",
+                null
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 8000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                2
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "B"
+                "max_range",
+                2
             ],
             [
                 "effective_damage",
@@ -5043,8 +5003,8 @@
                 }
             ],
             [
-                "brave",
-                null
+                "wexp",
+                0
             ]
         ]
     },
@@ -5067,12 +5027,8 @@
                 null
             ],
             [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -5083,12 +5039,12 @@
                 85
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Bow"
             ],
             [
-                "weight",
-                3
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -5102,24 +5058,28 @@
                 }
             ],
             [
-                "value",
-                3000
+                "weight",
+                3
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                10
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Bow"
+                "value",
+                3000
             ],
             [
-                "weapon_rank",
-                "C"
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
             ],
             [
                 "effective_damage",
@@ -5154,12 +5114,8 @@
                 null
             ],
             [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                3
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -5170,12 +5126,12 @@
                 65
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Bow"
             ],
             [
-                "weight",
-                10
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -5189,24 +5145,24 @@
                 }
             ],
             [
+                "weight",
+                10
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 5000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                2
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "C"
+                "max_range",
+                3
             ],
             [
                 "effective_damage",
@@ -5219,6 +5175,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -5241,12 +5201,8 @@
                 null
             ],
             [
-                "min_range",
-                2
-            ],
-            [
-                "max_range",
-                2
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -5257,12 +5213,12 @@
                 80
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Bow"
             ],
             [
-                "weight",
-                7
+                "weapon_rank",
+                "S"
             ],
             [
                 "uses",
@@ -5276,28 +5232,24 @@
                 }
             ],
             [
-                "value",
-                50000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Bow"
-            ],
-            [
-                "weapon_rank",
-                "S"
+                "weight",
+                7
             ],
             [
                 "status_on_equip",
                 "Luck_Plus5"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
             ],
             [
                 "effective_damage",
@@ -5311,6 +5263,14 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -5325,20 +5285,12 @@
         ],
         "components": [
             [
-                "siege_weapon",
-                null
-            ],
-            [
                 "target_enemy",
                 null
             ],
             [
-                "min_range",
-                3
-            ],
-            [
-                "max_range",
-                6
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -5349,12 +5301,8 @@
                 60
             ],
             [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                20
+                "weapon_type",
+                "Bow"
             ],
             [
                 "uses",
@@ -5368,20 +5316,40 @@
                 }
             ],
             [
-                "level_exp",
-                null
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                0
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Bow"
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                6
             ],
             [
                 "weapon_rank",
                 "C"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Archer",
+                    "Sniper",
+                    "Ballistician"
+                ]
             ],
             [
                 "effective_damage",
@@ -5394,13 +5362,6 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
-            ],
-            [
-                "prf_class",
-                [
-                    "Archer",
-                    "Sniper"
-                ]
             ]
         ]
     },
@@ -5415,20 +5376,12 @@
         ],
         "components": [
             [
-                "siege_weapon",
-                null
-            ],
-            [
                 "target_enemy",
                 null
             ],
             [
-                "min_range",
-                3
-            ],
-            [
-                "max_range",
-                15
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -5439,12 +5392,8 @@
                 60
             ],
             [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                20
+                "weapon_type",
+                "Bow"
             ],
             [
                 "uses",
@@ -5458,20 +5407,39 @@
                 }
             ],
             [
-                "level_exp",
-                null
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                0
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Bow"
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                15
             ],
             [
                 "weapon_rank",
                 "C"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Archer",
+                    "Sniper"
+                ]
             ],
             [
                 "effective_damage",
@@ -5484,14 +5452,6 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
-            ],
-            [
-                "prf_class",
-                [
-                    "Archer",
-                    "Sniper",
-                    "Ballistician"
-                ]
             ]
         ]
     },
@@ -5506,20 +5466,12 @@
         ],
         "components": [
             [
-                "siege_weapon",
-                null
-            ],
-            [
                 "target_enemy",
                 null
             ],
             [
-                "min_range",
-                3
-            ],
-            [
-                "max_range",
-                10
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -5530,12 +5482,8 @@
                 65
             ],
             [
-                "crit",
-                10
-            ],
-            [
-                "weight",
-                20
+                "weapon_type",
+                "Bow"
             ],
             [
                 "uses",
@@ -5549,20 +5497,39 @@
                 }
             ],
             [
-                "level_exp",
-                null
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                10
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Bow"
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
             ],
             [
                 "weapon_rank",
                 "C"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Archer",
+                    "Sniper"
+                ]
             ],
             [
                 "effective_damage",
@@ -5575,14 +5542,6 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
-            ],
-            [
-                "prf_class",
-                [
-                    "Archer",
-                    "Sniper",
-                    "Ballistician"
-                ]
             ]
         ]
     },
@@ -5601,6 +5560,10 @@
                 null
             ],
             [
+                "value",
+                5000
+            ],
+            [
                 "target_ally",
                 null
             ],
@@ -5613,12 +5576,12 @@
                 1
             ],
             [
-                "magic",
-                null
+                "weapon_type",
+                "Staff"
             ],
             [
-                "equation_heal",
-                "HEAL"
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -5632,10 +5595,6 @@
                 }
             ],
             [
-                "value",
-                5000
-            ],
-            [
                 "exp",
                 11
             ],
@@ -5644,20 +5603,20 @@
                 0
             ],
             [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
                 "map_hit_add_blend",
                 [
                     96,
                     144,
                     232
                 ]
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "magic",
+                null
             ]
         ]
     },
@@ -5676,6 +5635,10 @@
                 null
             ],
             [
+                "value",
+                10000
+            ],
+            [
                 "target_ally",
                 null
             ],
@@ -5688,12 +5651,12 @@
                 1
             ],
             [
-                "magic",
-                null
+                "weapon_type",
+                "Staff"
             ],
             [
-                "equation_heal",
-                "MEND"
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -5707,10 +5670,6 @@
                 }
             ],
             [
-                "value",
-                10000
-            ],
-            [
                 "exp",
                 12
             ],
@@ -5719,20 +5678,20 @@
                 0
             ],
             [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
                 "map_hit_add_blend",
                 [
                     96,
                     144,
                     232
                 ]
+            ],
+            [
+                "equation_heal",
+                "MEND"
+            ],
+            [
+                "magic",
+                null
             ]
         ]
     },
@@ -5755,12 +5714,12 @@
                 null
             ],
             [
-                "min_range",
-                1
+                "weapon_type",
+                "Staff"
             ],
             [
-                "max_range",
-                1
+                "weapon_rank",
+                "B"
             ],
             [
                 "magic",
@@ -5782,24 +5741,24 @@
                 }
             ],
             [
-                "value",
-                15000
+                "wexp",
+                0
             ],
             [
                 "exp",
                 17
             ],
             [
-                "wexp",
-                0
+                "value",
+                15000
             ],
             [
-                "weapon_type",
-                "Staff"
+                "min_range",
+                1
             ],
             [
-                "weapon_rank",
-                "B"
+                "max_range",
+                1
             ],
             [
                 "map_hit_add_blend",
@@ -5830,20 +5789,16 @@
                 null
             ],
             [
-                "min_range",
-                1
+                "weapon_type",
+                "Staff"
             ],
             [
-                "max_equation_range",
-                "MAGIC_RANGE"
+                "weapon_rank",
+                "B"
             ],
             [
                 "magic",
                 null
-            ],
-            [
-                "equation_heal",
-                "HEAL"
             ],
             [
                 "uses",
@@ -5857,24 +5812,16 @@
                 }
             ],
             [
-                "value",
-                5000
+                "wexp",
+                0
             ],
             [
                 "exp",
                 22
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "B"
+                "value",
+                5000
             ],
             [
                 "map_hit_add_blend",
@@ -5883,6 +5830,18 @@
                     144,
                     232
                 ]
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "equation_heal",
+                "HEAL"
             ]
         ]
     },
@@ -5905,16 +5864,16 @@
                 null
             ],
             [
-                "equation_blast_aoe",
-                "MAGIC_RANGE"
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "A"
             ],
             [
                 "magic",
                 null
-            ],
-            [
-                "equation_heal",
-                "HEAL"
             ],
             [
                 "uses",
@@ -5928,24 +5887,24 @@
                 }
             ],
             [
-                "value",
-                15000
+                "wexp",
+                0
             ],
             [
                 "exp",
                 60
             ],
             [
-                "wexp",
-                0
+                "value",
+                15000
             ],
             [
-                "weapon_type",
-                "Staff"
+                "equation_blast_aoe",
+                "MAGIC_RANGE"
             ],
             [
-                "weapon_rank",
-                "A"
+                "equation_heal",
+                "HEAL"
             ]
         ]
     },
@@ -5964,6 +5923,10 @@
                 null
             ],
             [
+                "value",
+                30000
+            ],
+            [
                 "target_ally",
                 null
             ],
@@ -5974,6 +5937,14 @@
             [
                 "max_range",
                 10
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -5993,18 +5964,6 @@
             [
                 "wexp",
                 0
-            ],
-            [
-                "value",
-                30000
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "B"
             ],
             [
                 "map_hit_add_blend",
@@ -6039,12 +5998,24 @@
                 null
             ],
             [
+                "value",
+                30000
+            ],
+            [
                 "min_range",
                 1
             ],
             [
                 "max_range",
                 2
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -6058,24 +6029,12 @@
                 }
             ],
             [
-                "value",
-                30000
-            ],
-            [
                 "exp",
                 17
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "B"
             ],
             [
                 "unlock_staff",
@@ -6102,12 +6061,12 @@
                 null
             ],
             [
-                "min_range",
-                1
+                "weapon_type",
+                "Staff"
             ],
             [
-                "max_range",
-                1
+                "weapon_rank",
+                "B"
             ],
             [
                 "magic",
@@ -6125,24 +6084,24 @@
                 }
             ],
             [
-                "value",
-                10000
+                "wexp",
+                0
             ],
             [
                 "exp",
                 20
             ],
             [
-                "wexp",
-                0
+                "value",
+                10000
             ],
             [
-                "weapon_type",
-                "Staff"
+                "min_range",
+                1
             ],
             [
-                "weapon_rank",
-                "B"
+                "max_range",
+                1
             ],
             [
                 "restore",
@@ -6165,20 +6124,59 @@
                 null
             ],
             [
-                "target_enemy",
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
                 null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "exp",
+                30
+            ],
+            [
+                "value",
+                30000
             ],
             [
                 "min_range",
                 1
             ],
             [
+                "status_on_hit",
+                "Silence"
+            ],
+            [
                 "max_equation_range",
                 "MAGIC_RANGE"
             ],
             [
-                "magic",
+                "target_enemy",
                 null
+            ],
+            [
+                "eval_target_restrict_2",
+                "target.wexp['Light'] or target.wexp['Anima'] or target.wexp['Dark'] or target.wexp['Staff']"
             ],
             [
                 "hit",
@@ -6193,47 +6191,8 @@
                 "STATUS_STAFF_AVOID"
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                30000
-            ],
-            [
-                "exp",
-                30
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
                 "status_on_hold",
                 "Distance_Debuff"
-            ],
-            [
-                "eval_target_restrict_2",
-                "target.wexp['Light'] or target.wexp['Fire'] or target.wexp['Thunder'] or target.wexp['Wind'] or target.wexp['Dark'] or target.wexp['Staff']"
-            ],
-            [
-                "status_on_hit",
-                "Silence"
             ]
         ]
     },
@@ -6252,20 +6211,59 @@
                 null
             ],
             [
-                "target_enemy",
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
                 null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "exp",
+                35
+            ],
+            [
+                "value",
+                30000
             ],
             [
                 "min_range",
                 1
             ],
             [
+                "status_on_hit",
+                "Sleep"
+            ],
+            [
                 "max_equation_range",
                 "MAGIC_RANGE"
             ],
             [
-                "magic",
+                "target_enemy",
                 null
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Tile' not in target.tags"
             ],
             [
                 "hit",
@@ -6280,47 +6278,8 @@
                 "STATUS_STAFF_AVOID"
             ],
             [
-                "uses",
-                1
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                30000
-            ],
-            [
-                "exp",
-                35
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
                 "status_on_hold",
                 "Distance_Debuff"
-            ],
-            [
-                "eval_target_restrict_2",
-                "'Tile' not in target.tags"
-            ],
-            [
-                "status_on_hit",
-                "Sleep"
             ]
         ]
     },
@@ -6339,20 +6298,59 @@
                 null
             ],
             [
-                "target_enemy",
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
                 null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "value",
+                30000
             ],
             [
                 "min_range",
                 1
             ],
             [
+                "status_on_hit",
+                "Berserk"
+            ],
+            [
                 "max_equation_range",
                 "MAGIC_RANGE"
             ],
             [
-                "magic",
+                "target_enemy",
                 null
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Tile' not in target.tags"
             ],
             [
                 "hit",
@@ -6367,47 +6365,8 @@
                 "STATUS_STAFF_AVOID"
             ],
             [
-                "uses",
-                1
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                30000
-            ],
-            [
-                "exp",
-                40
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
                 "status_on_hold",
                 "Distance_Debuff"
-            ],
-            [
-                "eval_target_restrict_2",
-                "'Tile' not in target.tags"
-            ],
-            [
-                "status_on_hit",
-                "Berserk"
             ]
         ]
     },
@@ -6426,6 +6385,10 @@
                 null
             ],
             [
+                "value",
+                30000
+            ],
+            [
                 "target_ally",
                 null
             ],
@@ -6438,8 +6401,12 @@
                 1
             ],
             [
-                "magic",
-                null
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -6453,24 +6420,12 @@
                 }
             ],
             [
-                "value",
-                30000
-            ],
-            [
                 "exp",
                 40
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "B"
             ],
             [
                 "map_hit_add_blend",
@@ -6482,6 +6437,10 @@
             ],
             [
                 "repair",
+                null
+            ],
+            [
+                "magic",
                 null
             ]
         ]
@@ -6501,8 +6460,8 @@
                 null
             ],
             [
-                "target_enemy",
-                null
+                "value",
+                30000
             ],
             [
                 "min_range",
@@ -6513,8 +6472,12 @@
                 10
             ],
             [
-                "magic",
-                null
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
             ],
             [
                 "uses",
@@ -6528,24 +6491,8 @@
                 }
             ],
             [
-                "value",
-                30000
-            ],
-            [
                 "exp",
                 40
-            ],
-            [
-                "wexp",
-                2
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "B"
             ],
             [
                 "map_hit_add_blend",
@@ -6558,6 +6505,14 @@
             [
                 "steal",
                 null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "wexp",
+                2
             ]
         ]
     },
@@ -6576,8 +6531,8 @@
                 null
             ],
             [
-                "target_tile",
-                null
+                "value",
+                10000
             ],
             [
                 "min_range",
@@ -6588,8 +6543,12 @@
                 "MAGIC_RANGE"
             ],
             [
-                "magic",
-                null
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "C"
             ],
             [
                 "uses",
@@ -6603,32 +6562,20 @@
                 }
             ],
             [
-                "value",
-                10000
-            ],
-            [
                 "exp",
                 5
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "event_on_hit",
-                "Global Torch Staff"
+                "target_tile",
+                null
             ],
             [
                 "target_fog_of_war",
                 null
+            ],
+            [
+                "event_on_hit",
+                "Global Torch Staff"
             ],
             [
                 "eval_available",
@@ -6637,6 +6584,10 @@
             [
                 "eval_target_restrict_2",
                 "not game.get_region_under_pos(target_pos, 'vision')"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -6659,12 +6610,12 @@
                 null
             ],
             [
-                "min_range",
-                1
+                "weapon_type",
+                "Staff"
             ],
             [
-                "max_range",
-                1
+                "weapon_rank",
+                "B"
             ],
             [
                 "magic",
@@ -6682,28 +6633,28 @@
                 }
             ],
             [
-                "value",
-                15000
-            ],
-            [
-                "exp",
-                17
+                "status_on_hit",
+                "ResistPlus"
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Staff"
+                "exp",
+                17
             ],
             [
-                "weapon_rank",
-                "B"
+                "value",
+                15000
             ],
             [
-                "status_on_hit",
-                "ResistPlus"
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -6722,16 +6673,12 @@
                 null
             ],
             [
-                "target_tile",
-                null
+                "weapon_type",
+                "Staff"
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_equation_range",
-                "MAGIC_RANGE"
+                "weapon_rank",
+                "A"
             ],
             [
                 "magic",
@@ -6761,14 +6708,6 @@
                 0
             ],
             [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
                 "sequence_item",
                 [
                     "Rescue1",
@@ -6777,6 +6716,18 @@
             ],
             [
                 "no_ai",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_tile",
                 null
             ]
         ]
@@ -6800,16 +6751,16 @@
                 null
             ],
             [
+                "magic",
+                null
+            ],
+            [
                 "min_range",
                 1
             ],
             [
                 "max_equation_range",
                 "MAGIC_RANGE"
-            ],
-            [
-                "magic",
-                null
             ],
             [
                 "store_unit",
@@ -6832,7 +6783,7 @@
                 null
             ],
             [
-                "target_tile",
+                "magic",
                 null
             ],
             [
@@ -6844,7 +6795,7 @@
                 1
             ],
             [
-                "magic",
+                "target_tile",
                 null
             ],
             [
@@ -6868,16 +6819,12 @@
                 null
             ],
             [
-                "target_ally",
-                null
+                "weapon_type",
+                "Staff"
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "weapon_rank",
+                "A"
             ],
             [
                 "magic",
@@ -6907,14 +6854,6 @@
                 0
             ],
             [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
                 "sequence_item",
                 [
                     "Warp1",
@@ -6924,6 +6863,18 @@
             [
                 "no_ai",
                 null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -6946,20 +6897,20 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
                 "magic",
                 null
             ],
             [
+                "min_range",
+                1
+            ],
+            [
                 "store_unit",
                 null
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -6978,7 +6929,7 @@
                 null
             ],
             [
-                "target_tile",
+                "magic",
                 null
             ],
             [
@@ -6986,16 +6937,16 @@
                 1
             ],
             [
-                "max_equation_range",
-                "MAGIC_RANGE"
-            ],
-            [
-                "magic",
+                "target_tile",
                 null
             ],
             [
                 "unload_unit",
                 null
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
             ]
         ]
     },
@@ -7018,8 +6969,12 @@
                 null
             ],
             [
-                "all_allies_except_self_aoe",
-                null
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "S"
             ],
             [
                 "magic",
@@ -7045,20 +7000,16 @@
                 10
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "S"
-            ],
-            [
                 "restore",
                 null
+            ],
+            [
+                "all_allies_except_self_aoe",
+                null
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -7077,6 +7028,10 @@
                 null
             ],
             [
+                "value",
+                3000
+            ],
+            [
                 "target_enemy",
                 null
             ],
@@ -7089,10 +7044,6 @@
                 2
             ],
             [
-                "magic",
-                null
-            ],
-            [
                 "damage",
                 4
             ],
@@ -7102,7 +7053,7 @@
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "weight",
@@ -7120,16 +7071,8 @@
                 }
             ],
             [
-                "value",
-                3000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -7146,6 +7089,14 @@
                     255,
                     0
                 ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -7168,15 +7119,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -7188,12 +7131,16 @@
                 90
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Light"
             ],
             [
-                "weight",
-                8
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "uses",
@@ -7207,24 +7154,28 @@
                 }
             ],
             [
-                "value",
-                5000
+                "weight",
+                8
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                8
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Light"
+                "value",
+                5000
             ],
             [
-                "weapon_rank",
-                "B"
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
             ],
             [
                 "map_hit_add_blend",
@@ -7255,15 +7206,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -7275,12 +7218,16 @@
                 85
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Light"
             ],
             [
-                "weight",
-                12
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "uses",
@@ -7294,24 +7241,24 @@
                 }
             ],
             [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
                 "value",
                 8000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Light"
-            ],
-            [
-                "weapon_rank",
-                "B"
+                "max_range",
+                2
             ],
             [
                 "map_hit_add_blend",
@@ -7320,6 +7267,10 @@
                     255,
                     0
                 ]
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -7334,23 +7285,11 @@
         ],
         "components": [
             [
-                "siege_weapon",
-                null
-            ],
-            [
                 "target_enemy",
                 null
             ],
             [
-                "min_range",
-                3
-            ],
-            [
-                "max_range",
-                10
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -7362,12 +7301,16 @@
                 75
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Light"
             ],
             [
-                "weight",
-                20
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "uses",
@@ -7381,24 +7324,32 @@
                 }
             ],
             [
-                "value",
-                30000
+                "weight",
+                20
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                5
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Light"
+                "value",
+                30000
             ],
             [
-                "weapon_rank",
-                "B"
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "siege_weapon",
+                null
             ],
             [
                 "map_hit_add_blend",
@@ -7425,6 +7376,10 @@
                 null
             ],
             [
+                "value",
+                10000
+            ],
+            [
                 "target_enemy",
                 null
             ],
@@ -7437,10 +7392,6 @@
                 2
             ],
             [
-                "magic",
-                null
-            ],
-            [
                 "damage",
                 12
             ],
@@ -7450,7 +7401,7 @@
             ],
             [
                 "crit",
-                0
+                15
             ],
             [
                 "weight",
@@ -7468,16 +7419,8 @@
                 }
             ],
             [
-                "value",
-                10000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -7494,6 +7437,14 @@
                     255,
                     0
                 ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -7516,15 +7467,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -7536,12 +7479,16 @@
                 90
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Light"
             ],
             [
-                "weight",
-                8
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "uses",
@@ -7555,24 +7502,28 @@
                 }
             ],
             [
+                "weight",
+                8
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "status_on_equip",
+                "Defense_Plus5"
+            ],
+            [
                 "value",
                 50000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
             ],
             [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Light"
-            ],
-            [
-                "weapon_rank",
-                "S"
+                "max_range",
+                2
             ],
             [
                 "map_hit_add_blend",
@@ -7581,10 +7532,6 @@
                     255,
                     0
                 ]
-            ],
-            [
-                "status_on_equip",
-                "Defense_Plus5"
             ],
             [
                 "effective_damage",
@@ -7597,6 +7544,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -7615,6 +7566,10 @@
                 null
             ],
             [
+                "value",
+                3000
+            ],
+            [
                 "target_enemy",
                 null
             ],
@@ -7625,10 +7580,6 @@
             [
                 "max_range",
                 2
-            ],
-            [
-                "magic",
-                null
             ],
             [
                 "damage",
@@ -7658,16 +7609,8 @@
                 }
             ],
             [
-                "value",
-                3000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -7684,6 +7627,14 @@
                     96,
                     0
                 ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -7714,10 +7665,6 @@
                 2
             ],
             [
-                "magic",
-                null
-            ],
-            [
                 "damage",
                 8
             ],
@@ -7727,34 +7674,15 @@
             ],
             [
                 "crit",
-                0
+                5
             ],
             [
                 "weight",
                 6
             ],
             [
-                "uses",
-                50
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                3000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -7771,6 +7699,29 @@
                     255,
                     0
                 ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -7801,10 +7752,6 @@
                 2
             ],
             [
-                "magic",
-                null
-            ],
-            [
                 "damage",
                 10
             ],
@@ -7821,27 +7768,8 @@
                 10
             ],
             [
-                "uses",
-                50
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                5000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -7858,6 +7786,29 @@
                     96,
                     0
                 ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -7872,10 +7823,6 @@
         ],
         "components": [
             [
-                "siege_weapon",
-                null
-            ],
-            [
                 "target_enemy",
                 null
             ],
@@ -7886,10 +7833,6 @@
             [
                 "max_range",
                 10
-            ],
-            [
-                "magic",
-                null
             ],
             [
                 "damage",
@@ -7908,27 +7851,8 @@
                 20
             ],
             [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                30000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -7945,6 +7869,33 @@
                     255,
                     0
                 ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                30000
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -7967,15 +7918,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -7987,12 +7930,16 @@
                 80
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Wind"
             ],
             [
-                "weight",
-                12
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "uses",
@@ -8006,32 +7953,28 @@
                 }
             ],
             [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
                 "value",
                 12000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Wind"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    104,
-                    248,
-                    184
-                ]
             ]
         ]
     },
@@ -8054,15 +7997,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -8074,12 +8009,16 @@
                 90
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Wind"
             ],
             [
-                "weight",
-                13
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "uses",
@@ -8093,28 +8032,24 @@
                 }
             ],
             [
-                "value",
-                50000
+                "weight",
+                13
             ],
             [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Wind"
-            ],
-            [
-                "weapon_rank",
-                "S"
+                "crit",
+                10
             ],
             [
                 "status_on_equip",
                 "Speed_Plus5"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
             ],
             [
                 "effective_damage",
@@ -8129,12 +8064,12 @@
                 }
             ],
             [
-                "map_hit_add_blend",
-                [
-                    104,
-                    248,
-                    184
-                ]
+                "value",
+                50000
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -8165,10 +8100,6 @@
                 2
             ],
             [
-                "magic",
-                null
-            ],
-            [
                 "damage",
                 7
             ],
@@ -8185,27 +8116,8 @@
                 8
             ],
             [
-                "uses",
-                50
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                3000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -8222,6 +8134,29 @@
                     0,
                     65
                 ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -8244,15 +8179,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -8260,20 +8187,20 @@
                 0
             ],
             [
-                "alternate_resist_formula",
-                "ZERO"
-            ],
-            [
                 "hit",
                 50
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Dark"
             ],
             [
-                "weight",
-                12
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "uses",
@@ -8287,32 +8214,32 @@
                 }
             ],
             [
+                "weight",
+                12
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
                 "value",
                 10000
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
             ],
             [
                 "wexp",
                 0
-            ],
-            [
-                "weapon_type",
-                "Dark"
-            ],
-            [
-                "weapon_rank",
-                "B"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    72,
-                    0,
-                    65
-                ]
             ]
         ]
     },
@@ -8343,10 +8270,6 @@
                 2
             ],
             [
-                "magic",
-                null
-            ],
-            [
                 "damage",
                 10
             ],
@@ -8363,27 +8286,8 @@
                 14
             ],
             [
-                "uses",
-                50
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                10000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -8402,8 +8306,31 @@
                 ]
             ],
             [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
                 "lifelink",
                 1.0
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -8418,27 +8345,11 @@
         ],
         "components": [
             [
-                "siege_weapon",
-                null
-            ],
-            [
                 "target_enemy",
                 null
             ],
             [
-                "min_range",
-                3
-            ],
-            [
-                "max_range",
-                10
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "eclipse",
+                "level_exp",
                 null
             ],
             [
@@ -8446,8 +8357,16 @@
                 30
             ],
             [
-                "weight",
-                12
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "uses",
@@ -8461,39 +8380,39 @@
                 }
             ],
             [
-                "value",
-                30000
-            ],
-            [
-                "level_exp",
-                null
+                "weight",
+                12
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Dark"
+                "value",
+                30000
             ],
             [
-                "weapon_rank",
-                "B"
+                "min_range",
+                3
             ],
             [
-                "map_hit_add_blend",
-                [
-                    72,
-                    0,
-                    65
-                ]
+                "max_range",
+                10
             ],
             [
                 "status_on_hit",
                 "Eclipse_Helper"
             ],
             [
+                "siege_weapon",
+                null
+            ],
+            [
                 "no_double",
+                null
+            ],
+            [
+                "eclipse",
                 null
             ]
         ]
@@ -8525,10 +8444,6 @@
                 2
             ],
             [
-                "magic",
-                null
-            ],
-            [
                 "damage",
                 15
             ],
@@ -8545,27 +8460,8 @@
                 18
             ],
             [
-                "uses",
-                50
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                10000
-            ],
-            [
                 "level_exp",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "weapon_type",
@@ -8582,6 +8478,29 @@
                     0,
                     65
                 ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     },
@@ -8604,15 +8523,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -8624,12 +8535,16 @@
                 80
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Dark"
             ],
             [
-                "weight",
-                20
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "uses",
@@ -8643,36 +8558,32 @@
                 }
             ],
             [
-                "value",
-                50000
+                "weight",
+                20
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                0
+            ],
+            [
+                "status_on_equip",
+                "Skill_Plus5"
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Dark"
+                "min_range",
+                1
             ],
             [
-                "weapon_rank",
-                "S"
+                "max_range",
+                2
             ],
             [
-                "map_hit_add_blend",
-                [
-                    72,
-                    0,
-                    65
-                ]
-            ],
-            [
-                "status_on_equip",
-                "Skill_Plus5"
+                "value",
+                50000
             ]
         ]
     },
@@ -8695,15 +8606,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -8715,12 +8618,40 @@
                 95
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "weight",
                 18
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "wexp",
+                0
             ],
             [
                 "uses",
@@ -8732,34 +8663,6 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
-            ],
-            [
-                "value",
-                50000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Dark"
-            ],
-            [
-                "weapon_rank",
-                "S"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    72,
-                    0,
-                    65
-                ]
             ]
         ]
     },
@@ -8782,12 +8685,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -8798,20 +8697,24 @@
                 100
             ],
             [
-                "crit",
-                0
+                "locked",
+                null
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                0
             ],
             [
-                "locked",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
             ],
             [
                 "multi_status_on_equip",
@@ -8837,20 +8740,12 @@
                 null
             ],
             [
-                "enemy_blast_aoe",
-                3
+                "weapon_type",
+                "Staff"
             ],
             [
                 "magic",
                 null
-            ],
-            [
-                "hit",
-                70
-            ],
-            [
-                "weight",
-                8
             ],
             [
                 "uses",
@@ -8864,20 +8759,28 @@
                 }
             ],
             [
-                "wexp",
-                0
+                "weight",
+                8
             ],
             [
-                "weapon_type",
-                "Staff"
+                "locked",
+                null
+            ],
+            [
+                "wexp",
+                0
             ],
             [
                 "status_on_hit",
                 "Sleep"
             ],
             [
-                "locked",
-                null
+                "hit",
+                70
+            ],
+            [
+                "enemy_blast_aoe",
+                3
             ]
         ]
     },
@@ -8900,15 +8803,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                3
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -8920,24 +8815,32 @@
                 60
             ],
             [
-                "crit",
-                0
-            ],
-            [
-                "level_exp",
+                "magic",
                 null
             ],
             [
-                "wexp",
-                0
+                "locked",
+                null
             ],
             [
                 "status_on_equip",
                 "Demon_Light"
             ],
             [
-                "locked",
-                null
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
             ]
         ]
     },
@@ -8960,12 +8863,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -8976,24 +8875,28 @@
                 85
             ],
             [
-                "crit",
-                0
-            ],
-            [
-                "level_exp",
+                "locked",
                 null
-            ],
-            [
-                "wexp",
-                0
             ],
             [
                 "status_on_equip",
                 "Ravager"
             ],
             [
-                "locked",
-                null
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -9016,15 +8919,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -9036,15 +8931,19 @@
                 80
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "weight",
                 10
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9052,12 +8951,16 @@
                 0
             ],
             [
-                "weapon_type",
-                "Dark"
+                "crit",
+                0
             ],
             [
-                "locked",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
             ]
         ]
     },
@@ -9072,23 +8975,11 @@
         ],
         "components": [
             [
-                "siege_weapon",
-                null
-            ],
-            [
                 "target_enemy",
                 null
             ],
             [
-                "min_range",
-                3
-            ],
-            [
-                "max_range",
-                10
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -9100,15 +8991,19 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "weight",
                 20
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9116,11 +9011,19 @@
                 0
             ],
             [
-                "weapon_type",
-                "Dark"
+                "crit",
+                5
             ],
             [
-                "locked",
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "siege_weapon",
                 null
             ]
         ]
@@ -9144,12 +9047,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -9160,15 +9059,11 @@
                 65
             ],
             [
-                "crit",
-                0
-            ],
-            [
                 "weight",
                 14
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9176,8 +9071,16 @@
                 0
             ],
             [
-                "locked",
-                null
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -9200,12 +9103,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -9216,15 +9115,11 @@
                 80
             ],
             [
-                "crit",
-                0
-            ],
-            [
                 "weight",
                 8
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9232,8 +9127,16 @@
                 0
             ],
             [
-                "locked",
-                null
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -9256,12 +9159,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -9272,15 +9171,11 @@
                 75
             ],
             [
-                "crit",
-                0
-            ],
-            [
                 "weight",
                 10
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9288,8 +9183,16 @@
                 0
             ],
             [
-                "locked",
-                null
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -9304,6 +9207,10 @@
         ],
         "components": [
             [
+                "status_on_hit",
+                "Poisoned"
+            ],
+            [
                 "weapon",
                 null
             ],
@@ -9312,12 +9219,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -9328,15 +9231,11 @@
                 65
             ],
             [
-                "crit",
-                0
-            ],
-            [
                 "weight",
                 10
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9344,12 +9243,16 @@
                 0
             ],
             [
-                "status_on_hit",
-                "Poisoned"
+                "crit",
+                0
             ],
             [
-                "locked",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -9364,6 +9267,10 @@
         ],
         "components": [
             [
+                "status_on_hit",
+                "Poisoned"
+            ],
+            [
                 "weapon",
                 null
             ],
@@ -9372,12 +9279,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -9388,15 +9291,11 @@
                 60
             ],
             [
-                "crit",
-                0
-            ],
-            [
                 "weight",
                 12
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9404,12 +9303,16 @@
                 0
             ],
             [
-                "status_on_hit",
-                "Poisoned"
+                "crit",
+                0
             ],
             [
-                "locked",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -9432,12 +9335,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -9448,15 +9347,11 @@
                 90
             ],
             [
-                "crit",
-                0
-            ],
-            [
                 "weight",
                 5
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9464,8 +9359,16 @@
                 0
             ],
             [
-                "locked",
-                null
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -9488,12 +9391,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -9504,15 +9403,11 @@
                 80
             ],
             [
-                "crit",
-                0
-            ],
-            [
                 "weight",
                 8
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9520,8 +9415,16 @@
                 0
             ],
             [
-                "locked",
-                null
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ]
         ]
     },
@@ -9544,15 +9447,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -9564,15 +9459,19 @@
                 85
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "weight",
                 6
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9580,12 +9479,16 @@
                 0
             ],
             [
-                "weapon_type",
-                "Dark"
+                "crit",
+                0
             ],
             [
-                "locked",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
             ]
         ]
     },
@@ -9608,15 +9511,7 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
+                "level_exp",
                 null
             ],
             [
@@ -9628,15 +9523,19 @@
                 70
             ],
             [
-                "crit",
-                0
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "magic",
+                null
             ],
             [
                 "weight",
                 13
             ],
             [
-                "level_exp",
+                "locked",
                 null
             ],
             [
@@ -9644,12 +9543,16 @@
                 0
             ],
             [
-                "weapon_type",
-                "Dark"
+                "crit",
+                5
             ],
             [
-                "locked",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
             ]
         ]
     },
@@ -9664,20 +9567,16 @@
         ],
         "components": [
             [
-                "weapon",
-                null
-            ],
-            [
                 "target_enemy",
                 null
             ],
             [
-                "min_range",
-                1
+                "level_exp",
+                null
             ],
             [
-                "max_range",
-                3
+                "weapon_type",
+                "Dark"
             ],
             [
                 "magic",
@@ -9688,8 +9587,8 @@
                 65
             ],
             [
-                "weight",
-                8
+                "status_on_hit",
+                "Petrify"
             ],
             [
                 "uses",
@@ -9703,27 +9602,31 @@
                 }
             ],
             [
-                "level_exp",
+                "weight",
+                8
+            ],
+            [
+                "locked",
                 null
             ],
             [
                 "wexp",
-                0
+                5
             ],
             [
-                "weapon_type",
-                "Dark"
+                "min_range",
+                1
             ],
             [
-                "status_on_hit",
-                "Petrify"
+                "max_range",
+                3
             ],
             [
-                "no_double",
+                "weapon",
                 null
             ],
             [
-                "locked",
+                "no_double",
                 null
             ]
         ]
@@ -10122,12 +10025,8 @@
                 null
             ],
             [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
+                "level_exp",
+                null
             ],
             [
                 "damage",
@@ -10136,10 +10035,6 @@
             [
                 "hit",
                 100
-            ],
-            [
-                "crit",
-                0
             ],
             [
                 "uses",
@@ -10153,23 +10048,24 @@
                 }
             ],
             [
-                "level_exp",
-                null
+                "crit",
+                15
+            ],
+            [
+                "status_on_equip",
+                "Dragonstone"
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "prf_tags",
-                [
-                    "Dragonblood",
-                    "Manakete"
-                ]
+                "min_range",
+                1
             ],
             [
-                "status_on_equip",
-                "Dragonstone"
+                "max_range",
+                1
             ],
             [
                 "transform",
@@ -11552,9 +11448,9 @@
         ]
     },
     {
-        "nid": "Broken_Sword",
-        "name": "Broken Sword",
-        "desc": "A completely ruined sword.{br}It cannot be repaired.",
+        "nid": "Broken_sword",
+        "name": "Broken sword",
+        "desc": "",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -11570,12 +11466,12 @@
                 null
             ],
             [
-                "min_range",
-                1
+                "locked",
+                null
             ],
             [
-                "max_range",
-                1
+                "value",
+                0
             ],
             [
                 "damage",
@@ -11594,23 +11490,23 @@
                 20
             ],
             [
-                "value",
-                0
+                "weapon_type",
+                "Sword"
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "locked",
+                "level_exp",
                 null
             ]
         ]
@@ -11618,7 +11514,7 @@
     {
         "nid": "Broken_Lance",
         "name": "Broken Lance",
-        "desc": "A completely ruined lance.{br}It cannot be repaired.",
+        "desc": "",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -11634,12 +11530,12 @@
                 null
             ],
             [
-                "min_range",
-                1
+                "locked",
+                null
             ],
             [
-                "max_range",
-                1
+                "value",
+                0
             ],
             [
                 "damage",
@@ -11658,23 +11554,23 @@
                 20
             ],
             [
-                "value",
-                0
+                "weapon_type",
+                "Lance"
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "locked",
+                "level_exp",
                 null
             ]
         ]
@@ -11682,7 +11578,7 @@
     {
         "nid": "Broken_Axe",
         "name": "Broken Axe",
-        "desc": "A completely ruined axe.{br}It cannot be repaired.",
+        "desc": "",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -11698,11 +11594,11 @@
                 null
             ],
             [
-                "min_range",
-                0
+                "locked",
+                null
             ],
             [
-                "max_range",
+                "value",
                 0
             ],
             [
@@ -11722,23 +11618,23 @@
                 20
             ],
             [
-                "value",
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "min_range",
                 0
             ],
             [
-                "level_exp",
-                null
+                "max_range",
+                0
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Axe"
-            ],
-            [
-                "locked",
+                "level_exp",
                 null
             ]
         ]
@@ -11746,7 +11642,7 @@
     {
         "nid": "Broken_Bow",
         "name": "Broken Bow",
-        "desc": "A completely ruined bow.{br}It cannot be repaired.",
+        "desc": "",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -11762,12 +11658,12 @@
                 null
             ],
             [
-                "min_range",
-                2
+                "locked",
+                null
             ],
             [
-                "max_range",
-                2
+                "value",
+                0
             ],
             [
                 "damage",
@@ -11786,20 +11682,24 @@
                 20
             ],
             [
-                "value",
-                0
+                "weapon_type",
+                "Bow"
             ],
             [
-                "level_exp",
-                null
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
             ],
             [
                 "wexp",
                 0
             ],
             [
-                "weapon_type",
-                "Bow"
+                "level_exp",
+                null
             ],
             [
                 "effective_damage",
@@ -11812,17 +11712,13 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
     {
         "nid": "Broken_Staff",
         "name": "Broken Staff",
-        "desc": "A completely ruined staff.{br}It cannot be repaired.",
+        "desc": "",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -11834,12 +11730,8 @@
                 null
             ],
             [
-                "min_range",
-                0
-            ],
-            [
-                "max_range",
-                0
+                "locked",
+                null
             ],
             [
                 "magic",
@@ -11854,15 +11746,19 @@
                 "Staff"
             ],
             [
-                "locked",
-                null
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
             ]
         ]
     },
     {
-        "nid": "Broken_Fire",
+        "nid": "Drained_Tome_Fire",
         "name": "Drained Tome",
-        "desc": "A completely empty fire tome.{br}It cannot be repaired.",
+        "desc": "",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -11874,12 +11770,16 @@
                 null
             ],
             [
-                "min_range",
+                "locked",
+                null
+            ],
+            [
+                "value",
                 0
             ],
             [
-                "max_range",
-                0
+                "weapon_type",
+                "Fire"
             ],
             [
                 "magic",
@@ -11902,23 +11802,19 @@
                 0
             ],
             [
-                "value",
+                "min_range",
                 0
             ],
             [
-                "weapon_type",
-                "Fire"
-            ],
-            [
-                "locked",
-                null
+                "max_range",
+                0
             ]
         ]
     },
     {
-        "nid": "Broken_Thunder",
+        "nid": "Drained_Tome_Thunder",
         "name": "Drained Tome",
-        "desc": "A completely empty thunder tome.{br}It cannot be repaired.",
+        "desc": "",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -11930,12 +11826,16 @@
                 null
             ],
             [
-                "min_range",
+                "locked",
+                null
+            ],
+            [
+                "value",
                 0
             ],
             [
-                "max_range",
-                0
+                "weapon_type",
+                "Thunder"
             ],
             [
                 "magic",
@@ -11958,23 +11858,19 @@
                 0
             ],
             [
-                "value",
+                "min_range",
                 0
             ],
             [
-                "weapon_type",
-                "Thunder"
-            ],
-            [
-                "locked",
-                null
+                "max_range",
+                0
             ]
         ]
     },
     {
-        "nid": "Broken_Wind",
+        "nid": "Drained_Tome_Wind",
         "name": "Drained Tome",
-        "desc": "A completely empty wind tome.{br}It cannot be repaired.",
+        "desc": "",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -11986,12 +11882,16 @@
                 null
             ],
             [
-                "min_range",
+                "locked",
+                null
+            ],
+            [
+                "value",
                 0
             ],
             [
-                "max_range",
-                0
+                "weapon_type",
+                "Wind"
             ],
             [
                 "magic",
@@ -12014,23 +11914,19 @@
                 0
             ],
             [
-                "value",
+                "min_range",
                 0
             ],
             [
-                "weapon_type",
-                "Wind"
-            ],
-            [
-                "locked",
-                null
+                "max_range",
+                0
             ]
         ]
     },
     {
-        "nid": "Broken_Light",
+        "nid": "Drained_Tome_Light",
         "name": "Drained Tome",
-        "desc": "A completely empty light tome.{br}It cannot be repaired.",
+        "desc": "",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -12042,12 +11938,16 @@
                 null
             ],
             [
-                "min_range",
+                "locked",
+                null
+            ],
+            [
+                "value",
                 0
             ],
             [
-                "max_range",
-                0
+                "weapon_type",
+                "Light"
             ],
             [
                 "magic",
@@ -12070,23 +11970,19 @@
                 0
             ],
             [
-                "value",
+                "min_range",
                 0
             ],
             [
-                "weapon_type",
-                "Light"
-            ],
-            [
-                "locked",
-                null
+                "max_range",
+                0
             ]
         ]
     },
     {
-        "nid": "Broken_Dark",
+        "nid": "Drained_Tome_Dark",
         "name": "Drained Tome",
-        "desc": "A completely empty dark tome.{br}It cannot be repaired.",
+        "desc": "",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -12098,12 +11994,16 @@
                 null
             ],
             [
-                "min_range",
+                "locked",
+                null
+            ],
+            [
+                "value",
                 0
             ],
             [
-                "max_range",
-                0
+                "weapon_type",
+                "Dark"
             ],
             [
                 "magic",
@@ -12126,16 +12026,12 @@
                 0
             ],
             [
-                "value",
+                "min_range",
                 0
             ],
             [
-                "weapon_type",
-                "Dark"
-            ],
-            [
-                "locked",
-                null
+                "max_range",
+                0
             ]
         ]
     }
