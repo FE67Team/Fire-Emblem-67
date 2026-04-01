@@ -98,7 +98,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -108,22 +108,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -152,7 +147,7 @@
             "Sword",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 4,
@@ -208,11 +203,16 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
-                1,
+                4,
                 4
             ],
             "Lance": [
@@ -240,7 +240,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -250,22 +250,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -294,7 +289,7 @@
             "Sword",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 3,
@@ -337,7 +332,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -354,12 +349,16 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
             "Sword": [
                 true,
-                70,
+                4,
                 4
             ],
             "Lance": [
@@ -387,22 +386,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -430,7 +434,7 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 6,
@@ -486,7 +490,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -494,13 +503,13 @@
                 4
             ],
             "Lance": [
-                true,
-                31,
+                false,
+                0,
                 4
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                4,
                 4
             ],
             "Bow": [
@@ -518,22 +527,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -561,7 +575,7 @@
             "Mounted",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 3,
@@ -604,7 +618,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -621,6 +635,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -630,13 +648,13 @@
                 4
             ],
             "Lance": [
-                true,
-                40,
+                false,
+                0,
                 4
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                4,
                 4
             ],
             "Bow": [
@@ -654,22 +672,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -685,9 +708,973 @@
         "fields": []
     },
     {
+        "nid": "Lyn_Lord",
+        "name": "Lord",
+        "desc": "A noble attached to a ruling\nhouse. Has great potential.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Blade_Lord"
+        ],
+        "tags": [
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 21,
+            "STR": 4,
+            "SKL": 7,
+            "SPD": 9,
+            "DEF": 2,
+            "MOV": 5,
+            "CON": 5
+        },
+        "growths": {
+            "MAG": 20,
+            "DEF": 20,
+            "LCK": 20,
+            "SPD": 20,
+            "SKL": 20,
+            "STR": 20,
+            "HP": 20
+        },
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 20
+        },
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Lord (F) Lyn Sword {IS}-stand",
+        "combat_anim_nid": "Lyn_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Blade_Lord",
+        "name": "Blade Lord",
+        "desc": "An honorific bestowed upon\nmasters of sword and bow.",
+        "tier": 2,
+        "movement_group": "Light Foot",
+        "promotes_from": "Lyn_Lord",
+        "turns_into": [],
+        "tags": [
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "MOV": 6,
+            "CON": 6,
+            "HP": 23,
+            "STR": 3,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 5
+        },
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {
+            "HP": 3,
+            "STR": 2,
+            "SKL": 2,
+            "DEF": 3,
+            "MAG": 5,
+            "MOV": -97,
+            "CON": 1
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 24,
+            "SKL": 29,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 22,
+            "MOV": 15,
+            "CON": 25,
+            "MAG": 22
+        },
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                true,
+                2,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Blade Lord (F) Lyn Sword {IS}-stand",
+        "combat_anim_nid": "Lyn_Great_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Eliwood_Lord",
+        "name": "Lord",
+        "desc": "A noble attached to a ruling\nhouse. Has great potential.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Knight_Lord"
+        ],
+        "tags": [
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 23,
+            "STR": 5,
+            "SKL": 5,
+            "SPD": 7,
+            "DEF": 5,
+            "CON": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "SKL": 20,
+            "HP": 80,
+            "STR": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20
+        },
+        "growth_bonus": {
+            "SKL": 0
+        },
+        "promotion": {
+            "SKL": 0
+        },
+        "max_stats": {
+            "SKL": 20,
+            "HP": 60,
+            "STR": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 20
+        },
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Lord (M) Eliwood Sword {IS}-stand",
+        "combat_anim_nid": "Eliwood_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Knight_Lord",
+        "name": "Knight Lord",
+        "desc": "An honorific bestowed upon\nLycia's mounted knights.",
+        "tier": 2,
+        "movement_group": "Heavy Cav",
+        "promotes_from": "Eliwood_Lord",
+        "turns_into": [],
+        "tags": [
+            "Horse",
+            "Mounted",
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "MOV": 9,
+            "CON": 7,
+            "HP": 23,
+            "STR": 3,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 5
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20
+        },
+        "growth_bonus": {},
+        "promotion": {
+            "HP": 4,
+            "STR": 2,
+            "SPD": 1,
+            "DEF": 1,
+            "MAG": 3,
+            "MOV": -97,
+            "CON": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 27,
+            "SKL": 26,
+            "SPD": 24,
+            "LCK": 30,
+            "DEF": 23,
+            "MAG": 25,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                true,
+                2,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Knight Lord (M) Eliwood Sword {IS}-stand",
+        "combat_anim_nid": "Eliwood_Great_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Hector_Lord",
+        "name": "Lord",
+        "desc": "A noble attached to a ruling\nhouse. Has great potential.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Hector_Great_Lord"
+        ],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "MOV": 4,
+            "CON": 13,
+            "HP": 24,
+            "STR": 7,
+            "SKL": 4,
+            "SPD": 5,
+            "DEF": 8
+        },
+        "growths": {
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 0,
+            "CON": 0,
+            "HP": 80
+        },
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 20
+        },
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                true,
+                4,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Lord (M) Hector Axe {IS}-stand",
+        "combat_anim_nid": "Hectro_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Hector_Great_Lord",
+        "name": "Hector Great Lord",
+        "desc": "An honorific bestowed upon\nespecially gifted generals.",
+        "tier": 2,
+        "movement_group": "Light Foot",
+        "promotes_from": "Hector_Lord",
+        "turns_into": [],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "CON": 15,
+            "MOV": 5,
+            "MAG": 0,
+            "HP": 23,
+            "STR": 3,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 5
+        },
+        "growths": {
+            "CON": 0,
+            "MOV": 0,
+            "HP": 80,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20
+        },
+        "growth_bonus": {},
+        "promotion": {
+            "HP": 3,
+            "SKL": 2,
+            "SPD": 3,
+            "DEF": 1,
+            "MAG": 5,
+            "MOV": -97,
+            "CON": 2
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 30,
+            "SKL": 24,
+            "SPD": 24,
+            "LCK": 30,
+            "DEF": 29,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                2,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                true,
+                4,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Great Lord (M) Hector {IS}-stand",
+        "combat_anim_nid": "Hector_Great_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Roy_Lord",
+        "name": "Lord",
+        "desc": "A noble attached to a ruling\nhouse. Has great potential.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [
+            "Roy_Great_Lord"
+        ],
+        "tags": [
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 18,
+            "STR": 3,
+            "SKL": 3,
+            "SPD": 4,
+            "DEF": 5,
+            "MOV": 5,
+            "CON": 6
+        },
+        "growths": {
+            "HP": 95,
+            "STR": 40,
+            "SKL": 45,
+            "SPD": 40,
+            "LCK": 40,
+            "DEF": 15,
+            "MAG": 12
+        },
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": null,
+        "combat_anim_nid": "Roy_Lord",
+        "fields": []
+    },
+    {
+        "nid": "Roy_Great_Lord",
+        "name": "Great Lord",
+        "desc": "A promoted Lord bearing the title\nof the Champion of Elibe.",
+        "tier": 2,
+        "movement_group": "Light Foot",
+        "promotes_from": "Roy_Lord",
+        "turns_into": [],
+        "tags": [
+            "Sword",
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 22,
+            "STR": 5,
+            "SKL": 6,
+            "SPD": 6,
+            "DEF": 7,
+            "MAG": 5,
+            "MOV": 6,
+            "CON": 8
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 35,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 15,
+            "DEF": 35,
+            "MAG": 10
+        },
+        "growth_bonus": {},
+        "promotion": {
+            "HP": 4,
+            "STR": 2,
+            "SKL": 3,
+            "SPD": 2,
+            "DEF": 2,
+            "MAG": 5,
+            "CON": 2
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 25,
+            "SKL": 25,
+            "SPD": 25,
+            "LCK": 30,
+            "DEF": 25,
+            "MAG": 25,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                4,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": null,
+        "combat_anim_nid": "Roy_Great_Lord",
+        "fields": []
+    },
+    {
         "nid": "Dancer",
-        "name": "Dancer",
-        "desc": "Dancers whose dances revitalize their allies.",
+        "name": "Dancer ",
+        "desc": "Dancers whose arts aid\nallies. Unable to attack.",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -695,9 +1682,9 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
-            "HP": 14,
+            "HP": 19,
             "STR": 1,
             "MAG": 1,
             "SKL": 2,
@@ -710,7 +1697,7 @@
         "growths": {
             "HP": 45,
             "STR": 45,
-            "MAG": 45,
+            "MAG": 13,
             "SKL": 30,
             "SPD": 60,
             "LCK": 70,
@@ -742,12 +1729,12 @@
         },
         "max_stats": {
             "HP": 60,
-            "STR": 20,
-            "MAG": 20,
-            "SKL": 20,
-            "SPD": 20,
+            "STR": 10,
+            "MAG": 26,
+            "SKL": 10,
+            "SPD": 30,
             "LCK": 30,
-            "DEF": 20,
+            "DEF": 24,
             "CON": 20,
             "MOV": 15
         },
@@ -788,22 +1775,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -815,7 +1807,337 @@
             0
         ],
         "map_sprite_nid": "Dancer",
-        "combat_anim_nid": "Dancer",
+        "combat_anim_nid": "DancerNinian",
+        "fields": []
+    },
+    {
+        "nid": "Dancer_Lalum",
+        "name": "Dancer",
+        "desc": "Entertainers who dance to support their\nallies. Cannot attack.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 14,
+            "STR": 1,
+            "SKL": 2,
+            "SPD": 7,
+            "MAG": 1,
+            "MOV": 5,
+            "CON": 4
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20
+        },
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 20
+        },
+        "learned_skills": [
+            [
+                1,
+                "Refresh"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Dancer",
+        "combat_anim_nid": "DancerLalum",
+        "fields": []
+    },
+    {
+        "nid": "Bard_Nils",
+        "name": "Bard",
+        "desc": "Musicians whose melodies\naid allies. Unable to attack.",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 19,
+            "STR": 1,
+            "SKL": 2,
+            "SPD": 7,
+            "MAG": 0,
+            "MOV": 5,
+            "CON": 3,
+            "DEF": 1
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 45,
+            "SKL": 30,
+            "SPD": 60,
+            "LCK": 70,
+            "MAG": 13
+        },
+        "growth_bonus": {},
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 10,
+            "SKL": 10,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 24,
+            "MAG": 26,
+            "MOV": 15,
+            "CON": 20
+        },
+        "learned_skills": [
+            [
+                1,
+                "Refresh"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Bard (M) Nils {IS}-stand",
+        "combat_anim_nid": "BardNils",
+        "fields": []
+    },
+    {
+        "nid": "Bard_Elfin",
+        "name": "Bard",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 14
+        },
+        "growths": {},
+        "growth_bonus": {},
+        "promotion": {},
+        "max_stats": {},
+        "learned_skills": [
+            [
+                1,
+                "Refresh"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Bard (M) Elffin {IS}-stand",
+        "combat_anim_nid": "BardElphin",
         "fields": []
     },
     {
@@ -832,7 +2154,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 4,
@@ -888,11 +2210,16 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
-                31,
+                2,
                 4
             ],
             "Lance": [
@@ -920,22 +2247,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -961,7 +2293,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 6,
@@ -1004,7 +2336,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -1021,12 +2353,16 @@
             [
                 1,
                 "Crit_Plus15"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
             "Sword": [
                 true,
-                40,
+                1,
                 4
             ],
             "Lance": [
@@ -1054,22 +2390,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -1098,7 +2439,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -1154,11 +2495,16 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
-                31,
+                2,
                 4
             ],
             "Lance": [
@@ -1186,7 +2532,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -1196,22 +2542,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -1237,7 +2578,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 22,
             "STR": 6,
@@ -1280,7 +2621,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -1293,11 +2634,16 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
-                40,
+                1,
                 4
             ],
             "Lance": [
@@ -1307,7 +2653,7 @@
             ],
             "Axe": [
                 true,
-                31,
+                1,
                 4
             ],
             "Bow": [
@@ -1325,7 +2671,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -1335,22 +2681,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -1379,7 +2720,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 3,
@@ -1439,12 +2780,16 @@
             [
                 1,
                 "Steal"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
             "Sword": [
                 true,
-                1,
+                2,
                 4
             ],
             "Lance": [
@@ -1472,7 +2817,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -1482,22 +2827,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -1523,7 +2863,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 3,
@@ -1566,7 +2906,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -1583,12 +2923,16 @@
             [
                 1,
                 "Lethality"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
             "Sword": [
                 true,
-                30,
+                1,
                 4
             ],
             "Lance": [
@@ -1616,22 +2960,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -1657,7 +3006,7 @@
         "tags": [
             "Sword"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 3,
@@ -1700,7 +3049,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -1717,6 +3066,10 @@
             [
                 1,
                 "Locktouch"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -1750,22 +3103,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -1851,7 +3209,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -1883,22 +3246,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -1922,7 +3290,7 @@
         "promotes_from": null,
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 3,
@@ -1978,7 +3346,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -1987,7 +3360,7 @@
             ],
             "Lance": [
                 true,
-                1,
+                2,
                 4
             ],
             "Axe": [
@@ -2010,22 +3383,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -2055,7 +3433,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -2115,6 +3493,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -2125,7 +3507,7 @@
             ],
             "Lance": [
                 true,
-                31,
+                1,
                 4
             ],
             "Axe": [
@@ -2148,22 +3530,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -2193,7 +3580,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -2253,6 +3640,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -2262,8 +3653,8 @@
                 4
             ],
             "Lance": [
-                true,
-                31,
+                false,
+                0,
                 4
             ],
             "Axe": [
@@ -2286,22 +3677,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -2312,8 +3708,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Cavalier",
-        "combat_anim_nid": "Cavalier",
+        "map_sprite_nid": "Cavalier (M) Sword {Agro}-stand",
+        "combat_anim_nid": "Sword_Knight",
         "fields": []
     },
     {
@@ -2331,7 +3727,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -2391,17 +3787,21 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
             "Sword": [
-                true,
-                1,
+                false,
+                0,
                 4
             ],
             "Lance": [
                 true,
-                31,
+                1,
                 4
             ],
             "Axe": [
@@ -2424,22 +3824,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -2451,7 +3856,7 @@
             0
         ],
         "map_sprite_nid": "Cavalier",
-        "combat_anim_nid": "Cavalier",
+        "combat_anim_nid": "Lance_Knight",
         "fields": []
     },
     {
@@ -2469,7 +3874,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -2529,22 +3934,26 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
             "Sword": [
-                true,
-                1,
+                false,
+                0,
                 4
             ],
             "Lance": [
-                true,
-                31,
+                false,
+                0,
                 4
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                1,
                 4
             ],
             "Bow": [
@@ -2562,22 +3971,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -2588,8 +4002,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Cavalier",
-        "combat_anim_nid": "Cavalier",
+        "map_sprite_nid": "Cavalier (M) Axe {Siuloir}-stand",
+        "combat_anim_nid": "Axe_Knight",
         "fields": []
     },
     {
@@ -2604,7 +4018,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 23,
             "STR": 7,
@@ -2647,7 +4061,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -2664,17 +4078,21 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
             "Sword": [
                 true,
-                30,
+                1,
                 4
             ],
             "Lance": [
                 true,
-                30,
+                1,
                 4
             ],
             "Axe": [
@@ -2697,22 +4115,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -2740,7 +4163,7 @@
             "Mounted",
             "Armor"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 8,
@@ -2783,7 +4206,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 4,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -2800,6 +4223,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -2815,12 +4242,12 @@
             ],
             "Axe": [
                 true,
-                31,
+                1,
                 4
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                1,
                 4
             ],
             "Staff": [
@@ -2833,7 +4260,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -2843,22 +4270,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -2888,7 +4310,7 @@
             "Mounted",
             "Flying"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 14,
             "STR": 4,
@@ -2948,6 +4370,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -2958,7 +4384,7 @@
             ],
             "Lance": [
                 true,
-                31,
+                1,
                 4
             ],
             "Axe": [
@@ -2981,22 +4407,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -3023,7 +4454,7 @@
             "Mounted",
             "Flying"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 6,
@@ -3066,7 +4497,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -3079,7 +4510,16 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Canto"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 true,
@@ -3088,7 +4528,7 @@
             ],
             "Lance": [
                 true,
-                40,
+                1,
                 4
             ],
             "Axe": [
@@ -3111,7 +4551,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -3121,22 +4561,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3165,7 +4600,7 @@
         "tags": [
             "Armor"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 17,
             "STR": 5,
@@ -3221,7 +4656,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -3230,7 +4670,7 @@
             ],
             "Lance": [
                 true,
-                31,
+                2,
                 4
             ],
             "Axe": [
@@ -3253,7 +4693,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -3263,22 +4703,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3290,7 +4725,7 @@
             0
         ],
         "map_sprite_nid": "Knight",
-        "combat_anim_nid": "Knight",
+        "combat_anim_nid": "Lance_Armor",
         "fields": []
     },
     {
@@ -3307,7 +4742,7 @@
         "tags": [
             "Armor"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 17,
             "STR": 5,
@@ -3363,16 +4798,21 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                2,
                 4
             ],
             "Lance": [
-                true,
-                31,
+                false,
+                0,
                 4
             ],
             "Axe": [
@@ -3395,7 +4835,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -3405,22 +4845,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -3431,8 +4866,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Knight",
-        "combat_anim_nid": "Knight",
+        "map_sprite_nid": "Knight (U) Sword {Agro}-stand",
+        "combat_anim_nid": "Sword_Armor",
         "fields": []
     },
     {
@@ -3449,7 +4884,7 @@
         "tags": [
             "Armor"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 17,
             "STR": 5,
@@ -3505,7 +4940,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -3513,13 +4953,13 @@
                 4
             ],
             "Lance": [
-                true,
-                31,
+                false,
+                0,
                 4
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                2,
                 4
             ],
             "Bow": [
@@ -3537,22 +4977,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -3563,8 +5008,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Knight",
-        "combat_anim_nid": "Knight",
+        "map_sprite_nid": "Knight (U) Axe {Agro}-stand",
+        "combat_anim_nid": "Axe_Armor",
         "fields": []
     },
     {
@@ -3578,7 +5023,7 @@
         "tags": [
             "Armor"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 8,
@@ -3621,7 +5066,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -3638,6 +5083,10 @@
             [
                 1,
                 "Pavise"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -3648,7 +5097,7 @@
             ],
             "Lance": [
                 true,
-                40,
+                1,
                 4
             ],
             "Axe": [
@@ -3657,8 +5106,8 @@
                 4
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                1,
                 4
             ],
             "Staff": [
@@ -3671,22 +5120,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -3772,7 +5226,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -3804,22 +5263,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -3840,13 +5304,13 @@
         "desc": "Ruffians with great strength but\npoor defense.",
         "tier": 1,
         "movement_group": "Regular",
-        "promotes_from": null,
+        "promotes_from": "Journeyman",
         "turns_into": [
             "Hero",
             "Warrior"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -3889,7 +5353,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 3,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -3902,7 +5366,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -3916,7 +5385,7 @@
             ],
             "Axe": [
                 true,
-                31,
+                2,
                 4
             ],
             "Bow": [
@@ -3934,22 +5403,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -3973,7 +5447,7 @@
         "promotes_from": "Fighter",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 28,
             "STR": 8,
@@ -4016,7 +5490,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -4029,7 +5503,12 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -4043,7 +5522,7 @@
             ],
             "Axe": [
                 true,
-                40,
+                1,
                 4
             ],
             "Bow": [
@@ -4061,22 +5540,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -4097,12 +5581,12 @@
         "desc": "Untrained but fanatical combatant.",
         "tier": 1,
         "movement_group": "Pirates",
-        "promotes_from": null,
+        "promotes_from": "Journeyman",
         "turns_into": [
             "Berserker"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 19,
             "STR": 4,
@@ -4145,7 +5629,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -4158,7 +5642,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -4172,7 +5661,7 @@
             ],
             "Axe": [
                 true,
-                31,
+                2,
                 4
             ],
             "Bow": [
@@ -4190,22 +5679,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -4229,7 +5723,7 @@
         "promotes_from": "Pirate",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 24,
             "STR": 7,
@@ -4272,7 +5766,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 3,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -4289,6 +5783,10 @@
             [
                 1,
                 "Crit_Plus15"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -4304,7 +5802,7 @@
             ],
             "Axe": [
                 true,
-                40,
+                1,
                 4
             ],
             "Bow": [
@@ -4322,22 +5820,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -4363,7 +5866,7 @@
             "Berserker"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -4419,7 +5922,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -4433,7 +5941,7 @@
             ],
             "Axe": [
                 true,
-                31,
+                2,
                 4
             ],
             "Bow": [
@@ -4451,22 +5959,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -4493,7 +6006,7 @@
             "Nomad_Trooper"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -4549,7 +6062,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -4568,7 +6086,7 @@
             ],
             "Bow": [
                 true,
-                31,
+                2,
                 4
             ],
             "Staff": [
@@ -4581,7 +6099,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -4591,22 +6109,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4630,7 +6143,7 @@
         "promotes_from": "Archer",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 7,
@@ -4673,7 +6186,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -4690,6 +6203,10 @@
             [
                 1,
                 "Sure_Strike"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -4710,7 +6227,7 @@
             ],
             "Bow": [
                 true,
-                40,
+                1,
                 4
             ],
             "Staff": [
@@ -4723,7 +6240,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -4733,22 +6250,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4775,7 +6287,7 @@
             "Nomad_Trooper"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -4785,7 +6297,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 7,
-            "MOV": 5
+            "MOV": 0
         },
         "growths": {
             "HP": 70,
@@ -4831,7 +6343,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -4863,7 +6380,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -4873,22 +6390,17 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
-                false,
-                0,
-                4
-            ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -4899,15 +6411,15 @@
             0,
             0
         ],
-        "map_sprite_nid": "Archer",
-        "combat_anim_nid": "Archer",
+        "map_sprite_nid": "Ballista Normal Mounted {IS}-stand",
+        "combat_anim_nid": "Balistissian",
         "fields": []
     },
     {
         "nid": "Nomad",
         "name": "Nomad",
-        "desc": "Fighters skilled in both sword and bow.",
-        "tier": 2,
+        "desc": "Sacaen plainsmen with good\nmovement. Armed with bows.",
+        "tier": 1,
         "movement_group": "Light Cav",
         "promotes_from": "Archer",
         "turns_into": [],
@@ -4915,7 +6427,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 7,
@@ -4958,7 +6470,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 3,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -4975,6 +6487,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -4995,7 +6511,7 @@
             ],
             "Bow": [
                 true,
-                31,
+                1,
                 4
             ],
             "Staff": [
@@ -5008,22 +6524,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -5034,23 +6555,23 @@
             0,
             0
         ],
-        "map_sprite_nid": "Ranger",
+        "map_sprite_nid": "Nomad (M) {IS}-stand",
         "combat_anim_nid": "Ranger",
         "fields": []
     },
     {
         "nid": "Nomad_Trooper",
         "name": "Nomad Trooper",
-        "desc": "Fighters skilled in both sword and bow.",
+        "desc": "An honorific bestowed upon\nnomads of great skill.",
         "tier": 2,
         "movement_group": "Light Cav",
-        "promotes_from": "Archer",
+        "promotes_from": "Nomad",
         "turns_into": [],
         "tags": [
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 7,
@@ -5093,7 +6614,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 3,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -5110,12 +6631,16 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
             "Sword": [
                 true,
-                31,
+                1,
                 4
             ],
             "Lance": [
@@ -5143,22 +6668,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -5169,7 +6699,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Ranger",
+        "map_sprite_nid": "Nomad Trooper (M) {IS}-stand",
         "combat_anim_nid": "Ranger",
         "fields": []
     },
@@ -5185,7 +6715,7 @@
             "Sage"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -5228,7 +6758,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -5241,7 +6771,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -5270,12 +6805,7 @@
             ],
             "Light": [
                 true,
-                1,
-                4
-            ],
-            "Anima": [
-                false,
-                0,
+                2,
                 4
             ],
             "Dark": [
@@ -5283,12 +6813,22 @@
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -5318,7 +6858,7 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -5398,15 +6938,10 @@
             ],
             "Staff": [
                 true,
-                31,
+                2,
                 4
             ],
             "Light": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -5416,12 +6951,22 @@
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -5445,7 +6990,7 @@
         "promotes_from": "Cleric",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 0,
@@ -5488,7 +7033,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -5505,6 +7050,10 @@
             [
                 1,
                 "Slayer"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -5535,12 +7084,7 @@
             ],
             "Light": [
                 true,
-                16,
-                4
-            ],
-            "Anima": [
-                false,
-                0,
+                1,
                 4
             ],
             "Dark": [
@@ -5548,12 +7092,22 @@
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -5639,7 +7193,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -5671,24 +7230,29 @@
                 0,
                 null
             ],
-            "Anima": [
-                true,
-                1,
-                null
-            ],
             "Dark": [
                 false,
                 0,
                 null
             ],
-            "Default": [
-                false,
-                0,
+            "Fire": [
+                true,
+                1,
                 null
             ],
             "Wind": [
                 true,
                 1,
+                null
+            ],
+            "Thunder": [
+                true,
+                1,
+                null
+            ],
+            "Default": [
+                false,
+                0,
                 null
             ]
         },
@@ -5698,13 +7262,13 @@
             0
         ],
         "map_sprite_nid": "Pupil",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Pupil",
         "fields": []
     },
     {
         "nid": "Fire_Mage",
         "name": "Fire Mage",
-        "desc": "Curious practioners of anima magic.",
+        "desc": "Curious practioners of fire magic.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -5713,7 +7277,7 @@
             "Mage_Knight"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 0,
@@ -5756,7 +7320,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -5769,7 +7333,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -5825,11 +7394,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                true,
-                31,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Mage (1)",
@@ -5838,13 +7402,13 @@
             0
         ],
         "map_sprite_nid": "Mage",
-        "combat_anim_nid": "Mage",
+        "combat_anim_nid": "Fire_Mage",
         "fields": []
     },
     {
         "nid": "Thunder_Mage",
         "name": "Thunder Mage",
-        "desc": "Curious practioners of anima magic.",
+        "desc": "Curious practioners of thunder magic.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -5853,7 +7417,7 @@
             "Mage_Knight"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 0,
@@ -5896,7 +7460,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -5909,7 +7473,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -5965,11 +7534,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                true,
-                31,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Mage (1)",
@@ -5978,13 +7542,13 @@
             0
         ],
         "map_sprite_nid": "Mage",
-        "combat_anim_nid": "Mage",
+        "combat_anim_nid": "Thunder_Mage",
         "fields": []
     },
     {
         "nid": "Wind_Mage",
         "name": "Wind_Mage",
-        "desc": "Curious practioners of anima magic.",
+        "desc": "Curious practioners of wind magic.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,
@@ -5993,7 +7557,7 @@
             "Mage_Knight"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 0,
@@ -6036,7 +7600,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -6049,7 +7613,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -6105,11 +7674,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                true,
-                31,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Mage (1)",
@@ -6118,7 +7682,7 @@
             0
         ],
         "map_sprite_nid": "Mage",
-        "combat_anim_nid": "Mage",
+        "combat_anim_nid": "Wind_Mage",
         "fields": []
     },
     {
@@ -6130,7 +7694,7 @@
         "promotes_from": "Fire_Mage",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 0,
@@ -6173,7 +7737,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -6186,7 +7750,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -6210,17 +7779,12 @@
             ],
             "Staff": [
                 true,
-                31,
+                1,
                 4
             ],
             "Light": [
-                true,
-                31,
-                4
-            ],
-            "Anima": [
-                true,
-                31,
+                false,
+                0,
                 4
             ],
             "Dark": [
@@ -6228,14 +7792,24 @@
                 0,
                 4
             ],
-            "Default": [
-                false,
-                0,
-                4
+            "Fire": [
+                true,
+                1,
+                null
             ],
             "Wind": [
                 true,
-                31,
+                1,
+                4
+            ],
+            "Thunder": [
+                true,
+                1,
+                null
+            ],
+            "Default": [
+                false,
+                0,
                 4
             ]
         },
@@ -6260,7 +7834,7 @@
             "Summoner"
         ],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 16,
             "STR": 0,
@@ -6303,7 +7877,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 2,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -6316,7 +7890,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -6348,22 +7927,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 true,
-                31,
+                2,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -6387,7 +7971,7 @@
         "promotes_from": "Shaman",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 19,
             "STR": 0,
@@ -6430,7 +8014,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": 1
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -6443,7 +8027,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -6475,24 +8064,29 @@
                 0,
                 null
             ],
-            "Anima": [
-                true,
-                31,
-                null
-            ],
             "Dark": [
                 true,
-                71,
+                1,
                 null
             ],
-            "Default": [
+            "Fire": [
                 false,
                 0,
                 null
             ],
             "Wind": [
-                true,
-                31,
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
                 null
             ]
         },
@@ -6514,7 +8108,7 @@
         "promotes_from": "Shaman",
         "turns_into": [],
         "tags": [],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -6550,7 +8144,7 @@
         },
         "promotion": {
             "CON": 1,
-            "MOV": 1,
+            "MOV": -97,
             "HP": 3,
             "STR": 0,
             "MAG": 0,
@@ -6574,6 +8168,10 @@
             [
                 1,
                 "Summon"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -6607,22 +8205,27 @@
                 0,
                 null
             ],
-            "Anima": [
-                false,
-                0,
-                null
-            ],
             "Dark": [
                 true,
-                71,
+                1,
                 null
             ],
-            "Default": [
+            "Fire": [
                 false,
                 0,
                 null
             ],
             "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 null
@@ -6640,7 +8243,7 @@
     {
         "nid": "Mage_Knight",
         "name": "Mage Knight",
-        "desc": "Knights trained in both anima and staves.",
+        "desc": "Knights trained in both magic and staves.",
         "tier": 2,
         "movement_group": "Light Cav",
         "promotes_from": "Fire_Mage",
@@ -6648,7 +8251,7 @@
         "tags": [
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 0,
@@ -6691,7 +8294,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 3,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -6708,6 +8311,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -6733,17 +8340,12 @@
             ],
             "Staff": [
                 true,
-                31,
+                1,
                 4
             ],
             "Light": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 true,
-                71,
+                1,
                 4
             ],
             "Dark": [
@@ -6751,14 +8353,24 @@
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                true,
+                1,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
                 true,
-                71,
+                1,
+                null
+            ],
+            "Default": [
+                false,
+                0,
                 4
             ]
         },
@@ -6786,7 +8398,7 @@
             "Mounted",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 15,
             "STR": 0,
@@ -6871,15 +8483,10 @@
             ],
             "Staff": [
                 true,
-                31,
+                1,
                 4
             ],
             "Light": [
-                false,
-                0,
-                4
-            ],
-            "Anima": [
                 false,
                 0,
                 4
@@ -6889,12 +8496,22 @@
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -6921,7 +8538,7 @@
             "Horse",
             "Mounted"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 0,
@@ -6956,15 +8573,15 @@
             "MOV": 0
         },
         "promotion": {
-            "HP": 0,
+            "HP": 3,
             "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
+            "MAG": 3,
+            "SKL": 1,
             "SPD": 0,
             "LCK": 0,
-            "DEF": 0,
-            "CON": 0,
-            "MOV": 0
+            "DEF": 2,
+            "CON": 1,
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -6981,6 +8598,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -7006,17 +8627,12 @@
             ],
             "Staff": [
                 true,
-                31,
+                1,
                 4
             ],
             "Light": [
                 true,
-                31,
-                4
-            ],
-            "Anima": [
-                false,
-                0,
+                1,
                 4
             ],
             "Dark": [
@@ -7024,12 +8640,22 @@
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -7060,7 +8686,7 @@
             "Dragon",
             "Flying"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 7,
@@ -7120,6 +8746,10 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
@@ -7130,7 +8760,7 @@
             ],
             "Lance": [
                 true,
-                31,
+                1,
                 4
             ],
             "Axe": [
@@ -7153,22 +8783,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -7196,7 +8831,7 @@
             "Dragon",
             "Flying"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 9,
@@ -7239,7 +8874,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -7256,22 +8891,26 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
             "Sword": [
-                true,
-                31,
+                false,
+                0,
                 4
             ],
             "Lance": [
                 true,
-                40,
+                1,
                 4
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                1,
                 4
             ],
             "Bow": [
@@ -7289,22 +8928,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -7332,7 +8976,7 @@
             "Dragon",
             "Flying"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 7,
@@ -7375,7 +9019,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": -99
+            "MOV": -97
         },
         "max_stats": {
             "HP": 60,
@@ -7396,17 +9040,21 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Critical"
             ]
         ],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                1,
                 4
             ],
             "Lance": [
                 true,
-                40,
+                1,
                 4
             ],
             "Axe": [
@@ -7429,22 +9077,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -7470,7 +9123,7 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -7526,7 +9179,12 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -7550,7 +9208,7 @@
             ],
             "Staff": [
                 true,
-                251,
+                1,
                 4
             ],
             "Light": [
@@ -7558,22 +9216,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 true,
-                251,
+                1,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -7602,7 +9265,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 25,
             "STR": 2,
@@ -7690,10 +9353,20 @@
                 0,
                 4
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -7701,11 +9374,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Wind": [
                 false,
                 0,
                 4
@@ -7732,7 +9400,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 35,
             "STR": 3,
@@ -7820,10 +9488,20 @@
                 0,
                 4
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -7831,11 +9509,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Wind": [
                 false,
                 0,
                 4
@@ -7864,7 +9537,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 4,
@@ -7952,10 +9625,20 @@
                 0,
                 4
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -7963,11 +9646,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Wind": [
                 false,
                 0,
                 4
@@ -7994,7 +9672,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 7,
@@ -8082,10 +9760,20 @@
                 0,
                 4
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -8093,11 +9781,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Wind": [
                 false,
                 0,
                 4
@@ -8126,7 +9809,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -8214,10 +9897,20 @@
                 0,
                 4
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -8225,11 +9918,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Wind": [
                 false,
                 0,
                 4
@@ -8256,7 +9944,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 21,
             "STR": 6,
@@ -8344,10 +10032,20 @@
                 0,
                 4
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 false,
@@ -8355,11 +10053,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Wind": [
                 false,
                 0,
                 4
@@ -8389,7 +10082,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 15,
             "STR": 0,
@@ -8477,10 +10170,20 @@
                 0,
                 4
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 true,
@@ -8488,11 +10191,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Wind": [
                 false,
                 0,
                 4
@@ -8520,7 +10218,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 17,
             "STR": 0,
@@ -8608,10 +10306,20 @@
                 0,
                 4
             ],
-            "Anima": [
+            "Wind": [
                 false,
                 0,
                 4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
             ],
             "Dark": [
                 true,
@@ -8619,11 +10327,6 @@
                 4
             ],
             "Default": [
-                false,
-                0,
-                4
-            ],
-            "Wind": [
                 false,
                 0,
                 4
@@ -8650,7 +10353,7 @@
             "Dragon",
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 20,
             "STR": 0,
@@ -8706,7 +10409,16 @@
             "CON": 25,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Dragonblood"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -8738,22 +10450,27 @@
                 0,
                 4
             ],
-            "Anima": [
-                false,
-                0,
-                4
-            ],
             "Dark": [
                 false,
                 0,
                 4
             ],
-            "Default": [
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
                 false,
                 0,
                 4
             ],
-            "Wind": [
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 4
@@ -8901,11 +10618,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -9050,11 +10762,6 @@
                 false,
                 0,
                 4
-            ],
-            "Anima": [
-                false,
-                0,
-                4
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -9077,7 +10784,7 @@
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 20,
+        "max_level": 40,
         "bases": {
             "HP": 1,
             "STR": 5,
@@ -9133,7 +10840,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -9147,7 +10859,7 @@
             ],
             "Axe": [
                 true,
-                71,
+                1,
                 null
             ],
             "Bow": [
@@ -9165,22 +10877,27 @@
                 0,
                 null
             ],
-            "Anima": [
-                false,
-                0,
-                null
-            ],
             "Dark": [
                 false,
                 0,
                 null
             ],
-            "Default": [
+            "Fire": [
                 false,
                 0,
                 null
             ],
             "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
                 false,
                 0,
                 null

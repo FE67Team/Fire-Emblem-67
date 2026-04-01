@@ -385,9 +385,9 @@
             {
                 "weapon_type": "Dark",
                 "weapon_rank": "All",
-                "damage": "1",
+                "damage": 0,
                 "resist": "0",
-                "accuracy": "15",
+                "accuracy": 20,
                 "avoid": "0",
                 "crit": "0",
                 "dodge": "0",
@@ -397,16 +397,40 @@
         ],
         "disadvantage": [
             {
-                "weapon_type": "Wind",
+                "weapon_type": "Fire",
                 "weapon_rank": "All",
-                "damage": "-1",
+                "damage": 0,
                 "resist": "0",
-                "accuracy": "-15",
+                "accuracy": -20,
                 "avoid": "0",
                 "crit": "0",
                 "dodge": "0",
                 "attack_speed": "0",
                 "defense_speed": "0"
+            },
+            {
+                "weapon_type": "Wind",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": -20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Thunder",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": -20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
             }
         ],
         "icon_nid": "wexp_icons",
@@ -461,25 +485,49 @@
         ],
         "advantage": [
             {
-                "weapon_type": "Wind",
+                "weapon_type": "Fire",
                 "weapon_rank": "All",
-                "damage": "1",
+                "damage": 0,
                 "resist": "0",
-                "accuracy": "15",
+                "accuracy": 20,
                 "avoid": "0",
                 "crit": "0",
                 "dodge": "0",
                 "attack_speed": "0",
                 "defense_speed": "0"
+            },
+            {
+                "weapon_type": "Wind",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Thunder",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
             }
         ],
         "disadvantage": [
             {
                 "weapon_type": "Light",
                 "weapon_rank": "All",
-                "damage": "-1",
+                "damage": 0,
                 "resist": "0",
-                "accuracy": "-15",
+                "accuracy": -20,
                 "avoid": "0",
                 "crit": "0",
                 "dodge": "0",
@@ -495,7 +543,7 @@
     },
     {
         "nid": "Fire",
-        "name": "Anima",
+        "name": "Fire",
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
@@ -589,10 +637,10 @@
                 "defense_speed": 0
             }
         ],
-        "icon_nid": "anima_icons",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            0
+            4
         ]
     },
     {
@@ -691,15 +739,15 @@
                 "defense_speed": 0
             }
         ],
-        "icon_nid": "anima_icons",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            2
+            0
         ]
     },
     {
         "nid": "Thunder",
-        "name": "Anima",
+        "name": "Thunder",
         "force_melee_anim": false,
         "hide_from_display": false,
         "hide_from_convoy": false,
@@ -793,10 +841,10 @@
                 "defense_speed": 0
             }
         ],
-        "icon_nid": "anima_icons",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            1
+            7
         ]
     },
     {

@@ -29,7 +29,12 @@
     },
     {
         "nid": "Generic_Portrait_Citizen",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "Generic_Portrait_Citizen 0, 0": [
+                0,
+                0
+            ]
+        }
     },
     {
         "nid": "Generic_Portrait_Cleric",
@@ -105,7 +110,12 @@
     },
     {
         "nid": "Generic_Portrait_Sage",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "Generic_Portrait_Sage 0, 0": [
+                0,
+                0
+            ]
+        }
     },
     {
         "nid": "Generic_Portrait_Shaman",

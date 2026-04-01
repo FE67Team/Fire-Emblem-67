@@ -137,7 +137,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    53,
+                    52,
                     5
                 ],
                 "starting_traveler": null,
@@ -537,7 +537,7 @@
                 "nid": "AntiWallaceSquad_5",
                 "variant": null,
                 "level": 6,
-                "klass": "Lance_Armor",
+                "klass": "Sword_Armor",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -884,12 +884,7 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "test",
@@ -1842,6 +1837,10 @@
                 "starting_items": [
                     [
                         "Iron_Axe",
+                        false
+                    ],
+                    [
+                        "Hand_Axe",
                         false
                     ]
                 ],

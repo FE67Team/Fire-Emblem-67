@@ -46,7 +46,20 @@
     },
     {
         "nid": "Skills",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "Skills 1, 3": [
+                1,
+                3
+            ],
+            "Skills 7, 7": [
+                7,
+                7
+            ],
+            "Skills 8, 8": [
+                8,
+                8
+            ]
+        }
     },
     {
         "nid": "Staff",
@@ -69,16 +82,12 @@
         "subicon_dict": {}
     },
     {
-        "nid": "anima_icons",
+        "nid": "Broken_weapons (Batima & Lisandra Brave)",
         "subicon_dict": {
-            "anima_icons 0, 0": [
+            "Broken_weapons (Batima & Lisandra Brave) 0, 0": [
                 0,
                 0
             ]
         }
-    },
-    {
-        "nid": "anima_icons_1",
-        "subicon_dict": {}
     }
 ]
