@@ -5750,6 +5750,635 @@
         "fields": []
     },
     {
+        "nid": "Roy",
+        "name": "Roy",
+        "desc": "The next heir to Pherae. The protagonist of this story.",
+        "variant": null,
+        "level": 1,
+        "klass": "Roy_Lord",
+        "tags": [],
+        "bases": {
+            "HP": 18,
+            "STR": 5,
+            "SKL": 5,
+            "SPD": 7,
+            "LCK": 7,
+            "DEF": 5,
+            "MAG": 0,
+            "MOV": 5,
+            "CON": 6
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 40,
+            "SKL": 50,
+            "SPD": 40,
+            "LCK": 60,
+            "DEF": 25,
+            "MAG": 30
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Rapier",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                4,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Roy_1",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Allen",
+        "name": "Allen",
+        "desc": "A knight serving Pherae.",
+        "variant": null,
+        "level": 2,
+        "klass": "Sword_Knight",
+        "tags": [],
+        "bases": {
+            "MOV": 7,
+            "CON": 9,
+            "HP": 21,
+            "STR": 7,
+            "SKL": 4,
+            "SPD": 6,
+            "LCK": 3,
+            "DEF": 6
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 45,
+            "SKL": 40,
+            "SPD": 45,
+            "LCK": 40,
+            "DEF": 25,
+            "MAG": 10
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Sword",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Alan",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Lance",
+        "name": "Lance",
+        "desc": "A knight serving Pherae.",
+        "variant": null,
+        "level": 1,
+        "klass": "Lance_Knight",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 5,
+            "SKL": 6,
+            "SPD": 8,
+            "LCK": 2,
+            "DEF": 6,
+            "MOV": 7,
+            "CON": 9
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 40,
+            "SKL": 45,
+            "SPD": 50,
+            "LCK": 35,
+            "DEF": 20,
+            "MAG": 15
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Lance",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Lance_1",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Wolt",
+        "name": "Wolt",
+        "desc": "An archer serving Pherae. Roys milk-brother",
+        "variant": null,
+        "level": 3,
+        "klass": "Archer",
+        "tags": [],
+        "bases": {
+            "MOV": 5,
+            "CON": 7,
+            "HP": 18,
+            "STR": 4,
+            "SKL": 4,
+            "SPD": 5,
+            "LCK": 2,
+            "DEF": 4
+        },
+        "growths": {
+            "HP": 80,
+            "STR": 40,
+            "SKL": 50,
+            "SPD": 40,
+            "LCK": 40,
+            "DEF": 20,
+            "MAG": 10
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Bow",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                2,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Wolt_1",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Bors",
+        "name": "Bors",
+        "desc": "A knight serving Ostia.",
+        "variant": null,
+        "level": 2,
+        "klass": "Lance_Armor",
+        "tags": [],
+        "bases": {
+            "MOV": 5,
+            "CON": 14,
+            "HP": 20,
+            "STR": 7,
+            "SKL": 4,
+            "SPD": 3,
+            "LCK": 4,
+            "DEF": 11
+        },
+        "growths": {
+            "HP": 90,
+            "STR": 30,
+            "SKL": 30,
+            "SPD": 40,
+            "LCK": 50,
+            "DEF": 35,
+            "MAG": 10
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Lance",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                2,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Bors_1",
+        "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Ellen",
+        "name": "Ellen",
+        "desc": "A young priest serving Guinevere.",
+        "variant": null,
+        "level": 9,
+        "klass": "Cleric",
+        "tags": [],
+        "bases": {
+            "HP": 16,
+            "SKL": 6,
+            "SPD": 8,
+            "LCK": 8,
+            "MAG": 6,
+            "MOV": 5,
+            "CON": 4
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 5,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 70,
+            "DEF": 5,
+            "MAG": 60
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Heal",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                2,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Ellen",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Dieck",
+        "name": "Dieck",
+        "desc": "An ex-pitfighter from Etruria. He is now a traveling mercenary.",
+        "variant": null,
+        "level": 1,
+        "klass": "Mercenary",
+        "tags": [],
+        "bases": {
+            "CON": 13,
+            "MOV": 5,
+            "HP": 29,
+            "STR": 9,
+            "SKL": 12,
+            "SPD": 10,
+            "LCK": 5,
+            "DEF": 6,
+            "MAG": 1
+        },
+        "growths": {
+            "HP": 90,
+            "STR": 40,
+            "SKL": 40,
+            "SPD": 30,
+            "LCK": 35,
+            "DEF": 20,
+            "MAG": 15
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Blade",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                2,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Dieck_1",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Wade",
+        "name": "Wade",
+        "desc": "A young man fighting alongside Dieck",
+        "variant": null,
+        "level": 2,
+        "klass": "Fighter",
+        "tags": [],
+        "bases": {
+            "MOV": 5,
+            "CON": 13,
+            "HP": 28,
+            "STR": 8,
+            "SKL": 3,
+            "SPD": 5,
+            "LCK": 4,
+            "DEF": 3
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 50,
+            "SKL": 45,
+            "SPD": 20,
+            "LCK": 45,
+            "DEF": 30,
+            "MAG": 5
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Axe",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                2,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Wade_1",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Lot",
+        "name": "Lot",
+        "desc": "A young man fighting alongside Dieck.",
+        "variant": null,
+        "level": 3,
+        "klass": "Fighter",
+        "tags": [],
+        "bases": {
+            "MOV": 5,
+            "CON": 12,
+            "HP": 29,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 2,
+            "DEF": 4,
+            "MAG": 1,
+            "STR": 7
+        },
+        "growths": {
+            "HP": 80,
+            "SKL": 30,
+            "SPD": 35,
+            "LCK": 30,
+            "DEF": 40,
+            "MAG": 15,
+            "MOV": 0,
+            "STR": 30
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Axe",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                2,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Lot_1",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Shanna",
+        "name": "Shanna",
+        "desc": "A pegasus knight-in-training traveling the world to hone her skills.",
+        "variant": null,
+        "level": 5,
+        "klass": "Pegasus_Knight",
+        "tags": [],
+        "bases": {
+            "CON": 4,
+            "MOV": 7,
+            "HP": 17,
+            "STR": 4,
+            "SKL": 6,
+            "SPD": 12,
+            "LCK": 5,
+            "DEF": 6,
+            "MAG": 5
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 30,
+            "SKL": 55,
+            "SPD": 60,
+            "LCK": 60,
+            "DEF": 10,
+            "MAG": 25
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Lance",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Shanna",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Chad",
+        "name": "Chad",
+        "desc": "A boy living in an orphanage on the Bern-Lycia border.",
+        "variant": null,
+        "level": 1,
+        "klass": "Thief",
+        "tags": [],
+        "bases": {
+            "MOV": 6,
+            "CON": 5,
+            "HP": 16,
+            "STR": 3,
+            "SKL": 3,
+            "SPD": 10,
+            "LCK": 4,
+            "DEF": 2
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 50,
+            "SKL": 50,
+            "SPD": 80,
+            "LCK": 60,
+            "DEF": 25,
+            "MAG": 15
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Sword",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                2,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Chad_1",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Lugh",
+        "name": "Lugh",
+        "desc": "A young mage who grew up in an orphanage that Bern destroyed.",
+        "variant": null,
+        "level": 3,
+        "klass": "Wind_Mage",
+        "tags": [],
+        "bases": {
+            "CON": 4,
+            "MOV": 5,
+            "HP": 16,
+            "STR": 3,
+            "SKL": 5,
+            "SPD": 6,
+            "LCK": 5,
+            "DEF": 3,
+            "MAG": 5
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 15,
+            "SKL": 50,
+            "SPD": 50,
+            "LCK": 35,
+            "DEF": 15,
+            "MAG": 40
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Fire",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Wind": [
+                false,
+                2,
+                null
+            ],
+            "Fire": [
+                false,
+                1,
+                null
+            ],
+            "Thunder": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Lugh_1",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Damas",
+        "name": "Damas",
+        "desc": "The leader of the brigands roaming around Pherae.",
+        "variant": null,
+        "level": 1,
+        "klass": "Brigand",
+        "tags": [],
+        "bases": {
+            "HP": 28,
+            "STR": 9,
+            "SKL": 5,
+            "SPD": 6,
+            "LCK": 0,
+            "DEF": 4
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron_Axe",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                2,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Damas",
+        "affinity": null,
+        "fields": []
+    },
+    {
         "nid": "Beyard",
         "name": "Beyard",
         "desc": "A troop leader in Grado's army.",
