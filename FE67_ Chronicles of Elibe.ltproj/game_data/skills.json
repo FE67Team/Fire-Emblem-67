@@ -1510,8 +1510,8 @@
                 "unit.get_hp() <= (unit.get_max_hp()//2)"
             ],
             [
-                "crit",
-                100
+                "guaranteed_crit",
+                null
             ]
         ]
     },
@@ -1656,6 +1656,12 @@
             [
                 "proc_rate",
                 "SKILL_PROC"
+            ],
+            [
+                "nihil",
+                [
+                    "Nihil"
+                ]
             ]
         ]
     },
@@ -1994,10 +2000,10 @@
         "nid": "Sword_Proficiency",
         "name": "Sword Proficiency",
         "desc": "Unit has improved weapon rank with Swords.",
-        "icon_nid": "Sword",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            2
+            0
         ],
         "components": [
             [
@@ -2014,10 +2020,10 @@
         "nid": "Sword_Proficiency_visonly",
         "name": "Sword Proficiency",
         "desc": "Unit has improved weapon rank with Swords.",
-        "icon_nid": "Sword",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            2
+            0
         ],
         "components": [
             [
@@ -2030,10 +2036,10 @@
         "nid": "Lance_Proficiency",
         "name": "Lance Proficiency",
         "desc": "Unit has improved weapon rank with Lances.",
-        "icon_nid": "Lance",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -2050,10 +2056,10 @@
         "nid": "Lance_Proficiency_visonly",
         "name": "Lance Proficiency",
         "desc": "Unit has improved weapon rank with Lances.",
-        "icon_nid": "Lance",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -2066,10 +2072,10 @@
         "nid": "Axe_Proficiency",
         "name": "Axe Proficiency",
         "desc": "Unit has improved weapon rank with Axes.",
-        "icon_nid": "Axe",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
@@ -2086,10 +2092,10 @@
         "nid": "Axe_Proficiency_visonly",
         "name": "Axe Proficiency",
         "desc": "Unit has improved weapon rank with Axes.",
-        "icon_nid": "Axe",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
@@ -2102,10 +2108,10 @@
         "nid": "Bow_Proficiency",
         "name": "Bow Proficiency",
         "desc": "Unit has improved weapon rank with Bows.",
-        "icon_nid": "Bow",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            3
         ],
         "components": [
             [
@@ -2122,10 +2128,10 @@
         "nid": "Bow_Proficiency_visonly",
         "name": "Bow Proficiency",
         "desc": "Unit has improved weapon rank with Bows.",
-        "icon_nid": "Bow",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            3
         ],
         "components": [
             [
@@ -2138,10 +2144,10 @@
         "nid": "Fire_Proficiency",
         "name": "Fire Proficiency",
         "desc": "Unit has improved weapon rank with Fire magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
@@ -2158,10 +2164,10 @@
         "nid": "Fire_Proficiency_visonly",
         "name": "Fire Proficiency",
         "desc": "Unit has improved weapon rank with Fire magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
@@ -2174,10 +2180,10 @@
         "nid": "Thunder_Proficiency",
         "name": "Thunder Proficiency",
         "desc": "Unit has improved weapon rank with Thunder magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            1
+            0
         ],
         "components": [
             [
@@ -2194,10 +2200,10 @@
         "nid": "Thunder_Proficiency_visonly",
         "name": "Thunder Proficiency",
         "desc": "Unit has improved weapon rank with Thunder magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            1
+            0
         ],
         "components": [
             [
@@ -2210,10 +2216,10 @@
         "nid": "Wind_Proficiency",
         "name": "Wind Proficiency",
         "desc": "Unit has improved weapon rank with Wind magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            5
+            7
         ],
         "components": [
             [
@@ -2230,10 +2236,10 @@
         "nid": "Wind_Proficiency_visonly",
         "name": "Wind Proficiency",
         "desc": "Unit has improved weapon rank with Wind magic.",
-        "icon_nid": "Anima",
+        "icon_nid": "Affinity",
         "icon_index": [
             0,
-            5
+            7
         ],
         "components": [
             [
@@ -2246,10 +2252,10 @@
         "nid": "Light_Proficiency",
         "name": "Light Proficiency",
         "desc": "Unit has improved weapon rank with Light magic.",
-        "icon_nid": "Light",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            1
+            5
         ],
         "components": [
             [
@@ -2266,10 +2272,10 @@
         "nid": "Light_Proficiency_visonly",
         "name": "Light Proficiency",
         "desc": "Unit has improved weapon rank with Light magic.",
-        "icon_nid": "Light",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            1
+            5
         ],
         "components": [
             [
@@ -2282,10 +2288,10 @@
         "nid": "Dark_Proficiency",
         "name": "Dark Proficiency",
         "desc": "Unit has improved weapon rank with Dark magic.",
-        "icon_nid": "Dark",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            7
         ],
         "components": [
             [
@@ -2302,10 +2308,10 @@
         "nid": "Dark_Proficiency_visonly",
         "name": "Dark Proficiency",
         "desc": "Unit has improved weapon rank with Dark magic.",
-        "icon_nid": "Dark",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            0
+            7
         ],
         "components": [
             [
@@ -2318,10 +2324,10 @@
         "nid": "Staff_Proficiency",
         "name": "Staff Proficiency",
         "desc": "Unit has improved weapon rank with Staves.",
-        "icon_nid": "Staff",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            1
+            4
         ],
         "components": [
             [
@@ -2338,10 +2344,10 @@
         "nid": "Staff_Proficiency_visonly",
         "name": "Staff Proficiency",
         "desc": "Unit has improved weapon rank with Staves.",
-        "icon_nid": "Staff",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            1
+            4
         ],
         "components": [
             [
@@ -2718,6 +2724,38 @@
         ]
     },
     {
+        "nid": "Desert_Fox",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Acrobat' not in unit.skills"
+            ],
+            [
+                "multi_skill",
+                [
+                    "Desert_Fox_lightfoot",
+                    "Desert_Fox_armor",
+                    "Desert_Fox_heavycav",
+                    "Desert_Fox_lightcav",
+                    "Desert_Fox_regular",
+                    "Desert_Fox_bandit",
+                    "Desert_Fox_pirate"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Desert_Fox_lightfoot",
         "name": "Desert Fox",
         "desc": "Movement is unimpeded by Desert terrain.",
@@ -2732,8 +2770,16 @@
                 null
             ],
             [
+                "condition",
+                "'Light Foot' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "DFox LFoot"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -2752,8 +2798,16 @@
                 null
             ],
             [
+                "condition",
+                "'Armors' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "DFox Armor"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -2772,8 +2826,16 @@
                 null
             ],
             [
+                "condition",
+                "'Heavy Cav' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "DFox HCav"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -2792,48 +2854,16 @@
                 null
             ],
             [
+                "condition",
+                "'Light Cav' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "DFox LCav"
-            ]
-        ]
-    },
-    {
-        "nid": "Desert_Fox_regular",
-        "name": "Desert Fox",
-        "desc": "Movement is unimpeded by Desert terrain.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            1,
-            10
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
             ],
             [
-                "movement_type",
-                "DFox Regular"
-            ]
-        ]
-    },
-    {
-        "nid": "Desert_Fox_bandit",
-        "name": "Desert Fox",
-        "desc": "Movement is unimpeded by Desert terrain.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            1,
-            10
-        ],
-        "components": [
-            [
-                "class_skill",
+                "hidden",
                 null
-            ],
-            [
-                "movement_type",
-                "DFox Bandit"
             ]
         ]
     },
@@ -2852,8 +2882,72 @@
                 null
             ],
             [
+                "condition",
+                "'Pirate' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "DFox Pirate"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_regular",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Regular' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
+                "movement_type",
+                "DFox Regular"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_bandit",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Bandits' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
+                "movement_type",
+                "DFox Bandit"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -2962,6 +3056,30 @@
         ]
     },
     {
+        "nid": "Acrobat",
+        "name": "Acrobat",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "multi_skill",
+                [
+                    "Acrobat_land_locked",
+                    "Acrobat_with_rivers",
+                    "Acrobat_pirate"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Acrobat_land_locked",
         "name": "Acrobat land locked",
         "desc": "Movement treats all accesible terrain as if it were a plain.",
@@ -2976,8 +3094,16 @@
                 null
             ],
             [
+                "condition",
+                "'Armors', 'Heavy Cav', 'Light Cav', 'Regular' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "Acrobat (Land)"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -2996,8 +3122,16 @@
                 null
             ],
             [
+                "condition",
+                "'Light Foot', 'Bandit' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "Acrobat (+River)"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -3016,8 +3150,16 @@
                 null
             ],
             [
+                "condition",
+                "'Pirate' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "Acrobat (Pirate)"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -3079,7 +3221,7 @@
         ]
     },
     {
-        "nid": "Paragon_1",
+        "nid": "Paragon",
         "name": "Paragon",
         "desc": "Doubles EXP until level 15.{br}1.2x EXP for all levels afterward.",
         "icon_nid": "Skills",
@@ -3093,12 +3235,35 @@
                 null
             ],
             [
+                "multi_skill",
+                [
+                    "Paragon_1",
+                    "Paragon_2"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Paragon_1",
+        "name": "Paragon",
+        "desc": "Doubles EXP until level 15.{br}1.2x EXP for all levels afterward.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
                 "condition",
                 "unit.level < 15"
             ],
             [
                 "enemy_exp_multiplier",
                 2.0
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -3113,16 +3278,16 @@
         ],
         "components": [
             [
-                "hidden",
-                null
-            ],
-            [
                 "condition",
                 "unit.level >= 15"
             ],
             [
                 "enemy_exp_multiplier",
                 1.2
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
