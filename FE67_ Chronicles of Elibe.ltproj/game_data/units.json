@@ -921,6 +921,11 @@
                 false,
                 4,
                 null
+            ],
+            "": [
+                false,
+                4,
+                null
             ]
         },
         "alternate_classes": [],
@@ -4256,6 +4261,11 @@
                 false,
                 6,
                 null
+            ],
+            "": [
+                false,
+                6,
+                null
             ]
         },
         "alternate_classes": [],
@@ -5276,6 +5286,11 @@
                 false,
                 4,
                 null
+            ],
+            "": [
+                false,
+                4,
+                null
             ]
         },
         "alternate_classes": [],
@@ -6281,6 +6296,11 @@
                 false,
                 8,
                 null
+            ],
+            "": [
+                false,
+                8,
+                null
             ]
         },
         "alternate_classes": [],
@@ -6895,6 +6915,11 @@
                 false,
                 1,
                 null
+            ],
+            "": [
+                false,
+                4,
+                null
             ]
         },
         "alternate_classes": [],
@@ -7248,7 +7273,7 @@
             ],
             "Thunder": [
                 false,
-                2,
+                6,
                 null
             ],
             "Wind_1": [
@@ -7258,7 +7283,12 @@
             ],
             "Wind": [
                 false,
-                2,
+                4,
+                null
+            ],
+            "": [
+                false,
+                4,
                 null
             ]
         },
@@ -7695,12 +7725,17 @@
             ],
             "Wind": [
                 false,
-                3,
+                6,
                 null
             ],
             "Thunder": [
                 false,
-                3,
+                9,
+                null
+            ],
+            "": [
+                false,
+                6,
                 null
             ]
         },
@@ -8141,7 +8176,7 @@
             ],
             "Thunder": [
                 false,
-                4,
+                12,
                 null
             ],
             "Wind_1": [
@@ -8151,7 +8186,12 @@
             ],
             "Wind": [
                 false,
-                4,
+                8,
+                null
+            ],
+            "": [
+                false,
+                8,
                 null
             ]
         },

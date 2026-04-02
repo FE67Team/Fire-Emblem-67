@@ -1016,10 +1016,10 @@
         "nid": "Charm",
         "name": "Charm",
         "desc": "Grants +10 Hit/Avoid to allies with in 3 tiles.",
-        "icon_nid": "Skills",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            10,
-            4
+            7,
+            0
         ],
         "components": [
             [
@@ -1044,10 +1044,10 @@
         "nid": "Charm_child",
         "name": "Charm child",
         "desc": " Grants +10 Hit/Avoid",
-        "icon_nid": "Skills",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            10,
-            4
+            7,
+            0
         ],
         "components": [
             [
@@ -1064,10 +1064,10 @@
         "nid": "Inspiration",
         "name": "Inspiration",
         "desc": "Grants +1 damage and +1 resist to allies with in 3 tiles.",
-        "icon_nid": "Skills",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            10,
-            4
+            1,
+            42
         ],
         "components": [
             [
@@ -1092,10 +1092,10 @@
         "nid": "Inspiration_child",
         "name": "Inspired",
         "desc": "Grants +1 damage and +1 resist.",
-        "icon_nid": "Skills",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            10,
-            4
+            1,
+            42
         ],
         "components": [
             [
@@ -1352,10 +1352,10 @@
         "nid": "Adept",
         "name": "Adept",
         "desc": "(Attack Speed + 20)% chance to strike twice consecutively.",
-        "icon_nid": "Skills",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            8,
-            1
+            5,
+            0
         ],
         "components": [
             [
@@ -1460,10 +1460,10 @@
         "nid": "Accost",
         "name": "Accost",
         "desc": "Chance to initiate another round of combat.",
-        "icon_nid": "Skills",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            7,
-            7
+            6,
+            0
         ],
         "components": [
             [
@@ -1494,10 +1494,10 @@
         "nid": "Accost_Proc",
         "name": "Accost",
         "desc": "Tells the game to run the event that initiates another round of combat. Does nothing else.",
-        "icon_nid": "Skills",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            7,
-            7
+            6,
+            0
         ],
         "components": []
     },
@@ -1573,10 +1573,10 @@
         "nid": "Nihil",
         "name": "Nihil",
         "desc": "Negates Luna, Sol, Astra, and critical hits.",
-        "icon_nid": "Skills",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            8,
-            8
+            1,
+            0
         ],
         "components": [
             [
@@ -1593,10 +1593,10 @@
         "nid": "Pursuit",
         "name": "Pursuit",
         "desc": "Allows the user to make follow-up attacks.",
-        "icon_nid": "Skills",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            3,
-            1
+            4,
+            0
         ],
         "components": [
             [
@@ -1755,10 +1755,10 @@
         "nid": "Bargain",
         "name": "Bargain",
         "desc": "Reduces cost of items by half.",
-        "icon_nid": "Skills",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            7,
-            10
+            0,
+            0
         ],
         "components": [
             [
@@ -2390,10 +2390,10 @@
         "nid": "Knight_Instructor",
         "name": "Knight Instructor",
         "desc": "Gives flightless Cavalry within 3 tiles +10 Hit/Avoid +1 ATK.",
-        "icon_nid": "Skills",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            1,
-            7
+            7,
+            42
         ],
         "components": [
             [
@@ -2418,10 +2418,10 @@
         "nid": "Knight_Instructor_buff",
         "name": "Knight Instructor",
         "desc": "+10 Hit/Avoid, +1 ATK.\nTerrain Skill makes this unable to affect fliers.",
-        "icon_nid": "Skills",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            1,
-            7
+            7,
+            42
         ],
         "components": [
             [
@@ -3009,10 +3009,10 @@
         "nid": "Wary_Fighter",
         "name": "Wary Fighter",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            1,
-            8
+            4,
+            32
         ],
         "components": [
             [
@@ -3025,10 +3025,10 @@
         "nid": "Critical_Force",
         "name": "Critical Force",
         "desc": "Add Skill*2 to Crit.",
-        "icon_nid": "Skills",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            10,
-            8
+            3,
+            0
         ],
         "components": [
             [
@@ -3045,10 +3045,10 @@
         "nid": "Critical_Meh",
         "name": "Critical",
         "desc": "Add Skill to Crit.",
-        "icon_nid": "Skills",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            10,
-            8
+            2,
+            0
         ],
         "components": [
             [
@@ -3069,10 +3069,10 @@
         "nid": "Heavy_Strikes",
         "name": "Heavy Strikes",
         "desc": "Adds your Weapon's Weight to your Crit.",
-        "icon_nid": "Skills",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            10,
-            5
+            7,
+            45
         ],
         "components": [
             [

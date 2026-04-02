@@ -409,7 +409,7 @@
                 "defense_speed": "0"
             },
             {
-                "weapon_type": "Wind",
+                "weapon_type": "Thunder",
                 "weapon_rank": "All",
                 "damage": 0,
                 "resist": 0,
@@ -421,7 +421,7 @@
                 "defense_speed": 0
             },
             {
-                "weapon_type": "Thunder",
+                "weapon_type": "Wind",
                 "weapon_rank": "All",
                 "damage": 0,
                 "resist": 0,
@@ -497,7 +497,7 @@
                 "defense_speed": "0"
             },
             {
-                "weapon_type": "Wind",
+                "weapon_type": "Thunder",
                 "weapon_rank": "All",
                 "damage": 0,
                 "resist": 0,
@@ -509,7 +509,7 @@
                 "defense_speed": 0
             },
             {
-                "weapon_type": "Thunder",
+                "weapon_type": "Wind",
                 "weapon_rank": "All",
                 "damage": 0,
                 "resist": 0,
@@ -599,7 +599,7 @@
                 "defense_speed": "0"
             },
             {
-                "weapon_type": "Wind",
+                "weapon_type": "Thunder",
                 "weapon_rank": "All",
                 "damage": 0,
                 "resist": 0,
@@ -625,7 +625,7 @@
                 "defense_speed": "0"
             },
             {
-                "weapon_type": "Thunder",
+                "weapon_type": "Wind",
                 "weapon_rank": "All",
                 "damage": 0,
                 "resist": 0,
@@ -641,108 +641,6 @@
         "icon_index": [
             0,
             4
-        ]
-    },
-    {
-        "nid": "Wind",
-        "name": "Wind",
-        "force_melee_anim": false,
-        "hide_from_display": false,
-        "hide_from_convoy": false,
-        "rank_bonus": [
-            {
-                "weapon_type": "Sword",
-                "weapon_rank": "B",
-                "damage": 0,
-                "resist": 0,
-                "accuracy": 5,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            },
-            {
-                "weapon_type": "Sword",
-                "weapon_rank": "A",
-                "damage": 0,
-                "resist": 0,
-                "accuracy": 10,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            },
-            {
-                "weapon_type": "Sword",
-                "weapon_rank": "S",
-                "damage": 0,
-                "resist": 0,
-                "accuracy": 15,
-                "avoid": 0,
-                "crit": 5,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            }
-        ],
-        "advantage": [
-            {
-                "weapon_type": "Light",
-                "weapon_rank": "All",
-                "damage": 0,
-                "resist": "0",
-                "accuracy": 20,
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
-            },
-            {
-                "weapon_type": "Thunder",
-                "weapon_rank": "All",
-                "damage": 0,
-                "resist": 0,
-                "accuracy": 20,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            }
-        ],
-        "disadvantage": [
-            {
-                "weapon_type": "Dark",
-                "weapon_rank": "All",
-                "damage": 0,
-                "resist": "0",
-                "accuracy": -20,
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
-            },
-            {
-                "weapon_type": "Fire",
-                "weapon_rank": "All",
-                "damage": 0,
-                "resist": 0,
-                "accuracy": -20,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            }
-        ],
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            0
         ]
     },
     {
@@ -803,6 +701,108 @@
                 "defense_speed": "0"
             },
             {
+                "weapon_type": "Wind",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Dark",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": "0",
+                "accuracy": -20,
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            },
+            {
+                "weapon_type": "Fire",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": -20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wind",
+        "name": "Wind",
+        "force_melee_anim": false,
+        "hide_from_display": false,
+        "hide_from_convoy": false,
+        "rank_bonus": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "B",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 5,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "A",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 10,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "S",
+                "damage": 0,
+                "resist": 0,
+                "accuracy": 15,
+                "avoid": 0,
+                "crit": 5,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "advantage": [
+            {
+                "weapon_type": "Light",
+                "weapon_rank": "All",
+                "damage": 0,
+                "resist": "0",
+                "accuracy": 20,
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            },
+            {
                 "weapon_type": "Fire",
                 "weapon_rank": "All",
                 "damage": 0,
@@ -829,7 +829,7 @@
                 "defense_speed": "0"
             },
             {
-                "weapon_type": "Wind",
+                "weapon_type": "Thunder",
                 "weapon_rank": "All",
                 "damage": 0,
                 "resist": 0,
