@@ -916,6 +916,11 @@
                 false,
                 3,
                 null
+            ],
+            "Wind_1": [
+                false,
+                4,
+                null
             ]
         },
         "alternate_classes": [],
@@ -2815,7 +2820,7 @@
         "nid": "Lucius",
         "name": "Lucius",
         "desc": "A travelling acolyte. Gentle and serene.",
-        "variant": null,
+        "variant": "",
         "level": 3,
         "klass": "Monk",
         "tags": [
@@ -4246,6 +4251,11 @@
                 false,
                 4,
                 null
+            ],
+            "Wind_1": [
+                false,
+                6,
+                null
             ]
         },
         "alternate_classes": [],
@@ -5261,6 +5271,11 @@
                 false,
                 1,
                 null
+            ],
+            "Wind_1": [
+                false,
+                4,
+                null
             ]
         },
         "alternate_classes": [],
@@ -6261,6 +6276,11 @@
                 false,
                 4,
                 null
+            ],
+            "Wind_1": [
+                false,
+                8,
+                null
             ]
         },
         "alternate_classes": [],
@@ -6853,7 +6873,7 @@
         "wexp_gain": {
             "Wind": [
                 false,
-                1,
+                3,
                 null
             ],
             "Fire": [
@@ -6863,18 +6883,23 @@
             ],
             "Thunder": [
                 false,
-                0,
+                1,
                 null
             ],
             "Dark": [
                 false,
-                3,
+                0,
+                null
+            ],
+            "Wind_1": [
+                false,
+                1,
                 null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "Lugh_1",
-        "affinity": null,
+        "affinity": "None",
         "fields": []
     },
     {
@@ -7222,6 +7247,16 @@
                 251
             ],
             "Thunder": [
+                false,
+                2,
+                null
+            ],
+            "Wind_1": [
+                false,
+                2,
+                null
+            ],
+            "Wind": [
                 false,
                 2,
                 null
@@ -7659,6 +7694,11 @@
                 null
             ],
             "Wind": [
+                false,
+                3,
+                null
+            ],
+            "Thunder": [
                 false,
                 3,
                 null
@@ -8100,6 +8140,16 @@
                 251
             ],
             "Thunder": [
+                false,
+                4,
+                null
+            ],
+            "Wind_1": [
+                false,
+                4,
+                null
+            ],
+            "Wind": [
                 false,
                 4,
                 null

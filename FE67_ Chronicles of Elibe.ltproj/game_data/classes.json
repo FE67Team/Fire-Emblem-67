@@ -122,6 +122,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -264,6 +269,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -410,6 +420,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -551,6 +566,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -696,6 +716,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -814,6 +839,11 @@
                 false,
                 0,
                 null
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -927,6 +957,11 @@
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind_1": [
                 false,
                 0,
                 null
@@ -1049,6 +1084,11 @@
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind_1": [
                 false,
                 0,
                 null
@@ -1182,6 +1222,11 @@
                 false,
                 0,
                 null
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -1298,6 +1343,11 @@
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind_1": [
                 false,
                 0,
                 null
@@ -1427,6 +1477,11 @@
                 false,
                 0,
                 null
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -1532,6 +1587,11 @@
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind_1": [
                 false,
                 0,
                 null
@@ -1657,6 +1717,11 @@
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind_1": [
                 false,
                 0,
                 null
@@ -1799,6 +1864,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -1911,6 +1981,11 @@
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind_1": [
                 false,
                 0,
                 null
@@ -2038,6 +2113,11 @@
                 false,
                 0,
                 null
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -2126,6 +2206,11 @@
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind_1": [
                 false,
                 0,
                 null
@@ -2275,6 +2360,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Myrmidon",
@@ -2422,6 +2512,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Swordmaster",
@@ -2568,6 +2663,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Mercenary",
@@ -2711,6 +2811,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Vanguard",
@@ -2857,6 +2962,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Thief",
@@ -3004,6 +3114,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Assassin",
@@ -3133,20 +3248,25 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Assassin",
@@ -3290,6 +3410,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -3427,6 +3552,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Soldier",
@@ -3574,6 +3704,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Cavalier",
@@ -3721,6 +3856,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Cavalier",
@@ -3868,6 +4008,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Cavalier",
@@ -4015,6 +4160,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Cavalier",
@@ -4159,6 +4309,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Paladin",
@@ -4304,6 +4459,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Great_Knight",
@@ -4451,6 +4611,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Pegasus_Knight",
@@ -4595,6 +4760,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Falcoknight",
@@ -4737,6 +4907,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Knight",
@@ -4879,6 +5054,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Knight",
@@ -5021,6 +5201,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Knight",
@@ -5164,6 +5349,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_General",
@@ -5307,6 +5497,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -5447,6 +5642,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Fighter",
@@ -5584,6 +5784,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Warrior",
@@ -5723,6 +5928,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Pirate",
@@ -5864,6 +6074,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Berserker",
@@ -6003,6 +6218,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Brigand",
@@ -6143,6 +6363,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Archer",
@@ -6284,6 +6509,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Sniper",
@@ -6424,6 +6654,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Archer",
@@ -6568,6 +6803,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Ranger",
@@ -6712,6 +6952,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Ranger",
@@ -6838,20 +7083,25 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Monk",
@@ -6976,20 +7226,25 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Cleric",
@@ -7117,20 +7372,25 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Bishop",
@@ -7260,12 +7520,12 @@
                 1,
                 null
             ],
-            "Wind": [
+            "Thunder": [
                 true,
                 1,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 true,
                 1,
                 null
@@ -7273,6 +7533,11 @@
             "Default": [
                 false,
                 0,
+                null
+            ],
+            "Wind_1": [
+                true,
+                2,
                 null
             ]
         },
@@ -7400,20 +7665,25 @@
                 2,
                 null
             ],
-            "Wind": [
-                true,
-                1,
-                4
-            ],
             "Thunder": [
                 true,
                 1,
                 null
             ],
+            "Wind": [
+                true,
+                1,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                true,
+                2,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Mage (1)",
@@ -7540,20 +7810,25 @@
                 1,
                 null
             ],
-            "Wind": [
-                true,
-                1,
-                4
-            ],
             "Thunder": [
                 true,
                 2,
                 null
             ],
+            "Wind": [
+                true,
+                1,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                true,
+                3,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Mage (1)",
@@ -7680,20 +7955,25 @@
                 1,
                 null
             ],
-            "Wind": [
-                true,
-                2,
-                4
-            ],
             "Thunder": [
                 true,
                 1,
                 null
             ],
+            "Wind": [
+                true,
+                2,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                true,
+                3,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Mage (1)",
@@ -7817,20 +8097,25 @@
                 1,
                 null
             ],
-            "Wind": [
-                true,
-                1,
-                4
-            ],
             "Thunder": [
                 true,
                 1,
                 null
             ],
+            "Wind": [
+                true,
+                1,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                true,
+                2,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Sage",
@@ -7957,20 +8242,25 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Shaman",
@@ -8094,17 +8384,22 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                null
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind_1": [
                 false,
                 0,
                 null
@@ -8235,17 +8530,22 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                null
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind_1": [
                 false,
                 0,
                 null
@@ -8378,20 +8678,25 @@
                 1,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 true,
                 1,
                 null
             ],
+            "Wind": [
+                true,
+                1,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                true,
+                1,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Mage_Knight",
@@ -8521,20 +8826,25 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Troubadour",
@@ -8665,20 +8975,25 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Valkyrie",
@@ -8827,6 +9142,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Wyvern_Rider",
@@ -8972,6 +9292,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Wyvern_Lord",
@@ -9121,6 +9446,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Wyvern Knight (U) Lance {IS}",
@@ -9260,6 +9590,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -9397,6 +9732,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Revenant",
@@ -9532,6 +9872,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Entombed",
@@ -9669,6 +10014,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -9804,6 +10154,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Wight",
@@ -9941,6 +10296,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Bonewalker",
@@ -10076,6 +10436,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Sword_Wight",
@@ -10214,6 +10579,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Mogall",
@@ -10350,6 +10720,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Arch_Mogall",
@@ -10493,6 +10868,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -10637,6 +11017,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -10781,6 +11166,11 @@
                 false,
                 0,
                 4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -10917,6 +11307,11 @@
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Wind_1": [
                 false,
                 0,
                 null
