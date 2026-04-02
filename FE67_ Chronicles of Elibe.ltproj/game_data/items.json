@@ -1174,6 +1174,10 @@
                 }
             ],
             [
+                "value",
+                8000
+            ],
+            [
                 "level_exp",
                 null
             ],
@@ -1204,6 +1208,100 @@
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 14,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Mani_Katti",
+        "name": "Mani Katti",
+        "desc": "Lyn Only, effective against horseback and armoured units",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                3
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                8000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Lyn"
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Horse",
+                        "Armor"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -1297,6 +1395,88 @@
             [
                 "warning",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "Wo_Dao",
+        "name": "Wo Dao",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "prf_class",
+                [
+                    "Myrmidon",
+                    "Swordmaster"
+                ]
             ]
         ]
     },
@@ -1467,6 +1647,156 @@
             [
                 "lifelink",
                 1.0
+            ]
+        ]
+    },
+    {
+        "nid": "Flame_Sword",
+        "name": "Flame Sword",
+        "desc": "Uses MAG to determine damage.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                320
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ]
+        ]
+    },
+    {
+        "nid": "Bolt_Sword",
+        "name": "Bolt Sword",
+        "desc": "Uses MAG to determine damage.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                320
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
             ]
         ]
     },
@@ -1663,7 +1993,7 @@
     {
         "nid": "Audhulma",
         "name": "Audhulma",
-        "desc": "Resistance +5. Effective against monsters",
+        "desc": "Magic +5. Effective against monsters",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1735,7 +2065,7 @@
             ],
             [
                 "status_on_equip",
-                "Resistance_Plus5"
+                "Magic_Plus5"
             ],
             [
                 "effective_damage",
@@ -1748,6 +2078,354 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ]
+        ]
+    },
+    {
+        "nid": "Regal_Blade",
+        "name": "Regal blade",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ]
+        ]
+    },
+    {
+        "nid": "Sol_Katti",
+        "name": "Sol Katti",
+        "desc": "Magic +5.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "status_on_equip",
+                "Magic_Plus5"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Lyn"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Durandal",
+        "name": "Durandal",
+        "desc": "Strength +5. Effective against monsters",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                17
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "status_on_equip",
+                "Strength_Plus5"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Dragonblood"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Binding_Blade",
+        "name": "Binding Blade",
+        "desc": "Bestows bonuses of +5 Def and +5 Mag upon its wielder. May be used as a consumable item in order to restore 30 HP.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Dragonblood"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "Defense_Plus5",
+                    "Magic_Plus5",
+                    "Binding_Blade_Heal"
+                ]
             ]
         ]
     },
@@ -3140,6 +3818,173 @@
         ]
     },
     {
+        "nid": "Rex_Hasta",
+        "name": "Rex Hasta",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                21
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ]
+        ]
+    },
+    {
+        "nid": "Maltet",
+        "name": "Maltet",
+        "desc": "Skill +5. Effective against monsters",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                16
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                11
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "status_on_equip",
+                "Skill_Plus5"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Dragonblood"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
         "nid": "Iron_Axe",
         "name": "Iron Axe",
         "desc": "",
@@ -3440,6 +4285,100 @@
             [
                 "status_on_hit",
                 "Poisoned"
+            ]
+        ]
+    },
+    {
+        "nid": "Wolf_Bail",
+        "name": "Wolf Bail",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                8000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Hector"
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Horse",
+                        "Armor"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -4515,6 +5454,173 @@
         ]
     },
     {
+        "nid": "Basilikos",
+        "name": "Basilikos",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                22
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ]
+        ]
+    },
+    {
+        "nid": "Armads",
+        "name": "Armads",
+        "desc": "Defence +5. Effective against monsters",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                13
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "status_on_equip",
+                "Defense_Plus5"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Dragonblood"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
         "nid": "Iron_Bow",
         "name": "Iron Bow",
         "desc": "",
@@ -5308,6 +6414,186 @@
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 36,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Rienfleche",
+        "name": "Rienfleche",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Mulagir",
+        "name": "Mulagir",
+        "desc": "Speed +5. Effective against monsters",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                16
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "status_on_equip",
+                "Speed_Plus5"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Dragonblood",
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -7002,7 +8288,7 @@
     {
         "nid": "Latona",
         "name": "Latona",
-        "desc": "Restores HP and condition of all allied units",
+        "desc": "Restores HP and condition of all allied units.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -7039,6 +8325,73 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "exp",
+                10
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "restore",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Saints_Staff",
+        "name": "Saint's Staff",
+        "desc": "Restores HP and condition of all allied units.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "all_allies_except_self_aoe",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "heal",
+                99
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
             ],
             [
                 "exp",
@@ -7601,6 +8954,197 @@
         ]
     },
     {
+        "nid": "Luce",
+        "name": "Luce",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                16
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                16
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Aureola",
+        "name": "Aureola",
+        "desc": "Magic +5. Effective against monsters",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Magic_Plus5"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Dragonblood"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
         "nid": "Fire",
         "name": "Fire",
         "desc": "",
@@ -7632,11 +9176,11 @@
             ],
             [
                 "damage",
-                5
+                6
             ],
             [
                 "hit",
-                90
+                85
             ],
             [
                 "crit",
@@ -7644,7 +9188,7 @@
             ],
             [
                 "weight",
-                4
+                6
             ],
             [
                 "uses",
@@ -7688,8 +9232,8 @@
         ]
     },
     {
-        "nid": "Thunder",
-        "name": "Thunder",
+        "nid": "Elfire",
+        "name": "Elfire",
         "desc": "",
         "icon_nid": "Anima",
         "icon_index": [
@@ -7719,7 +9263,7 @@
             ],
             [
                 "damage",
-                8
+                10
             ],
             [
                 "hit",
@@ -7731,94 +9275,7 @@
             ],
             [
                 "weight",
-                6
-            ],
-            [
-                "uses",
-                50
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                3000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Thunder"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    251,
-                    255,
-                    0
-                ]
-            ]
-        ]
-    },
-    {
-        "nid": "Elfire",
-        "name": "Elfire",
-        "desc": "",
-        "icon_nid": "Anima",
-        "icon_index": [
-            0,
-            2
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "damage",
-                10
-            ],
-            [
-                "hit",
-                85
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                10
+                8
             ],
             [
                 "uses",
@@ -7862,13 +9319,552 @@
         ]
     },
     {
-        "nid": "Bolting",
-        "name": "Bolting",
+        "nid": "Bolganone",
+        "name": "Bolganone",
         "desc": "",
         "icon_nid": "Anima",
         "icon_index": [
             0,
             3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    224,
+                    96,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Meteor",
+        "name": "Meteor",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                55
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                30000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    224,
+                    96,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Forblaze",
+        "name": "Forblaze",
+        "desc": "Luck +5. Effective against monsters",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Fire"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    224,
+                    96,
+                    0
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Luck_Plus5"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Dragonblood"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Thunder",
+        "name": "Thunder",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Thunder"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    251,
+                    255,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Elthunder",
+        "name": "Elthunder",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            1,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                6
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Thunder"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    251,
+                    255,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Thoron",
+        "name": "Thoron",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                12
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                12000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Thunder"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    251,
+                    255,
+                    0
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Bolting",
+        "name": "Bolting",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            1,
+            2
         ],
         "components": [
             [
@@ -7905,7 +9901,7 @@
             ],
             [
                 "weight",
-                20
+                18
             ],
             [
                 "uses",
@@ -7949,12 +9945,12 @@
         ]
     },
     {
-        "nid": "Fimbulvetr",
-        "name": "Fimbulvetr",
-        "desc": "",
+        "nid": "Rexbolt",
+        "name": "Rexbolt",
+        "desc": "Skill +5. Effective against monsters",
         "icon_nid": "Anima",
         "icon_index": [
-            0,
+            1,
             4
         ],
         "components": [
@@ -7980,11 +9976,11 @@
             ],
             [
                 "damage",
-                13
+                18
             ],
             [
                 "hit",
-                80
+                85
             ],
             [
                 "crit",
@@ -7992,7 +9988,285 @@
             ],
             [
                 "weight",
-                12
+                10
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Thunder"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    251,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Skill_Plus5"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Dragonblood"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Wind",
+        "name": "Wind",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                2
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                3000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Wind"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    104,
+                    248,
+                    184
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Elwind",
+        "name": "Elwind",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            2,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Wind"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    104,
+                    248,
+                    184
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Fimbulvetr",
+        "name": "Fimbulvetr",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                6
             ],
             [
                 "uses",
@@ -8036,13 +10310,100 @@
         ]
     },
     {
+        "nid": "Blizzard",
+        "name": "Blizzard",
+        "desc": "",
+        "icon_nid": "Anima",
+        "icon_index": [
+            2,
+            2
+        ],
+        "components": [
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                16
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                30000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Wind"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    104,
+                    248,
+                    184
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Excalibur",
         "name": "Excalibur",
         "desc": "Speed +5. Effective against monsters",
         "icon_nid": "Anima",
         "icon_index": [
-            0,
-            5
+            2,
+            4
         ],
         "components": [
             [
@@ -8067,7 +10428,7 @@
             ],
             [
                 "damage",
-                18
+                16
             ],
             [
                 "hit",
@@ -8079,7 +10440,7 @@
             ],
             [
                 "weight",
-                13
+                8
             ],
             [
                 "uses",
@@ -8120,7 +10481,8 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Monster"
+                        "Monster",
+                        "Dragonblood"
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 36,
@@ -8721,6 +11083,284 @@
             [
                 "weight",
                 18
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    72,
+                    0,
+                    65
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Gespenst",
+        "name": "Gespenst",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                23
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    72,
+                    0,
+                    65
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Apocalypse",
+        "name": "Apocalypse",
+        "desc": "Magic +5. Effective against monsters",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                18
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "status_on_equip",
+                "Magic_Plus5"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Dragonblood"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    72,
+                    0,
+                    65
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Ereshkigal",
+        "name": "Ereshkigal",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                12
             ],
             [
                 "uses",
@@ -11411,7 +14051,7 @@
             ],
             [
                 "weapon_type",
-                "Wind"
+                "Thunder"
             ],
             [
                 "weapon_rank",
@@ -11502,7 +14142,7 @@
         "components": [
             [
                 "weapon_triangle_override",
-                "Wind"
+                "Thunder"
             ]
         ]
     },
@@ -11962,7 +14602,7 @@
             ],
             [
                 "weapon_type",
-                "Thunder"
+                "Wind"
             ],
             [
                 "locked",
@@ -12018,7 +14658,7 @@
             ],
             [
                 "weapon_type",
-                "Wind"
+                "Thunder"
             ],
             [
                 "locked",
@@ -12171,6 +14811,30 @@
             [
                 "map_cast_sfx",
                 "Dance2"
+            ]
+        ]
+    },
+    {
+        "nid": "Binding_Blade_Ability",
+        "name": "Binding Blade Ability",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "heal",
+                30
             ]
         ]
     }

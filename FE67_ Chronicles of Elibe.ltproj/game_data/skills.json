@@ -283,15 +283,25 @@
         ]
     },
     {
-        "nid": "Resistance_Plus5",
-        "name": "Resistance +5",
-        "desc": "Grants RES +5. We don't have a separate RES stat though so I have no idea what this will do now.",
+        "nid": "Magic_Plus5",
+        "name": "Magic +5",
+        "desc": "Grants MAG +5. We don't have a separate RES stat though so I have no idea what this will do now.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
             9
         ],
-        "components": []
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        5
+                    ]
+                ]
+            ]
+        ]
     },
     {
         "nid": "Defense_Plus5",
@@ -1856,6 +1866,26 @@
         ]
     },
     {
+        "nid": "Binding_Blade_Heal",
+        "name": "Binding Blade Heal",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "ability",
+                "Binding_Blade_Ability"
+            ]
+        ]
+    },
+    {
         "nid": "LightOverride",
         "name": "LightOverride",
         "desc": "(Allows Light Brand to count as Light magic at range.)",
@@ -3340,6 +3370,10 @@
             [
                 "eval_crit",
                 "unit.stats['SKL']"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
