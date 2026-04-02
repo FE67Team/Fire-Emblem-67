@@ -137,7 +137,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    53,
+                    52,
                     5
                 ],
                 "starting_traveler": null,
@@ -884,12 +884,7 @@
                 }
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "test",
@@ -900,7 +895,7 @@
         "music": {
             "player_phase": "Quiet Burn",
             "enemy_phase": "Shadow of the Enemy",
-            "enemy_battle": null,
+            "enemy_battle": "Shadow of the Enemy",
             "player_battle": "Attack"
         },
         "objective": {
@@ -1843,6 +1838,10 @@
                     [
                         "Iron_Axe",
                         false
+                    ],
+                    [
+                        "Hand_Axe",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -2080,6 +2079,83 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Accost",
+                    "Barricade"
+                ],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 10,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Slim_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Miracle_FE4"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "Cleric",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Mend",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -2142,7 +2218,12 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "1",

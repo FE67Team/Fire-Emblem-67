@@ -7,7 +7,8 @@
         "level": 4,
         "klass": "Lyn_Lord",
         "tags": [
-            "Lord"
+            "Lord",
+            "Female"
         ],
         "bases": {
             "HP": 18,
@@ -48,11 +49,24 @@
                 false
             ],
             [
-                "Rapier",
+                "Iron_Sword",
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Law_of_Sacae"
+            ],
+            [
+                1,
+                "Astra"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -113,7 +127,9 @@
         "variant": "",
         "level": 4,
         "klass": "Lance_Knight",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 22,
             "STR": 9,
@@ -153,7 +169,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Showoff"
+            ],
+            [
+                1,
+                "Critical_Meh"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -214,7 +239,9 @@
         "variant": "",
         "level": 5,
         "klass": "Sword_Knight",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 23,
             "STR": 8,
@@ -254,7 +281,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Guardian"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -315,7 +351,9 @@
         "variant": "",
         "level": 4,
         "klass": "Archer",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 21,
             "STR": 6,
@@ -355,7 +393,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical_Meh"
+            ],
+            [
+                1,
+                "Adept"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -416,7 +463,9 @@
         "variant": "",
         "level": 3,
         "klass": "Fighter",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 30,
             "STR": 7,
@@ -456,7 +505,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Vantage"
+            ],
+            [
+                1,
+                "Critical_Meh"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -517,7 +575,9 @@
         "variant": "",
         "level": 3,
         "klass": "Pegasus_Knight",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 18,
             "STR": 6,
@@ -557,7 +617,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Air_Superiority"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -618,7 +687,9 @@
         "variant": "",
         "level": 9,
         "klass": "Nomad",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 27,
             "STR": 9,
@@ -658,7 +729,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Law_of_Sacae"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -715,11 +795,13 @@
     {
         "nid": "Erk",
         "name": "Erk",
-        "desc": "A young mage from Etruria. CHarming, but uptight.",
+        "desc": "A young mage from Etruria. Charming, but uptight.",
         "variant": null,
         "level": 1,
         "klass": "Thunder_Mage",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 17,
             "STR": 2,
@@ -763,7 +845,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Adept"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -839,7 +930,9 @@
         "variant": null,
         "level": 12,
         "klass": "Axe_Armor",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 30,
             "STR": 13,
@@ -879,7 +972,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Barricade"
+            ],
+            [
+                1,
+                "Vantage"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -940,7 +1042,9 @@
         "variant": null,
         "level": 1,
         "klass": "Paladin",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 30,
             "STR": 10,
@@ -1045,7 +1149,9 @@
         "variant": null,
         "level": 1,
         "klass": "Bard_Nils",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 14,
             "STR": 0,
@@ -1089,7 +1195,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Dragonblood"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1151,7 +1262,8 @@
         "level": 1,
         "klass": "Eliwood_Lord",
         "tags": [
-            "Lord"
+            "Lord",
+            "Male"
         ],
         "bases": {
             "HP": 18,
@@ -1192,7 +1304,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Nihil"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1253,7 +1374,9 @@
         "variant": "",
         "level": 1,
         "klass": "Paladin",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 32,
             "STR": 9,
@@ -1301,7 +1424,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Knight_Instructor"
+            ],
+            [
+                1,
+                "Miracle"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1362,7 +1494,9 @@
         "variant": null,
         "level": 2,
         "klass": "Knight_Axe",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 23,
             "STR": 7,
@@ -1402,7 +1536,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Renewal"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1463,7 +1602,9 @@
         "variant": "",
         "level": 1,
         "klass": "Archer",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 17,
             "STR": 4,
@@ -1503,7 +1644,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Acrobat_land_locked"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1564,7 +1714,9 @@
         "variant": "Female",
         "level": 2,
         "klass": "Fighter",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 29,
             "STR": 9,
@@ -1608,7 +1760,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Wrath"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1670,7 +1827,8 @@
         "level": 1,
         "klass": "Hector_Lord",
         "tags": [
-            "Lord"
+            "Lord",
+            "Male"
         ],
         "bases": {
             "HP": 19,
@@ -1711,7 +1869,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Provoke"
+            ],
+            [
+                1,
+                "Barricade"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1772,7 +1939,9 @@
         "variant": "",
         "level": 9,
         "klass": "Lance_Armor",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 28,
             "STR": 13,
@@ -1816,7 +1985,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Armored_March"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1877,7 +2051,9 @@
         "variant": "Female",
         "level": 1,
         "klass": "Cleric",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 17,
             "STR": 2,
@@ -1917,7 +2093,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Grating_Personality"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1978,7 +2159,9 @@
         "variant": "Female",
         "level": 2,
         "klass": "Thief",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -2022,7 +2205,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Steal"
+            ],
+            [
+                1,
+                "Pursuit"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2083,7 +2275,9 @@
         "variant": "",
         "level": 3,
         "klass": "Myrmidon",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 21,
             "STR": 6,
@@ -2123,7 +2317,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Luna"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2184,7 +2383,9 @@
         "variant": null,
         "level": 5,
         "klass": "Phantom",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -2219,7 +2420,12 @@
             "HP": 0
         },
         "starting_items": [],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Convoy"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2280,7 +2486,9 @@
         "variant": null,
         "level": 8,
         "klass": "Pirate",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 34,
             "STR": 12,
@@ -2320,7 +2528,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Sol"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2381,7 +2598,9 @@
         "variant": null,
         "level": 3,
         "klass": "Troubadour",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 16,
             "STR": 3,
@@ -2421,7 +2640,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Miracle"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2482,7 +2706,9 @@
         "variant": null,
         "level": 5,
         "klass": "Mercenary",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 25,
             "STR": 8,
@@ -2522,7 +2748,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical_Meh"
+            ],
+            [
+                1,
+                "Wrath"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2583,7 +2818,9 @@
         "variant": null,
         "level": 3,
         "klass": "Monk",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 18,
             "STR": 1,
@@ -2623,7 +2860,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Charm"
+            ],
+            [
+                1,
+                "Nihil"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2684,7 +2930,9 @@
         "variant": null,
         "level": 1,
         "klass": "Paladin",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 28,
             "STR": 13,
@@ -2724,7 +2972,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Miracle"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2785,7 +3042,9 @@
         "variant": null,
         "level": 2,
         "klass": "Brigand",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 21,
             "STR": 5,
@@ -2825,7 +3084,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Accost"
+            ],
+            [
+                1,
+                "Adept"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2886,7 +3154,9 @@
         "variant": null,
         "level": 3,
         "klass": "Mercenary",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -2926,7 +3196,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Vantage"
+            ],
+            [
+                1,
+                "Critical_Meh"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2987,7 +3266,9 @@
         "variant": null,
         "level": 14,
         "klass": "Cavalier",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 33,
             "STR": 10,
@@ -3027,7 +3308,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pavise"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -3088,7 +3374,9 @@
         "variant": null,
         "level": 12,
         "klass": "Thief",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 26,
             "STR": 8,
@@ -3128,7 +3416,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Critical_Meh"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -3189,7 +3486,9 @@
         "variant": null,
         "level": 1,
         "klass": "Dancer",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 14,
             "STR": 0,
@@ -3229,7 +3528,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Dragonblood"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -3290,7 +3594,9 @@
         "variant": null,
         "level": 7,
         "klass": "Wyvern_Rider",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 28,
             "STR": 11,
@@ -3330,7 +3636,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Adept"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -3391,7 +3702,9 @@
         "variant": null,
         "level": 5,
         "klass": "Swordmaster",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 29,
             "STR": 14,
@@ -3431,7 +3744,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Vantage"
+            ],
+            [
+                1,
+                "Astra"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -3492,7 +3814,9 @@
         "variant": null,
         "level": 1,
         "klass": "Paladin",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 35,
             "STR": 10,
@@ -3593,7 +3917,9 @@
         "variant": null,
         "level": 9,
         "klass": "Falcoknight",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 44,
             "STR": 16,
@@ -3633,7 +3959,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pegasus_Commander"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -3694,7 +4025,9 @@
         "variant": null,
         "level": 7,
         "klass": "Pegasus_Knight",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 21,
             "STR": 8,
@@ -3734,7 +4067,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Adept"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -3795,7 +4133,9 @@
         "variant": null,
         "level": 6,
         "klass": "Sage",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 33,
             "STR": 11,
@@ -3839,7 +4179,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Adept"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -3915,7 +4260,9 @@
         "variant": null,
         "level": 4,
         "klass": "Sniper",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 28,
             "STR": 12,
@@ -3955,7 +4302,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -4016,7 +4368,9 @@
         "variant": null,
         "level": 8,
         "klass": "Swordmaster",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 31,
             "STR": 16,
@@ -4056,7 +4410,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Astra"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -4117,7 +4480,9 @@
         "variant": null,
         "level": 8,
         "klass": "Hero",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 38,
             "STR": 21,
@@ -4157,7 +4522,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Sol"
+            ],
+            [
+                1,
+                "Luna"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -4218,7 +4592,9 @@
         "variant": null,
         "level": 8,
         "klass": "General",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 46,
             "STR": 19,
@@ -4258,7 +4634,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Wary_Fighter"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -4319,7 +4700,9 @@
         "variant": null,
         "level": 8,
         "klass": "Shaman",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 21,
             "STR": 5,
@@ -4359,7 +4742,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Vantage"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -4420,7 +4808,9 @@
         "variant": null,
         "level": 4,
         "klass": "Berserker",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 50,
             "STR": 18,
@@ -4460,7 +4850,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Desert_Fox_pirate"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -4521,7 +4920,9 @@
         "variant": null,
         "level": 3,
         "klass": "Warrior",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 40,
             "STR": 17,
@@ -4565,7 +4966,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Bargain"
+            ],
+            [
+                1,
+                "Accost"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -4626,7 +5036,9 @@
         "variant": null,
         "level": 12,
         "klass": "Pegasus_Knight",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 24,
             "STR": 10,
@@ -4666,7 +5078,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Bargain"
+            ],
+            [
+                1,
+                "Steal"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -4727,7 +5148,9 @@
         "variant": null,
         "level": 5,
         "klass": "Wind_Mage",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 19,
             "STR": 4,
@@ -4767,7 +5190,20 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Paragon_1"
+            ],
+            [
+                1,
+                "Paragon_2"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -4843,7 +5279,9 @@
         "variant": null,
         "level": 13,
         "klass": "Assassin",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 34,
             "STR": 19,
@@ -4883,7 +5321,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Critical_Force"
+            ],
+            [
+                1,
+                "Luna"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -4944,7 +5391,9 @@
         "variant": null,
         "level": 14,
         "klass": "Thief",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 24,
             "STR": 14,
@@ -4984,7 +5433,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Miracle"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -5045,7 +5503,9 @@
         "variant": null,
         "level": 9,
         "klass": "Wyvern_Lord",
-        "tags": [],
+        "tags": [
+            "Female"
+        ],
         "bases": {
             "HP": 43,
             "STR": 20,
@@ -5085,7 +5545,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Intimidate"
+            ],
+            [
+                1,
+                "Luna"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -5146,7 +5615,9 @@
         "variant": null,
         "level": 16,
         "klass": "Bishop",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 43,
             "STR": 12,
@@ -5186,7 +5657,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Nihil"
+            ],
+            [
+                1,
+                "Heavy_Strikes"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -5211,12 +5691,12 @@
             ],
             "Staff": [
                 false,
-                0,
+                3,
                 251
             ],
             "Light": [
                 false,
-                0,
+                4,
                 251
             ],
             "Anima": [
@@ -5247,7 +5727,9 @@
         "variant": null,
         "level": 18,
         "klass": "Berserker",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 58,
             "STR": 24,
@@ -5287,7 +5769,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Heavy_Strikes"
+            ],
+            [
+                1,
+                "Critical_Meh"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -5348,7 +5839,9 @@
         "variant": null,
         "level": 7,
         "klass": "Nomad_Trooper",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 33,
             "STR": 15,
@@ -5392,7 +5885,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Law_of_Sacae"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -5453,7 +5955,9 @@
         "variant": null,
         "level": 12,
         "klass": "Swordmaster",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 45,
             "STR": 20,
@@ -5554,7 +6058,9 @@
         "variant": null,
         "level": 12,
         "klass": "Hero",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 45,
             "STR": 21,
@@ -5653,9 +6159,11 @@
         "name": "Athos",
         "desc": "An Archsage. One of the eight legendary Heroes.",
         "variant": null,
-        "level": 20,
+        "level": 40,
         "klass": "Sage",
-        "tags": [],
+        "tags": [
+            "Male"
+        ],
         "bases": {
             "HP": 40,
             "STR": 20,
@@ -5720,7 +6228,7 @@
             ],
             "Staff": [
                 false,
-                0,
+                4,
                 251
             ],
             "Light": [
@@ -5742,6 +6250,21 @@
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                4,
+                null
+            ],
+            "Wind": [
+                false,
+                4,
+                null
+            ],
+            "Thunder": [
+                false,
+                4,
+                null
             ]
         },
         "alternate_classes": [],
@@ -5843,7 +6366,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Alan",
-        "affinity": null,
+        "affinity": "None",
         "fields": []
     },
     {
@@ -6131,7 +6654,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Wade_1",
-        "affinity": null,
+        "affinity": "None",
         "fields": []
     },
     {
@@ -6316,12 +6839,25 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Paragon_1"
+            ],
+            [
+                1,
+                "Paragon_2"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Wind": [
                 false,
-                2,
+                1,
                 null
             ],
             "Fire": [
@@ -6331,7 +6867,12 @@
             ],
             "Thunder": [
                 false,
-                1,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                3,
                 null
             ]
         },
@@ -7143,7 +7684,8 @@
         "level": 7,
         "klass": "Mercenary",
         "tags": [
-            "Boss"
+            "Boss",
+            "Male"
         ],
         "bases": {
             "HP": 24,
@@ -7240,13 +7782,14 @@
     },
     {
         "nid": "Yogi",
-        "name": "Breguet",
+        "name": "Yogi",
         "desc": "Commander of a Grado military force.",
         "variant": "",
         "level": 4,
         "klass": "Lance_Armor",
         "tags": [
-            "Boss"
+            "Boss",
+            "Male"
         ],
         "bases": {
             "HP": 21,
@@ -7297,7 +7840,7 @@
             ],
             "Lance": [
                 true,
-                71,
+                2,
                 251
             ],
             "Axe": [
@@ -7349,7 +7892,8 @@
         "level": 4,
         "klass": "Shaman",
         "tags": [
-            "Boss"
+            "Boss",
+            "Male"
         ],
         "bases": {
             "HP": 22,
@@ -7430,13 +7974,18 @@
             ],
             "Dark": [
                 false,
-                2,
+                0,
                 251
             ],
             "Default": [
                 false,
                 0,
                 251
+            ],
+            "Thunder": [
+                false,
+                2,
+                null
             ]
         },
         "alternate_classes": [],
@@ -7451,7 +8000,10 @@
         "variant": "",
         "level": 15,
         "klass": "General",
-        "tags": [],
+        "tags": [
+            "Boss",
+            "Male"
+        ],
         "bases": {
             "HP": 35,
             "STR": 12,
@@ -7617,7 +8169,7 @@
             ],
             "Axe": [
                 true,
-                71,
+                2,
                 251
             ],
             "Bow": [
@@ -7664,7 +8216,8 @@
         "level": 8,
         "klass": "Lance_Armor",
         "tags": [
-            "Boss"
+            "Boss",
+            "Male"
         ],
         "bases": {
             "HP": 30,
@@ -7715,12 +8268,12 @@
             ],
             "Lance": [
                 false,
-                71,
+                2,
                 251
             ],
             "Axe": [
                 true,
-                710,
+                2,
                 251
             ],
             "Bow": [
@@ -7766,7 +8319,10 @@
         "variant": "Female",
         "level": 11,
         "klass": "Mage_Knight",
-        "tags": [],
+        "tags": [
+            "Boss",
+            "Female"
+        ],
         "bases": {
             "HP": 39,
             "STR": 6,
@@ -7835,7 +8391,7 @@
             ],
             "Staff": [
                 false,
-                121,
+                3,
                 251
             ],
             "Light": [
@@ -7850,13 +8406,23 @@
             ],
             "Dark": [
                 false,
-                0,
+                3,
                 251
             ],
             "Default": [
                 false,
                 0,
                 251
+            ],
+            "Fire": [
+                false,
+                3,
+                null
+            ],
+            "Wind": [
+                false,
+                3,
+                null
             ]
         },
         "alternate_classes": [],
@@ -7871,7 +8437,10 @@
         "variant": "",
         "level": 12,
         "klass": "Hero",
-        "tags": [],
+        "tags": [
+            "Boss",
+            "Male"
+        ],
         "bases": {
             "HP": 50,
             "STR": 20,
@@ -7924,7 +8493,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                2,
                 251
             ],
             "Lance": [
@@ -7934,7 +8503,7 @@
             ],
             "Axe": [
                 false,
-                251,
+                3,
                 251
             ],
             "Bow": [
@@ -7980,7 +8549,10 @@
         "variant": "",
         "level": 131,
         "klass": "Wyvern_Knight",
-        "tags": [],
+        "tags": [
+            "Boss",
+            "Male"
+        ],
         "bases": {
             "HP": 48,
             "STR": 20,
@@ -8038,7 +8610,7 @@
             ],
             "Lance": [
                 false,
-                251,
+                3,
                 251
             ],
             "Axe": [
@@ -8089,7 +8661,10 @@
         "variant": null,
         "level": 16,
         "klass": "Bishop",
-        "tags": [],
+        "tags": [
+            "Boss",
+            "Male"
+        ],
         "bases": {
             "HP": 51,
             "STR": 0,
@@ -8154,12 +8729,12 @@
             ],
             "Staff": [
                 false,
-                181,
+                3,
                 251
             ],
             "Light": [
                 false,
-                251,
+                3,
                 251
             ],
             "Anima": [
@@ -8190,7 +8765,10 @@
         "variant": null,
         "level": 14,
         "klass": "Necromancer",
-        "tags": [],
+        "tags": [
+            "Boss",
+            "Male"
+        ],
         "bases": {
             "HP": 46,
             "STR": 1,
@@ -8259,7 +8837,7 @@
             ],
             "Staff": [
                 false,
-                181,
+                2,
                 251
             ],
             "Light": [
@@ -8274,18 +8852,23 @@
             ],
             "Dark": [
                 false,
-                251,
+                0,
                 251
             ],
             "Default": [
                 false,
                 0,
                 251
+            ],
+            "Thunder": [
+                false,
+                4,
+                null
             ]
         },
         "alternate_classes": [],
         "portrait_nid": "Lyon",
-        "affinity": null,
+        "affinity": "None",
         "fields": []
     }
 ]

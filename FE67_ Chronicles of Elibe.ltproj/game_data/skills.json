@@ -14,7 +14,7 @@
                 null
             ],
             [
-                "canto",
+                "canto_plus",
                 null
             ]
         ]
@@ -1003,9 +1003,57 @@
         ]
     },
     {
+        "nid": "Charm",
+        "name": "Charm",
+        "desc": "Grants +10 Hit/Avoid to allies with in 3 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Charm_child"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    },
+    {
+        "nid": "Charm_child",
+        "name": "Charm child",
+        "desc": " Grants +10 Hit/Avoid",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "hit",
+                10
+            ],
+            [
+                "avoid",
+                10
+            ]
+        ]
+    },
+    {
         "nid": "Inspiration",
         "name": "Inspiration",
-        "desc": "Aura - Grants +1 damage and +1 resist to allies.",
+        "desc": "Grants +1 damage and +1 resist to allies with in 3 tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -1123,7 +1171,7 @@
     {
         "nid": "Lethality",
         "name": "Lethality",
-        "desc": "Proc rate: SKL/4%\nInstantly kills foe.",
+        "desc": "SKL/4% chance to instantly kill the foe.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -1147,7 +1195,7 @@
     {
         "nid": "Lethality_Proc",
         "name": "Lethality",
-        "desc": "Proc rate: SKL/4%\nInstantly kills foe.",
+        "desc": "Instantly kills foe.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -1167,7 +1215,7 @@
     {
         "nid": "Luna",
         "name": "Luna",
-        "desc": "Proc Rate: SKL/4%\nIgnores enemy defense and resistance.",
+        "desc": "Skill% chance to ignore enemy defense and resistance.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -1184,7 +1232,13 @@
             ],
             [
                 "proc_rate",
-                "SKILL_PROC"
+                "TRUE_SKILL_PROC"
+            ],
+            [
+                "nihil",
+                [
+                    "Nihil"
+                ]
             ]
         ]
     },
@@ -1201,6 +1255,343 @@
             [
                 "item_override",
                 "Luna_Proc"
+            ]
+        ]
+    },
+    {
+        "nid": "Sol",
+        "name": "Sol",
+        "desc": "Skill% chance to heal for damage dealt.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_proc",
+                "Sol_Proc"
+            ],
+            [
+                "proc_rate",
+                "TRUE_SKILL_PROC"
+            ],
+            [
+                "nihil",
+                [
+                    "Nihil"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Sol_Proc",
+        "name": "Sol Proc",
+        "desc": "Heals for damage dealt.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "lifelink",
+                1.0
+            ]
+        ]
+    },
+    {
+        "nid": "Astra",
+        "name": "Astra",
+        "desc": "Skill% chance to strike five times consecutively.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "proc_rate",
+                "TRUE_SKILL_PROC"
+            ],
+            [
+                "astra_proc",
+                {
+                    "extra_attacks": 4,
+                    "damage_percent": 1.0,
+                    "show_proc_effects": true
+                }
+            ],
+            [
+                "nihil",
+                [
+                    "Nihil"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Adept",
+        "name": "Adept",
+        "desc": "(Attack Speed + 20)% chance to strike twice consecutively.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "proc_rate",
+                "SPEED_PROC"
+            ],
+            [
+                "astra_proc",
+                {
+                    "extra_attacks": 1,
+                    "damage_percent": 1.0,
+                    "show_proc_effects": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Miracle_FE4",
+        "name": "Miracle",
+        "desc": "Temporarily increased Avoid when close to death.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_hp() <= 10"
+            ]
+        ]
+    },
+    {
+        "nid": "Miracle_FE4_proc",
+        "name": "Miracle",
+        "desc": "Increased avoid. Lasts one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "eval_avoid",
+                "(11 - unit.get_hp()) * 10"
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
+        "nid": "Miracle",
+        "name": "Miracle",
+        "desc": "Luck% chance to survive lethal damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "defense_proc",
+                "Miracle_Proc"
+            ],
+            [
+                "proc_rate",
+                "LUCK_PROC"
+            ]
+        ]
+    },
+    {
+        "nid": "Miracle_Proc",
+        "name": "Miracle Proc",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "miracle",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Accost",
+        "name": "Accost",
+        "desc": "Chance to initiate another round of combat.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "proc_rate",
+                "HP_PROC"
+            ],
+            [
+                "attack_pre_proc",
+                "Accost_Proc"
+            ],
+            [
+                "defense_pre_proc",
+                "Accost_Proc"
+            ],
+            [
+                "nihil",
+                [
+                    "Vantage"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Accost_Proc",
+        "name": "Accost",
+        "desc": "Tells the game to run the event that initiates another round of combat. Does nothing else.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            7
+        ],
+        "components": []
+    },
+    {
+        "nid": "Wrath",
+        "name": "Wrath",
+        "desc": "If HP is 50% or below, all attacks are critical.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_hp() <= (unit.get_max_hp()//2)"
+            ],
+            [
+                "crit",
+                100
+            ]
+        ]
+    },
+    {
+        "nid": "Vantage",
+        "name": "Vantage",
+        "desc": "If HP is 50% or below, strike first.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_hp() <= (unit.get_max_hp()//2)"
+            ],
+            [
+                "vantage",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Renewal",
+        "name": "Renewal",
+        "desc": "Recovers 10% of HP every turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "regeneration",
+                0.1
+            ]
+        ]
+    },
+    {
+        "nid": "Nihil",
+        "name": "Nihil",
+        "desc": "Negates Luna, Sol, Astra, and critical hits.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit_avoid",
+                10000
+            ]
+        ]
+    },
+    {
+        "nid": "Pursuit",
+        "name": "Pursuit",
+        "desc": "Allows the user to make follow-up attacks.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
             ]
         ]
     },
@@ -1350,12 +1741,12 @@
         "desc": "Reduces cost of items by half.",
         "icon_nid": "Skills",
         "icon_index": [
-            0,
-            0
+            7,
+            10
         ],
         "components": [
             [
-                "hidden",
+                "class_skill",
                 null
             ],
             [
@@ -1596,6 +1987,1246 @@
                         -10
                     ]
                 ]
+            ]
+        ]
+    },
+    {
+        "nid": "Sword_Proficiency",
+        "name": "Sword Proficiency",
+        "desc": "Unit has improved weapon rank with Swords.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global skill_SwordProf"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Sword_Proficiency_visonly",
+        "name": "Sword Proficiency",
+        "desc": "Unit has improved weapon rank with Swords.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Lance_Proficiency",
+        "name": "Lance Proficiency",
+        "desc": "Unit has improved weapon rank with Lances.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global skill_LanceProf"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Lance_Proficiency_visonly",
+        "name": "Lance Proficiency",
+        "desc": "Unit has improved weapon rank with Lances.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Axe_Proficiency",
+        "name": "Axe Proficiency",
+        "desc": "Unit has improved weapon rank with Axes.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global skill_AxeProf"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Axe_Proficiency_visonly",
+        "name": "Axe Proficiency",
+        "desc": "Unit has improved weapon rank with Axes.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Bow_Proficiency",
+        "name": "Bow Proficiency",
+        "desc": "Unit has improved weapon rank with Bows.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global skill_BowProf"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Bow_Proficiency_visonly",
+        "name": "Bow Proficiency",
+        "desc": "Unit has improved weapon rank with Bows.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fire_Proficiency",
+        "name": "Fire Proficiency",
+        "desc": "Unit has improved weapon rank with Fire magic.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global skill_FireProf"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fire_Proficiency_visonly",
+        "name": "Fire Proficiency",
+        "desc": "Unit has improved weapon rank with Fire magic.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Thunder_Proficiency",
+        "name": "Thunder Proficiency",
+        "desc": "Unit has improved weapon rank with Thunder magic.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global skill_ThunderProf"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Thunder_Proficiency_visonly",
+        "name": "Thunder Proficiency",
+        "desc": "Unit has improved weapon rank with Thunder magic.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Wind_Proficiency",
+        "name": "Wind Proficiency",
+        "desc": "Unit has improved weapon rank with Wind magic.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global skill_WindProf"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Wind_Proficiency_visonly",
+        "name": "Wind Proficiency",
+        "desc": "Unit has improved weapon rank with Wind magic.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Light_Proficiency",
+        "name": "Light Proficiency",
+        "desc": "Unit has improved weapon rank with Light magic.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global skill_LightProf"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Light_Proficiency_visonly",
+        "name": "Light Proficiency",
+        "desc": "Unit has improved weapon rank with Light magic.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Dark_Proficiency",
+        "name": "Dark Proficiency",
+        "desc": "Unit has improved weapon rank with Dark magic.",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global skill_DarkProf"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Dark_Proficiency_visonly",
+        "name": "Dark Proficiency",
+        "desc": "Unit has improved weapon rank with Dark magic.",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Staff_Proficiency",
+        "name": "Staff Proficiency",
+        "desc": "Unit has improved weapon rank with Staves.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "upkeep_event",
+                "Global skill_StaffProf"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Staff_Proficiency_visonly",
+        "name": "Staff Proficiency",
+        "desc": "Unit has improved weapon rank with Staves.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Knight_Instructor",
+        "name": "Knight Instructor",
+        "desc": "Gives flightless Cavalry within 3 tiles +10 Hit/Avoid +1 ATK.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Knight_Instructor_buff"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    },
+    {
+        "nid": "Knight_Instructor_buff",
+        "name": "Knight Instructor",
+        "desc": "+10 Hit/Avoid, +1 ATK.\nTerrain Skill makes this unable to affect fliers.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "is_terrain",
+                null
+            ],
+            [
+                "condition",
+                "'Horse' in game.get_klass(unit.nid).tags"
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "avoid",
+                10
+            ],
+            [
+                "damage",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Intimidate",
+        "name": "Intimidate",
+        "desc": "Gives enemies within 3 tiles -10 Hit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Intimidate_debuff"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    },
+    {
+        "nid": "Intimidate_debuff",
+        "name": "Intimidate",
+        "desc": "Unit has -10 Hit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "hit",
+                -10
+            ]
+        ]
+    },
+    {
+        "nid": "Provoke",
+        "name": "Provoke",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "wexp_usable_skill",
+                "Sword"
+            ]
+        ]
+    },
+    {
+        "nid": "Armored_March",
+        "name": "Armored March",
+        "desc": "Gives armored units within 5 tiles +1 Move.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Armored_March_buff"
+            ],
+            [
+                "aura_range",
+                5
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    },
+    {
+        "nid": "Armored_March_buff",
+        "name": "Armored March",
+        "desc": "Unit has +1 Move.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            6
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "'Armor' in game.get_klass(unit.nid).tags"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Grating_Personality",
+        "name": "Grating Personality",
+        "desc": "-20 Hit to all units within 3 tiles. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Grating_Personality_debuff"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "unit"
+            ]
+        ]
+    },
+    {
+        "nid": "Grating_Personality_debuff",
+        "name": "Grating Personality",
+        "desc": "God this bitch is annoying. -20 Hit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            3
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "hit",
+                -20
+            ]
+        ]
+    },
+    {
+        "nid": "Showoff",
+        "name": "Showoff",
+        "desc": "+5 Crit per female unit within 3 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_crit",
+                "unit_funcs.check_broad_focus(unit,3,'Female') * 5"
+            ]
+        ]
+    },
+    {
+        "nid": "Guardian",
+        "name": "Guardian",
+        "desc": " If a Lord would die within 5 tiles of this unit, this unit will sacrifice themself.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Androphobia",
+        "name": "Androphobia",
+        "desc": "-5 Hit +1 ATK per male unit within 3 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_hit",
+                "unit_funcs.check_broad_focus(unit,3,'Male') * -5"
+            ],
+            [
+                "eval_damage",
+                "unit_funcs.check_broad_focus(unit,3,'Male')"
+            ]
+        ]
+    },
+    {
+        "nid": "Dragonblood",
+        "name": "Dragonblood",
+        "desc": "Can use Dragonstones but is vulnerable to anti-dragon effects.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Dragonblood"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Anti_Dragonblood",
+        "name": "Anti Dragonblood",
+        "desc": "Deal 2x effective damage against units with Dragonblood.\nDoesn't apply to Manaketes, as they're vulnerable to anti-dragon weapons by default.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            2
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "'Dragonblood' in target.tags"
+            ],
+            [
+                "damage_multiplier",
+                2.0
+            ]
+        ]
+    },
+    {
+        "nid": "Law_of_Sacae",
+        "name": "Law of Sacae",
+        "desc": "Plains give +10 Avoid, +1 ATK.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "game.tilemap.get_terrain(unit.position) == \"1\""
+            ],
+            [
+                "avoid",
+                10
+            ],
+            [
+                "damage",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_lightfoot",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "DFox LFoot"
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_armor",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "DFox Armor"
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_heavycav",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "DFox HCav"
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_lightcav",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "DFox LCav"
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_regular",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "DFox Regular"
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_bandit",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "DFox Bandit"
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_pirate",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "DFox Pirate"
+            ]
+        ]
+    },
+    {
+        "nid": "Barricade",
+        "name": "Barricade",
+        "desc": "Receive half damage when doubled.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.stats['SPD'] - unit.stats['SPD'] >= 4 and 'Pursuit' in [skill.nid for skill in target.skills]"
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ]
+        ]
+    },
+    {
+        "nid": "Wary_Fighter",
+        "name": "Wary Fighter",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Critical_Force",
+        "name": "Critical Force",
+        "desc": "Add Skill*2 to Crit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_crit",
+                "unit.stats['SKL'] * 2"
+            ]
+        ]
+    },
+    {
+        "nid": "Critical_Meh",
+        "name": "Critical",
+        "desc": "Add Skill to Crit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills < 50"
+            ],
+            [
+                "eval_crit",
+                "unit.stats['SKL']"
+            ]
+        ]
+    },
+    {
+        "nid": "Heavy_Strikes",
+        "name": "Heavy Strikes",
+        "desc": "Adds your Weapon's Weight to your Crit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_crit",
+                "unit.equipped_weapon.weight.value"
+            ]
+        ]
+    },
+    {
+        "nid": "Acrobat_land_locked",
+        "name": "Acrobat land locked",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "Acrobat (Land)"
+            ]
+        ]
+    },
+    {
+        "nid": "Acrobat_with_rivers",
+        "name": "Acrobat",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "Acrobat (+River)"
+            ]
+        ]
+    },
+    {
+        "nid": "Acrobat_pirate",
+        "name": "Acrobat",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "Acrobat (Pirate)"
+            ]
+        ]
+    },
+    {
+        "nid": "Pegasus_Commander",
+        "name": "Pegasus Commander",
+        "desc": "Gives pegasus cavalry within 5 tiles +1 Move.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Pegasus_Commander_buff"
+            ],
+            [
+                "aura_range",
+                5
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    },
+    {
+        "nid": "Pegasus_Commander_buff",
+        "name": "Pegasus Commander",
+        "desc": "Unit has +1 Move.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "'Pegasus' in game.get_klass(unit.nid).tags"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Paragon_1",
+        "name": "Paragon",
+        "desc": "Doubles EXP until level 15.{br}1.2x EXP for all levels afterward.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.level < 15"
+            ],
+            [
+                "enemy_exp_multiplier",
+                2.0
+            ]
+        ]
+    },
+    {
+        "nid": "Paragon_2",
+        "name": "Paragon",
+        "desc": "Doubles EXP until level 15.{br}1.2x EXP for all levels afterward.\nA unit will need to have both Paragon skills in order for it to function properly.\nThis means if you want to remove Paragon you will also need to remove both.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "unit.level >= 15"
+            ],
+            [
+                "enemy_exp_multiplier",
+                1.2
+            ]
+        ]
+    },
+    {
+        "nid": "Air_Superiority",
+        "name": "Air Superiority",
+        "desc": "+20 Hit & Avoid when fighting flying enemies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "'Flying' in target.tags"
+            ],
+            [
+                "hit",
+                20
+            ],
+            [
+                "avoid",
+                20
+            ]
+        ]
+    },
+    {
+        "nid": "Critical",
+        "name": "Critical Weapon",
+        "desc": "This unit's current weapon can critically hit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            9
+        ],
+        "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills >= 50"
+            ],
+            [
+                "eval_crit",
+                "unit.stats['SKL']"
+            ]
+        ]
+    },
+    {
+        "nid": "Convoy",
+        "name": "Convoy",
+        "desc": "Unit provides convoy access to adjacent allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Convoy_access"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "hide_aura",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Convoy_access",
+        "name": "Convoy",
+        "desc": "Unit has access to the convoy.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            10
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "ability",
+                "Convoy_ability"
             ]
         ]
     }

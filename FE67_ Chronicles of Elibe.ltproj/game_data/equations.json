@@ -25,11 +25,11 @@
     },
     {
         "nid": "CRIT_HIT",
-        "expression": "SKL//2"
+        "expression": "0"
     },
     {
         "nid": "CRIT_AVOID",
-        "expression": "LCK"
+        "expression": "0"
     },
     {
         "nid": "DAMAGE",
@@ -108,6 +108,10 @@
         "expression": "SKL//4"
     },
     {
+        "nid": "TRUE_SKILL_PROC",
+        "expression": "SKL"
+    },
+    {
         "nid": "DEVIL_AXE",
         "expression": "29 -  LCK"
     },
@@ -122,5 +126,21 @@
     {
         "nid": "STATUS_STAFF_AVOID",
         "expression": "MAG*5"
+    },
+    {
+        "nid": "SPEED_PROC",
+        "expression": "20 + ATTACK_SPEED"
+    },
+    {
+        "nid": "LUCK_PROC",
+        "expression": "LCK"
+    },
+    {
+        "nid": "HP_PROC",
+        "expression": "ATTACK_SPEED+(HP/2)"
+    },
+    {
+        "nid": "Always",
+        "expression": "100"
     }
 ]
