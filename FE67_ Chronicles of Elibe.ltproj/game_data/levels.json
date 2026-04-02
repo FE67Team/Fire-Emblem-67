@@ -895,7 +895,7 @@
         "music": {
             "player_phase": "Quiet Burn",
             "enemy_phase": "Shadow of the Enemy",
-            "enemy_battle": null,
+            "enemy_battle": "Shadow of the Enemy",
             "player_battle": "Attack"
         },
         "objective": {
@@ -2083,12 +2083,65 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 20,
-                "klass": "Swordmaster",
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Accost",
+                    "Barricade"
+                ],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 10,
+                "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Shamshir",
+                        "Slim_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Miracle_FE4"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "Cleric",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Mend",
                         false
                     ]
                 ],
@@ -2098,8 +2151,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    3
+                    2,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true

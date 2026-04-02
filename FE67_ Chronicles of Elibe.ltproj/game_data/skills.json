@@ -1005,7 +1005,7 @@
     {
         "nid": "Charm",
         "name": "Charm",
-        "desc": "Aura - Grants +10 Hit/Avoid to allies with in 3 tiles.",
+        "desc": "Grants +10 Hit/Avoid to allies with in 3 tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -1053,7 +1053,7 @@
     {
         "nid": "Inspiration",
         "name": "Inspiration",
-        "desc": "Aura - Grants +1 damage and +1 resist to allies with in 3 tiles.",
+        "desc": "Grants +1 damage and +1 resist to allies with in 3 tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -1171,7 +1171,7 @@
     {
         "nid": "Lethality",
         "name": "Lethality",
-        "desc": "Proc rate: SKL/4%\nInstantly kills foe.",
+        "desc": "SKL/4% chance to instantly kill the foe.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -1195,7 +1195,7 @@
     {
         "nid": "Lethality_Proc",
         "name": "Lethality",
-        "desc": "Proc rate: SKL/4%\nInstantly kills foe.",
+        "desc": "Instantly kills foe.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -1215,7 +1215,7 @@
     {
         "nid": "Luna",
         "name": "Luna",
-        "desc": "Proc Rate: SKL/4%\nIgnores enemy defense and resistance.",
+        "desc": "Skill% chance to ignore enemy defense and resistance.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -1232,7 +1232,13 @@
             ],
             [
                 "proc_rate",
-                "SKILL_PROC"
+                "TRUE_SKILL_PROC"
+            ],
+            [
+                "nihil",
+                [
+                    "Nihil"
+                ]
             ]
         ]
     },
@@ -1255,7 +1261,7 @@
     {
         "nid": "Sol",
         "name": "Sol",
-        "desc": "Proc Rate: SKL/4%\nHeals for damage dealt.",
+        "desc": "Skill% chance to heal for damage dealt.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -1272,7 +1278,13 @@
             ],
             [
                 "proc_rate",
-                "SKILL_PROC"
+                "TRUE_SKILL_PROC"
+            ],
+            [
+                "nihil",
+                [
+                    "Nihil"
+                ]
             ]
         ]
     },
@@ -1295,7 +1307,7 @@
     {
         "nid": "Astra",
         "name": "Astra",
-        "desc": "",
+        "desc": "Skill% chance to strike five times consecutively.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -1307,39 +1319,29 @@
                 null
             ],
             [
-                "attack_proc",
-                "Astra_Proc"
-            ],
-            [
                 "proc_rate",
-                "SKILL_PROC"
-            ]
-        ]
-    },
-    {
-        "nid": "Astra_Proc",
-        "name": "Astra Proc",
-        "desc": "",
-        "icon_nid": "Skills",
-        "icon_index": [
-            4,
-            1
-        ],
-        "components": [
+                "TRUE_SKILL_PROC"
+            ],
             [
                 "astra_proc",
                 {
                     "extra_attacks": 4,
-                    "damage_percent": 0.5,
+                    "damage_percent": 1.0,
                     "show_proc_effects": true
                 }
+            ],
+            [
+                "nihil",
+                [
+                    "Nihil"
+                ]
             ]
         ]
     },
     {
         "nid": "Adept",
         "name": "Adept",
-        "desc": "",
+        "desc": "(Attack Speed + 20)% chance to strike twice consecutively.",
         "icon_nid": "Skills",
         "icon_index": [
             8,
@@ -1351,25 +1353,9 @@
                 null
             ],
             [
-                "attack_proc",
-                "Adept_Proc"
-            ],
-            [
                 "proc_rate",
                 "SPEED_PROC"
-            ]
-        ]
-    },
-    {
-        "nid": "Adept_Proc",
-        "name": "new_1",
-        "desc": "",
-        "icon_nid": "Skills",
-        "icon_index": [
-            8,
-            1
-        ],
-        "components": [
+            ],
             [
                 "astra_proc",
                 {
@@ -1381,9 +1367,49 @@
         ]
     },
     {
+        "nid": "Miracle_FE4",
+        "name": "Miracle",
+        "desc": "Temporarily increased Avoid when close to death.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_hp() <= 10"
+            ]
+        ]
+    },
+    {
+        "nid": "Miracle_FE4_proc",
+        "name": "Miracle",
+        "desc": "Increased avoid. Lasts one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "eval_avoid",
+                "(11 - unit.get_hp()) * 10"
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    },
+    {
         "nid": "Miracle",
         "name": "Miracle",
-        "desc": "",
+        "desc": "Luck% chance to survive lethal damage.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -1423,7 +1449,7 @@
     {
         "nid": "Accost",
         "name": "Accost",
-        "desc": "",
+        "desc": "Chance to initiate another round of combat.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -1435,19 +1461,29 @@
                 null
             ],
             [
-                "defense_proc",
-                "Canto"
-            ],
-            [
                 "proc_rate",
                 "HP_PROC"
+            ],
+            [
+                "attack_pre_proc",
+                "Accost_Proc"
+            ],
+            [
+                "defense_pre_proc",
+                "Accost_Proc"
+            ],
+            [
+                "nihil",
+                [
+                    "Vantage"
+                ]
             ]
         ]
     },
     {
         "nid": "Accost_Proc",
-        "name": "Accost Proc",
-        "desc": "",
+        "name": "Accost",
+        "desc": "Tells the game to run the event that initiates another round of combat. Does nothing else.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -1458,7 +1494,7 @@
     {
         "nid": "Wrath",
         "name": "Wrath",
-        "desc": "",
+        "desc": "If HP is 50% or below, all attacks are critical.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -1470,19 +1506,19 @@
                 null
             ],
             [
-                "combat_condition",
+                "condition",
                 "unit.get_hp() <= (unit.get_max_hp()//2)"
             ],
             [
                 "crit",
-                50
+                100
             ]
         ]
     },
     {
         "nid": "Vantage",
         "name": "Vantage",
-        "desc": "",
+        "desc": "If HP is 50% or below, strike first.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -1494,25 +1530,19 @@
                 null
             ],
             [
-                "combat_condition",
+                "condition",
                 "unit.get_hp() <= (unit.get_max_hp()//2)"
             ],
             [
                 "vantage",
                 null
-            ],
-            [
-                "nihil",
-                [
-                    "Accost"
-                ]
             ]
         ]
     },
     {
         "nid": "Renewal",
         "name": "Renewal",
-        "desc": "",
+        "desc": "Recovers 10% of HP every turn.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -1532,7 +1562,7 @@
     {
         "nid": "Nihil",
         "name": "Nihil",
-        "desc": "",
+        "desc": "Negates Luna, Sol, Astra, and critical hits.",
         "icon_nid": "Skills",
         "icon_index": [
             8,
@@ -1544,15 +1574,8 @@
                 null
             ],
             [
-                "nihil",
-                [
-                    "Critical",
-                    "Luna",
-                    "Sol",
-                    "Astra",
-                    "Adept",
-                    "Accost"
-                ]
+                "crit_avoid",
+                10000
             ]
         ]
     },
@@ -1723,7 +1746,7 @@
         ],
         "components": [
             [
-                "hidden",
+                "class_skill",
                 null
             ],
             [
@@ -2330,7 +2353,7 @@
     {
         "nid": "Knight_Instructor",
         "name": "Knight Instructor",
-        "desc": "Gives flightless Cavalry within 3 tiles +10 hit/avoid +1 ATK.",
+        "desc": "Gives flightless Cavalry within 3 tiles +10 Hit/Avoid +1 ATK.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -2358,7 +2381,7 @@
     {
         "nid": "Knight_Instructor_buff",
         "name": "Knight Instructor",
-        "desc": "+10 hit/avoid, +1 ATK.\nTerrain Skill makes this unable to affect fliers.",
+        "desc": "+10 Hit/Avoid, +1 ATK.\nTerrain Skill makes this unable to affect fliers.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -2366,12 +2389,12 @@
         ],
         "components": [
             [
-                "condition",
-                "'Horse' in game.get_klass(unit.nid).tags"
-            ],
-            [
                 "is_terrain",
                 null
+            ],
+            [
+                "condition",
+                "'Horse' in game.get_klass(unit.nid).tags"
             ],
             [
                 "hit",
@@ -2390,7 +2413,7 @@
     {
         "nid": "Intimidate",
         "name": "Intimidate",
-        "desc": "Gives enemies within 3 tiles -10 hit.",
+        "desc": "Gives enemies within 3 tiles -10 Hit.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -2418,7 +2441,7 @@
     {
         "nid": "Intimidate_debuff",
         "name": "Intimidate",
-        "desc": "Unit has -10 hit.",
+        "desc": "Unit has -10 Hit.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -2426,12 +2449,12 @@
         ],
         "components": [
             [
-                "hit",
-                -10
-            ],
-            [
                 "hidden",
                 null
+            ],
+            [
+                "hit",
+                -10
             ]
         ]
     },
@@ -2494,12 +2517,12 @@
         ],
         "components": [
             [
-                "condition",
-                "'Armor' in game.get_klass(unit.nid).tags"
-            ],
-            [
                 "hidden",
                 null
+            ],
+            [
+                "condition",
+                "'Armor' in game.get_klass(unit.nid).tags"
             ],
             [
                 "stat_change",
@@ -2543,7 +2566,7 @@
     {
         "nid": "Grating_Personality_debuff",
         "name": "Grating Personality",
-        "desc": "God this bitch is annoying. -20 hit.",
+        "desc": "God this bitch is annoying. -20 Hit.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -2563,7 +2586,7 @@
     {
         "nid": "Showoff",
         "name": "Showoff",
-        "desc": "+5 crit per female unit within 3 tiles.",
+        "desc": "+5 Crit per female unit within 3 tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -2599,7 +2622,7 @@
     {
         "nid": "Androphobia",
         "name": "Androphobia",
-        "desc": "-5 hit +1 ATK per male unit within 3 tiles.",
+        "desc": "-5 Hit +1 ATK per male unit within 3 tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -2697,7 +2720,7 @@
     {
         "nid": "Desert_Fox_lightfoot",
         "name": "Desert Fox",
-        "desc": "Unimpeded by Desert terrain.",
+        "desc": "Movement is unimpeded by Desert terrain.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -2717,7 +2740,7 @@
     {
         "nid": "Desert_Fox_armor",
         "name": "Desert Fox",
-        "desc": "Unimpeded by Desert terrain.",
+        "desc": "Movement is unimpeded by Desert terrain.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -2737,7 +2760,7 @@
     {
         "nid": "Desert_Fox_heavycav",
         "name": "Desert Fox",
-        "desc": "Unimpeded by Desert terrain.",
+        "desc": "Movement is unimpeded by Desert terrain.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -2757,7 +2780,7 @@
     {
         "nid": "Desert_Fox_lightcav",
         "name": "Desert Fox",
-        "desc": "Unimpeded by Desert terrain.",
+        "desc": "Movement is unimpeded by Desert terrain.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -2777,7 +2800,7 @@
     {
         "nid": "Desert_Fox_regular",
         "name": "Desert Fox",
-        "desc": "Unimpeded by Desert terrain.",
+        "desc": "Movement is unimpeded by Desert terrain.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -2797,7 +2820,7 @@
     {
         "nid": "Desert_Fox_bandit",
         "name": "Desert Fox",
-        "desc": "Unimpeded by Desert terrain.",
+        "desc": "Movement is unimpeded by Desert terrain.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -2817,7 +2840,7 @@
     {
         "nid": "Desert_Fox_pirate",
         "name": "Desert Fox",
-        "desc": "Unimpeded by Desert terrain.",
+        "desc": "Movement is unimpeded by Desert terrain.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -2850,7 +2873,7 @@
             ],
             [
                 "combat_condition",
-                "target.stats['SPD'] - unit.stats['SPD'] >= 4"
+                "target.stats['SPD'] - unit.stats['SPD'] >= 4 and 'Pursuit' in [skill.nid for skill in target.skills]"
             ],
             [
                 "resist_multiplier",
@@ -2895,6 +2918,30 @@
         ]
     },
     {
+        "nid": "Critical_Meh",
+        "name": "Critical",
+        "desc": "Add Skill to Crit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills < 50"
+            ],
+            [
+                "eval_crit",
+                "unit.stats['SKL']"
+            ]
+        ]
+    },
+    {
         "nid": "Heavy_Strikes",
         "name": "Heavy Strikes",
         "desc": "Adds your Weapon's Weight to your Crit.",
@@ -2915,9 +2962,9 @@
         ]
     },
     {
-        "nid": "Acrobat",
-        "name": "Acrobat",
-        "desc": "",
+        "nid": "Acrobat_land_locked",
+        "name": "Acrobat land locked",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -2927,6 +2974,50 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "movement_type",
+                "Acrobat (Land)"
+            ]
+        ]
+    },
+    {
+        "nid": "Acrobat_with_rivers",
+        "name": "Acrobat",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "Acrobat (+River)"
+            ]
+        ]
+    },
+    {
+        "nid": "Acrobat_pirate",
+        "name": "Acrobat",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "Acrobat (Pirate)"
             ]
         ]
     },
@@ -3065,7 +3156,7 @@
     },
     {
         "nid": "Critical",
-        "name": "Critical",
+        "name": "Critical Weapon",
         "desc": "This unit's current weapon can critically hit.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -3084,6 +3175,58 @@
             [
                 "eval_crit",
                 "unit.stats['SKL']"
+            ]
+        ]
+    },
+    {
+        "nid": "Convoy",
+        "name": "Convoy",
+        "desc": "Unit provides convoy access to adjacent allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Convoy_access"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "hide_aura",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Convoy_access",
+        "name": "Convoy",
+        "desc": "Unit has access to the convoy.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            10
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "ability",
+                "Convoy_ability"
             ]
         ]
     }
