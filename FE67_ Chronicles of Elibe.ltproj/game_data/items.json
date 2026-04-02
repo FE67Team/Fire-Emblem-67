@@ -867,7 +867,7 @@
             ],
             [
                 "eval_warning",
-                "'Dragon' in target.tags or 'CanUseDragonstone' in target.tags"
+                "'CanUseDragonstone' in target.tags"
             ],
             [
                 "item_icon_flash",
@@ -2778,7 +2778,7 @@
             ],
             [
                 "eval_warning",
-                "'Dragon' in target.tags or 'CanUseDragonstone' in target.tags"
+                "'CanUseDragonstone' in target.tags"
             ],
             [
                 "item_icon_flash",
@@ -10163,8 +10163,7 @@
             [
                 "prf_tags",
                 [
-                    "Dragonblood",
-                    "Manakete"
+                    "Dragonblood"
                 ]
             ],
             [
@@ -12136,6 +12135,42 @@
             [
                 "locked",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "Convoy_ability",
+        "name": "Convoy",
+        "desc": "Access the convoy.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            7,
+            10
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global convoy_ability"
+            ],
+            [
+                "map_cast_pose",
+                null
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Dance2"
             ]
         ]
     }

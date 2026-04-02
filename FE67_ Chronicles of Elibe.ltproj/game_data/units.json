@@ -56,15 +56,15 @@
         "learned_skills": [
             [
                 1,
+                "Pursuit"
+            ],
+            [
+                1,
                 "Law_of_Sacae"
             ],
             [
                 1,
-                "Wrath"
-            ],
-            [
-                1,
-                "Vantage"
+                "Astra"
             ]
         ],
         "unit_notes": [],
@@ -176,7 +176,7 @@
             ],
             [
                 1,
-                "Critical"
+                "Critical_Meh"
             ]
         ],
         "unit_notes": [],
@@ -396,7 +396,7 @@
         "learned_skills": [
             [
                 1,
-                "Critical"
+                "Critical_Meh"
             ],
             [
                 1,
@@ -512,7 +512,7 @@
             ],
             [
                 1,
-                "Critical"
+                "Critical_Meh"
             ]
         ],
         "unit_notes": [],
@@ -795,7 +795,7 @@
     {
         "nid": "Erk",
         "name": "Erk",
-        "desc": "A young mage from Etruria. CHarming, but uptight.",
+        "desc": "A young mage from Etruria. Charming, but uptight.",
         "variant": null,
         "level": 1,
         "klass": "Thunder_Mage",
@@ -1651,7 +1651,7 @@
             ],
             [
                 1,
-                "Acrobat"
+                "Acrobat_land_locked"
             ]
         ],
         "unit_notes": [],
@@ -2420,7 +2420,12 @@
             "HP": 0
         },
         "starting_items": [],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Convoy"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -2746,7 +2751,7 @@
         "learned_skills": [
             [
                 1,
-                "Critical"
+                "Critical_Meh"
             ],
             [
                 1,
@@ -2859,6 +2864,10 @@
             [
                 1,
                 "Charm"
+            ],
+            [
+                1,
+                "Nihil"
             ]
         ],
         "unit_notes": [],
@@ -3194,7 +3203,7 @@
             ],
             [
                 1,
-                "Critical"
+                "Critical_Meh"
             ]
         ],
         "unit_notes": [],
@@ -3414,7 +3423,7 @@
             ],
             [
                 1,
-                "Critical"
+                "Critical_Meh"
             ]
         ],
         "unit_notes": [],
@@ -4844,7 +4853,7 @@
         "learned_skills": [
             [
                 1,
-                "Desert_Fox_lightfoot"
+                "Desert_Fox_pirate"
             ],
             [
                 1,
@@ -5188,7 +5197,11 @@
             ],
             [
                 1,
-                "Paragon"
+                "Paragon_1"
+            ],
+            [
+                1,
+                "Paragon_2"
             ]
         ],
         "unit_notes": [],
@@ -5763,7 +5776,7 @@
             ],
             [
                 1,
-                "Critical"
+                "Critical_Meh"
             ]
         ],
         "unit_notes": [],
@@ -6826,7 +6839,20 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pursuit"
+            ],
+            [
+                1,
+                "Paragon_1"
+            ],
+            [
+                1,
+                "Paragon_2"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Wind": [

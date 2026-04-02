@@ -108,6 +108,10 @@
         "expression": "SKL//4"
     },
     {
+        "nid": "TRUE_SKILL_PROC",
+        "expression": "SKL"
+    },
+    {
         "nid": "DEVIL_AXE",
         "expression": "29 -  LCK"
     },
@@ -134,5 +138,9 @@
     {
         "nid": "HP_PROC",
         "expression": "ATTACK_SPEED+(HP/2)"
+    },
+    {
+        "nid": "Always",
+        "expression": "100"
     }
 ]
