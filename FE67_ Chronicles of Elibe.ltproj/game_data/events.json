@@ -3775,7 +3775,7 @@
             "$level_var \"_current_Soldiers\" 0",
             "#For each unit that is deployed, if that unit's faction isn't generic or a wall, increment their corresponding faction's level_var.",
             "for eUnit in allEnemies:",
-            "    if (eUnit.faction != \"Enemy\") and (eUnit.faction != \"Wall\"):",
+            "    if eUnit.faction and (eUnit.faction != \"Enemy\") and (eUnit.faction != \"Wall\"):",
             "        game.level_vars[\"_total_\" + eUnit.faction + \"s\"] += 1",
             "        game.level_vars[\"_current_\" + eUnit.faction + \"s\"] += 1",
             "",
@@ -4475,5 +4475,138 @@
             "unhold;narration_top"
         ],
         "nid": "Global getItems_postCombat_input"
+    },
+    {
+        "name": "convoy_ability",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev1",
+            "",
+            "game.level_vars['pre_inventory'] = [item.nid for item in unit.items]",
+            "",
+            "$open_convoy unit"
+        ],
+        "nid": "Global convoy_ability"
+    },
+    {
+        "name": "convoy_ability_wait",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "'Convoy_access' in [skill.nid for skill in unit.skills]",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev1",
+            "#If a unit accessed the convoy through the convoy skill and didn't do anything while they were within the convoy, return their turn to them",
+            "pre_inventory = game.level_vars['pre_inventory']",
+            "post_inventory = [item.nid for item in unit.items]",
+            "",
+            "if pre_inventory == post_inventory:",
+            "    $reset unit"
+        ],
+        "nid": "Global convoy_ability_wait"
+    },
+    {
+        "name": "accost_ability",
+        "trigger": "combat_end",
+        "level_nid": null,
+        "condition": "'Accost_Proc' in [skill.nid for skill in unit.skills] or 'Accost_Proc' in [skill.nid for skill in target.skills]",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev1",
+            "#For some reason if the Unit has Accost, they will never initiate combat unless I code this in python",
+            "",
+            "#Accosting can only occur if both units are alive",
+            "if game.check_alive(unit.nid) and game.check_alive(target.nid):",
+            "    #If the unit is accosting, initiate from the unit.",
+            "    #Otherwise the target must be accosting",
+            "    if 'Accost' in [skill.nid for skill in unit.skills]:",
+            "        #Unit is accosting",
+            "        $interact unit.nid target.nid",
+            "    else:",
+            "        #Target is accosting",
+            "        $interact target.nid unit.nid"
+        ],
+        "nid": "Global accost_ability"
+    },
+    {
+        "name": "012_temp",
+        "trigger": "combat_end",
+        "level_nid": null,
+        "condition": "False",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev1",
+            "",
+            "print(unit)",
+            "",
+            "if 'Vantage' not in [skill.nid for skill in target.skills]:",
+            "    print(True)"
+        ],
+        "nid": "Global 012_temp"
+    },
+    {
+        "name": "miracle_fe4_ability",
+        "trigger": "combat_end",
+        "level_nid": null,
+        "condition": "'Miracle_FE4' in [skill.nid for skill in unit.skills] or 'Miracle_FE4' in [skill.nid for skill in target.skills]",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev1",
+            "",
+            "#Get whether or not the unit and target are allowed to trigger miracle again",
+            "unit_variable = unit.nid + \"_canMiracle\"",
+            "unit_check = game.level_vars[unit_variable]",
+            "target_variable = target.nid + \"_canMiracle\"",
+            "target_check = game.level_vars[target_variable]",
+            "",
+            "print(unit_variable,unit_check)",
+            "print(target_variable,target_check)",
+            "",
+            "if 'Miracle_FE4' in [skill.nid for skill in unit.skills] and unit.get_hp() <= 10 and unit_check:",
+            "    game.level_vars[unit_variable] = False",
+            "    $give_skill unit \"Miracle_FE4_proc\",no_banner",
+            "",
+            "if 'Miracle_FE4' in [skill.nid for skill in target.skills] and target.get_hp() <= 10 and target_check:",
+            "    game.level_vars[target_variable] = False",
+            "    $give_skill target \"Miracle_FE4_proc\",no_banner"
+        ],
+        "nid": "Global miracle_fe4_ability"
+    },
+    {
+        "name": "miracle_fe4_ability_pre",
+        "trigger": "combat_end",
+        "level_nid": null,
+        "condition": "'Miracle_FE4' in [skill.nid for skill in unit.skills] or 'Miracle_FE4' in [skill.nid for skill in target.skills]",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev1",
+            "",
+            "#Since FE4 miracle only lasts for one turn, we have to run this check in order to make sure units don't get a Miracle dodge bonus that lasts longer than one turn",
+            "if 'Miracle_FE4' in [skill.nid for skill in unit.skills] and unit.get_hp() > 10:",
+            "    #This unit is allowed to proc Miracle",
+            "    unit_variable = unit.nid + \"_canMiracle\"",
+            "    game.level_vars[unit_variable] = True",
+            "",
+            "if 'Miracle_FE4' in [skill.nid for skill in target.skills] and target.get_hp() > 10:",
+            "    #This unit is allowed to proc Miracle",
+            "    unit_variable = target.nid + \"_canMiracle\"",
+            "    game.level_vars[unit_variable] = True"
+        ],
+        "nid": "Global miracle_fe4_ability_pre"
     }
 ]

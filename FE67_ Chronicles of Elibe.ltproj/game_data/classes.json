@@ -2105,7 +2105,7 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 null
@@ -2115,12 +2115,12 @@
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
             ],
-            "Dark": [
+            "Thunder": [
                 false,
                 0,
                 null
@@ -2214,6 +2214,10 @@
             [
                 1,
                 "Critical"
+            ],
+            [
+                1,
+                "Pursuit"
             ]
         ],
         "wexp_gain": {
@@ -2357,6 +2361,10 @@
             [
                 1,
                 "Critical"
+            ],
+            [
+                1,
+                "Pursuit"
             ]
         ],
         "wexp_gain": {
@@ -2499,6 +2507,10 @@
             [
                 1,
                 "Critical"
+            ],
+            [
+                1,
+                "Pursuit"
             ]
         ],
         "wexp_gain": {
@@ -2638,6 +2650,10 @@
             [
                 1,
                 "Critical"
+            ],
+            [
+                1,
+                "Pursuit"
             ]
         ],
         "wexp_gain": {
@@ -2927,6 +2943,10 @@
             [
                 1,
                 "Critical"
+            ],
+            [
+                1,
+                "Pursuit"
             ]
         ],
         "wexp_gain": {
@@ -9353,7 +9373,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -9363,15 +9383,15 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
-            ],
-            "Dark": [
-                false,
-                0,
-                4
             ],
             "Default": [
                 false,
@@ -9488,7 +9508,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -9498,15 +9518,15 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
-            ],
-            "Dark": [
-                false,
-                0,
-                4
             ],
             "Default": [
                 false,
@@ -9597,12 +9617,12 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                71,
+                1,
                 4
             ],
             "Lance": [
                 true,
-                71,
+                1,
                 4
             ],
             "Axe": [
@@ -9625,7 +9645,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -9635,15 +9655,15 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
-            ],
-            "Dark": [
-                false,
-                0,
-                4
             ],
             "Default": [
                 false,
@@ -9732,12 +9752,12 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                181,
+                1,
                 4
             ],
             "Lance": [
                 true,
-                181,
+                1,
                 4
             ],
             "Axe": [
@@ -9760,7 +9780,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -9770,15 +9790,15 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
-            ],
-            "Dark": [
-                false,
-                0,
-                4
             ],
             "Default": [
                 false,
@@ -9884,7 +9904,7 @@
             ],
             "Bow": [
                 true,
-                71,
+                1,
                 4
             ],
             "Staff": [
@@ -9897,7 +9917,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -9907,15 +9927,15 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
-            ],
-            "Dark": [
-                false,
-                0,
-                4
             ],
             "Default": [
                 false,
@@ -10019,7 +10039,7 @@
             ],
             "Bow": [
                 true,
-                181,
+                3,
                 4
             ],
             "Staff": [
@@ -10032,7 +10052,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -10042,15 +10062,15 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
-            ],
-            "Dark": [
-                false,
-                0,
-                4
             ],
             "Default": [
                 false,
@@ -10170,9 +10190,9 @@
                 0,
                 4
             ],
-            "Wind": [
-                false,
-                0,
+            "Dark": [
+                true,
+                1,
                 4
             ],
             "Fire": [
@@ -10180,15 +10200,15 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
-            ],
-            "Dark": [
-                true,
-                71,
-                4
             ],
             "Default": [
                 false,
@@ -10306,9 +10326,9 @@
                 0,
                 4
             ],
-            "Wind": [
-                false,
-                0,
+            "Dark": [
+                true,
+                3,
                 4
             ],
             "Fire": [
@@ -10316,15 +10336,15 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
-            ],
-            "Dark": [
-                true,
-                181,
-                4
             ],
             "Default": [
                 false,
@@ -10350,7 +10370,6 @@
         "promotes_from": null,
         "turns_into": [],
         "tags": [
-            "Dragon",
             "ArenaIgnore"
         ],
         "max_level": 40,
@@ -10594,7 +10613,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -10604,15 +10623,15 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
-            ],
-            "Dark": [
-                false,
-                0,
-                4
             ],
             "Default": [
                 false,
@@ -10738,7 +10757,7 @@
                 0,
                 4
             ],
-            "Wind": [
+            "Dark": [
                 false,
                 0,
                 4
@@ -10748,15 +10767,15 @@
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Thunder": [
                 false,
                 0,
                 null
-            ],
-            "Dark": [
-                false,
-                0,
-                4
             ],
             "Default": [
                 false,
