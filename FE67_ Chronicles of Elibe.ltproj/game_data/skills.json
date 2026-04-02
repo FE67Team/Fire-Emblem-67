@@ -2724,6 +2724,38 @@
         ]
     },
     {
+        "nid": "Desert_Fox",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Acrobat' not in unit.skills"
+            ],
+            [
+                "multi_skill",
+                [
+                    "Desert_Fox_lightfoot",
+                    "Desert_Fox_armor",
+                    "Desert_Fox_heavycav",
+                    "Desert_Fox_lightcav",
+                    "Desert_Fox_regular",
+                    "Desert_Fox_bandit",
+                    "Desert_Fox_pirate"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Desert_Fox_lightfoot",
         "name": "Desert Fox",
         "desc": "Movement is unimpeded by Desert terrain.",
@@ -2738,8 +2770,16 @@
                 null
             ],
             [
+                "condition",
+                "'Light Foot' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "DFox LFoot"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -2758,8 +2798,16 @@
                 null
             ],
             [
+                "condition",
+                "'Armors' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "DFox Armor"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -2778,8 +2826,16 @@
                 null
             ],
             [
+                "condition",
+                "'Heavy Cav' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "DFox HCav"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -2798,48 +2854,16 @@
                 null
             ],
             [
+                "condition",
+                "'Light Cav' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "DFox LCav"
-            ]
-        ]
-    },
-    {
-        "nid": "Desert_Fox_regular",
-        "name": "Desert Fox",
-        "desc": "Movement is unimpeded by Desert terrain.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            1,
-            10
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
             ],
             [
-                "movement_type",
-                "DFox Regular"
-            ]
-        ]
-    },
-    {
-        "nid": "Desert_Fox_bandit",
-        "name": "Desert Fox",
-        "desc": "Movement is unimpeded by Desert terrain.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            1,
-            10
-        ],
-        "components": [
-            [
-                "class_skill",
+                "hidden",
                 null
-            ],
-            [
-                "movement_type",
-                "DFox Bandit"
             ]
         ]
     },
@@ -2858,8 +2882,72 @@
                 null
             ],
             [
+                "condition",
+                "'Pirate' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "DFox Pirate"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_regular",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Regular' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
+                "movement_type",
+                "DFox Regular"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Desert_Fox_bandit",
+        "name": "Desert Fox",
+        "desc": "Movement is unimpeded by Desert terrain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Bandits' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
+                "movement_type",
+                "DFox Bandit"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -2968,6 +3056,30 @@
         ]
     },
     {
+        "nid": "Acrobat",
+        "name": "Acrobat",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "multi_skill",
+                [
+                    "Acrobat_land_locked",
+                    "Acrobat_with_rivers",
+                    "Acrobat_pirate"
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Acrobat_land_locked",
         "name": "Acrobat land locked",
         "desc": "Movement treats all accesible terrain as if it were a plain.",
@@ -2982,8 +3094,16 @@
                 null
             ],
             [
+                "condition",
+                "'Armors', 'Heavy Cav', 'Light Cav', 'Regular' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "Acrobat (Land)"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -3002,8 +3122,16 @@
                 null
             ],
             [
+                "condition",
+                "'Light Foot', 'Bandit' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "Acrobat (+River)"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -3022,8 +3150,16 @@
                 null
             ],
             [
+                "condition",
+                "'Pirate' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
                 "movement_type",
                 "Acrobat (Pirate)"
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -3118,16 +3254,16 @@
         ],
         "components": [
             [
-                "class_skill",
-                null
-            ],
-            [
                 "condition",
                 "unit.level < 15"
             ],
             [
                 "enemy_exp_multiplier",
                 2.0
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
@@ -3142,16 +3278,16 @@
         ],
         "components": [
             [
-                "hidden",
-                null
-            ],
-            [
                 "condition",
                 "unit.level >= 15"
             ],
             [
                 "enemy_exp_multiplier",
                 1.2
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     },
