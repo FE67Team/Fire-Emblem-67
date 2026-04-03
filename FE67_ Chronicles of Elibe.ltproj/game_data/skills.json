@@ -1043,7 +1043,7 @@
     {
         "nid": "Charm_child",
         "name": "Charm child",
-        "desc": " Grants +10 Hit/Avoid",
+        "desc": "Grants +10 Hit/Avoid",
         "icon_nid": "Fe4-skills",
         "icon_index": [
             7,
@@ -2704,7 +2704,7 @@
     {
         "nid": "Anti_Dragonblood",
         "name": "Anti Dragonblood",
-        "desc": "Deal 2x effective damage against units with Dragonblood.\nDoesn't apply to Manaketes, as they're vulnerable to anti-dragon weapons by default.",
+        "desc": "Deal 2x effective damage against units with Dragonblood.\nThis is the skill that Manaketes use.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -2997,18 +2997,24 @@
             ],
             [
                 "combat_condition",
-                "target.stats['SPD'] - unit.stats['SPD'] >= 4 and 'Pursuit' in [skill.nid for skill in target.skills]"
+                "target.stats['SPD'] - unit.stats['SPD'] >= 4 and 'Pursuit' in [skill.nid for skill in target.skills] and 'Wary_Fighter' not in [skill.nid for skill in unit.skills]"
             ],
             [
                 "resist_multiplier",
                 0.5
+            ],
+            [
+                "nihil",
+                [
+                    "Wary_Fighter"
+                ]
             ]
         ]
     },
     {
         "nid": "Wary_Fighter",
         "name": "Wary Fighter",
-        "desc": "",
+        "desc": "Neither this unit nor their enemies can use follow-up attacks.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             4,
@@ -3024,7 +3030,7 @@
     {
         "nid": "Critical_Force",
         "name": "Critical Force",
-        "desc": "Add Skill*2 to Crit.",
+        "desc": "Adds Skill*2 to Crit.",
         "icon_nid": "Fe4-skills",
         "icon_index": [
             3,
@@ -3044,7 +3050,7 @@
     {
         "nid": "Critical_Meh",
         "name": "Critical",
-        "desc": "Add Skill to Crit.",
+        "desc": "Adds Skill to Crit.",
         "icon_nid": "Fe4-skills",
         "icon_index": [
             2,
@@ -3068,7 +3074,7 @@
     {
         "nid": "Heavy_Strikes",
         "name": "Heavy Strikes",
-        "desc": "Adds your Weapon's Weight to your Crit.",
+        "desc": "Adds Weapon Weight to Crit.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             7,
@@ -3104,6 +3110,10 @@
                 [
                     "Acrobat_land_locked",
                     "Acrobat_with_rivers",
+                    "Acrobat_armors",
+                    "Acrobat_heavycav",
+                    "Acrobat_lightcav",
+                    "Acrobat_bandit",
                     "Acrobat_pirate"
                 ]
             ]
@@ -3125,7 +3135,7 @@
             ],
             [
                 "condition",
-                "'Armors', 'Heavy Cav', 'Light Cav', 'Regular' in game.get_klass(unit.nid).movement_group"
+                "'Mages', 'Regular' in game.get_klass(unit.nid).movement_group"
             ],
             [
                 "movement_type",
@@ -3153,11 +3163,123 @@
             ],
             [
                 "condition",
-                "'Light Foot', 'Bandit' in game.get_klass(unit.nid).movement_group"
+                "'Light Foot' in game.get_klass(unit.nid).movement_group"
             ],
             [
                 "movement_type",
                 "Acrobat (+River)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Acrobat_armors",
+        "name": "Acrobat",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Armors' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
+                "movement_type",
+                "Acrobat (Armor)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Acrobat_heavycav",
+        "name": "Acrobat",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Heavy Cav' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
+                "movement_type",
+                "Acrobat (HeavyCav)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Acrobat_lightcav",
+        "name": "Acrobat",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Light Cav' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
+                "movement_type",
+                "Acrobat (LightCav)"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Acrobat_bandit",
+        "name": "Acrobat",
+        "desc": "Movement treats all accesible terrain as if it were a plain.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "'Bandit' in game.get_klass(unit.nid).movement_group"
+            ],
+            [
+                "movement_type",
+                "Acrobat (Bandit)"
             ],
             [
                 "hidden",
@@ -3300,7 +3422,7 @@
     {
         "nid": "Paragon_2",
         "name": "Paragon",
-        "desc": "Doubles EXP until level 15.{br}1.2x EXP for all levels afterward.\nA unit will need to have both Paragon skills in order for it to function properly.\nThis means if you want to remove Paragon you will also need to remove both.",
+        "desc": "Doubles EXP until level 15.{br}1.2x EXP for all levels afterward.",
         "icon_nid": "Skills",
         "icon_index": [
             1,
@@ -3380,7 +3502,7 @@
     {
         "nid": "Convoy",
         "name": "Convoy",
-        "desc": "Unit provides convoy access to adjacent allies.",
+        "desc": "Provides convoy access to adjacent allies.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
