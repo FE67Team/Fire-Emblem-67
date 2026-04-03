@@ -4375,7 +4375,6 @@
             "",
             "#Check if the combat initiator killed their target",
             "if game.check_alive(target.nid) == False:",
-            "    unitWpn.kills += 50",
             "    unitWpn.kills += 1",
             "    ",
             "    #Updates the weapon's crit if it's elligible",
