@@ -105,5 +105,9 @@
     {
         "nid": "Fe4-skills",
         "subicon_dict": {}
+    },
+    {
+        "nid": "New weapons",
+        "subicon_dict": {}
     }
 ]

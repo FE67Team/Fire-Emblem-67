@@ -142,5 +142,9 @@
     {
         "nid": "Always",
         "expression": "100"
+    },
+    {
+        "nid": "TIENA_STAFF",
+        "expression": "MAG + 15"
     }
 ]
