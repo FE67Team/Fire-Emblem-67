@@ -1910,30 +1910,6 @@
         ]
     },
     {
-        "nid": "AnimaOverride",
-        "name": "AnimaOverride",
-        "desc": "(Allows Wind Sword to count as Anima magic at range.)",
-        "icon_nid": "wexp_icons",
-        "icon_index": [
-            0,
-            6
-        ],
-        "components": [
-            [
-                "hidden",
-                null
-            ],
-            [
-                "combat_condition",
-                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
-            ],
-            [
-                "item_override",
-                "AnimaOverride"
-            ]
-        ]
-    },
-    {
         "nid": "DarkOverride",
         "name": "DarkOverride",
         "desc": "(Allows Runesword to count as Dark magic at range.)",
@@ -1954,6 +1930,78 @@
             [
                 "item_override",
                 "DarkOverride"
+            ]
+        ]
+    },
+    {
+        "nid": "FireOverride",
+        "name": "FireOverride",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
+            ],
+            [
+                "item_override",
+                "FireOverride"
+            ]
+        ]
+    },
+    {
+        "nid": "ThunderOverride",
+        "name": "ThunderOverride",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
+            ],
+            [
+                "item_override",
+                "ThunderOverride"
+            ]
+        ]
+    },
+    {
+        "nid": "WindOverride",
+        "name": "new_1",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "unit.position and (utils.calculate_distance(unit.position, unit2.position) > 1)"
+            ],
+            [
+                "item_override",
+                "WindOverride"
             ]
         ]
     },

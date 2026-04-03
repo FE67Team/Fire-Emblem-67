@@ -1218,10 +1218,10 @@
         "nid": "Mani_Katti",
         "name": "Mani Katti",
         "desc": "Lyn Only, effective against horseback and armoured units",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
+            1,
+            3
         ],
         "components": [
             [
@@ -1305,6 +1305,81 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ]
+        ]
+    },
+    {
+        "nid": "Al_Sword",
+        "name": "Al Sword",
+        "desc": "",
+        "icon_nid": "New weapons",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                8000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
             ]
         ]
     },
@@ -1402,10 +1477,10 @@
         "nid": "Wo_Dao",
         "name": "Wo Dao",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
+            4,
+            3
         ],
         "components": [
             [
@@ -1654,160 +1729,10 @@
         "nid": "Flame_Sword",
         "name": "Flame Sword",
         "desc": "Uses MAG to determine damage.",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "damage",
-                5
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "uses",
-                50
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                320
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ]
-        ]
-    },
-    {
-        "nid": "Bolt_Sword",
-        "name": "Bolt Sword",
-        "desc": "Uses MAG to determine damage.",
-        "icon_nid": null,
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "damage",
-                5
-            ],
-            [
-                "hit",
-                90
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                5
-            ],
-            [
-                "uses",
-                50
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                320
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Sword"
-            ],
-            [
-                "weapon_rank",
-                "C"
-            ]
-        ]
-    },
-    {
-        "nid": "Wind_Sword",
-        "name": "Wind Sword",
-        "desc": "Uses MAG to determine damage. Effective against fliers.",
-        "icon_nid": "Sword",
-        "icon_index": [
-            0,
-            20
+            4,
+            1
         ],
         "components": [
             [
@@ -1832,11 +1757,15 @@
             ],
             [
                 "damage",
-                9
+                12
             ],
             [
                 "hit",
-                70
+                60
+            ],
+            [
+                "crit",
+                0
             ],
             [
                 "weight",
@@ -1875,11 +1804,181 @@
             ],
             [
                 "battle_cast_anim",
+                "Elfire"
+            ],
+            [
+                "status_on_equip",
+                "FireOverride"
+            ]
+        ]
+    },
+    {
+        "nid": "Bolt_Sword",
+        "name": "Bolt Sword",
+        "desc": "Uses MAG to determine damage.",
+        "icon_nid": "New weapons",
+        "icon_index": [
+            4,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                320
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "battle_cast_anim",
+                "Thunder"
+            ],
+            [
+                "status_on_equip",
+                "ThunderOverride"
+            ]
+        ]
+    },
+    {
+        "nid": "Wind_Sword",
+        "name": "Wind Sword",
+        "desc": "Uses MAG to determine damage. Effective against fliers.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            20
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "battle_cast_anim",
                 "Gustblade"
             ],
             [
                 "status_on_equip",
-                "AnimaOverride"
+                "WindOverride"
             ],
             [
                 "effective_damage",
@@ -2085,9 +2184,9 @@
         "nid": "Regal_Blade",
         "name": "Regal blade",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
+            1,
             0
         ],
         "components": [
@@ -2160,10 +2259,10 @@
         "nid": "Sol_Katti",
         "name": "Sol Katti",
         "desc": "Magic +5.",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
+            1,
+            4
         ],
         "components": [
             [
@@ -2245,10 +2344,10 @@
         "nid": "Durandal",
         "name": "Durandal",
         "desc": "Strength +5. Effective against monsters",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
+            1,
+            1
         ],
         "components": [
             [
@@ -2337,10 +2436,10 @@
         "nid": "Binding_Blade",
         "name": "Binding Blade",
         "desc": "Bestows bonuses of +5 Def and +5 Mag upon its wielder. May be used as a consumable item in order to restore 30 HP.",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
+            1,
+            2
         ],
         "components": [
             [
@@ -2426,6 +2525,81 @@
                     "Magic_Plus5",
                     "Binding_Blade_Heal"
                 ]
+            ]
+        ]
+    },
+    {
+        "nid": "Eckesachs",
+        "name": "Eckesachs",
+        "desc": "",
+        "icon_nid": "New weapons",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                15
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                50000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "S"
             ]
         ]
     },
@@ -3192,6 +3366,77 @@
         ]
     },
     {
+        "nid": "Gant_Lance",
+        "name": "Gant Lance",
+        "desc": "",
+        "icon_nid": "New weapons",
+        "icon_index": [
+            3,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                8000
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ]
+        ]
+    },
+    {
         "nid": "Horseslayer",
         "name": "Horseslayer",
         "desc": "Effective against horseback units",
@@ -3821,10 +4066,10 @@
         "nid": "Rex_Hasta",
         "name": "Rex Hasta",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
+            2,
+            2
         ],
         "components": [
             [
@@ -3896,10 +4141,10 @@
         "nid": "Maltet",
         "name": "Maltet",
         "desc": "Skill +5. Effective against monsters",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
+            2,
+            3
         ],
         "components": [
             [
@@ -4292,10 +4537,10 @@
         "nid": "Wolf_Bail",
         "name": "Wolf Bail",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
+            2,
+            4
         ],
         "components": [
             [
@@ -5457,9 +5702,9 @@
         "nid": "Basilikos",
         "name": "Basilikos",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
+            2,
             0
         ],
         "components": [
@@ -5532,10 +5777,10 @@
         "nid": "Armads",
         "name": "Armads",
         "desc": "Defence +5. Effective against monsters",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
+            2,
+            1
         ],
         "components": [
             [
@@ -6424,9 +6669,9 @@
         "nid": "Rienfleche",
         "name": "Rienfleche",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
+            3,
             0
         ],
         "components": [
@@ -6511,10 +6756,10 @@
         "nid": "Mulagir",
         "name": "Mulagir",
         "desc": "Speed +5. Effective against monsters",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
-            0
+            3,
+            1
         ],
         "components": [
             [
@@ -7232,6 +7477,81 @@
             [
                 "weapon_rank",
                 "A"
+            ]
+        ]
+    },
+    {
+        "nid": "Tiena_staff",
+        "name": "Tiena staff",
+        "desc": "",
+        "icon_nid": "New weapons",
+        "icon_index": [
+            3,
+            4
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "equation_heal",
+                "TIENA_STAFF"
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                0
+            ],
+            [
+                "exp",
+                15
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
             ]
         ]
     },
@@ -8352,9 +8672,9 @@
         "nid": "Saints_Staff",
         "name": "Saint's Staff",
         "desc": "Restores HP and condition of all allied units.",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
-            0,
+            4,
             0
         ],
         "components": [
@@ -8957,10 +9277,10 @@
         "nid": "Luce",
         "name": "Luce",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -9044,7 +9364,7 @@
         "nid": "Aureola",
         "name": "Aureola",
         "desc": "Magic +5. Effective against monsters",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
             0,
             0
@@ -11129,10 +11449,10 @@
         "nid": "Gespenst",
         "name": "Gespenst",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
@@ -11216,10 +11536,10 @@
         "nid": "Apocalypse",
         "name": "Apocalypse",
         "desc": "Magic +5. Effective against monsters",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
             0,
-            0
+            3
         ],
         "components": [
             [
@@ -11320,10 +11640,10 @@
         "nid": "Ereshkigal",
         "name": "Ereshkigal",
         "desc": "",
-        "icon_nid": null,
+        "icon_nid": "New weapons",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
@@ -14131,22 +14451,6 @@
         ]
     },
     {
-        "nid": "AnimaOverride",
-        "name": "AnimaOverride",
-        "desc": "",
-        "icon_nid": "wexp_icons",
-        "icon_index": [
-            0,
-            6
-        ],
-        "components": [
-            [
-                "weapon_triangle_override",
-                "Wind"
-            ]
-        ]
-    },
-    {
         "nid": "DarkOverride",
         "name": "DarkOverride",
         "desc": "",
@@ -14159,6 +14463,54 @@
             [
                 "weapon_triangle_override",
                 "Dark"
+            ]
+        ]
+    },
+    {
+        "nid": "FireOverride",
+        "name": "FireOverride",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon_triangle_override",
+                "Fire"
+            ]
+        ]
+    },
+    {
+        "nid": "ThunderOverride",
+        "name": "ThunderOverride",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon_triangle_override",
+                "Thunder"
+            ]
+        ]
+    },
+    {
+        "nid": "WindOverride",
+        "name": "new_2",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon_triangle_override",
+                "Wind"
             ]
         ]
     },
@@ -14835,6 +15187,18 @@
             [
                 "heal",
                 30
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "map_cast_pose",
+                null
             ]
         ]
     }
