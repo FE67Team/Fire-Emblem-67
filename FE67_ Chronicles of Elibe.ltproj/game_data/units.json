@@ -11,7 +11,7 @@
             "Female"
         ],
         "bases": {
-            "HP": 18,
+            "HP": 28,
             "STR": 5,
             "MAG": 0,
             "SKL": 10,
@@ -131,7 +131,7 @@
             "Male"
         ],
         "bases": {
-            "HP": 22,
+            "HP": 32,
             "STR": 9,
             "MAG": 0,
             "SKL": 5,
@@ -243,7 +243,7 @@
             "Male"
         ],
         "bases": {
-            "HP": 23,
+            "HP": 33,
             "STR": 8,
             "MAG": 1,
             "SKL": 7,
@@ -355,7 +355,7 @@
             "Male"
         ],
         "bases": {
-            "HP": 21,
+            "HP": 31,
             "STR": 6,
             "MAG": 1,
             "SKL": 5,
@@ -467,7 +467,7 @@
             "Male"
         ],
         "bases": {
-            "HP": 30,
+            "HP": 40,
             "STR": 7,
             "MAG": 0,
             "SKL": 7,
@@ -579,7 +579,7 @@
             "Female"
         ],
         "bases": {
-            "HP": 18,
+            "HP": 28,
             "STR": 6,
             "MAG": 5,
             "SKL": 8,
@@ -691,7 +691,7 @@
             "Male"
         ],
         "bases": {
-            "HP": 27,
+            "HP": 32,
             "STR": 9,
             "MAG": 2,
             "SKL": 10,
@@ -803,7 +803,7 @@
             "Male"
         ],
         "bases": {
-            "HP": 17,
+            "HP": 27,
             "STR": 2,
             "MAG": 5,
             "SKL": 6,
@@ -944,7 +944,7 @@
             "Male"
         ],
         "bases": {
-            "HP": 30,
+            "HP": 40,
             "STR": 13,
             "MAG": 2,
             "SKL": 7,
@@ -1056,7 +1056,7 @@
             "Male"
         ],
         "bases": {
-            "HP": 30,
+            "HP": 40,
             "STR": 10,
             "MAG": 5,
             "SKL": 6,
@@ -1163,7 +1163,7 @@
             "Male"
         ],
         "bases": {
-            "HP": 14,
+            "HP": 24,
             "STR": 0,
             "MAG": 4,
             "SKL": 0,
@@ -1195,16 +1195,7 @@
             "SKL": 0,
             "HP": 0
         },
-        "starting_items": [
-            [
-                "Ninis_s_Grace",
-                false
-            ],
-            [
-                "Vulnerary",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [
             [
                 1,
