@@ -1871,7 +1871,7 @@
             ],
             [
                 "value",
-                320
+                10000
             ],
             [
                 "level_exp",
@@ -1974,7 +1974,7 @@
             ],
             [
                 "battle_cast_anim",
-                "Gustblade"
+                "Wind"
             ],
             [
                 "status_on_equip",
@@ -10677,7 +10677,7 @@
             ],
             [
                 "uses",
-                50
+                5
             ],
             [
                 "uses_options",
