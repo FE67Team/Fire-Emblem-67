@@ -9942,11 +9942,11 @@
         "fields": []
     },
     {
-        "nid": "Arc_Sage",
-        "name": "Arc Sage",
+        "nid": "Arcsage",
+        "name": "Arcsage",
         "desc": "",
         "tier": 2,
-        "movement_group": "Light Foot",
+        "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [],
         "tags": [
@@ -9954,24 +9954,24 @@
         ],
         "max_level": 40,
         "bases": {
-            "HP": 0,
+            "HP": 18,
             "STR": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "SKL": 4,
+            "SPD": 5,
             "LCK": 0,
-            "DEF": 0,
-            "MAG": 0,
-            "MOV": 0,
-            "CON": 0
+            "DEF": 3,
+            "MAG": 9,
+            "MOV": 6,
+            "CON": 7
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "MAG": 0,
+            "HP": 45,
+            "STR": 5,
+            "SKL": 30,
+            "SPD": 25,
+            "LCK": 20,
+            "DEF": 10,
+            "MAG": 55,
             "MOV": 0,
             "CON": 0
         },
@@ -10076,8 +10076,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Sage",
-        "combat_anim_nid": "Sage",
+        "map_sprite_nid": "Archsage (M) {IS}-stand",
+        "combat_anim_nid": "Arcsage",
         "fields": []
     },
     {

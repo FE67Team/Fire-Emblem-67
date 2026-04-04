@@ -6177,7 +6177,7 @@
         "desc": "An Archsage. One of the eight legendary Heroes.",
         "variant": null,
         "level": 40,
-        "klass": "Arc_Sage",
+        "klass": "Arcsage",
         "tags": [
             "Male"
         ],
