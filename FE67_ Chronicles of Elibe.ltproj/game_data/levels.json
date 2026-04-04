@@ -2789,6 +2789,19 @@
                 "generic": false
             },
             {
+                "nid": "Athos",
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Rebecca",
                 "team": "other",
                 "ai": "Guard",
@@ -3200,7 +3213,12 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "3",
