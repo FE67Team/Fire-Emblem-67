@@ -6186,7 +6186,7 @@
         "desc": "An Archsage. One of the eight legendary Heroes.",
         "variant": null,
         "level": 40,
-        "klass": "Sage",
+        "klass": "Arc_Sage",
         "tags": [
             "Male"
         ],
@@ -6225,7 +6225,7 @@
         },
         "starting_items": [
             [
-                "Fire",
+                "Meteor",
                 false
             ]
         ],
@@ -6259,7 +6259,7 @@
             ],
             "Light": [
                 false,
-                0,
+                4,
                 251
             ],
             "Anima": [
@@ -6269,7 +6269,7 @@
             ],
             "Dark": [
                 false,
-                0,
+                4,
                 251
             ],
             "Default": [
