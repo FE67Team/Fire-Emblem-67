@@ -447,7 +447,7 @@
     {
         "nid": "ResistPlus",
         "name": "Resist+",
-        "desc": "Grants additional RES.",
+        "desc": "Grants additional MAG.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
