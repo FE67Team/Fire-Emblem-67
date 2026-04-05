@@ -388,6 +388,27 @@
         ]
     },
     {
+        "nid": "Movement_Plus3",
+        "name": "Movement Plus3",
+        "desc": "Grants MOV +3.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            21
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Dragonstone",
         "name": "Dragonstone",
         "desc": "Grants STR +12, SKL +12, DEF +15, RES+20.",
@@ -411,6 +432,158 @@
                     [
                         "DEF",
                         15
+                    ],
+                    [
+                        "MAG",
+                        20
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Divine_Dragonstone",
+        "name": "Divine Dragonstone",
+        "desc": "Grants STR +12, SKL +12, DEF +15, RES+20.",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        12
+                    ],
+                    [
+                        "SKL",
+                        12
+                    ],
+                    [
+                        "DEF",
+                        15
+                    ],
+                    [
+                        "MAG",
+                        20
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Fire_Dragonstone",
+        "name": "Fire Dragonstone",
+        "desc": "Grants STR +10, SKL +10, DEF +20, MAG+5.",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        10
+                    ],
+                    [
+                        "SKL",
+                        10
+                    ],
+                    [
+                        "DEF",
+                        20
+                    ],
+                    [
+                        "MAG",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Demon_Dragonstone",
+        "name": "Demon Dragonstone",
+        "desc": "Grants STR +15, SKL +15, DEF +20, RES+15.",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        15
+                    ],
+                    [
+                        "SKL",
+                        15
+                    ],
+                    [
+                        "DEF",
+                        20
+                    ],
+                    [
+                        "MAG",
+                        15
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Flametongue",
+        "name": "Flametongue",
+        "desc": "Grants STR +10, SKL +10, DEF +20, MAG+10.",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        10
+                    ],
+                    [
+                        "SKL",
+                        10
+                    ],
+                    [
+                        "DEF",
+                        20
+                    ],
+                    [
+                        "MAG",
+                        10
                     ]
                 ]
             ],

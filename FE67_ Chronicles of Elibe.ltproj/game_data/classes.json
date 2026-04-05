@@ -108,15 +108,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -260,15 +260,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -416,15 +416,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -567,15 +567,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -722,15 +722,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -850,12 +850,12 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
@@ -976,12 +976,12 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
@@ -1108,12 +1108,12 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
@@ -1377,12 +1377,12 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
@@ -1513,12 +1513,12 @@
                 0,
                 null
             ],
-            "Wind": [
+            "Thunder": [
                 false,
                 0,
                 null
             ],
-            "Thunder": [
+            "Wind": [
                 false,
                 0,
                 null
@@ -2431,15 +2431,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -2588,15 +2588,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -2744,15 +2744,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -2897,15 +2897,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -3210,15 +3210,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -3236,7 +3236,7 @@
                 4
             ]
         },
-        "icon_nid": "Generic_Portrait_Assassin",
+        "icon_nid": "Assassin (M) Dual-Swords-Generic {Leif, Scraiza, Sword of HaE}",
         "icon_index": [
             0,
             0
@@ -3516,15 +3516,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -3663,15 +3663,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -3820,15 +3820,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -3977,15 +3977,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -4003,7 +4003,7 @@
                 4
             ]
         },
-        "icon_nid": "Generic_Portrait_Cavalier",
+        "icon_nid": "Cavalier (M) Sword {FPzero}",
         "icon_index": [
             0,
             0
@@ -4134,15 +4134,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -4291,15 +4291,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -4317,7 +4317,7 @@
                 4
             ]
         },
-        "icon_nid": "Generic_Portrait_Cavalier",
+        "icon_nid": "Cavalier (M) Axe {Blademaster}",
         "icon_index": [
             0,
             0
@@ -4445,15 +4445,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -4600,15 +4600,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -4757,15 +4757,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -4911,15 +4911,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -5215,15 +5215,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -5241,7 +5241,7 @@
                 4
             ]
         },
-        "icon_nid": "Generic_Portrait_Knight",
+        "icon_nid": "Knight (U) Sword {Der, Epicer}",
         "icon_index": [
             0,
             0
@@ -5367,15 +5367,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -5393,7 +5393,7 @@
                 4
             ]
         },
-        "icon_nid": "Generic_Portrait_Knight",
+        "icon_nid": "Knight (U) Axe {Der, Epicer}",
         "icon_index": [
             0,
             0
@@ -5520,15 +5520,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -5673,15 +5673,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -5823,15 +5823,15 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
             ],
             "Default": [
                 false,
@@ -9793,6 +9793,581 @@
         "fields": []
     },
     {
+        "nid": "Arcsage",
+        "name": "Arcsage",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Mages",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 18,
+            "STR": 0,
+            "SKL": 4,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 3,
+            "MAG": 9,
+            "MOV": 6,
+            "CON": 7
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 5,
+            "SKL": 30,
+            "SPD": 25,
+            "LCK": 20,
+            "DEF": 10,
+            "MAG": 55,
+            "MOV": 0,
+            "CON": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 30,
+            "MAG": 30,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                4,
+                null
+            ],
+            "Light": [
+                true,
+                1,
+                null
+            ],
+            "Dark": [
+                true,
+                1,
+                null
+            ],
+            "Fire": [
+                true,
+                1,
+                null
+            ],
+            "Thunder": [
+                true,
+                1,
+                null
+            ],
+            "Wind": [
+                true,
+                1,
+                null
+            ],
+            "Default": [
+                true,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Archsage",
+        "combat_anim_nid": null,
+        "fields": []
+    },
+    {
+        "nid": "Transporter",
+        "name": "Transporter",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Light Cav",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 15,
+            "STR": 0,
+            "SKL": 3,
+            "SPD": 3,
+            "LCK": 0,
+            "DEF": 3,
+            "MAG": 3,
+            "MOV": 5,
+            "CON": 25
+        },
+        "growths": {
+            "HP": 10,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Convoy"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Transporter",
+        "combat_anim_nid": null,
+        "fields": []
+    },
+    {
+        "nid": "Manakete_Fae",
+        "name": "Manakete",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Regular",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 12,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 1,
+            "MAG": 1,
+            "MOV": 5,
+            "CON": 1
+        },
+        "growths": {
+            "HP": 95,
+            "STR": 40,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 0,
+            "DEF": 20,
+            "MAG": 25,
+            "MOV": 0,
+            "CON": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Dragonblood"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Manakete (M) {IS}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Manakete Divine ",
+        "combat_anim_nid": "Manakete_Fae",
+        "fields": []
+    },
+    {
+        "nid": "Manakete",
+        "name": "Manakete",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Regular",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "ArenaIgnore"
+        ],
+        "max_level": 40,
+        "bases": {
+            "HP": 20,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 2,
+            "CON": 5,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 95,
+            "STR": 40,
+            "MAG": 40,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 25,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "CON": 25,
+            "MOV": 15
+        },
+        "learned_skills": [
+            [
+                1,
+                "Dragonblood"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                4
+            ],
+            "Lance": [
+                false,
+                0,
+                4
+            ],
+            "Axe": [
+                false,
+                0,
+                4
+            ],
+            "Bow": [
+                false,
+                0,
+                4
+            ],
+            "Staff": [
+                false,
+                0,
+                4
+            ],
+            "Light": [
+                false,
+                0,
+                4
+            ],
+            "Dark": [
+                false,
+                0,
+                4
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
+            "Default": [
+                false,
+                0,
+                4
+            ],
+            "Wind_1": [
+                false,
+                0,
+                null
+            ],
+            "": [
+                false,
+                0,
+                4
+            ]
+        },
+        "icon_nid": "Manakete (M) {IS}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Manakete",
+        "combat_anim_nid": "Manakete",
+        "fields": []
+    },
+    {
         "nid": "Necromancer",
         "name": "Necromancer",
         "desc": "Master of the Dark Stone who uses dark magic to command corpses.",
@@ -9932,7 +10507,7 @@
                 null
             ]
         },
-        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_nid": "Druid (M) Magic {IS}",
         "icon_index": [
             0,
             0
@@ -9942,18 +10517,40 @@
         "fields": []
     },
     {
-        "nid": "Arc_Sage",
-        "name": "Arc Sage",
+        "nid": "Dark_Druid",
+        "name": "Dark Druid",
         "desc": "",
         "tier": 2,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
+        "movement_group": "Mages",
+        "promotes_from": "Shaman",
         "turns_into": [],
         "tags": [
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
+            "HP": 75,
+            "STR": 15,
+            "SKL": 18,
+            "SPD": 15,
+            "LCK": 0,
+            "DEF": 28,
+            "MAG": 30,
+            "MOV": 20,
+            "CON": 0
+        },
+        "growths": {
+            "HP": 10,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "growth_bonus": {
             "HP": 0,
             "STR": 0,
             "SKL": 0,
@@ -9964,7 +10561,7 @@
             "MOV": 0,
             "CON": 0
         },
-        "growths": {
+        "promotion": {
             "HP": 0,
             "STR": 0,
             "SKL": 0,
@@ -9972,6 +10569,681 @@
             "LCK": 0,
             "DEF": 0,
             "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "max_stats": {
+            "HP": 80,
+            "STR": 30,
+            "SKL": 25,
+            "SPD": 25,
+            "LCK": 30,
+            "DEF": 30,
+            "MAG": 30,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                true,
+                1,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                true,
+                1,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Dark Druid (M) Magic {CamusZekeSirius}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Dark Druid",
+        "combat_anim_nid": null,
+        "fields": []
+    },
+    {
+        "nid": "King",
+        "name": "King",
+        "desc": "",
+        "tier": 2,
+        "movement_group": "Armors",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [],
+        "max_level": 40,
+        "bases": {
+            "HP": 35,
+            "STR": 14,
+            "SKL": 5,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 15,
+            "MAG": 10,
+            "MOV": 5,
+            "CON": 17
+        },
+        "growths": {
+            "HP": 10,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "max_stats": {
+            "HP": 80,
+            "STR": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 30,
+            "MAG": 30,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "King",
+        "combat_anim_nid": "Duke",
+        "fields": []
+    },
+    {
+        "nid": "Manakete_Fire",
+        "name": "Mankakete",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Regular",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [],
+        "max_level": 40,
+        "bases": {
+            "HP": 20,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 1,
+            "MAG": 1,
+            "MOV": 5,
+            "CON": 5
+        },
+        "growths": {
+            "HP": 95,
+            "STR": 40,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 25,
+            "DEF": 0,
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "max_stats": {
+            "HP": 80,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 20,
+            "MAG": 20,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Dragonblood"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Manakete (M) {IS}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Manakete fire",
+        "combat_anim_nid": null,
+        "fields": []
+    },
+    {
+        "nid": "Fire_Dragon",
+        "name": "Fire Dragon",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Regular",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [],
+        "max_level": 40,
+        "bases": {
+            "HP": 120,
+            "STR": 17,
+            "SKL": 25,
+            "SPD": 15,
+            "LCK": 15,
+            "DEF": 20,
+            "MAG": 30,
+            "MOV": 8,
+            "CON": 25
+        },
+        "growths": {
+            "HP": 95,
+            "STR": 40,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 0,
+            "DEF": 20,
+            "MAG": 25,
+            "MOV": 0,
+            "CON": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "max_stats": {
+            "HP": 120,
+            "STR": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 30,
+            "MAG": 30,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Dragonblood"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Fire Dragon {IS}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Fire Dragon",
+        "combat_anim_nid": null,
+        "fields": []
+    },
+    {
+        "nid": "Demon_Dragon",
+        "name": "Demon Dragon",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Regular",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [],
+        "max_level": 40,
+        "bases": {
+            "HP": 120,
+            "STR": 25,
+            "SKL": 20,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 32,
+            "MAG": 21,
+            "MOV": 2,
+            "CON": 25
+        },
+        "growths": {
+            "HP": 10,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "CON": 0
+        },
+        "max_stats": {
+            "HP": 120,
+            "STR": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 30,
+            "DEF": 30,
+            "MAG": 30,
+            "MOV": 15,
+            "CON": 25
+        },
+        "learned_skills": [
+            [
+                1,
+                "Dragonblood"
+            ],
+            [
+                1,
+                "Critical"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                null
+            ],
+            "Lance": [
+                false,
+                0,
+                null
+            ],
+            "Axe": [
+                false,
+                0,
+                null
+            ],
+            "Bow": [
+                false,
+                0,
+                null
+            ],
+            "Staff": [
+                false,
+                0,
+                null
+            ],
+            "Light": [
+                false,
+                0,
+                null
+            ],
+            "Dark": [
+                false,
+                0,
+                null
+            ],
+            "Fire": [
+                false,
+                0,
+                null
+            ],
+            "Thunder": [
+                false,
+                0,
+                null
+            ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
+            "Default": [
+                false,
+                0,
+                null
+            ]
+        },
+        "icon_nid": "Manakete (M) {IS}",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Demon dragon stand",
+        "combat_anim_nid": null,
+        "fields": []
+    },
+    {
+        "nid": "Prince",
+        "name": "Prince",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Light Foot",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [],
+        "max_level": 20,
+        "bases": {
+            "HP": 10,
+            "STR": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "MOV": 5,
+            "CON": 7
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 20,
+            "DEF": 20,
+            "MAG": 20,
             "MOV": 0,
             "CON": 0
         },
@@ -10037,47 +11309,47 @@
             ],
             "Staff": [
                 false,
-                4,
+                0,
                 null
             ],
             "Light": [
-                true,
-                4,
+                false,
+                0,
                 null
             ],
             "Dark": [
-                true,
-                4,
+                false,
+                0,
                 null
             ],
             "Fire": [
-                true,
-                4,
+                false,
+                0,
                 null
             ],
             "Thunder": [
-                true,
-                4,
+                false,
+                0,
                 null
             ],
             "Wind": [
-                true,
-                4,
+                false,
+                0,
                 null
             ],
             "Default": [
-                true,
+                false,
                 0,
                 null
             ]
         },
-        "icon_nid": "Generic_Portrait_Citizen",
+        "icon_nid": null,
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Sage",
-        "combat_anim_nid": "Sage",
+        "map_sprite_nid": "Prince",
+        "combat_anim_nid": null,
         "fields": []
     },
     {

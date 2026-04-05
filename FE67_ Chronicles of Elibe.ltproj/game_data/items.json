@@ -13153,6 +13153,561 @@
         ]
     },
     {
+        "nid": "Divine_Dragonstone",
+        "name": "Divine Dragonstone",
+        "desc": "Effective against monsters",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                16
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "prf_tags",
+                [
+                    "Dragonblood"
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Divine_Dragonstone"
+            ],
+            [
+                "transform",
+                null
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Monster",
+                        "Dragonblood"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Fire_Dragonstone",
+        "name": "Fire Dragonstone",
+        "desc": "",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "prf_tags",
+                [
+                    "Dragonblood"
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Fire_Dragonstone"
+            ],
+            [
+                "transform",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Demon_Dragonstone",
+        "name": "Demon Dragonstone",
+        "desc": "Unused in game.",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "prf_tags",
+                [
+                    "Dragonblood"
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Demon_Dragonstone"
+            ]
+        ]
+    },
+    {
+        "nid": "Flametongue",
+        "name": "Flametongue",
+        "desc": "",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "prf_tags",
+                [
+                    "Dragonblood"
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Flametongue"
+            ]
+        ]
+    },
+    {
+        "nid": "Strenght_Ring",
+        "name": "Strenght Ring",
+        "desc": "",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Strength_Plus5"
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    },
+    {
+        "nid": "Skill_Ring",
+        "name": "Skill_ring",
+        "desc": "",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Skill_Plus5"
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    },
+    {
+        "nid": "Speed_Ring",
+        "name": "Speed_ring",
+        "desc": "",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Speed_Plus5"
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    },
+    {
+        "nid": "Defence_Ring",
+        "name": "Defence Ring",
+        "desc": "",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Defense_Plus5"
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    },
+    {
+        "nid": "Magic_Ring",
+        "name": "Magic Ring",
+        "desc": "",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Magic_Plus5"
+            ],
+            [
+                "value",
+                20009
+            ]
+        ]
+    },
+    {
+        "nid": "Leg_Ring",
+        "name": "Leg Ring",
+        "desc": "",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Movement_Plus3"
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    },
+    {
+        "nid": "Knight_Band",
+        "name": "Knight Band",
+        "desc": "",
+        "icon_nid": "Ring",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Canto"
+            ],
+            [
+                "value",
+                40000
+            ]
+        ]
+    },
+    {
+        "nid": "Pursuit_band",
+        "name": "Pursuit band",
+        "desc": "",
+        "icon_nid": "Ring",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Pursuit"
+            ],
+            [
+                "value",
+                40000
+            ]
+        ]
+    },
+    {
+        "nid": "Renewal_Band",
+        "name": "Renewal Band",
+        "desc": "",
+        "icon_nid": "Ring",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Renewal"
+            ],
+            [
+                "value",
+                40000
+            ]
+        ]
+    },
+    {
+        "nid": "Miracle_Band",
+        "name": "Miracle Band",
+        "desc": "",
+        "icon_nid": "Ring",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Miracle_FE4"
+            ],
+            [
+                "value",
+                40000
+            ]
+        ]
+    },
+    {
+        "nid": "Thief_band",
+        "name": "Thief band",
+        "desc": "",
+        "icon_nid": "Ring",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Steal"
+            ],
+            [
+                "value",
+                40000
+            ]
+        ]
+    },
+    {
+        "nid": "Bargain_Band",
+        "name": "Bargain Band",
+        "desc": "",
+        "icon_nid": "Ring",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Bargain"
+            ],
+            [
+                "value",
+                40000
+            ]
+        ]
+    },
+    {
+        "nid": "Paragon_Band",
+        "name": "Paragon Band",
+        "desc": "",
+        "icon_nid": "Ring",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Paragon"
+            ],
+            [
+                "value",
+                40000
+            ]
+        ]
+    },
+    {
+        "nid": "Return_Band",
+        "name": "Return Band",
+        "desc": "",
+        "icon_nid": "Ring",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Canto"
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    },
+    {
         "nid": "Angelic_Robe",
         "name": "Angelic Robe",
         "desc": "Permanently raises maximum HP by 7 points.",
