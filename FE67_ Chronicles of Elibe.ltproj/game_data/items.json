@@ -8314,6 +8314,144 @@
         ]
     },
     {
+        "nid": "Return_Staff",
+        "name": "Return Staff",
+        "desc": "Placeholder",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "exp",
+                30
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "sequence_item",
+                [
+                    "Return_Staff1",
+                    "Return_Staff2"
+                ]
+            ],
+            [
+                "no_ai",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Return_Staff1",
+        "name": "Return Staff",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "store_unit",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "Return_Staff2",
+        "name": "Return Staff",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_specific_tile",
+                ""
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "unload_unit",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "Rescue",
         "name": "Rescue",
         "desc": "Bring an ally to a space adjacent to the user",
@@ -13428,6 +13566,50 @@
         ]
     },
     {
+        "nid": "Dark_Breath",
+        "name": "Dark Breath",
+        "desc": "",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                20
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ]
+        ]
+    },
+    {
         "nid": "Strenght_Ring",
         "name": "Strenght Ring",
         "desc": "",
@@ -13698,8 +13880,19 @@
         ],
         "components": [
             [
-                "status_on_hold",
-                "Canto"
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "sequence_item",
+                [
+                    "Return_Staff1",
+                    "Return_Staff2"
+                ]
             ],
             [
                 "value",
@@ -14506,8 +14699,27 @@
             [
                 "prf_class",
                 [
-                    "Dancer"
+                    "Dancer",
+                    "Dancer_Lalum",
+                    "Bard_Nils",
+                    "Bard_Elfin"
                 ]
+            ],
+            [
+                "multi_target",
+                4
+            ],
+            [
+                "allow_less_than_max_targets",
+                null
+            ],
+            [
+                "refresh",
+                null
+            ],
+            [
+                "value",
+                30000
             ]
         ]
     },
@@ -14571,8 +14783,23 @@
             [
                 "prf_class",
                 [
-                    "Dancer"
+                    "Dancer",
+                    "Dancer_Lalum",
+                    "Bard_Nils",
+                    "Bard_Elfin"
                 ]
+            ],
+            [
+                "multi_target",
+                4
+            ],
+            [
+                "allow_less_than_max_targets",
+                null
+            ],
+            [
+                "value",
+                30000
             ]
         ]
     },
@@ -14631,13 +14858,28 @@
             ],
             [
                 "status_after_combat_on_hit",
-                "Thor_s_Ire"
+                "Set_s_Litany"
             ],
             [
                 "prf_class",
                 [
-                    "Dancer"
+                    "Dancer",
+                    "Dancer_Lalum",
+                    "Bard_Nils",
+                    "Bard_Elfin"
                 ]
+            ],
+            [
+                "multi_target",
+                4
+            ],
+            [
+                "allow_less_than_max_targets",
+                null
+            ],
+            [
+                "value",
+                30000
             ]
         ]
     },
@@ -14701,8 +14943,27 @@
             [
                 "prf_class",
                 [
-                    "Dancer"
+                    "Dancer",
+                    "Dancer_Lalum",
+                    "Bard_Nils",
+                    "Bard_Elfin"
                 ]
+            ],
+            [
+                "multi_target",
+                4
+            ],
+            [
+                "allow_less_than_max_targets",
+                null
+            ],
+            [
+                "refresh",
+                null
+            ],
+            [
+                "value",
+                30000
             ]
         ]
     },
@@ -14790,6 +15051,14 @@
             ],
             [
                 "map_cast_pose",
+                null
+            ],
+            [
+                "multi_target",
+                4
+            ],
+            [
+                "allow_less_than_max_targets",
                 null
             ]
         ]
