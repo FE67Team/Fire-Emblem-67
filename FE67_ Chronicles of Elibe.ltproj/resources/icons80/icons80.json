@@ -172,5 +172,46 @@
     {
         "nid": "Generic_Portrait_Wyvern_Rider",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Fire Dragon {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Manakete (M) {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Dark Druid (M) Magic {CamusZekeSirius}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Druid (M) Magic {IS}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Knight (U) Sword {Der, Epicer}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Knight (U) Axe {Der, Epicer}",
+        "subicon_dict": {
+            "Knight (U) Axe {Der, Epicer} 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Cavalier (M) Sword {FPzero}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Cavalier (M) Axe {Blademaster}",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Assassin (M) Dual-Swords-Generic {Leif, Scraiza, Sword of HaE}",
+        "subicon_dict": {}
     }
 ]
