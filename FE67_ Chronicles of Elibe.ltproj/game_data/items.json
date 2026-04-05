@@ -8249,7 +8249,7 @@
     {
         "nid": "Barrier",
         "name": "Barrier",
-        "desc": "Raises ally's resistance.",
+        "desc": "Raises ally's magic.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -13145,6 +13145,10 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "no_break_out_of_uses",
+                null
             ]
         ]
     },

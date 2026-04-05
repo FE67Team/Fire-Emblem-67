@@ -925,8 +925,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    4
+                    21,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -2064,7 +2064,7 @@
                 "generic": true
             },
             {
-                "nid": "107",
+                "nid": "tough_fighter",
                 "variant": null,
                 "level": 1,
                 "klass": "Fighter",
@@ -2076,9 +2076,7 @@
                     ]
                 ],
                 "starting_skills": [
-                    "Accost",
-                    "Wary_Fighter",
-                    "Barricade"
+                    "Accost"
                 ],
                 "team": "enemy",
                 "ai": "Guard",
@@ -2094,7 +2092,7 @@
             {
                 "nid": "miracle_soldier",
                 "variant": null,
-                "level": 10,
+                "level": 4,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -2120,11 +2118,98 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 1,
+                "klass": "Cleric",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Mend",
+                        false
+                    ],
+                    [
+                        "Restore",
+                        false
+                    ],
+                    [
+                        "Barrier",
+                        false
+                    ],
+                    [
+                        "Hammerne",
+                        false
+                    ],
+                    [
+                        "Saints_Staff",
+                        false
+                    ],
+                    [
+                        "Heal",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 1,
+                "klass": "Sword_Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Slim_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
             {
-                "nid": "OtherCastle_a",
+                "nid": "OtherCastle",
                 "region_type": "event",
                 "position": [
                     18,
