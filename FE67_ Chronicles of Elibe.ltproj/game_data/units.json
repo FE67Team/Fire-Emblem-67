@@ -2383,7 +2383,7 @@
         "desc": "A traveling merchant. Timid and easily frightened.",
         "variant": null,
         "level": 5,
-        "klass": "Phantom",
+        "klass": "Transporter",
         "tags": [
             "Male"
         ],

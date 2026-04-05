@@ -1947,7 +1947,7 @@
     {
         "nid": "Ninis_s_Grace",
         "name": "Ninis's Grace",
-        "desc": "+10 Def/Res for one turn.",
+        "desc": "+5 Mag for three turns.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -1956,14 +1956,14 @@
         "components": [
             [
                 "time",
-                1
+                3
             ],
             [
                 "stat_change",
                 [
                     [
-                        "DEF",
-                        10
+                        "MAG",
+                        5
                     ]
                 ]
             ]
@@ -1972,7 +1972,7 @@
     {
         "nid": "Filla_s_Might",
         "name": "Filla's Might",
-        "desc": "+10 Str/Mag for one turn.",
+        "desc": "+5 Str for three turns.",
         "icon_nid": "Skills",
         "icon_index": [
             11,
@@ -1981,18 +1981,14 @@
         "components": [
             [
                 "time",
-                1
+                3
             ],
             [
                 "stat_change",
                 [
                     [
                         "STR",
-                        10
-                    ],
-                    [
-                        "MAG",
-                        10
+                        5
                     ]
                 ]
             ]
@@ -2001,7 +1997,7 @@
     {
         "nid": "Thor_s_Ire",
         "name": "Thor's Ire",
-        "desc": "+10 Crit Rate for one turn.",
+        "desc": "Grant's Critical skill for three turns.",
         "icon_nid": "Skills",
         "icon_index": [
             11,
@@ -2010,18 +2006,22 @@
         "components": [
             [
                 "time",
-                1
+                3
             ],
             [
-                "crit",
-                10
+                "skill_before_combat",
+                {
+                    "skill": "Critical_Meh",
+                    "recipient": "self",
+                    "allegiance": "both"
+                }
             ]
         ]
     },
     {
         "nid": "Set_s_Litany",
         "name": "Set's Litany",
-        "desc": "+10 Avo for one turn.",
+        "desc": "Grants Nihil skill for three turns.",
         "icon_nid": "Skills",
         "icon_index": [
             11,
@@ -2030,11 +2030,15 @@
         "components": [
             [
                 "time",
-                1
+                3
             ],
             [
-                "avoid",
-                10
+                "skill_before_combat",
+                {
+                    "skill": "Nihil",
+                    "recipient": "self",
+                    "allegiance": "both"
+                }
             ]
         ]
     },
@@ -2604,6 +2608,49 @@
             [
                 "class_skill",
                 null
+            ]
+        ]
+    },
+    {
+        "nid": "All_Magic_Proficiency_visonly",
+        "name": "All Magic Proficiency visonly",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    },
+    {
+        "nid": "All_Magic_Proficiency",
+        "name": "All Magic Proficiency",
+        "desc": "",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "multi_skill",
+                [
+                    "Fire_Proficiency",
+                    "Thunder_Proficiency",
+                    "Wind_Proficiency",
+                    "Light_Proficiency",
+                    "Dark_Proficiency",
+                    "All_Magic_Proficiency"
+                ]
             ]
         ]
     },
