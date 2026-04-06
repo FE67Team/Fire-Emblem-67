@@ -1594,6 +1594,10 @@
                 70
             ],
             [
+                "crit",
+                0
+            ],
+            [
                 "weight",
                 9
             ],
@@ -1675,6 +1679,10 @@
             [
                 "hit",
                 65
+            ],
+            [
+                "crit",
+                0
             ],
             [
                 "weight",
@@ -1936,6 +1944,10 @@
             [
                 "hit",
                 70
+            ],
+            [
+                "crit",
+                0
             ],
             [
                 "weight",
@@ -13287,6 +13299,14 @@
             [
                 "no_break_out_of_uses",
                 null
+            ],
+            [
+                "weapon_type",
+                "Dragonstone"
+            ],
+            [
+                "weapon_rank",
+                "A"
             ]
         ]
     },
@@ -13373,6 +13393,14 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
+            ],
+            [
+                "weapon_type",
+                "Dragonstone"
+            ],
+            [
+                "weapon_rank",
+                "A"
             ]
         ]
     },
@@ -13446,6 +13474,14 @@
             [
                 "transform",
                 null
+            ],
+            [
+                "weapon_type",
+                "Dragonstone"
+            ],
+            [
+                "weapon_rank",
+                "A"
             ]
         ]
     },
@@ -13504,6 +13540,14 @@
             [
                 "status_on_equip",
                 "Demon_Dragonstone"
+            ],
+            [
+                "weapon_type",
+                "Dragonstone"
+            ],
+            [
+                "weapon_rank",
+                "S"
             ]
         ]
     },
@@ -13562,6 +13606,14 @@
             [
                 "status_on_equip",
                 "Flametongue"
+            ],
+            [
+                "weapon_type",
+                "Dragonstone"
+            ],
+            [
+                "weapon_rank",
+                "A"
             ],
             [
                 "locked",

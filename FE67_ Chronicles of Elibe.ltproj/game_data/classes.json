@@ -431,6 +431,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -9928,7 +9933,7 @@
             0
         ],
         "map_sprite_nid": "Archsage",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Arcsage",
         "fields": []
     },
     {
@@ -10203,6 +10208,11 @@
                 false,
                 0,
                 null
+            ],
+            "Dragonstone": [
+                true,
+                4,
+                null
             ]
         },
         "icon_nid": "Manakete (M) {IS}",
@@ -10346,6 +10356,11 @@
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                true,
+                4,
+                null
             ],
             "Wind_1": [
                 false,
@@ -10652,7 +10667,7 @@
             0
         ],
         "map_sprite_nid": "Dark Druid",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Dark_Druid",
         "fields": []
     },
     {
@@ -10728,13 +10743,13 @@
         ],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                1,
                 null
             ],
             "Lance": [
-                false,
-                0,
+                true,
+                1,
                 null
             ],
             "Axe": [
@@ -10922,6 +10937,11 @@
                 false,
                 0,
                 null
+            ],
+            "Dragonstone": [
+                true,
+                4,
+                null
             ]
         },
         "icon_nid": "Manakete (M) {IS}",
@@ -10930,7 +10950,7 @@
             0
         ],
         "map_sprite_nid": "Manakete fire",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Manakete_Fire",
         "fields": []
     },
     {
@@ -11063,6 +11083,11 @@
                 false,
                 0,
                 null
+            ],
+            "Dragonstone": [
+                true,
+                4,
+                null
             ]
         },
         "icon_nid": "Fire Dragon {IS}",
@@ -11071,7 +11096,7 @@
             0
         ],
         "map_sprite_nid": "Fire Dragon",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Fire_Dragon",
         "fields": []
     },
     {
@@ -11204,6 +11229,11 @@
                 false,
                 0,
                 null
+            ],
+            "Dragonstone": [
+                true,
+                4,
+                null
             ]
         },
         "icon_nid": "Manakete (M) {IS}",
@@ -11212,7 +11242,7 @@
             0
         ],
         "map_sprite_nid": "Demon dragon stand",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "Demon_Dragon",
         "fields": []
     },
     {
