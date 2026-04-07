@@ -3632,6 +3632,8 @@
             "#_castleType 0 is your home castle",
             "#_castleType 1 is a captured castle",
             "game_var;_castleType;0",
+            "#Tells the game that this is a normal, exitable castle.",
+            "game_var;_return_no_exit;False",
             "#_current_castle is a string that is used when looking up what castle's unit list to use. The home castle must always use \"Home\"",
             "game_var;_currentCastle;\"Home\"",
             "#This tells the game what's for sale in the castle market's armory",
@@ -3648,6 +3650,70 @@
             "trigger_script;test RunCastle_units;{unit}"
         ],
         "nid": "test enter_castleHome"
+    },
+    {
+        "name": "enter_castleReturn",
+        "trigger": null,
+        "level_nid": "test",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "pose_unit;{unit};start_cast",
+            "wait;500",
+            "remove_unit;{unit};warp",
+            "wait;500",
+            "#The position should be the doorway of the home castle.",
+            "center_cursor;HomeCastle",
+            "flicker_cursor;HomeCastle",
+            "",
+            "t;close",
+            "#_castleType 0 is your home castle",
+            "#_castleType 1 is a captured castle",
+            "game_var;_castleType;0",
+            "#Tells the game that this is being ran through a \"return\" effect and isn't exitable.",
+            "game_var;_return_no_exit;True",
+            "#_current_castle is a string that is used when looking up what castle's unit list to use. The return event must always use \"Home\"",
+            "game_var;_currentCastle;\"Home\"",
+            "#This should match the home castle",
+            "game_var;_castleArmoryGoods;[\"Iron_Sword\",\"Slim_Sword\",\"Iron_Lance\",\"Iron_Axe\",\"Vulnerary\",\"Torch\"]",
+            "game_var;_castleArmoryStock;[1,2,1,1,3,3]",
+            "",
+            "t;open;0;no_block",
+            "",
+            "#Go to the castle unit select screen",
+            "trigger_script;test RunCastle_units;{unit}"
+        ],
+        "nid": "test enter_castleReturn"
+    },
+    {
+        "name": "return_band",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#Will run the current level's enter_castleReturn event.",
+            "trigger_script;enter_castleReturn;{unit}"
+        ],
+        "nid": "Global return_band"
+    },
+    {
+        "name": "return_staff",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#Will run the current level's enter_castleReturn event.",
+            "trigger_script;enter_castleReturn;{target}"
+        ],
+        "nid": "Global return_staff"
     },
     {
         "name": "castleCutthroat_seize",
@@ -3690,6 +3756,8 @@
             "#_castleType 0 is your home castle",
             "#_castleType 1 is a captured castle",
             "game_var;_castleType;1",
+            "#Tells the game that this is a normal, exitable castle.",
+            "game_var;_return_no_exit;False",
             "#_current_castle is a string that is used when looking up what castle's unit list to use.",
             "game_var;_currentCastle;\"Cutthroat\"",
             "#This tells the game what's for sale in the castle market's armory",
@@ -3727,7 +3795,7 @@
             "#This just clears most of the units out of the debug map.",
             "i = 0",
             "for pUnit in playerAliveParty:",
-            "    if (playerAliveParty[i].name != \"Lyn\") and (playerAliveParty[i].name != \"Sain\") and (playerAliveParty[i].name != \"Kent\"):",
+            "    if (playerAliveParty[i].name != \"Lyn\") and (playerAliveParty[i].name != \"Sain\") and (playerAliveParty[i].name != \"Fae\"):",
             "        $remove_unit playerAliveParty[i].name \"immediate\"",
             "    i += 1",
             "",
@@ -3757,8 +3825,9 @@
             "#Temp",
             "$give_money \"Lyn\" 10000",
             "$set_current_hp \"Sain\" 10",
-            "$give_skill \"Sain\" \"Silence\"",
-            "#$set_item_uses \"108\" \"Restore\" 1"
+            "$give_skill \"Sain\" \"Silence\",no_banner",
+            "#$set_item_uses \"108\" \"Restore\" 1",
+            "$give_item \"Fae\" \"Return_Band\",no_banner"
         ],
         "nid": "test start_testMap"
     },
@@ -3802,12 +3871,13 @@
             "",
             "$change_background ",
             "",
-            "#Play the sound for backing out if the player backs out of the castle",
+            "#Runs if the player backs out of the castle",
             "if game.game_vars['_chosenUnit'] == 0 or game.game_vars['_chosenUnit'] == 'BACK':",
+            "    #Plays the backing out sound",
             "    $sound \"Select 4\"",
-            "    #Also respawns the unit if they've entered the castle and done nothing else",
-            "    if unit._has_moved and not (unit._has_attacked or unit._has_traded or unit.has_rescued or unit.has_dropped or unit.has_taken or unit.has_given):",
-            "        $load_unit unit \"player\" \"None\"",
+            "    #Also respawns the unit if they've entered the castle, were not teleported here via a Return effect, and have not done anything",
+            "    if unit._has_moved and game.game_vars[\"_return_no_exit\"] == False and not (unit._has_attacked or unit._has_traded or unit.has_rescued or unit.has_dropped or unit.has_taken or unit.has_given):",
+            "        $load_unit unit",
             "        $add_unit unit game.game_vars['_castlePosition'] \"immediate\"",
             "else:",
             "    $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"

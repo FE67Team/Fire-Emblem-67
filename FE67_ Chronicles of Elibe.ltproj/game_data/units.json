@@ -1248,6 +1248,11 @@
                 false,
                 0,
                 251
+            ],
+            "Dragonstone": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -3581,6 +3586,11 @@
                 false,
                 0,
                 251
+            ],
+            "Dragonstone": [
+                false,
+                1,
+                null
             ]
         },
         "alternate_classes": [],
@@ -6998,7 +7008,7 @@
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Tiena_staff",
+                "Tiena_Staff",
                 false
             ]
         ],
@@ -8671,7 +8681,7 @@
         "nid": "Fae",
         "name": "Fae",
         "desc": "A little divine dragon girl from Nabata.",
-        "variant": null,
+        "variant": "Fae",
         "level": 1,
         "klass": "Manakete",
         "tags": [],
@@ -8703,7 +8713,13 @@
         ],
         "learned_skills": [],
         "unit_notes": [],
-        "wexp_gain": {},
+        "wexp_gain": {
+            "Dragonstone": [
+                false,
+                1,
+                null
+            ]
+        },
         "alternate_classes": [],
         "portrait_nid": "Fae",
         "affinity": null,

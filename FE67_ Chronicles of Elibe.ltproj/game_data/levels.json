@@ -925,8 +925,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    8
+                    5,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -2090,41 +2090,11 @@
                 "generic": true
             },
             {
-                "nid": "miracle_soldier",
-                "variant": null,
-                "level": 4,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Killer_Lance",
-                        false
-                    ],
-                    [
-                        "Javelin",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "Miracle_FE4"
-                ],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
+                "nid": "107",
                 "variant": null,
                 "level": 1,
                 "klass": "Cleric",
-                "faction": "Soldier",
+                "faction": "Enemy",
                 "starting_items": [
                     [
                         "Mend",
@@ -2149,48 +2119,9 @@
                     [
                         "Heal",
                         false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    19,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 1,
-                "klass": "Sword_Knight",
-                "faction": "Soldier",
-                "starting_items": [
+                    ],
                     [
-                        "Slim_Sword",
+                        "Return",
                         false
                     ]
                 ],
@@ -2200,11 +2131,48 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    8
+                    4,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": "Fire",
+                "level": 1,
+                "klass": "Manakete",
+                "faction": "Enemy",
+                "starting_items": [
+                    [
+                        "Placeholder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Fae",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
