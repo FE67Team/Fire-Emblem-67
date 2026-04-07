@@ -411,7 +411,7 @@
     {
         "nid": "Dragonstone",
         "name": "Dragonstone",
-        "desc": "Grants STR +12, SKL +12, DEF +15, RES+20.",
+        "desc": "Multi-skill.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -419,6 +419,37 @@
         ],
         "components": [
             [
+                "hidden",
+                null
+            ],
+            [
+                "multi_skill",
+                [
+                    "Dragonstone_full",
+                    "Dragonstone_half"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Dragonstone_full",
+        "name": "Dragonstone",
+        "desc": "Grants STR +12, SKL +12, DEF +15, MAG+20.\nOnly for true Dragonstone users (Manaketes).",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "game.get_klass(unit.nid).nid == \"Manakete\""
+            ],
+            [
                 "stat_change",
                 [
                     [
@@ -438,17 +469,54 @@
                         20
                     ]
                 ]
-            ],
+            ]
+        ]
+    },
+    {
+        "nid": "Dragonstone_half",
+        "name": "Dragonstone",
+        "desc": "Grants STR +6, SKL +6, DEF +7, MAG+10.\nOnly for Dragonblood units.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
             [
                 "hidden",
                 null
+            ],
+            [
+                "condition",
+                "game.get_klass(unit.nid).nid != \"Manakete\""
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        6
+                    ],
+                    [
+                        "SKL",
+                        6
+                    ],
+                    [
+                        "DEF",
+                        7
+                    ],
+                    [
+                        "MAG",
+                        10
+                    ]
+                ]
             ]
         ]
     },
     {
         "nid": "Divine_Dragonstone",
         "name": "Divine Dragonstone",
-        "desc": "Grants STR +12, SKL +12, DEF +15, RES+20.",
+        "desc": "",
         "icon_nid": "Dragonstones",
         "icon_index": [
             0,
@@ -456,6 +524,37 @@
         ],
         "components": [
             [
+                "hidden",
+                null
+            ],
+            [
+                "multi_skill",
+                [
+                    "Divine_Dragonstone_full",
+                    "Divine_Dragonstone_half"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Divine_Dragonstone_full",
+        "name": "Divine Dragonstone",
+        "desc": "Grants STR +12, SKL +12, DEF +15, MAG+20.\nOnly for true Dragonstone users (Manaketes).",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "game.get_klass(unit.nid).nid == \"Manakete\""
+            ],
+            [
                 "stat_change",
                 [
                     [
@@ -475,23 +574,91 @@
                         20
                     ]
                 ]
-            ],
+            ]
+        ]
+    },
+    {
+        "nid": "Divine_Dragonstone_half",
+        "name": "Divine Dragonstone",
+        "desc": "Grants STR +6, SKL +6, DEF +7, MAG+10.\nOnly for Dragonblood units.",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
             [
                 "hidden",
                 null
+            ],
+            [
+                "condition",
+                "game.get_klass(unit.nid).nid != \"Manakete\""
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        6
+                    ],
+                    [
+                        "SKL",
+                        6
+                    ],
+                    [
+                        "DEF",
+                        7
+                    ],
+                    [
+                        "MAG",
+                        10
+                    ]
+                ]
             ]
         ]
     },
     {
         "nid": "Fire_Dragonstone",
         "name": "Fire Dragonstone",
-        "desc": "Grants STR +10, SKL +10, DEF +20, MAG+5.",
+        "desc": "",
         "icon_nid": "Dragonstones",
         "icon_index": [
             1,
             0
         ],
         "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "multi_skill",
+                [
+                    "Fire_Dragonstone_full",
+                    "Fire_Dragonstone_half"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Fire_Dragonstone_full",
+        "name": "Fire Dragonstone",
+        "desc": "Grants STR +10, SKL +10, DEF +20, MAG+5.\nOnly for true Dragonstone users (Manaketes).",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "game.get_klass(unit.nid).nid == \"Manakete\""
+            ],
             [
                 "stat_change",
                 [
@@ -512,54 +679,13 @@
                         5
                     ]
                 ]
-            ],
-            [
-                "hidden",
-                null
             ]
         ]
     },
     {
-        "nid": "Demon_Dragonstone",
-        "name": "Demon Dragonstone",
-        "desc": "Grants STR +15, SKL +15, DEF +20, RES+15.",
-        "icon_nid": "Dragonstones",
-        "icon_index": [
-            2,
-            0
-        ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "STR",
-                        15
-                    ],
-                    [
-                        "SKL",
-                        15
-                    ],
-                    [
-                        "DEF",
-                        20
-                    ],
-                    [
-                        "MAG",
-                        15
-                    ]
-                ]
-            ],
-            [
-                "hidden",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Flametongue",
-        "name": "Flametongue",
-        "desc": "Grants STR +10, SKL +10, DEF +20, MAG+10.",
+        "nid": "Fire_Dragonstone_half",
+        "name": "Fire Dragonstone",
+        "desc": "Grants STR +5, SKL +5, DEF +10, MAG+2.\nOnly for Dragonblood units.",
         "icon_nid": "Dragonstones",
         "icon_index": [
             1,
@@ -567,6 +693,88 @@
         ],
         "components": [
             [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "game.get_klass(unit.nid).nid != \"Manakete\""
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        5
+                    ],
+                    [
+                        "SKL",
+                        5
+                    ],
+                    [
+                        "DEF",
+                        10
+                    ],
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Demon_Dragonstone",
+        "name": "Demon Dragonstone",
+        "desc": "Grants STR +15, SKL +15, DEF +20, RES+15.\nNo counterpart since the Demon Dragonstone is probably exclusive to Idunn.",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        15
+                    ],
+                    [
+                        "SKL",
+                        15
+                    ],
+                    [
+                        "DEF",
+                        20
+                    ],
+                    [
+                        "MAG",
+                        15
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Flametongue",
+        "name": "Flametongue",
+        "desc": "Grants STR +10, SKL +10, DEF +20, MAG+10.\nNo counterpart since the Flametongue is exclusive to the Fire Dragon.",
+        "icon_nid": "Dragonstones",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
                 "stat_change",
                 [
                     [
@@ -586,10 +794,6 @@
                         10
                     ]
                 ]
-            ],
-            [
-                "hidden",
-                null
             ]
         ]
     },
@@ -2966,6 +3170,10 @@
                 [
                     "Dragonblood"
                 ]
+            ],
+            [
+                "wexp_usable_skill",
+                "Dragonstone"
             ]
         ]
     },

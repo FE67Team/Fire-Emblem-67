@@ -1310,7 +1310,7 @@
     },
     {
         "nid": "Al_Sword",
-        "name": "Al Sword",
+        "name": "Al's Sword",
         "desc": "",
         "icon_nid": "New weapons",
         "icon_index": [
@@ -3379,7 +3379,7 @@
     },
     {
         "nid": "Gant_Lance",
-        "name": "Gant Lance",
+        "name": "Gant's Lance",
         "desc": "",
         "icon_nid": "New weapons",
         "icon_index": [
@@ -7493,8 +7493,8 @@
         ]
     },
     {
-        "nid": "Tiena_staff",
-        "name": "Tiena staff",
+        "nid": "Tiena_Staff",
+        "name": "Tiena's Staff",
         "desc": "",
         "icon_nid": "New weapons",
         "icon_index": [
@@ -8326,13 +8326,13 @@
         ]
     },
     {
-        "nid": "Return_Staff",
-        "name": "Return Staff",
-        "desc": "Placeholder",
-        "icon_nid": null,
+        "nid": "Return",
+        "name": "Return",
+        "desc": "Send an ally inside the home castle.",
+        "icon_nid": "Staff",
         "icon_index": [
             0,
-            0
+            9
         ],
         "components": [
             [
@@ -8387,78 +8387,19 @@
                 "C"
             ],
             [
-                "sequence_item",
-                [
-                    "Return_Staff1",
-                    "Return_Staff2"
-                ]
+                "event_on_hit",
+                "Global return_staff"
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_hit_sfx",
+                "WarpEnd"
             ],
             [
                 "no_ai",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Return_Staff1",
-        "name": "Return Staff",
-        "desc": "",
-        "icon_nid": null,
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                1
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "store_unit",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Return_Staff2",
-        "name": "Return Staff",
-        "desc": "",
-        "icon_nid": null,
-        "icon_index": [
-            0,
-            0
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_specific_tile",
-                ""
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "unload_unit",
                 null
             ]
         ]
@@ -10596,6 +10537,18 @@
                 "C"
             ],
             [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
                 "map_hit_add_blend",
                 [
                     104,
@@ -10683,6 +10636,18 @@
                 "B"
             ],
             [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
                 "map_hit_add_blend",
                 [
                     104,
@@ -10767,7 +10732,19 @@
             ],
             [
                 "weapon_rank",
-                "A"
+                "S"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ],
             [
                 "map_hit_add_blend",
@@ -10855,6 +10832,18 @@
             [
                 "weapon_rank",
                 "B"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ],
             [
                 "map_hit_add_blend",
@@ -10952,7 +10941,8 @@
                 {
                     "effective_tags": [
                         "Monster",
-                        "Dragonblood"
+                        "Dragonblood",
+                        "Flying"
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 36,
@@ -13306,7 +13296,7 @@
             ],
             [
                 "weapon_rank",
-                "A"
+                "C"
             ]
         ]
     },
@@ -13676,9 +13666,9 @@
         ]
     },
     {
-        "nid": "Strenght_Ring",
-        "name": "Strenght Ring",
-        "desc": "",
+        "nid": "Strength_Ring",
+        "name": "Strength Ring",
+        "desc": "Raises Strength by 5 points while held.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -13698,7 +13688,7 @@
     {
         "nid": "Skill_Ring",
         "name": "Skill_ring",
-        "desc": "",
+        "desc": "Raises Skill by 5 points while held.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -13718,7 +13708,7 @@
     {
         "nid": "Speed_Ring",
         "name": "Speed_ring",
-        "desc": "",
+        "desc": "Raises Speed by 5 points while held.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -13736,9 +13726,9 @@
         ]
     },
     {
-        "nid": "Defence_Ring",
-        "name": "Defence Ring",
-        "desc": "",
+        "nid": "Defense_Ring",
+        "name": "Defense Ring",
+        "desc": "Raises Defense by 5 points while held.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -13758,7 +13748,7 @@
     {
         "nid": "Magic_Ring",
         "name": "Magic Ring",
-        "desc": "",
+        "desc": "Raises Magic by 5 points while held.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -13778,7 +13768,7 @@
     {
         "nid": "Leg_Ring",
         "name": "Leg Ring",
-        "desc": "",
+        "desc": "Raises Movement by 3 points while held.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -13798,7 +13788,7 @@
     {
         "nid": "Knight_Band",
         "name": "Knight Band",
-        "desc": "",
+        "desc": "Grants the Canto skill while held.",
         "icon_nid": "Ring",
         "icon_index": [
             0,
@@ -13816,9 +13806,9 @@
         ]
     },
     {
-        "nid": "Pursuit_band",
-        "name": "Pursuit band",
-        "desc": "",
+        "nid": "Pursuit_Band",
+        "name": "Pursuit Band",
+        "desc": "Grants the Pursuit skill while held.",
         "icon_nid": "Ring",
         "icon_index": [
             0,
@@ -13838,7 +13828,7 @@
     {
         "nid": "Renewal_Band",
         "name": "Renewal Band",
-        "desc": "",
+        "desc": "Grants the Renewal skill while held.",
         "icon_nid": "Ring",
         "icon_index": [
             0,
@@ -13858,7 +13848,7 @@
     {
         "nid": "Miracle_Band",
         "name": "Miracle Band",
-        "desc": "",
+        "desc": "Grants the Miracle skill while held.",
         "icon_nid": "Ring",
         "icon_index": [
             0,
@@ -13876,9 +13866,9 @@
         ]
     },
     {
-        "nid": "Thief_band",
-        "name": "Thief band",
-        "desc": "",
+        "nid": "Thief_Band",
+        "name": "Thief Band",
+        "desc": "Grants the Thief skill while held.",
         "icon_nid": "Ring",
         "icon_index": [
             0,
@@ -13898,7 +13888,7 @@
     {
         "nid": "Bargain_Band",
         "name": "Bargain Band",
-        "desc": "",
+        "desc": "Grants the Bargain skill while held.",
         "icon_nid": "Ring",
         "icon_index": [
             0,
@@ -13918,7 +13908,7 @@
     {
         "nid": "Paragon_Band",
         "name": "Paragon Band",
-        "desc": "",
+        "desc": "Grants the Paragon skill while held.",
         "icon_nid": "Ring",
         "icon_index": [
             0,
@@ -13938,7 +13928,7 @@
     {
         "nid": "Return_Band",
         "name": "Return Band",
-        "desc": "",
+        "desc": "Allows the holder to teleport inside the home castle at will.",
         "icon_nid": "Ring",
         "icon_index": [
             0,
@@ -13954,15 +13944,20 @@
                 null
             ],
             [
-                "sequence_item",
-                [
-                    "Return_Staff1",
-                    "Return_Staff2"
-                ]
-            ],
-            [
                 "value",
                 20000
+            ],
+            [
+                "event_on_hit",
+                "Global return_band"
+            ],
+            [
+                "no_map_hp_display",
+                null
+            ],
+            [
+                "map_hit_sfx",
+                "WarpEnd"
             ]
         ]
     },
@@ -14025,7 +14020,7 @@
     {
         "nid": "Energy_Ring",
         "name": "Energy Ring",
-        "desc": "Permanently raises Strength/Magic by 2 points.",
+        "desc": "Permanently raises Strength by 2 points.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -14056,10 +14051,6 @@
                 [
                     [
                         "STR",
-                        2
-                    ],
-                    [
-                        "MAG",
                         2
                     ]
                 ]
@@ -14309,7 +14300,7 @@
     {
         "nid": "Talisman",
         "name": "Talisman",
-        "desc": "Permanently raises Resistance by 2 points. That stat doesn't exist anymore though.",
+        "desc": "Permanently raises Magic by 2 points.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -14334,6 +14325,15 @@
                     "lose_uses_on_miss": false,
                     "one_loss_per_combat": false
                 }
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
             ],
             [
                 "usable_in_base",
