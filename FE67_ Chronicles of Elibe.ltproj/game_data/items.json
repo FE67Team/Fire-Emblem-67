@@ -13669,10 +13669,10 @@
         "nid": "Strength_Ring",
         "name": "Strength Ring",
         "desc": "Raises Strength by 5 points while held.",
-        "icon_nid": "Boosters",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
-            1
+            1,
+            0
         ],
         "components": [
             [
@@ -13689,10 +13689,10 @@
         "nid": "Skill_Ring",
         "name": "Skill_ring",
         "desc": "Raises Skill by 5 points while held.",
-        "icon_nid": "Boosters",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
-            1
+            3,
+            0
         ],
         "components": [
             [
@@ -13709,10 +13709,10 @@
         "nid": "Speed_Ring",
         "name": "Speed_ring",
         "desc": "Raises Speed by 5 points while held.",
-        "icon_nid": "Boosters",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
-            1
+            2,
+            0
         ],
         "components": [
             [
@@ -13726,13 +13726,33 @@
         ]
     },
     {
+        "nid": "Luck_Ring",
+        "name": "Luck Ring",
+        "desc": "Raises Luck by 5 points while held.",
+        "icon_nid": "Rings_and_Bands_Sheet",
+        "icon_index": [
+            2,
+            2
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Luck_Plus5"
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    },
+    {
         "nid": "Defense_Ring",
         "name": "Defense Ring",
         "desc": "Raises Defense by 5 points while held.",
-        "icon_nid": "Boosters",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
-            1
+            4,
+            2
         ],
         "components": [
             [
@@ -13749,10 +13769,10 @@
         "nid": "Magic_Ring",
         "name": "Magic Ring",
         "desc": "Raises Magic by 5 points while held.",
-        "icon_nid": "Boosters",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
-            1
+            1,
+            2
         ],
         "components": [
             [
@@ -13769,9 +13789,9 @@
         "nid": "Leg_Ring",
         "name": "Leg Ring",
         "desc": "Raises Movement by 3 points while held.",
-        "icon_nid": "Boosters",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
+            4,
             1
         ],
         "components": [
@@ -13789,10 +13809,10 @@
         "nid": "Knight_Band",
         "name": "Knight Band",
         "desc": "Grants the Canto skill while held.",
-        "icon_nid": "Ring",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
-            0
+            3,
+            2
         ],
         "components": [
             [
@@ -13809,10 +13829,10 @@
         "nid": "Pursuit_Band",
         "name": "Pursuit Band",
         "desc": "Grants the Pursuit skill while held.",
-        "icon_nid": "Ring",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
-            0
+            2,
+            1
         ],
         "components": [
             [
@@ -13829,10 +13849,10 @@
         "nid": "Renewal_Band",
         "name": "Renewal Band",
         "desc": "Grants the Renewal skill while held.",
-        "icon_nid": "Ring",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -13849,10 +13869,10 @@
         "nid": "Miracle_Band",
         "name": "Miracle Band",
         "desc": "Grants the Miracle skill while held.",
-        "icon_nid": "Ring",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
@@ -13869,7 +13889,7 @@
         "nid": "Thief_Band",
         "name": "Thief Band",
         "desc": "Grants the Thief skill while held.",
-        "icon_nid": "Ring",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
             0,
             0
@@ -13889,10 +13909,10 @@
         "nid": "Bargain_Band",
         "name": "Bargain Band",
         "desc": "Grants the Bargain skill while held.",
-        "icon_nid": "Ring",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
-            0
+            1,
+            3
         ],
         "components": [
             [
@@ -13909,10 +13929,10 @@
         "nid": "Paragon_Band",
         "name": "Paragon Band",
         "desc": "Grants the Paragon skill while held.",
-        "icon_nid": "Ring",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
-            0
+            3,
+            1
         ],
         "components": [
             [
@@ -13929,9 +13949,9 @@
         "nid": "Return_Band",
         "name": "Return Band",
         "desc": "Allows the holder to teleport inside the home castle at will.",
-        "icon_nid": "Ring",
+        "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
-            0,
+            4,
             0
         ],
         "components": [
@@ -13958,6 +13978,25 @@
             [
                 "map_hit_sfx",
                 "WarpEnd"
+            ]
+        ]
+    },
+    {
+        "nid": "Circlet",
+        "name": "Circlet",
+        "desc": "Grants the Miracle and Renewal skills while held.",
+        "icon_nid": "Rings_and_Bands_Sheet",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "multi_status_on_hold",
+                [
+                    "Miracle_FE4",
+                    "Renewal"
+                ]
             ]
         ]
     },
