@@ -3539,7 +3539,7 @@
             ],
             [
                 "condition",
-                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills < 50"
+                "unit.get_weapon() and (game.get_item(unit.get_weapon().uid).kills is None or game.get_item(unit.get_weapon().uid).kills < 50)"
             ],
             [
                 "eval_crit",
@@ -3963,7 +3963,7 @@
             ],
             [
                 "condition",
-                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills >= 50"
+                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills is not None and game.get_item(unit.get_weapon().uid).kills >= 50"
             ],
             [
                 "eval_crit",
@@ -4024,6 +4024,26 @@
             [
                 "ability",
                 "Convoy_ability"
+            ]
+        ]
+    },
+    {
+        "nid": "Love_Points_Tracker",
+        "name": "Love Points Tracker",
+        "desc": "Tracks love points for pairable units. Hidden skill.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "love_points_adjacency",
+                1
             ]
         ]
     }
