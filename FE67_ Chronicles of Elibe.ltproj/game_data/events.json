@@ -4386,8 +4386,9 @@
             "    currentLevel = game.level_nid",
             "    #Using the current level's nid and the faction of the most recently killed unit, figure out which commander event we should be triggering",
             "    eventToTrigger = currentLevel + \" unitKilled_\" + unit.faction + \"_react\"",
-            "    #Trigger that event",
-            "    $trigger_script eventToTrigger"
+            "    #Trigger that event using Python",
+            "    from app.events.triggers import GenericTrigger",
+            "    game.events._add_event_from_script('debug_console', eventToTrigger, GenericTrigger())"
         ],
         "nid": "Global unitKilled"
     },
@@ -4746,6 +4747,8 @@
             "",
             "#Check if the combat initiator has a weapon (they might be refreshing or using a staff instead) and that they have killed their target",
             "if unit.get_weapon() != None and game.check_alive(target.nid) == False:",
+            "    if unitWpn.kills is None:",
+            "        unitWpn.kills = 0",
             "    unitWpn.kills += 1",
             "    #Updates the weapon's crit if it's elligible",
             "    if unitWpn.kills > 50 and unitWpn.kills <= 100:",
@@ -4758,6 +4761,8 @@
             "",
             "#Check if the combat target killed the initiator",
             "if noSkip_target and game.check_alive(unit.nid) == False:",
+            "    if targetWpn.kills is None:",
+            "        targetWpn.kills = 0",
             "    targetWpn.kills += 1",
             "    #Updates the weapon's crit if it's elligible",
             "    if targetWpn.kills > 50 and unitWpn.kills <= 100:",
@@ -5038,5 +5043,81 @@
             "remove_skill;{unit};new"
         ],
         "nid": "Global skill_clear"
+    },
+    {
+        "name": "Love Points - Initialize",
+        "trigger": "level_start",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 5,
+        "_source": [
+            "#pyev",
+            "",
+            "from resources.custom_components.love_points_system import initialize_pre_paired_couples, register_custom_functions",
+            "",
+            "initialize_pre_paired_couples()",
+            "register_custom_functions()",
+            "",
+            "# Give Love_Points_Tracker skill to all pairable units",
+            "pairable_units = ['Lyn', 'Florina', 'Serra', 'Rebecca', 'Priscilla', 'Isadora', 'Fiora', 'Ninian', 'Karla', 'Louise', 'Farina', 'Nino', 'Vaida', 'Leila', 'Juno', 'Sain', 'Kent', 'Wil', 'Dorcas', 'Wallace', 'Erk', 'Eagler', 'Eliwood', 'Marcus', 'Lowen', 'Bartre', 'Matthew', 'Guy', 'Dart', 'Lucius', 'Batta', 'Erik', 'Legault', 'Heath', 'Zealot', 'Canas', 'Hawkeye', 'Geitz', 'Fargus', 'Uhai', 'Lloyd', 'Linus', 'Renault', 'Pent', 'Hector']",
+            "for unit_nid in pairable_units:",
+            "    unit = game.get_unit(unit_nid)",
+            "    if unit:",
+            "        if 'Love_Points_Tracker' not in [skill.nid for skill in unit.skills]:",
+            "            from app.engine.skill_system import skill_system",
+            "            new_skill = skill_system.create_skill('Love_Points_Tracker')",
+            "            if new_skill:",
+            "                unit.skills.append(new_skill)"
+        ],
+        "nid": "0 Love Points - Initialize"
+    },
+    {
+        "name": "Love Points - Lovers Notification",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev",
+            "",
+            "from resources.custom_components.love_points_system import are_lovers, get_love_points, PAIRABLE_MALES, PAIRABLE_FEMALES",
+            "",
+            "# Check all pairs for reaching 500 points",
+            "for male in PAIRABLE_MALES:",
+            "    for female in PAIRABLE_FEMALES:",
+            "        if are_lovers(male, female):",
+            "            # Already lovers, skip",
+            "            continue",
+            "        points = get_love_points(male, female)",
+            "        if points >= 500:",
+            "            # Pair has become lovers - notification would go here",
+            "            # For now, just mark them as lovers (handled in add_love_points)",
+            "            pass"
+        ],
+        "nid": "Global Love Points - Lovers Notification"
+    },
+    {
+        "name": "Love Points - Story Event Bonus Example",
+        "trigger": "level_end",
+        "level_nid": "Prologue",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 15,
+        "_source": [
+            "#pyev",
+            "",
+            "from resources.custom_components.love_points_system import add_love_points",
+            "",
+            "# Example: Give bonus love points after Prologue for specific pairs",
+            "# Uncomment and modify as needed for your story events",
+            "# add_love_points('Lyn', 'Kent', 100)",
+            "# add_love_points('Florina', 'Heath', 50)"
+        ],
+        "nid": "Prologue Love Points - Story Event Bonus Example"
     }
 ]
