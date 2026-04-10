@@ -1636,17 +1636,22 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                null
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Dragonstone": [
                 false,
                 0,
                 null
@@ -1667,7 +1672,7 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "Lord (M) Roy T1 {IS}-stand",
         "combat_anim_nid": "Roy_Lord",
         "fields": []
     },
@@ -1771,17 +1776,22 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                null
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                null
+            ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Dragonstone": [
                 false,
                 0,
                 null
@@ -1802,7 +1812,7 @@
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "Lord (M) Roy T2 {IS}-stand",
         "combat_anim_nid": "Roy_Great_Lord",
         "fields": []
     },
@@ -1956,7 +1966,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Dancer",
+        "map_sprite_nid": "Dancer (F) Ninian {IS}-stand",
         "combat_anim_nid": "DancerNinian",
         "fields": []
     },
@@ -2086,7 +2096,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Dancer",
+        "map_sprite_nid": "Dancer (F) Larum {IS}-stand",
         "combat_anim_nid": "DancerLalum",
         "fields": []
     },
