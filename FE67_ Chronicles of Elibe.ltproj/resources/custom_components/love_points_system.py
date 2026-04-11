@@ -11,10 +11,11 @@ from app.engine.objects.unit import UnitObject
 from app.engine.movement import movement_funcs
 from app.utilities import utils
 
-LOVE_THRESHOLD = 5
-LOVE_POINTS_PER_ADJACENCY = 1
-LOVE_POINTS_PER_SUPPORT = 50
-LOVE_POINTS_PER_STORY_EVENT = 100
+LOVE_THRESHOLD = 25
+LOVER_BONUS_SKILL_NID = 'Lovers_Bond'
+LOVER_BONUS_RANGE = 3
+LOVER_BONUS_HIT = 10
+LOVER_BONUS_AVOID = 10
 
 PAIRABLE_MALES = [
     "Sain", "Kent", "Wil", "Dorcas", "Wallace", "Erk", "Eagler", "Eliwood",
@@ -32,12 +33,56 @@ PRE_PAIRED_COUPLES = [
     ("Pent", "Louise"),
 ]
 
+_love_pairs_config = None
+
+def get_love_pairs_config():
+    global _love_pairs_config
+    if _love_pairs_config is not None:
+        return _love_pairs_config
+    
+    if DB.current_proj_dir:
+        filepath = os.path.join(DB.current_proj_dir, 'game_data', 'love_pairs_config.json')
+    else:
+        current_file = os.path.abspath(__file__)
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
+        filepath = os.path.join(base_dir, 'game_data', 'love_pairs_config.json')
+    
+    try:
+        with open(filepath, 'r') as f:
+            _love_pairs_config = json.load(f)
+            print(f"[LOVE] Config loaded successfully from: {filepath}")
+            return _love_pairs_config
+    except Exception as e:
+        print(f"[LOVE] Warning: Could not load love_pairs_config.json: {e}")
+        print(f"[LOVE] Tried path: {filepath}")
+        _love_pairs_config = {"default_rate": 1, "pairs": {}}
+        return _love_pairs_config
+    
+    current_file = os.path.abspath(__file__)
+    project_dir = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
+    filepath = os.path.join(project_dir, 'game_data', 'love_pairs_config.json')
+    try:
+        with open(filepath, 'r') as f:
+            _love_pairs_config = json.load(f)
+            return _love_pairs_config
+    except Exception as e:
+        print(f"[LOVE] Warning: Could not load love_pairs_config.json: {e}")
+        print(f"[LOVE] Tried path: {filepath}")
+        _love_pairs_config = {"default_rate": 1, "pairs": {}}
+        return _love_pairs_config
+
+def get_love_rate(unit1_nid: str, unit2_nid: str) -> int:
+    config = get_love_pairs_config()
+    key = normalize_pair_key(unit1_nid, unit2_nid)
+    return config.get("pairs", {}).get(key, config.get("default_rate", 1))
+
 def initialize_pre_paired_couples():
     for male, female in PRE_PAIRED_COUPLES:
         lovers_var = get_lovers_var(male, female)
         if not game.game_vars.get(lovers_var, False):
             game.game_vars[lovers_var] = True
             game.game_vars[get_love_var(male, female)] = 500
+            apply_lover_bonus(male, female)
 
 def get_student_parents_mapping():
     data_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))), 'game_data')
@@ -63,12 +108,14 @@ def get_lovers_var(unit1: str, unit2: str) -> str:
     key = normalize_pair_key(unit1, unit2)
     return f"Lovers_{key}"
 
-def units_adjacent(unit1: UnitObject, unit2: UnitObject) -> bool:
+def get_lover_nid_var(unit_nid: str) -> str:
+    return f" Lover_{unit_nid}"
+
+def units_within_range(unit1: UnitObject, unit2: UnitObject, range: int) -> bool:
     if not unit1.position or not unit2.position:
         return False
-    dx = abs(unit1.position[0] - unit2.position[0])
-    dy = abs(unit1.position[1] - unit2.position[1])
-    return dx <= 1 and dy <= 1 and (dx + dy) > 0
+    distance = utils.calculate_distance(unit1.position, unit2.position)
+    return distance <= range
 
 def is_pairable(unit: UnitObject) -> bool:
     if not unit:
@@ -81,12 +128,30 @@ def get_unit_by_nid(nid: str) -> UnitObject:
             return unit
     return None
 
+def has_current_lover(unit_nid: str) -> bool:
+    lover_var = get_lover_nid_var(unit_nid)
+    return game.game_vars.get(lover_var, None) is not None
+
+def get_current_lover(unit_nid: str) -> str:
+    lover_var = get_lover_nid_var(unit_nid)
+    return game.game_vars.get(lover_var, None)
+
 def add_love_points(unit1_nid: str, unit2_nid: str, points: int, auto_tag: bool = True) -> int:
+    male = unit1_nid if unit1_nid in PAIRABLE_MALES else unit2_nid
+    female = unit2_nid if unit2_nid in PAIRABLE_FEMALES else unit1_nid
+    
+    if has_current_lover(male) and get_current_lover(male) != female:
+        print(f"[LOVE] {male} already has a lover ({get_current_lover(male)}), cannot pair with {female}")
+        return game.game_vars.get(get_love_var(unit1_nid, unit2_nid), 0)
+    if has_current_lover(female) and get_current_lover(female) != male:
+        print(f"[LOVE] {female} already has a lover ({get_current_lover(female)}), cannot pair with {male}")
+        return game.game_vars.get(get_love_var(unit1_nid, unit2_nid), 0)
+    
     love_var = get_love_var(unit1_nid, unit2_nid)
     current = game.game_vars.get(love_var, 0)
     new_points = min(current + points, 999)
     game.game_vars[love_var] = new_points
-    print(f"[LOVE DEBUG] add_love_points: {unit1_nid} + {unit2_nid} = {new_points} (threshold: {LOVE_THRESHOLD})")
+    print(f"[LOVE] +{points} points: {male} + {female} = {new_points}/{LOVE_THRESHOLD}")
     
     if new_points >= LOVE_THRESHOLD:
         become_lovers(unit1_nid, unit2_nid, auto_tag)
@@ -98,16 +163,44 @@ def become_lovers(unit1_nid: str, unit2_nid: str, auto_tag: bool = True):
     if game.game_vars.get(lovers_var, False):
         return
     
+    male = unit1_nid if unit1_nid in PAIRABLE_MALES else unit2_nid
+    female = unit2_nid if unit2_nid in PAIRABLE_FEMALES else unit1_nid
+    
+    if has_current_lover(male) and get_current_lover(male) != female:
+        return
+    if has_current_lover(female) and get_current_lover(female) != male:
+        return
+    
     game.game_vars[lovers_var] = True
     
-    parent1 = unit1_nid if unit1_nid in PAIRABLE_MALES else unit2_nid
-    parent2 = unit2_nid if unit2_nid in PAIRABLE_FEMALES else unit1_nid
+    lover_nid_var_m = get_lover_nid_var(male)
+    lover_nid_var_f = get_lover_nid_var(female)
+    game.game_vars[lover_nid_var_m] = female
+    game.game_vars[lover_nid_var_f] = male
     
-    print(f"[LOVE DEBUG] *** LOVERS! {parent1} and {parent2} ***")
-    game.alerts.append(banner.Custom(f"{parent1} and {parent2} have become lovers!", 'Status'))
+    print(f"[LOVE] *** {male} and {female} ARE NOW LOVERS! ***")
+    game.alerts.append(banner.Custom(f"{male} and {female} have become lovers!", 'Status'))
     
     if auto_tag:
         apply_parent_tags(unit1_nid, unit2_nid)
+    
+    apply_lover_bonus(male, female)
+
+def apply_lover_bonus(male: str, female: str):
+    from app.engine import item_funcs
+    
+    male_unit = get_unit_by_nid(male)
+    female_unit = get_unit_by_nid(female)
+    
+    if male_unit and 'Lovers_Bond' not in [s.nid for s in male_unit.skills]:
+        new_skill = item_funcs.create_skill(male_unit, LOVER_BONUS_SKILL_NID)
+        if new_skill:
+            male_unit.skills.append(new_skill)
+    
+    if female_unit and 'Lovers_Bond' not in [s.nid for s in female_unit.skills]:
+        new_skill = item_funcs.create_skill(female_unit, LOVER_BONUS_SKILL_NID)
+        if new_skill:
+            female_unit.skills.append(new_skill)
 
 def apply_parent_tags(unit1_nid: str, unit2_nid: str):
     student_parents = get_student_parents_mapping()
@@ -125,51 +218,6 @@ def apply_parent_tags(unit1_nid: str, unit2_nid: str):
                 if tag2 not in student.tags:
                     student.tags.append(tag2)
 
-def check_love_adjacency(unit1_nid: str, unit2_nid: str) -> int:
-    unit1 = get_unit_by_nid(unit1_nid)
-    unit2 = get_unit_by_nid(unit2_nid)
-    
-    if not unit1 or not unit2:
-        return 0
-    
-    if not unit1.position or not unit2.position:
-        return 0
-    
-    if unit1.dead or unit2.dead:
-        return 0
-    
-    if units_adjacent(unit1, unit2):
-        return add_love_points(unit1_nid, unit2_nid, LOVE_POINTS_PER_ADJACENCY)
-    
-    return game.game_vars.get(get_love_var(unit1_nid, unit2_nid), 0)
-
-def check_all_love_adjacencies() -> dict:
-    results = {}
-    all_units = list(game.get_all_units())
-    
-    for i, unit1 in enumerate(all_units):
-        for unit2 in all_units[i+1:]:
-            if not is_pairable(unit1) or not is_pairable(unit2):
-                continue
-            
-            male = unit1.nid if unit1.nid in PAIRABLE_MALES else unit2.nid
-            female = unit2.nid if unit2.nid in PAIRABLE_FEMALES else unit1.nid
-            
-            if male not in PAIRABLE_MALES or female not in PAIRABLE_FEMALES:
-                continue
-            
-            love_var = get_love_var(male, female)
-            lovers_var = get_lovers_var(male, female)
-            
-            if game.game_vars.get(lovers_var, False):
-                continue
-            
-            if units_adjacent(unit1, unit2):
-                new_points = add_love_points(male, female, LOVE_POINTS_PER_ADJACENCY)
-                results[f"{male}_{female}"] = new_points
-    
-    return results
-
 def get_love_points(unit1_nid: str, unit2_nid: str) -> int:
     return game.game_vars.get(get_love_var(unit1_nid, unit2_nid), 0)
 
@@ -177,9 +225,23 @@ def are_lovers(unit1_nid: str, unit2_nid: str) -> bool:
     return game.game_vars.get(get_lovers_var(unit1_nid, unit2_nid), False)
 
 def reset_love_system():
-    keys_to_remove = [k for k in game.game_vars.keys() if k.startswith('Love_') or k.startswith('Lovers_')]
+    keys_to_remove = [k for k in game.game_vars.keys() if k.startswith('Love_') or k.startswith('Lovers_') or k.startswith(' Lover_')]
     for key in keys_to_remove:
         del game.game_vars[key]
+
+def give_love_points_from_talk(unit1_nid: str, unit2_nid: str, points: int):
+    print(f"[LOVE] give_love_points_from_talk called: {unit1_nid} + {unit2_nid} = {points}")
+    male = unit1_nid if unit1_nid in PAIRABLE_MALES else unit2_nid
+    female = unit2_nid if unit2_nid in PAIRABLE_FEMALES else unit1_nid
+    
+    print(f"[LOVE] Detected: male={male} (in males: {male in PAIRABLE_MALES}), female={female} (in females: {female in PAIRABLE_FEMALES})")
+    
+    if male in PAIRABLE_MALES and female in PAIRABLE_FEMALES:
+        print(f"[LOVE] Valid pair, calling add_love_points...")
+        add_love_points(male, female, points)
+        return True
+    print(f"[LOVE] Invalid pair - not adding points")
+    return False
 
 class LovePointsAdjacency(SkillComponent):
     nid = 'love_points_adjacency'
@@ -189,11 +251,12 @@ class LovePointsAdjacency(SkillComponent):
     value = 1
     
     def on_endstep_unconditional(self, actions, playback, unit):
-        print(f"[LOVE DEBUG] on_endstep called for {unit.nid}")
+        print(f"[LOVE] on_endstep called for unit: {unit.nid}")
         if not unit.position:
+            print(f"[LOVE] {unit.nid} has no position")
             return
         if unit.nid not in PAIRABLE_MALES and unit.nid not in PAIRABLE_FEMALES:
-            print(f"[LOVE DEBUG] {unit.nid} is not pairable")
+            print(f"[LOVE] {unit.nid} not in pairable units")
             return
         
         opposite_gender = PAIRABLE_FEMALES if unit.nid in PAIRABLE_MALES else PAIRABLE_MALES
@@ -218,9 +281,11 @@ class LovePointsAdjacency(SkillComponent):
             if game.game_vars.get(lovers_var, False):
                 continue
             
-            if units_adjacent(unit, other):
-                print(f"[LOVE DEBUG] {male} and {female} are adjacent!")
-                new_points = add_love_points(male, female, self.value)
+            if units_within_range(unit, other, 1):
+                print(f"[LOVE] {male} and {female} are adjacent, checking love rate...")
+                rate = get_love_rate(male, female)
+                print(f"[LOVE] Love rate for {male}_{female}: {rate}")
+                add_love_points(male, female, rate)
 
 class LovePointsSupport(SkillComponent):
     nid = 'love_points_support'
@@ -239,32 +304,76 @@ class LovePointsSupport(SkillComponent):
         
         add_love_points(male, female, cls.value)
 
+class LoversBondSkill(SkillComponent):
+    nid = 'lovers_bond'
+    desc = f'Gives +{LOVER_BONUS_HIT} Hit and +{LOVER_BONUS_AVOID} Avoid when lover is within {LOVER_BONUS_RANGE} tiles.'
+    tag = SkillTags.COMBAT
+    
+    def modify_accuracy(self, unit, item):
+        lover_var = get_lover_nid_var(unit.nid)
+        lover_nid = game.game_vars.get(lover_var)
+        if not lover_nid:
+            return 0
+        
+        lover_unit = get_unit_by_nid(lover_nid)
+        if not lover_unit:
+            return 0
+        
+        if not lover_unit.position or lover_unit.dead:
+            return 0
+        
+        if units_within_range(unit, lover_unit, LOVER_BONUS_RANGE):
+            return LOVER_BONUS_HIT
+        return 0
+    
+    def modify_avoid(self, unit, item):
+        lover_var = get_lover_nid_var(unit.nid)
+        lover_nid = game.game_vars.get(lover_var)
+        if not lover_nid:
+            return 0
+        
+        lover_unit = get_unit_by_nid(lover_nid)
+        if not lover_unit:
+            return 0
+        
+        if not lover_unit.position or lover_unit.dead:
+            return 0
+        
+        if units_within_range(unit, lover_unit, LOVER_BONUS_RANGE):
+            return LOVER_BONUS_AVOID
+        return 0
+
+class LovePointsInitializer(SkillComponent):
+    nid = 'love_points_initializer'
+    desc = 'Initializes love points system on game load'
+    tag = SkillTags.CUSTOM
+    
+    def on_start(self, actions, playback, unit):
+        from app.engine.game_state import game as current_game
+        try:
+            current_game.query_engine.func_dict['give_love_points_from_talk'] = give_love_points_from_talk
+            print("[LOVE] Love points function registered via skill")
+        except Exception as e:
+            print(f"[LOVE] Failed to register: {e}")
+
 def check_broad_focus(unit: UnitObject, limit: int = 3, tag: str = "") -> int:
-    """
-    Counts the number of units with a specific tag within a specified distance from a given unit.
-    
-    Args:
-        unit (UnitObject): The unit whose surroundings are being checked.
-        limit (int): The maximum distance within which units are considered. Defaults to 3.
-        tag (str): The tag to filter units by (e.g., 'Male', 'Female'). Defaults to None (all units).
-    
-    Returns:
-        int: The count of matching units within the specified distance from the given unit.
-    """
-    from app.utilities import utils
     counter = 0
     if unit.position:
         for other in game.get_all_units():
             if other.position and unit is not other:
                 distance = utils.calculate_distance(unit.position, other.position)
                 if distance <= limit:
-                    if tag is None:
+                    if tag is None or tag == "":
                         counter += 1
                     elif tag in other.tags:
                         counter += 1
     return counter
 
 def register_custom_functions():
-    """Register custom functions to the game's query engine for use in skill conditions."""
-    if hasattr(game, 'query_engine') and hasattr(game.query_engine, 'func_dict'):
-        game.query_engine.func_dict['check_broad_focus'] = check_broad_focus
+    try:
+        if hasattr(game, 'query_engine') and hasattr(game.query_engine, 'func_dict'):
+            game.query_engine.func_dict['check_broad_focus'] = check_broad_focus
+            game.query_engine.func_dict['give_love_points_from_talk'] = give_love_points_from_talk
+            print("[LOVE] Registered custom functions to query_engine")
+    except Exception as e:
+        print(f"[LOVE] Could not register functions: {e}")
