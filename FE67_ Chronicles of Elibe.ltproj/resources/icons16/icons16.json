@@ -117,5 +117,9 @@
     {
         "nid": "Dragonstones",
         "subicon_dict": {}
+    },
+    {
+        "nid": "wexp_anima",
+        "subicon_dict": {}
     }
 ]

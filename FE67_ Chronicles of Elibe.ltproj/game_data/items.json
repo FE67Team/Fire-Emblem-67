@@ -15130,6 +15130,50 @@
         ]
     },
     {
+        "nid": "Refresh_1",
+        "name": "Refresh",
+        "desc": "Unit can move again. Only targets one. Used exclusively for castle interactions.\nIf you're seeing this in game, something has gone terribly wrong.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            9
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "refresh",
+                null
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "map_cast_pose",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "RefreshDanceMap"
+            ]
+        ]
+    },
+    {
         "nid": "Slayer",
         "name": "Slayer",
         "desc": "(Item override for the Slayer skill.)",
@@ -15364,10 +15408,10 @@
         "nid": "FireOverride",
         "name": "FireOverride",
         "desc": "",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            4
+            0
         ],
         "components": [
             [
@@ -15380,10 +15424,10 @@
         "nid": "ThunderOverride",
         "name": "ThunderOverride",
         "desc": "",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -15396,10 +15440,10 @@
         "nid": "WindOverride",
         "name": "new_2",
         "desc": "",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            7
+            2
         ],
         "components": [
             [

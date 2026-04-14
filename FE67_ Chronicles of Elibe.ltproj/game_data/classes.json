@@ -20,7 +20,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 5,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 65,
@@ -31,7 +32,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -42,7 +44,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -53,7 +56,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -64,7 +68,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -167,7 +172,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 5,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -178,7 +184,8 @@
             "LCK": 40,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -189,7 +196,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -200,7 +208,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -211,7 +220,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -275,6 +285,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -319,7 +334,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 7,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -330,7 +346,8 @@
             "LCK": 40,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -341,7 +358,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 4,
@@ -352,7 +370,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -363,7 +382,8 @@
             "LCK": 30,
             "DEF": 22,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -479,7 +499,8 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 8,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -490,7 +511,8 @@
             "LCK": 40,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -501,7 +523,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -512,7 +535,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -523,7 +547,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -630,7 +655,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 10,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -641,7 +667,8 @@
             "LCK": 40,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -652,7 +679,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 4,
@@ -663,7 +691,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -674,7 +703,8 @@
             "LCK": 30,
             "DEF": 23,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -784,7 +814,10 @@
             "SPD": 9,
             "DEF": 2,
             "MOV": 5,
-            "CON": 5
+            "CON": 5,
+            "LCK": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "MAG": 20,
@@ -793,10 +826,35 @@
             "SPD": 20,
             "SKL": 20,
             "STR": 20,
-            "HP": 20
+            "HP": 20,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growth_bonus": {},
-        "promotion": {},
+        "growth_bonus": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "promotion": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "max_stats": {
             "HP": 60,
             "STR": 20,
@@ -806,7 +864,8 @@
             "DEF": 20,
             "MAG": 20,
             "MOV": 15,
-            "CON": 20
+            "CON": 20,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -870,6 +929,11 @@
                 0,
                 null
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -910,10 +974,35 @@
             "STR": 3,
             "SKL": 3,
             "SPD": 4,
-            "DEF": 5
+            "DEF": 5,
+            "LCK": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
-        "growths": {},
-        "growth_bonus": {},
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "growth_bonus": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "promotion": {
             "HP": 3,
             "STR": 2,
@@ -921,7 +1010,10 @@
             "DEF": 3,
             "MAG": 5,
             "MOV": -97,
-            "CON": 1
+            "CON": 1,
+            "SPD": 0,
+            "LCK": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -932,7 +1024,8 @@
             "DEF": 22,
             "MOV": 15,
             "CON": 25,
-            "MAG": 22
+            "MAG": 22,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -1038,7 +1131,10 @@
             "SPD": 7,
             "DEF": 5,
             "CON": 7,
-            "MOV": 5
+            "MOV": 5,
+            "LCK": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "SKL": 20,
@@ -1047,13 +1143,34 @@
             "SPD": 20,
             "LCK": 20,
             "DEF": 20,
-            "MAG": 20
+            "MAG": 20,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
-            "SKL": 0
+            "SKL": 0,
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
         "promotion": {
-            "SKL": 0
+            "SKL": 0,
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "SKL": 20,
@@ -1064,7 +1181,8 @@
             "DEF": 20,
             "MAG": 20,
             "MOV": 15,
-            "CON": 20
+            "CON": 20,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -1170,7 +1288,10 @@
             "STR": 3,
             "SKL": 3,
             "SPD": 4,
-            "DEF": 5
+            "DEF": 5,
+            "LCK": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -1179,9 +1300,23 @@
             "SPD": 20,
             "LCK": 20,
             "DEF": 20,
-            "MAG": 20
+            "MAG": 20,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growth_bonus": {},
+        "growth_bonus": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "promotion": {
             "HP": 4,
             "STR": 2,
@@ -1189,7 +1324,10 @@
             "DEF": 1,
             "MAG": 3,
             "MOV": -97,
-            "CON": 0
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -1200,7 +1338,8 @@
             "DEF": 23,
             "MAG": 25,
             "MOV": 15,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -1309,7 +1448,10 @@
             "STR": 7,
             "SKL": 4,
             "SPD": 5,
-            "DEF": 8
+            "DEF": 8,
+            "LCK": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "STR": 20,
@@ -1320,10 +1462,33 @@
             "MAG": 20,
             "MOV": 0,
             "CON": 0,
-            "HP": 80
+            "HP": 80,
+            "LEAD": 0
         },
-        "growth_bonus": {},
-        "promotion": {},
+        "growth_bonus": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "promotion": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "max_stats": {
             "HP": 60,
             "STR": 20,
@@ -1333,7 +1498,8 @@
             "DEF": 20,
             "MAG": 20,
             "MOV": 15,
-            "CON": 20
+            "CON": 20,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -1437,7 +1603,9 @@
             "STR": 3,
             "SKL": 3,
             "SPD": 4,
-            "DEF": 5
+            "DEF": 5,
+            "LCK": 0,
+            "LEAD": 0
         },
         "growths": {
             "CON": 0,
@@ -1448,9 +1616,21 @@
             "SPD": 20,
             "LCK": 20,
             "DEF": 20,
-            "MAG": 20
+            "MAG": 20,
+            "LEAD": 0
         },
-        "growth_bonus": {},
+        "growth_bonus": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "promotion": {
             "HP": 3,
             "SKL": 2,
@@ -1458,7 +1638,10 @@
             "DEF": 1,
             "MAG": 5,
             "MOV": -97,
-            "CON": 2
+            "CON": 2,
+            "LCK": 0,
+            "STR": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -1469,7 +1652,8 @@
             "DEF": 29,
             "MAG": 20,
             "MOV": 15,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -1575,7 +1759,10 @@
             "SPD": 4,
             "DEF": 5,
             "MOV": 5,
-            "CON": 6
+            "CON": 6,
+            "LCK": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 95,
@@ -1584,11 +1771,47 @@
             "SPD": 40,
             "LCK": 40,
             "DEF": 15,
-            "MAG": 12
+            "MAG": 12,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growth_bonus": {},
-        "promotion": {},
-        "max_stats": {},
+        "growth_bonus": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "promotion": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "max_stats": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 30
+        },
         "learned_skills": [
             [
                 1,
@@ -1692,7 +1915,9 @@
             "DEF": 7,
             "MAG": 5,
             "MOV": 6,
-            "CON": 8
+            "CON": 8,
+            "LCK": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -1701,9 +1926,23 @@
             "SPD": 30,
             "LCK": 15,
             "DEF": 35,
-            "MAG": 10
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growth_bonus": {},
+        "growth_bonus": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "promotion": {
             "HP": 4,
             "STR": 2,
@@ -1711,7 +1950,10 @@
             "SPD": 2,
             "DEF": 2,
             "MAG": 5,
-            "CON": 2
+            "CON": 2,
+            "LCK": 0,
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -1722,7 +1964,8 @@
             "DEF": 25,
             "MAG": 25,
             "MOV": 15,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -1827,7 +2070,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 4,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -1838,7 +2082,8 @@
             "LCK": 70,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -1849,7 +2094,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -1860,7 +2106,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -1871,7 +2118,8 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -1979,7 +2227,10 @@
             "SPD": 7,
             "MAG": 1,
             "MOV": 5,
-            "CON": 4
+            "CON": 4,
+            "LCK": 0,
+            "DEF": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -1988,10 +2239,35 @@
             "SPD": 20,
             "LCK": 20,
             "DEF": 20,
-            "MAG": 20
+            "MAG": 20,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growth_bonus": {},
-        "promotion": {},
+        "growth_bonus": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "promotion": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "max_stats": {
             "HP": 60,
             "STR": 20,
@@ -2001,7 +2277,8 @@
             "DEF": 20,
             "MAG": 20,
             "MOV": 15,
-            "CON": 20
+            "CON": 20,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -2110,7 +2387,9 @@
             "MAG": 0,
             "MOV": 5,
             "CON": 3,
-            "DEF": 1
+            "DEF": 1,
+            "LCK": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -2118,9 +2397,24 @@
             "SKL": 30,
             "SPD": 60,
             "LCK": 70,
-            "MAG": 13
+            "MAG": 13,
+            "MOV": 0,
+            "DEF": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growth_bonus": {},
+        "growth_bonus": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "promotion": {
             "HP": 0,
             "STR": 0,
@@ -2129,7 +2423,9 @@
             "DEF": 0,
             "MOV": 0,
             "CON": 0,
-            "LCK": 0
+            "LCK": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -2140,7 +2436,8 @@
             "DEF": 24,
             "MAG": 26,
             "MOV": 15,
-            "CON": 20
+            "CON": 20,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -2242,12 +2539,65 @@
         ],
         "max_level": 40,
         "bases": {
-            "HP": 14
+            "HP": 14,
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
-        "growths": {},
-        "growth_bonus": {},
-        "promotion": {},
-        "max_stats": {},
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "growth_bonus": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "promotion": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "max_stats": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 30
+        },
         "learned_skills": [
             [
                 1,
@@ -2359,7 +2709,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 8,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -2370,7 +2721,8 @@
             "LCK": 30,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2381,7 +2733,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -2392,7 +2745,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -2403,7 +2757,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -2512,7 +2867,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 9,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 65,
@@ -2523,7 +2879,8 @@
             "LCK": 25,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2534,7 +2891,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 5,
@@ -2545,7 +2903,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -2556,7 +2915,8 @@
             "LCK": 30,
             "DEF": 22,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -2672,7 +3032,8 @@
             "LCK": 0,
             "DEF": 4,
             "CON": 9,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -2683,7 +3044,8 @@
             "LCK": 30,
             "DEF": 18,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2694,7 +3056,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -2705,7 +3068,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -2716,7 +3080,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -2825,7 +3190,8 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 11,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -2836,7 +3202,8 @@
             "LCK": 25,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -2847,7 +3214,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 4,
@@ -2858,7 +3226,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -2869,7 +3238,8 @@
             "LCK": 30,
             "DEF": 25,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -2981,7 +3351,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 6,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -2992,7 +3363,8 @@
             "LCK": 40,
             "DEF": 5,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3003,7 +3375,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -3014,7 +3387,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -3025,7 +3399,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -3134,7 +3509,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 8,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -3145,7 +3521,8 @@
             "LCK": 40,
             "DEF": 5,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3156,7 +3533,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 3,
@@ -3167,7 +3545,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -3178,7 +3557,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -3291,7 +3671,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 7,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -3302,7 +3683,8 @@
             "LCK": 40,
             "DEF": 5,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3313,7 +3695,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 2,
@@ -3324,7 +3707,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -3335,7 +3719,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -3448,7 +3833,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 6,
-            "MOV": 4
+            "MOV": 4,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -3459,7 +3845,8 @@
             "LCK": 40,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3470,7 +3857,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -3481,7 +3869,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -3492,7 +3881,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -3595,7 +3985,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 6,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -3606,7 +3997,8 @@
             "LCK": 25,
             "DEF": 12,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3617,7 +4009,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -3628,7 +4021,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -3639,7 +4033,8 @@
             "LCK": 20,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -3748,7 +4143,8 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -3759,7 +4155,8 @@
             "LCK": 30,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3770,7 +4167,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -3781,7 +4179,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -3792,7 +4191,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -3905,7 +4305,8 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -3916,7 +4317,8 @@
             "LCK": 30,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -3927,7 +4329,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -3938,7 +4341,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -3949,7 +4353,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -4062,7 +4467,8 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -4073,7 +4479,8 @@
             "LCK": 30,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4084,7 +4491,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -4095,7 +4503,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -4106,7 +4515,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -4219,7 +4629,8 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -4230,7 +4641,8 @@
             "LCK": 30,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4241,7 +4653,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -4252,7 +4665,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -4263,7 +4677,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -4373,7 +4788,8 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 11,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -4384,7 +4800,8 @@
             "LCK": 25,
             "DEF": 12,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4395,7 +4812,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 2,
@@ -4406,7 +4824,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -4417,7 +4836,8 @@
             "LCK": 30,
             "DEF": 25,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -4528,7 +4948,8 @@
             "LCK": 0,
             "DEF": 11,
             "CON": 13,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -4539,7 +4960,8 @@
             "LCK": 20,
             "DEF": 21,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4550,7 +4972,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 3,
@@ -4561,7 +4984,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 4,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -4572,7 +4996,8 @@
             "LCK": 30,
             "DEF": 29,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -4685,7 +5110,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 5,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 65,
@@ -4696,7 +5122,8 @@
             "LCK": 35,
             "DEF": 12,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4707,7 +5134,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -4718,7 +5146,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -4729,7 +5158,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -4839,7 +5269,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 6,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -4850,7 +5281,8 @@
             "LCK": 30,
             "DEF": 12,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -4861,7 +5293,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 5,
@@ -4872,7 +5305,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -4883,7 +5317,8 @@
             "LCK": 30,
             "DEF": 23,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -4995,7 +5430,8 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 13,
-            "MOV": 4
+            "MOV": 4,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -5006,7 +5442,8 @@
             "LCK": 25,
             "DEF": 28,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5017,7 +5454,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -5028,7 +5466,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -5039,7 +5478,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -5147,7 +5587,8 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 13,
-            "MOV": 4
+            "MOV": 4,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -5158,7 +5599,8 @@
             "LCK": 25,
             "DEF": 28,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5169,7 +5611,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -5180,7 +5623,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -5191,7 +5635,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -5299,7 +5744,8 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 13,
-            "MOV": 4
+            "MOV": 4,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -5310,7 +5756,8 @@
             "LCK": 25,
             "DEF": 28,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5321,7 +5768,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -5332,7 +5780,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -5343,7 +5792,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -5448,7 +5898,8 @@
             "LCK": 0,
             "DEF": 13,
             "CON": 11,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -5459,7 +5910,8 @@
             "LCK": 20,
             "DEF": 23,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5470,7 +5922,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 4,
@@ -5481,7 +5934,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -5492,7 +5946,8 @@
             "LCK": 30,
             "DEF": 30,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -5605,7 +6060,8 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 8,
-            "MOV": 4
+            "MOV": 4,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -5616,7 +6072,8 @@
             "LCK": 40,
             "DEF": 18,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5627,7 +6084,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -5638,7 +6096,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -5649,7 +6108,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -5755,7 +6215,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 11,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -5766,7 +6227,8 @@
             "LCK": 15,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5777,7 +6239,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 2,
@@ -5788,7 +6251,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 3,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -5799,7 +6263,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -5902,7 +6367,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 13,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -5913,7 +6379,8 @@
             "LCK": 15,
             "DEF": 16,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -5924,7 +6391,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 3,
@@ -5935,7 +6403,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -5946,7 +6415,8 @@
             "LCK": 30,
             "DEF": 26,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -6051,7 +6521,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 10,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -6062,7 +6533,8 @@
             "LCK": 15,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6073,7 +6545,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 2,
@@ -6084,7 +6557,8 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6095,7 +6569,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -6198,7 +6673,8 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 13,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -6209,7 +6685,8 @@
             "LCK": 15,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6220,7 +6697,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 4,
@@ -6231,7 +6709,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 3,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6242,7 +6721,8 @@
             "LCK": 30,
             "DEF": 23,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -6351,7 +6831,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 12,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 82,
@@ -6362,7 +6843,8 @@
             "LCK": 15,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6373,7 +6855,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -6384,7 +6867,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6395,7 +6879,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -6501,7 +6986,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 7,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -6512,7 +6998,8 @@
             "LCK": 35,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6523,7 +7010,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -6534,7 +7022,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6545,7 +7034,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -6648,7 +7138,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 8,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 65,
@@ -6659,7 +7150,8 @@
             "LCK": 30,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6670,7 +7162,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 4,
@@ -6681,7 +7174,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6692,7 +7186,8 @@
             "LCK": 30,
             "DEF": 25,
             "CON": 20,
-            "MOV": 30
+            "MOV": 30,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -6802,7 +7297,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 7,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -6813,7 +7309,8 @@
             "LCK": 35,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6824,7 +7321,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -6835,7 +7333,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6846,7 +7345,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -6952,7 +7452,8 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -6963,7 +7464,8 @@
             "LCK": 25,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -6974,7 +7476,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 3,
@@ -6985,7 +7488,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 3,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -6996,7 +7500,8 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -7106,7 +7611,8 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 9,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -7117,7 +7623,8 @@
             "LCK": 25,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7128,7 +7635,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 3,
@@ -7139,7 +7647,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 3,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -7150,7 +7659,8 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -7260,7 +7770,8 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 6,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -7271,7 +7782,8 @@
             "LCK": 45,
             "DEF": 8,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7282,7 +7794,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 1,
@@ -7293,7 +7806,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -7304,7 +7818,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -7413,7 +7928,8 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 5,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -7424,7 +7940,8 @@
             "LCK": 45,
             "DEF": 8,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7435,7 +7952,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -7446,7 +7964,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -7457,7 +7976,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -7555,7 +8075,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 7,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -7566,7 +8087,8 @@
             "LCK": 40,
             "DEF": 8,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7577,7 +8099,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 3,
@@ -7588,7 +8111,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -7599,7 +8123,8 @@
             "LCK": 30,
             "DEF": 22,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -7712,7 +8237,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 5,
-            "MOV": 4
+            "MOV": 4,
+            "LEAD": 0
         },
         "growths": {
             "HP": 55,
@@ -7723,7 +8249,8 @@
             "LCK": 40,
             "DEF": 10,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "MOV": 0,
@@ -7734,7 +8261,8 @@
             "LCK": 0,
             "MAG": 0,
             "HP": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "MOV": 0,
@@ -7745,7 +8273,8 @@
             "LCK": 0,
             "MAG": 0,
             "HP": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -7756,7 +8285,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -7862,7 +8392,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 5,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 55,
@@ -7873,7 +8404,8 @@
             "LCK": 20,
             "DEF": 5,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -7884,7 +8416,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 1,
@@ -7895,7 +8428,8 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -7906,7 +8440,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -8012,7 +8547,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 5,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 55,
@@ -8023,7 +8559,8 @@
             "LCK": 20,
             "DEF": 5,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -8034,7 +8571,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 1,
@@ -8045,7 +8583,8 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -8056,7 +8595,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -8162,7 +8702,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 5,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 55,
@@ -8173,7 +8714,8 @@
             "LCK": 20,
             "DEF": 5,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -8184,7 +8726,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 1,
@@ -8195,7 +8738,8 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -8206,7 +8750,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -8309,7 +8854,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 7,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -8320,7 +8866,8 @@
             "LCK": 15,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -8331,7 +8878,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 4,
@@ -8342,7 +8890,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -8353,7 +8902,8 @@
             "LCK": 30,
             "DEF": 21,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -8459,7 +9009,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 7,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -8470,7 +9021,8 @@
             "LCK": 20,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -8481,7 +9033,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 1,
@@ -8492,7 +9045,8 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 2,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -8503,7 +9057,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -8606,7 +9161,8 @@
             "LCK": 0,
             "DEF": 4,
             "CON": 8,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -8617,7 +9173,8 @@
             "LCK": 20,
             "DEF": 10,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "MOV": 0,
@@ -8628,7 +9185,8 @@
             "LCK": 0,
             "MAG": 0,
             "HP": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 4,
@@ -8639,7 +9197,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -8650,7 +9209,8 @@
             "LCK": 30,
             "DEF": 21,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -8753,7 +9313,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 8,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -8764,7 +9325,8 @@
             "LCK": 20,
             "DEF": 8,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "MOV": 0,
@@ -8775,7 +9337,8 @@
             "LCK": 0,
             "MAG": 0,
             "HP": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "CON": 1,
@@ -8786,7 +9349,8 @@
             "SKL": 1,
             "SPD": 3,
             "LCK": 0,
-            "DEF": 1
+            "DEF": 1,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -8797,7 +9361,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -8906,7 +9471,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 8,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -8917,7 +9483,8 @@
             "LCK": 15,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -8928,7 +9495,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 4,
@@ -8939,7 +9507,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 3,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -8950,7 +9519,8 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -9063,7 +9633,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 5,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -9074,7 +9645,8 @@
             "LCK": 45,
             "DEF": 12,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -9085,7 +9657,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -9096,7 +9669,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -9107,7 +9681,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -9213,7 +9788,8 @@
             "LCK": 0,
             "DEF": 4,
             "CON": 6,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -9224,7 +9800,8 @@
             "LCK": 40,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -9235,7 +9812,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 3,
@@ -9246,7 +9824,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -9257,7 +9836,8 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -9371,7 +9951,8 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 10,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -9382,7 +9963,8 @@
             "LCK": 25,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -9393,7 +9975,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -9404,7 +9987,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -9415,7 +9999,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -9526,7 +10111,8 @@
             "LCK": 0,
             "DEF": 10,
             "CON": 11,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -9537,7 +10123,8 @@
             "LCK": 20,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -9548,7 +10135,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 4,
@@ -9559,7 +10147,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 1,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -9570,7 +10159,8 @@
             "LCK": 30,
             "DEF": 28,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -9681,7 +10271,8 @@
             "LCK": 0,
             "DEF": 7,
             "CON": 9,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 65,
@@ -9692,7 +10283,8 @@
             "LCK": 25,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -9703,7 +10295,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 3,
@@ -9714,7 +10307,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": -97
+            "MOV": -97,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -9725,7 +10319,8 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -9838,7 +10433,8 @@
             "DEF": 3,
             "MAG": 9,
             "MOV": 6,
-            "CON": 7
+            "CON": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -9849,7 +10445,8 @@
             "DEF": 10,
             "MAG": 55,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -9860,7 +10457,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -9871,7 +10469,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -9882,7 +10481,8 @@
             "DEF": 30,
             "MAG": 30,
             "MOV": 15,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -9978,7 +10578,8 @@
             "DEF": 3,
             "MAG": 3,
             "MOV": 5,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 0
         },
         "growths": {
             "HP": 10,
@@ -9989,7 +10590,8 @@
             "DEF": 0,
             "MAG": 10,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -10000,7 +10602,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -10011,7 +10614,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -10022,7 +10626,8 @@
             "DEF": 20,
             "MAG": 20,
             "MOV": 15,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -10117,7 +10722,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 5,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 95,
@@ -10128,7 +10734,8 @@
             "LCK": 25,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -10139,7 +10746,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -10150,7 +10758,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -10161,7 +10770,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -10275,7 +10885,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 7,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -10286,7 +10897,8 @@
             "LCK": 20,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -10297,7 +10909,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -10308,7 +10921,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -10319,7 +10933,8 @@
             "LCK": 30,
             "DEF": 30,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -10424,7 +11039,8 @@
             "DEF": 28,
             "MAG": 30,
             "MOV": 20,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 10,
@@ -10435,7 +11051,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -10446,7 +11063,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -10457,7 +11075,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 80,
@@ -10468,7 +11087,8 @@
             "DEF": 30,
             "MAG": 30,
             "MOV": 15,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -10561,7 +11181,8 @@
             "DEF": 15,
             "MAG": 10,
             "MOV": 5,
-            "CON": 17
+            "CON": 17,
+            "LEAD": 0
         },
         "growths": {
             "HP": 10,
@@ -10572,7 +11193,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -10583,7 +11205,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -10594,7 +11217,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 80,
@@ -10605,7 +11229,8 @@
             "DEF": 30,
             "MAG": 30,
             "MOV": 15,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -10698,7 +11323,8 @@
             "DEF": 20,
             "MAG": 30,
             "MOV": 8,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 0
         },
         "growths": {
             "HP": 95,
@@ -10709,7 +11335,8 @@
             "DEF": 20,
             "MAG": 25,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -10720,7 +11347,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -10731,7 +11359,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 120,
@@ -10742,7 +11371,8 @@
             "DEF": 30,
             "MAG": 30,
             "MOV": 15,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -10844,7 +11474,8 @@
             "DEF": 32,
             "MAG": 21,
             "MOV": 2,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 0
         },
         "growths": {
             "HP": 10,
@@ -10855,7 +11486,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -10866,7 +11498,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -10877,7 +11510,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 120,
@@ -10888,7 +11522,8 @@
             "DEF": 30,
             "MAG": 30,
             "MOV": 15,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -10990,7 +11625,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 5,
-            "CON": 7
+            "CON": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -11001,7 +11637,8 @@
             "DEF": 20,
             "MAG": 20,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -11012,7 +11649,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -11023,7 +11661,8 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -11034,7 +11673,8 @@
             "DEF": 30,
             "MAG": 30,
             "MOV": 15,
-            "CON": 25
+            "CON": 25,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -11132,7 +11772,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 6,
-            "MOV": 4
+            "MOV": 4,
+            "LEAD": 0
         },
         "growths": {
             "HP": 95,
@@ -11143,7 +11784,8 @@
             "LCK": 10,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -11154,7 +11796,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -11165,7 +11808,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -11176,7 +11820,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -11277,7 +11922,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 6,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -11288,7 +11934,8 @@
             "LCK": 50,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -11299,7 +11946,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -11310,7 +11958,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -11321,7 +11970,8 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -11424,7 +12074,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 7,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -11435,7 +12086,8 @@
             "LCK": 10,
             "DEF": 12,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -11446,7 +12098,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -11457,7 +12110,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -11468,7 +12122,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -11569,7 +12224,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 9,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -11580,7 +12236,8 @@
             "LCK": 50,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -11591,7 +12248,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -11602,7 +12260,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -11613,7 +12272,8 @@
             "LCK": 30,
             "DEF": 22,
             "CON": 25,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -11716,7 +12376,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 6,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -11727,7 +12388,8 @@
             "LCK": 10,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -11738,7 +12400,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -11749,7 +12412,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -11760,7 +12424,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -11861,7 +12526,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 8,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 65,
@@ -11872,7 +12538,8 @@
             "LCK": 10,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -11883,7 +12550,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -11894,7 +12562,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -11905,7 +12574,8 @@
             "LCK": 30,
             "DEF": 25,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -12009,7 +12679,8 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 4,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -12020,7 +12691,8 @@
             "LCK": 30,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -12031,7 +12703,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -12042,7 +12715,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -12053,7 +12727,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -12155,7 +12830,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 5,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -12166,7 +12842,8 @@
             "LCK": 20,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -12177,7 +12854,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -12188,7 +12866,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -12199,7 +12878,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -12300,7 +12980,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -12311,7 +12992,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -12322,7 +13004,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -12333,7 +13016,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 30,
@@ -12344,7 +13028,8 @@
             "LCK": 30,
             "DEF": 30,
             "CON": 30,
-            "MOV": 30
+            "MOV": 30,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -12454,7 +13139,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -12465,7 +13151,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "HP": 0,
@@ -12476,7 +13163,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "promotion": {
             "HP": 0,
@@ -12487,7 +13175,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 30,
@@ -12498,7 +13187,8 @@
             "LCK": 30,
             "DEF": 30,
             "CON": 30,
-            "MOV": 30
+            "MOV": 30,
+            "LEAD": 30
         },
         "learned_skills": [
             [
@@ -12607,7 +13297,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 11,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "STR": 55,
@@ -12618,7 +13309,8 @@
             "DEF": 15,
             "MOV": 0,
             "HP": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growth_bonus": {
             "MOV": 0,
@@ -12629,7 +13321,8 @@
             "LCK": 0,
             "MAG": 0,
             "HP": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "promotion": {
             "MOV": 0,
@@ -12640,7 +13333,8 @@
             "LCK": 0,
             "MAG": 0,
             "HP": 0,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "max_stats": {
             "HP": 60,
@@ -12651,7 +13345,8 @@
             "LCK": 30,
             "DEF": 0,
             "CON": 20,
-            "MOV": 15
+            "MOV": 15,
+            "LEAD": 30
         },
         "learned_skills": [
             [

@@ -4,7 +4,7 @@
         "name": "Sword",
         "force_melee_anim": false,
         "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_convoy": true,
         "rank_bonus": [
             {
                 "weapon_type": "Sword",
@@ -82,7 +82,7 @@
         "name": "Lance",
         "force_melee_anim": false,
         "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_convoy": true,
         "rank_bonus": [
             {
                 "weapon_type": "Sword",
@@ -160,7 +160,7 @@
         "name": "Axe",
         "force_melee_anim": false,
         "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_convoy": true,
         "rank_bonus": [
             {
                 "weapon_type": "Sword",
@@ -238,7 +238,7 @@
         "name": "Bow",
         "force_melee_anim": false,
         "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_convoy": true,
         "rank_bonus": [
             {
                 "weapon_type": "Sword",
@@ -290,7 +290,7 @@
         "name": "Staff",
         "force_melee_anim": false,
         "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_convoy": true,
         "rank_bonus": [
             {
                 "weapon_type": "Sword",
@@ -342,7 +342,7 @@
         "name": "Light",
         "force_melee_anim": false,
         "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_convoy": true,
         "rank_bonus": [
             {
                 "weapon_type": "Sword",
@@ -444,7 +444,7 @@
         "name": "Dark",
         "force_melee_anim": false,
         "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_convoy": true,
         "rank_bonus": [
             {
                 "weapon_type": "Sword",
@@ -546,7 +546,7 @@
         "name": "Fire",
         "force_melee_anim": false,
         "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_convoy": true,
         "rank_bonus": [
             {
                 "weapon_type": "Sword",
@@ -637,10 +637,10 @@
                 "defense_speed": 0
             }
         ],
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            4
+            0
         ]
     },
     {
@@ -648,7 +648,7 @@
         "name": "Thunder",
         "force_melee_anim": false,
         "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_convoy": true,
         "rank_bonus": [
             {
                 "weapon_type": "Sword",
@@ -739,10 +739,10 @@
                 "defense_speed": 0
             }
         ],
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            0
+            1
         ]
     },
     {
@@ -750,7 +750,7 @@
         "name": "Wind",
         "force_melee_anim": false,
         "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_convoy": true,
         "rank_bonus": [
             {
                 "weapon_type": "Sword",
@@ -841,10 +841,10 @@
                 "defense_speed": 0
             }
         ],
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            7
+            2
         ]
     },
     {
@@ -866,8 +866,8 @@
         "nid": "Dragonstone",
         "name": "Dragonstone",
         "force_melee_anim": false,
-        "hide_from_display": false,
-        "hide_from_convoy": false,
+        "hide_from_display": true,
+        "hide_from_convoy": true,
         "rank_bonus": [],
         "advantage": [],
         "disadvantage": [],
