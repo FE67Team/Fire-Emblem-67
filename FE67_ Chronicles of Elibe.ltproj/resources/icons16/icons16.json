@@ -120,8 +120,9 @@
     },
     {
         "nid": "wexp_anima",
-	},
-	{
+        "subicon_dict": {}
+    },
+    {
         "nid": "Rings_and_Bands_Sheet",
         "subicon_dict": {}
     }
