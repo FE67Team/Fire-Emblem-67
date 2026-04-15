@@ -4070,16 +4070,40 @@
     {
         "nid": "Lovers_Bond",
         "name": "Lover's Bond",
-        "desc": "+10 Hit and +10 Avoid when your lover is within 3 tiles.",
-        "icon_nid": "Skills",
+        "desc": "When lover is within 3 tiles, grants +10 Hit and +10 Avoid.",
+        "icon_nid": "Fe4-skills",
         "icon_index": [
-            5,
-            4
+            7,
+            0
         ],
         "components": [
             [
                 "lovers_bond",
                 1
+            ]
+        ]
+    },
+    {
+        "nid": "Lovers_Bond_Child",
+        "name": "Lover's Bond",
+        "desc": "+10 Hit and +10 Avoid when near lover.",
+        "icon_nid": "Fe4-skills",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "avoid",
+                10
             ]
         ]
     }

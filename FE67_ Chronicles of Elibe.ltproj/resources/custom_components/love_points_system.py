@@ -192,15 +192,18 @@ def apply_lover_bonus(male: str, female: str):
     male_unit = get_unit_by_nid(male)
     female_unit = get_unit_by_nid(female)
     
+    # Give Lovers_Bond skill to both units
     if male_unit and 'Lovers_Bond' not in [s.nid for s in male_unit.skills]:
         new_skill = item_funcs.create_skill(male_unit, LOVER_BONUS_SKILL_NID)
         if new_skill:
             male_unit.skills.append(new_skill)
+            print(f"[LOVE] Added Lovers_Bond to {male}")
     
     if female_unit and 'Lovers_Bond' not in [s.nid for s in female_unit.skills]:
         new_skill = item_funcs.create_skill(female_unit, LOVER_BONUS_SKILL_NID)
         if new_skill:
             female_unit.skills.append(new_skill)
+            print(f"[LOVE] Added Lovers_Bond to {female}")
 
 def apply_parent_tags(unit1_nid: str, unit2_nid: str):
     student_parents = get_student_parents_mapping()
@@ -309,39 +312,43 @@ class LoversBondSkill(SkillComponent):
     desc = f'Gives +{LOVER_BONUS_HIT} Hit and +{LOVER_BONUS_AVOID} Avoid when lover is within {LOVER_BONUS_RANGE} tiles.'
     tag = SkillTags.COMBAT
     
-    def modify_accuracy(self, unit, item):
+    def on_upkeep(self, actions, playback, unit):
+        from app.engine import action, item_funcs
+        
         lover_var = get_lover_nid_var(unit.nid)
         lover_nid = game.game_vars.get(lover_var)
         if not lover_nid:
-            return 0
+            return
         
         lover_unit = get_unit_by_nid(lover_nid)
         if not lover_unit:
-            return 0
+            return
         
         if not lover_unit.position or lover_unit.dead:
-            return 0
+            return
         
         if units_within_range(unit, lover_unit, LOVER_BONUS_RANGE):
-            return LOVER_BONUS_HIT
-        return 0
+            # Add the child skill to self if not present
+            child_skill_nid = 'Lovers_Bond_Child'
+            if child_skill_nid not in [s.nid for s in unit.skills]:
+                child_skill = item_funcs.create_skill(unit, child_skill_nid)
+                if child_skill:
+                    actions.append(action.AddSkill(unit, child_skill))
+            
+            # Add the child skill to lover if not present
+            if child_skill_nid not in [s.nid for s in lover_unit.skills]:
+                child_skill = item_funcs.create_skill(lover_unit, child_skill_nid)
+                if child_skill:
+                    actions.append(action.AddSkill(lover_unit, child_skill))
     
-    def modify_avoid(self, unit, item):
-        lover_var = get_lover_nid_var(unit.nid)
-        lover_nid = game.game_vars.get(lover_var)
-        if not lover_nid:
-            return 0
-        
-        lover_unit = get_unit_by_nid(lover_nid)
-        if not lover_unit:
-            return 0
-        
-        if not lover_unit.position or lover_unit.dead:
-            return 0
-        
-        if units_within_range(unit, lover_unit, LOVER_BONUS_RANGE):
-            return LOVER_BONUS_AVOID
-        return 0
+    def on_endstep_unconditional(self, actions, playback, unit):
+        # Remove child skill at end of turn
+        child_skill_nid = 'Lovers_Bond_Child'
+        for s in unit.skills:
+            if s.nid == child_skill_nid:
+                from app.engine import action
+                actions.append(action.RemoveSkill(unit, s))
+                break
 
 class LovePointsInitializer(SkillComponent):
     nid = 'love_points_initializer'
