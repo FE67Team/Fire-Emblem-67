@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "spawn_group;AntiWallaceSquad;;AntiWallaceSquad;normal;closest",
+            "spawn_group;AntiWallaceSquad;east;starting;normal;closest",
             "",
             "",
             "spawn_group;LynsGang;north;LynsGang;normal;closest",
