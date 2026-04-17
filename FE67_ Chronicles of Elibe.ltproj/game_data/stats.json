@@ -18,6 +18,15 @@
         "hidden_stat": false
     },
     {
+        "nid": "MAG",
+        "name": "Mag",
+        "maximum": 30,
+        "desc": "Magical power. Increases spell and staff effectiveness.",
+        "position": "left",
+        "growth_colors": false,
+        "hidden_stat": false
+    },
+    {
         "nid": "SKL",
         "name": "Skill",
         "maximum": 30,
@@ -54,15 +63,6 @@
         "hidden_stat": false
     },
     {
-        "nid": "MAG",
-        "name": "Mag",
-        "maximum": 30,
-        "desc": "Magical power. Increases spell and staff effectiveness.",
-        "position": "left",
-        "growth_colors": false,
-        "hidden_stat": false
-    },
-    {
         "nid": "MOV",
         "name": "Move",
         "maximum": 15,
@@ -77,6 +77,15 @@
         "maximum": 25,
         "desc": "Constitution. Affects how well the unit can wield heavier weapons.",
         "position": "right",
+        "growth_colors": false,
+        "hidden_stat": false
+    },
+    {
+        "nid": "LEAD",
+        "name": "Lead",
+        "maximum": 10,
+        "desc": "Grants +1 Hit/Avoid to army per leadership star.",
+        "position": "hidden",
         "growth_colors": false,
         "hidden_stat": false
     }

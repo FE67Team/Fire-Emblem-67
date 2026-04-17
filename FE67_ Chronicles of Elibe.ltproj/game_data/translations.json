@@ -60,6 +60,10 @@
         "text": "Select a unit to talk to."
     },
     {
+        "nid": "Pfunds_desc",
+        "text": "How much money this unit has."
+    },
+    {
         "nid": "Config_desc",
         "text": "Change your settings."
     },
@@ -212,6 +216,10 @@
         "text": "Holistic combat rating."
     },
     {
+        "nid": "Lead_desc",
+        "text": "Excellent leadership raises the Hit and Avoid of all allies by this amount."
+    },
+    {
         "nid": "Ftg_desc",
         "text": "Fatigue. A unit whose fatigue exceeds its limit cannot be deployed."
     },
@@ -317,7 +325,7 @@
     },
     {
         "nid": "shop_convoy",
-        "text": "Send it to your convoy?"
+        "text": "I'll send that to your convoy for you."
     },
     {
         "nid": "shop_max",

@@ -1,7 +1,7 @@
 [
     [
         "num_items",
-        7
+        8
     ],
     [
         "num_accessories",
@@ -45,7 +45,7 @@
     ],
     [
         "lead",
-        false
+        true
     ],
     [
         "bexp",
