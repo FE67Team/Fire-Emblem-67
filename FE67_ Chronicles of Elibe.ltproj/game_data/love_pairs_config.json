@@ -1,0 +1,58 @@
+{
+    "description": "Configures love point gain rates for specific pairs. Each pair can have different adjacency point rates (1-5). Default rate is 1 if not specified.",
+    "default_rate": 1,
+    "pairs": {
+        "Lyn_Marcus": 1,
+        "Lyn_Sain": 2,
+        "Lyn_Kent": 1,
+        "Lyn_Batta": 1,
+        "Lyn_Heath": 1,
+        "Lyn_Karla": 1,
+        "Lyn_Bartre": 1,
+        "Lyn_Guy": 1,
+        "Lyn_Dart": 1,
+        "Lyn_Lucius": 1,
+        "Lyn_Canas": 1,
+        "Lyn_Hawkeye": 1,
+        "Lyn_Geitz": 1,
+        "Lyn_Fargus": 1,
+        "Lyn_Renault": 1,
+        "Lyn_Pent": 1,
+        "Lyn_Erk": 1,
+        "Lyn_Dorcas": 1,
+        "Lyn_Wallace": 5,
+        
+        "Florina_Heath": 2,
+        "Florina_Marcus": 1,
+        "Florina_Eliwood": 1,
+        
+        "Rebecca_Wolt": 3,
+        "Rebecca_Matthew": 2,
+        
+        "Serra_Bartre": 1,
+        "Serra_Kent": 1,
+        "Serra_Wallace": 1,
+        
+        "Priscilla_Lucius": 2,
+        "Priscilla_Erk": 1,
+        
+        "Ninian_Eliwood": 3,
+        "Ninian_Renault": 1,
+        
+        "Fiora_Fir": 2,
+        
+        "Nino_Lugh": 3,
+        "Nino_Ray": 3,
+        "Nino_Canas": 2,
+        
+        "Vaida_Miledy": 3,
+        
+        "Hector_Lilina": 3,
+        
+        "Pent_Louise": 5,
+        
+        "Karla_Fir": 2,
+        
+        "Farina_Celdia": 2
+    }
+}

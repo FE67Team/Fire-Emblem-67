@@ -12,10 +12,10 @@
         ],
         "bases": {
             "HP": 28,
-            "STR": 5,
+            "STR": 6,
             "MAG": 0,
             "SKL": 10,
-            "SPD": 11,
+            "SPD": 12,
             "LCK": 5,
             "DEF": 2,
             "CON": 0,
@@ -68,6 +68,10 @@
             [
                 1,
                 "Astra"
+            ],
+            [
+                1,
+                "Love_Points_Tracker"
             ]
         ],
         "unit_notes": [],
@@ -253,7 +257,7 @@
             "STR": 8,
             "MAG": 1,
             "SKL": 7,
-            "SPD": 8,
+            "SPD": 9,
             "LCK": 4,
             "DEF": 6,
             "CON": 0,
@@ -365,7 +369,7 @@
         ],
         "bases": {
             "HP": 31,
-            "STR": 6,
+            "STR": 8,
             "MAG": 1,
             "SKL": 5,
             "SPD": 6,
@@ -401,7 +405,7 @@
         },
         "starting_items": [
             [
-                "Iron_Bow",
+                "Steel_Bow",
                 false
             ]
         ],
@@ -516,7 +520,7 @@
         },
         "starting_items": [
             [
-                "Iron_Axe",
+                "Steel_Axe",
                 false
             ]
         ],
@@ -598,7 +602,7 @@
             "STR": 6,
             "MAG": 5,
             "SKL": 8,
-            "SPD": 9,
+            "SPD": 10,
             "LCK": 8,
             "DEF": 4,
             "CON": 0,
@@ -703,19 +707,19 @@
         "name": "Rath",
         "desc": "A young hired sword from the Kutolah tribe.",
         "variant": "",
-        "level": 9,
+        "level": 5,
         "klass": "Nomad",
         "tags": [
             "Male"
         ],
         "bases": {
             "HP": 32,
-            "STR": 9,
+            "STR": 7,
             "MAG": 2,
-            "SKL": 10,
-            "SPD": 11,
-            "LCK": 5,
-            "DEF": 8,
+            "SKL": 8,
+            "SPD": 9,
+            "LCK": 4,
+            "DEF": 7,
             "CON": 0,
             "MOV": 28,
             "LEAD": 0
@@ -746,7 +750,7 @@
         },
         "starting_items": [
             [
-                "Iron_Bow",
+                "Short_Bow",
                 false
             ]
         ],
@@ -828,7 +832,7 @@
             "STR": 2,
             "MAG": 5,
             "SKL": 6,
-            "SPD": 7,
+            "SPD": 8,
             "LCK": 3,
             "DEF": 2,
             "CON": 0,
@@ -1005,7 +1009,7 @@
         },
         "starting_items": [
             [
-                "Iron_Axe",
+                "Steel_Axe",
                 false
             ]
         ],
@@ -10860,7 +10864,7 @@
             ],
             "Dark": [
                 false,
-                0,
+                2,
                 251
             ],
             "Default": [
