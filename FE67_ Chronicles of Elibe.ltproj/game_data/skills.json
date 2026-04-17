@@ -2603,10 +2603,10 @@
         "nid": "Fire_Proficiency",
         "name": "Fire Proficiency",
         "desc": "Unit has improved weapon rank with Fire magic.",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            4
+            0
         ],
         "components": [
             [
@@ -2623,10 +2623,10 @@
         "nid": "Fire_Proficiency_visonly",
         "name": "Fire Proficiency",
         "desc": "Unit has improved weapon rank with Fire magic.",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            4
+            0
         ],
         "components": [
             [
@@ -2639,10 +2639,10 @@
         "nid": "Thunder_Proficiency",
         "name": "Thunder Proficiency",
         "desc": "Unit has improved weapon rank with Thunder magic.",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -2659,10 +2659,10 @@
         "nid": "Thunder_Proficiency_visonly",
         "name": "Thunder Proficiency",
         "desc": "Unit has improved weapon rank with Thunder magic.",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -2675,10 +2675,10 @@
         "nid": "Wind_Proficiency",
         "name": "Wind Proficiency",
         "desc": "Unit has improved weapon rank with Wind magic.",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            7
+            2
         ],
         "components": [
             [
@@ -2695,10 +2695,10 @@
         "nid": "Wind_Proficiency_visonly",
         "name": "Wind Proficiency",
         "desc": "Unit has improved weapon rank with Wind magic.",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            7
+            2
         ],
         "components": [
             [
@@ -2816,15 +2816,19 @@
         ]
     },
     {
-        "nid": "All_Magic_Proficiency_visonly",
-        "name": "All Magic Proficiency visonly",
-        "desc": "",
+        "nid": "All_Magic_Proficiency",
+        "name": "All Magic Proficiency",
+        "desc": "Unit has improved weapon rank with all Magic.",
         "icon_nid": "Affinity",
         "icon_index": [
             0,
             8
         ],
         "components": [
+            [
+                "upkeep_event",
+                "Global skill_MagicProf"
+            ],
             [
                 "class_skill",
                 null
@@ -2832,9 +2836,9 @@
         ]
     },
     {
-        "nid": "All_Magic_Proficiency",
+        "nid": "All_Magic_Proficiency_visonly",
         "name": "All Magic Proficiency",
-        "desc": "",
+        "desc": "Unit has improved weapon rank with all Magic.",
         "icon_nid": "Affinity",
         "icon_index": [
             0,
@@ -2844,17 +2848,6 @@
             [
                 "class_skill",
                 null
-            ],
-            [
-                "multi_skill",
-                [
-                    "Fire_Proficiency",
-                    "Thunder_Proficiency",
-                    "Wind_Proficiency",
-                    "Light_Proficiency",
-                    "Dark_Proficiency",
-                    "All_Magic_Proficiency"
-                ]
             ]
         ]
     },
@@ -3539,7 +3532,7 @@
             ],
             [
                 "condition",
-                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills < 50"
+                "unit.get_weapon() and (game.get_item(unit.get_weapon().uid).kills is None or game.get_item(unit.get_weapon().uid).kills < 50)"
             ],
             [
                 "eval_crit",
@@ -3963,7 +3956,7 @@
             ],
             [
                 "condition",
-                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills >= 50"
+                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills is not None and game.get_item(unit.get_weapon().uid).kills >= 50"
             ],
             [
                 "eval_crit",
@@ -4024,6 +4017,86 @@
             [
                 "ability",
                 "Convoy_ability"
+            ]
+        ]
+    },
+    {
+        "nid": "Love_Points_Tracker",
+        "name": "Love Points Tracker",
+        "desc": "Tracks love points for pairable units. Hidden skill.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "love_points_adjacency",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Love_Points_Initializer",
+        "name": "Love Points Initializer",
+        "desc": "Initializes love points system. Hidden.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "love_points_initializer",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Lovers_Bond",
+        "name": "Lover's Bond",
+        "desc": "When lover is within 3 tiles, grants +10 Hit and +10 Avoid.",
+        "icon_nid": "Fe4-skills",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "lovers_bond",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Lovers_Bond_Child",
+        "name": "Lover's Bond",
+        "desc": "+10 Hit and +10 Avoid when near lover.",
+        "icon_nid": "Fe4-skills",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "avoid",
+                10
             ]
         ]
     }

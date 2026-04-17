@@ -74,5 +74,17 @@
     {
         "nid": "_save_name",
         "desc": "Display name of the save slot. Leave as empty string if you want to display chapter name."
+    },
+    {
+        "nid": "_love_points",
+        "desc": "Tracks love points between pairs. Format: Love_{Male}_{Female} = points (0-500+)"
+    },
+    {
+        "nid": "_lovers_pairs",
+        "desc": "Stores pairs that have become lovers. Format: Lovers_{Male}_{Female} = True"
+    },
+    {
+        "nid": "_love_adjacency_count",
+        "desc": "Tracks turn count for love adjacency bonus. Format: LoveAdj_{Male}_{Female} = turns"
     }
 ]

@@ -166,5 +166,9 @@
     [
         "combat_desert",
         1
+    ],
+    [
+        "default_background_TWO",
+        1
     ]
 ]
