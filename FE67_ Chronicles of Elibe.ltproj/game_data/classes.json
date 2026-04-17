@@ -828,7 +828,7 @@
             "SKL": 7,
             "SPD": 9,
             "DEF": 2,
-            "MOV": 5,
+            "MOV": 6,
             "CON": 0,
             "LCK": 0,
             "MAG": 0,
@@ -983,7 +983,7 @@
         ],
         "max_level": 40,
         "bases": {
-            "MOV": 6,
+            "MOV": 7,
             "CON": 0,
             "HP": 23,
             "STR": 3,
@@ -1151,7 +1151,7 @@
             "SPD": 7,
             "DEF": 5,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LCK": 0,
             "MAG": 0,
             "LEAD": 0
@@ -1307,7 +1307,7 @@
         ],
         "max_level": 40,
         "bases": {
-            "MOV": 9,
+            "MOV": 10,
             "CON": 0,
             "HP": 23,
             "STR": 3,
@@ -1472,7 +1472,7 @@
         ],
         "max_level": 40,
         "bases": {
-            "MOV": 4,
+            "MOV": 6,
             "CON": 0,
             "HP": 24,
             "STR": 7,
@@ -1632,7 +1632,7 @@
         "max_level": 40,
         "bases": {
             "CON": 0,
-            "MOV": 5,
+            "MOV": 7,
             "MAG": 0,
             "HP": 23,
             "STR": 3,
@@ -1798,7 +1798,7 @@
             "SKL": 3,
             "SPD": 4,
             "DEF": 5,
-            "MOV": 5,
+            "MOV": 6,
             "CON": 0,
             "LCK": 0,
             "MAG": 0,
@@ -1959,7 +1959,7 @@
             "SPD": 6,
             "DEF": 7,
             "MAG": 5,
-            "MOV": 6,
+            "MOV": 7,
             "CON": 0,
             "LCK": 0,
             "LEAD": 0
@@ -2120,7 +2120,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -2276,7 +2276,7 @@
             "SKL": 2,
             "SPD": 7,
             "MAG": 1,
-            "MOV": 5,
+            "MOV": 6,
             "CON": 0,
             "LCK": 0,
             "DEF": 0,
@@ -2435,7 +2435,7 @@
             "SKL": 2,
             "SPD": 7,
             "MAG": 0,
-            "MOV": 5,
+            "MOV": 6,
             "CON": 0,
             "DEF": 1,
             "LCK": 0,
@@ -2759,7 +2759,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -2922,7 +2922,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -3092,7 +3092,7 @@
             "LCK": 0,
             "DEF": 4,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -3255,7 +3255,7 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -3421,7 +3421,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -3584,7 +3584,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -3751,7 +3751,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -3918,7 +3918,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 4,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -4075,7 +4075,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -4238,7 +4238,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -4405,7 +4405,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -4572,7 +4572,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -4739,7 +4739,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -4903,7 +4903,7 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 10,
             "LEAD": 0
         },
         "growths": {
@@ -5068,7 +5068,7 @@
             "LCK": 0,
             "DEF": 11,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 10,
             "LEAD": 0
         },
         "growths": {
@@ -5235,7 +5235,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -5399,7 +5399,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 10,
             "LEAD": 0
         },
         "growths": {
@@ -5565,7 +5565,7 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 0,
-            "MOV": 4,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -5727,7 +5727,7 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 0,
-            "MOV": 4,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -5889,7 +5889,7 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 0,
-            "MOV": 4,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -6048,7 +6048,7 @@
             "LCK": 0,
             "DEF": 13,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -6215,7 +6215,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 0,
-            "MOV": 4,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -6375,7 +6375,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -6532,7 +6532,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -6691,7 +6691,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -6848,7 +6848,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -7011,7 +7011,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -7171,7 +7171,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -7328,7 +7328,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -7652,7 +7652,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -7816,7 +7816,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 10,
             "LEAD": 0
         },
         "growths": {
@@ -7980,7 +7980,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -8143,7 +8143,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -8295,7 +8295,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -8462,7 +8462,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 4,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -8622,7 +8622,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -8782,7 +8782,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -8942,7 +8942,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -9099,7 +9099,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -9259,7 +9259,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 6,
             "LEAD": 0
         },
         "growths": {
@@ -9416,7 +9416,7 @@
             "LCK": 0,
             "DEF": 4,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -9573,7 +9573,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -9736,7 +9736,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 10,
             "LEAD": 0
         },
         "growths": {
@@ -9903,7 +9903,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -10063,7 +10063,7 @@
             "LCK": 0,
             "DEF": 4,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 10,
             "LEAD": 0
         },
         "growths": {
@@ -10231,7 +10231,7 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 8,
             "LEAD": 0
         },
         "growths": {
@@ -10396,7 +10396,7 @@
             "LCK": 0,
             "DEF": 10,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 9,
             "LEAD": 0
         },
         "growths": {
@@ -10561,7 +10561,7 @@
             "LCK": 0,
             "DEF": 7,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 9,
             "LEAD": 0
         },
         "growths": {
@@ -10727,7 +10727,7 @@
             "LCK": 0,
             "DEF": 3,
             "MAG": 9,
-            "MOV": 6,
+            "MOV": 7,
             "CON": 0,
             "LEAD": 0
         },
@@ -10877,7 +10877,7 @@
             "LCK": 0,
             "DEF": 3,
             "MAG": 3,
-            "MOV": 5,
+            "MOV": 7,
             "CON": 0,
             "LEAD": 0
         },
@@ -11027,7 +11027,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -11190,7 +11190,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 7,
             "LEAD": 0
         },
         "growths": {
@@ -11495,7 +11495,7 @@
             "LCK": 0,
             "DEF": 15,
             "MAG": 10,
-            "MOV": 5,
+            "MOV": 7,
             "CON": 0,
             "LEAD": 0
         },

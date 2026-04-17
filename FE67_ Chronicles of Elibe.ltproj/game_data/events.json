@@ -133,7 +133,7 @@
         "name": "WallaceAppears",
         "trigger": "turn_change",
         "level_nid": "0",
-        "condition": "game.turncount == 1",
+        "condition": "any_unit_in_region('WallaceAppears', team='player')",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -155,6 +155,54 @@
             "disp_cursor;0"
         ],
         "nid": "0 WallaceAppears"
+    },
+    {
+        "name": "MessengerRunsOff",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "any_unit_in_region('MessengerRunsOff', team='player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "wait;1000",
+            "move_cursor;54,15",
+            "disp_cursor;1",
+            "wait;1000",
+            "disp_cursor;0",
+            "add_portrait;Soldier 1;Left",
+            "speak;Soldier 1;You there! New guy! Run off and tell Yogi about this invasion. He must ready the Ballistas!",
+            "remove_portrait;Soldier 1",
+            "change_ai;AfterWallaceSquad_Messenger;MessengerPrologue",
+            "wait;1000",
+            "move_cursor;28,22",
+            "disp_cursor;1",
+            "wait;1000",
+            "disp_cursor;0"
+        ],
+        "nid": "0 MessengerRunsOff"
+    },
+    {
+        "name": "MessengerArrives",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "any_unit_in_region('MessengerArrivalSpot', unit='AfterWallaceSquad_Messenger')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "wait;1000",
+            "move_cursor;28,22",
+            "disp_cursor;1",
+            "wait;1000",
+            "disp_cursor;0",
+            "add_portrait;Yogi;Left",
+            "speak;Yogi;What?! An invasion from the North? Ballistas, ready yourselves!",
+            "remove_portrait;Yogi",
+            "remove_unit;AfterWallaceSquad_Messenger;fade;fade",
+            ""
+        ],
+        "nid": "0 MessengerArrives"
     },
     {
         "name": "FightONeill",
