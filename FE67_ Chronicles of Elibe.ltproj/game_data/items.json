@@ -575,7 +575,7 @@
             ],
             [
                 "weight",
-                6
+                4
             ],
             [
                 "uses",
@@ -650,7 +650,7 @@
             ],
             [
                 "weight",
-                4
+                5
             ],
             [
                 "uses",
@@ -692,7 +692,7 @@
     {
         "nid": "Armorslayer",
         "name": "Armorslayer",
-        "desc": "Effective against armored units",
+        "desc": "Effective against armored units.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -816,7 +816,7 @@
             ],
             [
                 "weight",
-                6
+                7
             ],
             [
                 "uses",
@@ -853,7 +853,7 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Dragon"
+                        "Flying"
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 16,
@@ -915,7 +915,7 @@
             ],
             [
                 "weight",
-                6
+                8
             ],
             [
                 "uses",
@@ -956,6 +956,93 @@
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
+        "nid": "Wing_Clipper",
+        "name": "Wing Clipper",
+        "desc": "Effective against flying units.",
+        "icon_nid": "anti-wing",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 16,
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
@@ -1123,7 +1210,7 @@
     {
         "nid": "Rapier",
         "name": "Rapier",
-        "desc": "Eliwood Only, effective against horseback and armoured units",
+        "desc": "Eliwood only, effective against horseback and armoured units.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1217,7 +1304,7 @@
     {
         "nid": "Mani_Katti",
         "name": "Mani Katti",
-        "desc": "Lyn Only, effective against horseback and armoured units",
+        "desc": "Lyn only, effective against horseback and armoured units.",
         "icon_nid": "New weapons",
         "icon_index": [
             1,
@@ -1348,7 +1435,7 @@
             ],
             [
                 "weight",
-                7
+                5
             ],
             [
                 "uses",
@@ -1423,7 +1510,7 @@
             ],
             [
                 "weight",
-                3
+                4
             ],
             [
                 "uses",
@@ -1513,7 +1600,7 @@
             ],
             [
                 "weight",
-                3
+                4
             ],
             [
                 "uses",
@@ -1686,7 +1773,7 @@
             ],
             [
                 "weight",
-                14
+                15
             ],
             [
                 "uses",
@@ -1777,7 +1864,7 @@
             ],
             [
                 "weight",
-                10
+                12
             ],
             [
                 "uses",
@@ -1864,7 +1951,7 @@
             ],
             [
                 "weight",
-                9
+                10
             ],
             [
                 "uses",
@@ -1951,7 +2038,7 @@
             ],
             [
                 "weight",
-                8
+                9
             ],
             [
                 "uses",
@@ -2307,7 +2394,7 @@
             ],
             [
                 "weight",
-                14
+                5
             ],
             [
                 "uses",
@@ -2955,7 +3042,7 @@
             ],
             [
                 "weight",
-                8
+                7
             ],
             [
                 "uses",
@@ -3034,7 +3121,7 @@
             ],
             [
                 "weight",
-                7
+                8
             ],
             [
                 "uses",
@@ -3263,7 +3350,7 @@
             ],
             [
                 "weight",
-                16
+                19
             ],
             [
                 "uses",
@@ -3417,7 +3504,7 @@
             ],
             [
                 "weight",
-                10
+                8
             ],
             [
                 "uses",
@@ -3488,7 +3575,7 @@
             ],
             [
                 "weight",
-                10
+                11
             ],
             [
                 "uses",
@@ -3722,6 +3809,93 @@
         ]
     },
     {
+        "nid": "Wing_Piercer",
+        "name": "Wing Piercer",
+        "desc": "Effective against flying units.",
+        "icon_nid": "anti-wing",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 16,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
         "nid": "Axereaver",
         "name": "Axereaver",
         "desc": "Reverses the weapon triangle.",
@@ -3761,7 +3935,7 @@
             ],
             [
                 "weight",
-                8
+                10
             ],
             [
                 "uses",
@@ -3840,7 +4014,7 @@
             ],
             [
                 "weight",
-                8
+                6
             ],
             [
                 "uses",
@@ -4281,7 +4455,7 @@
             ],
             [
                 "weight",
-                10
+                9
             ],
             [
                 "uses",
@@ -4356,7 +4530,7 @@
             ],
             [
                 "weight",
-                12
+                11
             ],
             [
                 "uses",
@@ -4431,7 +4605,7 @@
             ],
             [
                 "weight",
-                10
+                9
             ],
             [
                 "uses",
@@ -4548,7 +4722,7 @@
     {
         "nid": "Wolf_Beil",
         "name": "Wolf Beil",
-        "desc": "",
+        "desc": "Hector only, effective against horseback and armoured units.",
         "icon_nid": "New weapons",
         "icon_index": [
             2,
@@ -4829,7 +5003,7 @@
             ],
             [
                 "weight",
-                18
+                21
             ],
             [
                 "uses",
@@ -4946,7 +5120,7 @@
     {
         "nid": "Halberd",
         "name": "Halberd",
-        "desc": "Effective against horseback units",
+        "desc": "Effective against horseback units.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -4983,7 +5157,7 @@
             ],
             [
                 "weight",
-                12
+                13
             ],
             [
                 "uses",
@@ -5033,7 +5207,7 @@
     {
         "nid": "Hammer",
         "name": "Hammer",
-        "desc": "Effective against armored units",
+        "desc": "Effective against armored units.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -5070,7 +5244,7 @@
             ],
             [
                 "weight",
-                15
+                14
             ],
             [
                 "uses",
@@ -5120,7 +5294,7 @@
     {
         "nid": "Dragon_Axe",
         "name": "Dragon Axe",
-        "desc": "Effective against dragon units",
+        "desc": "Effective against dragon units.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -5217,9 +5391,96 @@
         ]
     },
     {
+        "nid": "Wing_Breaker",
+        "name": "Wing Breaker",
+        "desc": "Effective against flying units.",
+        "icon_nid": "anti-wing",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 16,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    },
+    {
         "nid": "Devil_Axe",
         "name": "Devil Axe",
-        "desc": "User may damage themselves",
+        "desc": "User may damage themselves.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -5335,7 +5596,7 @@
             ],
             [
                 "weight",
-                10
+                12
             ],
             [
                 "uses",
@@ -5377,7 +5638,7 @@
     {
         "nid": "Swordslayer",
         "name": "Swordslayer",
-        "desc": "Reverses the weapon triangle. Effective against sword fighters",
+        "desc": "Reverses the weapon triangle. Effective against sword fighters.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -5414,7 +5675,7 @@
             ],
             [
                 "weight",
-                8
+                12
             ],
             [
                 "uses",
@@ -5917,7 +6178,7 @@
             ],
             [
                 "weight",
-                4
+                3
             ],
             [
                 "uses",
@@ -6004,7 +6265,7 @@
             ],
             [
                 "weight",
-                6
+                5
             ],
             [
                 "uses",
@@ -6091,7 +6352,7 @@
             ],
             [
                 "weight",
-                4
+                3
             ],
             [
                 "uses",
@@ -6178,7 +6439,7 @@
             ],
             [
                 "weight",
-                5
+                4
             ],
             [
                 "uses",
@@ -8958,7 +9219,7 @@
             ],
             [
                 "weight",
-                3
+                6
             ],
             [
                 "uses",
@@ -9045,7 +9306,7 @@
             ],
             [
                 "weight",
-                5
+                8
             ],
             [
                 "uses",
@@ -9219,7 +9480,7 @@
             ],
             [
                 "weight",
-                15
+                10
             ],
             [
                 "uses",
@@ -9306,7 +9567,7 @@
             ],
             [
                 "weight",
-                8
+                10
             ],
             [
                 "uses",
@@ -9409,7 +9670,7 @@
             ],
             [
                 "weight",
-                16
+                10
             ],
             [
                 "uses",
@@ -9948,7 +10209,7 @@
             ],
             [
                 "weight",
-                12
+                11
             ],
             [
                 "uses",
@@ -10313,7 +10574,7 @@
             ],
             [
                 "weight",
-                18
+                20
             ],
             [
                 "uses",
@@ -10400,7 +10661,7 @@
             ],
             [
                 "weight",
-                10
+                7
             ],
             [
                 "uses",
@@ -10504,7 +10765,7 @@
             ],
             [
                 "weight",
-                2
+                3
             ],
             [
                 "uses",
@@ -10603,7 +10864,7 @@
             ],
             [
                 "weight",
-                4
+                5
             ],
             [
                 "uses",
@@ -10702,7 +10963,7 @@
             ],
             [
                 "weight",
-                6
+                7
             ],
             [
                 "uses",
@@ -10801,7 +11062,7 @@
             ],
             [
                 "weight",
-                16
+                20
             ],
             [
                 "uses",
@@ -10900,7 +11161,7 @@
             ],
             [
                 "weight",
-                8
+                6
             ],
             [
                 "uses",
@@ -11270,7 +11531,7 @@
             ],
             [
                 "weight",
-                12
+                20
             ],
             [
                 "uses",
@@ -11365,7 +11626,7 @@
             ],
             [
                 "weight",
-                18
+                14
             ],
             [
                 "uses",
@@ -14427,7 +14688,7 @@
                 [
                     [
                         "MOV",
-                        2
+                        8
                     ]
                 ]
             ],

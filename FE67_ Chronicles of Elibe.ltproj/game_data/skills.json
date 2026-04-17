@@ -402,7 +402,7 @@
                 [
                     [
                         "MOV",
-                        3
+                        12
                     ]
                 ]
             ]
@@ -2318,10 +2318,10 @@
         "nid": "FireOverride",
         "name": "FireOverride",
         "desc": "",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            4
+            0
         ],
         "components": [
             [
@@ -2342,10 +2342,10 @@
         "nid": "ThunderOverride",
         "name": "ThunderOverride",
         "desc": "",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -2366,10 +2366,10 @@
         "nid": "WindOverride",
         "name": "new_1",
         "desc": "",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            7
+            2
         ],
         "components": [
             [
@@ -3030,7 +3030,7 @@
                 [
                     [
                         "MOV",
-                        1
+                        4
                     ]
                 ]
             ]
@@ -3835,7 +3835,7 @@
                 [
                     [
                         "MOV",
-                        1
+                        4
                     ]
                 ]
             ]
