@@ -65,22 +65,6 @@
         "nid": "5 DeathSaar"
     },
     {
-        "name": "DeathBreguet",
-        "trigger": "combat_death",
-        "level_nid": "1",
-        "condition": "unit.nid == \"Breguet\"",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "add_portrait;Breguet;Left",
-            "speak;Breguet;This... this can't be...|I...",
-            "expression;Breguet;CloseEyes",
-            "remove_portrait;Breguet"
-        ],
-        "nid": "1 DeathBreguet"
-    },
-    {
         "name": "Outro",
         "trigger": "level_end",
         "level_nid": "0",
@@ -253,21 +237,21 @@
             "# Move Franz and Gilliam into the game",
             "spawn_group;Rein;North;Starting",
             "# Hover cursor over Franz",
-            "move_cursor;Franz",
+            "move_cursor;Sain",
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0",
             "# Franz and Gilliam converse",
-            "add_portrait;Franz;Left;no_block",
-            "add_portrait;Gilliam;Right",
-            "speak;Franz;Sir Gilliam, is that Mulan? Have we reached Frelia's border already?",
-            "speak;Gilliam;Aye, we have. Her Highness Princess Tana should be inside the castle.",
-            "speak;Franz;But look--the countryside is crawling with Grado soldiers!|Where's the castle guard? Has Mulan fallen? Are we too late?",
-            "speak;Gilliam;Too tough to say from here.|Princess Tana's in no danger if they want her as a bargaining tool.|We men of the Eastern Watch will see her to safety.",
-            "speak;Franz;Yes... Yes, of course.{br}We mustn't give up. We must move.|We must retake the castle. Then, we ride forth to Princess Eirika's aid.",
-            "speak;Gilliam;I've stronger armor than you do. I'll take the lead. Watch my back.",
-            "remove_portrait;Franz;no_block",
-            "remove_portrait;Gilliam"
+            "add_portrait;Sain;Left;no_block",
+            "add_portrait;Wallace;Right",
+            "speak;Sain;Sir Gilliam, is that Mulan? Have we reached Frelia's border already?",
+            "speak;Wallace;Aye, we have. Her Highness Princess Tana should be inside the castle.",
+            "speak;Sain;But look--the countryside is crawling with Grado soldiers!|Where's the castle guard? Has Mulan fallen? Are we too late?",
+            "speak;Wallace;Too tough to say from here.|Princess Tana's in no danger if they want her as a bargaining tool.|We men of the Eastern Watch will see her to safety.",
+            "speak;Sain;Yes... Yes, of course.{br}We mustn't give up. We must move.|We must retake the castle. Then, we ride forth to Princess Eirika's aid.",
+            "speak;Wallace;I've stronger armor than you do. I'll take the lead. Watch my back.",
+            "remove_portrait;Sain;no_block",
+            "remove_portrait;Wallace"
         ],
         "nid": "1 GilliamFranzArrive"
     },
@@ -342,6 +326,32 @@
         "nid": "3 Seize"
     },
     {
+        "name": "Love Points Init",
+        "trigger": "level_start",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 30,
+        "_source": [
+            "#pyev",
+            "from resources.custom_components.love_points_system import initialize_pre_paired_couples, register_custom_functions",
+            "initialize_pre_paired_couples()",
+            "register_custom_functions()",
+            "",
+            "pairable_females = ['Lyn', 'Florina', 'Serra', 'Rebecca', 'Priscilla', 'Isadora', 'Fiora', 'Ninian', 'Karla', 'Louise', 'Farina', 'Nino', 'Vaida', 'Leila', 'Juno']",
+            "for unit_nid in pairable_females:",
+            "    unit = game.get_unit(unit_nid)",
+            "    if unit:",
+            "        if 'Love_Points_Tracker' not in [skill.nid for skill in unit.skills]:",
+            "            from app.engine.skill_system import skill_system",
+            "            new_skill = skill_system.create_skill('Love_Points_Tracker')",
+            "            if new_skill:",
+            "                unit.skills.append(new_skill)"
+        ],
+        "nid": "1 Love Points Init"
+    },
+    {
         "name": "Intro",
         "trigger": "level_start",
         "level_nid": "1",
@@ -352,6 +362,7 @@
         "_source": [
             "add_talk;Eirika;Franz",
             "add_talk;Seth;Franz",
+            "add_talk;Lyn;Sain",
             "remove_group;Enemy1;immediate",
             "remove_group;Rein;immediate",
             "remove_group;EirikaSeth;immediate",
@@ -609,7 +620,7 @@
         "name": "EnemyRein",
         "trigger": "turn_change",
         "level_nid": "1",
-        "condition": "game.level.regions.get('EnemyRein').contains(game.get_unit('Eirika').position)",
+        "condition": "game.level.regions.get('EnemyRein').contains(game.get_unit('Lyn').position)",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -647,26 +658,48 @@
         "nid": "1 SethFranzTalk"
     },
     {
-        "name": "EirikaFranzTalk",
+        "name": "LynSainTalk",
         "trigger": "on_talk",
         "level_nid": "1",
-        "condition": "unit.nid == 'Eirika' and unit2.nid == 'Franz'",
+        "condition": "unit.nid == 'Lyn' and unit2.nid == 'Sain'",
         "commands": [],
         "only_once": false,
-        "priority": 20,
+        "priority": 30,
         "_source": [
-            "add_portrait;Franz;Left;no_block",
-            "add_portrait;Eirika;Right",
-            "speak;Franz;Princess Eirika, it is good to see you're well.",
-            "speak;Eirika;Franz, you made it through unscathed...",
-            "speak;Franz;Y-yes, Your Highness!|I met up with Sir Gilliam of Frelia and explained the situation in Renais.|He told me that Princess Tana was in danger as well, here at Mulan.|We rode as swiftly as we could.",
-            "speak;Eirika;Tana is here?|Franz, we must hurry!",
-            "speak;Franz;Understood!",
-            "remove_portrait;Eirika;no_block",
-            "remove_portrait;Franz",
-            "remove_talk;Eirika;Franz"
+            "#pyev1",
+            "print('[LOVE] LynSainTalk - adding 20 love points directly')",
+            "love_var = 'Love_Lyn_Sain'",
+            "current = game.game_vars.get(love_var, 0)",
+            "new_points = min(current + 20, 999)",
+            "game.game_vars[love_var] = new_points",
+            "print('[LOVE] Lyn + Sain now have ' + str(new_points) + ' love points')"
         ],
-        "nid": "1 EirikaFranzTalk"
+        "nid": "1 LynSainTalk"
+    },
+    {
+        "name": "LynSainTalk_1",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "unit.nid == 'Lyn' and unit2.nid == 'Sain'",
+        "commands": [],
+        "only_once": false,
+        "priority": 22,
+        "_source": [
+            "#pyev",
+            "print('[LOVE] LynSainTalk_1 FIRED - showing dialog')",
+            "",
+            "add_portrait;Sain;Left;no_block",
+            "add_portrait;Lyn;Right",
+            "speak;Sain;Princess Eirika, it is good to see you're well.",
+            "speak;Lyn;Franz, you made it through unscathed...",
+            "speak;Sain;Y-yes, Your Highness!|I met up with Sir Gilliam of Frelia and explained the situation in Renais.|He told me that Princess Tana was in danger as well, here at Mulan.|We rode as swiftly as we could.",
+            "speak;Lyn;Tana is here?|Franz, we must hurry!",
+            "speak;Sain;Understood!",
+            "remove_portrait;Lyn;no_block",
+            "remove_portrait;Sain",
+            "remove_talk;Lyn;Sain"
+        ],
+        "nid": "1 LynSainTalk_1"
     },
     {
         "name": "EnemyTurn1",
@@ -4416,8 +4449,9 @@
             "    currentLevel = game.level_nid",
             "    #Using the current level's nid and the faction of the most recently killed unit, figure out which commander event we should be triggering",
             "    eventToTrigger = currentLevel + \" unitKilled_\" + unit.faction + \"_react\"",
-            "    #Trigger that event",
-            "    $trigger_script eventToTrigger"
+            "    #Trigger that event using Python",
+            "    from app.events.triggers import GenericTrigger",
+            "    game.events._add_event_from_script('debug_console', eventToTrigger, GenericTrigger())"
         ],
         "nid": "Global unitKilled"
     },
@@ -4795,6 +4829,8 @@
             "",
             "#Check if the combat initiator has a weapon (they might be refreshing or using a staff instead) and that they have killed their target",
             "if unit.get_weapon() != None and game.check_alive(target.nid) == False:",
+            "    if unitWpn.kills is None:",
+            "        unitWpn.kills = 0",
             "    unitWpn.kills += 1",
             "    #Updates the weapon's crit if it's elligible",
             "    if unitWpn.kills > 50 and unitWpn.kills <= 100:",
@@ -4807,6 +4843,8 @@
             "",
             "#Check if the combat target killed the initiator",
             "if noSkip_target and game.check_alive(unit.nid) == False:",
+            "    if targetWpn.kills is None:",
+            "        targetWpn.kills = 0",
             "    targetWpn.kills += 1",
             "    #Updates the weapon's crit if it's elligible",
             "    if targetWpn.kills > 50 and unitWpn.kills <= 100:",
@@ -5087,5 +5125,85 @@
             "remove_skill;{unit};new"
         ],
         "nid": "Global skill_clear"
+    },
+    {
+        "name": "Love Points - Initialize",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 5,
+        "_source": [
+            "#pyev",
+            "",
+            "from resources.custom_components.love_points_system import initialize_pre_paired_couples, register_custom_functions, give_love_points_from_talk",
+            "",
+            "initialize_pre_paired_couples()",
+            "register_custom_functions()",
+            "",
+            "# Give Love_Points_Tracker skill to pairable FEMALE units only (to avoid double counting)",
+            "pairable_females = ['Lyn', 'Florina', 'Serra', 'Rebecca', 'Priscilla', 'Isadora', 'Fiora', 'Ninian', 'Karla', 'Louise', 'Farina', 'Nino', 'Vaida', 'Leila', 'Juno']",
+            "for unit_nid in pairable_females:",
+            "    unit = game.get_unit(unit_nid)",
+            "    if unit:",
+            "        if 'Love_Points_Tracker' not in [skill.nid for skill in unit.skills]:",
+            "            from app.engine.skill_system import skill_system",
+            "            new_skill = skill_system.create_skill('Love_Points_Tracker')",
+            "            if new_skill:",
+            "                unit.skills.append(new_skill)",
+            "",
+            "# Helper function for talk events to give love points",
+            "def give_love(unit1_nid, unit2_nid, points):",
+            "    give_love_points_from_talk(unit1_nid, unit2_nid, points)"
+        ],
+        "nid": "Global Love Points - Initialize"
+    },
+    {
+        "name": "Love Points - Lovers Notification",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#pyev",
+            "",
+            "from resources.custom_components.love_points_system import are_lovers, get_love_points, PAIRABLE_MALES, PAIRABLE_FEMALES",
+            "",
+            "# Check all pairs for reaching 500 points",
+            "for male in PAIRABLE_MALES:",
+            "    for female in PAIRABLE_FEMALES:",
+            "        if are_lovers(male, female):",
+            "            # Already lovers, skip",
+            "            continue",
+            "        points = get_love_points(male, female)",
+            "        if points >= 500:",
+            "            # Pair has become lovers - notification would go here",
+            "            # For now, just mark them as lovers (handled in add_love_points)",
+            "            pass"
+        ],
+        "nid": "Global Love Points - Lovers Notification"
+    },
+    {
+        "name": "Love Points - Story Event Bonus Example",
+        "trigger": "level_end",
+        "level_nid": "Prologue",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 15,
+        "_source": [
+            "#pyev",
+            "",
+            "from resources.custom_components.love_points_system import add_love_points",
+            "",
+            "# Example: Give bonus love points after Prologue for specific pairs",
+            "# Uncomment and modify as needed for your story events",
+            "# add_love_points('Lyn', 'Kent', 100)",
+            "# add_love_points('Florina', 'Heath', 50)"
+        ],
+        "nid": "Prologue Love Points - Story Event Bonus Example"
     }
 ]

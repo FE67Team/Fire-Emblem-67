@@ -3532,7 +3532,7 @@
             ],
             [
                 "condition",
-                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills < 50"
+                "unit.get_weapon() and (game.get_item(unit.get_weapon().uid).kills is None or game.get_item(unit.get_weapon().uid).kills < 50)"
             ],
             [
                 "eval_crit",
@@ -3956,7 +3956,7 @@
             ],
             [
                 "condition",
-                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills >= 50"
+                "unit.get_weapon() and game.get_item(unit.get_weapon().uid).kills is not None and game.get_item(unit.get_weapon().uid).kills >= 50"
             ],
             [
                 "eval_crit",
@@ -4017,6 +4017,86 @@
             [
                 "ability",
                 "Convoy_ability"
+            ]
+        ]
+    },
+    {
+        "nid": "Love_Points_Tracker",
+        "name": "Love Points Tracker",
+        "desc": "Tracks love points for pairable units. Hidden skill.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "love_points_adjacency",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Love_Points_Initializer",
+        "name": "Love Points Initializer",
+        "desc": "Initializes love points system. Hidden.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "love_points_initializer",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Lovers_Bond",
+        "name": "Lover's Bond",
+        "desc": "When lover is within 3 tiles, grants +10 Hit and +10 Avoid.",
+        "icon_nid": "Fe4-skills",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "lovers_bond",
+                1
+            ]
+        ]
+    },
+    {
+        "nid": "Lovers_Bond_Child",
+        "name": "Lover's Bond",
+        "desc": "+10 Hit and +10 Avoid when near lover.",
+        "icon_nid": "Fe4-skills",
+        "icon_index": [
+            7,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "avoid",
+                10
             ]
         ]
     }
