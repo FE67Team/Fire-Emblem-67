@@ -146,5 +146,13 @@
     {
         "nid": "TIENA_STAFF",
         "expression": "MAG + 15"
+    },
+    {
+        "nid": "LEAD_HIT",
+        "expression": "1"
+    },
+    {
+        "nid": "LEAD_AVOID",
+        "expression": "1"
     }
 ]

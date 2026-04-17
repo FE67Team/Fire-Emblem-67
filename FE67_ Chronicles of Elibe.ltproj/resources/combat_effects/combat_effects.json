@@ -144882,5 +144882,87 @@
         ],
         "frames": [],
         "palettes": []
+    },
+    {
+        "nid": "Refresh_1",
+        "poses": [
+            [
+                "Attack",
+                [
+                    [
+                        "pan",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            20
+                        ]
+                    ],
+                    [
+                        "sound",
+                        [
+                            "Dance2"
+                        ]
+                    ],
+                    [
+                        "enemy_effect",
+                        [
+                            "DanceSmallDust"
+                        ]
+                    ],
+                    [
+                        "wait",
+                        [
+                            1
+                        ]
+                    ],
+                    [
+                        "enemy_effect",
+                        [
+                            "DanceLargeDust"
+                        ]
+                    ],
+                    [
+                        "wait",
+                        [
+                            100
+                        ]
+                    ],
+                    [
+                        "spell_hit",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            20
+                        ]
+                    ],
+                    [
+                        "pan",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            20
+                        ]
+                    ],
+                    [
+                        "end_parent_loop",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            1
+                        ]
+                    ]
+                ]
+            ]
+        ],
+        "frames": [],
+        "palettes": []
     }
 ]
