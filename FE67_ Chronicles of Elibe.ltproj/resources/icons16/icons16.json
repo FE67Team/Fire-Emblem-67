@@ -121,5 +121,9 @@
     {
         "nid": "Rings_and_Bands_Sheet",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Sword_sheet",
+        "subicon_dict": {}
     }
 ]

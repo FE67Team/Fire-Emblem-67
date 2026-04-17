@@ -19,7 +19,8 @@
             "LCK": 5,
             "DEF": 2,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 1
         },
         "growths": {
             "HP": 70,
@@ -30,7 +31,8 @@
             "LCK": 55,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -41,7 +43,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -49,7 +52,7 @@
                 false
             ],
             [
-                "Mani_Katti",
+                "Wing_Clipper",
                 false
             ]
         ],
@@ -139,7 +142,8 @@
             "LCK": 5,
             "DEF": 7,
             "CON": 0,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -150,7 +154,8 @@
             "LCK": 35,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -161,7 +166,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -251,7 +257,8 @@
             "LCK": 4,
             "DEF": 6,
             "CON": 0,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -262,7 +269,8 @@
             "LCK": 20,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -273,7 +281,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -363,7 +372,8 @@
             "LCK": 7,
             "DEF": 5,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -374,7 +384,8 @@
             "LCK": 40,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -385,7 +396,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -475,7 +487,8 @@
             "LCK": 3,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -486,7 +499,8 @@
             "LCK": 45,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -497,7 +511,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -587,7 +602,8 @@
             "LCK": 8,
             "DEF": 4,
             "CON": 0,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -598,7 +614,8 @@
             "LCK": 50,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -609,7 +626,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -699,7 +717,8 @@
             "LCK": 5,
             "DEF": 8,
             "CON": 0,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -710,7 +729,8 @@
             "LCK": 30,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -721,7 +741,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -811,7 +832,8 @@
             "LCK": 3,
             "DEF": 2,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 65,
@@ -822,7 +844,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -833,7 +856,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -842,6 +866,18 @@
             ],
             [
                 "Vulnerary",
+                false
+            ],
+            [
+                "Elthunder",
+                false
+            ],
+            [
+                "Thoron",
+                false
+            ],
+            [
+                "Bolting",
                 false
             ]
         ],
@@ -952,7 +988,8 @@
             "LCK": 10,
             "DEF": 15,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -963,7 +1000,8 @@
             "LCK": 30,
             "DEF": 35,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -974,7 +1012,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -1064,7 +1103,8 @@
             "LCK": 2,
             "DEF": 10,
             "CON": 0,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 100,
@@ -1075,7 +1115,8 @@
             "LCK": 40,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -1086,7 +1127,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -1171,7 +1213,8 @@
             "LCK": 10,
             "DEF": 5,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -1182,7 +1225,8 @@
             "LCK": 80,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -1193,7 +1237,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [],
         "learned_skills": [
@@ -1280,7 +1325,8 @@
             "LCK": 7,
             "DEF": 5,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -1291,7 +1337,8 @@
             "LCK": 45,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "HP": 0,
@@ -1302,7 +1349,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -1392,7 +1440,8 @@
             "LCK": 10,
             "DEF": 9,
             "CON": 0,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -1403,7 +1452,8 @@
             "LCK": 20,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -1414,7 +1464,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -1512,7 +1563,8 @@
             "LCK": 3,
             "DEF": 7,
             "CON": 0,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -1523,7 +1575,8 @@
             "LCK": 50,
             "DEF": 40,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -1534,7 +1587,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -1620,7 +1674,8 @@
             "LCK": 4,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -1631,7 +1686,8 @@
             "LCK": 50,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -1642,7 +1698,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -1732,7 +1789,8 @@
             "LCK": 4,
             "DEF": 4,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -1743,7 +1801,8 @@
             "LCK": 30,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -1754,7 +1813,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -1845,7 +1905,8 @@
             "LCK": 3,
             "DEF": 8,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -1856,7 +1917,8 @@
             "LCK": 30,
             "DEF": 50,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -1867,7 +1929,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -1957,7 +2020,8 @@
             "LCK": 3,
             "DEF": 13,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -1968,7 +2032,8 @@
             "LCK": 35,
             "DEF": 55,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -1979,7 +2044,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -2069,7 +2135,8 @@
             "LCK": 6,
             "DEF": 2,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -2080,7 +2147,8 @@
             "LCK": 60,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -2091,7 +2159,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -2177,7 +2246,8 @@
             "LCK": 2,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -2188,7 +2258,8 @@
             "LCK": 50,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -2199,7 +2270,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -2293,7 +2365,8 @@
             "LCK": 5,
             "DEF": 5,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -2304,7 +2377,8 @@
             "LCK": 45,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -2315,7 +2389,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -2401,7 +2476,8 @@
             "LCK": 12,
             "DEF": 5,
             "CON": 0,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 120,
@@ -2412,7 +2488,8 @@
             "LCK": 100,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -2423,7 +2500,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [],
         "learned_skills": [
@@ -2504,7 +2582,8 @@
             "LCK": 3,
             "DEF": 6,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -2515,7 +2594,8 @@
             "LCK": 35,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -2526,7 +2606,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -2616,7 +2697,8 @@
             "LCK": 7,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -2627,7 +2709,8 @@
             "LCK": 65,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -2638,7 +2721,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -2724,7 +2808,8 @@
             "LCK": 2,
             "DEF": 5,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -2735,7 +2820,8 @@
             "LCK": 35,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -2746,7 +2832,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -2836,7 +2923,8 @@
             "LCK": 2,
             "DEF": 1,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 55,
@@ -2847,7 +2935,8 @@
             "LCK": 20,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -2858,7 +2947,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -2948,7 +3038,8 @@
             "LCK": 10,
             "DEF": 8,
             "CON": 0,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -2959,7 +3050,8 @@
             "LCK": 45,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -2970,7 +3062,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -3060,7 +3153,8 @@
             "LCK": 2,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -3071,7 +3165,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -3082,7 +3177,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -3172,7 +3268,8 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -3183,7 +3280,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -3194,7 +3292,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -3284,7 +3383,8 @@
             "LCK": 6,
             "DEF": 9,
             "CON": 0,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -3295,7 +3395,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -3306,7 +3407,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -3392,7 +3494,8 @@
             "LCK": 10,
             "DEF": 8,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -3403,7 +3506,8 @@
             "LCK": 60,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -3414,7 +3518,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -3504,7 +3609,8 @@
             "LCK": 10,
             "DEF": 5,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -3515,7 +3621,8 @@
             "LCK": 80,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -3526,7 +3633,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -3617,7 +3725,8 @@
             "LCK": 7,
             "DEF": 10,
             "CON": 0,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -3628,7 +3737,8 @@
             "LCK": 20,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -3639,7 +3749,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -3725,7 +3836,8 @@
             "LCK": 16,
             "DEF": 11,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -3736,7 +3848,8 @@
             "LCK": 40,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -3747,7 +3860,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -3837,7 +3951,8 @@
             "LCK": 5,
             "DEF": 11,
             "CON": 0,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -3848,7 +3963,8 @@
             "LCK": 15,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -3859,7 +3975,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -3940,7 +4057,8 @@
             "LCK": 14,
             "DEF": 12,
             "CON": 0,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -3951,7 +4069,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -3962,7 +4081,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -4048,7 +4168,8 @@
             "LCK": 6,
             "DEF": 6,
             "CON": 0,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -4059,7 +4180,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -4070,7 +4192,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -4156,7 +4279,8 @@
             "LCK": 14,
             "DEF": 11,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -4167,7 +4291,8 @@
             "LCK": 40,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -4178,7 +4303,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -4293,7 +4419,8 @@
             "LCK": 16,
             "DEF": 9,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -4304,7 +4431,8 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -4315,7 +4443,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -4401,7 +4530,8 @@
             "LCK": 15,
             "DEF": 13,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -4412,7 +4542,8 @@
             "LCK": 30,
             "DEF": 10,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -4423,7 +4554,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -4513,7 +4645,8 @@
             "LCK": 12,
             "DEF": 15,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -4524,7 +4657,8 @@
             "LCK": 20,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -4535,7 +4669,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -4625,7 +4760,8 @@
             "LCK": 11,
             "DEF": 20,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -4636,7 +4772,8 @@
             "LCK": 20,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -4647,7 +4784,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -4733,7 +4871,8 @@
             "LCK": 7,
             "DEF": 5,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -4744,7 +4883,8 @@
             "LCK": 25,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -4755,7 +4895,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -4841,7 +4982,8 @@
             "LCK": 13,
             "DEF": 14,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -4852,7 +4994,8 @@
             "LCK": 40,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -4863,7 +5006,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -4953,7 +5097,8 @@
             "LCK": 10,
             "DEF": 11,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -4964,7 +5109,8 @@
             "LCK": 40,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -4975,7 +5121,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -5069,7 +5216,8 @@
             "LCK": 10,
             "DEF": 10,
             "CON": 0,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -5080,7 +5228,8 @@
             "LCK": 45,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -5091,7 +5240,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -5181,7 +5331,8 @@
             "LCK": 10,
             "DEF": 4,
             "CON": 0,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 55,
@@ -5192,7 +5343,8 @@
             "LCK": 45,
             "DEF": 15,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -5203,7 +5355,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -5318,7 +5471,8 @@
             "LCK": 10,
             "DEF": 15,
             "CON": 0,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 65,
@@ -5329,7 +5483,8 @@
             "LCK": 20,
             "DEF": 30,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -5340,7 +5495,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -5430,7 +5586,8 @@
             "LCK": 8,
             "DEF": 12,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -5441,7 +5598,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -5452,7 +5610,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -5542,7 +5701,8 @@
             "LCK": 11,
             "DEF": 21,
             "CON": 0,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -5553,7 +5713,8 @@
             "LCK": 30,
             "DEF": 25,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -5564,7 +5725,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -5654,7 +5816,8 @@
             "LCK": 10,
             "DEF": 15,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -5665,7 +5828,8 @@
             "LCK": 15,
             "DEF": 20,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -5676,7 +5840,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -5766,7 +5931,8 @@
             "LCK": 15,
             "DEF": 18,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -5777,7 +5943,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -5788,7 +5955,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -5878,7 +6046,8 @@
             "LCK": 4,
             "DEF": 12,
             "CON": 0,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -5889,7 +6058,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -5900,7 +6070,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -5994,7 +6165,8 @@
             "LCK": 16,
             "DEF": 9,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -6005,7 +6177,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -6016,7 +6189,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -6097,7 +6271,8 @@
             "LCK": 14,
             "DEF": 14,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -6108,7 +6283,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -6119,7 +6295,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -6200,7 +6377,8 @@
             "LCK": 25,
             "DEF": 20,
             "CON": 0,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -6211,7 +6389,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -6222,7 +6401,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -6326,7 +6506,8 @@
             "DEF": 5,
             "MAG": 0,
             "MOV": 5,
-            "CON": 0
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -6335,9 +6516,23 @@
             "SPD": 40,
             "LCK": 60,
             "DEF": 25,
-            "MAG": 30
+            "MAG": 30,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Rapier",
@@ -6374,7 +6569,9 @@
             "SKL": 4,
             "SPD": 6,
             "LCK": 3,
-            "DEF": 6
+            "DEF": 6,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -6383,9 +6580,23 @@
             "SPD": 45,
             "LCK": 40,
             "DEF": 25,
-            "MAG": 10
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -6422,7 +6633,9 @@
             "LCK": 2,
             "DEF": 6,
             "MOV": 7,
-            "CON": 0
+            "CON": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -6431,9 +6644,23 @@
             "SPD": 50,
             "LCK": 35,
             "DEF": 20,
-            "MAG": 15
+            "MAG": 15,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -6470,7 +6697,9 @@
             "SKL": 4,
             "SPD": 5,
             "LCK": 2,
-            "DEF": 4
+            "DEF": 4,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -6479,9 +6708,23 @@
             "SPD": 40,
             "LCK": 40,
             "DEF": 20,
-            "MAG": 10
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Bow",
@@ -6518,7 +6761,9 @@
             "SKL": 4,
             "SPD": 3,
             "LCK": 4,
-            "DEF": 11
+            "DEF": 11,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -6527,9 +6772,23 @@
             "SPD": 40,
             "LCK": 50,
             "DEF": 35,
-            "MAG": 10
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -6565,7 +6824,10 @@
             "LCK": 8,
             "MAG": 6,
             "MOV": 5,
-            "CON": 0
+            "CON": 0,
+            "DEF": 0,
+            "STR": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -6574,9 +6836,23 @@
             "SPD": 20,
             "LCK": 70,
             "DEF": 5,
-            "MAG": 60
+            "MAG": 60,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Heal",
@@ -6614,7 +6890,8 @@
             "SPD": 10,
             "LCK": 5,
             "DEF": 6,
-            "MAG": 1
+            "MAG": 1,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -6623,9 +6900,23 @@
             "SPD": 30,
             "LCK": 35,
             "DEF": 20,
-            "MAG": 15
+            "MAG": 15,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Blade",
@@ -6662,7 +6953,9 @@
             "SKL": 3,
             "SPD": 5,
             "LCK": 4,
-            "DEF": 3
+            "DEF": 3,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -6671,9 +6964,23 @@
             "SPD": 20,
             "LCK": 45,
             "DEF": 30,
-            "MAG": 5
+            "MAG": 5,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Axe",
@@ -6711,7 +7018,8 @@
             "LCK": 2,
             "DEF": 4,
             "MAG": 1,
-            "STR": 7
+            "STR": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -6721,9 +7029,22 @@
             "DEF": 40,
             "MAG": 15,
             "MOV": 0,
-            "STR": 30
+            "STR": 30,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Axe",
@@ -6761,7 +7082,8 @@
             "SPD": 12,
             "LCK": 5,
             "DEF": 6,
-            "MAG": 5
+            "MAG": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -6770,9 +7092,23 @@
             "SPD": 60,
             "LCK": 60,
             "DEF": 10,
-            "MAG": 25
+            "MAG": 25,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -6809,7 +7145,9 @@
             "SKL": 3,
             "SPD": 10,
             "LCK": 4,
-            "DEF": 2
+            "DEF": 2,
+            "MAG": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -6818,9 +7156,23 @@
             "SPD": 80,
             "LCK": 60,
             "DEF": 25,
-            "MAG": 15
+            "MAG": 15,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -6858,7 +7210,8 @@
             "SPD": 6,
             "LCK": 5,
             "DEF": 3,
-            "MAG": 5
+            "MAG": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 50,
@@ -6867,9 +7220,23 @@
             "SPD": 50,
             "LCK": 35,
             "DEF": 15,
-            "MAG": 40
+            "MAG": 40,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Fire",
@@ -6941,9 +7308,42 @@
         "level": 1,
         "klass": "Mercenary",
         "tags": [],
-        "bases": {},
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "bases": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Al_Sword",
@@ -6972,9 +7372,42 @@
         "level": 1,
         "klass": "Lance_Armor",
         "tags": [],
-        "bases": {},
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "bases": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Gant_Lance",
@@ -7003,9 +7436,42 @@
         "level": 1,
         "klass": "Cleric",
         "tags": [],
-        "bases": {},
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "bases": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Tiena_Staff",
@@ -7041,10 +7507,35 @@
             "SPD": 6,
             "LCK": 0,
             "DEF": 4,
-            "CON": 0
+            "CON": 0,
+            "MOV": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Axe",
@@ -7081,7 +7572,9 @@
             "LCK": 8,
             "DEF": 2,
             "MAG": 5,
-            "MOV": 7
+            "MOV": 7,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 40,
@@ -7090,9 +7583,23 @@
             "SPD": 50,
             "LCK": 65,
             "DEF": 10,
-            "MAG": 40
+            "MAG": 40,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Heal",
@@ -7128,7 +7635,10 @@
             "SPD": 13,
             "LCK": 2,
             "DEF": 5,
-            "MOV": 5
+            "MOV": 5,
+            "MAG": 0,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -7137,9 +7647,23 @@
             "SPD": 50,
             "LCK": 30,
             "DEF": 20,
-            "MAG": 20
+            "MAG": 20,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -7168,9 +7692,42 @@
         "level": 1,
         "klass": "Pegasus_Knight",
         "tags": [],
-        "bases": {},
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "bases": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
@@ -7196,7 +7753,9 @@
             "LCK": 2,
             "DEF": 2,
             "MAG": 5,
-            "MOV": 5
+            "MOV": 5,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -7205,9 +7764,23 @@
             "SPD": 45,
             "LCK": 15,
             "DEF": 15,
-            "MAG": 50
+            "MAG": 50,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Heal",
@@ -7244,7 +7817,9 @@
             "LCK": 3,
             "DEF": 4,
             "MAG": 2,
-            "MOV": 5
+            "MOV": 5,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -7253,9 +7828,23 @@
             "SPD": 45,
             "LCK": 35,
             "DEF": 15,
-            "MAG": 15
+            "MAG": 15,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Bow",
@@ -7292,7 +7881,9 @@
             "LCK": 4,
             "DEF": 5,
             "MAG": 0,
-            "MOV": 7
+            "MOV": 7,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 55,
@@ -7301,9 +7892,23 @@
             "SPD": 65,
             "LCK": 50,
             "DEF": 10,
-            "MAG": 15
+            "MAG": 15,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Bow",
@@ -7340,7 +7945,9 @@
             "LCK": 5,
             "DEF": 9,
             "MAG": 4,
-            "MOV": 8
+            "MOV": 8,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -7349,9 +7956,23 @@
             "SPD": 20,
             "LCK": 15,
             "DEF": 30,
-            "MAG": 15
+            "MAG": 15,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
@@ -7387,7 +8008,10 @@
             "SPD": 7,
             "LCK": 5,
             "DEF": 8,
-            "MOV": 7
+            "MOV": 7,
+            "MAG": 0,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -7396,9 +8020,23 @@
             "SPD": 35,
             "LCK": 50,
             "DEF": 30,
-            "MAG": 5
+            "MAG": 5,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -7440,7 +8078,9 @@
             "LCK": 6,
             "DEF": 7,
             "MAG": 1,
-            "MOV": 7
+            "MOV": 7,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -7449,9 +8089,23 @@
             "SPD": 30,
             "LCK": 40,
             "DEF": 30,
-            "MAG": 10
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -7488,7 +8142,9 @@
             "LCK": 11,
             "DEF": 7,
             "MAG": 3,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -7497,9 +8153,23 @@
             "SPD": 50,
             "LCK": 15,
             "DEF": 20,
-            "MAG": 20
+            "MAG": 20,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -7536,7 +8206,9 @@
             "LCK": 4,
             "DEF": 2,
             "MAG": 7,
-            "MOV": 5
+            "MOV": 5,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 45,
@@ -7545,9 +8217,23 @@
             "SPD": 35,
             "LCK": 50,
             "DEF": 10,
-            "MAG": 75
+            "MAG": 75,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Thunder",
@@ -7594,7 +8280,9 @@
             "LCK": 6,
             "DEF": 8,
             "MAG": 1,
-            "MOV": 5
+            "MOV": 5,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -7603,9 +8291,23 @@
             "SPD": 40,
             "LCK": 45,
             "DEF": 30,
-            "MAG": 10
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -7642,7 +8344,9 @@
             "LCK": 2,
             "DEF": 14,
             "MAG": 1,
-            "MOV": 5
+            "MOV": 5,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 100,
@@ -7651,9 +8355,23 @@
             "SPD": 20,
             "LCK": 20,
             "DEF": 40,
-            "MAG": 2
+            "MAG": 2,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Axe",
@@ -7689,7 +8407,10 @@
             "SPD": 9,
             "LCK": 6,
             "DEF": 4,
-            "MOV": 5
+            "MOV": 5,
+            "MAG": 0,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -7698,9 +8419,23 @@
             "SPD": 45,
             "LCK": 55,
             "DEF": 20,
-            "MAG": 15
+            "MAG": 15,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -7737,7 +8472,9 @@
             "LCK": 10,
             "DEF": 7,
             "MAG": 13,
-            "MOV": 8
+            "MOV": 8,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -7746,9 +8483,23 @@
             "SPD": 25,
             "LCK": 25,
             "DEF": 20,
-            "MAG": 35
+            "MAG": 35,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Fire",
@@ -7808,10 +8559,35 @@
             "SPD": 16,
             "LCK": 5,
             "DEF": 11,
-            "MAG": 2
+            "MAG": 2,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -7858,7 +8634,9 @@
             "LCK": 3,
             "DEF": 3,
             "MAG": 1,
-            "MOV": 5
+            "MOV": 5,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -7867,10 +8645,22 @@
             "SPD": 55,
             "LCK": 50,
             "DEF": 15,
-            "MAG": 20
+            "MAG": 20,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
-            "HP": 0
+            "HP": 0,
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -7907,7 +8697,10 @@
             "SPD": 10,
             "LCK": 6,
             "DEF": 7,
-            "MOV": 7
+            "MOV": 7,
+            "MAG": 0,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -7916,9 +8709,23 @@
             "SPD": 50,
             "LCK": 25,
             "DEF": 10,
-            "MAG": 15
+            "MAG": 15,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Bow",
@@ -7954,7 +8761,10 @@
             "SPD": 9,
             "LCK": 5,
             "DEF": 6,
-            "MOV": 5
+            "MOV": 5,
+            "MAG": 0,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 90,
@@ -7963,9 +8773,23 @@
             "SPD": 50,
             "LCK": 35,
             "DEF": 25,
-            "MAG": 5
+            "MAG": 5,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Axe",
@@ -8001,7 +8825,10 @@
             "SPD": 9,
             "LCK": 9,
             "DEF": 8,
-            "MOV": 5
+            "MOV": 5,
+            "MAG": 0,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 85,
@@ -8010,9 +8837,23 @@
             "SPD": 40,
             "LCK": 40,
             "DEF": 20,
-            "MAG": 10
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Axe",
@@ -8049,7 +8890,9 @@
             "LCK": 10,
             "DEF": 8,
             "MAG": 6,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -8058,9 +8901,23 @@
             "SPD": 45,
             "LCK": 50,
             "DEF": 15,
-            "MAG": 25
+            "MAG": 25,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Bow",
@@ -8097,7 +8954,9 @@
             "LCK": 3,
             "DEF": 7,
             "MAG": 6,
-            "MOV": 7
+            "MOV": 7,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -8106,9 +8965,23 @@
             "SPD": 55,
             "LCK": 40,
             "DEF": 15,
-            "MAG": 520
+            "MAG": 520,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -8145,7 +9018,9 @@
             "LCK": 9,
             "DEF": 2,
             "MAG": 4,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -8154,9 +9029,23 @@
             "SPD": 70,
             "LCK": 80,
             "DEF": 20,
-            "MAG": 30
+            "MAG": 30,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Vulnerary",
@@ -8187,7 +9076,9 @@
             "LCK": 11,
             "DEF": 4,
             "MAG": 1,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -8196,9 +9087,23 @@
             "SPD": 65,
             "LCK": 65,
             "DEF": 25,
-            "MAG": 55
+            "MAG": 55,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Vulnerary",
@@ -8229,7 +9134,9 @@
             "LCK": 6,
             "DEF": 8,
             "MAG": 7,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -8238,9 +9145,23 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 15,
-            "MAG": 15
+            "MAG": 15,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -8286,7 +9207,9 @@
             "LCK": 6,
             "DEF": 5,
             "MAG": 12,
-            "MOV": 5
+            "MOV": 5,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 55,
@@ -8295,9 +9218,23 @@
             "SPD": 40,
             "LCK": 15,
             "DEF": 15,
-            "MAG": 45
+            "MAG": 45,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Flux",
@@ -8334,7 +9271,9 @@
             "LCK": 8,
             "DEF": 2,
             "MAG": 1,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -8343,9 +9282,23 @@
             "SPD": 85,
             "LCK": 50,
             "DEF": 15,
-            "MAG": 20
+            "MAG": 20,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -8374,9 +9327,42 @@
         "level": 1,
         "klass": "Mercenary",
         "tags": [],
-        "bases": {},
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "bases": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -8405,9 +9391,42 @@
         "level": 1,
         "klass": "Myrmidon",
         "tags": [],
-        "bases": {},
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "bases": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Sword",
@@ -8444,7 +9463,9 @@
             "LCK": 5,
             "DEF": 13,
             "MAG": 3,
-            "MOV": 7
+            "MOV": 7,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -8453,9 +9474,23 @@
             "SPD": 45,
             "LCK": 25,
             "DEF": 20,
-            "MAG": 5
+            "MAG": 5,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -8492,7 +9527,9 @@
             "LCK": 12,
             "DEF": 14,
             "MAG": 11,
-            "MOV": 8
+            "MOV": 8,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -8501,9 +9538,23 @@
             "SPD": 35,
             "LCK": 20,
             "DEF": 20,
-            "MAG": 10
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -8549,7 +9600,9 @@
             "LCK": 3,
             "DEF": 1,
             "MAG": 8,
-            "MOV": 5
+            "MOV": 5,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 60,
@@ -8558,9 +9611,23 @@
             "SPD": 30,
             "LCK": 20,
             "DEF": 20,
-            "MAG": 55
+            "MAG": 55,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Flux",
@@ -8597,7 +9664,9 @@
             "LCK": 9,
             "DEF": 11,
             "MAG": 10,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -8606,9 +9675,23 @@
             "SPD": 35,
             "LCK": 20,
             "DEF": 10,
-            "MAG": 5
+            "MAG": 5,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Bow",
@@ -8645,7 +9728,9 @@
             "LCK": 12,
             "DEF": 9,
             "MAG": 4,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 70,
@@ -8654,9 +9739,23 @@
             "SPD": 25,
             "LCK": 15,
             "DEF": 15,
-            "MAG": 5
+            "MAG": 5,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Axe",
@@ -8693,7 +9792,9 @@
             "LCK": 7,
             "DEF": 2,
             "MAG": 6,
-            "MOV": 5
+            "MOV": 5,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 130,
@@ -8702,9 +9803,23 @@
             "SPD": 65,
             "LCK": 150,
             "DEF": 30,
-            "MAG": 50
+            "MAG": 50,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Dragonstone",
@@ -8741,7 +9856,9 @@
             "LCK": 10,
             "DEF": 9,
             "MAG": 13,
-            "MOV": 5
+            "MOV": 5,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 75,
@@ -8750,9 +9867,23 @@
             "SPD": 45,
             "LCK": 25,
             "DEF": 20,
-            "MAG": 30
+            "MAG": 30,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Fire",
@@ -8799,7 +9930,9 @@
             "LCK": 6,
             "DEF": 12,
             "MAG": 2,
-            "MOV": 7
+            "MOV": 7,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -8808,9 +9941,23 @@
             "SPD": 35,
             "LCK": 20,
             "DEF": 25,
-            "MAG": 5
+            "MAG": 5,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -8847,10 +9994,34 @@
             "LCK": 14,
             "DEF": 12,
             "MAG": 14,
-            "MOV": 8
+            "MOV": 8,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -8896,7 +10067,9 @@
             "LCK": 15,
             "DEF": 5,
             "MAG": 21,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 25,
@@ -8905,9 +10078,23 @@
             "SPD": 15,
             "LCK": 5,
             "DEF": 15,
-            "MAG": 20
+            "MAG": 20,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Flux",
@@ -8953,7 +10140,9 @@
             "LCK": 11,
             "DEF": 5,
             "MAG": 30,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 20,
@@ -8962,9 +10151,23 @@
             "SPD": 10,
             "LCK": 20,
             "DEF": 10,
-            "MAG": 30
+            "MAG": 30,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Lightning",
@@ -9010,7 +10213,9 @@
             "LCK": 12,
             "DEF": 10,
             "MAG": 12,
-            "MOV": 8
+            "MOV": 8,
+            "CON": 0,
+            "LEAD": 0
         },
         "growths": {
             "HP": 55,
@@ -9019,9 +10224,23 @@
             "SPD": 15,
             "LCK": 20,
             "DEF": 10,
-            "MAG": 10
+            "MAG": 10,
+            "MOV": 0,
+            "CON": 0,
+            "LEAD": 0
         },
-        "stat_cap_modifiers": {},
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Bow",
@@ -9063,10 +10282,34 @@
             "LCK": 11,
             "DEF": 11,
             "MAG": 14,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
@@ -9098,10 +10341,34 @@
             "LCK": 11,
             "DEF": 22,
             "MAG": 14,
-            "MOV": 8
+            "MOV": 8,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Iron_Lance",
@@ -9148,10 +10415,34 @@
             "LCK": 17,
             "DEF": 18,
             "MAG": 25,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Thunder",
@@ -9207,10 +10498,34 @@
             "LCK": 24,
             "DEF": 13,
             "MAG": 25,
-            "MOV": 6
+            "MOV": 6,
+            "CON": 0,
+            "LEAD": 0
         },
-        "growths": {},
-        "stat_cap_modifiers": {},
+        "growths": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "DEF": 0,
+            "MOV": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "STR": 0,
+            "HP": 0,
+            "SPD": 0,
+            "MAG": 0,
+            "LEAD": 0
+        },
         "starting_items": [
             [
                 "Fire",
@@ -9270,7 +10585,8 @@
             "LCK": 4,
             "DEF": 5,
             "CON": 10,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -9281,7 +10597,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -9292,7 +10609,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -9374,7 +10692,8 @@
             "LCK": 2,
             "DEF": 9,
             "CON": 13,
-            "MOV": 4
+            "MOV": 4,
+            "LEAD": 0
         },
         "growths": {
             "HP": 80,
@@ -9385,7 +10704,8 @@
             "LCK": 25,
             "DEF": 28,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -9396,7 +10716,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -9478,7 +10799,8 @@
             "LCK": 3,
             "DEF": 3,
             "CON": 9,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -9489,7 +10811,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -9500,7 +10823,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -9602,7 +10926,8 @@
             "LCK": 6,
             "DEF": 14,
             "CON": 15,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -9613,7 +10938,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -9624,7 +10950,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -9709,7 +11036,8 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 12,
-            "MOV": 5
+            "MOV": 5,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -9720,7 +11048,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -9731,7 +11060,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -9817,7 +11147,8 @@
             "LCK": 4,
             "DEF": 11,
             "CON": 13,
-            "MOV": 4
+            "MOV": 4,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -9828,7 +11159,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -9839,7 +11171,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -9921,7 +11254,8 @@
             "LCK": 11,
             "DEF": 11,
             "CON": 6,
-            "MOV": 7
+            "MOV": 7,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -9932,7 +11266,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -9943,7 +11278,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -10049,7 +11385,8 @@
             "LCK": 15,
             "DEF": 16,
             "CON": 13,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -10060,7 +11397,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -10071,7 +11409,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -10161,7 +11500,8 @@
             "LCK": 4,
             "DEF": 14,
             "CON": 11,
-            "MOV": 8
+            "MOV": 8,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -10172,7 +11512,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -10183,7 +11524,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -10273,7 +11615,8 @@
             "LCK": 11,
             "DEF": 16,
             "CON": 7,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -10284,7 +11627,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -10295,7 +11639,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
@@ -10377,7 +11722,8 @@
             "LCK": 5,
             "DEF": 17,
             "CON": 7,
-            "MOV": 6
+            "MOV": 6,
+            "LEAD": 0
         },
         "growths": {
             "HP": 0,
@@ -10388,7 +11734,8 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "LEAD": 0
         },
         "stat_cap_modifiers": {
             "MAG": 0,
@@ -10399,7 +11746,8 @@
             "LCK": 0,
             "STR": 0,
             "SKL": 0,
-            "HP": 0
+            "HP": 0,
+            "LEAD": 0
         },
         "starting_items": [
             [
