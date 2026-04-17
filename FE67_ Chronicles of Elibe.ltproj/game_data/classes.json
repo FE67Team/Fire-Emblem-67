@@ -19,7 +19,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "CON": 5,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -128,6 +128,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -171,7 +176,7 @@
             "SPD": 9,
             "LCK": 0,
             "DEF": 3,
-            "CON": 5,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -333,7 +338,7 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 5,
-            "CON": 7,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -498,7 +503,7 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 6,
-            "CON": 8,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -612,6 +617,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -654,7 +664,7 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 5,
-            "CON": 10,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -772,6 +782,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -814,7 +829,7 @@
             "SPD": 9,
             "DEF": 2,
             "MOV": 5,
-            "CON": 5,
+            "CON": 0,
             "LCK": 0,
             "MAG": 0,
             "LEAD": 0
@@ -969,7 +984,7 @@
         "max_level": 40,
         "bases": {
             "MOV": 6,
-            "CON": 6,
+            "CON": 0,
             "HP": 23,
             "STR": 3,
             "SKL": 3,
@@ -1089,6 +1104,11 @@
                 0,
                 null
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -1130,7 +1150,7 @@
             "SKL": 5,
             "SPD": 7,
             "DEF": 5,
-            "CON": 7,
+            "CON": 0,
             "MOV": 5,
             "LCK": 0,
             "MAG": 0,
@@ -1246,6 +1266,11 @@
                 0,
                 null
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -1283,7 +1308,7 @@
         "max_level": 40,
         "bases": {
             "MOV": 9,
-            "CON": 7,
+            "CON": 0,
             "HP": 23,
             "STR": 3,
             "SKL": 3,
@@ -1407,6 +1432,11 @@
                 0,
                 null
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -1443,7 +1473,7 @@
         "max_level": 40,
         "bases": {
             "MOV": 4,
-            "CON": 13,
+            "CON": 0,
             "HP": 24,
             "STR": 7,
             "SKL": 4,
@@ -1563,6 +1593,11 @@
                 0,
                 null
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -1596,7 +1631,7 @@
         ],
         "max_level": 40,
         "bases": {
-            "CON": 15,
+            "CON": 0,
             "MOV": 5,
             "MAG": 0,
             "HP": 23,
@@ -1717,6 +1752,11 @@
                 0,
                 null
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -1759,7 +1799,7 @@
             "SPD": 4,
             "DEF": 5,
             "MOV": 5,
-            "CON": 6,
+            "CON": 0,
             "LCK": 0,
             "MAG": 0,
             "LEAD": 0
@@ -1920,7 +1960,7 @@
             "DEF": 7,
             "MAG": 5,
             "MOV": 6,
-            "CON": 8,
+            "CON": 0,
             "LCK": 0,
             "LEAD": 0
         },
@@ -2079,7 +2119,7 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 0,
-            "CON": 4,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -2237,7 +2277,7 @@
             "SPD": 7,
             "MAG": 1,
             "MOV": 5,
-            "CON": 4,
+            "CON": 0,
             "LCK": 0,
             "DEF": 0,
             "LEAD": 0
@@ -2396,7 +2436,7 @@
             "SPD": 7,
             "MAG": 0,
             "MOV": 5,
-            "CON": 3,
+            "CON": 0,
             "DEF": 1,
             "LCK": 0,
             "LEAD": 0
@@ -2718,7 +2758,7 @@
             "SPD": 10,
             "LCK": 0,
             "DEF": 2,
-            "CON": 8,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -2836,6 +2876,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -2876,7 +2921,7 @@
             "SPD": 12,
             "LCK": 0,
             "DEF": 5,
-            "CON": 9,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -2998,6 +3043,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -3041,7 +3091,7 @@
             "SPD": 8,
             "LCK": 0,
             "DEF": 4,
-            "CON": 9,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -3159,6 +3209,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -3199,7 +3254,7 @@
             "SPD": 11,
             "LCK": 0,
             "DEF": 8,
-            "CON": 11,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -3317,6 +3372,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -3360,7 +3420,7 @@
             "SPD": 9,
             "LCK": 0,
             "DEF": 2,
-            "CON": 6,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -3478,6 +3538,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -3518,7 +3583,7 @@
             "SPD": 9,
             "LCK": 0,
             "DEF": 2,
-            "CON": 8,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -3640,6 +3705,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -3680,7 +3750,7 @@
             "SPD": 9,
             "LCK": 0,
             "DEF": 2,
-            "CON": 7,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -3798,6 +3868,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -3842,7 +3917,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "CON": 6,
+            "CON": 0,
             "MOV": 4,
             "LEAD": 0
         },
@@ -3956,6 +4031,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -3994,7 +4074,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 0,
-            "CON": 6,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -4108,6 +4188,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -4152,7 +4237,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 6,
-            "CON": 9,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -4269,6 +4354,11 @@
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ],
             "Wind_1": [
                 false,
@@ -4314,7 +4404,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 6,
-            "CON": 9,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -4431,6 +4521,11 @@
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ],
             "Wind_1": [
                 false,
@@ -4476,7 +4571,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 6,
-            "CON": 9,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -4593,6 +4688,11 @@
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ],
             "Wind_1": [
                 false,
@@ -4638,7 +4738,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 6,
-            "CON": 9,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -4756,6 +4856,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -4797,7 +4902,7 @@
             "SPD": 11,
             "LCK": 0,
             "DEF": 8,
-            "CON": 11,
+            "CON": 0,
             "MOV": 8,
             "LEAD": 0
         },
@@ -4915,6 +5020,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -4957,7 +5067,7 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 11,
-            "CON": 13,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -5075,6 +5185,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -5119,7 +5234,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 3,
-            "CON": 5,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -5237,6 +5352,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -5278,7 +5398,7 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 5,
-            "CON": 6,
+            "CON": 0,
             "MOV": 8,
             "LEAD": 0
         },
@@ -5396,6 +5516,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -5439,7 +5564,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 9,
-            "CON": 13,
+            "CON": 0,
             "MOV": 4,
             "LEAD": 0
         },
@@ -5538,20 +5663,25 @@
                 0,
                 null
             ],
-            "Wind": [
-                false,
-                0,
-                4
-            ],
             "Thunder": [
                 false,
                 0,
                 null
             ],
+            "Wind": [
+                false,
+                0,
+                4
+            ],
             "Default": [
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ],
             "Wind_1": [
                 false,
@@ -5596,7 +5726,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 9,
-            "CON": 13,
+            "CON": 0,
             "MOV": 4,
             "LEAD": 0
         },
@@ -5709,6 +5839,11 @@
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ],
             "Wind_1": [
                 false,
@@ -5753,7 +5888,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 9,
-            "CON": 13,
+            "CON": 0,
             "MOV": 4,
             "LEAD": 0
         },
@@ -5867,6 +6002,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -5907,7 +6047,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 13,
-            "CON": 11,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -6025,6 +6165,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -6069,7 +6214,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 1,
-            "CON": 8,
+            "CON": 0,
             "MOV": 4,
             "LEAD": 0
         },
@@ -6183,6 +6328,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -6224,7 +6374,7 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 2,
-            "CON": 11,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -6338,6 +6488,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -6376,7 +6531,7 @@
             "SPD": 6,
             "LCK": 0,
             "DEF": 5,
-            "CON": 13,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -6490,6 +6645,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -6530,7 +6690,7 @@
             "SPD": 6,
             "LCK": 0,
             "DEF": 3,
-            "CON": 10,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -6644,6 +6804,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -6682,7 +6847,7 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 6,
-            "CON": 13,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -6800,6 +6965,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -6840,7 +7010,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 3,
-            "CON": 12,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -6954,6 +7124,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -6995,7 +7170,7 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 3,
-            "CON": 7,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -7109,6 +7284,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "Wind_1": [
                 false,
                 0,
@@ -7147,7 +7327,7 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 5,
-            "CON": 8,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -7265,6 +7445,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -7288,7 +7473,7 @@
     {
         "nid": "Ballistician",
         "name": "Ballistician",
-        "desc": "Lightly armored soldiers armed with bows. Can attack from a distance.",
+        "desc": "",
         "tier": 2,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -7306,7 +7491,7 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 3,
-            "CON": 7,
+            "CON": 0,
             "MOV": 0,
             "LEAD": 0
         },
@@ -7420,6 +7605,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -7461,7 +7651,7 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 6,
-            "CON": 9,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -7578,6 +7768,11 @@
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ],
             "": [
                 false,
@@ -7620,7 +7815,7 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 6,
-            "CON": 9,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -7738,6 +7933,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -7779,7 +7979,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 1,
-            "CON": 6,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -7893,6 +8093,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -7937,7 +8142,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 1,
-            "CON": 5,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -8046,6 +8251,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -8084,7 +8294,7 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 3,
-            "CON": 7,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -8202,6 +8412,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -8246,7 +8461,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 0,
-            "CON": 5,
+            "CON": 0,
             "MOV": 4,
             "LEAD": 0
         },
@@ -8360,6 +8575,11 @@
                 0,
                 null
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -8401,7 +8621,7 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 3,
-            "CON": 5,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -8514,6 +8734,11 @@
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ],
             "": [
                 false,
@@ -8556,7 +8781,7 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 3,
-            "CON": 5,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -8669,6 +8894,11 @@
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ],
             "": [
                 false,
@@ -8711,7 +8941,7 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 3,
-            "CON": 5,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -8825,6 +9055,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -8863,7 +9098,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 5,
-            "CON": 7,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -8977,6 +9212,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -9018,7 +9258,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "CON": 7,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -9132,6 +9372,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -9170,7 +9415,7 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 4,
-            "CON": 8,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -9284,6 +9529,11 @@
                 0,
                 null
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -9322,7 +9572,7 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 3,
-            "CON": 8,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -9440,6 +9690,11 @@
                 0,
                 null
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -9480,7 +9735,7 @@
             "SPD": 6,
             "LCK": 0,
             "DEF": 5,
-            "CON": 8,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -9598,6 +9853,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -9642,7 +9902,7 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 2,
-            "CON": 5,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -9756,6 +10016,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -9797,7 +10062,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 4,
-            "CON": 6,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -9915,6 +10180,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -9960,7 +10230,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 8,
-            "CON": 10,
+            "CON": 0,
             "MOV": 7,
             "LEAD": 0
         },
@@ -10078,6 +10348,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -10120,7 +10395,7 @@
             "SPD": 7,
             "LCK": 0,
             "DEF": 10,
-            "CON": 11,
+            "CON": 0,
             "MOV": 8,
             "LEAD": 0
         },
@@ -10238,6 +10513,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -10280,7 +10560,7 @@
             "SPD": 9,
             "LCK": 0,
             "DEF": 7,
-            "CON": 9,
+            "CON": 0,
             "MOV": 8,
             "LEAD": 0
         },
@@ -10402,6 +10682,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -10443,7 +10728,7 @@
             "DEF": 3,
             "MAG": 9,
             "MOV": 6,
-            "CON": 7,
+            "CON": 0,
             "LEAD": 0
         },
         "growths": {
@@ -10555,6 +10840,11 @@
                 true,
                 0,
                 null
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -10588,7 +10878,7 @@
             "DEF": 3,
             "MAG": 3,
             "MOV": 5,
-            "CON": 25,
+            "CON": 0,
             "LEAD": 0
         },
         "growths": {
@@ -10700,6 +10990,11 @@
                 false,
                 0,
                 null
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -10731,7 +11026,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "CON": 5,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -10894,7 +11189,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 3,
-            "CON": 7,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -11007,6 +11302,11 @@
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ],
             "": [
                 false,
@@ -11161,6 +11461,11 @@
                 false,
                 0,
                 null
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Dark Druid (M) Magic {CamusZekeSirius}",
@@ -11191,7 +11496,7 @@
             "DEF": 15,
             "MAG": 10,
             "MOV": 5,
-            "CON": 17,
+            "CON": 0,
             "LEAD": 0
         },
         "growths": {
@@ -11303,6 +11608,11 @@
                 false,
                 0,
                 null
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",
@@ -11333,7 +11643,7 @@
             "DEF": 20,
             "MAG": 30,
             "MOV": 8,
-            "CON": 25,
+            "CON": 0,
             "LEAD": 0
         },
         "growths": {
@@ -11484,7 +11794,7 @@
             "DEF": 32,
             "MAG": 21,
             "MOV": 2,
-            "CON": 25,
+            "CON": 0,
             "LEAD": 0
         },
         "growths": {
@@ -11635,7 +11945,7 @@
             "DEF": 0,
             "MAG": 0,
             "MOV": 5,
-            "CON": 7,
+            "CON": 0,
             "LEAD": 0
         },
         "growths": {
@@ -11747,6 +12057,11 @@
                 false,
                 0,
                 null
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ]
         },
         "icon_nid": null,
@@ -11781,7 +12096,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "CON": 6,
+            "CON": 0,
             "MOV": 4,
             "LEAD": 0
         },
@@ -11890,6 +12205,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -11931,7 +12251,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 0,
-            "CON": 6,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -12040,6 +12360,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -12083,7 +12408,7 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 3,
-            "CON": 7,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -12192,6 +12517,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -12233,7 +12563,7 @@
             "SPD": 6,
             "LCK": 0,
             "DEF": 5,
-            "CON": 9,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -12342,6 +12672,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -12385,7 +12720,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 3,
-            "CON": 6,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -12494,6 +12829,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -12535,7 +12875,7 @@
             "SPD": 5,
             "LCK": 0,
             "DEF": 5,
-            "CON": 8,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -12644,6 +12984,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -12688,7 +13033,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "CON": 4,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -12797,6 +13142,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -12839,7 +13189,7 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 3,
-            "CON": 5,
+            "CON": 0,
             "MOV": 6,
             "LEAD": 0
         },
@@ -12947,6 +13297,11 @@
                 false,
                 0,
                 4
+            ],
+            "Dragonstone": [
+                false,
+                0,
+                null
             ],
             "": [
                 false,
@@ -13107,6 +13462,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -13266,6 +13626,11 @@
                 0,
                 4
             ],
+            "Dragonstone": [
+                false,
+                0,
+                null
+            ],
             "": [
                 false,
                 0,
@@ -13306,7 +13671,7 @@
             "SPD": 4,
             "LCK": 0,
             "DEF": 0,
-            "CON": 11,
+            "CON": 0,
             "MOV": 5,
             "LEAD": 0
         },
@@ -13416,6 +13781,11 @@
                 null
             ],
             "Default": [
+                false,
+                0,
+                null
+            ],
+            "Dragonstone": [
                 false,
                 0,
                 null

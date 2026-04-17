@@ -1,7 +1,7 @@
 [
     {
         "nid": "0",
-        "name": "Prologue",
+        "name": "Prologue: Lyn In Caelin",
         "tilemap": "New Tilemap",
         "bg_tilemap": "New Tilemap",
         "party": "Eirika",
@@ -32,7 +32,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": null,
+                "starting_position": [
+                    26,
+                    3
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -42,7 +45,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    27,
+                    5
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -52,7 +58,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    25,
+                    2
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -62,7 +71,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    26,
+                    4
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -72,7 +84,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    27,
+                    4
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -82,7 +97,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    25,
+                    3
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -92,7 +110,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    26,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -102,7 +123,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    25,
+                    4
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -211,7 +235,10 @@
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    32,
+                    0
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -232,7 +259,10 @@
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    34,
+                    3
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -253,7 +283,10 @@
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    33,
+                    2
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -274,7 +307,10 @@
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    33,
+                    0
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -295,7 +331,10 @@
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    34,
+                    0
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -316,7 +355,10 @@
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    33,
+                    1
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -337,12 +379,15 @@
                 "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    35,
+                    2
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "AntiWallaceSquad",
+                "nid": "BeforeWallaceSquad",
                 "variant": null,
                 "level": 6,
                 "klass": "Soldier",
@@ -355,15 +400,18 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    45,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "AntiWallaceSquad_1",
+                "nid": "BeforeWallaceSquad_1",
                 "variant": null,
                 "level": 6,
                 "klass": "Soldier",
@@ -376,15 +424,18 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    47,
+                    5
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "AntiWallaceSquad_2",
+                "nid": "BeforeWallaceSquad_2",
                 "variant": null,
                 "level": 6,
                 "klass": "Lance_Armor",
@@ -397,15 +448,18 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    45,
+                    5
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "AntiWallaceSquad_3",
+                "nid": "BeforeWallaceSquad_3",
                 "variant": null,
                 "level": 6,
                 "klass": "Lance_Armor",
@@ -418,15 +472,18 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    47,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "AntiWallaceSquad_4",
+                "nid": "BeforeWallaceSquad_4",
                 "variant": null,
                 "level": 6,
                 "klass": "Archer",
@@ -439,15 +496,18 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    48,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "AntiWallaceSquad_6",
+                "nid": "BeforeWallaceSquad_6",
                 "variant": null,
                 "level": 6,
                 "klass": "Archer",
@@ -460,15 +520,18 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    47,
+                    7
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "AntiWallaceSquad_5",
+                "nid": "BeforeWallaceSquad_5",
                 "variant": null,
                 "level": 6,
                 "klass": "Sword_Armor",
@@ -481,10 +544,13 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    45,
+                    4
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -696,79 +762,79 @@
                 ],
                 "positions": {
                     "PrologueSquad": [
-                        27,
+                        32,
                         0
                     ],
                     "PrologueSquad2": [
-                        28,
-                        1
+                        34,
+                        3
                     ],
                     "PrologueSquad4": [
-                        28,
+                        33,
                         0
                     ],
                     "PrologueSquad5": [
-                        29,
-                        1
+                        34,
+                        0
                     ],
                     "PrologueSquad6": [
-                        28,
-                        3
+                        33,
+                        1
                     ],
                     "PrologueSquad7": [
-                        29,
+                        35,
                         2
                     ],
                     "PrologueSquad3": [
-                        28,
+                        33,
                         2
                     ]
                 }
             },
             {
-                "nid": "AntiWallaceSquad",
+                "nid": "BeforeWallaceSquad",
                 "units": [
-                    "AntiWallaceSquad",
-                    "AntiWallaceSquad_1",
-                    "AntiWallaceSquad_2",
-                    "AntiWallaceSquad_3",
-                    "AntiWallaceSquad_4",
-                    "AntiWallaceSquad_6",
-                    "AntiWallaceSquad_5",
+                    "BeforeWallaceSquad",
+                    "BeforeWallaceSquad_1",
+                    "BeforeWallaceSquad_2",
+                    "BeforeWallaceSquad_3",
+                    "BeforeWallaceSquad_4",
+                    "BeforeWallaceSquad_6",
+                    "BeforeWallaceSquad_5",
                     "Wallace"
                 ],
                 "positions": {
-                    "AntiWallaceSquad_2": [
-                        45,
-                        5
-                    ],
-                    "AntiWallaceSquad_3": [
-                        47,
-                        6
-                    ],
-                    "AntiWallaceSquad": [
-                        45,
-                        6
-                    ],
-                    "AntiWallaceSquad_1": [
-                        47,
-                        5
-                    ],
-                    "AntiWallaceSquad_4": [
-                        48,
-                        6
-                    ],
-                    "AntiWallaceSquad_6": [
-                        47,
-                        7
-                    ],
-                    "AntiWallaceSquad_5": [
-                        45,
-                        4
-                    ],
                     "Wallace": [
                         52,
                         5
+                    ],
+                    "BeforeWallaceSquad": [
+                        45,
+                        6
+                    ],
+                    "BeforeWallaceSquad_1": [
+                        47,
+                        5
+                    ],
+                    "BeforeWallaceSquad_2": [
+                        45,
+                        5
+                    ],
+                    "BeforeWallaceSquad_3": [
+                        47,
+                        6
+                    ],
+                    "BeforeWallaceSquad_4": [
+                        48,
+                        6
+                    ],
+                    "BeforeWallaceSquad_6": [
+                        47,
+                        7
+                    ],
+                    "BeforeWallaceSquad_5": [
+                        45,
+                        4
                     ]
                 }
             },
@@ -833,45 +899,50 @@
                 ],
                 "positions": {
                     "Lyn": [
-                        22,
-                        2
+                        25,
+                        3
                     ],
                     "Kent": [
-                        23,
-                        4
+                        24,
+                        2
                     ],
                     "Sain": [
-                        24,
+                        26,
                         5
                     ],
                     "Wil": [
-                        22,
-                        3
+                        25,
+                        4
                     ],
                     "Dorcas": [
+                        26,
+                        4
+                    ],
+                    "Florina": [
+                        24,
+                        3
+                    ],
+                    "Erk": [
                         23,
                         3
                     ],
-                    "Florina": [
-                        21,
-                        2
-                    ],
-                    "Erk": [
-                        21,
-                        1
-                    ],
                     "Rath": [
-                        23,
-                        5
+                        25,
+                        6
                     ]
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "test",
-        "name": "Chapter Test",
+        "name": "Wittlog's Tests",
         "tilemap": "Chapter 1_1",
         "bg_tilemap": "Chapter 1_1",
         "party": "Eirika",
@@ -2239,7 +2310,7 @@
     },
     {
         "nid": "1",
-        "name": "Ch. 1: Escape!",
+        "name": "mainsqu33zeTEST",
         "tilemap": "Chapter 1",
         "bg_tilemap": null,
         "party": "Eirika",

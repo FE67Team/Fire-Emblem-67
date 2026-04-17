@@ -401,7 +401,7 @@
         },
         "starting_items": [
             [
-                "Iron_Bow",
+                "Steel_Bow",
                 false
             ]
         ],
@@ -516,7 +516,7 @@
         },
         "starting_items": [
             [
-                "Iron_Axe",
+                "Steel_Axe",
                 false
             ]
         ],
@@ -746,7 +746,7 @@
         },
         "starting_items": [
             [
-                "Iron_Bow",
+                "Short_Bow",
                 false
             ]
         ],
@@ -1005,7 +1005,7 @@
         },
         "starting_items": [
             [
-                "Iron_Axe",
+                "Steel_Axe",
                 false
             ]
         ],
