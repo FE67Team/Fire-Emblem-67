@@ -125,5 +125,9 @@
     {
         "nid": "Rings_and_Bands_Sheet",
         "subicon_dict": {}
+    },
+    {
+        "nid": "anti-wing",
+        "subicon_dict": {}
     }
 ]
