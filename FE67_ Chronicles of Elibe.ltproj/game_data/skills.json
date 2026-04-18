@@ -624,8 +624,8 @@
         "desc": "",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            1,
-            0
+            0,
+            1
         ],
         "components": [
             [
@@ -647,8 +647,8 @@
         "desc": "Grants STR +10, SKL +10, DEF +20, MAG+5.\nOnly for true Dragonstone users (Manaketes).",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            1,
-            0
+            0,
+            1
         ],
         "components": [
             [
@@ -688,8 +688,8 @@
         "desc": "Grants STR +5, SKL +5, DEF +10, MAG+2.\nOnly for Dragonblood units.",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            1,
-            0
+            0,
+            1
         ],
         "components": [
             [
@@ -729,8 +729,8 @@
         "desc": "Grants STR +15, SKL +15, DEF +20, RES+15.\nNo counterpart since the Demon Dragonstone is probably exclusive to Idunn.",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            2,
-            0
+            0,
+            2
         ],
         "components": [
             [
@@ -766,8 +766,8 @@
         "desc": "Grants STR +10, SKL +10, DEF +20, MAG+10.\nNo counterpart since the Flametongue is exclusive to the Fire Dragon.",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            1,
-            0
+            0,
+            1
         ],
         "components": [
             [

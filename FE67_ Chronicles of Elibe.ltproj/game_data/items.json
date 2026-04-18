@@ -2263,7 +2263,7 @@
             ],
             [
                 "weight",
-                9
+                8
             ],
             [
                 "uses",
@@ -9349,7 +9349,7 @@
             ],
             [
                 "hit",
-                95
+                90
             ],
             [
                 "crit",
@@ -9444,7 +9444,7 @@
             ],
             [
                 "weight",
-                6
+                3
             ],
             [
                 "uses",
@@ -9475,7 +9475,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "C"
             ],
             [
                 "map_hit_add_blend",
@@ -9531,7 +9531,7 @@
             ],
             [
                 "weight",
-                8
+                5
             ],
             [
                 "uses",
@@ -9546,7 +9546,7 @@
             ],
             [
                 "value",
-                8000
+                5000
             ],
             [
                 "level_exp",
@@ -9598,7 +9598,7 @@
             ],
             [
                 "max_range",
-                10
+                6
             ],
             [
                 "magic",
@@ -9622,7 +9622,7 @@
             ],
             [
                 "uses",
-                5
+                3
             ],
             [
                 "uses_options",
@@ -9633,7 +9633,7 @@
             ],
             [
                 "value",
-                30000
+                15000
             ],
             [
                 "level_exp",
@@ -9649,7 +9649,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "map_hit_add_blend",
@@ -9658,6 +9658,102 @@
                     255,
                     0
                 ]
+            ]
+        ]
+    },
+    {
+        "nid": "Thani",
+        "name": "Thani",
+        "desc": "Effective against horseback and armoured units.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                2
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                10000
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Horse",
+                        "Armor"
+                    ],
+                    "effective_multiplier": 1.0,
+                    "effective_bonus_damage": 12,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
             ]
         ]
     },
@@ -9705,7 +9801,7 @@
             ],
             [
                 "weight",
-                10
+                7
             ],
             [
                 "uses",
@@ -9720,7 +9816,7 @@
             ],
             [
                 "value",
-                12000
+                10000
             ],
             [
                 "level_exp",
@@ -9792,7 +9888,7 @@
             ],
             [
                 "weight",
-                10
+                12
             ],
             [
                 "uses",
@@ -9855,10 +9951,10 @@
         "nid": "Luce",
         "name": "Luce",
         "desc": "",
-        "icon_nid": "New weapons",
+        "icon_nid": "Light",
         "icon_index": [
             0,
-            1
+            7
         ],
         "components": [
             [
@@ -9942,10 +10038,10 @@
         "nid": "Aureola",
         "name": "Aureola",
         "desc": "Magic +5. Effective against monsters",
-        "icon_nid": "New weapons",
+        "icon_nid": "Light",
         "icon_index": [
             0,
-            0
+            6
         ],
         "components": [
             [
@@ -10046,7 +10142,7 @@
         "nid": "Fire",
         "name": "Fire",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Fire",
         "icon_index": [
             0,
             0
@@ -10133,7 +10229,7 @@
         "nid": "Elfire",
         "name": "Elfire",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Fire",
         "icon_index": [
             0,
             1
@@ -10220,7 +10316,7 @@
         "nid": "Bolganone",
         "name": "Bolganone",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Fire",
         "icon_index": [
             0,
             3
@@ -10248,7 +10344,7 @@
             ],
             [
                 "damage",
-                14
+                16
             ],
             [
                 "hit",
@@ -10275,7 +10371,7 @@
             ],
             [
                 "value",
-                10000
+                12000
             ],
             [
                 "level_exp",
@@ -10307,7 +10403,7 @@
         "nid": "Meteor",
         "name": "Meteor",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Fire",
         "icon_index": [
             0,
             2
@@ -10327,7 +10423,7 @@
             ],
             [
                 "max_range",
-                10
+                6
             ],
             [
                 "magic",
@@ -10339,7 +10435,7 @@
             ],
             [
                 "hit",
-                55
+                50
             ],
             [
                 "crit",
@@ -10351,7 +10447,7 @@
             ],
             [
                 "uses",
-                5
+                3
             ],
             [
                 "uses_options",
@@ -10362,7 +10458,7 @@
             ],
             [
                 "value",
-                30000
+                15000
             ],
             [
                 "level_exp",
@@ -10378,7 +10474,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "map_hit_add_blend",
@@ -10394,7 +10490,7 @@
         "nid": "Forblaze",
         "name": "Forblaze",
         "desc": "Luck +5. Effective against monsters",
-        "icon_nid": "Anima",
+        "icon_nid": "Fire",
         "icon_index": [
             0,
             4
@@ -10498,9 +10594,9 @@
         "nid": "Thunder",
         "name": "Thunder",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Thunder",
         "icon_index": [
-            1,
+            0,
             0
         ],
         "components": [
@@ -10585,9 +10681,9 @@
         "nid": "Elthunder",
         "name": "Elthunder",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Thunder",
         "icon_index": [
-            1,
+            0,
             1
         ],
         "components": [
@@ -10672,9 +10768,9 @@
         "nid": "Thoron",
         "name": "Thoron",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Thunder",
         "icon_index": [
-            1,
+            0,
             3
         ],
         "components": [
@@ -10700,7 +10796,7 @@
             ],
             [
                 "damage",
-                12
+                14
             ],
             [
                 "hit",
@@ -10759,9 +10855,9 @@
         "nid": "Bolting",
         "name": "Bolting",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Thunder",
         "icon_index": [
-            1,
+            0,
             2
         ],
         "components": [
@@ -10779,7 +10875,7 @@
             ],
             [
                 "max_range",
-                10
+                6
             ],
             [
                 "magic",
@@ -10803,7 +10899,7 @@
             ],
             [
                 "uses",
-                5
+                3
             ],
             [
                 "uses_options",
@@ -10814,7 +10910,7 @@
             ],
             [
                 "value",
-                30000
+                15000
             ],
             [
                 "level_exp",
@@ -10830,7 +10926,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "map_hit_add_blend",
@@ -10846,9 +10942,9 @@
         "nid": "Rexbolt",
         "name": "Rexbolt",
         "desc": "Skill +5. Effective against monsters",
-        "icon_nid": "Anima",
+        "icon_nid": "Thunder",
         "icon_index": [
-            1,
+            0,
             4
         ],
         "components": [
@@ -10886,7 +10982,7 @@
             ],
             [
                 "weight",
-                7
+                9
             ],
             [
                 "uses",
@@ -10950,9 +11046,9 @@
         "nid": "Wind",
         "name": "Wind",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Wind",
         "icon_index": [
-            2,
+            0,
             0
         ],
         "components": [
@@ -10990,7 +11086,7 @@
             ],
             [
                 "weight",
-                3
+                2
             ],
             [
                 "uses",
@@ -11049,9 +11145,9 @@
         "nid": "Elwind",
         "name": "Elwind",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Wind",
         "icon_index": [
-            2,
+            0,
             1
         ],
         "components": [
@@ -11089,7 +11185,7 @@
             ],
             [
                 "weight",
-                5
+                4
             ],
             [
                 "uses",
@@ -11148,9 +11244,9 @@
         "nid": "Fimbulvetr",
         "name": "Fimbulvetr",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Wind",
         "icon_index": [
-            2,
+            0,
             3
         ],
         "components": [
@@ -11176,7 +11272,7 @@
             ],
             [
                 "damage",
-                10
+                12
             ],
             [
                 "hit",
@@ -11188,7 +11284,7 @@
             ],
             [
                 "weight",
-                7
+                6
             ],
             [
                 "uses",
@@ -11247,9 +11343,9 @@
         "nid": "Blizzard",
         "name": "Blizzard",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "Wind",
         "icon_index": [
-            2,
+            0,
             2
         ],
         "components": [
@@ -11267,7 +11363,7 @@
             ],
             [
                 "max_range",
-                10
+                6
             ],
             [
                 "magic",
@@ -11279,7 +11375,7 @@
             ],
             [
                 "hit",
-                65
+                70
             ],
             [
                 "crit",
@@ -11291,7 +11387,7 @@
             ],
             [
                 "uses",
-                5
+                3
             ],
             [
                 "uses_options",
@@ -11302,7 +11398,7 @@
             ],
             [
                 "value",
-                30000
+                15000
             ],
             [
                 "level_exp",
@@ -11318,7 +11414,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "effective_damage",
@@ -11346,9 +11442,9 @@
         "nid": "Excalibur",
         "name": "Excalibur",
         "desc": "Speed +5. Effective against monsters",
-        "icon_nid": "Anima",
+        "icon_nid": "Wind",
         "icon_index": [
-            2,
+            0,
             4
         ],
         "components": [
@@ -11386,7 +11482,7 @@
             ],
             [
                 "weight",
-                6
+                7
             ],
             [
                 "uses",
@@ -11535,6 +11631,168 @@
         ]
     },
     {
+        "nid": "Spook",
+        "name": "Spook",
+        "desc": "",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "exp",
+                15
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ]
+        ]
+    },
+    {
+        "nid": "Fenrir",
+        "name": "Fenrir",
+        "desc": "",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "uses",
+                50
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "value",
+                8000
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    72,
+                    0,
+                    65
+                ]
+            ]
+        ]
+    },
+    {
         "nid": "Luna",
         "name": "Luna",
         "desc": "Ignore's enemy resistance",
@@ -11613,7 +11871,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "map_hit_add_blend",
@@ -11700,7 +11958,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "map_hit_add_blend",
@@ -11740,7 +11998,7 @@
             ],
             [
                 "max_range",
-                10
+                6
             ],
             [
                 "magic",
@@ -11760,7 +12018,7 @@
             ],
             [
                 "uses",
-                5
+                3
             ],
             [
                 "uses_options",
@@ -11771,7 +12029,7 @@
             ],
             [
                 "value",
-                30000
+                15000
             ],
             [
                 "level_exp",
@@ -11804,93 +12062,6 @@
             [
                 "no_double",
                 null
-            ]
-        ]
-    },
-    {
-        "nid": "Fenrir",
-        "name": "Fenrir",
-        "desc": "",
-        "icon_nid": "Dark",
-        "icon_index": [
-            0,
-            4
-        ],
-        "components": [
-            [
-                "weapon",
-                null
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "damage",
-                15
-            ],
-            [
-                "hit",
-                70
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "weight",
-                14
-            ],
-            [
-                "uses",
-                50
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
-                "value",
-                10000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
-                "wexp",
-                0
-            ],
-            [
-                "weapon_type",
-                "Dark"
-            ],
-            [
-                "weapon_rank",
-                "A"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    72,
-                    0,
-                    65
-                ]
             ]
         ]
     },
@@ -12076,10 +12247,10 @@
         "nid": "Gespenst",
         "name": "Gespenst",
         "desc": "",
-        "icon_nid": "New weapons",
+        "icon_nid": "Dark",
         "icon_index": [
             0,
-            2
+            9
         ],
         "components": [
             [
@@ -12163,10 +12334,10 @@
         "nid": "Apocalypse",
         "name": "Apocalypse",
         "desc": "Magic +5. Effective against monsters",
-        "icon_nid": "New weapons",
+        "icon_nid": "Dark",
         "icon_index": [
             0,
-            3
+            7
         ],
         "components": [
             [
@@ -12267,10 +12438,10 @@
         "nid": "Ereshkigal",
         "name": "Ereshkigal",
         "desc": "",
-        "icon_nid": "New weapons",
+        "icon_nid": "Dark",
         "icon_index": [
             0,
-            4
+            8
         ],
         "components": [
             [
@@ -13887,8 +14058,8 @@
         "desc": "",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            1,
-            0
+            0,
+            1
         ],
         "components": [
             [
@@ -13968,8 +14139,8 @@
         "desc": "Unused in game.",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            2,
-            0
+            0,
+            2
         ],
         "components": [
             [
@@ -14034,8 +14205,8 @@
         "desc": "",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            1,
-            0
+            0,
+            1
         ],
         "components": [
             [
@@ -15795,7 +15966,7 @@
         "nid": "Sear",
         "name": "Sear",
         "desc": "Attack up to three units.",
-        "icon_nid": "Anima",
+        "icon_nid": "Fire",
         "icon_index": [
             0,
             2
