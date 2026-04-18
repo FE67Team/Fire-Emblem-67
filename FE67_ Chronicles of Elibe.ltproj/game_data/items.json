@@ -589,6 +589,10 @@
                 }
             ],
             [
+                "value",
+                15000
+            ],
+            [
                 "level_exp",
                 null
             ],
@@ -602,11 +606,236 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "status_on_hit",
                 "Poisoned"
+            ]
+        ]
+    },
+    {
+        "nid": "Sleep_Edge",
+        "name": "Sleep Edge",
+        "desc": "",
+        "icon_nid": "Sword_sheet",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "value",
+                15000
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "status_on_hit",
+                "Sleep"
+            ]
+        ]
+    },
+    {
+        "nid": "Berserk_Sword",
+        "name": "Berserk Sword",
+        "desc": "",
+        "icon_nid": "Sword_sheet",
+        "icon_index": [
+            4,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "value",
+                15000
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "status_on_hit",
+                "Berserk"
+            ]
+        ]
+    },
+    {
+        "nid": "Silence_Sword",
+        "name": "Silence Sword",
+        "desc": "",
+        "icon_nid": "Sword_sheet",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                12
+            ],
+            [
+                "uses",
+                30
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "value",
+                15000
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "status_on_hit",
+                "Silence"
             ]
         ]
     },
@@ -681,7 +910,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "warning",
@@ -760,7 +989,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "effective_damage",
@@ -853,7 +1082,7 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Flying"
+                        "Dragon"
                     ],
                     "effective_multiplier": 1.0,
                     "effective_bonus_damage": 16,
@@ -946,7 +1175,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "effective_damage",
@@ -966,7 +1195,7 @@
         "nid": "Wing_Clipper",
         "name": "Wing Clipper",
         "desc": "Effective against flying units.",
-        "icon_nid": "anti-wing",
+        "icon_nid": "Sword_sheet",
         "icon_index": [
             0,
             0
@@ -990,7 +1219,7 @@
             ],
             [
                 "damage",
-                6
+                8
             ],
             [
                 "hit",
@@ -1002,7 +1231,7 @@
             ],
             [
                 "weight",
-                5
+                7
             ],
             [
                 "uses",
@@ -1016,16 +1245,12 @@
                 }
             ],
             [
-                "value",
-                5000
-            ],
-            [
-                "level_exp",
-                null
-            ],
-            [
                 "wexp",
                 0
+            ],
+            [
+                "value",
+                5000
             ],
             [
                 "weapon_type",
@@ -1717,7 +1942,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "battle_cast_anim",
@@ -1804,7 +2029,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "battle_cast_anim",
@@ -1895,7 +2120,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "battle_cast_anim",
@@ -1982,7 +2207,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "battle_cast_anim",
@@ -2069,7 +2294,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "battle_cast_anim",
@@ -2896,7 +3121,7 @@
             ],
             [
                 "uses",
-                49
+                50
             ],
             [
                 "uses_options",
@@ -3073,7 +3298,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "status_on_hit",
@@ -3152,7 +3377,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "warning",
@@ -3606,7 +3831,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "effective_damage",
@@ -3693,7 +3918,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "effective_damage",
@@ -5109,7 +5334,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "warning",
@@ -6209,7 +6434,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "effective_damage",
@@ -6470,7 +6695,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "effective_damage",
@@ -8591,10 +8816,10 @@
         "nid": "Return",
         "name": "Return",
         "desc": "Send an ally inside the home castle.",
-        "icon_nid": "Staff",
+        "icon_nid": "Sword_sheet",
         "icon_index": [
-            0,
-            16
+            5,
+            0
         ],
         "components": [
             [
@@ -15929,11 +16154,11 @@
             ],
             [
                 "min_range",
-                0
+                1
             ],
             [
                 "max_range",
-                0
+                1
             ],
             [
                 "damage",
