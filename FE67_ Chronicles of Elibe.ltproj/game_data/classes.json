@@ -20,7 +20,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -68,7 +68,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -177,7 +177,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -225,7 +225,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -339,7 +339,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -374,7 +374,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 3,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -387,7 +387,7 @@
             "LCK": 30,
             "DEF": 22,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -504,7 +504,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -552,7 +552,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -665,7 +665,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -700,7 +700,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -713,7 +713,7 @@
             "LCK": 30,
             "DEF": 23,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -828,7 +828,7 @@
             "SKL": 7,
             "SPD": 9,
             "DEF": 2,
-            "MOV": 6,
+            "MOV": 20,
             "CON": 0,
             "LCK": 0,
             "MAG": 0,
@@ -878,7 +878,7 @@
             "LCK": 30,
             "DEF": 20,
             "MAG": 20,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 20,
             "LEAD": 30
         },
@@ -983,7 +983,7 @@
         ],
         "max_level": 40,
         "bases": {
-            "MOV": 7,
+            "MOV": 24,
             "CON": 0,
             "HP": 23,
             "STR": 3,
@@ -1025,7 +1025,7 @@
             "DEF": 3,
             "MAG": 5,
             "MOV": -97,
-            "CON": 1,
+            "CON": 0,
             "SPD": 0,
             "LCK": 0,
             "LEAD": 0
@@ -1037,7 +1037,7 @@
             "SPD": 30,
             "LCK": 30,
             "DEF": 22,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "MAG": 22,
             "LEAD": 30
@@ -1151,7 +1151,7 @@
             "SPD": 7,
             "DEF": 5,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LCK": 0,
             "MAG": 0,
             "LEAD": 0
@@ -1200,7 +1200,7 @@
             "LCK": 30,
             "DEF": 20,
             "MAG": 20,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 20,
             "LEAD": 30
         },
@@ -1307,7 +1307,7 @@
         ],
         "max_level": 40,
         "bases": {
-            "MOV": 10,
+            "MOV": 36,
             "CON": 0,
             "HP": 23,
             "STR": 3,
@@ -1362,7 +1362,7 @@
             "LCK": 30,
             "DEF": 23,
             "MAG": 25,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "LEAD": 30
         },
@@ -1472,7 +1472,7 @@
         ],
         "max_level": 40,
         "bases": {
-            "MOV": 6,
+            "MOV": 16,
             "CON": 0,
             "HP": 24,
             "STR": 7,
@@ -1527,7 +1527,7 @@
             "LCK": 30,
             "DEF": 20,
             "MAG": 20,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 20,
             "LEAD": 30
         },
@@ -1632,7 +1632,7 @@
         "max_level": 40,
         "bases": {
             "CON": 0,
-            "MOV": 7,
+            "MOV": 20,
             "MAG": 0,
             "HP": 23,
             "STR": 3,
@@ -1673,7 +1673,7 @@
             "DEF": 1,
             "MAG": 5,
             "MOV": -97,
-            "CON": 2,
+            "CON": 0,
             "LCK": 0,
             "STR": 0,
             "LEAD": 0
@@ -1686,7 +1686,7 @@
             "LCK": 30,
             "DEF": 29,
             "MAG": 20,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "LEAD": 30
         },
@@ -1798,7 +1798,7 @@
             "SKL": 3,
             "SPD": 4,
             "DEF": 5,
-            "MOV": 6,
+            "MOV": 20,
             "CON": 0,
             "LCK": 0,
             "MAG": 0,
@@ -1842,7 +1842,7 @@
         },
         "max_stats": {
             "DEF": 0,
-            "MOV": 0,
+            "MOV": 60,
             "CON": 0,
             "LCK": 0,
             "SKL": 0,
@@ -1959,7 +1959,7 @@
             "SPD": 6,
             "DEF": 7,
             "MAG": 5,
-            "MOV": 7,
+            "MOV": 24,
             "CON": 0,
             "LCK": 0,
             "LEAD": 0
@@ -1995,7 +1995,7 @@
             "SPD": 2,
             "DEF": 2,
             "MAG": 5,
-            "CON": 2,
+            "CON": 0,
             "LCK": 0,
             "MOV": 0,
             "LEAD": 0
@@ -2008,7 +2008,7 @@
             "LCK": 30,
             "DEF": 25,
             "MAG": 25,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "LEAD": 30
         },
@@ -2120,7 +2120,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -2168,7 +2168,7 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -2276,7 +2276,7 @@
             "SKL": 2,
             "SPD": 7,
             "MAG": 1,
-            "MOV": 6,
+            "MOV": 20,
             "CON": 0,
             "LCK": 0,
             "DEF": 0,
@@ -2326,7 +2326,7 @@
             "LCK": 30,
             "DEF": 20,
             "MAG": 20,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 20,
             "LEAD": 30
         },
@@ -2435,7 +2435,7 @@
             "SKL": 2,
             "SPD": 7,
             "MAG": 0,
-            "MOV": 6,
+            "MOV": 20,
             "CON": 0,
             "DEF": 1,
             "LCK": 0,
@@ -2485,7 +2485,7 @@
             "LCK": 30,
             "DEF": 24,
             "MAG": 26,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 20,
             "LEAD": 30
         },
@@ -2591,7 +2591,7 @@
         "bases": {
             "HP": 14,
             "DEF": 0,
-            "MOV": 0,
+            "MOV": 20,
             "CON": 0,
             "LCK": 0,
             "SKL": 0,
@@ -2638,7 +2638,7 @@
         },
         "max_stats": {
             "DEF": 0,
-            "MOV": 0,
+            "MOV": 60,
             "CON": 0,
             "LCK": 0,
             "SKL": 0,
@@ -2759,7 +2759,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -2807,7 +2807,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -2922,7 +2922,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -2957,7 +2957,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -2970,7 +2970,7 @@
             "LCK": 30,
             "DEF": 22,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -3092,7 +3092,7 @@
             "LCK": 0,
             "DEF": 4,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -3140,7 +3140,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -3255,7 +3255,7 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -3290,7 +3290,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -3303,7 +3303,7 @@
             "LCK": 30,
             "DEF": 25,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -3421,7 +3421,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -3469,7 +3469,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -3584,7 +3584,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -3619,7 +3619,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -3632,7 +3632,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -3751,7 +3751,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -3786,7 +3786,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -3799,7 +3799,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -3918,7 +3918,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 16,
             "LEAD": 0
         },
         "growths": {
@@ -3966,7 +3966,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -4075,7 +4075,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -4123,7 +4123,7 @@
             "LCK": 20,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -4238,7 +4238,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -4286,7 +4286,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -4405,7 +4405,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -4453,7 +4453,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -4572,7 +4572,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -4620,7 +4620,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -4739,7 +4739,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -4787,7 +4787,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -4903,7 +4903,7 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 0,
-            "MOV": 10,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -4938,7 +4938,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -4951,7 +4951,7 @@
             "LCK": 30,
             "DEF": 25,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -5068,7 +5068,7 @@
             "LCK": 0,
             "DEF": 11,
             "CON": 0,
-            "MOV": 10,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -5103,7 +5103,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "CON": 4,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -5116,7 +5116,7 @@
             "LCK": 30,
             "DEF": 29,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -5235,7 +5235,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -5283,7 +5283,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -5399,7 +5399,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 10,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -5434,7 +5434,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -5447,7 +5447,7 @@
             "LCK": 30,
             "DEF": 23,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -5565,7 +5565,7 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 16,
             "LEAD": 0
         },
         "growths": {
@@ -5613,7 +5613,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -5727,7 +5727,7 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 16,
             "LEAD": 0
         },
         "growths": {
@@ -5775,7 +5775,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -5889,7 +5889,7 @@
             "LCK": 0,
             "DEF": 9,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 16,
             "LEAD": 0
         },
         "growths": {
@@ -5937,7 +5937,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -6048,7 +6048,7 @@
             "LCK": 0,
             "DEF": 13,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -6083,7 +6083,7 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 3,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -6096,7 +6096,7 @@
             "LCK": 30,
             "DEF": 30,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -6215,7 +6215,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 16,
             "LEAD": 0
         },
         "growths": {
@@ -6263,7 +6263,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -6375,7 +6375,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -6410,7 +6410,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "CON": 3,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -6423,7 +6423,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -6532,7 +6532,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -6567,7 +6567,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 3,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -6580,7 +6580,7 @@
             "LCK": 30,
             "DEF": 26,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -6691,7 +6691,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -6726,7 +6726,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 1,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -6739,7 +6739,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -6848,7 +6848,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -6883,7 +6883,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 2,
-            "CON": 3,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -6896,7 +6896,7 @@
             "LCK": 30,
             "DEF": 23,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -7011,7 +7011,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -7059,7 +7059,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -7171,7 +7171,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -7219,7 +7219,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -7328,7 +7328,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -7363,7 +7363,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 2,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -7376,7 +7376,7 @@
             "LCK": 30,
             "DEF": 25,
             "CON": 20,
-            "MOV": 30,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -7540,7 +7540,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -7652,7 +7652,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -7687,7 +7687,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 3,
-            "CON": 3,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -7700,7 +7700,7 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -7816,7 +7816,7 @@
             "LCK": 0,
             "DEF": 6,
             "CON": 0,
-            "MOV": 10,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -7851,7 +7851,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 3,
-            "CON": 3,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -7864,7 +7864,7 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -7980,7 +7980,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -8015,7 +8015,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 0,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -8028,7 +8028,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -8143,7 +8143,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -8191,7 +8191,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -8295,7 +8295,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -8330,7 +8330,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 3,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -8343,7 +8343,7 @@
             "LCK": 30,
             "DEF": 22,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -8462,7 +8462,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 16,
             "LEAD": 0
         },
         "growths": {
@@ -8510,7 +8510,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -8622,7 +8622,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -8657,7 +8657,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 1,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -8670,7 +8670,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -8782,7 +8782,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -8817,7 +8817,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 1,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -8830,7 +8830,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -8942,7 +8942,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -8977,7 +8977,7 @@
             "SPD": 2,
             "LCK": 0,
             "DEF": 1,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -8990,7 +8990,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -9099,7 +9099,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -9134,7 +9134,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 3,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -9147,7 +9147,7 @@
             "LCK": 30,
             "DEF": 21,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -9259,7 +9259,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -9294,7 +9294,7 @@
             "SPD": 1,
             "LCK": 0,
             "DEF": 1,
-            "CON": 2,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -9307,7 +9307,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -9416,7 +9416,7 @@
             "LCK": 0,
             "DEF": 4,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -9451,7 +9451,7 @@
             "SPD": 3,
             "LCK": 0,
             "DEF": 2,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -9464,7 +9464,7 @@
             "LCK": 30,
             "DEF": 21,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -9573,7 +9573,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -9601,7 +9601,7 @@
             "LEAD": 0
         },
         "promotion": {
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "HP": 3,
             "STR": 0,
@@ -9621,7 +9621,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -9736,7 +9736,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 10,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -9771,7 +9771,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "CON": 3,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -9784,7 +9784,7 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -9903,7 +9903,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -9951,7 +9951,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -10063,7 +10063,7 @@
             "LCK": 0,
             "DEF": 4,
             "CON": 0,
-            "MOV": 10,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -10098,7 +10098,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -10111,7 +10111,7 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -10231,7 +10231,7 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 0,
-            "MOV": 8,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -10279,7 +10279,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -10396,7 +10396,7 @@
             "LCK": 0,
             "DEF": 10,
             "CON": 0,
-            "MOV": 9,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -10431,7 +10431,7 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 2,
-            "CON": 1,
+            "CON": 0,
             "MOV": -97,
             "LEAD": 0
         },
@@ -10444,7 +10444,7 @@
             "LCK": 30,
             "DEF": 28,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -10561,7 +10561,7 @@
             "LCK": 0,
             "DEF": 7,
             "CON": 0,
-            "MOV": 9,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -10609,7 +10609,7 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -10727,7 +10727,7 @@
             "LCK": 0,
             "DEF": 3,
             "MAG": 9,
-            "MOV": 7,
+            "MOV": 24,
             "CON": 0,
             "LEAD": 0
         },
@@ -10775,7 +10775,7 @@
             "LCK": 30,
             "DEF": 30,
             "MAG": 30,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "LEAD": 30
         },
@@ -10877,7 +10877,7 @@
             "LCK": 0,
             "DEF": 3,
             "MAG": 3,
-            "MOV": 7,
+            "MOV": 20,
             "CON": 0,
             "LEAD": 0
         },
@@ -10925,7 +10925,7 @@
             "LCK": 30,
             "DEF": 20,
             "MAG": 20,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "LEAD": 30
         },
@@ -11027,7 +11027,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -11075,7 +11075,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -11190,7 +11190,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 7,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -11238,7 +11238,7 @@
             "LCK": 30,
             "DEF": 30,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -11348,7 +11348,7 @@
             "LCK": 0,
             "DEF": 28,
             "MAG": 30,
-            "MOV": 20,
+            "MOV": 24,
             "CON": 0,
             "LEAD": 0
         },
@@ -11396,7 +11396,7 @@
             "LCK": 30,
             "DEF": 30,
             "MAG": 30,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "LEAD": 30
         },
@@ -11495,7 +11495,7 @@
             "LCK": 0,
             "DEF": 15,
             "MAG": 10,
-            "MOV": 7,
+            "MOV": 20,
             "CON": 0,
             "LEAD": 0
         },
@@ -11543,7 +11543,7 @@
             "LCK": 30,
             "DEF": 30,
             "MAG": 30,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "LEAD": 30
         },
@@ -11642,7 +11642,7 @@
             "LCK": 15,
             "DEF": 20,
             "MAG": 30,
-            "MOV": 8,
+            "MOV": 32,
             "CON": 0,
             "LEAD": 0
         },
@@ -11690,7 +11690,7 @@
             "LCK": 30,
             "DEF": 30,
             "MAG": 30,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "LEAD": 30
         },
@@ -11793,7 +11793,7 @@
             "LCK": 0,
             "DEF": 32,
             "MAG": 21,
-            "MOV": 2,
+            "MOV": 8,
             "CON": 0,
             "LEAD": 0
         },
@@ -11841,7 +11841,7 @@
             "LCK": 30,
             "DEF": 30,
             "MAG": 30,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "LEAD": 30
         },
@@ -11944,7 +11944,7 @@
             "LCK": 0,
             "DEF": 0,
             "MAG": 0,
-            "MOV": 5,
+            "MOV": 20,
             "CON": 0,
             "LEAD": 0
         },
@@ -11992,7 +11992,7 @@
             "LCK": 30,
             "DEF": 30,
             "MAG": 30,
-            "MOV": 15,
+            "MOV": 60,
             "CON": 25,
             "LEAD": 30
         },
@@ -12097,7 +12097,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 4,
+            "MOV": 16,
             "LEAD": 0
         },
         "growths": {
@@ -12145,7 +12145,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -12252,7 +12252,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -12300,7 +12300,7 @@
             "LCK": 30,
             "DEF": 24,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -12409,7 +12409,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -12457,7 +12457,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -12564,7 +12564,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -12612,7 +12612,7 @@
             "LCK": 30,
             "DEF": 22,
             "CON": 25,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -12721,7 +12721,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -12769,7 +12769,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -12876,7 +12876,7 @@
             "LCK": 0,
             "DEF": 5,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -12924,7 +12924,7 @@
             "LCK": 30,
             "DEF": 25,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -13034,7 +13034,7 @@
             "LCK": 0,
             "DEF": 2,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -13082,7 +13082,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -13190,7 +13190,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 6,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -13238,7 +13238,7 @@
             "LCK": 30,
             "DEF": 20,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [],
@@ -13393,7 +13393,7 @@
             "LCK": 30,
             "DEF": 30,
             "CON": 30,
-            "MOV": 30,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -13557,7 +13557,7 @@
             "LCK": 30,
             "DEF": 30,
             "CON": 30,
-            "MOV": 30,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [
@@ -13672,7 +13672,7 @@
             "LCK": 0,
             "DEF": 0,
             "CON": 0,
-            "MOV": 5,
+            "MOV": 20,
             "LEAD": 0
         },
         "growths": {
@@ -13720,7 +13720,7 @@
             "LCK": 30,
             "DEF": 0,
             "CON": 20,
-            "MOV": 15,
+            "MOV": 60,
             "LEAD": 30
         },
         "learned_skills": [

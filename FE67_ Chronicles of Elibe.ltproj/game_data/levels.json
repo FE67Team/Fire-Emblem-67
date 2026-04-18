@@ -5936,7 +5936,7 @@
                     15,
                     6
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "highlight": null,
                 "condition": "True",
                 "time_left": null,

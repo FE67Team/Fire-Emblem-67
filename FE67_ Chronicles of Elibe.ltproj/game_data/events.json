@@ -3922,8 +3922,8 @@
             "$give_skill \"Sain\" \"Silence\",no_banner",
             "#$give_item \"Fae\" \"Return_Band\",no_banner",
             "$add_talk \"Lyn\" \"Priscilla\"",
-            "$give_item \"Lyn\" \"Metis_s_Tome\",no_banner",
-            "$give_exp \"Lyn\" 99,silent"
+            "#$give_item \"Lyn\" \"Metis_s_Tome\",no_banner",
+            "#$give_exp \"Lyn\" 99,silent"
         ],
         "nid": "test start_testMap"
     },
@@ -4984,6 +4984,8 @@
             "        #Add the broken item to the unit that broke it",
             "        game.register_item(new_item)",
             "        current_unit.items.append(new_item)",
+            "        #Force the unit to equip their broken weapon",
+            "        action.do(action.EquipItem(current_unit, new_item))",
             "",
             "#If the initiator isn't to be skipped, check if they broke their weapon",
             "if noSkip_unit:",
