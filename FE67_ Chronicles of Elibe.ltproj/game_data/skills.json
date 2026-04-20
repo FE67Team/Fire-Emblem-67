@@ -193,6 +193,26 @@
         ]
     },
     {
+        "nid": "Avoid_minus_15",
+        "name": "Avoid -15",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "avoid",
+                -15
+            ],
+            [
+                "is_terrain",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "NoAvoid",
         "name": "NoAvoid",
         "desc": "",

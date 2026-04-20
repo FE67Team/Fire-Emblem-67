@@ -19,7 +19,7 @@
             "LCK": 5,
             "DEF": 2,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 1
         },
         "growths": {
@@ -146,7 +146,7 @@
             "LCK": 5,
             "DEF": 7,
             "CON": 0,
-            "MOV": 28,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -261,7 +261,7 @@
             "LCK": 4,
             "DEF": 6,
             "CON": 0,
-            "MOV": 28,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -291,6 +291,10 @@
         "starting_items": [
             [
                 "Iron_Sword",
+                false
+            ],
+            [
+                "Vulnerary",
                 false
             ]
         ],
@@ -376,7 +380,7 @@
             "LCK": 7,
             "DEF": 5,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -484,14 +488,14 @@
         ],
         "bases": {
             "HP": 40,
-            "STR": 7,
+            "STR": 10,
             "MAG": 0,
             "SKL": 7,
             "SPD": 6,
             "LCK": 3,
             "DEF": 3,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -520,7 +524,7 @@
         },
         "starting_items": [
             [
-                "Steel_Axe",
+                "Hammer",
                 false
             ]
         ],
@@ -606,7 +610,7 @@
             "LCK": 8,
             "DEF": 4,
             "CON": 0,
-            "MOV": 28,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -721,7 +725,7 @@
             "LCK": 4,
             "DEF": 7,
             "CON": 0,
-            "MOV": 28,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -836,7 +840,7 @@
             "LCK": 3,
             "DEF": 2,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -966,21 +970,21 @@
         "name": "Wallace",
         "desc": "A retired knight of Caelin. Constantly testing himself.",
         "variant": null,
-        "level": 12,
+        "level": 10,
         "klass": "Axe_Armor",
         "tags": [
             "Male"
         ],
         "bases": {
             "HP": 40,
-            "STR": 13,
+            "STR": 11,
             "MAG": 2,
             "SKL": 7,
             "SPD": 5,
             "LCK": 10,
-            "DEF": 15,
+            "DEF": 13,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -1009,7 +1013,7 @@
         },
         "starting_items": [
             [
-                "Steel_Axe",
+                "Iron_Axe",
                 false
             ]
         ],
@@ -1095,7 +1099,7 @@
             "LCK": 2,
             "DEF": 10,
             "CON": 0,
-            "MOV": 32,
+            "MOV": 36,
             "LEAD": 0
         },
         "growths": {
@@ -1205,7 +1209,7 @@
             "LCK": 10,
             "DEF": 5,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -1317,7 +1321,7 @@
             "LCK": 7,
             "DEF": 5,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -1432,7 +1436,7 @@
             "LCK": 10,
             "DEF": 9,
             "CON": 0,
-            "MOV": 32,
+            "MOV": 26,
             "LEAD": 0
         },
         "growths": {
@@ -1555,7 +1559,7 @@
             "LCK": 3,
             "DEF": 7,
             "CON": 0,
-            "MOV": 28,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -1666,7 +1670,7 @@
             "LCK": 4,
             "DEF": 3,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -1781,7 +1785,7 @@
             "LCK": 4,
             "DEF": 4,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -1897,7 +1901,7 @@
             "LCK": 3,
             "DEF": 8,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -2012,7 +2016,7 @@
             "LCK": 3,
             "DEF": 13,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -2127,7 +2131,7 @@
             "LCK": 6,
             "DEF": 2,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -2238,7 +2242,7 @@
             "LCK": 2,
             "DEF": 3,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -2357,7 +2361,7 @@
             "LCK": 5,
             "DEF": 5,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -2574,7 +2578,7 @@
             "LCK": 3,
             "DEF": 6,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -2689,7 +2693,7 @@
             "LCK": 7,
             "DEF": 3,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -2800,7 +2804,7 @@
             "LCK": 2,
             "DEF": 5,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -2915,7 +2919,7 @@
             "LCK": 2,
             "DEF": 1,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -3030,7 +3034,7 @@
             "LCK": 10,
             "DEF": 8,
             "CON": 0,
-            "MOV": 32,
+            "MOV": 36,
             "LEAD": 0
         },
         "growths": {
@@ -3145,7 +3149,7 @@
             "LCK": 2,
             "DEF": 3,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -3260,7 +3264,7 @@
             "LCK": 0,
             "DEF": 3,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -3375,7 +3379,7 @@
             "LCK": 6,
             "DEF": 9,
             "CON": 0,
-            "MOV": 28,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -3486,7 +3490,7 @@
             "LCK": 10,
             "DEF": 8,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -3586,7 +3590,7 @@
         "nid": "Ninian",
         "name": "Ninian",
         "desc": "A somber girl, but filled with a solemn energy.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Dancer",
         "tags": [
@@ -3601,7 +3605,7 @@
             "LCK": 10,
             "DEF": 5,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -3828,7 +3832,7 @@
             "LCK": 16,
             "DEF": 11,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -3943,7 +3947,7 @@
             "LCK": 5,
             "DEF": 11,
             "CON": 0,
-            "MOV": 32,
+            "MOV": 36,
             "LEAD": 0
         },
         "growths": {
@@ -4049,7 +4053,7 @@
             "LCK": 14,
             "DEF": 12,
             "CON": 0,
-            "MOV": 32,
+            "MOV": 36,
             "LEAD": 0
         },
         "growths": {
@@ -4160,7 +4164,7 @@
             "LCK": 6,
             "DEF": 6,
             "CON": 0,
-            "MOV": 28,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -4271,7 +4275,7 @@
             "LCK": 14,
             "DEF": 11,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -4411,7 +4415,7 @@
             "LCK": 16,
             "DEF": 9,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -4522,7 +4526,7 @@
             "LCK": 15,
             "DEF": 13,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -4637,7 +4641,7 @@
             "LCK": 12,
             "DEF": 15,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -4752,7 +4756,7 @@
             "LCK": 11,
             "DEF": 20,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -4974,7 +4978,7 @@
             "LCK": 13,
             "DEF": 14,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -5089,7 +5093,7 @@
             "LCK": 10,
             "DEF": 11,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -5323,7 +5327,7 @@
             "LCK": 10,
             "DEF": 4,
             "CON": 0,
-            "MOV": 20,
+            "MOV": 24,
             "LEAD": 0
         },
         "growths": {
@@ -5463,7 +5467,7 @@
             "LCK": 10,
             "DEF": 15,
             "CON": 0,
-            "MOV": 28,
+            "MOV": 32,
             "LEAD": 0
         },
         "growths": {
@@ -5578,7 +5582,7 @@
             "LCK": 8,
             "DEF": 12,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -5808,7 +5812,7 @@
             "LCK": 10,
             "DEF": 15,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -5923,7 +5927,7 @@
             "LCK": 15,
             "DEF": 18,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -6038,7 +6042,7 @@
             "LCK": 4,
             "DEF": 12,
             "CON": 0,
-            "MOV": 32,
+            "MOV": 36,
             "LEAD": 0
         },
         "growths": {
@@ -6157,7 +6161,7 @@
             "LCK": 16,
             "DEF": 9,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -6263,7 +6267,7 @@
             "LCK": 14,
             "DEF": 14,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
@@ -6369,7 +6373,7 @@
             "LCK": 25,
             "DEF": 20,
             "CON": 0,
-            "MOV": 24,
+            "MOV": 28,
             "LEAD": 0
         },
         "growths": {
