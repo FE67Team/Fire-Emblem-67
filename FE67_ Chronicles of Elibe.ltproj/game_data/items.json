@@ -3144,7 +3144,7 @@
             ],
             [
                 "weapon_type",
-                "Axe"
+                "Lance"
             ],
             [
                 "weapon_rank",
@@ -13489,7 +13489,7 @@
     {
         "nid": "Vulnerary",
         "name": "Vulnerary",
-        "desc": "Restores 10 HP.",
+        "desc": "Restores 20 HP.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -13502,7 +13502,7 @@
             ],
             [
                 "value",
-                300
+                3000
             ],
             [
                 "target_ally",
@@ -13521,7 +13521,7 @@
             ],
             [
                 "heal",
-                10
+                20
             ],
             [
                 "map_hit_add_blend",

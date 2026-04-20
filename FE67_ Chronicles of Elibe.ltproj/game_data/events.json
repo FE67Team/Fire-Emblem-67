@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "wait;1000",
-            "move_cursor;26,3",
+            "move_cursor;27,3",
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0",
@@ -22,7 +22,7 @@
             "remove_portrait;Lyn",
             "add_group;LynsGang;starting;;closest",
             "wait;1000",
-            "move_cursor;28,3",
+            "move_cursor;36,1",
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0",

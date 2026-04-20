@@ -2,8 +2,8 @@
     {
         "nid": "0",
         "name": "Prologue: Lyn In Caelin",
-        "tilemap": "New Tilemap",
-        "bg_tilemap": "New Tilemap",
+        "tilemap": "Prologue_1",
+        "bg_tilemap": "Prologue_1",
         "party": "Eirika",
         "music": {
             "player_phase": "Distant Roads",
@@ -46,7 +46,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    28,
+                    27,
                     5
                 ],
                 "starting_traveler": null,
@@ -59,7 +59,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    26,
+                    25,
                     2
                 ],
                 "starting_traveler": null,
@@ -72,7 +72,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    27,
+                    26,
                     4
                 ],
                 "starting_traveler": null,
@@ -85,7 +85,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    28,
+                    27,
                     4
                 ],
                 "starting_traveler": null,
@@ -111,7 +111,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    27,
+                    26,
                     6
                 ],
                 "starting_traveler": null,
@@ -124,7 +124,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    26,
+                    25,
                     4
                 ],
                 "starting_traveler": null,
@@ -215,7 +215,7 @@
             {
                 "nid": "PrologueSquad",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -230,7 +230,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    34,
+                    37,
                     0
                 ],
                 "starting_traveler": null,
@@ -239,7 +239,7 @@
             {
                 "nid": "PrologueSquad2",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -254,7 +254,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    36,
+                    39,
                     3
                 ],
                 "starting_traveler": null,
@@ -263,7 +263,7 @@
             {
                 "nid": "PrologueSquad3",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -278,7 +278,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    35,
+                    38,
                     2
                 ],
                 "starting_traveler": null,
@@ -287,7 +287,7 @@
             {
                 "nid": "PrologueSquad4",
                 "variant": null,
-                "level": 6,
+                "level": 2,
                 "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
@@ -302,7 +302,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    36,
+                    39,
                     0
                 ],
                 "starting_traveler": null,
@@ -311,13 +311,17 @@
             {
                 "nid": "PrologueSquad5",
                 "variant": null,
-                "level": 6,
+                "level": 2,
                 "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
                     [
                         "Steel_Bow",
                         false
+                    ],
+                    [
+                        "Vulnerary",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -326,7 +330,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    37,
+                    40,
                     1
                 ],
                 "starting_traveler": null,
@@ -335,7 +339,7 @@
             {
                 "nid": "PrologueSquad6",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Sword_Armor",
                 "faction": "Soldier",
                 "starting_items": [
@@ -350,7 +354,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    35,
+                    38,
                     1
                 ],
                 "starting_traveler": null,
@@ -359,7 +363,7 @@
             {
                 "nid": "PrologueSquad7",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Fire_Mage",
                 "faction": "Soldier",
                 "starting_items": [
@@ -374,7 +378,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    37,
+                    40,
                     0
                 ],
                 "starting_traveler": null,
@@ -394,12 +398,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     45,
-                    6
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -418,12 +422,60 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    47,
+                    45,
                     5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BeforeWallaceSquad_8",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    46,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BeforeWallaceSquad_7",
+                "variant": null,
+                "level": 6,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    44,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -446,7 +498,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    45,
+                    42,
                     5
                 ],
                 "starting_traveler": null,
@@ -470,32 +522,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    47,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "BeforeWallaceSquad_4",
-                "variant": null,
-                "level": 6,
-                "klass": "Archer",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron_Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    48,
-                    6
+                    44,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -518,8 +546,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    47,
-                    7
+                    43,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -528,11 +556,11 @@
                 "nid": "BeforeWallaceSquad_5",
                 "variant": null,
                 "level": 6,
-                "klass": "Sword_Armor",
+                "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Blade",
+                        "Iron_Lance",
                         false
                     ]
                 ],
@@ -542,7 +570,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    45,
+                    43,
                     4
                 ],
                 "starting_traveler": null,
@@ -551,12 +579,12 @@
             {
                 "nid": "AntiWallaceSquad",
                 "variant": null,
-                "level": 6,
+                "level": 2,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Lance",
                         false
                     ]
                 ],
@@ -572,12 +600,12 @@
             {
                 "nid": "AntiWallaceSquad_1",
                 "variant": null,
-                "level": 6,
+                "level": 2,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Lance",
                         false
                     ]
                 ],
@@ -593,12 +621,12 @@
             {
                 "nid": "AntiWallaceSqaud_2",
                 "variant": null,
-                "level": 6,
+                "level": 2,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Lance",
                         false
                     ]
                 ],
@@ -614,12 +642,96 @@
             {
                 "nid": "AntiWallaceSquad_3",
                 "variant": null,
-                "level": 6,
+                "level": 2,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Lance",
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "AntiWallaceSquad_2",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "AntiWallaceSquad_4",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "AntiWallaceSquad_5",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "AntiWallaceSquad_6",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Lance",
                         false
                     ]
                 ],
@@ -636,7 +748,7 @@
                 "nid": "AntiWallaceSquadLeader_4",
                 "variant": null,
                 "level": 10,
-                "klass": "Lance_Knight",
+                "klass": "Lance_Armor",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -1667,12 +1779,12 @@
                 "nid": "WallaceAppears",
                 "region_type": "normal",
                 "position": [
-                    39,
+                    33,
                     0
                 ],
                 "size": [
-                    17,
-                    15
+                    23,
+                    14
                 ],
                 "sub_nid": "WallaceAppears",
                 "highlight": "lightred",
@@ -1686,12 +1798,12 @@
                 "nid": "MessengerRunsOff",
                 "region_type": "normal",
                 "position": [
-                    44,
-                    10
+                    45,
+                    1
                 ],
                 "size": [
-                    12,
-                    12
+                    11,
+                    20
                 ],
                 "sub_nid": "",
                 "highlight": "lightyellow",
@@ -1771,7 +1883,6 @@
                     "BeforeWallaceSquad_1",
                     "BeforeWallaceSquad_2",
                     "BeforeWallaceSquad_3",
-                    "BeforeWallaceSquad_4",
                     "BeforeWallaceSquad_6",
                     "BeforeWallaceSquad_5"
                 ],
@@ -1794,10 +1905,6 @@
                     ],
                     "BeforeWallaceSquad_3": [
                         47,
-                        6
-                    ],
-                    "BeforeWallaceSquad_4": [
-                        48,
                         6
                     ],
                     "BeforeWallaceSquad_6": [
@@ -1912,37 +2019,62 @@
                     "AntiWallaceSquad_1",
                     "AntiWallaceSqaud_2",
                     "AntiWallaceSquad_3",
-                    "AntiWallaceSquadLeader_4"
+                    "AntiWallaceSquadLeader_4",
+                    "AntiWallaceSquad_2",
+                    "AntiWallaceSquad_4",
+                    "AntiWallaceSquad_5",
+                    "AntiWallaceSquad_6"
                 ],
                 "positions": {
                     "Wallace": [
-                        52,
-                        5
+                        53,
+                        4
                     ],
                     "AntiWallaceSquad": [
-                        49,
-                        6
+                        52,
+                        7
                     ],
                     "AntiWallaceSquad_1": [
                         50,
-                        7
-                    ],
-                    "AntiWallaceSqaud_2": [
-                        48,
                         5
                     ],
+                    "AntiWallaceSqaud_2": [
+                        50,
+                        4
+                    ],
                     "AntiWallaceSquad_3": [
-                        51,
-                        8
+                        50,
+                        6
                     ],
                     "AntiWallaceSquadLeader_4": [
-                        50,
-                        8
+                        51,
+                        6
+                    ],
+                    "AntiWallaceSquad_2": [
+                        54,
+                        7
+                    ],
+                    "AntiWallaceSquad_4": [
+                        55,
+                        6
+                    ],
+                    "AntiWallaceSquad_5": [
+                        53,
+                        7
+                    ],
+                    "AntiWallaceSquad_6": [
+                        51,
+                        7
                     ]
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "test",
