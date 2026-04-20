@@ -1821,7 +1821,7 @@
             ],
             [
                 "crit",
-                0
+                20
             ],
             [
                 "weight",
@@ -3144,7 +3144,7 @@
             ],
             [
                 "weapon_type",
-                "Axe"
+                "Lance"
             ],
             [
                 "weapon_rank",
@@ -3223,7 +3223,7 @@
             ],
             [
                 "weapon_rank",
-                "S"
+                "A"
             ]
         ]
     },
