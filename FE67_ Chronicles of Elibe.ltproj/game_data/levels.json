@@ -151,6 +151,30 @@
                 "generic": false
             },
             {
+                "nid": "101",
+                "variant": null,
+                "level": 4,
+                "klass": "Brigand",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursueVillage",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    55,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "Beyard",
                 "team": "enemy",
                 "ai": "Guard",
@@ -1786,7 +1810,7 @@
                     23,
                     14
                 ],
-                "sub_nid": "WallaceAppears",
+                "sub_nid": "",
                 "highlight": "lightred",
                 "condition": "True",
                 "time_left": null,
@@ -1852,6 +1876,25 @@
                 "hide_time": false
             },
             {
+                "nid": "DestroyVillage1",
+                "region_type": "event",
+                "position": [
+                    53,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "highlight": null,
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
                 "nid": "Village2",
                 "region_type": "event",
                 "position": [
@@ -1867,6 +1910,25 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "DestroyVillage2",
+                "region_type": "event",
+                "position": [
+                    5,
+                    47
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "highlight": null,
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false,
                 "hide_time": false
             },
@@ -1890,6 +1952,25 @@
                 "hide_time": false
             },
             {
+                "nid": "DestroyVillage3",
+                "region_type": "event",
+                "position": [
+                    20,
+                    83
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "highlight": null,
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
                 "nid": "Village4",
                 "region_type": "event",
                 "position": [
@@ -1905,6 +1986,25 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "DestroyVillage4",
+                "region_type": "event",
+                "position": [
+                    29,
+                    63
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "highlight": null,
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false,
                 "hide_time": false
             },
@@ -1928,17 +2028,17 @@
                 "hide_time": false
             },
             {
-                "nid": "DestrotVillage1",
+                "nid": "DestroyVillage5",
                 "region_type": "event",
                 "position": [
-                    53,
-                    3
+                    51,
+                    59
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Destruction",
+                "sub_nid": "Destructible",
                 "highlight": null,
                 "condition": "unit.team == 'enemy'",
                 "time_left": null,
@@ -1957,7 +2057,8 @@
                     "PrologueSquad4",
                     "PrologueSquad5",
                     "PrologueSquad6",
-                    "PrologueSquad7"
+                    "PrologueSquad7",
+                    "101"
                 ],
                 "positions": {
                     "PrologueSquad": [
@@ -1987,6 +2088,10 @@
                     "PrologueSquad3": [
                         33,
                         2
+                    ],
+                    "101": [
+                        53,
+                        5
                     ]
                 }
             },
