@@ -115,9 +115,9 @@
         "minimap": "Sand",
         "platform": "Road",
         "background": "combat_plains",
-        "mtype": "Normal",
+        "mtype": "Road",
         "opaque": false,
-        "status": null
+        "status": "Avoid_minus_15"
     },
     {
         "nid": "8",
