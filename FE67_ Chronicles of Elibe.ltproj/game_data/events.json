@@ -139,7 +139,7 @@
         "priority": 20,
         "_source": [
             "wait;1000",
-            "move_cursor;52,5",
+            "move_cursor;53,4",
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0",
@@ -149,7 +149,7 @@
             "remove_portrait;Wallace",
             "change_team;Wallace;player",
             "wait;1000",
-            "move_cursor;52,5",
+            "move_cursor;53,4",
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0"
@@ -5255,5 +5255,200 @@
             "# add_love_points('Florina', 'Heath', 50)"
         ],
         "nid": "Prologue Love Points - Story Event Bonus Example"
+    },
+    {
+        "name": "Village1",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Village1'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Man1;Left",
+            "speak;Man1;Sup.",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Speed_Ring",
+            "show_layer;Village1",
+            "has_visited;{unit}"
+        ],
+        "nid": "0 Village1"
+    },
+    {
+        "name": "DestroyVillage1",
+        "trigger": "Destruction",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "flicker_cursor;{position}",
+            "show_layer;Placeholder",
+            "wait;500"
+        ],
+        "nid": "0 DestroyVillage1"
+    },
+    {
+        "name": "DestroyVillage2",
+        "trigger": "Destruction",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "flicker_cursor;{position}",
+            "show_layer;Placeholder",
+            "wait;500"
+        ],
+        "nid": "0 DestroyVillage2"
+    },
+    {
+        "name": "DestroyVillage3",
+        "trigger": "Destruction",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "flicker_cursor;{position}",
+            "show_layer;Placeholder",
+            "wait;500"
+        ],
+        "nid": "0 DestroyVillage3"
+    },
+    {
+        "name": "DestroyVillage4",
+        "trigger": "Destruction",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "flicker_cursor;{position}",
+            "show_layer;Placeholder",
+            "wait;500"
+        ],
+        "nid": "0 DestroyVillage4"
+    },
+    {
+        "name": "DestroyVillage5",
+        "trigger": "Destruction",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "flicker_cursor;{position}",
+            "show_layer;Placeholder",
+            "wait;500"
+        ],
+        "nid": "0 DestroyVillage5"
+    },
+    {
+        "name": "Village2",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Village2'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Man1;Left",
+            "speak;Man1;Sup.",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Vulnerary",
+            "show_layer;Village2",
+            "has_visited;{unit}"
+        ],
+        "nid": "0 Village2"
+    },
+    {
+        "name": "Village3",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Village3'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Man1;Left",
+            "speak;Man1;Sup.",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Vulnerary",
+            "show_layer;Village3",
+            "has_visited;{unit}"
+        ],
+        "nid": "0 Village3"
+    },
+    {
+        "name": "Village4",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Village4'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Man1;Left",
+            "speak;Man1;Sup.",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Vulnerary",
+            "show_layer;Village4",
+            "has_visited;{unit}"
+        ],
+        "nid": "0 Village4"
+    },
+    {
+        "name": "Village5",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Village5'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Man1;Left",
+            "speak;Man1;Sup.",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Vulnerary",
+            "show_layer;Village5",
+            "has_visited;{unit}"
+        ],
+        "nid": "0 Village5"
     }
 ]
