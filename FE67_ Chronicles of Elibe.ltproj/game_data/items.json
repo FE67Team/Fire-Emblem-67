@@ -14345,7 +14345,7 @@
     },
     {
         "nid": "Skill_Ring",
-        "name": "Skill_ring",
+        "name": "Skill ring",
         "desc": "Raises Skill by 5 points while held.",
         "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
@@ -14365,7 +14365,7 @@
     },
     {
         "nid": "Speed_Ring",
-        "name": "Speed_ring",
+        "name": "Speed ring",
         "desc": "Raises Speed by 5 points while held.",
         "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
