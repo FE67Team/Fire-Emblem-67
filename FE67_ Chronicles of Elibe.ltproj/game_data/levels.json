@@ -1869,7 +1869,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "True",
+                "condition": "game.level_vars['Village01Damage'] < 10",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -1907,7 +1907,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "True",
+                "condition": "game.level_vars['Village02Damage'] < 10",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -1945,7 +1945,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "True",
+                "condition": "game.level_vars['Village03Damage'] < 10",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -1983,7 +1983,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "True",
+                "condition": "game.level_vars['Village04Damage'] < 10",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -2021,7 +2021,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "True",
+                "condition": "game.level_vars['Village05Damage'] < 10",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -6456,6 +6456,27 @@
                 "generic": false
             },
             {
+                "nid": "122",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursueVillage",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "Saar",
                 "team": "enemy",
                 "ai": "Guard",
@@ -7620,6 +7641,44 @@
                 "sub_nid": "Secret",
                 "highlight": null,
                 "condition": "has_item('Member_Card',unit.nid)",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "Village1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "highlight": null,
+                "condition": "game.level_vars['Village01Damage'] < 10",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "DestroyVillage1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "highlight": null,
+                "condition": "unit.team == 'enemy' and game.level_vars['Village01Damage'] < 10",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
