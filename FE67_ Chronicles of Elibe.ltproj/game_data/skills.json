@@ -193,6 +193,26 @@
         ]
     },
     {
+        "nid": "Avoid_minus_15",
+        "name": "Avoid -15",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "avoid",
+                -15
+            ],
+            [
+                "is_terrain",
+                null
+            ]
+        ]
+    },
+    {
         "nid": "NoAvoid",
         "name": "NoAvoid",
         "desc": "",
@@ -402,7 +422,7 @@
                 [
                     [
                         "MOV",
-                        3
+                        12
                     ]
                 ]
             ]
@@ -624,8 +644,8 @@
         "desc": "",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            1,
-            0
+            0,
+            1
         ],
         "components": [
             [
@@ -647,8 +667,8 @@
         "desc": "Grants STR +10, SKL +10, DEF +20, MAG+5.\nOnly for true Dragonstone users (Manaketes).",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            1,
-            0
+            0,
+            1
         ],
         "components": [
             [
@@ -688,8 +708,8 @@
         "desc": "Grants STR +5, SKL +5, DEF +10, MAG+2.\nOnly for Dragonblood units.",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            1,
-            0
+            0,
+            1
         ],
         "components": [
             [
@@ -729,8 +749,8 @@
         "desc": "Grants STR +15, SKL +15, DEF +20, RES+15.\nNo counterpart since the Demon Dragonstone is probably exclusive to Idunn.",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            2,
-            0
+            0,
+            2
         ],
         "components": [
             [
@@ -766,8 +786,8 @@
         "desc": "Grants STR +10, SKL +10, DEF +20, MAG+10.\nNo counterpart since the Flametongue is exclusive to the Fire Dragon.",
         "icon_nid": "Dragonstones",
         "icon_index": [
-            1,
-            0
+            0,
+            1
         ],
         "components": [
             [
@@ -2318,10 +2338,10 @@
         "nid": "FireOverride",
         "name": "FireOverride",
         "desc": "",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            4
+            0
         ],
         "components": [
             [
@@ -2342,10 +2362,10 @@
         "nid": "ThunderOverride",
         "name": "ThunderOverride",
         "desc": "",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -2366,10 +2386,10 @@
         "nid": "WindOverride",
         "name": "new_1",
         "desc": "",
-        "icon_nid": "Affinity",
+        "icon_nid": "wexp_anima",
         "icon_index": [
             0,
-            7
+            2
         ],
         "components": [
             [
@@ -3030,7 +3050,7 @@
                 [
                     [
                         "MOV",
-                        1
+                        4
                     ]
                 ]
             ]
@@ -3835,7 +3855,7 @@
                 [
                     [
                         "MOV",
-                        1
+                        4
                     ]
                 ]
             ]

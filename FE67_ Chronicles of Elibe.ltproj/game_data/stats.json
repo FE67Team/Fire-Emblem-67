@@ -65,7 +65,7 @@
     {
         "nid": "MOV",
         "name": "Move",
-        "maximum": 15,
+        "maximum": 60,
         "desc": "The distance you can move in one turn.",
         "position": "right",
         "growth_colors": false,
