@@ -478,5 +478,20 @@
         "mtype": "Desert",
         "opaque": false,
         "status": "Avoid5"
+    },
+    {
+        "nid": "Barrier",
+        "name": "",
+        "color": [
+            0,
+            0,
+            0
+        ],
+        "minimap": "Wall",
+        "platform": "Wall",
+        "background": "BlackBackground",
+        "mtype": "Wall",
+        "opaque": true,
+        "status": null
     }
 ]

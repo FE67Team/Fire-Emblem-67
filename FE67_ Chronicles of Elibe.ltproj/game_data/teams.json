@@ -27,12 +27,35 @@
             "combat_variant_palette": "GenericGreen",
             "combat_color": "green",
             "phase_change_sound_effect": null
+        },
+        {
+            "nid": "New Team",
+            "map_sprite_palette": null,
+            "combat_variant_palette": "GenericYellow",
+            "combat_color": "Yellow",
+            "phase_change_sound_effect": null
         }
     ],
     [
         [
+            "New Team",
+            "other"
+        ],
+        [
+            "New Team",
+            "enemy2"
+        ],
+        [
+            "New Team",
+            "player"
+        ],
+        [
             "other",
             "player"
+        ],
+        [
+            "New Team",
+            "enemy"
         ]
     ]
 ]
