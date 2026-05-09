@@ -16,9 +16,9 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "Defeat boss",
-            "win": "Defeat boss",
-            "loss": "Eirika dies"
+            "simple": "Seize",
+            "win": "Seize",
+            "loss": "Lyn dies"
         },
         "roam": false,
         "roam_unit": "Eirika",
@@ -33,8 +33,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    27,
-                    3
+                    4,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -179,7 +179,7 @@
                 "team": "enemy",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     4,
                     9
@@ -190,7 +190,7 @@
             {
                 "nid": "Eagler",
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -203,7 +203,7 @@
             {
                 "nid": "Lundgren",
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -216,7 +216,7 @@
             {
                 "nid": "Yogi",
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1869,7 +1869,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "game.level_vars['Village01Damage'] < 10",
+                "condition": "",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -1907,7 +1907,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "game.level_vars['Village02Damage'] < 10",
+                "condition": "",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -1945,7 +1945,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "game.level_vars['Village03Damage'] < 10",
+                "condition": "",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -1983,7 +1983,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "game.level_vars['Village04Damage'] < 10",
+                "condition": "",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -2021,7 +2021,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "game.level_vars['Village05Damage'] < 10",
+                "condition": "",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -2061,62 +2061,24 @@
                 "highlight": null,
                 "condition": "'Lord' in unit.tags",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false,
                 "hide_time": false
             },
             {
-                "nid": "Seize2",
+                "nid": "Visit1",
                 "region_type": "event",
                 "position": [
-                    4,
-                    10
+                    28,
+                    22
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Seize",
+                "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "'Lord' in unit.tags",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "Seize3",
-                "region_type": "event",
-                "position": [
-                    6,
-                    80
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Seize ",
-                "highlight": null,
-                "condition": "'Lord' in unit.tags",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "Seize4",
-                "region_type": "event",
-                "position": [
-                    51,
-                    77
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Seize",
-                "highlight": null,
-                "condition": "'Lord' in unit.tags",
+                "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -2369,7 +2331,12 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "1",
@@ -7294,8 +7261,8 @@
                 "nid": "OtherCastle",
                 "region_type": "event",
                 "position": [
-                    18,
-                    7
+                    2,
+                    2
                 ],
                 "size": [
                     1,
