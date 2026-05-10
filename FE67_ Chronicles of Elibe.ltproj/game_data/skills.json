@@ -3125,6 +3125,26 @@
         ]
     },
     {
+        "nid": "Showoff_opposite",
+        "name": "Showoff",
+        "desc": "+5 Crit per male unit within 3 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_crit",
+                "unit_funcs.check_broad_focus(unit,3,'Male') * 5"
+            ]
+        ]
+    },
+    {
         "nid": "Guardian",
         "name": "Guardian",
         "desc": " If a Lord would die within 5 tiles of this unit, this unit will sacrifice themself.",
@@ -3161,6 +3181,30 @@
             [
                 "eval_damage",
                 "unit_funcs.check_broad_focus(unit,3,'Male')"
+            ]
+        ]
+    },
+    {
+        "nid": "Gynophobia",
+        "name": "Gynophobia",
+        "desc": "-5 Hit +1 ATK per female unit within 3 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "eval_hit",
+                "unit_funcs.check_broad_focus(unit,3,'Female') * -5"
+            ],
+            [
+                "eval_damage",
+                "unit_funcs.check_broad_focus(unit,3,'Female')"
             ]
         ]
     },

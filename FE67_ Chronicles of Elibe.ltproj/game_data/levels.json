@@ -2324,11 +2324,6 @@
                         7
                     ]
                 }
-            },
-            {
-                "nid": "BridgeGang1",
-                "units": [],
-                "positions": {}
             }
         ],
         "ai_groups": []
