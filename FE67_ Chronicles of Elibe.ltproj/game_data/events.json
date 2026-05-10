@@ -53,7 +53,7 @@
             "speak;Eagler;LMAO you failed to recruit me",
             "expression;Eagler;CloseEyes",
             "remove_portrait;Eagler",
-            "add_region;Seize4;{unit};51,77;event;Seize"
+            "add_region;Seize3;{unit};51,77;event;Seize"
         ],
         "nid": "0 DeathEagler"
     },
@@ -120,6 +120,16 @@
             "wait;1000",
             "disp_cursor;0",
             "spawn_group;AntiWallaceSquad;north;AntiWallaceSquad;immediate;push",
+            "move_cursor;51,6",
+            "disp_cursor;1",
+            "wait;1000",
+            "add_portrait;SoldierRed;Left",
+            "speak;SoldierRed;Form up surround him {br}don't let him escape!",
+            "remove_portrait;SoldierRed",
+            "move_cursor;53,4",
+            "disp_cursor;1",
+            "wait;1000",
+            "disp_cursor;0",
             "add_portrait;Wallace;Right",
             "speak;Wallace;Break yourself upon my shield!",
             "remove_portrait;Wallace",
@@ -5634,7 +5644,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "hide_layer;Barrier2",
+            "hide_layer;Barrier3",
             "transition;open",
             "change_background;InsideCastle",
             "add_portrait;Lyn;Left",
@@ -5661,7 +5671,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "hide_layer;Barrier3",
+            "hide_layer;Barrier2",
             "transition;open",
             "change_background;InsideCastle",
             "add_portrait;Lyn;Left",
@@ -5940,7 +5950,7 @@
         "name": "Level Start",
         "trigger": "level_start",
         "level_nid": "0",
-        "condition": "True",
+        "condition": "False",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -6302,8 +6312,29 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "add_portrait;Beyard;Left",
+            "speak;Beyard;Man I am dead",
+            "expression;Beyard;CloseEyes",
+            "remove_portrait;Beyard",
             "add_region;Seize2;{unit};4,10;event;Seize"
         ],
         "nid": "0 DeathBeyard"
+    },
+    {
+        "name": "DeathLundgren",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Lundgren\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;I am old",
+            "expression;Lundgen;CloseEyes",
+            "remove_portrait;Lundgren",
+            "add_region;Seize4;{unit};6,80;event;Seize"
+        ],
+        "nid": "0 DeathLundgren"
     }
 ]
