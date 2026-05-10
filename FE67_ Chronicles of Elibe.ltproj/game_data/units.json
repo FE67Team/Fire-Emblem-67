@@ -1085,7 +1085,7 @@
         "name": "Eagler",
         "desc": "Knight Commander of Caelin",
         "variant": null,
-        "level": 1,
+        "level": 15,
         "klass": "Paladin",
         "tags": [
             "Male"
@@ -1422,7 +1422,7 @@
         "name": "Marcus",
         "desc": "A paladin serving House Pherae. A skilled veteran.",
         "variant": "",
-        "level": 1,
+        "level": 20,
         "klass": "Paladin",
         "tags": [
             "Male"
@@ -3020,7 +3020,7 @@
         "name": "Isadora",
         "desc": "A paladin in the service of House Pherae. Modest and Polite.\n",
         "variant": null,
-        "level": 1,
+        "level": 20,
         "klass": "Paladin",
         "tags": [
             "Female"
@@ -3818,7 +3818,7 @@
         "name": "Karla",
         "desc": "A dedicated swordfighter. Cool and detached.",
         "variant": null,
-        "level": 5,
+        "level": 25,
         "klass": "Swordmaster",
         "tags": [
             "Female"
@@ -3933,7 +3933,7 @@
         "name": "Zealot",
         "desc": "The lord of Edessa leading hte Ilia mercenary knights.",
         "variant": null,
-        "level": 1,
+        "level": 20,
         "klass": "Paladin",
         "tags": [
             "Male"
@@ -4039,7 +4039,7 @@
         "name": "Juno",
         "desc": "A former dquad leader of Ilia`s pegasus knights. Zealot`s Wife.",
         "variant": null,
-        "level": 9,
+        "level": 29,
         "klass": "Falcoknight",
         "tags": [
             "Female"
@@ -4261,7 +4261,7 @@
         "name": "Pent",
         "desc": "Marquess of Reglay. Sole student of Archsage Athos.",
         "variant": null,
-        "level": 6,
+        "level": 26,
         "klass": "Sage",
         "tags": [
             "Male"
@@ -4401,7 +4401,7 @@
         "name": "Louise",
         "desc": "The wife of Marquess Reglay. A lethal beauty.",
         "variant": null,
-        "level": 4,
+        "level": 24,
         "klass": "Sniper",
         "tags": [
             "Female"
@@ -4512,7 +4512,7 @@
         "name": "Karel",
         "desc": "An eastern swordmaster. Seeking worthy opponents.",
         "variant": null,
-        "level": 8,
+        "level": 28,
         "klass": "Swordmaster",
         "tags": [
             "Male"
@@ -4627,7 +4627,7 @@
         "name": "Harken",
         "desc": "The sole survivor of the Knights of Pherae.",
         "variant": null,
-        "level": 8,
+        "level": 28,
         "klass": "Hero",
         "tags": [
             "Male"
@@ -4742,7 +4742,7 @@
         "name": "Douglas",
         "desc": "The great General of Etruria.",
         "variant": null,
-        "level": 8,
+        "level": 28,
         "klass": "General",
         "tags": [
             "Male"
@@ -4964,7 +4964,7 @@
         "name": "Hawkeye",
         "desc": "The protector of Nabata. A mysterious air surrounds him.",
         "variant": null,
-        "level": 4,
+        "level": 24,
         "klass": "Berserker",
         "tags": [
             "Male"
@@ -5079,7 +5079,7 @@
         "name": "Geitz",
         "desc": "The eldest son opf a wealthy merchant. Finding himself.",
         "variant": null,
-        "level": 3,
+        "level": 23,
         "klass": "Warrior",
         "tags": [
             "Male"
@@ -5453,7 +5453,7 @@
         "name": "Jaffar",
         "desc": "The Black Fangs Angel of Death. Once served Nergal.",
         "variant": null,
-        "level": 13,
+        "level": 33,
         "klass": "Assassin",
         "tags": [
             "Female"
@@ -5683,7 +5683,7 @@
         "name": "Vaida",
         "desc": "A deserter from Berns wyvern riders. Brutal.",
         "variant": null,
-        "level": 9,
+        "level": 29,
         "klass": "Wyvern_Lord",
         "tags": [
             "Female"
@@ -5798,7 +5798,7 @@
         "name": "Renault",
         "desc": "A cleric wandering Valor. Shrouded in mystery.",
         "variant": null,
-        "level": 16,
+        "level": 36,
         "klass": "Bishop",
         "tags": [
             "Male"
@@ -5913,7 +5913,7 @@
         "name": "Fargus",
         "desc": "A captain of a band of corsairs.",
         "variant": null,
-        "level": 18,
+        "level": 38,
         "klass": "Berserker",
         "tags": [
             "Male"
@@ -6028,7 +6028,7 @@
         "name": "Uhai",
         "desc": "A senior member of the Black Fang, known as the soaring Hawk. Very just.",
         "variant": null,
-        "level": 7,
+        "level": 27,
         "klass": "Nomad_Trooper",
         "tags": [
             "Male"
@@ -6147,7 +6147,7 @@
         "name": "Lloyd",
         "desc": "The White Wolf of the Four Fangs. Brendans first son.",
         "variant": null,
-        "level": 12,
+        "level": 32,
         "klass": "Swordmaster",
         "tags": [
             "Male"
@@ -6253,7 +6253,7 @@
         "name": "Linus",
         "desc": "Teh Rabid Hound of the Four Fangs. Brendans young son.",
         "variant": null,
-        "level": 12,
+        "level": 32,
         "klass": "Hero",
         "tags": [
             "Male"
@@ -7930,7 +7930,7 @@
         "name": "Zealot",
         "desc": "The lord of Edessa leading the Ilia mercenary knights.",
         "variant": null,
-        "level": 1,
+        "level": 21,
         "klass": "Paladin",
         "tags": [],
         "bases": {
@@ -8329,7 +8329,7 @@
         "name": "Barth",
         "desc": " A knight serving Ostia.",
         "variant": null,
-        "level": 1,
+        "level": 9,
         "klass": "Axe_Armor",
         "tags": [],
         "bases": {
@@ -8393,7 +8393,7 @@
         "name": "Ogier",
         "desc": "A mercenary hired into Ostias service.",
         "variant": null,
-        "level": 1,
+        "level": 3,
         "klass": "Mercenary",
         "tags": [],
         "bases": {
@@ -8457,7 +8457,7 @@
         "name": "Cecilia",
         "desc": "The Mage General of Etruria\n",
         "variant": null,
-        "level": 5,
+        "level": 25,
         "klass": "Valkyrie",
         "tags": [],
         "bases": {
@@ -8498,7 +8498,7 @@
         },
         "starting_items": [
             [
-                "Fire",
+                "Elwind",
                 false
             ],
             [
@@ -8545,7 +8545,7 @@
         "name": "Henning",
         "desc": "The leader of a group of Bandits that roams around Ostia.",
         "variant": null,
-        "level": 1,
+        "level": 20,
         "klass": "Hero",
         "tags": [],
         "bases": {
@@ -8660,7 +8660,7 @@
         },
         "starting_items": [
             [
-                "Placeholder",
+                "Wo_Dao",
                 false
             ]
         ],
@@ -8875,7 +8875,7 @@
         "name": "Klein",
         "desc": "An Etrurian general leadong one of the forces on the Western Isles.",
         "variant": null,
-        "level": 12,
+        "level": 32,
         "klass": "Sniper",
         "tags": [],
         "bases": {
@@ -9119,7 +9119,7 @@
         "name": "Echidna",
         "desc": "The leader of the rebels on the Western Isles.",
         "variant": null,
-        "level": 4,
+        "level": 24,
         "klass": "Hero",
         "tags": [],
         "bases": {
@@ -9512,7 +9512,7 @@
         "name": "Percival",
         "desc": "The Knight General of Etruria.",
         "variant": null,
-        "level": 1,
+        "level": 20,
         "klass": "Paladin",
         "tags": [],
         "bases": {
@@ -9713,7 +9713,7 @@
         "name": "Garret",
         "desc": "A brigand roaming the Etrurian border.",
         "variant": "",
-        "level": 8,
+        "level": 28,
         "klass": "Berserker",
         "tags": [],
         "bases": {
@@ -9979,7 +9979,7 @@
         "name": "Douglas",
         "desc": "A unit leader of the Ilian pegasus knights.",
         "variant": null,
-        "level": 5,
+        "level": 25,
         "klass": "Falcoknight",
         "tags": [],
         "bases": {
@@ -10052,7 +10052,7 @@
         "name": "Niime",
         "desc": "A mountain hermit devoting her life to historical and magical research.",
         "variant": null,
-        "level": 1,
+        "level": 20,
         "klass": "Druid",
         "tags": [],
         "bases": {
@@ -10125,7 +10125,7 @@
         "name": "Yoder",
         "desc": "A bishop of the Elimine church aiding Roy on his Quest.",
         "variant": null,
-        "level": 7,
+        "level": 27,
         "klass": "Bishop",
         "tags": [],
         "bases": {
@@ -10198,7 +10198,7 @@
         "name": "Dayan",
         "desc": "The chief of the Kutolah clan and the greatest warrior of Sacae.",
         "variant": null,
-        "level": 14,
+        "level": 34,
         "klass": "Nomad_Trooper",
         "tags": [],
         "bases": {
@@ -10267,7 +10267,7 @@
         "name": "Kel",
         "desc": "A swordfighter defending Bulgar under Brunnyas orders.",
         "variant": null,
-        "level": 1,
+        "level": 20,
         "klass": "Swordmaster",
         "tags": [],
         "bases": {
@@ -10326,7 +10326,7 @@
         "name": "Gale",
         "desc": "A wyvern rider of Bern. Meladys lover and Zeiss mentor.",
         "variant": null,
-        "level": 14,
+        "level": 34,
         "klass": "Wyvern_Lord",
         "tags": [],
         "bases": {
@@ -10400,7 +10400,7 @@
         "name": "Brunnya",
         "desc": "One of Berns Wyvern Generals. Led the attack on Sacae.",
         "variant": null,
-        "level": 1,
+        "level": 20,
         "klass": "Sage",
         "tags": [],
         "bases": {
@@ -10483,7 +10483,7 @@
         "name": "Guinevere",
         "desc": "The princess of Bern. Noble and self-sacrificing.",
         "variant": null,
-        "level": 9,
+        "level": 29,
         "klass": "Sage",
         "tags": [],
         "bases": {
@@ -10564,7 +10564,7 @@
     {
         "nid": "Beyard",
         "name": "Beyard",
-        "desc": "A troop leader in Grado's army.",
+        "desc": "One of the Black Fang.\nHunts for Ninian and Nils.",
         "variant": "",
         "level": 7,
         "klass": "Mercenary",
@@ -10664,14 +10664,14 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Mercenary1",
+        "portrait_nid": "Beyard",
         "affinity": "None",
         "fields": []
     },
     {
         "nid": "Yogi",
         "name": "Yogi",
-        "desc": "Commander of a Grado military force.",
+        "desc": "A knight of Caelin who has\nremained loyal to Lundgren.",
         "variant": "",
         "level": 4,
         "klass": "Lance_Armor",
@@ -10771,14 +10771,14 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Breguet",
+        "portrait_nid": "Yogi",
         "affinity": "None",
         "fields": []
     },
     {
         "nid": "Heintz",
         "name": "Heintz",
-        "desc": "One of Bazba's henchmen.",
+        "desc": "One of the Black Fang.\nPursues Nils ruthlessly.",
         "variant": null,
         "level": 4,
         "klass": "Shaman",
@@ -10898,14 +10898,14 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Bone",
+        "portrait_nid": "Heintz",
         "affinity": "None",
         "fields": []
     },
     {
         "nid": "Lundgren",
         "name": "Lundgren",
-        "desc": "The emperor of Grado, resurrected by the power of the Dark Stone",
+        "desc": "Marquess Caelin's brother.\nHungers to rule over Caelin.",
         "variant": "",
         "level": 15,
         "klass": "General",
@@ -11009,7 +11009,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "VigardeHealthy",
+        "portrait_nid": "Lundgren",
         "affinity": "None",
         "fields": []
     },
@@ -11827,6 +11827,334 @@
         "alternate_classes": [],
         "portrait_nid": "Lyon",
         "affinity": "None",
+        "fields": []
+    },
+    {
+        "nid": "Llyod_Morph",
+        "name": "Llyod",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "Swordmaster",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Regal_Blade",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Lloyd (morph)",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Linus_Morph",
+        "name": "Linus Morph",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "Hero",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Brave_Sword",
+                false
+            ],
+            [
+                "Tomahawk",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Linus (morph)",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Brenden_Morph",
+        "name": "Brenden",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "Warrior",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Basilikos",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Brenden (morph)",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Kenneth_Morph",
+        "name": "Kenneth",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "Bishop",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Luce",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Kenneth (morph)",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Jerme_Morph",
+        "name": "Jerme",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "Assassin",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Runesword",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Jerme (morph)",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Uhai_Morph",
+        "name": "Uhai",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "Nomad_Trooper",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Rienfleche",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Uhai (morph)",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Ursula_morph",
+        "name": "Ursula",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "Valkyrie",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Excalibur",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Ursula (morph)",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Darin_morph",
+        "name": "Darin",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "General",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Rex_Hasta",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Darin (morph)",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Nergal",
+        "name": "Nergal",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "Dark_Druid",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Ereshkigal",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Nergal (no hat)",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Murdock",
+        "name": "Murdock",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "General",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Tomahawk",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Murdock",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Zephiel",
+        "name": "Zephiel",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "King",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Eckesachs",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Zephiel",
+        "affinity": null,
+        "fields": []
+    },
+    {
+        "nid": "Idunn",
+        "name": "Idunn",
+        "desc": "",
+        "variant": null,
+        "level": 40,
+        "klass": "Demon_Dragon",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {},
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Demon_Dragonstone",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Idunn Dragon",
+        "affinity": null,
         "fields": []
     }
 ]
