@@ -4195,7 +4195,7 @@
             "change_background;Village",
             "music;Combat Preparation",
             "#Tables make for easier center-aligned text than textboxes",
-            "table;Location;{v:_currentCastle};;;240;top;;;center",
+            "table;Location;{v:_currentCastle};;;220;top_left;;;center",
             "",
             "if;{v:_refresh} == False",
             "    t;open;no_block",
