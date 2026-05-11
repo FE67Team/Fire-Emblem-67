@@ -59,8 +59,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    25,
-                    2
+                    6,
+                    80
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -2041,44 +2041,6 @@
                 "sub_nid": "Destructible",
                 "highlight": null,
                 "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "Seize1",
-                "region_type": "event",
-                "position": [
-                    28,
-                    22
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Seize",
-                "highlight": null,
-                "condition": "'Lord' in unit.tags",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false,
-                "hide_time": false
-            },
-            {
-                "nid": "Visit1",
-                "region_type": "event",
-                "position": [
-                    28,
-                    22
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Visit",
-                "highlight": null,
-                "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
