@@ -16,64 +16,46 @@
             "show_layer;Barrier1",
             "show_layer;Barrier2",
             "show_layer;Barrier3",
+            "transition;open",
+            "change_background;Plains",
+            "add_portrait;Lyn;Left",
+            "add_portrait;Kent;CenterRight",
+            "add_portrait;Sain;FarRight",
+            "speak;Lyn;Everyone, thank you for staying with me so far.|We're at the door of Caelin, and soon we'll be able to save Lord Hausen.|Lundgren will pay for his crimes here and now!",
+            "speak;Kent;Lord Hausen is in the Southwest, well beyond these mountains.|If we want to free Caelin, Lundgren must fall and we must seize castle Caelin.",
+            "speak;Lyn;Everyone, move out!",
+            "remove_portrait;Kent",
+            "remove_portrait;Sain",
+            "remove_portrait;Lyn",
+            "transition;close",
+            "change_background",
+            "transition;open",
             "wait;1000",
             "move_cursor;27,3",
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0",
             "add_group;LynsGang;starting;;closest",
-            "add_portrait;Lyn;Left;no_block",
-            "add_portrait;Kent;Right",
-            "speak;Lyn;Yo I'm lyn",
-            "speak;Kent;Blablabla i'm boring",
-            "remove_portrait;Kent;no_block",
-            "remove_portrait;Lyn",
-            "add_group;LynsGang;starting;;closest",
-            "wait;1000",
-            "move_cursor;36,1",
-            "disp_cursor;1",
-            "wait;1000",
-            "disp_cursor;0",
-            "add_portrait;SoldierRed;Right",
-            "speak;SoldierRed;Holy shit Lyn fire emblem!",
-            "remove_portrait;SoldierRed"
+            ""
         ],
         "nid": "0 Intro"
     },
     {
-        "name": "Death_Eagler/Generic",
+        "name": "DeathEagler",
         "trigger": "combat_death",
         "level_nid": "0",
-        "condition": "unit.nid == \"Eagler\" and check_default('Eagler',['Lyn','Kent','Sain','Wallace'])",
+        "condition": "unit.nid == \"Eagler\"",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
             "add_portrait;Eagler;Left",
-            "speak;Eagler;Marques... Caelin...{br}I can defend you no more...",
-            "expression;Eagler;CloseEyes",
-            "remove_portrait;Eagler"
-        ],
-        "nid": "0 Death_Eagler/Generic"
-    },
-    {
-        "name": "Death_Eagler/Lyn",
-        "trigger": "combat_death",
-        "level_nid": "0",
-        "condition": "unit.nid == \"Eagler\" and check_pair('Eagler','Lyn')",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "add_portrait;Lyn;Right",
-            "speak;Lyn;Madelyn was my mother,{br}and Hassar was my father.{br}Surely, you can see that?",
-            "add_portrait;Eagler;Left",
-            "speak;Eagler;Those burning villages?{br}Those broken families?|They are also.. yours...",
+            "speak;Eagler;LMAO you failed to recruit me",
             "expression;Eagler;CloseEyes",
             "remove_portrait;Eagler",
-            "remove_portrait;Lyn"
+            "add_region;Seize3;{unit};51,77;event;Seize"
         ],
-        "nid": "0 Death_Eagler/Lyn"
+        "nid": "0 DeathEagler"
     },
     {
         "name": "Fight_Eagler/Kent",
@@ -98,26 +80,154 @@
         "nid": "0 Fight_Eagler/Kent"
     },
     {
-        "name": "Fight_Eagler/Generic",
+        "name": "Fight_Eagler/Lyn",
         "trigger": "combat_start",
         "level_nid": "0",
-        "condition": "check_pair('Eagler','Kent')",
+        "condition": "check_pair('Eagler','Lyn')\nBring forth the imposter who calls herself \"Lyndis\"! She shall not pass beyond this place!\n",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "add_portrait;Eagler;Left",
-            "speak;Eagler;Kent! Is that you?",
-            "add_portrait;Kent;Right",
-            "speak;Kent;General Eagler!{br}We found Lady Lyndis on the orders of the marquess.|We've worked so very hard to return her safely to Caelin.",
-            "speak;Eagler;And yet you have no proof{br}of the girl's identity.|Is that not true?",
-            "speak;Kent;Yes, but...",
-            "speak;Eagler;But what? How many widows and orphans{br}were made because she MIGHT be Lady Lyndis?|What words have you for them?",
-            "speak;Eagler;Our talk is finished! Draw your weapon and come!",
+            "speak;Eagler;Bring forth the imposter{br}who calls herself \"Lyndis\"!|She shall not pass beyond this place!",
+            "add_portrait;Lyn;Right",
+            "speak;Lyn;I am Lyndis.{br}I'm no pretender.|I'd ask you to believe me,{br}but your heart and mind seem set.",
+            "speak;Eagler;Enough talk...{br}Draw your sword!",
             "remove_portrait;Eagler",
-            "remove_portrait;Kent"
+            "remove_portrait;Lyn"
+        ],
+        "nid": "0 Fight_Eagler/Lyn"
+    },
+    {
+        "name": "Fight_Eagler/Generic",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_default('Eagler',['Lyn','Kent','Sain','Wallace'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Eagler;Left",
+            "speak;Eagler;Imposters to the throne,{br}you shall not pass! No quarter for traitors!",
+            "remove_portrait;Eagler"
         ],
         "nid": "0 Fight_Eagler/Generic"
+    },
+    {
+        "name": "Fight_Lundgren/Generic",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_default('Lundgren',['Lyn','Kent','Sain','Wallace','Eagler'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;This is my realm, and you've entered without my permission.|You will not leave these lands alive!",
+            "remove_portrait;Lundgren"
+        ],
+        "nid": "0 Fight_Lundgren/Generic"
+    },
+    {
+        "name": "Fight_Lundgren/Lyn",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Lundgren','Lyn')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lyn;Right",
+            "speak;Lyn;Let me see my grandfather!",
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;You still cling to kinship{br}with a man you never met{br}for a land that was never yours?|How Sacaen of you...",
+            "speak;Lyn;Mother and father died on your orders!|You knew who they were{br}and that they were happy with their life{br}before you ruined everything!",
+            "speak;Lundgren;What I know is Sacae is a land of traitors and thieves at best,|you are a pack mule for their ambitions!",
+            "speak;Lyn;Where does your black ambition begin{br}and your dark paranoia end?",
+            "speak;Lundgren;Both will end{br}with your life! Die!",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Lyn"
+        ],
+        "nid": "0 Fight_Lundgren/Lyn"
+    },
+    {
+        "name": "Fight_Lundgren/Kent",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Lundgren','Kent')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;You must be one of the traitors, yes?",
+            "add_portrait;Kent;Right",
+            "speak;Kent;Lundgren, your treachery precedes you.|Your poisoned words will die with you!",
+            "speak;Lundgren;A fool and a dead man walking.|I'll make you wish you never turned your sword against your rightful liege!",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Kent"
+        ],
+        "nid": "0 Fight_Lundgren/Kent"
+    },
+    {
+        "name": "Fight_Lundgren/Sain",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Lundgren','Sain')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;Ah, Eagler's protege|You're not like the others.{br}You're... a reasonable man.|Why not kneel before me and{br}we can pretend this never happened?",
+            "add_portrait;Sain;Right",
+            "speak;Sain;If I am to kneel to any liege,{br}I would choose Lady Lyndis over a blackguard like you,|regardless of the risk!",
+            "speak;Lundgren;It seems you are also{br}a fool like the other.|You won't live long enough{br}to regret that decision!",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Sain"
+        ],
+        "nid": "0 Fight_Lundgren/Sain"
+    },
+    {
+        "name": "Fight_Lundgren/Wallace",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Lundgren','Wallace')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;My brother has told me how you let his daughter leave.|Do you feel proud of yourself?",
+            "add_portrait;Wallace;Right",
+            "speak;Wallace;Lundgren! I'll kill you!",
+            "speak;Lundgren;This is the third time you have betrayed this realm.|Once against Hausen,{br}once against me{br}and once for Sacae!|Has the anvil finally gone mad?",
+            "bop_portrait;Wallace",
+            "speak;Wallace;RRAAARGH",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Wallace"
+        ],
+        "nid": "0 Fight_Lundgren/Wallace"
+    },
+    {
+        "name": "Fight_Lundgren/Eagler",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Lundgren','Eagler')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Eagler;Right",
+            "speak;Eagler;Lundgren you dog!",
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;Why is it only now that you turn your blade on me?",
+            "speak;Eagler;Your duty was to protect Caelin,{br}not sit idly by as it burns!",
+            "speak;Lundgren;We could have killed these {br}invaders if you had only kept your wits!|I will not hand this realm{br}over to Hausen's folly!",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Eagler"
+        ],
+        "nid": "0 Fight_Lundgren/Eagler"
     },
     {
         "name": "Fight_Eagler/Sain",
@@ -133,11 +243,11 @@
             "add_portrait;Eagler;Left",
             "speak;Eagler;Sain...",
             "speak;Sain;My work is done under the orders of the Marquess.|Lungdren's schemes are his and his alone!",
-            "speak;Eagler;That's a very easy claim{br}to make while he is {br}bedridden and barely alive.",
-            "speak;Sain;But you of all people know Lundgren{br}envies the Marquess and has for years!",
-            "speak;Eagler;Your colleagues envied you for years,{br}}did that justify you striking them down today?!",
+            "speak;Eagler;That's a very easy claim to make while{br}he is bedridden and barely alive.",
+            "speak;Sain;But you of all people should know how Lundgren envies the Marquess|and has for years!",
+            "speak;Eagler;Your colleagues too have envied you for a long time,|did that justify you striking them down today?!",
             "remove_portrait;Eagler",
-            "remove_portrait;Kent"
+            "remove_portrait;Sain"
         ],
         "nid": "0 Fight_Eagler/Sain"
     },
@@ -161,22 +271,6 @@
             "remove_portrait;Wallace"
         ],
         "nid": "0 Fight_Eagler/Wallace"
-    },
-    {
-        "name": "DeathSaar",
-        "trigger": "combat_death",
-        "level_nid": "5_",
-        "condition": "unit.nid == \"Saar\"",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "add_portrait;Saar;Left",
-            "speak;Saar;Emperor Vigarde...{br}Glory to His...Majesty...",
-            "expression;Saar;CloseEyes",
-            "remove_portrait;Saar"
-        ],
-        "nid": "5_ DeathSaar"
     },
     {
         "name": "Outro",
@@ -224,26 +318,61 @@
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0",
+            "transition;clsoe",
+            "change_background;Village",
+            "transition;Open",
+            "add_portrait;Wallace;Left",
+            "speak;Wallace;GAHAHAHAHA! So this is the army Kent has joined!|Let's see if he was telling the truth!",
+            "add_portrait;SoldierFE7Gray;FarRight",
+            "speak;SoldierFE7Gray;Sir, an invading force is approaching! What should we do?",
+            "speak;Wallace;...It's her daughter, alright. But Lundgren said... Hmm.",
+            "add_portrait;SoldierFE7Gray_1;OffscreenRight",
+            "move_portrait;SoldierFE7Gray_1;MidRight",
+            "speak;SoldierFE7Gray_1;S-Sir Wallace, could you come with us?",
+            "speak;Wallace;I suppose so, lead the way.",
+            "remove_portrait;SoldierFE7Gray",
+            "remove_portrait;SoldierFE7Gray_1",
+            "remove_portrait;Wallace",
+            "transition;clsoe",
+            "change_background;Plains",
+            "transition;Open",
+            "add_portrait;SoldierFE7Red;FarLeft",
+            "add_portrait;SoldierFE7Red_1;MidLeft",
+            "add_portrait;Wallace;Right",
+            "speak;SoldierFE7Red;Sir, you are under arrest by order of Lord Lundgren.",
+            "speak;Wallace;What for, may I ask?",
+            "speak;SoldierFE7Red_1;We found your letters|you're conspiring with the enemy, aren't you?",
+            "speak;Wallace;Are you loyal to Lundgren first or Caelin?",
+            "speak;SoldierFE7Red;W-what?!",
+            "speak;Wallace;Lundgren has betrayed Caelin and betrayed Lord Hausen|he has lied to us all and said Lord Hausen's chosen heir is dead!|Any who still serve him have betrayed Caelin! What say you?",
+            "speak;SoldierFE7Red;...",
+            "move_portrait;SoldierFE7Red;OffscreenLeft",
+            "speak;SoldierFE7Red_1;You traitor!",
+            "speak;Wallace;Know this - we've fought wars together, so because of that I'll give you all a chance to run!|But for those who stay, for Lord Hausen's sake, I won't hold back!",
+            "remove_portrait;SoldierFE7Red",
+            "remove_portrait;SoldierFE7Red_1",
+            "remove_portrait;Wallace",
+            "transition;clsoe",
+            "change_background",
+            "transition;Open",
             "spawn_group;AntiWallaceSquad;north;AntiWallaceSquad;immediate;push",
-            "move_cursor;51,6",
-            "disp_cursor;1",
             "wait;1000",
-            "add_portrait;SoldierRed;Left",
-            "speak;SoldierRed;Form up surround him {br}don't let him escape!",
-            "remove_portrait;SoldierRed",
             "move_cursor;53,4",
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0",
-            "add_portrait;Wallace;Right",
-            "speak;Wallace;Break yourself upon my shield!",
-            "remove_portrait;Wallace",
             "change_team;Wallace;player",
-            "wait;1000",
-            "move_cursor;53,4",
+            "move_cursor;51,6",
             "disp_cursor;1",
             "wait;1000",
-            "disp_cursor;0"
+            "add_portrait;SoldierFE7Red;Left",
+            "speak;SoldierFE7Red;Run, tell the others that Wallace has betrayed us!",
+            "remove_portrait;SoldierFE7Red",
+            "add_portrait;SoldierFE7Red_1;Right",
+            "speak;SoldierFE7Red_1;Yes sir!",
+            "remove_portrait;SoldierFE7Red_1",
+            "",
+            ""
         ],
         "nid": "0 WallaceAppears"
     },
@@ -5815,10 +5944,10 @@
         "nid": "0 Castle1"
     },
     {
-        "name": "RunCastle_Unit",
+        "name": "RunCastle_Units",
         "trigger": null,
         "level_nid": "0",
-        "condition": "",
+        "condition": "True",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -5865,7 +5994,7 @@
             "else:",
             "    $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
         ],
-        "nid": "0 RunCastle_Unit"
+        "nid": "0 RunCastle_Units"
     },
     {
         "name": "RunCastle_Choice",
@@ -6392,23 +6521,24 @@
         "nid": "0 NilsAppears"
     },
     {
-        "name": "Death_Yogi/Generic",
+        "name": "DeathYogi",
         "trigger": "combat_death",
         "level_nid": "0",
         "condition": "unit.nid == \"Yogi\"",
         "commands": [],
-        "only_once": true,
+        "only_once": false,
         "priority": 20,
         "_source": [
             "add_portrait;Yogi;Left",
-            "speak;Yogi;Lord Lundgren... I've failed you...|I pray you hurry...{br}with those reinforcements...{br}you prom..",
+            "speak;Yogi;I will nor proceed to crash the game",
             "expression;Yogi;CloseEyes",
-            "remove_portrait;Yogi"
+            "remove_portrait;Yogi",
+            "add_region;Seize1;{unit};28,22;event;Seize"
         ],
-        "nid": "0 Death_Yogi/Generic"
+        "nid": "0 DeathYogi"
     },
     {
-        "name": "Death_Beyard",
+        "name": "DeathBeyard",
         "trigger": "combat_death",
         "level_nid": "0",
         "condition": "unit.nid == \"Beyard\"",
@@ -6417,12 +6547,11 @@
         "priority": 20,
         "_source": [
             "add_portrait;Beyard;Left",
-            "speak;Beyard;Earghh..",
-            "bop_portrait;Beyard",
+            "speak;Beyard;Man I am dead",
             "expression;Beyard;CloseEyes",
             "remove_portrait;Beyard"
         ],
-        "nid": "0 Death_Beyard"
+        "nid": "0 DeathBeyard"
     },
     {
         "name": "Death_Lundgren/Generic",
@@ -6554,7 +6683,7 @@
         "condition": "check_default('Yogi',['Will','Dorcas','Florina'])",
         "commands": [],
         "only_once": true,
-        "priority": 19,
+        "priority": 20,
         "_source": [
             "add_portrait;Yogi;Left",
             "speak;Yogi;Where are the arbalests?{br}Where are the reinforcements?{br}Someone, quickly, get them!",
@@ -6617,106 +6746,14 @@
         "level_nid": "0",
         "condition": "check_default('Beyard',['Kent','Wallace'])",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "add_portrait;Beyard;Left",
             "speak;Beyard;I mustn't fail... I cannot fail.{br}The consequences are too-",
-            "remove_portrait;Beyard",
-            ""
+            "remove_portrait;Beyard"
         ],
         "nid": "0 Fight_Beyard/Generic"
-    },
-    {
-        "name": "Fight_Beyard/Kent",
-        "trigger": "combat_start",
-        "level_nid": "0",
-        "condition": "check_pair('Beyard','Kent')",
-        "commands": [],
-        "only_once": true,
-        "priority": 20,
-        "_source": [
-            "add_portrait;Kent;Right",
-            "speak;Kent;To take advantage of{br}the chaos like this|you truly are the lowest of the low.",
-            "add_portrait;Beyard;Left",
-            "speak;Beyard;Those above me {br}are starving or buried.|You will join them soon enough.",
-            "bop_portrait;Kent",
-            "speak;Kent;I'll send you to them so they can find peace!",
-            "remove_portrait;Beyard",
-            "remove_portrait;Kent"
-        ],
-        "nid": "0 Fight_Beyard/Kent"
-    },
-    {
-        "name": "Fight_Beyard/Wallace",
-        "trigger": "combat_start",
-        "level_nid": "0",
-        "condition": "check_pair('Beyard','Wallace')",
-        "commands": [],
-        "only_once": true,
-        "priority": 20,
-        "_source": [
-            "add_portrait;Wallace;Right",
-            "speak;Wallace;You're no ordinary bandits|I've seen you under a few flags in my time.",
-            "add_portrait;Beyard;Left",
-            "speak;Beyard;Then you should know to run",
-            "speak;Wallace;Not at all,{br}you'll make for a great warmup!",
-            "remove_portrait;Beyard",
-            "remove_portrait;Wallace"
-        ],
-        "nid": "0 Fight_Beyard/Wallace"
-    },
-    {
-        "name": "Defeat_Yogi",
-        "trigger": "combat_end",
-        "level_nid": "0",
-        "condition": "game.check_dead(\"Yogi\")",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "add_region;Seize1;{unit};28,22;event;Seize"
-        ],
-        "nid": "0 Defeat_Yogi"
-    },
-    {
-        "name": "Defeat_Beyard",
-        "trigger": "combat_end",
-        "level_nid": "0",
-        "condition": "game.check_dead(\"Beyard\")",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "add_region;Seize2;{unit};4,10;event;Seize"
-        ],
-        "nid": "0 Defeat_Beyard"
-    },
-    {
-        "name": "Defeat_Eagler",
-        "trigger": "combat_end",
-        "level_nid": "0",
-        "condition": "game.check_dead(\"Eagler\")",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "add_region;Seize3;{unit};51,77;event;Seize"
-        ],
-        "nid": "0 Defeat_Eagler"
-    },
-    {
-        "name": "Defeat_Lundgren",
-        "trigger": "combat_end",
-        "level_nid": "0",
-        "condition": "game.check_dead(\"Lundgren\")",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "add_region;Seize4;{unit};6,80;event;Seize"
-        ],
-        "nid": "0 Defeat_Lundgren"
     },
     {
         "name": "Death_Eagler/Kent",
@@ -6748,7 +6785,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Eagler;Left",
-            "speak;Eagler;Caelin, I'm sorry...{br}I should never have trained the boy...",
+            "speak;Eagler;Caelin, I'm sorry...|I should never have trained the boy...",
             "expression;Eagler;CloseEyes",
             "remove_portrait;Eagler",
             "add_portrait;Sain;Right",
@@ -6777,5 +6814,29 @@
             "trigger_script;"
         ],
         "nid": "0 Death_Lyn/Lundgren"
+    },
+    {
+        "name": "Death_Eagler/Lundgren",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Eagler\" and check_pair('Lundgren','Eagler')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lyn;Right",
+            "speak;Lyn;Eagler!",
+            "remove_portrait;Lyn",
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;Hahahaha, what an utterly useless betrayal!",
+            "add_portrait;Eagler;Right",
+            "speak;Eagler;Lundgren...",
+            "speak;Lundgren;Imagine how your family will be rewarded for you betrayal.|Let those nightmares haunt you as you rot!",
+            "speak;Eagler;N-no...",
+            "expression;Eagler;CloseEyes",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Eagler"
+        ],
+        "nid": "0 Death_Eagler/Lundgren"
     }
 ]
