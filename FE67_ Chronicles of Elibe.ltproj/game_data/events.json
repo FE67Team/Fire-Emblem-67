@@ -6126,7 +6126,7 @@
         "name": "Fight_Yogi/Generic",
         "trigger": "combat_start",
         "level_nid": "0",
-        "condition": "check_default('Yogi',['Will','Dorcas','Florina'])",
+        "condition": "check_default('Yogi',['Wil','Dorcas','Florina'])",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -6141,7 +6141,7 @@
         "name": "Fight_Yogi/Will",
         "trigger": "combat_start",
         "level_nid": "0",
-        "condition": "check_pair('Yogi','Will')",
+        "condition": "check_pair('Yogi','Wil')",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -6382,7 +6382,7 @@
         "name": "ErkVillagerTalk",
         "trigger": "unit_wait",
         "level_nid": "0",
-        "condition": "unit.nid == \"Erk\" and game.get_region(\"ErkVillagertalk\")",
+        "condition": "unit.nid == \"Erk\" and game.get_region(\"ErkVillagertalk\").contains(position)",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -6410,8 +6410,7 @@
         "priority": 20,
         "_source": [
             "add_region;Seize1;{unit};28,20;event;Seize",
-            "hide_layer;Barrier1",
-            "hide_layer;Barrier3"
+            ""
         ],
         "nid": "0 Defeat Yogi"
     },
@@ -6437,8 +6436,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;Seize3;{unit};51,77;event;Seize",
-            "hide_layer;Barrier2"
+            "add_region;Seize3;{unit};51,77;event;Seize"
         ],
         "nid": "0 Defeat Eagler"
     },
