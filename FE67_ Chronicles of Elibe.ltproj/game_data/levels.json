@@ -1857,6 +1857,25 @@
                 "hide_time": false
             },
             {
+                "nid": "ErkVillagertalk",
+                "region_type": "normal",
+                "position": [
+                    46,
+                    16
+                ],
+                "size": [
+                    8,
+                    5
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
                 "nid": "Village1",
                 "region_type": "event",
                 "position": [
@@ -1869,7 +1888,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "",
+                "condition": "True",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -1907,7 +1926,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "",
+                "condition": "True",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -1945,7 +1964,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "",
+                "condition": "True",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -1983,7 +2002,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "",
+                "condition": "True",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
@@ -2021,7 +2040,7 @@
                 ],
                 "sub_nid": "Visit",
                 "highlight": null,
-                "condition": "",
+                "condition": "True",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false,
