@@ -3917,7 +3917,7 @@
             "t;open;0;no_block",
             "",
             "#Go to the castle unit select screen",
-            "trigger_script;test RunCastle_units;{unit}"
+            "trigger_script;Global RunCastle_units;{unit}"
         ],
         "nid": "test enter_castleHome"
     },
@@ -3953,7 +3953,7 @@
             "t;open;0;no_block",
             "",
             "#Go to the castle unit select screen",
-            "trigger_script;test RunCastle_units;{unit}"
+            "trigger_script;Global RunCastle_units;{unit}"
         ],
         "nid": "test enter_castleReturn"
     },
@@ -4041,7 +4041,7 @@
             "t;open;0;no_block",
             "",
             "#Go to the castle unit select screen",
-            "trigger_script;test RunCastle_units;{unit}"
+            "trigger_script;Global RunCastle_units;{unit}"
         ],
         "nid": "test enter_castleCutthroat"
     },
@@ -4106,7 +4106,7 @@
     {
         "name": "RunCastle_units",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4154,7 +4154,7 @@
             "else:",
             "    $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
         ],
-        "nid": "test RunCastle_units"
+        "nid": "Global RunCastle_units"
     },
     {
         "name": "RunCastle_staff",
@@ -4645,7 +4645,7 @@
             "    ",
             "elif choice == 0 or choice == 'BACK':",
             "    $sound \"Select 4\"",
-            "    $trigger_script \"test RunCastle_units\" chosen_unit "
+            "    $trigger_script \"Global RunCastle_units\" chosen_unit "
         ],
         "nid": "test RunCastle_choice"
     },
@@ -4660,22 +4660,23 @@
         "_source": [
             "#pyev1",
             "#For some reason trying to reference a unit's faction during normal eventing just wouldn't work, so we're doing this otherwise simple event in python.",
-            "totalVar = \"_total_\" + unit.faction + \"s\"",
-            "currentVar = \"_current_\" + unit.faction + \"s\"",
             "",
-            "#If the enemy that just died has a faction that isn't generic or a wall, decrement their corresponding faction's current level_var.",
-            "if (unit.faction != \"Enemy\") and (unit.faction != \"Wall\"):",
-            "    game.level_vars[currentVar] -= 1",
-            "",
-            "#If the remaining unit count for the current faction is less than half the total number of units in the faction.",
-            "if (game.level_vars[currentVar] * 2) < game.level_vars[totalVar]:",
-            "    #Get the current level's nid",
-            "    currentLevel = game.level_nid",
-            "    #Using the current level's nid and the faction of the most recently killed unit, figure out which commander event we should be triggering",
-            "    eventToTrigger = currentLevel + \" unitKilled_\" + unit.faction + \"_react\"",
-            "    #Trigger that event using Python",
-            "    from app.events.triggers import GenericTrigger",
-            "    game.events._add_event_from_script('debug_console', eventToTrigger, GenericTrigger())"
+            "#Makes sure the unit actually has a faction because the game will crash otherwise.",
+            "if unit.faction:",
+            "    totalVar = \"_total_\" + unit.faction + \"s\"",
+            "    currentVar = \"_current_\" + unit.faction + \"s\"",
+            "    #If the enemy that just died has a faction that isn't generic or a wall, decrement their corresponding faction's current level_var.",
+            "    if (unit.faction != \"Enemy\") and (unit.faction != \"Wall\"):",
+            "        game.level_vars[currentVar] -= 1",
+            "    ",
+            "    #If the remaining unit count for the current faction is less than half the total number of units in the faction.",
+            "    if (game.level_vars[currentVar] * 2) < game.level_vars[totalVar]:",
+            "        #Get the current level's nid",
+            "        currentLevel = game.level_nid",
+            "        #Using the current level's nid and the faction of the most recently killed unit, figure out which commander event we should be triggering",
+            "        eventToTrigger = currentLevel + \" unitKilled_\" + unit.faction + \"_react\"",
+            "        #Trigger that event",
+            "        $trigger_script eventToTrigger"
         ],
         "nid": "Global unitKilled"
     },

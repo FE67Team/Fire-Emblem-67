@@ -6926,6 +6926,19 @@
                 "generic": false
             },
             {
+                "nid": "Guinevere",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "101",
                 "variant": null,
                 "level": 1,
@@ -7226,33 +7239,7 @@
                 "generic": true
             },
             {
-                "nid": "tough_fighter",
-                "variant": null,
-                "level": 1,
-                "klass": "Fighter",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Iron_Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "Accost"
-                ],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
+                "nid": "staff_tester",
                 "variant": null,
                 "level": 1,
                 "klass": "Cleric",
@@ -7300,7 +7287,7 @@
                 "generic": true
             },
             {
-                "nid": "110",
+                "nid": "variant_tester",
                 "variant": "Fire",
                 "level": 1,
                 "klass": "Manakete",
@@ -7324,13 +7311,13 @@
                 "generic": true
             },
             {
-                "nid": "Guinevere",
-                "team": "player",
+                "nid": "Gonzales",
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
+                    3,
                     6
                 ],
                 "starting_traveler": null,
@@ -7342,8 +7329,8 @@
                 "nid": "OtherCastle",
                 "region_type": "event",
                 "position": [
-                    2,
-                    2
+                    18,
+                    7
                 ],
                 "size": [
                     1,
@@ -7397,7 +7384,12 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "test2",
