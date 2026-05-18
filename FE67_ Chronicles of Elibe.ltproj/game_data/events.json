@@ -3203,7 +3203,7 @@
     {
         "name": "RunCastle_Arena",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -3313,9 +3313,9 @@
             "",
             "music_fade_back",
             "end_skip",
-            "trigger_script;test RunCastle_Market;{v:_chosenUnit}"
+            "trigger_script;Global RunCastle_Market;{v:_chosenUnit}"
         ],
-        "nid": "test RunCastle_Arena"
+        "nid": "Global RunCastle_Arena"
     },
     {
         "name": "DeathLyn_dialogue",
@@ -3922,6 +3922,38 @@
         "nid": "test enter_castleHome"
     },
     {
+        "name": "Seize1_enter_castle",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Visit1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close",
+            "#_castleType 0 is your home castle",
+            "#_castleType 1 is a captured castle",
+            "game_var;_castleType;0",
+            "#Tells the game that this is a normal, exitable castle.",
+            "game_var;_return_no_exit;False",
+            "#_current_castle is a string that is used when looking up what castle's unit list to use. The home castle must always use \"Home\"",
+            "game_var;_currentCastle;\"Kathelet\"",
+            "#This tells the game what's for sale in the castle market's armory",
+            "game_var;_castleArmoryGoods;[\"Iron_Sword\",\"Vulnerary\"]",
+            "game_var;_castleArmoryStock;[99,99]",
+            "",
+            "#Save the unit's position and then remove them. We do the former in case the player cancels out of a castle, and we do the latter to prevent the player from having a unit simultaneously inside and outside a castle.",
+            "game_var;_castlePosition;unit.position",
+            "remove_unit;{unit}",
+            "",
+            "t;open;0;no_block",
+            "",
+            "#Go to the castle unit select screen",
+            "trigger_script;Global RunCastle_units;{unit}"
+        ],
+        "nid": "0 Seize1_enter_castle"
+    },
+    {
         "name": "enter_castleReturn",
         "trigger": null,
         "level_nid": "test",
@@ -4152,14 +4184,14 @@
             "        $load_unit unit",
             "        $add_unit unit game.game_vars['_castlePosition'] \"immediate\"",
             "else:",
-            "    $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
+            "    $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
         ],
         "nid": "Global RunCastle_units"
     },
     {
         "name": "RunCastle_staff",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4230,7 +4262,7 @@
             "    #If the player cancelled out of choosing a unit, return them to the choice screen",
             "    if choice == 0 or choice == 'BACK':",
             "        $sound \"Select 4\"",
-            "        $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]",
+            "        $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]",
             "    else:",
             "        #Player didn't cancel out. Use the staff on the chosen unit",
             "        #Add what we'll need",
@@ -4250,14 +4282,14 @@
             "        $remove_unit choice \"immediate\"",
             "        #Return to the unit screen",
             "        $t \"open\"",
-            "        $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
+            "        $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
         ],
-        "nid": "test RunCastle_staff"
+        "nid": "Global RunCastle_staff"
     },
     {
         "name": "RunCastle_refresh",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4288,7 +4320,7 @@
             "#If the player cancelled out of choosing a unit to refresh, return them to the choice screen",
             "if choice == 0 or choice == 'BACK':",
             "    $sound \"Select 4\"",
-            "    $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]",
+            "    $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]",
             "else:",
             "    #Player didn't cancel out. Refresh the chosen unit",
             "    #Add what we'll need",
@@ -4306,14 +4338,14 @@
             "    $remove_unit game.game_vars[\"_chosenUnit\"] \"immediate\"",
             "    $remove_unit choice \"immediate\"",
             "    #Return to the unit screen",
-            "    $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
+            "    $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
         ],
-        "nid": "test RunCastle_refresh"
+        "nid": "Global RunCastle_refresh"
     },
     {
         "name": "RunCastle_Armory",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4345,14 +4377,14 @@
             "#print(current_unit.get_action_state())",
             "",
             "#Return the player to the castle market when they're done",
-            "$trigger_script \"test RunCastle_Market\" current_unit"
+            "$trigger_script \"Global RunCastle_Market\" current_unit"
         ],
-        "nid": "test RunCastle_Armory"
+        "nid": "Global RunCastle_Armory"
     },
     {
         "name": "RunCastle_Market",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4395,26 +4427,26 @@
             "if;'{v:_castleChoice}' == 'Repair'",
             "    #I added a new function just to make this work.",
             "    repair_shop;{v:_chosenUnit}",
-            "    trigger_script;test RunCastle_Market;{v:_chosenUnit}",
+            "    trigger_script;Global RunCastle_Market;{v:_chosenUnit}",
             "elif;'{v:_castleChoice}' == 'Pawn Shop'",
             "    #WIP",
             "    speak;Merlinus_Vendor;no pawning yet.",
             "elif;'{v:_castleChoice}' == 'Inventory'",
             "    open_convoy;{v:_chosenUnit}",
-            "    trigger_script;test RunCastle_Market;{v:_chosenUnit}",
+            "    trigger_script;Global RunCastle_Market;{v:_chosenUnit}",
             "elif;'{v:_castleChoice}' == 'Arena'",
-            "    trigger_script;test RunCastle_Arena;{v:_chosenUnit}",
+            "    trigger_script;Global RunCastle_Arena;{v:_chosenUnit}",
             "elif;'{v:_castleChoice}' == 'Augury'",
             "    #WIP",
             "    speak;;no fortune telling yet.",
             "elif;'{v:_castleChoice}' == 'Armory'",
-            "    trigger_script;test RunCastle_Armory;{v:_chosenUnit}",
+            "    trigger_script;Global RunCastle_Armory;{v:_chosenUnit}",
             "else",
             "    sound;Select 4",
-            "    trigger_script;test RunCastle_choice",
+            "    trigger_script;Global RunCastle_choice",
             "end"
         ],
-        "nid": "test RunCastle_Market"
+        "nid": "Global RunCastle_Market"
     },
     {
         "name": "house_giveMoneyExample",
@@ -4468,7 +4500,7 @@
     {
         "name": "RunCastle_choice",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4621,11 +4653,11 @@
             "choice = game.game_vars[\"castle_options\"]",
             "",
             "if choice == 'Market':",
-            "    $trigger_script \"test RunCastle_Market\" game.game_vars[\"_chosenUnit\"]",
+            "    $trigger_script \"Global RunCastle_Market\" game.game_vars[\"_chosenUnit\"]",
             "elif choice == 'Staff':",
-            "    $trigger_script \"test RunCastle_staff\" chosen_unit",
+            "    $trigger_script \"Global RunCastle_staff\" chosen_unit",
             "elif choice == 'Refresh':",
-            "    $trigger_script \"test RunCastle_refresh\" chosen_unit ",
+            "    $trigger_script \"Global RunCastle_refresh\" chosen_unit ",
             "elif choice == \"Give Gold\":",
             "    print(\"give gold\")",
             "    ",
@@ -4647,7 +4679,7 @@
             "    $sound \"Select 4\"",
             "    $trigger_script \"Global RunCastle_units\" chosen_unit "
         ],
-        "nid": "test RunCastle_choice"
+        "nid": "Global RunCastle_choice"
     },
     {
         "name": "unitKilled",
@@ -5919,8 +5951,8 @@
             "transition;Open",
             "remove_region;Seize1",
             "level_var;Castle1_Seized;1",
-            "add_region;Visit1;{unit};28,22;event;Visit",
-            "game_var;_castle1_occupants;[]",
+            "add_region;Visit1;28,22;1,1;event;Visit",
+            "game_var;_castleKathelet_occupants;[]",
             "battle_save;immediately",
             "has_visited;{unit}",
             "has_finished;{unit}"
@@ -5947,7 +5979,7 @@
             "change_background",
             "transition;Open",
             "remove_region;Seize2",
-            "add_region;Visit2;{unit};4,10;event;Visit",
+            "add_region;Visit2;4,10;1,1;event;Visit",
             "battle_save;immediately",
             "has_visited;{unit}",
             "has_finished;{unit}"
@@ -5972,7 +6004,7 @@
             "change_background",
             "transition;Open",
             "remove_region;Seize3",
-            "add_region;Visit3;{unit};6,80;event;Visit",
+            "add_region;Visit3;6,80;1,1;event;Visit",
             "battle_save;immediately",
             "has_visited;{unit}",
             "has_finished;{unit}"
@@ -6410,8 +6442,10 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;Seize1;{unit};28,20;event;Seize",
-            ""
+            "#Add region: name ; position (x,y) ; size (x,y) ; type ; command text",
+            "add_region;Seize1;28,22;1,1;event;Seize",
+            "#Makes it so the region's command only shows up for lords (the only ones who can seize)",
+            "region_condition;Seize1;('Lord' in unit.tags)"
         ],
         "nid": "0 Defeat Yogi"
     },
@@ -6424,7 +6458,8 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;Seize2;{unit};4,10;event;Seize"
+            "add_region;Seize2;4,10;1,1;event;Seize",
+            "region_condition;Seize2;('Lord' in unit.tags)"
         ],
         "nid": "0 Defeat Beyard"
     },
@@ -6437,7 +6472,8 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;Seize3;{unit};51,77;event;Seize"
+            "add_region;Seize3;51,77;1,1;event;Seize",
+            "region_condition;Seize3;('Lord' in unit.tags)"
         ],
         "nid": "0 Defeat Eagler"
     },
@@ -6450,7 +6486,8 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;Seize4;{unit};6,80;event;Seize"
+            "add_region;Seize4;6,80;1,1;event;Seize",
+            "region_condition;Seize4;('Lord' in unit.tags)"
         ],
         "nid": "0 Defeat Lundgren"
     },
