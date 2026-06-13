@@ -10440,7 +10440,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Karel_1",
+        "nid": "Karel(old)",
         "blinking_offset": [
             24,
             24
@@ -12235,6 +12235,30 @@
         ],
         "smiling_offset": [
             24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Hausen",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Reissmann",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
             40
         ],
         "info_offset": 0
