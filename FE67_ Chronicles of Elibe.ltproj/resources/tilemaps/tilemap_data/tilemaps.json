@@ -157028,6 +157028,62 @@
                     "35,79": "Barrier"
                 },
                 "sprite_grid": {}
+            },
+            {
+                "nid": "Arena",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "5,8": "Arena",
+                    "3,8": "Arena",
+                    "3,9": "Arena",
+                    "3,10": "Arena",
+                    "4,10": "Arena",
+                    "5,10": "Arena",
+                    "5,9": "Arena",
+                    "4,9": "Arena",
+                    "4,8": "Arena",
+                    "27,20": "Arena",
+                    "28,20": "Arena",
+                    "29,20": "Arena",
+                    "29,21": "Arena",
+                    "29,22": "Arena",
+                    "28,22": "Arena",
+                    "27,22": "Arena",
+                    "27,21": "Arena",
+                    "28,21": "Arena",
+                    "7,80": "Arena",
+                    "6,80": "Arena",
+                    "5,80": "Arena",
+                    "5,79": "Arena",
+                    "5,78": "Arena",
+                    "6,78": "Arena",
+                    "7,79": "Arena",
+                    "6,79": "Arena",
+                    "7,78": "Arena",
+                    "52,77": "Arena",
+                    "51,77": "Arena",
+                    "50,77": "Arena",
+                    "50,76": "Arena",
+                    "50,75": "Arena",
+                    "51,75": "Arena",
+                    "52,75": "Arena",
+                    "52,76": "Arena",
+                    "51,76": "Arena"
+                },
+                "sprite_grid": {}
+            },
+            {
+                "nid": "Castle_Interactions",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "0,0": "6",
+                    "0,1": "6",
+                    "1,1": "6",
+                    "1,0": "6"
+                },
+                "sprite_grid": {}
             }
         ],
         "tilesets": [
