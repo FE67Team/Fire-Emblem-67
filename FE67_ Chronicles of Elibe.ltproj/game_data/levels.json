@@ -124,8 +124,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    50,
-                    22
+                    25,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -7384,12 +7384,7 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "test2",

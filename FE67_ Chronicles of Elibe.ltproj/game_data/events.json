@@ -363,7 +363,7 @@
         "name": "WallaceAppears",
         "trigger": "turn_change",
         "level_nid": "0",
-        "condition": "any_unit_in_region('WallaceAppears', team='player')",
+        "condition": "any_unit_in_region('WallaceAppears', team== 'player')",
         "commands": [],
         "only_once": true,
         "priority": 20,
