@@ -1999,6 +1999,10 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "pursuit",
+                null
             ]
         ]
     },
@@ -3556,6 +3560,10 @@
         "components": [
             [
                 "class_skill",
+                null
+            ],
+            [
+                "wary_fighter",
                 null
             ]
         ]
