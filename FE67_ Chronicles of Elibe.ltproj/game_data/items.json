@@ -16273,10 +16273,6 @@
             [
                 "weapon_type",
                 "Sword"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16337,10 +16333,6 @@
             [
                 "weapon_type",
                 "Lance"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16401,10 +16393,6 @@
             [
                 "weapon_type",
                 "Axe"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16477,10 +16465,6 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16517,10 +16501,6 @@
             [
                 "weapon_type",
                 "Staff"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16573,10 +16553,6 @@
             [
                 "weapon_type",
                 "Fire"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16629,10 +16605,6 @@
             [
                 "weapon_type",
                 "Thunder"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16685,10 +16657,6 @@
             [
                 "weapon_type",
                 "Wind"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16741,10 +16709,6 @@
             [
                 "weapon_type",
                 "Light"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16797,10 +16761,6 @@
             [
                 "weapon_type",
                 "Dark"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
