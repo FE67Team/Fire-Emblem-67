@@ -15,17 +15,24 @@
             "phase_change_sound_effect": null
         },
         {
-            "nid": "enemy2",
-            "map_sprite_palette": "map_sprite_purple",
-            "combat_variant_palette": "GenericPurple",
-            "combat_color": "purple",
-            "phase_change_sound_effect": null
-        },
-        {
             "nid": "other",
             "map_sprite_palette": "map_sprite_green",
             "combat_variant_palette": "GenericGreen",
             "combat_color": "green",
+            "phase_change_sound_effect": null
+        },
+        {
+            "nid": "event",
+            "map_sprite_palette": "map_sprite_yellow",
+            "combat_variant_palette": "GenericYellow",
+            "combat_color": "Yellow",
+            "phase_change_sound_effect": null
+        },
+        {
+            "nid": "enemy2",
+            "map_sprite_palette": "map_sprite_purple",
+            "combat_variant_palette": "GenericPurple",
+            "combat_color": "purple",
             "phase_change_sound_effect": null
         }
     ],
