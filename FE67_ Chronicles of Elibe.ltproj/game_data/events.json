@@ -13,61 +13,260 @@
             "level_var;Village03Damage;0",
             "level_var;Village04Damage;0",
             "level_var;Village05Damage;0",
+            "show_layer;Barrier1",
+            "show_layer;Barrier2",
+            "show_layer;Barrier3",
+            "transition;open",
+            "change_background;Plains",
+            "add_portrait;Lyn;Left",
+            "add_portrait;Kent;CenterRight",
+            "add_portrait;Sain;FarRight",
+            "speak;Lyn;Everyone, thank you for staying with me so far.|We're at the door of Caelin, and soon we'll be able to save Lord Hausen.|Lundgren will pay for his crimes here and now!",
+            "speak;Kent;Lord Hausen is in the Southwest, well beyond these mountains.|If we want to free Caelin, Lundgren must fall and we must seize castle Caelin.",
+            "speak;Lyn;Everyone, move out!",
+            "transition;close",
+            "change_background",
+            "transition;open",
             "wait;1000",
-            "move_cursor;27,3",
+            "move_cursor;25,2",
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0",
             "add_group;LynsGang;starting;;closest",
-            "add_portrait;Lyn;Left;no_block",
-            "add_portrait;Kent;Right",
-            "speak;Lyn;Yo I'm lyn",
-            "speak;Kent;Blablabla i'm boring",
-            "remove_portrait;Kent;no_block",
-            "remove_portrait;Lyn",
-            "add_group;LynsGang;starting;;closest",
-            "wait;1000",
-            "move_cursor;36,1",
-            "disp_cursor;1",
-            "wait;1000",
-            "disp_cursor;0",
-            "add_portrait;SoldierRed;Right",
-            "speak;SoldierRed;Holy shit Lyn fire emblem!",
-            "remove_portrait;SoldierRed"
+            "add_portrait;Kent;MidRight",
+            "speak;Kent;If we're going to save Lord Hausen, we'll need a base to work from.",
+            "add_portrait;Lyn;Left",
+            "speak;Lyn;What about that castle over there?",
+            "add_portrait;Rath;FarRight",
+            "speak;Rath;From the fortress I can see roads and forest|we could attack from either.",
+            "add_portrait;Kent;MidRight",
+            "speak;Kent;I's as good a start as any|the west route is blocked by mountains,{br}so we'll have to go eastward.",
+            "speak;Lyn;If we head back north first,{br}why not approach from the other{br}side of the mountains?",
+            "remove_portrait;Rath",
+            "add_portrait;Sain;FarRight",
+            "speak;Sain;Then we risk war with{br}Tuscana as well as Caelin not a good idea",
+            "speak;Lyn;That means our only route{br}through is to the east|it seems like they have strong defences.|Can we really do this?",
+            "speak;Kent;I have been in contact with Wallace, the Anvil of Caelin|he will join us when the time is right.",
+            "remove_portrait;Sain",
+            "remove_portrait;Kent",
+            "remove_portrait;Lyn"
         ],
         "nid": "0 Intro"
     },
     {
-        "name": "DeathONeill",
-        "trigger": "combat_death",
+        "name": "Fight_Eagler/Kent",
+        "trigger": "combat_start",
         "level_nid": "0",
-        "condition": "unit.nid == \"O'Neill\"",
+        "condition": "check_pair('Eagler','Kent')",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;O'Neill;Left",
-            "speak;O'Neill;What? How?",
-            "expression;O'Neill;CloseEyes",
-            "remove_portrait;O'Neill"
+            "add_portrait;Eagler;Left",
+            "speak;Eagler;Kent! Is that you?",
+            "add_portrait;Kent;Right",
+            "speak;Kent;General Eagler!{br}We found Lady Lyndis on the orders of the marquess.|We've worked so very hard to return her safely to Caelin.",
+            "speak;Eagler;And yet you have no proof{br}of the girl's identity.|Is that not true?",
+            "speak;Kent;Yes, but...",
+            "speak;Eagler;But what? How many widows and orphans{br}were made because she MIGHT be Lady Lyndis?|What words have you for them?",
+            "speak;Eagler;Our talk is finished! Draw your weapon and come!",
+            "remove_portrait;Eagler",
+            "remove_portrait;Kent"
         ],
-        "nid": "0 DeathONeill"
+        "nid": "0 Fight_Eagler/Kent"
     },
     {
-        "name": "DeathSaar",
-        "trigger": "combat_death",
-        "level_nid": "5",
-        "condition": "unit.nid == \"Saar\"",
+        "name": "Fight_Eagler/Lyn",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Eagler','Lyn')\nBring forth the imposter who calls herself \"Lyndis\"! She shall not pass beyond this place!\n",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Saar;Left",
-            "speak;Saar;Emperor Vigarde...{br}Glory to His...Majesty...",
-            "expression;Saar;CloseEyes",
-            "remove_portrait;Saar"
+            "add_portrait;Eagler;Left",
+            "speak;Eagler;Bring forth the imposter{br}who calls herself \"Lyndis\"!|She shall not pass beyond this place!",
+            "add_portrait;Lyn;Right",
+            "speak;Lyn;I am Lyndis.{br}I'm no pretender.|I'd ask you to believe me,{br}but your heart and mind seem set.",
+            "speak;Eagler;Enough talk...{br}Draw your sword!",
+            "remove_portrait;Eagler",
+            "remove_portrait;Lyn"
         ],
-        "nid": "5 DeathSaar"
+        "nid": "0 Fight_Eagler/Lyn"
+    },
+    {
+        "name": "Fight_Eagler/Generic",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_default('Eagler',['Lyn','Kent','Sain','Wallace'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Eagler;Left",
+            "speak;Eagler;Imposters to the throne,{br}you shall not pass! No quarter for traitors!",
+            "remove_portrait;Eagler"
+        ],
+        "nid": "0 Fight_Eagler/Generic"
+    },
+    {
+        "name": "Fight_Lundgren/Generic",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_default('Lundgren',['Lyn','Kent','Sain','Wallace','Eagler'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;This is my realm, and you've entered without my permission.|You will not leave these lands alive!",
+            "remove_portrait;Lundgren"
+        ],
+        "nid": "0 Fight_Lundgren/Generic"
+    },
+    {
+        "name": "Fight_Lundgren/Lyn",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Lundgren','Lyn')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lyn;Right",
+            "speak;Lyn;Let me see my grandfather!",
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;You still cling to kinship{br}with a man you never met{br}for a land that was never yours?|How Sacaen of you...",
+            "speak;Lyn;Mother and father died on your orders!|You knew who they were{br}and that they were happy with their life{br}before you ruined everything!",
+            "speak;Lundgren;What I know is Sacae is a land of traitors and thieves at best,|you are a pack mule for their ambitions!",
+            "speak;Lyn;Where does your black ambition begin{br}and your dark paranoia end?",
+            "speak;Lundgren;Both will end{br}with your life! Die!",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Lyn"
+        ],
+        "nid": "0 Fight_Lundgren/Lyn"
+    },
+    {
+        "name": "Fight_Lundgren/Kent",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Lundgren','Kent')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;You must be one of the traitors, yes?",
+            "add_portrait;Kent;Right",
+            "speak;Kent;Lundgren, your treachery precedes you.|Your poisoned words will die with you!",
+            "speak;Lundgren;A fool and a dead man walking.|I'll make you wish you never turned your sword against your rightful liege!",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Kent"
+        ],
+        "nid": "0 Fight_Lundgren/Kent"
+    },
+    {
+        "name": "Fight_Lundgren/Sain",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Lundgren','Sain')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;Ah, Eagler's protege|You're not like the others.{br}You're... a reasonable man.|Why not kneel before me and{br}we can pretend this never happened?",
+            "add_portrait;Sain;Right",
+            "speak;Sain;If I am to kneel to any liege,{br}I would choose Lady Lyndis over a blackguard like you,|regardless of the risk!",
+            "speak;Lundgren;It seems you are also{br}a fool like the other.|You won't live long enough{br}to regret that decision!",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Sain"
+        ],
+        "nid": "0 Fight_Lundgren/Sain"
+    },
+    {
+        "name": "Fight_Lundgren/Wallace",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Lundgren','Wallace')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;My brother has told me how you let his daughter leave.|Do you feel proud of yourself?",
+            "add_portrait;Wallace;Right",
+            "speak;Wallace;Lundgren! I'll kill you!",
+            "speak;Lundgren;This is the third time you have betrayed this realm.|Once against Hausen,{br}once against me{br}and once for Sacae!|Has the anvil finally gone mad?",
+            "bop_portrait;Wallace",
+            "speak;Wallace;RRAAARGH",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Wallace"
+        ],
+        "nid": "0 Fight_Lundgren/Wallace"
+    },
+    {
+        "name": "Fight_Lundgren/Eagler",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Lundgren','Eagler')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Eagler;Right",
+            "speak;Eagler;Lundgren you dog!",
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;Why is it only now that you turn your blade on me?",
+            "speak;Eagler;Your duty was to protect Caelin,{br}not sit idly by as it burns!",
+            "speak;Lundgren;We could have killed these {br}invaders if you had only kept your wits!|I will not hand this realm{br}over to Hausen's folly!",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Eagler"
+        ],
+        "nid": "0 Fight_Lundgren/Eagler"
+    },
+    {
+        "name": "Fight_Eagler/Sain",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Eagler','Sain')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Sain;Right",
+            "speak;Sain;General Eagler...",
+            "add_portrait;Eagler;Left",
+            "speak;Eagler;Sain...",
+            "speak;Sain;My work is done under the orders of the Marquess.|Lungdren's schemes are his and his alone!",
+            "speak;Eagler;That's a very easy claim to make while{br}he is bedridden and barely alive.",
+            "speak;Sain;But you of all people should know how Lundgren envies the Marquess|and has for years!",
+            "speak;Eagler;Your colleagues too have envied you for a long time,|did that justify you striking them down today?!",
+            "remove_portrait;Eagler",
+            "remove_portrait;Sain"
+        ],
+        "nid": "0 Fight_Eagler/Sain"
+    },
+    {
+        "name": "Fight_Eagler/Wallace",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Eagler','Wallace')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Wallace;Right",
+            "speak;Wallace;Eagler!",
+            "add_portrait;Eagler;Left",
+            "speak;Eagler;General Wallace...{br}So you've sided with the girl too,{br}have you?",
+            "speak;Wallace;I knew her mother,{br}and I damn well know who she is!",
+            "speak;Eagler;When was the last time you{br}saw Lady Madelyn?|You let her slip away,{br}so you must not have seen her that well!",
+            "speak;Wallace;Fool...|At the very least,{br}let mine be the blow that finishes you!",
+            "remove_portrait;Eagler",
+            "remove_portrait;Wallace"
+        ],
+        "nid": "0 Fight_Eagler/Wallace"
     },
     {
         "name": "Outro",
@@ -78,53 +277,79 @@
         "only_once": false,
         "priority": 22,
         "_source": [
-            "transition;Close",
-            "change_background;Forest",
             "transition;Open",
-            "add_portrait;Seth;Left;no_block",
-            "add_portrait;Eirika;Right",
-            "speak;Seth;Princess, are you injured?",
-            "speak;Eirika;What?|Oh, no...{br}I'm fine, Seth.",
-            "speak;Seth;But you look so pale...",
-            "speak;Eirika;I'm fine... Fine.|...This is war, isn't it?|It's not at all like the games I used to play with my brother or Lyon.|I never thought-- I didn't know it would be this...savage.|Are words useless? Is strength all that matters? It's so sad...|Why would the Grado Empire do this? To what end would they start a war?",
-            "speak;Seth;Princess...",
-            "speak;Eirika;...Don't worry, Seth. I won't give in to sorrow.|Let's get moving.|I'm not broken, and I won't stop until I see Renais restored.|I won't stop until I'm reunited with my father and brother.",
-            "transition;Close"
+            "change_background;CastleHalls",
+            "add_portrait;Lyn;Left",
+            "add_portrait;Kent;MidRight",
+            "speak;Lyn;We've won...|At last, I can see my grandfather.",
+            "speak;Kent;Everyone, fan out! Secure the castle and tend to the wounded.",
+            "if;game.check_dead('Eagler') == False;",
+            "    add_portrait;Eagler;FarRight",
+            "    speak;Eagler;I'm coming with you. I need to speak to Lord Hausen in person.",
+            "    speak;Kent;Right.",
+            "end",
+            "add_portrait;Reissmann;OffscreenLeft",
+            "speak;Reissmann;Wait! Before you go, please let me out|there's something you should know!",
+            "if;game.check_dead('Eagler') == False;",
+            "    speak;Eagler;What are you doing in there? Someone release him at once!",
+            "    remove_portrait;Eagler",
+            "end",
+            "remove_portrait;Lyn",
+            "remove_portrait;Kent",
+            "remove_portrait;Reissmann",
+            "add_portrait;Lyn;MidRight",
+            "add_portrait;Kent;FarRight",
+            "add_portrait;Reissmann;Left",
+            "speak;Lyn;Kent, do you know him?",
+            "speak;Reissmann;I am Reissmann the chancellor of the Caelin royal family. Lundgren locked me away before I could tell Lord Hausen you were alive.",
+            "speak;Lyn;I see|may I see my grandfather now?",
+            "speak;Reissmann;Be warned - Lundgren has been poisoning the marquess's meals for some time.|His body has been ravaged... He's been bedridden for months.",
+            "speak;Lyn;!",
+            "speak;Kent;!",
+            "transition;Close",
+            "if;game.check_dead('Sain' == False and 'Wallace' == False);",
+            "    change_background;CastleGarden1",
+            "    transition;Open",
+            "    add_portrait;SoldierFE7Gray;Left",
+            "    add_portrait;Sain;FarRight",
+            "    speak;Sain;Please, do not be alarmed we aren't here to harm you!",
+            "    add_portrait;Wallace;MidRight",
+            "    speak;Wallace;That bastard Lundgren tricked you all|the rightful heir to Caelin has returned, Stand down and help your comrades!",
+            "    speak;SoldierFE7Gray;Y-yes sir!",
+            "    transition;Close",
+            "end",
+            "if;game.check_dead('Rath' == False and 'Dorcas' == False);",
+            "    change_background;CastleGarden1",
+            "    transition;Open",
+            "    add_portrait;Rath;Left",
+            "    add_portrait;Dorcas;Right",
+            "    speak;Rath;That should be the last of the bandits. Good work",
+            "    speak;Dorcas;You too. Thanks for having my back.",
+            "    transition;close",
+            "end",
+            "if;game.check_dead('Wil' == False and 'Florina' == False);",
+            "    change_background;ClearingSunset",
+            "    transition;Open",
+            "    add_portrait;Florina;Left",
+            "    add_portrait;Wil;Right",
+            "    speak;Florina;I-I don't see anymore threats.|Do you see a-anything?",
+            "    speak;Wil; I see nothing|I think it's finally over.",
+            "    speak;Florina;Lyn is still inside...",
+            "    transition;close",
+            "end",
+            "change_background;Bedroom2Dark",
+            "transition;Open",
+            "add_portrait;Hausen;Left",
+            "add_portrait;Lyn;FarRight",
+            "speak;Hausen;?",
+            "move_portrait;Lyn;Right"
         ],
         "nid": "0 Outro"
     },
     {
-        "name": "OnlyBoss",
-        "trigger": "combat_end",
-        "level_nid": "0",
-        "condition": "len(game.get_enemy_units()) == 1",
-        "commands": [],
-        "only_once": true,
-        "priority": 20,
-        "_source": [
-            "add_portrait;Seth;Left",
-            "speak;Seth;All that's left is their leader...",
-            "remove_portrait;Seth"
-        ],
-        "nid": "0 OnlyBoss"
-    },
-    {
         "name": "Defeat Boss",
         "trigger": "combat_end",
-        "level_nid": "0",
-        "condition": "game.check_dead(\"O'Neill\")",
-        "commands": [],
-        "only_once": false,
-        "priority": 19,
-        "_source": [
-            "win_game"
-        ],
-        "nid": "0 Defeat Boss"
-    },
-    {
-        "name": "Defeat Boss",
-        "trigger": "combat_end",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "game.check_dead(\"Saar\")",
         "commands": [],
         "only_once": false,
@@ -132,13 +357,13 @@
         "_source": [
             "win_game"
         ],
-        "nid": "5 Defeat Boss"
+        "nid": "5_ Defeat Boss"
     },
     {
         "name": "WallaceAppears",
         "trigger": "turn_change",
         "level_nid": "0",
-        "condition": "any_unit_in_region('WallaceAppears', team='player')",
+        "condition": "any_unit_in_region('WallaceAppears', team = 'player')",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -148,16 +373,58 @@
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0",
-            "spawn_group;AntiWallaceSquad;north;AntiWallaceSquad;immediate;push",
-            "add_portrait;Wallace;Right",
-            "speak;Wallace;Break yourself upon my shield!",
+            "transition;close",
+            "change_background;Village",
+            "transition;Open",
+            "add_portrait;Wallace;Left",
+            "speak;Wallace;GAHAHAHAHA! So this is the army Kent has joined!|Let's see if he was telling the truth!",
+            "add_portrait;SoldierFE7Gray;FarRight",
+            "speak;SoldierFE7Gray;Sir, an invading force is approaching! What should we do?",
+            "speak;Wallace;...It's her daughter, alright. But Lundgren said... Hmm.",
+            "add_portrait;SoldierFE7Gray_1;OffscreenRight",
+            "move_portrait;SoldierFE7Gray_1;MidRight",
+            "speak;SoldierFE7Gray_1;S-Sir Wallace, could you come with us?",
+            "speak;Wallace;I suppose so, lead the way.",
+            "remove_portrait;SoldierFE7Gray",
+            "remove_portrait;SoldierFE7Gray_1",
             "remove_portrait;Wallace",
-            "change_team;Wallace;player",
+            "transition;Close",
+            "change_background;Plains",
+            "transition;Open",
+            "add_portrait;SoldierFE7Red;FarLeft",
+            "add_portrait;SoldierFE7Red_1;MidLeft",
+            "add_portrait;Wallace;Right",
+            "speak;SoldierFE7Red;Sir, you are under arrest by order of Lord Lundgren.",
+            "speak;Wallace;What for, may I ask?",
+            "speak;SoldierFE7Red_1;We found your letters|you're conspiring with the enemy, aren't you?",
+            "speak;Wallace;Are you loyal to Lundgren first or Caelin?",
+            "speak;SoldierFE7Red;W-what?!",
+            "speak;Wallace;Lundgren has betrayed Caelin and betrayed Lord Hausen|he has lied to us all and said Lord Hausen's chosen heir is dead!|Any who still serve him have betrayed Caelin! What say you?",
+            "speak;SoldierFE7Red;...",
+            "remove_portrait;SoldierFE7Red",
+            "speak;SoldierFE7Red_1;You traitor!",
+            "speak;Wallace;Know this|we've fought wars together,{br}so because of that I'll{br}give you all a chance to run!|But for those who stay,{br}for Lord Hausen's sake,{br}I won't hold back!",
+            "remove_portrait;SoldierFE7Red_1",
+            "remove_portrait;Wallace",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "spawn_group;AntiWallaceSquad;north;AntiWallaceSquad;immediate;push",
             "wait;1000",
             "move_cursor;53,4",
             "disp_cursor;1",
             "wait;1000",
-            "disp_cursor;0"
+            "disp_cursor;0",
+            "change_team;Wallace;player",
+            "move_cursor;51,6",
+            "disp_cursor;1",
+            "wait;1000",
+            "add_portrait;SoldierFE7Red;Left",
+            "speak;SoldierFE7Red;Run, tell the others that Wallace has betrayed us!",
+            "remove_portrait;SoldierFE7Red",
+            "add_portrait;SoldierFE7Red_1;Right",
+            "speak;SoldierFE7Red_1;Yes sir!",
+            "remove_portrait;SoldierFE7Red_1"
         ],
         "nid": "0 WallaceAppears"
     },
@@ -210,48 +477,9 @@
         "nid": "0 MessengerArrives"
     },
     {
-        "name": "FightONeill",
-        "trigger": "combat_start",
-        "level_nid": "0",
-        "condition": "check_default(\"O'Neill\",['Eirika'])",
-        "commands": [],
-        "only_once": true,
-        "priority": 20,
-        "_source": [
-            "add_portrait;O'Neill;Left",
-            "speak;O'Neill;You will be the first to die!",
-            "remove_portrait;O'Neill",
-            "change_music;player_phase;Grasp at Victory"
-        ],
-        "nid": "0 FightONeill"
-    },
-    {
-        "name": "Eirika/ONeill",
-        "trigger": "combat_start",
-        "level_nid": "0",
-        "condition": "check_pair('Eirika',\"O'Neill\")",
-        "commands": [],
-        "only_once": true,
-        "priority": 20,
-        "_source": [
-            "hide_combat_ui",
-            "add_portrait;O'Neill;Left;;;no_block",
-            "add_portrait;Eirika;Right",
-            "speak;O'Neill;How did you manage to take us on?!|You're just a little girl!",
-            "speak;Eirika;I fight for my country.{br}For my people!|{c:expression;Eirika;HalfCloseEyes}For their sakes I will defeat you!",
-            "bop;O'Neill;no_block",
-            "s;O'Neill;We'll see about that!",
-            "remove_portrait;O'Neill;no_block",
-            "remove_portrait;Eirika",
-            "change_music;player_phase;Grasp at Victory",
-            "show_combat_ui"
-        ],
-        "nid": "0 Eirika/ONeill"
-    },
-    {
         "name": "FightSaar",
         "trigger": "combat_start",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "unit.nid == \"Saar\" or unit2.nid == \"Saar\"",
         "commands": [],
         "only_once": true,
@@ -261,12 +489,12 @@
             "speak;Saar;Enemy of the empire!{br}Death's too good for you!",
             "remove_portrait;Saar"
         ],
-        "nid": "5 FightSaar"
+        "nid": "5_ FightSaar"
     },
     {
         "name": "FightBreguet",
         "trigger": "combat_start",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "(unit.nid == \"Breguet\" and unit2.team == 'player') or (unit2.nid == \"Breguet\" and unit.team == 'player')",
         "commands": [],
         "only_once": true,
@@ -276,12 +504,12 @@
             "speak;Breguet;Bah, what a worthless lot of curs I've been assigned!",
             "remove_portrait;Breguet"
         ],
-        "nid": "1 FightBreguet"
+        "nid": "test2 FightBreguet"
     },
     {
         "name": "GilliamFranzArrive",
         "trigger": "turn_change",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "game.turncount == 2",
         "commands": [],
         "only_once": false,
@@ -301,12 +529,12 @@
             "remove_portrait;Sain;no_block",
             "remove_portrait;Wallace"
         ],
-        "nid": "1 GilliamFranzArrive"
+        "nid": "test2 GilliamFranzArrive"
     },
     {
         "name": "House1",
         "trigger": "Visit",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "region.nid == 'House1'",
         "commands": [],
         "only_once": false,
@@ -318,12 +546,12 @@
             "g2 and g2.generate_gen2_unit_growths('Kel')",
             "$has_visited unit"
         ],
-        "nid": "1 House1"
+        "nid": "test2 House1"
     },
     {
         "name": "House2",
         "trigger": "Visit",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "region.nid == 'House2'",
         "commands": [],
         "only_once": false,
@@ -335,12 +563,12 @@
             "wait;1000",
             "has_visited;{unit}"
         ],
-        "nid": "1 House2"
+        "nid": "test2 House2"
     },
     {
         "name": "Seize",
         "trigger": "Seize",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "'Lord' in unit.tags",
         "commands": [],
         "only_once": false,
@@ -348,12 +576,12 @@
         "_source": [
             "win_game"
         ],
-        "nid": "1 Seize"
+        "nid": "test2 Seize"
     },
     {
         "name": "Seize",
         "trigger": "Seize",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "'Lord' in unit.tags",
         "commands": [],
         "only_once": false,
@@ -361,12 +589,12 @@
         "_source": [
             "win_game"
         ],
-        "nid": "3 Seize"
+        "nid": "3_ Seize"
     },
     {
         "name": "Love Points Init",
         "trigger": "level_start",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "True",
         "commands": [],
         "only_once": true,
@@ -387,12 +615,12 @@
             "            if new_skill:",
             "                unit.skills.append(new_skill)"
         ],
-        "nid": "1 Love Points Init"
+        "nid": "test2 Love Points Init"
     },
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -515,12 +743,12 @@
             "remove_portrait;Seth;no_block",
             "remove_portrait;Eirika"
         ],
-        "nid": "1 Intro"
+        "nid": "test2 Intro"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -652,12 +880,12 @@
             "speak;Tana;Why would Grado invade? |Emperor Vigarde is a man of peace. His people adore him. |And you and Ephraim are friends with Prince Lyon, are you not? |What could be behind this madness? Why is this happening...",
             "speak;Eirika;I have no answers for you, Tana. |I don't want to believe it, but the reality is that we are at war. |If I do nothing, I may lose my brother as well as my father. |This is why I have to fight. It's the only answer I have."
         ],
-        "nid": "1 Outro"
+        "nid": "test2 Outro"
     },
     {
         "name": "EnemyRein",
         "trigger": "turn_change",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "game.level.regions.get('EnemyRein').contains(game.get_unit('Lyn').position)",
         "commands": [],
         "only_once": true,
@@ -672,12 +900,12 @@
             "speak;SoldierRed;I've found them! Stragglers from Renais! Don't let them get away.",
             "remove_portrait;SoldierRed"
         ],
-        "nid": "1 EnemyRein"
+        "nid": "test2 EnemyRein"
     },
     {
         "name": "SethFranzTalk",
         "trigger": "on_talk",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "unit.nid == 'Seth' and unit2.nid == 'Franz'",
         "commands": [],
         "only_once": false,
@@ -693,12 +921,12 @@
             "remove_portrait;Seth",
             "remove_talk;Seth;Franz"
         ],
-        "nid": "1 SethFranzTalk"
+        "nid": "test2 SethFranzTalk"
     },
     {
         "name": "LynSainTalk",
         "trigger": "on_talk",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "unit.nid == 'Lyn' and unit2.nid == 'Sain'",
         "commands": [],
         "only_once": false,
@@ -712,12 +940,12 @@
             "game.game_vars[love_var] = new_points",
             "print('[LOVE] Lyn + Sain now have ' + str(new_points) + ' love points')"
         ],
-        "nid": "1 LynSainTalk"
+        "nid": "test2 LynSainTalk"
     },
     {
         "name": "LynSainTalk_1",
         "trigger": "on_talk",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "unit.nid == 'Lyn' and unit2.nid == 'Sain'",
         "commands": [],
         "only_once": false,
@@ -730,12 +958,12 @@
             "remove_portrait;Sain",
             "remove_talk;Lyn;Sain"
         ],
-        "nid": "1 LynSainTalk_1"
+        "nid": "test2 LynSainTalk_1"
     },
     {
         "name": "EnemyTurn1",
         "trigger": "enemy_turn_change",
-        "level_nid": "1",
+        "level_nid": "test2",
         "condition": "game.turncount == 1",
         "commands": [],
         "only_once": false,
@@ -745,12 +973,12 @@
             "speak;Breguet;Hm? Is that the princess of Renais?|Ha ha! It really is my lucky day! Fame and fortune ride to meet me!|Move on, you slugs!{br}Bring that girl to me!",
             "remove_portrait;Breguet"
         ],
-        "nid": "1 EnemyTurn1"
+        "nid": "test2 EnemyTurn1"
     },
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -887,12 +1115,12 @@
             "add_unit;BoneBuddy;;immediate",
             "set_current_hp;Ross;5"
         ],
-        "nid": "2 Intro"
+        "nid": "2_ Intro"
     },
     {
         "name": "Armory",
         "trigger": "Armory",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -902,12 +1130,12 @@
             "shop;{unit};Iron_Sword,Slim_Sword,Iron_Lance,Slim_Lance,Iron_Axe",
             "transition;Open"
         ],
-        "nid": "2 Armory"
+        "nid": "2_ Armory"
     },
     {
         "name": "Armory",
         "trigger": "Armory",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -917,12 +1145,12 @@
             "shop;{unit};Iron_Sword,Slim_Sword,Steel_Sword,Iron_Lance,Slim_Lance,Steel_Lance,Iron_Axe,Steel_Axe,Iron_Bow,Steel_Bow",
             "transition;Open"
         ],
-        "nid": "5 Armory"
+        "nid": "5_ Armory"
     },
     {
         "name": "Vendor",
         "trigger": "Vendor",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -932,12 +1160,12 @@
             "shop;{unit};Heal,Vulnerary,Fire,Shine;Vendor",
             "transition;Open"
         ],
-        "nid": "5 Vendor"
+        "nid": "5_ Vendor"
     },
     {
         "name": "Village1Eirika",
         "trigger": "Visit",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "region.nid == 'Village1' and unit.nid == 'Eirika'",
         "commands": [],
         "only_once": false,
@@ -973,12 +1201,12 @@
             "give_item;Eirika;Red_Gem",
             "has_visited;{unit}"
         ],
-        "nid": "2 Village1Eirika"
+        "nid": "2_ Village1Eirika"
     },
     {
         "name": "Village1",
         "trigger": "Visit",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "region.nid == 'Village1' and unit.nid != 'Eirika'",
         "commands": [],
         "only_once": false,
@@ -997,12 +1225,12 @@
             "give_item;{unit};Red_Gem",
             "has_visited;{unit}"
         ],
-        "nid": "2 Village1"
+        "nid": "2_ Village1"
     },
     {
         "name": "Village1",
         "trigger": "Visit",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "region.nid == 'Village1'",
         "commands": [],
         "only_once": false,
@@ -1021,12 +1249,12 @@
             "show_layer;Village1",
             "has_visited;{unit}"
         ],
-        "nid": "5 Village1"
+        "nid": "5_ Village1"
     },
     {
         "name": "Village2",
         "trigger": "Visit",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "region.nid == 'Village2'",
         "commands": [],
         "only_once": false,
@@ -1045,12 +1273,12 @@
             "show_layer;Village2",
             "has_visited;{unit}"
         ],
-        "nid": "5 Village2"
+        "nid": "5_ Village2"
     },
     {
         "name": "Village3",
         "trigger": "Visit",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "region.nid == 'Village3'",
         "commands": [],
         "only_once": false,
@@ -1069,12 +1297,12 @@
             "show_layer;Village3",
             "has_visited;{unit}"
         ],
-        "nid": "5 Village3"
+        "nid": "5_ Village3"
     },
     {
         "name": "Village4",
         "trigger": "Visit",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "region.nid == 'Village4'",
         "commands": [],
         "only_once": false,
@@ -1095,12 +1323,12 @@
             "show_layer;Village4",
             "has_visited;{unit}"
         ],
-        "nid": "5 Village4"
+        "nid": "5_ Village4"
     },
     {
         "name": "Village1",
         "trigger": "Visit",
-        "level_nid": "4",
+        "level_nid": "4_",
         "condition": "region.nid == 'Village1'",
         "commands": [],
         "only_once": false,
@@ -1119,12 +1347,12 @@
             "give_item;{unit};Iron_Axe",
             "has_visited;{unit}"
         ],
-        "nid": "4 Village1"
+        "nid": "4_ Village1"
     },
     {
         "name": "Village2",
         "trigger": "Visit",
-        "level_nid": "4",
+        "level_nid": "4_",
         "condition": "region.nid == 'Village2'",
         "commands": [],
         "only_once": false,
@@ -1167,12 +1395,12 @@
             "transition;Open",
             "has_visited;{unit}"
         ],
-        "nid": "4 Village2"
+        "nid": "4_ Village2"
     },
     {
         "name": "EirikaRossTalk",
         "trigger": "on_talk",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "unit.nid == 'Eirika' and unit2.nid == 'Ross'",
         "commands": [],
         "only_once": false,
@@ -1191,12 +1419,12 @@
             "remove_portrait;Ross",
             "change_team;Ross;player"
         ],
-        "nid": "2 EirikaRossTalk"
+        "nid": "2_ EirikaRossTalk"
     },
     {
         "name": "Village2",
         "trigger": "Visit",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "region.nid == 'Village2'",
         "commands": [],
         "only_once": false,
@@ -1215,12 +1443,12 @@
             "give_item;{unit};Elixir",
             "has_visited;{unit}"
         ],
-        "nid": "2 Village2"
+        "nid": "2_ Village2"
     },
     {
         "name": "Village3",
         "trigger": "Visit",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "region.nid == 'Village3'",
         "commands": [],
         "only_once": false,
@@ -1239,12 +1467,12 @@
             "give_item;{unit};Pure_Water",
             "has_visited;{unit}"
         ],
-        "nid": "2 Village3"
+        "nid": "2_ Village3"
     },
     {
         "name": "RossGarciaTalk",
         "trigger": "on_talk",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "unit.nid == 'Ross' and unit2.nid == 'Garcia'",
         "commands": [],
         "only_once": false,
@@ -1262,12 +1490,12 @@
             "change_team;Garcia;player",
             "remove_talk;Ross;Garcia"
         ],
-        "nid": "2 RossGarciaTalk"
+        "nid": "2_ RossGarciaTalk"
     },
     {
         "name": "NatashaJoshuaTalk",
         "trigger": "on_talk",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "unit.nid == 'Natasha' and unit2.nid == 'Joshua'",
         "commands": [],
         "only_once": false,
@@ -1298,12 +1526,12 @@
             "change_team;Joshua;player",
             "remove_talk;Natasha;Joshua"
         ],
-        "nid": "5 NatashaJoshuaTalk"
+        "nid": "5_ NatashaJoshuaTalk"
     },
     {
         "name": "Turn3",
         "trigger": "turn_change",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "game.turncount == 3",
         "commands": [],
         "only_once": false,
@@ -1312,12 +1540,12 @@
             "move_cursor;1,9",
             "spawn_group;BanditReinforcements;West;BanditReinforcements"
         ],
-        "nid": "2 Turn3"
+        "nid": "2_ Turn3"
     },
     {
         "name": "Turn2",
         "trigger": "turn_change",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "game.turncount == 2",
         "commands": [],
         "only_once": false,
@@ -1329,12 +1557,12 @@
             "change_ai;BoneBuddy;PursueVillage",
             "change_ai;TopBandit;PursueVillage"
         ],
-        "nid": "2 Turn2"
+        "nid": "2_ Turn2"
     },
     {
         "name": "FightBone",
         "trigger": "combat_start",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "(unit.nid == \"Bone\" and unit2.team == 'player') or (unit2.nid == \"Bone\" and unit.team == 'player')",
         "commands": [],
         "only_once": false,
@@ -1344,12 +1572,12 @@
             "speak;Bone;Wait a minute!{br}Wh-who are you?",
             "remove_portrait;Bone"
         ],
-        "nid": "2 FightBone"
+        "nid": "2_ FightBone"
     },
     {
         "name": "DeathBone",
         "trigger": "combat_death",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "unit.nid == \"Bone\"",
         "commands": [],
         "only_once": false,
@@ -1359,12 +1587,12 @@
             "speak;Bone;Urgh... Blast...",
             "remove_portrait;Bone"
         ],
-        "nid": "2 DeathBone"
+        "nid": "2_ DeathBone"
     },
     {
         "name": "DeathBazba",
         "trigger": "combat_death",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "unit.nid == \"Bazba\"",
         "commands": [],
         "only_once": false,
@@ -1374,12 +1602,12 @@
             "speak;Bazba;I'm the...mighty...Bazba...{br}This...ain't--",
             "remove_portrait;Bazba"
         ],
-        "nid": "3 DeathBazba"
+        "nid": "3_ DeathBazba"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -1505,7 +1733,7 @@
             "remove_portrait;Seth",
             "transition;Close;250;0,0,0"
         ],
-        "nid": "2 Outro"
+        "nid": "2_ Outro"
     },
     {
         "name": "Test",
@@ -1538,7 +1766,7 @@
     {
         "name": "DestroyVillage1",
         "trigger": "Destructible",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "region.nid == 'DestroyVillage1'",
         "commands": [],
         "only_once": true,
@@ -1548,12 +1776,12 @@
             "show_layer;Ruin1",
             "wait;500"
         ],
-        "nid": "2 DestroyVillage1"
+        "nid": "2_ DestroyVillage1"
     },
     {
         "name": "DestroyVillage1",
         "trigger": "Destructible",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "region.nid == 'DestroyVillage1'",
         "commands": [],
         "only_once": true,
@@ -1563,12 +1791,12 @@
             "show_layer;Ruin1",
             "wait;500"
         ],
-        "nid": "5 DestroyVillage1"
+        "nid": "5_ DestroyVillage1"
     },
     {
         "name": "DestroyVillage2",
         "trigger": "Destructible",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "region.nid == 'Village2'",
         "commands": [],
         "only_once": true,
@@ -1578,12 +1806,12 @@
             "show_layer;Ruin2",
             "wait;500"
         ],
-        "nid": "5 DestroyVillage2"
+        "nid": "5_ DestroyVillage2"
     },
     {
         "name": "DestroyVillage3",
         "trigger": "Destructible",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "region.nid == 'Village3'",
         "commands": [],
         "only_once": true,
@@ -1593,12 +1821,12 @@
             "show_layer;Ruin3",
             "wait;500"
         ],
-        "nid": "5 DestroyVillage3"
+        "nid": "5_ DestroyVillage3"
     },
     {
         "name": "DestroyVillage4",
         "trigger": "Destructible",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "region.nid == 'Village4'",
         "commands": [],
         "only_once": true,
@@ -1608,12 +1836,12 @@
             "show_layer;Ruin4",
             "wait;500"
         ],
-        "nid": "5 DestroyVillage4"
+        "nid": "5_ DestroyVillage4"
     },
     {
         "name": "DestroyVillage2",
         "trigger": "Destructible",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "region.nid == 'DestroyVillage2'",
         "commands": [],
         "only_once": true,
@@ -1623,12 +1851,12 @@
             "show_layer;Ruin2",
             "wait;500"
         ],
-        "nid": "2 DestroyVillage2"
+        "nid": "2_ DestroyVillage2"
     },
     {
         "name": "DestroyVillage3",
         "trigger": "Destructible",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "region.nid == 'DestroyVillage3'",
         "commands": [],
         "only_once": true,
@@ -1638,7 +1866,7 @@
             "show_layer;Ruin3",
             "wait;500"
         ],
-        "nid": "2 DestroyVillage3"
+        "nid": "2_ DestroyVillage3"
     },
     {
         "name": "Turn2",
@@ -1687,7 +1915,7 @@
     {
         "name": "Rout",
         "trigger": "combat_end",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "len(game.get_enemy_units()) == 0",
         "commands": [],
         "only_once": false,
@@ -1695,12 +1923,12 @@
         "_source": [
             "win_game"
         ],
-        "nid": "2 Rout"
+        "nid": "2_ Rout"
     },
     {
         "name": "Rout",
         "trigger": "combat_end",
-        "level_nid": "4",
+        "level_nid": "4_",
         "condition": "len(game.get_enemy_units()) == 0",
         "commands": [],
         "only_once": false,
@@ -1708,7 +1936,7 @@
         "_source": [
             "win_game"
         ],
-        "nid": "4 Rout"
+        "nid": "4_ Rout"
     },
     {
         "name": "Rout (1)",
@@ -1740,7 +1968,7 @@
     {
         "name": "Chest1",
         "trigger": "Chest",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "region.nid == 'Chest1'",
         "commands": [],
         "only_once": false,
@@ -1750,12 +1978,12 @@
             "show_layer;Chest1",
             "give_item;{unit};Javelin"
         ],
-        "nid": "3 Chest1"
+        "nid": "3_ Chest1"
     },
     {
         "name": "Chest4",
         "trigger": "Chest",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "region.nid == 'Chest4'",
         "commands": [],
         "only_once": false,
@@ -1765,12 +1993,12 @@
             "show_layer;Chest4",
             "give_item;{unit};Iron_Sword"
         ],
-        "nid": "3 Chest4"
+        "nid": "3_ Chest4"
     },
     {
         "name": "Chest3",
         "trigger": "Chest",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "region.nid == 'Chest3'",
         "commands": [],
         "only_once": false,
@@ -1780,12 +2008,12 @@
             "show_layer;Chest3",
             "give_item;{unit};Hand_Axe"
         ],
-        "nid": "3 Chest3"
+        "nid": "3_ Chest3"
     },
     {
         "name": "Chest2",
         "trigger": "Chest",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "region.nid == 'Chest2'",
         "commands": [],
         "only_once": false,
@@ -1795,12 +2023,12 @@
             "show_layer;Chest2",
             "give_item;{unit};Iron_Lance"
         ],
-        "nid": "3 Chest2"
+        "nid": "3_ Chest2"
     },
     {
         "name": "Door1",
         "trigger": "Door",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "region.nid == 'Door1'",
         "commands": [],
         "only_once": false,
@@ -1809,12 +2037,12 @@
             "unlock;{unit}",
             "show_layer;Door1"
         ],
-        "nid": "3 Door1"
+        "nid": "3_ Door1"
     },
     {
         "name": "Door2",
         "trigger": "Door",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "region.nid == 'Door2'",
         "commands": [],
         "only_once": false,
@@ -1823,12 +2051,12 @@
             "unlock;{unit}",
             "show_layer;Door2"
         ],
-        "nid": "3 Door2"
+        "nid": "3_ Door2"
     },
     {
         "name": "Door3",
         "trigger": "Door",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "region.nid == 'Door3'",
         "commands": [],
         "only_once": false,
@@ -1837,12 +2065,12 @@
             "unlock;{unit}",
             "show_layer;Door3"
         ],
-        "nid": "3 Door3"
+        "nid": "3_ Door3"
     },
     {
         "name": "Breakable1",
         "trigger": "unit_death",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "unit.nid == 'Wall1'",
         "commands": [],
         "only_once": false,
@@ -1851,12 +2079,12 @@
             "map_anim;Snag;{position}",
             "show_layer;Breakable1"
         ],
-        "nid": "3 Breakable1"
+        "nid": "3_ Breakable1"
     },
     {
         "name": "Snag",
         "trigger": "unit_death",
-        "level_nid": "4",
+        "level_nid": "4_",
         "condition": "unit.nid == 'Snag'",
         "commands": [],
         "only_once": false,
@@ -1865,12 +2093,12 @@
             "map_anim;Snag;{position}",
             "show_layer;Snag"
         ],
-        "nid": "4 Snag"
+        "nid": "4_ Snag"
     },
     {
         "name": "Breakable2",
         "trigger": "unit_death",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "unit.nid == 'Wall2'",
         "commands": [],
         "only_once": false,
@@ -1879,12 +2107,12 @@
             "map_anim;Snag;{position}",
             "show_layer;Breakable2"
         ],
-        "nid": "3 Breakable2"
+        "nid": "3_ Breakable2"
     },
     {
         "name": "Breakable3",
         "trigger": "unit_death",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "unit.nid == 'Wall3'",
         "commands": [],
         "only_once": false,
@@ -1893,12 +2121,12 @@
             "map_anim;Snag;{position}",
             "show_layer;Breakable3"
         ],
-        "nid": "3 Breakable3"
+        "nid": "3_ Breakable3"
     },
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -1975,12 +2203,12 @@
             "speak;Bazba;Hm. Not sure who's out there, but it looks like we've got guests.|Let's give 'em a warm welcome, lads.{br}You see a stranger, stick an axe in him!",
             "remove_portrait;Bazba"
         ],
-        "nid": "3 Intro"
+        "nid": "3_ Intro"
     },
     {
         "name": "Turn2",
         "trigger": "other_turn_change",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "game.turncount == 1",
         "commands": [],
         "only_once": false,
@@ -1994,12 +2222,12 @@
             "speak;Colm;And here we go!|Ha! And not a soul saw me. These bandits are easy picking.|I guess I might as well start with these chests here.",
             "move_unit;Colm;2,4"
         ],
-        "nid": "3 Turn2"
+        "nid": "3_ Turn2"
     },
     {
         "name": "NeimiColmTalk",
         "trigger": "on_talk",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "unit1.nid == 'Neimi' and unit2.nid == 'Colm'",
         "commands": [],
         "only_once": false,
@@ -2022,12 +2250,12 @@
             "change_team;Colm;player",
             "remove_talk;Neimi;Colm"
         ],
-        "nid": "3 NeimiColmTalk"
+        "nid": "3_ NeimiColmTalk"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2225,12 +2453,12 @@
             "remove_portrait;Valter",
             "transition;Close"
         ],
-        "nid": "3 Outro"
+        "nid": "3_ Outro"
     },
     {
         "name": "FightBazba",
         "trigger": "combat_start",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "check_default('Bazba',['Eirika'])",
         "commands": [],
         "only_once": false,
@@ -2240,12 +2468,12 @@
             "speak;Bazba;I'm the head of this bandit pack, the mighty Bazba!{w}{clear}Hope you've enjoyed your life, 'cuz it's about to end!",
             "remove_portrait;Bazba"
         ],
-        "nid": "3 FightBazba"
+        "nid": "3_ FightBazba"
     },
     {
         "name": "Eirika/Bazba",
         "trigger": "combat_start",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "check_pair('Bazba','Eirika')",
         "commands": [],
         "only_once": false,
@@ -2259,12 +2487,12 @@
             "remove_portrait;Bazba;no_block",
             "remove_portrait;Eirika"
         ],
-        "nid": "3 Eirika/Bazba"
+        "nid": "3_ Eirika/Bazba"
     },
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "4",
+        "level_nid": "4_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2369,12 +2597,12 @@
             "speak;Artur;One of my companions is in that village to the south.|If you can get there swiftly, I implore you to watch over her safety.",
             "remove_portrait;Artur"
         ],
-        "nid": "4 Intro"
+        "nid": "4_ Intro"
     },
     {
         "name": "Turn2",
         "trigger": "turn_change",
-        "level_nid": "4",
+        "level_nid": "4_",
         "condition": "game.turncount == 2",
         "commands": [],
         "only_once": false,
@@ -2383,12 +2611,12 @@
             "move_cursor;14,8",
             "spawn_group;Turn2Rein;East;Turn2Rein"
         ],
-        "nid": "4 Turn2"
+        "nid": "4_ Turn2"
     },
     {
         "name": "Turn2",
         "trigger": "turn_change",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "game.turncount == 2",
         "commands": [],
         "only_once": false,
@@ -2401,12 +2629,12 @@
             "speak;Bandit1;Look at this. Now's our chance!|C'mon, lads!|Let's join the fights and steal our way through this pathetic town!",
             "remove_portrait;Bandit1"
         ],
-        "nid": "5 Turn2"
+        "nid": "5_ Turn2"
     },
     {
         "name": "Turn4",
         "trigger": "turn_change",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "game.turncount == 4",
         "commands": [],
         "only_once": false,
@@ -2415,12 +2643,12 @@
             "center_cursor;14,7",
             "add_group;Brigand2;Brigand2"
         ],
-        "nid": "5 Turn4"
+        "nid": "5_ Turn4"
     },
     {
         "name": "Turn8",
         "trigger": "turn_change",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "game.turncount == 8",
         "commands": [],
         "only_once": false,
@@ -2429,12 +2657,12 @@
             "center_cursor;14,0",
             "add_group;Brigand3;Brigand3"
         ],
-        "nid": "5 Turn8"
+        "nid": "5_ Turn8"
     },
     {
         "name": "Turn3",
         "trigger": "turn_change",
-        "level_nid": "4",
+        "level_nid": "4_",
         "condition": "game.turncount == 3",
         "commands": [],
         "only_once": false,
@@ -2456,12 +2684,12 @@
             "move_unit;Dozla;14,1;;closest;no_block",
             "remove_unit;Dozla"
         ],
-        "nid": "4 Turn3"
+        "nid": "4_ Turn3"
     },
     {
         "name": "Trigger",
         "trigger": "turn_change",
-        "level_nid": "4",
+        "level_nid": "4_",
         "condition": "any(game.level.regions.get('Trigger').contains(unit.position) for unit in game.get_units_in_party())",
         "commands": [],
         "only_once": false,
@@ -2471,12 +2699,12 @@
             "add_group;RevenantRein;0,0;immediate;stack",
             "move_group;RevenantRein;RevenantRein"
         ],
-        "nid": "4 Trigger"
+        "nid": "4_ Trigger"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "4",
+        "level_nid": "4_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2544,12 +2772,12 @@
             "remove_portrait;Rennac",
             "speak;Eirika;...What was that about?"
         ],
-        "nid": "4 Outro"
+        "nid": "4_ Outro"
     },
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2745,12 +2973,12 @@
             "# Now actually start!",
             "add_talk;Natasha;Joshua"
         ],
-        "nid": "5 Intro"
+        "nid": "5_ Intro"
     },
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2758,12 +2986,12 @@
         "_source": [
             ""
         ],
-        "nid": "5 Outro"
+        "nid": "5_ Outro"
     },
     {
         "name": "AddPlaceholder",
         "trigger": "enemy_turn_change",
-        "level_nid": "3",
+        "level_nid": "3_",
         "condition": "game.turncount == 1",
         "commands": [],
         "only_once": true,
@@ -2771,7 +2999,7 @@
         "_source": [
             "add_unit;Placeholder;16,15;immediate"
         ],
-        "nid": "3 AddPlaceholder"
+        "nid": "3_ AddPlaceholder"
     },
     {
         "name": "Dreams of Home",
@@ -2825,7 +3053,7 @@
     {
         "name": "OnOverworldEnter",
         "trigger": "overworld_start",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "True",
         "commands": [],
         "only_once": true,
@@ -2838,12 +3066,12 @@
             "sound;Mend",
             "reveal_overworld_road;2;5"
         ],
-        "nid": "2 OnOverworldEnter"
+        "nid": "2_ OnOverworldEnter"
     },
     {
         "name": "OnLevelSelect",
         "trigger": "level_select",
-        "level_nid": "2",
+        "level_nid": "2_",
         "condition": "True",
         "commands": [],
         "only_once": true,
@@ -2862,12 +3090,12 @@
             "transition;close;1500",
             "wait;500"
         ],
-        "nid": "2 OnLevelSelect"
+        "nid": "2_ OnLevelSelect"
     },
     {
         "name": "Arena",
         "trigger": "Arena",
-        "level_nid": "5",
+        "level_nid": "5_",
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -2971,12 +3199,12 @@
             "transition;open",
             "music_fade_back"
         ],
-        "nid": "5 Arena"
+        "nid": "5_ Arena"
     },
     {
         "name": "RunCastle_Arena",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -3086,9 +3314,9 @@
             "",
             "music_fade_back",
             "end_skip",
-            "trigger_script;test RunCastle_Market;{v:_chosenUnit}"
+            "trigger_script;Global RunCastle_Market;{v:_chosenUnit}"
         ],
-        "nid": "test RunCastle_Arena"
+        "nid": "Global RunCastle_Arena"
     },
     {
         "name": "DeathLyn_dialogue",
@@ -3690,9 +3918,41 @@
             "t;open;0;no_block",
             "",
             "#Go to the castle unit select screen",
-            "trigger_script;test RunCastle_units;{unit}"
+            "trigger_script;Global RunCastle_units;{unit}"
         ],
         "nid": "test enter_castleHome"
+    },
+    {
+        "name": "Seize1_enter_castle",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Visit1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close",
+            "#_castleType 0 is your home castle",
+            "#_castleType 1 is a captured castle",
+            "game_var;_castleType;0",
+            "#Tells the game that this is a normal, exitable castle.",
+            "game_var;_return_no_exit;False",
+            "#_current_castle is a string that is used when looking up what castle's unit list to use. The home castle must always use \"Home\"",
+            "game_var;_currentCastle;\"Kathelet\"",
+            "#This tells the game what's for sale in the castle market's armory",
+            "game_var;_castleArmoryGoods;[\"Iron_Sword\",\"Vulnerary\"]",
+            "game_var;_castleArmoryStock;[99,99]",
+            "",
+            "#Save the unit's position and then remove them. We do the former in case the player cancels out of a castle, and we do the latter to prevent the player from having a unit simultaneously inside and outside a castle.",
+            "game_var;_castlePosition;unit.position",
+            "remove_unit;{unit}",
+            "",
+            "t;open;0;no_block",
+            "",
+            "#Go to the castle unit select screen",
+            "trigger_script;Global RunCastle_units;{unit}"
+        ],
+        "nid": "0 Seize1_enter_castle"
     },
     {
         "name": "enter_castleReturn",
@@ -3726,7 +3986,7 @@
             "t;open;0;no_block",
             "",
             "#Go to the castle unit select screen",
-            "trigger_script;test RunCastle_units;{unit}"
+            "trigger_script;Global RunCastle_units;{unit}"
         ],
         "nid": "test enter_castleReturn"
     },
@@ -3814,7 +4074,7 @@
             "t;open;0;no_block",
             "",
             "#Go to the castle unit select screen",
-            "trigger_script;test RunCastle_units;{unit}"
+            "trigger_script;Global RunCastle_units;{unit}"
         ],
         "nid": "test enter_castleCutthroat"
     },
@@ -3879,7 +4139,7 @@
     {
         "name": "RunCastle_units",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -3925,14 +4185,14 @@
             "        $load_unit unit",
             "        $add_unit unit game.game_vars['_castlePosition'] \"immediate\"",
             "else:",
-            "    $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
+            "    $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
         ],
-        "nid": "test RunCastle_units"
+        "nid": "Global RunCastle_units"
     },
     {
         "name": "RunCastle_staff",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4003,7 +4263,7 @@
             "    #If the player cancelled out of choosing a unit, return them to the choice screen",
             "    if choice == 0 or choice == 'BACK':",
             "        $sound \"Select 4\"",
-            "        $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]",
+            "        $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]",
             "    else:",
             "        #Player didn't cancel out. Use the staff on the chosen unit",
             "        #Add what we'll need",
@@ -4023,14 +4283,14 @@
             "        $remove_unit choice \"immediate\"",
             "        #Return to the unit screen",
             "        $t \"open\"",
-            "        $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
+            "        $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
         ],
-        "nid": "test RunCastle_staff"
+        "nid": "Global RunCastle_staff"
     },
     {
         "name": "RunCastle_refresh",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4061,7 +4321,7 @@
             "#If the player cancelled out of choosing a unit to refresh, return them to the choice screen",
             "if choice == 0 or choice == 'BACK':",
             "    $sound \"Select 4\"",
-            "    $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]",
+            "    $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]",
             "else:",
             "    #Player didn't cancel out. Refresh the chosen unit",
             "    #Add what we'll need",
@@ -4079,14 +4339,14 @@
             "    $remove_unit game.game_vars[\"_chosenUnit\"] \"immediate\"",
             "    $remove_unit choice \"immediate\"",
             "    #Return to the unit screen",
-            "    $trigger_script \"test RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
+            "    $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
         ],
-        "nid": "test RunCastle_refresh"
+        "nid": "Global RunCastle_refresh"
     },
     {
         "name": "RunCastle_Armory",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4118,14 +4378,14 @@
             "#print(current_unit.get_action_state())",
             "",
             "#Return the player to the castle market when they're done",
-            "$trigger_script \"test RunCastle_Market\" current_unit"
+            "$trigger_script \"Global RunCastle_Market\" current_unit"
         ],
-        "nid": "test RunCastle_Armory"
+        "nid": "Global RunCastle_Armory"
     },
     {
         "name": "RunCastle_Market",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4139,7 +4399,7 @@
             "change_background;Village",
             "music;Combat Preparation",
             "#Tables make for easier center-aligned text than textboxes",
-            "table;Location;{v:_currentCastle};;;240;top;;;center",
+            "table;Location;{v:_currentCastle};;;220;top_left;;;center",
             "",
             "if;{v:_refresh} == False",
             "    t;open;no_block",
@@ -4168,26 +4428,26 @@
             "if;'{v:_castleChoice}' == 'Repair'",
             "    #I added a new function just to make this work.",
             "    repair_shop;{v:_chosenUnit}",
-            "    trigger_script;test RunCastle_Market;{v:_chosenUnit}",
+            "    trigger_script;Global RunCastle_Market;{v:_chosenUnit}",
             "elif;'{v:_castleChoice}' == 'Pawn Shop'",
             "    #WIP",
             "    speak;Merlinus_Vendor;no pawning yet.",
             "elif;'{v:_castleChoice}' == 'Inventory'",
             "    open_convoy;{v:_chosenUnit}",
-            "    trigger_script;test RunCastle_Market;{v:_chosenUnit}",
+            "    trigger_script;Global RunCastle_Market;{v:_chosenUnit}",
             "elif;'{v:_castleChoice}' == 'Arena'",
-            "    trigger_script;test RunCastle_Arena;{v:_chosenUnit}",
+            "    trigger_script;Global RunCastle_Arena;{v:_chosenUnit}",
             "elif;'{v:_castleChoice}' == 'Augury'",
             "    #WIP",
             "    speak;;no fortune telling yet.",
             "elif;'{v:_castleChoice}' == 'Armory'",
-            "    trigger_script;test RunCastle_Armory;{v:_chosenUnit}",
+            "    trigger_script;Global RunCastle_Armory;{v:_chosenUnit}",
             "else",
             "    sound;Select 4",
-            "    trigger_script;test RunCastle_choice",
+            "    trigger_script;Global RunCastle_choice",
             "end"
         ],
-        "nid": "test RunCastle_Market"
+        "nid": "Global RunCastle_Market"
     },
     {
         "name": "house_giveMoneyExample",
@@ -4241,7 +4501,7 @@
     {
         "name": "RunCastle_choice",
         "trigger": null,
-        "level_nid": "test",
+        "level_nid": null,
         "condition": "True",
         "commands": [],
         "only_once": false,
@@ -4394,11 +4654,11 @@
             "choice = game.game_vars[\"castle_options\"]",
             "",
             "if choice == 'Market':",
-            "    $trigger_script \"test RunCastle_Market\" game.game_vars[\"_chosenUnit\"]",
+            "    $trigger_script \"Global RunCastle_Market\" game.game_vars[\"_chosenUnit\"]",
             "elif choice == 'Staff':",
-            "    $trigger_script \"test RunCastle_staff\" chosen_unit",
+            "    $trigger_script \"Global RunCastle_staff\" chosen_unit",
             "elif choice == 'Refresh':",
-            "    $trigger_script \"test RunCastle_refresh\" chosen_unit ",
+            "    $trigger_script \"Global RunCastle_refresh\" chosen_unit ",
             "elif choice == \"Give Gold\":",
             "    print(\"give gold\")",
             "    ",
@@ -4418,9 +4678,9 @@
             "    ",
             "elif choice == 0 or choice == 'BACK':",
             "    $sound \"Select 4\"",
-            "    $trigger_script \"test RunCastle_units\" chosen_unit "
+            "    $trigger_script \"Global RunCastle_units\" chosen_unit "
         ],
-        "nid": "test RunCastle_choice"
+        "nid": "Global RunCastle_choice"
     },
     {
         "name": "unitKilled",
@@ -4433,22 +4693,23 @@
         "_source": [
             "#pyev1",
             "#For some reason trying to reference a unit's faction during normal eventing just wouldn't work, so we're doing this otherwise simple event in python.",
-            "totalVar = \"_total_\" + unit.faction + \"s\"",
-            "currentVar = \"_current_\" + unit.faction + \"s\"",
             "",
-            "#If the enemy that just died has a faction that isn't generic or a wall, decrement their corresponding faction's current level_var.",
-            "if (unit.faction != \"Enemy\") and (unit.faction != \"Wall\"):",
-            "    game.level_vars[currentVar] -= 1",
-            "",
-            "#If the remaining unit count for the current faction is less than half the total number of units in the faction.",
-            "if (game.level_vars[currentVar] * 2) < game.level_vars[totalVar]:",
-            "    #Get the current level's nid",
-            "    currentLevel = game.level_nid",
-            "    #Using the current level's nid and the faction of the most recently killed unit, figure out which commander event we should be triggering",
-            "    eventToTrigger = currentLevel + \" unitKilled_\" + unit.faction + \"_react\"",
-            "    #Trigger that event using Python",
-            "    from app.events.triggers import GenericTrigger",
-            "    game.events._add_event_from_script('debug_console', eventToTrigger, GenericTrigger())"
+            "#Makes sure the unit actually has a faction because the game will crash otherwise.",
+            "if unit.faction:",
+            "    totalVar = \"_total_\" + unit.faction + \"s\"",
+            "    currentVar = \"_current_\" + unit.faction + \"s\"",
+            "    #If the enemy that just died has a faction that isn't generic or a wall, decrement their corresponding faction's current level_var.",
+            "    if (unit.faction != \"Enemy\") and (unit.faction != \"Wall\"):",
+            "        game.level_vars[currentVar] -= 1",
+            "    ",
+            "    #If the remaining unit count for the current faction is less than half the total number of units in the faction.",
+            "    if (game.level_vars[currentVar] * 2) < game.level_vars[totalVar]:",
+            "        #Get the current level's nid",
+            "        currentLevel = game.level_nid",
+            "        #Using the current level's nid and the faction of the most recently killed unit, figure out which commander event we should be triggering",
+            "        eventToTrigger = currentLevel + \" unitKilled_\" + unit.faction + \"_react\"",
+            "        #Trigger that event",
+            "        $trigger_script eventToTrigger"
         ],
         "nid": "Global unitKilled"
     },
@@ -5209,32 +5470,57 @@
         "name": "Village1",
         "trigger": "Visit",
         "level_nid": "0",
-        "condition": "region.nid == 'Village1' and game.level_vars['Village01Damage'] < 10",
+        "condition": "region.nid == 'Village1' and unit.nid != \"Wallace\"",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "transition;Close",
-            "change_background;House",
+            "change_background;Town",
             "transition;Open",
             "add_portrait;{unit};Right;no_block",
             "add_portrait;Man1;Left",
             "speak;Man1;Sup.",
             "transition;Close",
+            "show_layer;Village1",
             "change_background",
             "transition;Open",
             "give_item;{unit};Speed_Ring",
             "give_money;{unit};{e:5000 - 500 * game.level_vars['Village01Damage']}",
-            "show_layer;Village1",
             "has_visited;{unit}"
         ],
         "nid": "0 Village1"
     },
     {
+        "name": "Village1_Wallace",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Village1' and unit.nid == \"Wallace\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;Town",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Man1;Left",
+            "speak;Man1;Holy shit it's Wallace!",
+            "transition;Close",
+            "show_layer;Village1",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Speed_Ring",
+            "give_money;{unit};{e:5000 - 500 * game.level_vars['Village01Damage']}",
+            "has_visited;{unit}"
+        ],
+        "nid": "0 Village1_Wallace"
+    },
+    {
         "name": "DestroyVillage1",
         "trigger": "Destructible",
         "level_nid": "0",
-        "condition": "region.nid == 'DestroyVillage1' and game.level_vars['Village01Damage'] < 10",
+        "condition": "region.nid == 'DestroyVillage1'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -5260,6 +5546,8 @@
             "    show_layer;Ruin1-9",
             "else",
             "    show_layer;Ruin1-10",
+            "    remove_region;Village1",
+            "    remove_region;DestroyVillage1",
             "end",
             "inc_level_var;Village01Damage;1",
             "wait;500"
@@ -5270,7 +5558,7 @@
         "name": "DestroyVillage2",
         "trigger": "Destruction",
         "level_nid": "0",
-        "condition": "region.nid == 'DestroyVillage2' and game.level_vars['Village02Damage'] < 10",
+        "condition": "region.nid == 'DestroyVillage2'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -5296,6 +5584,8 @@
             "    show_layer;Ruin2-9",
             "else",
             "    show_layer;Ruin2-10",
+            "    remove_region;Village2",
+            "    remove_region;DestroyVillage2",
             "end",
             "inc_level_var;Village02Damage;1",
             "wait;500"
@@ -5306,7 +5596,7 @@
         "name": "DestroyVillage3",
         "trigger": "Destruction",
         "level_nid": "0",
-        "condition": "region.nid == 'DestroyVillage3' and game.level_vars['Village03Damage'] < 10",
+        "condition": "region.nid == 'DestroyVillage3'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -5332,6 +5622,8 @@
             "    show_layer;Ruin3-9",
             "else",
             "    show_layer;Ruin3-10",
+            "    remove_region;Village3",
+            "    remove_region;DestroyVillage3",
             "end",
             "inc_level_var;Village03Damage;1",
             "wait;500"
@@ -5342,7 +5634,7 @@
         "name": "DestroyVillage4",
         "trigger": "Destruction",
         "level_nid": "0",
-        "condition": "region.nid == 'DestroyVillage4' and game.level_vars['Village04Damage'] < 10",
+        "condition": "region.nid == 'DestroyVillage4'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -5368,6 +5660,8 @@
             "    show_layer;Ruin4-9",
             "else",
             "    show_layer;Ruin4-10",
+            "    remove_region;Village4",
+            "    remove_region;DestroyVillage4",
             "end",
             "inc_level_var;Village04Damage;1",
             "wait;500"
@@ -5378,7 +5672,7 @@
         "name": "DestroyVillage5",
         "trigger": "Destructible",
         "level_nid": "0",
-        "condition": "region.nid == 'DestroyVillage5' and game.level_vars['Village05Damage'] < 10",
+        "condition": "region.nid == 'DestroyVillage5'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -5404,6 +5698,8 @@
             "    show_layer;Ruin5-9",
             "else",
             "    show_layer;Ruin5-10",
+            "    remove_region;Village5",
+            "    remove_region;DestroyVillage5",
             "end",
             "inc_level_var;Village05Damage;1",
             "wait;500"
@@ -5414,23 +5710,23 @@
         "name": "Village2",
         "trigger": "Visit",
         "level_nid": "0",
-        "condition": "region.nid == 'Village2' and game.level_vars['Village02Damage'] < 10",
+        "condition": "region.nid == 'Village2'",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "transition;Close",
-            "change_background;House",
+            "change_background;Town",
             "transition;Open",
             "add_portrait;{unit};Right;no_block",
             "add_portrait;Man1;Left",
             "speak;Man1;Sup.",
             "transition;Close",
+            "show_layer;Village2",
             "change_background",
             "transition;Open",
             "give_item;{unit};Vulnerary",
             "give_money;{unit};{e:5000 - 500 * game.level_vars['Village02Damage']}",
-            "show_layer;Village2",
             "has_visited;{unit}"
         ],
         "nid": "0 Village2"
@@ -5439,23 +5735,23 @@
         "name": "Village3",
         "trigger": "Visit",
         "level_nid": "0",
-        "condition": "region.nid == 'Village3' and game.level_vars['Village03Damage'] < 10",
+        "condition": "region.nid == 'Village3'",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "transition;Close",
-            "change_background;House",
+            "change_background;Town",
             "transition;Open",
             "add_portrait;{unit};Right;no_block",
             "add_portrait;Man1;Left",
             "speak;Man1;Sup.",
             "transition;Close",
+            "show_layer;Village3",
             "change_background",
             "transition;Open",
             "give_item;{unit};Vulnerary",
             "give_money;{unit};{e:5000 - 500 * game.level_vars['Village03Damage']}",
-            "show_layer;Village3",
             "has_visited;{unit}"
         ],
         "nid": "0 Village3"
@@ -5464,64 +5760,77 @@
         "name": "Village4",
         "trigger": "Visit",
         "level_nid": "0",
-        "condition": "region.nid == 'Village4' and game.level_vars['Village04Damage'] < 10",
+        "condition": "region.nid == 'Village4'",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "transition;Close",
-            "change_background;House",
+            "change_background;Town",
             "transition;Open",
             "add_portrait;{unit};Right;no_block",
             "add_portrait;Man1;Left",
             "speak;Man1;Sup.",
             "transition;Close",
+            "show_layer;Village4",
             "change_background",
             "transition;Open",
             "give_item;{unit};Vulnerary",
             "give_money;{unit};{e:5000 - 500 * game.level_vars['Village04Damage']}",
-            "show_layer;Village4",
             "has_visited;{unit}"
         ],
         "nid": "0 Village4"
     },
     {
-        "name": "Village5",
+        "name": "Village5_Lyn/Rath",
         "trigger": "Visit",
         "level_nid": "0",
-        "condition": "region.nid == 'Village5' and game.level_vars['Village05Damage'] < 10",
+        "condition": "region.nid == 'Village5' and unit.nid in ['Lyn', 'Rath']",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "transition;Close",
-            "change_background;House",
+            "change_background;Town",
             "transition;Open",
             "add_portrait;{unit};Right;no_block",
-            "add_portrait;Man1;Left",
-            "speak;Man1;Sup.",
+            "add_portrait;Villager 10;Left",
+            "speak;Villager 10;A Sacaean, I'll be! How are the plains nowadays?|Gosh, I still remember when I met my husband{br}a strapping young Caelinian Knight who wooed me at first sight.|We eloped that night and, well, here's our little hovel.|Here, have some noonlight soup|and I'll let you have this.|I've been making these for years now, to remind me of the plains.",
             "transition;Close",
+            "show_layer;Village5",
             "change_background",
             "transition;Open",
-            "give_item;{unit};Vulnerary",
+            "unit.hp += 5",
+            "give_item;{unit};Angelic_Robe",
             "give_money;{unit};{e:5000 - 500 * game.level_vars['Village05Damage']}",
+            "has_visited;{unit}"
+        ],
+        "nid": "0 Village5_Lyn/Rath"
+    },
+    {
+        "name": "Village5",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Village5' and unit.nid not in ['Lyn', 'Rath']",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;Town",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Villager 10;Left",
+            "speak;Villager 10;Ah, visitors!|A rare sight nowadays. Alas,{br}I have little to offer|If you'd like, I can give you some soup|it's an old Sacaean recipe!{br}My husband helped me replicate it with ingredients from these woods",
+            "transition;Close",
             "show_layer;Village5",
+            "change_background",
+            "transition;Open",
+            "unit.hp += 5",
+            "give_money;{unit};{e:5000 - 500 * game.level_vars['Village05Damage']}",
             "has_visited;{unit}"
         ],
         "nid": "0 Village5"
-    },
-    {
-        "name": "Start",
-        "trigger": "level_start",
-        "level_nid": "0",
-        "condition": "True",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            ""
-        ],
-        "nid": "0 Start"
     },
     {
         "name": "Village1",
@@ -5597,5 +5906,747 @@
             "wait;500"
         ],
         "nid": "DEBUG DestroyVillage1"
+    },
+    {
+        "name": "Seize4",
+        "trigger": "Seize ",
+        "level_nid": "0",
+        "condition": "region.nid == 'Seize4' and 'Lord' in unit.tags",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "win_game"
+        ],
+        "nid": "0 Seize4"
+    },
+    {
+        "name": "Seize1",
+        "trigger": "Seize",
+        "level_nid": "0",
+        "condition": "region.nid == 'Seize1' and 'Lord' in unit.tags",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_layer;Barrier1",
+            "hide_layer;Barrier3",
+            "transition;open",
+            "change_background;InsideCastle",
+            "add_portrait;Lyn;Left",
+            "add_portrait;Kent;MidRight",
+            "speak;Lyn;Excellent! Kathelet is ours!",
+            "speak;Kent;This will give us a foothold to pursue Lundgren.",
+            "speak;Lyn;It hurts that they see us as invaders and marauders...",
+            "speak;Kent;That will be a problem as we move south. We want to liberate this land from Lundgren's tyranny, not ransack it for our own gain.",
+            "speak;Lyn;Is there anyone we can convince who'll vouch for us?",
+            "if;game.check_dead(\"Sain\") == False;",
+            "    add_portrait;Sain;FarRight",
+            "    speak;Sain;What about our mentor?",
+            "end",
+            "speak;Kent;General Eagler is an honourable man|He is fiercely loyal to Lord Hausen and above all, Caelin.|Perhaps if we showed our honor or Lundgren's treachery, he might be convinced to help us.",
+            "if;game.check_dead(\"Sain\") == False;",
+            "    speak;Sain;Convincing him would be difficult...|I think if I can beat him, I can capture him.|That should give us time to talk things over, right?",
+            "end",
+            "transition;close",
+            "change_background",
+            "transition;Open",
+            "remove_region;Seize1",
+            "level_var;Castle1_Seized;1",
+            "add_region;Visit1;28,22;1,1;event;Visit",
+            "game_var;_castleKathelet_occupants;[]",
+            "battle_save;immediately",
+            "has_visited;{unit}",
+            "has_finished;{unit}"
+        ],
+        "nid": "0 Seize1"
+    },
+    {
+        "name": "Seize2",
+        "trigger": "Seize ",
+        "level_nid": "0",
+        "condition": "region.nid == 'Seize2' and 'Lord' in unit.tags",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Bandit1;Right",
+            "speak;Bandit1;Run, run!|This castle aint' worth dyin' for!",
+            "remove_portrait;Bandit1",
+            "add_portrait;Lyn;Left",
+            "speak;Lyn;We've taken another stronghold! But...|Why wasn't Tuscana defending the castle?",
+            "remove_portrait;Lyn",
+            "transition;Close",
+            "change_background;InsideCastle",
+            "transition;Open",
+            "add_portrait;Lyn;Left",
+            "if;x = True; ",
+            "    add_portrait;Nils;Right",
+            "    bop_portrait;Nils",
+            "    speak;Nils;That's my ring! I hate to ask, b-but...",
+            "    speak;Lyn;Of course {br}it's yours.",
+            "    speak;Nils;Thank you. I-it belonged to my mother...|I don't know what I would've done if I lost it.",
+            "    speak;Lyn;I don't think you have told me your name yet?",
+            "    speak;Nils;It's Nils. I am a travelling bard|I would be honored to help you on your guest as a repayment for saving me.",
+            "else;",
+            "    add_portrait;Kent;MidRight",
+            "    speak;Lyn;Did you find anything useful in the castle?",
+            "    speak;Kent;One of the soldiers found this. It's an expensive looking ring.",
+            "    bop_portrait;Nils",
+            "    add_portrait;Nils;FarRight",
+            "    speak;Nils;That's my ring!",
+            "    speak;Lyn;You... you were just fleeing from the bandits|are you okay?",
+            "    speak;Nils;I'm Nils, a travelling bard.|That ring is actually a keepsake from my mother.|I'd dropped it while I was feeling from the castle.",
+            "    speak;Lyn;Then you should Take it back.|It's yours after all. I won't ask you to give anything back for it in return.",
+            "    speak;Nils;Oh no that won't do|Please... let me help you with you guest for here on out|It's the least I can do to pay you back. ",
+            "end",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "remove_region;Seize2",
+            "add_region;Visit2;4,10;1,1;event;Visit",
+            "battle_save;immediately",
+            "has_visited;{unit}",
+            "has_finished;{unit}"
+        ],
+        "nid": "0 Seize2"
+    },
+    {
+        "name": "Seize3",
+        "trigger": "Seize ",
+        "level_nid": "0",
+        "condition": "region.nid == 'Seize3' and 'Lord' in unit.tags",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_layer;Barrier2",
+            "transition;open",
+            "change_background;InsideCastle",
+            "add_portrait;Lyn;Left",
+            "speak;Lyn;Wait where is Kent?",
+            "transition;close",
+            "change_background",
+            "transition;Open",
+            "remove_region;Seize3",
+            "add_region;Visit3;6,80;1,1;event;Visit",
+            "battle_save;immediately",
+            "has_visited;{unit}",
+            "has_finished;{unit}"
+        ],
+        "nid": "0 Seize3"
+    },
+    {
+        "name": "NilsAppears",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.level_vars['Castle1_Seized'] == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "wait;1000",
+            "move_cursor;4, 11",
+            "disp_cursor;1",
+            "wait;1000",
+            "disp_cursor;0",
+            "add_unit;Nils;4, 11",
+            "move_unit;Nils;4, 16",
+            "add_portrait;Nils;Left",
+            "speak;Nils;Huff... huff...",
+            "remove_portrait;Nils",
+            "move_cursor;4, 9",
+            "disp_cursor;1",
+            "wait;1000",
+            "disp_cursor;0",
+            "add_portrait;Heintz;Right",
+            "add_portrait;Beyard;Left",
+            "speak;Heintz;Curses the boy has escaped!",
+            "speak;Beyard;We need to retrieve him immediately. Move out!",
+            "speak;Heintz;He left behind a ring|perhaps we could extract some power from it?",
+            "speak;Beyard;Forget the ring! The boy is more important!",
+            "speak;Heintz;As you wish.",
+            "remove_portrait;Beyard",
+            "remove_portrait;Heintz",
+            "if;game.check_dead(\"Erk\") == False;",
+            "    add_portrait;Erk;Right",
+            "    speak;Erk;Odd... This is the first time I've seen a dark mage working with bandits around here.",
+            "    remove_portrait;Erk"
+        ],
+        "nid": "0 NilsAppears"
+    },
+    {
+        "name": "Death_Lundgren/Generic",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Lundgren\" and check_default('Lundgren',['Lyn','Kent','Sain','Wallace','Eagler'])",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;Oh Caelin|How beautiful you would have become in my hands...",
+            "expression;Lundgren;CloseEyes",
+            "remove_portrait;Lundgren"
+        ],
+        "nid": "0 Death_Lundgren/Generic"
+    },
+    {
+        "name": "Death_Lundgren/Lyn",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Lundgren\" and check_pair('Lundgren','Lyn')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;Was it so hard for you to just die with the runaway and the nomad?",
+            "add_portrait;Lyn;Right",
+            "speak;Lyn;This is vengeance. You had it coming.",
+            "speak;Lundgren;Is that what you told your army...{br}before you ravaged your grandfather's people?",
+            "bop_portrait;Lundgren",
+            "speak;Lundgren;Gaah...",
+            "expression;Lundgren;CloseEyes",
+            "wait;100",
+            "remove_portrait;Lundgren",
+            "speak;Lyn;...",
+            "remove_portrait;Lyn"
+        ],
+        "nid": "0 Death_Lundgren/Lyn"
+    },
+    {
+        "name": "Death_Lundgren/Kent",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Lundgren\" and check_pair('Lundgren','Kent')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Kent;Right",
+            "speak;Kent;How many have you deceived {br}and destroyed in the name of your ambition?!",
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;Short... sighted... fool...",
+            "expression;Lundgren;CloseEyes",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Kent"
+        ],
+        "nid": "0 Death_Lundgren/Kent"
+    },
+    {
+        "name": "Death_Lundgren/Sain",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Lundgren\" and check_pair('Lundgren','Sain')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;I could have given you{br}anything you wanted.{br}So why didn't you-",
+            "add_portrait;Sain;Right",
+            "speak;Sain;Forgive me my lord.{br}I am not so easily swayed.|We have fought, bled and wept together|I would never trade that{br}for a traitor's favour.",
+            "speak;Lundgren;How precious. Curse it all...",
+            "bop_portrait;Lundgren",
+            "expression;Lundgren;CloseEyes",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Sain"
+        ],
+        "nid": "0 Death_Lundgren/Sain"
+    },
+    {
+        "name": "Death_Lundgren/Eagler",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Lundgren\" and check_pair('Lundgren','Eagler')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;What of Caelin?",
+            "add_portrait;Eagler;Right",
+            "speak;Eagler;You have the nerve to ask that now?",
+            "speak;Lundgren;Hausen is dying.{br}I am dying.|The pretender has never{br}led before.|But perhaps you?",
+            "speak;Eagler;If I must, I will ensure Caelin is safe{br}by any means necessary.",
+            "expression;Lundgren;CloseEyes,Smile",
+            "wait;200",
+            "speak;Lundgren;Good...",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Eagler"
+        ],
+        "nid": "0 Death_Lundgren/Eagler"
+    },
+    {
+        "name": "Death_Lundgren/Wallace",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Lundgren\" and check_pair('Lundgren','Wallace')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;So as Hausen lays dying{br}you strike down his brother|do you truly hate Caelin so much?",
+            "add_portrait;Wallace;Right",
+            "speak;Wallace;Silence! die already!",
+            "speak;Lundgren;As you fight vultures{br}for the scraps on Caelin's corpse,{br}remember... me..",
+            "expression;Lundgren;CloseEyes",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Wallace"
+        ],
+        "nid": "0 Death_Lundgren/Wallace"
+    },
+    {
+        "name": "Fight_Yogi/Generic",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_default('Yogi',['Wil','Dorcas','Florina'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Yogi;Left",
+            "speak;Yogi;Where are the arbalests?{br}Where are the reinforcements?{br}Someone, quickly, get them!",
+            "remove_portrait;Yogi"
+        ],
+        "nid": "0 Fight_Yogi/Generic"
+    },
+    {
+        "name": "Fight_Yogi/Will",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Yogi','Wil')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Yogi;Left",
+            "speak;Yogi;And to think I gifted my javelin to Lundgren last week...",
+            "remove_portrait;Yogi"
+        ],
+        "nid": "0 Fight_Yogi/Will"
+    },
+    {
+        "name": "Fight_Yogi/Florina",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Yogi','Florina')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Yogi;Left",
+            "speak;Yogi;Curses! This is why I needed the arbalests!",
+            "remove_portrait;Yogi"
+        ],
+        "nid": "0 Fight_Yogi/Florina"
+    },
+    {
+        "name": "Fight_Yogi/Dorcas",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Yogi','Dorcas')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Yogi;Left",
+            "speak;Yogi;I got this lance custom made to kill bandits like you.",
+            "add_portrait;Dorcas;Right",
+            "speak;Dorcas;Good.",
+            "speak;Yogi;I can also spare it{br}for someone assisting a traitor.|Perish!",
+            "remove_portrait;Yogi",
+            "remove_portrait;Dorcas"
+        ],
+        "nid": "0 Fight_Yogi/Dorcas"
+    },
+    {
+        "name": "Fight_Beyard/Generic",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_default('Beyard',['Kent','Wallace'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Beyard;Left",
+            "speak;Beyard;I mustn't fail... I cannot fail.{br}The consequences are too-",
+            "remove_portrait;Beyard"
+        ],
+        "nid": "0 Fight_Beyard/Generic"
+    },
+    {
+        "name": "Fight_Beyard/Kent",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Beyard','Kent')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Kent;Right",
+            "speak;Kent;To take advantage of the chaos like this|you truly are the lowest of the low.",
+            "add_portrait;Beyard;Left",
+            "speak;Beyard;Those \"above me\" are starving or buried.|You will join them soon enough.",
+            "speak;Kent;I'll send you to them so they can find peace!",
+            "remove_portrait;Beyard",
+            "remove_portrait;Kent"
+        ],
+        "nid": "0 Fight_Beyard/Kent"
+    },
+    {
+        "name": "Fight_Beyard/Wallace",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Beyard','Wallace')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Wallace;Right",
+            "speak;Wallace;You're no ordinary bandits|I've seen you under a few flags in my time.",
+            "add_portrait;Beyard;Left",
+            "speak;Beyard;Then you should know to run.",
+            "speak;Wallace;Not at all, you'll make for a great warmup!",
+            "remove_portrait;Beyard",
+            "remove_portrait;Wallace"
+        ],
+        "nid": "0 Fight_Beyard/Wallace"
+    },
+    {
+        "name": "Death_Eagler/Kent",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Eagler\" and check_pair('Eagler','Kent')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Eagler;Left",
+            "speak;Eagler;What a tragedy...{br}To see one of our own seduced so easily...",
+            "add_portrait;Kent;Right",
+            "speak;Kent;Do you truly not believe me?{br}Do you really think I'm doing this all for myself?!",
+            "speak;Eagler;What does it matter?|Caelin will burn... e-even if you are right.",
+            "expression;Eagler;CloseEyes",
+            "remove_portrait;Eagler",
+            "remove_portrait;Kent"
+        ],
+        "nid": "0 Death_Eagler/Kent"
+    },
+    {
+        "name": "Death_Eagler/Lyn",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Eagler\" and check_pair('Eagler','Kent')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lyn;Right",
+            "speak;Lyn;Madelyn was my mother, and Hassar was my father.|Surely, you can see that?",
+            "add_portrait;Eagler;Left",
+            "speak;Eagler;Those burning villages? Those broken families?|They are also.. yours...",
+            "expression;Eagler;CloseEyes",
+            "remove_portrait;Eagler",
+            "remove_portrait;Lyn"
+        ],
+        "nid": "0 Death_Eagler/Lyn"
+    },
+    {
+        "name": "Death_Eagler/Sain",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Eagler\" and check_pair('Eagler','Sain')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Eagler;Left",
+            "speak;Eagler;Caelin, I'm sorry...|I should never have trained the boy...",
+            "expression;Eagler;CloseEyes",
+            "remove_portrait;Eagler",
+            "add_portrait;Sain;Right",
+            "speak;Sain;...",
+            "remove_portrait;Sain"
+        ],
+        "nid": "0 Death_Eagler/Sain"
+    },
+    {
+        "name": "Death_Eagler/Generic",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Eagler\" and check_default('Eagler',['Lyn','Sain','Kent'])",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Eagler;Left",
+            "speak;Eagler;Caelin, I'm sorry...|I should never have trained the boy...",
+            "expression;Eagler;CloseEyes",
+            "remove_portrait;Eagler",
+            "add_portrait;Sain;Right",
+            "speak;Sain;...",
+            "remove_portrait;Sain"
+        ],
+        "nid": "0 Death_Eagler/Generic"
+    },
+    {
+        "name": "Death_Beyard/Generic",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Eagler\" and check_default('Eagler',['Lyn','Sain','Kent'])",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Beyard;Left",
+            "bop_portrait;Beyard",
+            "speak;Beyard;Earghh...",
+            "expression;Beyard;CloseEyes",
+            "remove_portrait;Beyard"
+        ],
+        "nid": "0 Death_Beyard/Generic"
+    },
+    {
+        "name": "Death_Lyn/Lundgren",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Lyn\" and check_pair('Lundgren','Lyn')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lyn;Right",
+            "expression;Lyn;CloseEyes",
+            "speak;Lyn;Father, Mother, I'm sorry...|Let me see you one last time...",
+            "remove_portrait;Lyn",
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;...",
+            "remove_portrait;Lundgren",
+            "#add possible cutscene here",
+            "trigger_script;"
+        ],
+        "nid": "0 Death_Lyn/Lundgren"
+    },
+    {
+        "name": "Death_Eagler/Lundgren",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Eagler\" and check_pair('Lundgren','Eagler')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lyn;Right",
+            "speak;Lyn;Eagler!",
+            "remove_portrait;Lyn",
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;Hahahaha, what an utterly useless betrayal!",
+            "add_portrait;Eagler;Right",
+            "speak;Eagler;Lundgren...",
+            "speak;Lundgren;Imagine how your family will be rewarded for you betrayal.|Let those nightmares haunt you as you rot!",
+            "speak;Eagler;N-no...",
+            "expression;Eagler;CloseEyes",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Eagler"
+        ],
+        "nid": "0 Death_Eagler/Lundgren"
+    },
+    {
+        "name": "ErkVillagerTalk",
+        "trigger": "unit_wait",
+        "level_nid": "0",
+        "condition": "unit.nid == \"Erk\" and game.get_region(\"ErkVillagertalk\").contains(position)",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Villager 10;Right;no_block",
+            "add_portrait;Erk;Left",
+            "speak;Villager 10;Erk! Erk, is that you boy?",
+            "speak;Erk;Miss Raveb? It's dangerous out here!",
+            "speak;Villager 10;Things haven't been safe in or outside the village nowadays.|You forgot these when you left your room|had them cluttering the house for weeks.",
+            "speak;Erk;Oh. Thank you|I'm sorry that I inconvenienced you.",
+            "speak;Villager 10;Nonsense, you were one of my favourite guests!|Now I don't know too much about what's going on here, but if your little army can keep us fed and get the bandits off our back, that'd be two less problems than we had with Lundgren!",
+            "remove_portrait;Erk;",
+            "remove_portrait;Villager 10",
+            "give_item;Erk;Elthunder"
+        ],
+        "nid": "0 ErkVillagerTalk"
+    },
+    {
+        "name": "Defeat Yogi",
+        "trigger": "combat_end",
+        "level_nid": "0",
+        "condition": "game.check_dead(\"Yogi\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "#Add region: name ; position (x,y) ; size (x,y) ; type ; command text",
+            "add_region;Seize1;28,22;1,1;event;Seize",
+            "#Makes it so the region's command only shows up for lords (the only ones who can seize)",
+            "region_condition;Seize1;('Lord' in unit.tags)"
+        ],
+        "nid": "0 Defeat Yogi"
+    },
+    {
+        "name": "Defeat Beyard",
+        "trigger": "combat_end",
+        "level_nid": "0",
+        "condition": "game.check_dead('Beyard')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_region;Seize2;4,10;1,1;event;Seize",
+            "region_condition;Seize2;('Lord' in unit.tags)"
+        ],
+        "nid": "0 Defeat Beyard"
+    },
+    {
+        "name": "Defeat Eagler",
+        "trigger": "combat_end",
+        "level_nid": "0",
+        "condition": "game.check_dead(\"Eagler\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_region;Seize3;51,77;1,1;event;Seize",
+            "region_condition;Seize3;('Lord' in unit.tags)"
+        ],
+        "nid": "0 Defeat Eagler"
+    },
+    {
+        "name": "Defeat Lundgren",
+        "trigger": "combat_end",
+        "level_nid": "0",
+        "condition": "game.check_dead(\"Lundgren\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_region;Seize4;6,80;1,1;event;Seize",
+            "region_condition;Seize4;('Lord' in unit.tags)"
+        ],
+        "nid": "0 Defeat Lundgren"
+    },
+    {
+        "name": "Death_Yogi/Generic",
+        "trigger": "combat_death",
+        "level_nid": "0",
+        "condition": "unit.nid == 'Yogi'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Yogi;Left",
+            "speak;Yogi;Lord Lundgren...I've failed you...|I pray you hurry...with those reinforcements...you prom...",
+            "expression;Yogi;CloseEyes",
+            "remove_portrait;Yogi"
+        ],
+        "nid": "0 Death_Yogi/Generic"
+    },
+    {
+        "name": "Talk_Nils/Lyn",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "check_pair('Nils','Lyn')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "level_var;Castle1_Seized;True",
+            "add_portrait;Lyn;Left",
+            "add_portrait;Nils;Right",
+            "speak;Nils;Ah! F-found you! You lead the army, right?",
+            "speak;Lyn;You... what are you doing here?",
+            "speak;Nils;I can help! B-but I need a favour.",
+            "speak;Lyn;I'm not sure we can really afford to-",
+            "speak;Nils;Listen! A keepsake of my mothers - a ring - was taken by a bandit called Beyard in the northwest.|If you can get it back for me, I can use it to help you fight your enemies - it's really powerful!",
+            "speak;Lyn;...",
+            "remove_portrait;Nils",
+            "remove_portrait;Lyn"
+        ],
+        "nid": "0 Talk_Nils/Lyn"
+    },
+    {
+        "name": "VillageGetsAttacked",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.level_vars['Village04Damage'] == 1  or game.level_vars['Village05Damage'] == 1",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Eagler;Right",
+            "speak;Eagler;Lord Lundgren! The villages are under attack!",
+            "add_portrait;Lundgren;Left",
+            "speak;Lundgren;We need to focus on the enemy for now, hold the line!",
+            "speak;Eagler;...",
+            "remove_portrait;Lundgren",
+            "remove_portrait;Eagler",
+            "add_portrait;Lyn;Left",
+            "speak;Lyn;Would they really let their villages be destroyed like this?",
+            "remove_portrait;Lyn",
+            "add_portrait;Kent;Left",
+            "speak;Kent;We should help them,they had no part in this!",
+            "remove_portrait;Kent"
+        ],
+        "nid": "0 VillageGetsAttacked"
+    },
+    {
+        "name": "Talk_Lyn/Eagler",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Eagler;Right",
+            "add_portrait;Lyn;Left",
+            "speak;Eagler;You are Lady Lyndis, correct?",
+            "speak;Lyn;Yes, I am|born of Hassar and Madelyn both. Why?",
+            "speak;Eagler;You have shown more compassion for this land than Lundgren, and claim you want to save Lord Hausen?",
+            "speak;Lyn;I do. Though Sacae is where I was raised, I couldn't leave those villages to the bandits.",
+            "speak;Eagler;Well said. In that case, you have my sword.",
+            "remove_portrait;Eagler",
+            "remove_portrait;Lyn",
+            "change_team;Eagler;player",
+            "add_region;Seize3;{unit};51,77;event;Seize",
+            "if; game.check_dead('Wallace') == False and ",
+            "    trigger_script;0 HammerAndAnvil",
+            "",
+            "    "
+        ],
+        "nid": "0 Talk_Lyn/Eagler"
+    },
+    {
+        "name": "HammerAndAnvil",
+        "trigger": null,
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;SoldierFE7Red;Right",
+            "add_portrait;SoldierFE7Red_1;Left",
+            "speak;SoldierFE7Red;This is bad...",
+            "speak;SoldierFE7Red_1;Can it get worse than it already is?",
+            "speak;SoldierFE7Red;General Eagler has sided with the enemy|we've lost both the Hammer and Anvil!.",
+            "speak;SoldierFE7Red_1;Both of them?!|This is bad, should we run for it? Should we surrender?! ",
+            "remove_portrait;SoldierFE7Red_1",
+            "add_portrait;Soldier 6;Left",
+            "speak;Soldier 6;Silence! If your panicking spreads, then everyone here is dead!",
+            "speak;SoldierFE7Red;Y-Yes sir!",
+            "remove_portrait;SoldierFE7Red",
+            "remove_portrait;Soldier 6"
+        ],
+        "nid": "0 HammerAndAnvil"
     }
 ]
