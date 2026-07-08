@@ -21,12 +21,16 @@ PAIRABLE_MALES = [
     "Sain", "Kent", "Wil", "Dorcas", "Wallace", "Erk", "Eagler", "Eliwood",
     "Marcus", "Lowen", "Bartre", "Matthew", "Guy", "Dart", "Lucius", "Batta",
     "Erik", "Legault", "Heath", "Zealot", "Canas", "Hawkeye", "Geitz", "Fargus",
-    "Uhai", "Lloyd", "Linus", "Renault", "Pent", "Hector"
+    "Uhai", "Lloyd", "Linus", "Renault", "Pent", "Hector", "Oswin", "Rath",
+    "Karel", "Glass", "Nils", "Raven", "Lucius", "Harken", "Douglas", "Jaffar",
+    "Athos"
+
 ]
 
 PAIRABLE_FEMALES = [
     "Lyn", "Florina", "Serra", "Rebecca", "Priscilla", "Isadora", "Fiora",
-    "Ninian", "Karla", "Louise", "Farina", "Nino", "Vaida", "Leila", "Juno"
+    "Ninian", "Karla", "Louise", "Farina", "Nino", "Vaida", "Leila", "Juno",
+    "Sigune"
 ]
 
 PRE_PAIRED_COUPLES = [
@@ -85,8 +89,7 @@ def initialize_pre_paired_couples():
             apply_lover_bonus(male, female)
 
 def get_student_parents_mapping():
-    data_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))), 'game_data')
-    filepath = os.path.join(data_dir, 'student_parents.json')
+    filepath = os.path.join(DB.current_proj_dir, 'game_data', 'student_parents.json')
     try:
         with open(filepath, 'r') as f:
             data = json.load(f)
@@ -207,19 +210,90 @@ def apply_lover_bonus(male: str, female: str):
 
 def apply_parent_tags(unit1_nid: str, unit2_nid: str):
     student_parents = get_student_parents_mapping()
-    parent1 = unit1_nid if unit1_nid in PAIRABLE_MALES else unit2_nid
-    parent2 = unit2_nid if unit2_nid in PAIRABLE_FEMALES else unit1_nid
     
     for student_nid, data in student_parents.items():
-        if parent1 in data['parents'] or parent2 in data['parents']:
-            student = get_unit_by_nid(student_nid)
-            if student:
-                tag1 = f"Parent_{parent1}"
-                tag2 = f"Parent_{parent2}"
-                if tag1 not in student.tags:
-                    student.tags.append(tag1)
-                if tag2 not in student.tags:
-                    student.tags.append(tag2)
+        student_mentor = data.get('mentor')
+        if not student_mentor:
+            continue
+        mentors = [student_mentor] if isinstance(student_mentor, str) else student_mentor
+        if unit1_nid in mentors:
+            mentor = unit1_nid
+            partner = unit2_nid
+        elif unit2_nid in mentors:
+            mentor = unit2_nid
+            partner = unit1_nid
+        else:
+            continue
+        
+        student = get_unit_by_nid(student_nid)
+        if student:
+            tag1 = f"Parent_{mentor}"
+            tag2 = f"Parent_{partner}"
+            if tag1 not in student.tags:
+                student.tags.append(tag1)
+            if tag2 not in student.tags:
+                student.tags.append(tag2)
+
+def generate_gen2_unit_growths(unit_nid: str):
+    """Calculate and apply growth rates for a Gen2 unit based on their mentor's pairing status.
+    Call this from #pyev before adding the Gen2 unit to the army.
+    
+    Case 1 - Mentor paired:  40% mentor, 60% partner
+    Case 2 - Mentor alive, unpaired: 40% mentor, 60% Gen2 default
+    Case 3 - Mentor dead:  100% Gen2 default (no change)
+    """
+    student_parents = get_student_parents_mapping()
+    if unit_nid not in student_parents:
+        return
+    
+    unit = get_unit_by_nid(unit_nid)
+    if not unit:
+        print(f"[LOVE] generate_gen2_unit_growths: Unit '{unit_nid}' not found in game")
+        return
+    
+    data = student_parents[unit_nid]
+    student_mentor = data.get('mentor')
+    if not student_mentor:
+        print(f"[LOVE] generate_gen2_unit_growths: '{unit_nid}' has no mentor defined")
+        return
+    
+    mentors = [student_mentor] if isinstance(student_mentor, str) else student_mentor
+    
+    mentor_found = None
+    for mentor_nid in mentors:
+        mentor_unit = get_unit_by_nid(mentor_nid)
+        if mentor_unit and not mentor_unit.dead:
+            mentor_found = mentor_nid
+            break
+    
+    if not mentor_found:
+        print(f"[LOVE] generate_gen2_unit_growths: '{unit_nid}' mentor(s) {mentors} dead or not found -> Case 3 (100% default)")
+        return
+    
+    mentor_unit = get_unit_by_nid(mentor_found)
+    lover_nid = game.game_vars.get(get_lover_nid_var(mentor_found), None)
+    
+    orig_growths = dict(unit.growths)
+    
+    if not lover_nid:
+        print(f"[LOVE] generate_gen2_unit_growths: '{unit_nid}' mentor '{mentor_found}' alive, unpaired -> Case 2 (40% mentor, 60% default)")
+        for stat_nid in DB.stats.keys():
+            mentor_val = mentor_unit.growths.get(stat_nid, 0)
+            default_val = orig_growths.get(stat_nid, 0)
+            unit.growths[stat_nid] = round(0.4 * mentor_val + 0.6 * default_val)
+            print(f"[LOVE]   {stat_nid}: {default_val} -> {unit.growths[stat_nid]} (mentor={mentor_val}*0.4 + default={default_val}*0.6)")
+    else:
+        partner_unit = get_unit_by_nid(lover_nid)
+        if not partner_unit:
+            print(f"[LOVE] generate_gen2_unit_growths: '{unit_nid}' mentor '{mentor_found}' paired with '{lover_nid}' but partner not found -> Case 3 fallback")
+            return
+        
+        print(f"[LOVE] generate_gen2_unit_growths: '{unit_nid}' mentor '{mentor_found}' paired with '{lover_nid}' -> Case 1 (40% mentor, 60% partner)")
+        for stat_nid in DB.stats.keys():
+            mentor_val = mentor_unit.growths.get(stat_nid, 0)
+            partner_val = partner_unit.growths.get(stat_nid, 0)
+            unit.growths[stat_nid] = round(0.4 * mentor_val + 0.6 * partner_val)
+            print(f"[LOVE]   {stat_nid}: {orig_growths.get(stat_nid, 0)} -> {unit.growths[stat_nid]} (mentor={mentor_val}*0.4 + partner={partner_val}*0.6)")
 
 def get_love_points(unit1_nid: str, unit2_nid: str) -> int:
     return game.game_vars.get(get_love_var(unit1_nid, unit2_nid), 0)
@@ -354,14 +428,13 @@ class LovePointsInitializer(SkillComponent):
     nid = 'love_points_initializer'
     desc = 'Initializes love points system on game load'
     tag = SkillTags.CUSTOM
+    _registered = False
     
-    def on_start(self, actions, playback, unit):
-        from app.engine.game_state import game as current_game
-        try:
-            current_game.query_engine.func_dict['give_love_points_from_talk'] = give_love_points_from_talk
-            print("[LOVE] Love points function registered via skill")
-        except Exception as e:
-            print(f"[LOVE] Failed to register: {e}")
+    def on_upkeep_unconditional(self, actions, playback, unit):
+        if LovePointsInitializer._registered:
+            return
+        LovePointsInitializer._registered = True
+        register_custom_functions()
 
 def check_broad_focus(unit: UnitObject, limit: int = 3, tag: str = "") -> int:
     counter = 0
@@ -378,9 +451,28 @@ def check_broad_focus(unit: UnitObject, limit: int = 3, tag: str = "") -> int:
 
 def register_custom_functions():
     try:
-        if hasattr(game, 'query_engine') and hasattr(game.query_engine, 'func_dict'):
-            game.query_engine.func_dict['check_broad_focus'] = check_broad_focus
-            game.query_engine.func_dict['give_love_points_from_talk'] = give_love_points_from_talk
+        from app.engine.game_state import game as current_game
+        if hasattr(current_game, 'query_engine') and hasattr(current_game.query_engine, 'func_dict'):
+            current_game.query_engine.func_dict['check_broad_focus'] = check_broad_focus
+            current_game.query_engine.func_dict['give_love_points_from_talk'] = give_love_points_from_talk
+            current_game.query_engine.func_dict['generate_gen2_unit_growths'] = generate_gen2_unit_growths
             print("[LOVE] Registered custom functions to query_engine")
     except Exception as e:
         print(f"[LOVE] Could not register functions: {e}")
+
+# Register at import time — the editor's GameState already has query_engine,
+# and func_dict survives clear() when Test Play starts
+print("[LOVE] Module love_points_system loaded, attempting registration...")
+try:
+    from app.engine.game_state import game as _g
+    print(f"[LOVE] game={_g}, has query_engine={hasattr(_g, 'query_engine')}")
+    if hasattr(_g, 'query_engine') and hasattr(_g.query_engine, 'func_dict'):
+        print(f"[LOVE] func_dict keys before: {list(_g.query_engine.func_dict.keys())[:5]}")
+        register_custom_functions()
+        print(f"[LOVE] func_dict keys after: {list(_g.query_engine.func_dict.keys())[-5:]}")
+        print(f"[LOVE] has generate_gen2_unit_growths: {'generate_gen2_unit_growths' in _g.query_engine.func_dict}")
+    else:
+        print("[LOVE] query_engine or func_dict not available at import time")
+except Exception as e:
+    print(f"[LOVE] Import-time registration failed: {e}")
+
