@@ -450,5 +450,25 @@
     {
         "nid": "repair_again",
         "text": "Does anything else need fixing?"
+    },
+    {
+        "nid": "pawn_no_value",
+        "text": "I guess I'll take it...?"
+    },
+    {
+        "nid": "pawn_nothing",
+        "text": "Sorry, but there's nothing for sale."
+    },
+    {
+        "nid": "pawn_bought_out",
+        "text": "Got nothing left for now."
+    },
+    {
+        "nid": "shop_bought_out",
+        "text": "Would you look at that. I've been bought out!"
+    },
+    {
+        "nid": "shop_nothing",
+        "text": "You and yer friends already bought me out!"
     }
 ]

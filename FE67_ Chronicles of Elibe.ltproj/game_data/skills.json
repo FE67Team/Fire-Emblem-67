@@ -1999,6 +1999,10 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "pursuit",
+                null
             ]
         ]
     },
@@ -3557,6 +3561,10 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "wary_fighter",
+                null
             ]
         ]
     },
@@ -4035,7 +4043,7 @@
     {
         "nid": "Convoy",
         "name": "Convoy",
-        "desc": "Provides convoy access to adjacent allies.",
+        "desc": "Provides convoy access to unit and allies.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -4047,40 +4055,11 @@
                 null
             ],
             [
-                "aura",
-                "Convoy_access"
-            ],
-            [
-                "aura_range",
-                1
-            ],
-            [
-                "aura_target",
-                "ally"
-            ],
-            [
-                "hide_aura",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Convoy_access",
-        "name": "Convoy",
-        "desc": "Unit has access to the convoy.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            7,
-            10
-        ],
-        "components": [
-            [
-                "hidden",
-                null
-            ],
-            [
-                "ability",
-                "Convoy_ability"
+                "has_tags",
+                [
+                    "Convoy",
+                    "AdjConvoy"
+                ]
             ]
         ]
     },
