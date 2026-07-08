@@ -428,14 +428,13 @@ class LovePointsInitializer(SkillComponent):
     nid = 'love_points_initializer'
     desc = 'Initializes love points system on game load'
     tag = SkillTags.CUSTOM
+    _registered = False
     
-    def on_start(self, actions, playback, unit):
-        from app.engine.game_state import game as current_game
-        try:
-            current_game.query_engine.func_dict['give_love_points_from_talk'] = give_love_points_from_talk
-            print("[LOVE] Love points function registered via skill")
-        except Exception as e:
-            print(f"[LOVE] Failed to register: {e}")
+    def on_upkeep_unconditional(self, actions, playback, unit):
+        if LovePointsInitializer._registered:
+            return
+        LovePointsInitializer._registered = True
+        register_custom_functions()
 
 def check_broad_focus(unit: UnitObject, limit: int = 3, tag: str = "") -> int:
     counter = 0
@@ -452,10 +451,28 @@ def check_broad_focus(unit: UnitObject, limit: int = 3, tag: str = "") -> int:
 
 def register_custom_functions():
     try:
-        if hasattr(game, 'query_engine') and hasattr(game.query_engine, 'func_dict'):
-            game.query_engine.func_dict['check_broad_focus'] = check_broad_focus
-            game.query_engine.func_dict['give_love_points_from_talk'] = give_love_points_from_talk
-            game.query_engine.func_dict['generate_gen2_unit_growths'] = generate_gen2_unit_growths
+        from app.engine.game_state import game as current_game
+        if hasattr(current_game, 'query_engine') and hasattr(current_game.query_engine, 'func_dict'):
+            current_game.query_engine.func_dict['check_broad_focus'] = check_broad_focus
+            current_game.query_engine.func_dict['give_love_points_from_talk'] = give_love_points_from_talk
+            current_game.query_engine.func_dict['generate_gen2_unit_growths'] = generate_gen2_unit_growths
             print("[LOVE] Registered custom functions to query_engine")
     except Exception as e:
         print(f"[LOVE] Could not register functions: {e}")
+
+# Register at import time — the editor's GameState already has query_engine,
+# and func_dict survives clear() when Test Play starts
+print("[LOVE] Module love_points_system loaded, attempting registration...")
+try:
+    from app.engine.game_state import game as _g
+    print(f"[LOVE] game={_g}, has query_engine={hasattr(_g, 'query_engine')}")
+    if hasattr(_g, 'query_engine') and hasattr(_g.query_engine, 'func_dict'):
+        print(f"[LOVE] func_dict keys before: {list(_g.query_engine.func_dict.keys())[:5]}")
+        register_custom_functions()
+        print(f"[LOVE] func_dict keys after: {list(_g.query_engine.func_dict.keys())[-5:]}")
+        print(f"[LOVE] has generate_gen2_unit_growths: {'generate_gen2_unit_growths' in _g.query_engine.func_dict}")
+    else:
+        print("[LOVE] query_engine or func_dict not available at import time")
+except Exception as e:
+    print(f"[LOVE] Import-time registration failed: {e}")
+
