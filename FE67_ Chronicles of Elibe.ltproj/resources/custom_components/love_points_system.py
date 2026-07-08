@@ -21,12 +21,16 @@ PAIRABLE_MALES = [
     "Sain", "Kent", "Wil", "Dorcas", "Wallace", "Erk", "Eagler", "Eliwood",
     "Marcus", "Lowen", "Bartre", "Matthew", "Guy", "Dart", "Lucius", "Batta",
     "Erik", "Legault", "Heath", "Zealot", "Canas", "Hawkeye", "Geitz", "Fargus",
-    "Uhai", "Lloyd", "Linus", "Renault", "Pent", "Hector"
+    "Uhai", "Lloyd", "Linus", "Renault", "Pent", "Hector", "Oswin", "Rath",
+    "Karel", "Glass", "Nils", "Raven", "Lucius", "Harken", "Douglas", "Jaffar",
+    "Athos"
+
 ]
 
 PAIRABLE_FEMALES = [
     "Lyn", "Florina", "Serra", "Rebecca", "Priscilla", "Isadora", "Fiora",
-    "Ninian", "Karla", "Louise", "Farina", "Nino", "Vaida", "Leila", "Juno"
+    "Ninian", "Karla", "Louise", "Farina", "Nino", "Vaida", "Leila", "Juno",
+    "Sigune"
 ]
 
 PRE_PAIRED_COUPLES = [
@@ -85,8 +89,7 @@ def initialize_pre_paired_couples():
             apply_lover_bonus(male, female)
 
 def get_student_parents_mapping():
-    data_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))), 'game_data')
-    filepath = os.path.join(data_dir, 'student_parents.json')
+    filepath = os.path.join(DB.current_proj_dir, 'game_data', 'student_parents.json')
     try:
         with open(filepath, 'r') as f:
             data = json.load(f)
@@ -207,19 +210,29 @@ def apply_lover_bonus(male: str, female: str):
 
 def apply_parent_tags(unit1_nid: str, unit2_nid: str):
     student_parents = get_student_parents_mapping()
-    parent1 = unit1_nid if unit1_nid in PAIRABLE_MALES else unit2_nid
-    parent2 = unit2_nid if unit2_nid in PAIRABLE_FEMALES else unit1_nid
     
     for student_nid, data in student_parents.items():
-        if parent1 in data['parents'] or parent2 in data['parents']:
-            student = get_unit_by_nid(student_nid)
-            if student:
-                tag1 = f"Parent_{parent1}"
-                tag2 = f"Parent_{parent2}"
-                if tag1 not in student.tags:
-                    student.tags.append(tag1)
-                if tag2 not in student.tags:
-                    student.tags.append(tag2)
+        student_mentor = data.get('mentor')
+        if not student_mentor:
+            continue
+        mentors = [student_mentor] if isinstance(student_mentor, str) else student_mentor
+        if unit1_nid in mentors:
+            mentor = unit1_nid
+            partner = unit2_nid
+        elif unit2_nid in mentors:
+            mentor = unit2_nid
+            partner = unit1_nid
+        else:
+            continue
+        
+        student = get_unit_by_nid(student_nid)
+        if student:
+            tag1 = f"Parent_{mentor}"
+            tag2 = f"Parent_{partner}"
+            if tag1 not in student.tags:
+                student.tags.append(tag1)
+            if tag2 not in student.tags:
+                student.tags.append(tag2)
 
 def get_love_points(unit1_nid: str, unit2_nid: str) -> int:
     return game.game_vars.get(get_love_var(unit1_nid, unit2_nid), 0)
