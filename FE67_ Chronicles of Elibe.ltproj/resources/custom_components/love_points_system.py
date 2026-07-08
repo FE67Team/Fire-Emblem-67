@@ -234,6 +234,67 @@ def apply_parent_tags(unit1_nid: str, unit2_nid: str):
             if tag2 not in student.tags:
                 student.tags.append(tag2)
 
+def generate_gen2_unit_growths(unit_nid: str):
+    """Calculate and apply growth rates for a Gen2 unit based on their mentor's pairing status.
+    Call this from #pyev before adding the Gen2 unit to the army.
+    
+    Case 1 - Mentor paired:  40% mentor, 60% partner
+    Case 2 - Mentor alive, unpaired: 40% mentor, 60% Gen2 default
+    Case 3 - Mentor dead:  100% Gen2 default (no change)
+    """
+    student_parents = get_student_parents_mapping()
+    if unit_nid not in student_parents:
+        return
+    
+    unit = get_unit_by_nid(unit_nid)
+    if not unit:
+        print(f"[LOVE] generate_gen2_unit_growths: Unit '{unit_nid}' not found in game")
+        return
+    
+    data = student_parents[unit_nid]
+    student_mentor = data.get('mentor')
+    if not student_mentor:
+        print(f"[LOVE] generate_gen2_unit_growths: '{unit_nid}' has no mentor defined")
+        return
+    
+    mentors = [student_mentor] if isinstance(student_mentor, str) else student_mentor
+    
+    mentor_found = None
+    for mentor_nid in mentors:
+        mentor_unit = get_unit_by_nid(mentor_nid)
+        if mentor_unit and not mentor_unit.dead:
+            mentor_found = mentor_nid
+            break
+    
+    if not mentor_found:
+        print(f"[LOVE] generate_gen2_unit_growths: '{unit_nid}' mentor(s) {mentors} dead or not found -> Case 3 (100% default)")
+        return
+    
+    mentor_unit = get_unit_by_nid(mentor_found)
+    lover_nid = game.game_vars.get(get_lover_nid_var(mentor_found), None)
+    
+    orig_growths = dict(unit.growths)
+    
+    if not lover_nid:
+        print(f"[LOVE] generate_gen2_unit_growths: '{unit_nid}' mentor '{mentor_found}' alive, unpaired -> Case 2 (40% mentor, 60% default)")
+        for stat_nid in DB.stats.keys():
+            mentor_val = mentor_unit.growths.get(stat_nid, 0)
+            default_val = orig_growths.get(stat_nid, 0)
+            unit.growths[stat_nid] = round(0.4 * mentor_val + 0.6 * default_val)
+            print(f"[LOVE]   {stat_nid}: {default_val} -> {unit.growths[stat_nid]} (mentor={mentor_val}*0.4 + default={default_val}*0.6)")
+    else:
+        partner_unit = get_unit_by_nid(lover_nid)
+        if not partner_unit:
+            print(f"[LOVE] generate_gen2_unit_growths: '{unit_nid}' mentor '{mentor_found}' paired with '{lover_nid}' but partner not found -> Case 3 fallback")
+            return
+        
+        print(f"[LOVE] generate_gen2_unit_growths: '{unit_nid}' mentor '{mentor_found}' paired with '{lover_nid}' -> Case 1 (40% mentor, 60% partner)")
+        for stat_nid in DB.stats.keys():
+            mentor_val = mentor_unit.growths.get(stat_nid, 0)
+            partner_val = partner_unit.growths.get(stat_nid, 0)
+            unit.growths[stat_nid] = round(0.4 * mentor_val + 0.6 * partner_val)
+            print(f"[LOVE]   {stat_nid}: {orig_growths.get(stat_nid, 0)} -> {unit.growths[stat_nid]} (mentor={mentor_val}*0.4 + partner={partner_val}*0.6)")
+
 def get_love_points(unit1_nid: str, unit2_nid: str) -> int:
     return game.game_vars.get(get_love_var(unit1_nid, unit2_nid), 0)
 
@@ -394,6 +455,7 @@ def register_custom_functions():
         if hasattr(game, 'query_engine') and hasattr(game.query_engine, 'func_dict'):
             game.query_engine.func_dict['check_broad_focus'] = check_broad_focus
             game.query_engine.func_dict['give_love_points_from_talk'] = give_love_points_from_talk
+            game.query_engine.func_dict['generate_gen2_unit_growths'] = generate_gen2_unit_growths
             print("[LOVE] Registered custom functions to query_engine")
     except Exception as e:
         print(f"[LOVE] Could not register functions: {e}")
