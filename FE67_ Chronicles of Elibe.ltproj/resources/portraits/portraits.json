@@ -804,6 +804,30 @@
         "info_offset": 0
     },
     {
+        "nid": "Chancellor Kent (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Zeed (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Alan",
         "blinking_offset": [
             24,
@@ -9228,6 +9252,30 @@
         "info_offset": 0
     },
     {
+        "nid": "Wendy!Hawkeye (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Hawkeye Tan (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Wendy!Heath (By Quest)",
         "blinking_offset": [
             24,
@@ -9241,6 +9289,54 @@
     },
     {
         "nid": "Wendy!Hector (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Jaffar (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Karel (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Kent (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Legualt (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
@@ -9300,7 +9396,67 @@
         "info_offset": 0
     },
     {
+        "nid": "Wendy!Rath (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Raven (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Renault (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Sain (By Trenkh\u00f6hr)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Wendy!Wallace (By Quest)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Wendy!Wil (By Trenkh\u00f6hr)",
         "blinking_offset": [
             24,
             32
