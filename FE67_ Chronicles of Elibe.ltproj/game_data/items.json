@@ -538,7 +538,7 @@
     {
         "nid": "Poison_Sword",
         "name": "Poison Sword",
-        "desc": "Poisons on contact.",
+        "desc": "On hit, enemy is poisoned.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -617,7 +617,7 @@
     {
         "nid": "Sleep_Edge",
         "name": "Sleep Edge",
-        "desc": "",
+        "desc": "On hit, enemy cannot move or attack.",
         "icon_nid": "Sword_sheet",
         "icon_index": [
             2,
@@ -692,7 +692,7 @@
     {
         "nid": "Berserk_Sword",
         "name": "Berserk Sword",
-        "desc": "",
+        "desc": "On hit, enemy becomes berserk.",
         "icon_nid": "Sword_sheet",
         "icon_index": [
             4,
@@ -767,7 +767,7 @@
     {
         "nid": "Silence_Sword",
         "name": "Silence Sword",
-        "desc": "",
+        "desc": "On hit, enemy is unable to use magic.",
         "icon_nid": "Sword_sheet",
         "icon_index": [
             3,
@@ -842,7 +842,7 @@
     {
         "nid": "Killing_Edge",
         "name": "Killing Edge",
-        "desc": "",
+        "desc": "Improves critical hit rate.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1195,7 +1195,7 @@
         "nid": "Wing_Clipper",
         "name": "Wing Clipper",
         "desc": "Effective against flying units.",
-        "icon_nid": "Sword_sheet",
+        "icon_nid": "anti-wing",
         "icon_index": [
             0,
             0
@@ -1356,7 +1356,7 @@
     {
         "nid": "Brave_Sword",
         "name": "Brave Sword",
-        "desc": "Allows 2 consecutive hits.",
+        "desc": "Allows two consecutive hits.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1435,7 +1435,7 @@
     {
         "nid": "Rapier",
         "name": "Rapier",
-        "desc": "Eliwood only, effective against horseback and armoured units.",
+        "desc": "Eliwood only, effective against horseback and armored units.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1529,7 +1529,7 @@
     {
         "nid": "Mani_Katti",
         "name": "Mani Katti",
-        "desc": "Lyn only, effective against horseback and armoured units.",
+        "desc": "Lyn only, effective against horseback and armored units.",
         "icon_nid": "New weapons",
         "icon_index": [
             1,
@@ -1623,7 +1623,7 @@
     {
         "nid": "Al_Sword",
         "name": "Al's Sword",
-        "desc": "",
+        "desc": "Sword wielded by Al.",
         "icon_nid": "New weapons",
         "icon_index": [
             3,
@@ -1698,7 +1698,7 @@
     {
         "nid": "Shamshir",
         "name": "Shamshir",
-        "desc": "For light swordfighters only",
+        "desc": "For light swordfighters only.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -1774,6 +1774,7 @@
                     "Myrmidon",
                     "Swordmaster",
                     "Eirika_Lord",
+                    "Eirika_Great_Lord",
                     "Assassin",
                     "Sword_Bonewalker",
                     "Sword_Wight"
@@ -1788,7 +1789,7 @@
     {
         "nid": "Wo_Dao",
         "name": "Wo Dao",
-        "desc": "",
+        "desc": "For light swordfighters only.",
         "icon_nid": "New weapons",
         "icon_index": [
             4,
@@ -1862,7 +1863,9 @@
                 "prf_class",
                 [
                     "Myrmidon",
-                    "Swordmaster"
+                    "Swordmaster",
+                    "Eirika_Lord",
+                    "Eirika_Great_Lord"
                 ]
             ]
         ]
@@ -2321,7 +2324,7 @@
     {
         "nid": "Sieglinde",
         "name": "Sieglinde",
-        "desc": "Strength +5. Effective against monsters",
+        "desc": "Eirika only. Strength +5. Effective against monsters.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -2416,7 +2419,7 @@
     {
         "nid": "Audhulma",
         "name": "Audhulma",
-        "desc": "Magic +5. Effective against monsters",
+        "desc": "Magic +5. Effective against monsters.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -2667,7 +2670,7 @@
     {
         "nid": "Durandal",
         "name": "Durandal",
-        "desc": "Strength +5. Effective against monsters",
+        "desc": "Strength +5. Effective against monsters.",
         "icon_nid": "New weapons",
         "icon_index": [
             1,
@@ -2759,7 +2762,7 @@
     {
         "nid": "Binding_Blade",
         "name": "Binding Blade",
-        "desc": "Bestows bonuses of +5 Def and +5 Mag upon its wielder. May be used as a consumable item in order to restore 30 HP.",
+        "desc": "Defense/Magic +5. May be used as a consumable item in order to restore 30 HP.",
         "icon_nid": "New weapons",
         "icon_index": [
             1,
@@ -2855,7 +2858,7 @@
     {
         "nid": "Eckesachs",
         "name": "Eckesachs",
-        "desc": "",
+        "desc": "Zephiel only, doubles as a ranged attack.",
         "icon_nid": "New weapons",
         "icon_index": [
             4,
@@ -3230,7 +3233,7 @@
     {
         "nid": "Toxin_Lance",
         "name": "Toxin Lance",
-        "desc": "Poisons on contact",
+        "desc": "On hit, enemy is poisoned.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -3309,7 +3312,7 @@
     {
         "nid": "Killer_Lance",
         "name": "Killer Lance",
-        "desc": "",
+        "desc": "Improves critical hit rate.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -3388,7 +3391,7 @@
     {
         "nid": "Javelin",
         "name": "Javelin",
-        "desc": "",
+        "desc": "Doubles as a ranged attack.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -3463,7 +3466,7 @@
     {
         "nid": "Short_Spear",
         "name": "Short Spear",
-        "desc": "",
+        "desc": "Doubles as a ranged attack.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -3538,7 +3541,7 @@
     {
         "nid": "Spear",
         "name": "Spear",
-        "desc": "",
+        "desc": "Doubles as a ranged attack.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -3692,7 +3695,7 @@
     {
         "nid": "Gant_Lance",
         "name": "Gant's Lance",
-        "desc": "",
+        "desc": "Lance wielded by Gant.",
         "icon_nid": "New weapons",
         "icon_index": [
             3,
@@ -3763,7 +3766,7 @@
     {
         "nid": "Horseslayer",
         "name": "Horseslayer",
-        "desc": "Effective against horseback units",
+        "desc": "Effective against horseback units.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -3850,7 +3853,7 @@
     {
         "nid": "Heavy_Spear",
         "name": "Heavy Spear",
-        "desc": "Effective against armored units",
+        "desc": "Effective against armored units.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -3937,7 +3940,7 @@
     {
         "nid": "Dragonspear",
         "name": "Dragonspear",
-        "desc": "Effective against dragon units",
+        "desc": "Effective against dragon units.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -4202,7 +4205,7 @@
     {
         "nid": "Reginleif",
         "name": "Reginleif",
-        "desc": "Effective against horseback and armoured units.",
+        "desc": "Effective against horseback and armored units.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -4294,7 +4297,7 @@
     {
         "nid": "Vidofnir",
         "name": "Vidofnir",
-        "desc": "Defence +5. Effective against monsters",
+        "desc": "Defence +5. Effective against monsters.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -4551,7 +4554,7 @@
     {
         "nid": "Maltet",
         "name": "Maltet",
-        "desc": "Skill +5. Effective against monsters",
+        "desc": "Skill +5. Effective against monsters.",
         "icon_nid": "New weapons",
         "icon_index": [
             2,
@@ -4868,7 +4871,7 @@
     {
         "nid": "Poison_Axe",
         "name": "Poison Axe",
-        "desc": "Poisons on contact",
+        "desc": "On hit, enemy is poisoned.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -4947,7 +4950,7 @@
     {
         "nid": "Wolf_Beil",
         "name": "Wolf Beil",
-        "desc": "Hector only, effective against horseback and armoured units.",
+        "desc": "Hector only, effective against horseback and armored units.",
         "icon_nid": "New weapons",
         "icon_index": [
             2,
@@ -5041,7 +5044,7 @@
     {
         "nid": "Hatchet",
         "name": "Hatchet",
-        "desc": "",
+        "desc": "Lightweight and easy to hit with.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -5116,7 +5119,7 @@
     {
         "nid": "Hand_Axe",
         "name": "Hand Axe",
-        "desc": "",
+        "desc": "Doubles as a ranged attack.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -5191,7 +5194,7 @@
     {
         "nid": "Tomahawk",
         "name": "Tomahawk",
-        "desc": "",
+        "desc": "Doubles as a ranged attack.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -5266,7 +5269,7 @@
     {
         "nid": "Killer_Axe",
         "name": "Killer Axe",
-        "desc": "",
+        "desc": "Improves critical hit rate.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -6033,7 +6036,7 @@
     {
         "nid": "Battle_Axe",
         "name": "Battle Axe",
-        "desc": "",
+        "desc": "Strong, but difficult to wield.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -6108,7 +6111,7 @@
     {
         "nid": "Garm",
         "name": "Garm",
-        "desc": "Speed +5. Effective against monsters",
+        "desc": "Speed +5. Effective against monsters.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -6274,7 +6277,7 @@
     {
         "nid": "Armads",
         "name": "Armads",
-        "desc": "Defence +5. Effective against monsters",
+        "desc": "Defence +5. Effective against monsters.",
         "icon_nid": "New weapons",
         "icon_index": [
             2,
@@ -6627,7 +6630,7 @@
     {
         "nid": "Poison_Bow",
         "name": "Poison Bow",
-        "desc": "Poisons on contact.",
+        "desc": "On hit, enemy is poisoned.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -6718,7 +6721,7 @@
     {
         "nid": "Killer_Bow",
         "name": "Killer Bow",
-        "desc": "",
+        "desc": "Improves critical hit rate.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -6987,7 +6990,7 @@
     {
         "nid": "Longbow",
         "name": "Longbow",
-        "desc": "",
+        "desc": "Extended attack range.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -7074,7 +7077,7 @@
     {
         "nid": "Nidhogg",
         "name": "Nidhogg",
-        "desc": "Luck +5. Effective against monsters",
+        "desc": "Luck +5. Effective against monsters.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -7253,7 +7256,7 @@
     {
         "nid": "Mulagir",
         "name": "Mulagir",
-        "desc": "Speed +5. Effective against monsters",
+        "desc": "Speed +5. Effective against monsters.",
         "icon_nid": "New weapons",
         "icon_index": [
             3,
@@ -7346,7 +7349,7 @@
     {
         "nid": "Ballista",
         "name": "Ballista",
-        "desc": "",
+        "desc": "A long-range weapon.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -7437,7 +7440,7 @@
     {
         "nid": "Long_Ballista",
         "name": "Long Ballista",
-        "desc": "",
+        "desc": "A super long-range weapon.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -7528,7 +7531,7 @@
     {
         "nid": "Killer_Ballista",
         "name": "Killer Ballis",
-        "desc": "",
+        "desc": "A long-range weapon that improves critical hit rate.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -7688,6 +7691,10 @@
                     144,
                     232
                 ]
+            ],
+            [
+                "battle_animation_music",
+                "Healing"
             ]
         ]
     },
@@ -7763,6 +7770,10 @@
                     144,
                     232
                 ]
+            ],
+            [
+                "battle_animation_music",
+                "Healing"
             ]
         ]
     },
@@ -7838,6 +7849,10 @@
                     144,
                     232
                 ]
+            ],
+            [
+                "battle_animation_music",
+                "Healing"
             ]
         ]
     },
@@ -7913,6 +7928,10 @@
                     144,
                     232
                 ]
+            ],
+            [
+                "battle_animation_music",
+                "Healing"
             ]
         ]
     },
@@ -7976,13 +7995,17 @@
             [
                 "weapon_rank",
                 "A"
+            ],
+            [
+                "battle_animation_music",
+                "Healing"
             ]
         ]
     },
     {
         "nid": "Tiena_Staff",
         "name": "Tiena's Staff",
-        "desc": "",
+        "desc": "Staff wielded by Tiena, restores (User's MAG + 15) HP.",
         "icon_nid": "New weapons",
         "icon_index": [
             3,
@@ -8051,6 +8074,10 @@
                     144,
                     232
                 ]
+            ],
+            [
+                "battle_animation_music",
+                "Healing"
             ]
         ]
     },
@@ -8252,6 +8279,10 @@
             [
                 "restore",
                 null
+            ],
+            [
+                "battle_animation_music",
+                "Healing"
             ]
         ]
     },
@@ -8815,7 +8846,7 @@
     {
         "nid": "Return",
         "name": "Return",
-        "desc": "Send an ally inside the home castle.",
+        "desc": "Sends an ally into the home castle.",
         "icon_nid": "Sword_sheet",
         "icon_index": [
             5,
@@ -8894,7 +8925,7 @@
     {
         "nid": "Rescue",
         "name": "Rescue",
-        "desc": "Bring an ally to a space adjacent to the user",
+        "desc": "Bring an ally to a space adjacent to the user.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -9243,6 +9274,10 @@
             [
                 "restore",
                 null
+            ],
+            [
+                "battle_animation_music",
+                "Healing"
             ]
         ]
     },
@@ -9310,6 +9345,10 @@
             [
                 "restore",
                 null
+            ],
+            [
+                "battle_animation_music",
+                "Healing"
             ]
         ]
     },
@@ -9847,7 +9886,7 @@
     {
         "nid": "Ivaldi",
         "name": "Ivaldi",
-        "desc": "Defense +5. Effective against monsters",
+        "desc": "Defense +5. Effective against monsters.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -10037,7 +10076,7 @@
     {
         "nid": "Aureola",
         "name": "Aureola",
-        "desc": "Magic +5. Effective against monsters",
+        "desc": "Magic +5. Effective against monsters.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -10489,7 +10528,7 @@
     {
         "nid": "Forblaze",
         "name": "Forblaze",
-        "desc": "Luck +5. Effective against monsters",
+        "desc": "Luck +5. Effective against monsters.",
         "icon_nid": "Fire",
         "icon_index": [
             0,
@@ -10941,7 +10980,7 @@
     {
         "nid": "Rexbolt",
         "name": "Rexbolt",
-        "desc": "Skill +5. Effective against monsters",
+        "desc": "Skill +5. Effective against monsters.",
         "icon_nid": "Thunder",
         "icon_index": [
             0,
@@ -11441,7 +11480,7 @@
     {
         "nid": "Excalibur",
         "name": "Excalibur",
-        "desc": "Speed +5. Effective against monsters",
+        "desc": "Speed +5. Effective against monsters.",
         "icon_nid": "Wind",
         "icon_index": [
             0,
@@ -11795,7 +11834,7 @@
     {
         "nid": "Luna",
         "name": "Luna",
-        "desc": "Ignore's enemy resistance",
+        "desc": "Ignore's enemy resistance.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -11977,7 +12016,7 @@
     {
         "nid": "Eclipse",
         "name": "Eclipse",
-        "desc": "Halve's the enemy's current HP",
+        "desc": "Halve's the enemy's current HP.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -12068,7 +12107,7 @@
     {
         "nid": "Gleipnir",
         "name": "Gleipnir",
-        "desc": "Skill +5",
+        "desc": "Skill +5.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -12159,7 +12198,7 @@
     {
         "nid": "Naglfar",
         "name": "Naglfar",
-        "desc": "",
+        "desc": "Lyon only.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -12333,7 +12372,7 @@
     {
         "nid": "Apocalypse",
         "name": "Apocalypse",
-        "desc": "Magic +5. Effective against monsters",
+        "desc": "Magic +5. Effective against monsters.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -12437,7 +12476,7 @@
     {
         "nid": "Ereshkigal",
         "name": "Ereshkigal",
-        "desc": "",
+        "desc": "Nergal only.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -12583,7 +12622,7 @@
     {
         "nid": "Nightmare",
         "name": "Nightmare",
-        "desc": "Sends all enemies in range 3 to sleep",
+        "desc": "Lulls all enemies within 3 tiles into a deep slumber.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -12642,7 +12681,7 @@
     {
         "nid": "Demon_Light",
         "name": "Demon Light",
-        "desc": "",
+        "desc": "A malefic flash that destroys\neverything it touches.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -12702,7 +12741,7 @@
     {
         "nid": "Ravager",
         "name": "Ravager",
-        "desc": "",
+        "desc": "A horrific blow that invites\nthe destruction of all.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -12822,7 +12861,7 @@
     {
         "nid": "Shadowshot",
         "name": "Shadowshot",
-        "desc": "",
+        "desc": "A long-range dark magic bolt.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -12886,7 +12925,7 @@
     {
         "nid": "Sharp_Claw",
         "name": "Sharp Claw",
-        "desc": "",
+        "desc": "A keen, flesh-tearing claw.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -12942,7 +12981,7 @@
     {
         "nid": "Rotten_Claw",
         "name": "Rotten Claw",
-        "desc": "",
+        "desc": "A sharpened, decayed claw.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -12998,7 +13037,7 @@
     {
         "nid": "Fetid_Claw",
         "name": "Fetid Claw",
-        "desc": "",
+        "desc": "A foul talon meant to rend flesh.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -13054,7 +13093,7 @@
     {
         "nid": "Poison_Claw",
         "name": "Poison Claw",
-        "desc": "Poisons on contact",
+        "desc": "A claw dripping with poison.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -13114,7 +13153,7 @@
     {
         "nid": "Lethal_Talon",
         "name": "Lethal Talon",
-        "desc": "Poisons on contact",
+        "desc": "A claw slathered in deadly poison.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -13174,7 +13213,7 @@
     {
         "nid": "Fiery_Fang",
         "name": "Fiery Fang",
-        "desc": "",
+        "desc": "A sharp, piercing fang.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -13230,7 +13269,7 @@
     {
         "nid": "Hellfang",
         "name": "Hellfang",
-        "desc": "",
+        "desc": "A long, daggerlike fang.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -13414,7 +13453,7 @@
     {
         "nid": "Stone",
         "name": "Stone",
-        "desc": "Petrifies on hit",
+        "desc": "Turns targets to stone for a while.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -13864,7 +13903,7 @@
     {
         "nid": "Dragonstone",
         "name": "Dragonstone",
-        "desc": "Effective against monsters",
+        "desc": "Transforms Fae into a dragon. Effective against monsters.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -13961,7 +14000,7 @@
     {
         "nid": "Divine_Dragonstone",
         "name": "Divine Dragonstone",
-        "desc": "Effective against monsters",
+        "desc": "Transforms Fae into a dragon. Effective against monsters.",
         "icon_nid": "Dragonstones",
         "icon_index": [
             0,
@@ -14202,7 +14241,7 @@
     {
         "nid": "Flametongue",
         "name": "Flametongue",
-        "desc": "",
+        "desc": "Dragon's breath, which burns all\nit touches. There is no protection.",
         "icon_nid": "Dragonstones",
         "icon_index": [
             0,
@@ -14272,7 +14311,7 @@
     {
         "nid": "Dark_Breath",
         "name": "Dark Breath",
-        "desc": "",
+        "desc": "A devastating wave of darkness.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -14606,7 +14645,7 @@
     {
         "nid": "Return_Band",
         "name": "Return Band",
-        "desc": "Allows the holder to teleport inside the home castle at will.",
+        "desc": "Allows the holder to teleport into the home castle at will.",
         "icon_nid": "Rings_and_Bands_Sheet",
         "icon_index": [
             4,
@@ -16234,10 +16273,6 @@
             [
                 "weapon_type",
                 "Sword"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16298,10 +16333,6 @@
             [
                 "weapon_type",
                 "Lance"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16362,10 +16393,6 @@
             [
                 "weapon_type",
                 "Axe"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16438,10 +16465,6 @@
                     "show_effectiveness_flash": true,
                     "weapon_effectiveness_multiplied": true
                 }
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16478,10 +16501,6 @@
             [
                 "weapon_type",
                 "Staff"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16534,10 +16553,6 @@
             [
                 "weapon_type",
                 "Fire"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16590,10 +16605,6 @@
             [
                 "weapon_type",
                 "Thunder"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16646,10 +16657,6 @@
             [
                 "weapon_type",
                 "Wind"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16702,10 +16709,6 @@
             [
                 "weapon_type",
                 "Light"
-            ],
-            [
-                "locked",
-                null
             ]
         ]
     },
@@ -16758,46 +16761,6 @@
             [
                 "weapon_type",
                 "Dark"
-            ],
-            [
-                "locked",
-                null
-            ]
-        ]
-    },
-    {
-        "nid": "Convoy_ability",
-        "name": "Convoy",
-        "desc": "Access the convoy.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            7,
-            10
-        ],
-        "components": [
-            [
-                "spell",
-                null
-            ],
-            [
-                "target_ally",
-                null
-            ],
-            [
-                "event_on_hit",
-                "Global convoy_ability"
-            ],
-            [
-                "map_cast_pose",
-                null
-            ],
-            [
-                "no_map_hp_display",
-                null
-            ],
-            [
-                "map_cast_sfx",
-                "Dance2"
             ]
         ]
     },
