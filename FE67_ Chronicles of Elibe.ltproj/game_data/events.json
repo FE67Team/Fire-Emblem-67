@@ -3344,7 +3344,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "#Lord death was split up into two events\u00e2\u20ac\u201da combat_death event and a unit_death event\u00e2\u20ac\u201dso the game can properly run the dramatic Game Over sequence.",
+            "#Lord death was split up into two events, a combat_death event and a unit_death event, so the game can properly run the dramatic Game Over sequence.",
             "sound;Death",
             "remove_unit;Lyn;fade",
             "wait;500",
@@ -3910,6 +3910,8 @@
             "#This tells the game what's for sale in the castle market's armory",
             "game_var;_castleArmoryGoods;[\"Iron_Sword\",\"Slim_Sword\",\"Iron_Lance\",\"Iron_Axe\",\"Vulnerary\",\"Torch\"]",
             "game_var;_castleArmoryStock;[1,2,1,1,3,3]",
+            "#Save the unit who initialized this event so that the game doesn't eat them later",
+            "game_var;initial_unit;{unit.nid}",
             "",
             "#Save the unit's position and then remove them. We do the former in case the player cancels out of a castle, and we do the latter to prevent the player from having a unit simultaneously inside and outside a castle.",
             "game_var;_castlePosition;unit.position",
@@ -4147,11 +4149,10 @@
         "priority": 20,
         "_source": [
             "#pyev1",
-            "",
             "$change_background \"default_background\"",
             "$music \"Combat Preparation\"",
             "",
-            "castleToCheck = []",
+            "#Get the current castle's variable and make it easier to reference",
             "castleVar = \"_castle\" + game.game_vars['_currentCastle'] + \"_occupants\"",
             "castleToCheck = game.game_vars[castleVar]",
             "",
@@ -4181,10 +4182,21 @@
             "if game.game_vars['_chosenUnit'] == 0 or game.game_vars['_chosenUnit'] == 'BACK':",
             "    #Plays the backing out sound",
             "    $sound \"Select 4\"",
-            "    #Also respawns the unit if they've entered the castle, were not teleported here via a Return effect, and have not done anything",
-            "    if unit._has_moved and game.game_vars[\"_return_no_exit\"] == False and not (unit._has_attacked or unit._has_traded or unit.has_rescued or unit.has_dropped or unit.has_taken or unit.has_given):",
-            "        $load_unit unit",
-            "        $add_unit unit game.game_vars['_castlePosition'] \"immediate\"",
+            "    #Unfortunately had to disable returning units from the castle due to buginess",
+            "    ",
+            "    rUnit = unit #Short for \"return unit,\" as in the unit to return. Uses unit as a failsafe",
+            "    #Only True if an initial_unit exists, which only happens when units enter castles",
+            "    if game.game_vars['initial_unit']:",
+            "        #Retrieve the unit who initialized this event. For some reason it's a set.",
+            "        for x in game.game_vars['initial_unit']:",
+            "            rUnit = game.get_unit(x)",
+            "            game.game_vars['initial_unit'] = 0",
+            "            break",
+            "    print(rUnit)",
+            "    #Respawn the unit if they entered the castle, were not teleported here via a Return effect, and have not done anything",
+            "    if rUnit._has_moved and game.game_vars[\"_return_no_exit\"] == False and not (rUnit._has_attacked or rUnit._has_traded or rUnit.has_rescued or rUnit.has_dropped or rUnit.has_taken or rUnit.has_given):",
+            "        $load_unit rUnit",
+            "        $add_unit rUnit game.game_vars['_castlePosition'] \"immediate\"",
             "else:",
             "    $trigger_script \"Global RunCastle_choice\" game.game_vars[\"_chosenUnit\"]"
         ],
@@ -4519,15 +4531,14 @@
             "$add_portrait chosen_unit \"Left\" \"left\", no_block",
             "#$move_portrait chosen_unit \"Left\", no_block",
             "",
+            "#Initialize the list of acted units",
+            "#if game.game_vars[\"acted_units\"] == 0:",
+            "#    game.game_vars[\"acted_units\"] = []",
+            "",
             "#Prevents the unit from getting to act within the castle if they already have.",
-            "if chosen_unit._has_attacked or chosen_unit._has_traded or chosen_unit.has_rescued or chosen_unit.has_dropped or chosen_unit.has_taken or chosen_unit.has_given:",
-            "    #print(chosen_unit,\"has acted already.\")",
-            "    #print(\"Attacked?\",chosen_unit._has_attacked)",
-            "    #print(\"Traded?\",chosen_unit._has_traded)",
-            "    #print(\"Rescued?\",chosen_unit.has_rescued)",
-            "    #print(\"Dropped?\",chosen_unit.has_dropped)",
-            "    #print(\"Taken?\",chosen_unit.has_taken)",
-            "    #print(\"Given?\",chosen_unit.has_given)",
+            "if chosen_unit.nid in game.game_vars[\"acted_units\"] or chosen_unit._has_attacked or chosen_unit._has_traded or chosen_unit.has_rescued or chosen_unit.has_dropped or chosen_unit.has_taken or chosen_unit.has_given:",
+            "    game.game_vars[\"acted_units\"].append(chosen_unit.nid)",
+            "    #print(game.game_vars[\"acted_units\"])",
             "    castle_options = [\"Deploy\"]",
             "else:",
             "    #Unit hasn't acted already, so they get all the options",
@@ -4668,16 +4679,18 @@
             "    print(\"guard\")",
             "    ",
             "elif choice == \"Deploy\":",
-            "    print(\"deploy\")",
+            "    print(\"prevent units from deploying if gate is blocked maybe\")",
             "    $t \"close\"",
             "    $change_background ",
             "    $music_fade_back 500",
             "    $t \"open\"",
-            "    $load_unit chosen_unit \"player\" \"None\"",
             "    $add_unit chosen_unit (2,2) \"fade\"",
+            "    #Removes the unit from the castle list so they don't exist both in and out of the castle",
+            "    castleVar = \"_castle\" + game.game_vars['_currentCastle'] + \"_occupants\"",
+            "    game.game_vars[castleVar].remove(chosen_unit.name)",
+            "    #If the unit has already acted, they don't get to act again",
             "    if chosen_unit._has_attacked or chosen_unit._has_traded or chosen_unit.has_rescued or chosen_unit.has_dropped or chosen_unit.has_taken or chosen_unit.has_given:",
             "        $has_finished chosen_unit",
-            "    ",
             "elif choice == 0 or choice == 'BACK':",
             "    $sound \"Select 4\"",
             "    $trigger_script \"Global RunCastle_units\" chosen_unit "
@@ -5268,24 +5281,6 @@
         "nid": "Global accost_ability"
     },
     {
-        "name": "012_temp",
-        "trigger": null,
-        "level_nid": null,
-        "condition": "False",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "#pyev1",
-            "",
-            "print(unit)",
-            "",
-            "if 'Vantage' not in [skill.nid for skill in target.skills]:",
-            "    print(True)"
-        ],
-        "nid": "Global 012_temp"
-    },
-    {
         "name": "miracle_fe4_ability",
         "trigger": "combat_end",
         "level_nid": null,
@@ -5338,19 +5333,6 @@
             "    game.level_vars[unit_variable] = True"
         ],
         "nid": "Global miracle_fe4_ability_pre"
-    },
-    {
-        "name": "skill_clear",
-        "trigger": null,
-        "level_nid": null,
-        "condition": "True",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            "remove_skill;{unit};new"
-        ],
-        "nid": "Global skill_clear"
     },
     {
         "name": "Love Points - Initialize",
@@ -6614,5 +6596,18 @@
             "remove_portrait;Soldier 6"
         ],
         "nid": "0 HammerAndAnvil"
+    },
+    {
+        "name": "reset_castle_act_list",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "game_var;acted_units;[]"
+        ],
+        "nid": "Global reset_castle_act_list"
     }
 ]

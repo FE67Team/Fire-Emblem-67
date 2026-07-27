@@ -6043,19 +6043,6 @@
                 "generic": false
             },
             {
-                "nid": "Merlinus",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    1
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Dart",
                 "team": "player",
                 "ai": "None",
