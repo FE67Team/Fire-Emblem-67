@@ -345,23 +345,23 @@
     ],
     [
         "gexp_max",
-        30
+        40.0
     ],
     [
         "gexp_min",
-        1
+        5.0
     ],
     [
         "gexp_slope",
-        0.25
+        0.15
     ],
     [
         "gexp_intercept",
-        10
+        15.0
     ],
     [
         "exp_formula",
-        "standard"
+        "gompertz"
     ],
     [
         "kill_multiplier",
@@ -373,7 +373,7 @@
     ],
     [
         "min_exp",
-        1
+        5
     ],
     [
         "default_exp",
@@ -381,15 +381,15 @@
     ],
     [
         "heal_curve",
-        1.0
+        0.586
     ],
     [
         "heal_magnitude",
-        0
+        13
     ],
     [
         "heal_offset",
-        7.0
+        0.0
     ],
     [
         "heal_min",
