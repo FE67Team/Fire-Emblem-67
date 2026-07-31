@@ -598,7 +598,7 @@
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
-                "condition": ""
+                "condition": "always"
             }
         ],
         "priority": 20,
