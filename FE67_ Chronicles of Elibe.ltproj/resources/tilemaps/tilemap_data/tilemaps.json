@@ -58077,7 +58077,9 @@
                 "nid": "Ruin2-1",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "2,39": "35"
+                },
                 "sprite_grid": {
                     "2,39": [
                         "FE67__village_set_1",
@@ -58092,7 +58094,9 @@
                 "nid": "Ruin2-2",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "2,39": "Village Ruins"
+                },
                 "sprite_grid": {
                     "27,10": [
                         "FE67__village_set_1",
@@ -58114,12 +58118,22 @@
                 "nid": "Ruin2-3",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "2,39": "Village Ruins",
+                    "4,39": "35"
+                },
                 "sprite_grid": {
                     "4,39": [
                         "FE67__village_set_1",
                         [
-                            8,
+                            5,
+                            3
+                        ]
+                    ],
+                    "2,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
                             1
                         ]
                     ]
@@ -58129,20 +58143,56 @@
                 "nid": "Ruin2-4",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
-                "sprite_grid": {}
+                "terrain_grid": {
+                    "2,39": "Village Ruins",
+                    "4,39": "Village Ruins"
+                },
+                "sprite_grid": {
+                    "2,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "4,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ]
+                }
             },
             {
                 "nid": "Ruin2-5",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "4,39": "Village Ruins",
+                    "2,39": "Village Ruins",
+                    "2,38": "35"
+                },
                 "sprite_grid": {
                     "2,38": [
                         "FE67__village_set_1",
                         [
                             3,
                             2
+                        ]
+                    ],
+                    "2,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "4,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58151,8 +58201,157 @@
                 "nid": "Ruin2-6",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "2,39": "Village Ruins",
+                    "2,38": "Village Ruins",
+                    "4,39": "Village Ruins"
+                },
                 "sprite_grid": {
+                    "2,38": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "2,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "4,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Ruin2-7",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "4,39": "Village Ruins",
+                    "2,39": "Village Ruins",
+                    "2,38": "Village Ruins",
+                    "4,38": "35"
+                },
+                "sprite_grid": {
+                    "4,38": [
+                        "FE67__village_set_1",
+                        [
+                            5,
+                            2
+                        ]
+                    ],
+                    "2,38": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "2,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "4,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Ruin2-8",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "2,39": "Village Ruins",
+                    "2,38": "Village Ruins",
+                    "4,38": "Village Ruins",
+                    "4,39": "Village Ruins"
+                },
+                "sprite_grid": {
+                    "2,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "2,38": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "4,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "4,38": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            0
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Ruin2-9",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "2,39": "Village Ruins",
+                    "2,38": "Village Ruins",
+                    "4,38": "Village Ruins",
+                    "4,39": "Village Ruins",
+                    "3,38": "35"
+                },
+                "sprite_grid": {
+                    "3,38": [
+                        "FE67__village_set_1",
+                        [
+                            4,
+                            2
+                        ]
+                    ],
+                    "4,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "4,38": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "2,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
                     "2,38": [
                         "FE67__village_set_1",
                         [
@@ -58163,47 +58362,17 @@
                 }
             },
             {
-                "nid": "Ruin2-7",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {},
-                "sprite_grid": {
-                    "4,38": [
-                        "FE67__village_set_1",
-                        [
-                            8,
-                            0
-                        ]
-                    ]
-                }
-            },
-            {
-                "nid": "Ruin2-8",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {},
-                "sprite_grid": {}
-            },
-            {
-                "nid": "Ruin2-9",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {},
-                "sprite_grid": {
-                    "3,38": [
-                        "FE67__village_set_1",
-                        [
-                            4,
-                            2
-                        ]
-                    ]
-                }
-            },
-            {
                 "nid": "Ruin2-10",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "2,39": "Village Ruins",
+                    "2,38": "Village Ruins",
+                    "3,38": "Village Ruins",
+                    "3,39": "Village Ruins",
+                    "4,39": "Village Ruins",
+                    "4,38": "Village Ruins"
+                },
                 "sprite_grid": {
                     "3,38": [
                         "FE67__village_set_1",
@@ -58215,8 +58384,36 @@
                     "3,39": [
                         "FE67__village_set_1",
                         [
+                            7,
+                            1
+                        ]
+                    ],
+                    "4,39": [
+                        "FE67__village_set_1",
+                        [
                             6,
-                            2
+                            1
+                        ]
+                    ],
+                    "4,38": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "2,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "2,38": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            0
                         ]
                     ]
                 }
@@ -58225,14 +58422,43 @@
                 "nid": "Village2",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
-                "sprite_grid": {}
+                "terrain_grid": {
+                    "3,39": "35"
+                },
+                "sprite_grid": {
+                    "3,39": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            2
+                        ]
+                    ]
+                }
             },
             {
                 "nid": "Ruin3-1",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "10,51": "35"
+                },
+                "sprite_grid": {
+                    "10,51": [
+                        "FE67__village_set_1",
+                        [
+                            3,
+                            3
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Ruin3-2",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "10,51": "Village Ruins"
+                },
                 "sprite_grid": {
                     "10,51": [
                         "FE67__village_set_1",
@@ -58244,23 +58470,26 @@
                 }
             },
             {
-                "nid": "Ruin3-2",
-                "visible": false,
-                "foreground": false,
-                "terrain_grid": {},
-                "sprite_grid": {}
-            },
-            {
                 "nid": "Ruin3-3",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "10,51": "Village Ruins",
+                    "12,51": "35"
+                },
                 "sprite_grid": {
                     "12,51": [
                         "FE67__village_set_1",
                         [
                             5,
                             3
+                        ]
+                    ],
+                    "10,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58269,12 +58498,22 @@
                 "nid": "Ruin3-4",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "10,51": "Village Ruins",
+                    "12,51": "Village Ruins"
+                },
                 "sprite_grid": {
                     "12,51": [
                         "FE67__village_set_1",
                         [
                             8,
+                            1
+                        ]
+                    ],
+                    "10,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
                             1
                         ]
                     ]
@@ -58284,13 +58523,31 @@
                 "nid": "Ruin3-5",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "12,51": "Village Ruins",
+                    "10,51": "Village Ruins",
+                    "10,50": "35"
+                },
                 "sprite_grid": {
                     "10,50": [
                         "FE67__village_set_1",
                         [
                             3,
                             2
+                        ]
+                    ],
+                    "10,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "12,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58299,13 +58556,31 @@
                 "nid": "Ruin3-6",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "10,51": "Village Ruins",
+                    "10,50": "Village Ruins",
+                    "12,51": "Village Ruins"
+                },
                 "sprite_grid": {
                     "10,50": [
                         "FE67__village_set_1",
                         [
                             6,
                             0
+                        ]
+                    ],
+                    "10,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "12,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58314,13 +58589,39 @@
                 "nid": "Ruin3-7",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "10,50": "Village Ruins",
+                    "10,51": "Village Ruins",
+                    "12,51": "Village Ruins",
+                    "12,50": "35"
+                },
                 "sprite_grid": {
                     "12,50": [
                         "FE67__village_set_1",
                         [
                             5,
                             2
+                        ]
+                    ],
+                    "12,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "10,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "10,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58329,13 +58630,39 @@
                 "nid": "Ruin3-8",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "10,50": "Village Ruins",
+                    "10,51": "Village Ruins",
+                    "12,50": "Village Ruins",
+                    "12,51": "Village Ruins"
+                },
                 "sprite_grid": {
                     "12,50": [
                         "FE67__village_set_1",
                         [
                             8,
                             0
+                        ]
+                    ],
+                    "12,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "10,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "10,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58344,13 +58671,47 @@
                 "nid": "Ruin3-9",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "10,50": "Village Ruins",
+                    "10,51": "Village Ruins",
+                    "12,50": "Village Ruins",
+                    "12,51": "Village Ruins",
+                    "11,50": "35"
+                },
                 "sprite_grid": {
                     "11,50": [
                         "FE67__village_set_1",
                         [
                             4,
                             2
+                        ]
+                    ],
+                    "10,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "10,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "12,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "12,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58359,7 +58720,14 @@
                 "nid": "Ruin3-10",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "10,50": "Village Ruins",
+                    "10,51": "Village Ruins",
+                    "11,51": "Village Ruins",
+                    "11,50": "Village Ruins",
+                    "12,50": "Village Ruins",
+                    "12,51": "Village Ruins"
+                },
                 "sprite_grid": {
                     "11,50": [
                         "FE67__village_set_1",
@@ -58374,6 +58742,34 @@
                             7,
                             1
                         ]
+                    ],
+                    "10,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "10,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "12,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "12,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
                     ]
                 }
             },
@@ -58381,7 +58777,9 @@
                 "nid": "Village3",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "11,51": "35"
+                },
                 "sprite_grid": {
                     "11,51": [
                         "FE67__village_set_1",
@@ -58397,7 +58795,7 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "17,63": "35"
+                    "18,51": "35"
                 },
                 "sprite_grid": {
                     "18,51": [
@@ -58414,7 +58812,7 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "17,63": "Village Ruins"
+                    "18,51": "Village Ruins"
                 },
                 "sprite_grid": {
                     "18,51": [
@@ -58431,8 +58829,8 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "17,63": "Village Ruins",
-                    "19,63": "35"
+                    "18,51": "Village Ruins",
+                    "20,51": "35"
                 },
                 "sprite_grid": {
                     "20,51": [
@@ -58440,6 +58838,13 @@
                         [
                             5,
                             3
+                        ]
+                    ],
+                    "18,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58449,14 +58854,21 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "17,63": "Village Ruins",
-                    "19,63": "Village Ruins"
+                    "18,51": "Village Ruins",
+                    "20,51": "Village Ruins"
                 },
                 "sprite_grid": {
                     "20,51": [
                         "FE67__village_set_1",
                         [
                             8,
+                            1
+                        ]
+                    ],
+                    "18,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
                             1
                         ]
                     ]
@@ -58467,9 +58879,9 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "17,63": "Village Ruins",
-                    "19,63": "Village Ruins",
-                    "17,62": "35"
+                    "18,51": "Village Ruins",
+                    "20,51": "Village Ruins",
+                    "18,50": "35"
                 },
                 "sprite_grid": {
                     "18,50": [
@@ -58477,6 +58889,20 @@
                         [
                             3,
                             2
+                        ]
+                    ],
+                    "18,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "20,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58486,9 +58912,9 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "19,63": "Village Ruins",
-                    "17,63": "Village Ruins",
-                    "17,62": "Village Ruins"
+                    "20,51": "Village Ruins",
+                    "18,51": "Village Ruins",
+                    "18,50": "Village Ruins"
                 },
                 "sprite_grid": {
                     "18,50": [
@@ -58496,6 +58922,20 @@
                         [
                             6,
                             0
+                        ]
+                    ],
+                    "18,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "20,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58505,10 +58945,10 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "19,63": "Village Ruins",
-                    "17,63": "Village Ruins",
-                    "17,62": "Village Ruins",
-                    "19,62": "35"
+                    "20,51": "Village Ruins",
+                    "18,51": "Village Ruins",
+                    "18,50": "Village Ruins",
+                    "20,50": "35"
                 },
                 "sprite_grid": {
                     "20,50": [
@@ -58516,6 +58956,27 @@
                         [
                             5,
                             2
+                        ]
+                    ],
+                    "18,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "18,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "20,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58525,10 +58986,10 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "19,62": "Village Ruins",
-                    "19,63": "Village Ruins",
-                    "17,63": "Village Ruins",
-                    "17,62": "Village Ruins"
+                    "18,50": "Village Ruins",
+                    "18,51": "Village Ruins",
+                    "20,50": "Village Ruins",
+                    "20,51": "Village Ruins"
                 },
                 "sprite_grid": {
                     "20,50": [
@@ -58536,6 +58997,27 @@
                         [
                             8,
                             0
+                        ]
+                    ],
+                    "20,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "18,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "18,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58545,11 +59027,11 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "17,62": "Village Ruins",
-                    "17,63": "Village Ruins",
-                    "19,62": "Village Ruins",
-                    "19,63": "Village Ruins",
-                    "18,62": "35"
+                    "18,51": "Village Ruins",
+                    "18,50": "Village Ruins",
+                    "20,50": "Village Ruins",
+                    "20,51": "Village Ruins",
+                    "19,50": "35"
                 },
                 "sprite_grid": {
                     "19,50": [
@@ -58557,6 +59039,34 @@
                         [
                             4,
                             2
+                        ]
+                    ],
+                    "18,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "18,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "20,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "20,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58566,12 +59076,12 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "17,62": "Village Ruins",
-                    "17,63": "Village Ruins",
-                    "18,63": "Village Ruins",
-                    "18,62": "Village Ruins",
-                    "19,62": "Village Ruins",
-                    "19,63": "Village Ruins"
+                    "18,51": "Village Ruins",
+                    "19,50": "Village Ruins",
+                    "19,51": "Village Ruins",
+                    "18,50": "Village Ruins",
+                    "20,50": "Village Ruins",
+                    "20,51": "Village Ruins"
                 },
                 "sprite_grid": {
                     "19,50": [
@@ -58587,6 +59097,34 @@
                             7,
                             1
                         ]
+                    ],
+                    "18,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "18,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "20,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "20,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
                     ]
                 }
             },
@@ -58595,7 +59133,7 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "18,63": "35"
+                    "19,51": "35"
                 },
                 "sprite_grid": {
                     "19,51": [
@@ -58612,7 +59150,7 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "39,59": "35"
+                    "40,51": "35"
                 },
                 "sprite_grid": {
                     "40,51": [
@@ -58629,7 +59167,7 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "39,59": "Village Ruins"
+                    "40,51": "Village Ruins"
                 },
                 "sprite_grid": {
                     "40,51": [
@@ -58646,8 +59184,8 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "39,59": "Village Ruins",
-                    "41,59": "35"
+                    "40,51": "Village Ruins",
+                    "42,51": "35"
                 },
                 "sprite_grid": {
                     "42,51": [
@@ -58655,6 +59193,13 @@
                         [
                             5,
                             3
+                        ]
+                    ],
+                    "40,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58664,14 +59209,21 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "39,59": "Village Ruins",
-                    "41,59": "Village Ruins"
+                    "40,51": "Village Ruins",
+                    "42,51": "Village Ruins"
                 },
                 "sprite_grid": {
                     "42,51": [
                         "FE67__village_set_1",
                         [
                             8,
+                            1
+                        ]
+                    ],
+                    "40,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
                             1
                         ]
                     ]
@@ -58682,9 +59234,9 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "39,59": "Village Ruins",
-                    "41,59": "Village Ruins",
-                    "39,58": "35"
+                    "40,51": "Village Ruins",
+                    "42,51": "Village Ruins",
+                    "40,50": "35"
                 },
                 "sprite_grid": {
                     "40,50": [
@@ -58692,6 +59244,20 @@
                         [
                             3,
                             2
+                        ]
+                    ],
+                    "40,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "42,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58701,9 +59267,9 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "39,58": "Village Ruins",
-                    "39,59": "Village Ruins",
-                    "41,59": "Village Ruins"
+                    "40,50": "Village Ruins",
+                    "40,51": "Village Ruins",
+                    "42,51": "Village Ruins"
                 },
                 "sprite_grid": {
                     "40,50": [
@@ -58711,6 +59277,20 @@
                         [
                             6,
                             0
+                        ]
+                    ],
+                    "40,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "42,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58720,10 +59300,10 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "39,58": "Village Ruins",
-                    "39,59": "Village Ruins",
-                    "41,59": "Village Ruins",
-                    "41,58": "35"
+                    "42,50": "35",
+                    "40,50": "Village Ruins",
+                    "40,51": "Village Ruins",
+                    "42,51": "Village Ruins"
                 },
                 "sprite_grid": {
                     "42,50": [
@@ -58731,6 +59311,27 @@
                         [
                             5,
                             2
+                        ]
+                    ],
+                    "42,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "40,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "40,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58740,10 +59341,10 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "41,58": "Village Ruins",
-                    "41,59": "Village Ruins",
-                    "39,59": "Village Ruins",
-                    "39,58": "Village Ruins"
+                    "40,50": "Village Ruins",
+                    "40,51": "Village Ruins",
+                    "42,50": "Village Ruins",
+                    "42,51": "Village Ruins"
                 },
                 "sprite_grid": {
                     "42,50": [
@@ -58751,6 +59352,27 @@
                         [
                             8,
                             0
+                        ]
+                    ],
+                    "42,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "40,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "40,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58760,11 +59382,11 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "39,58": "Village Ruins",
-                    "39,59": "Village Ruins",
-                    "41,58": "Village Ruins",
-                    "41,59": "Village Ruins",
-                    "40,58": "35"
+                    "40,50": "Village Ruins",
+                    "40,51": "Village Ruins",
+                    "42,50": "Village Ruins",
+                    "42,51": "Village Ruins",
+                    "41,50": "35"
                 },
                 "sprite_grid": {
                     "41,50": [
@@ -58772,6 +59394,34 @@
                         [
                             4,
                             2
+                        ]
+                    ],
+                    "40,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "40,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "42,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "42,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            1
                         ]
                     ]
                 }
@@ -58781,12 +59431,12 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "39,58": "Village Ruins",
-                    "39,59": "Village Ruins",
-                    "40,59": "Village Ruins",
-                    "40,58": "Village Ruins",
-                    "41,58": "Village Ruins",
-                    "41,59": "Village Ruins"
+                    "40,51": "Village Ruins",
+                    "40,50": "Village Ruins",
+                    "41,50": "Village Ruins",
+                    "41,51": "Village Ruins",
+                    "42,51": "Village Ruins",
+                    "42,50": "Village Ruins"
                 },
                 "sprite_grid": {
                     "41,50": [
@@ -58802,6 +59452,34 @@
                             7,
                             1
                         ]
+                    ],
+                    "40,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "40,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "42,50": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "42,51": [
+                        "FE67__village_set_1",
+                        [
+                            6,
+                            0
+                        ]
                     ]
                 }
             },
@@ -58810,7 +59488,7 @@
                 "visible": false,
                 "foreground": false,
                 "terrain_grid": {
-                    "40,59": "35"
+                    "41,51": "35"
                 },
                 "sprite_grid": {
                     "41,51": [
