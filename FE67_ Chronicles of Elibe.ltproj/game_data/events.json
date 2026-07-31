@@ -403,7 +403,7 @@
             "speak;SoldierFE7Red;...",
             "remove_portrait;SoldierFE7Red",
             "speak;SoldierFE7Red_1;You traitor!",
-            "speak;Wallace;Know this|we've fought wars together,{br}so because of that I'll{br}give you all a chance to run!|But for those who stay,{br}for Lord Hausen's sake,{br}I won't hold back!",
+            "speak;Wallace;We've fought wars together,{br}so because of that I'll{br}give you all a chance to run!|But for those who stay,{br}for Lord Hausen's sake,{br}I won't hold back!",
             "remove_portrait;SoldierFE7Red_1",
             "remove_portrait;Wallace",
             "transition;Close",
@@ -415,16 +415,7 @@
             "disp_cursor;1",
             "wait;1000",
             "disp_cursor;0",
-            "change_team;Wallace;player",
-            "move_cursor;43,16",
-            "disp_cursor;1",
-            "wait;1000",
-            "add_portrait;SoldierFE7Red;Left",
-            "speak;SoldierFE7Red;Run, tell the others that Wallace has betrayed us!",
-            "remove_portrait;SoldierFE7Red",
-            "add_portrait;SoldierFE7Red_1;Right",
-            "speak;SoldierFE7Red_1;Yes sir!",
-            "remove_portrait;SoldierFE7Red_1"
+            "change_team;Wallace;player"
         ],
         "nid": "0 WallaceAppears"
     },
@@ -6418,13 +6409,13 @@
             "add_portrait;Villager 10;Right;no_block",
             "add_portrait;Erk;Left",
             "speak;Villager 10;Erk! Erk, is that you boy?",
-            "speak;Erk;Miss Raveb? It's dangerous out here!",
+            "speak;Erk;Miss Ragnell? It's dangerous out here!",
             "speak;Villager 10;Things haven't been safe in or outside the village nowadays.|You forgot these when you left your room|had them cluttering the house for weeks.",
             "speak;Erk;Oh. Thank you|I'm sorry that I inconvenienced you.",
             "speak;Villager 10;Nonsense, you were one of my favourite guests!|Now I don't know too much about what's going on here, but if your little army can keep us fed and get the bandits off our back, that'd be two less problems than we had with Lundgren!",
             "remove_portrait;Erk;",
             "remove_portrait;Villager 10",
-            "give_item;Erk;Elthunder"
+            "give_item;Erk;Wind"
         ],
         "nid": "0 ErkVillagerTalk"
     },
