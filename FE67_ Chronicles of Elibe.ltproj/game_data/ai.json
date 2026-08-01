@@ -272,6 +272,47 @@
         "roam_ai": false
     },
     {
+        "nid": "MessengerPrologue",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Arrive",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    33,
+                    28
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
+    },
+    {
         "nid": "FollowBoss",
         "behaviours": [
             {
@@ -582,27 +623,6 @@
         ],
         "priority": 20,
         "offense_bias": 2.0,
-        "roam_ai": false
-    },
-    {
-        "nid": "MessengerPrologue",
-        "behaviours": [
-            {
-                "action": "Move_to",
-                "target": "Unit",
-                "target_spec": [
-                    "Name",
-                    "Yogi"
-                ],
-                "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": "always"
-            }
-        ],
-        "priority": 20,
-        "offense_bias": 2,
         "roam_ai": false
     }
 ]

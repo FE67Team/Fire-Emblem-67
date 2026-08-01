@@ -966,7 +966,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Canto"
+                ],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
@@ -1812,7 +1814,7 @@
             },
             {
                 "nid": "MessengerArrivalSpot",
-                "region_type": "normal",
+                "region_type": "event",
                 "position": [
                     22,
                     22
@@ -1821,9 +1823,9 @@
                     1,
                     1
                 ],
-                "sub_nid": "",
+                "sub_nid": "Arrive",
                 "highlight": null,
-                "condition": "True",
+                "condition": "unit.team == 'enemy'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
@@ -2033,6 +2035,25 @@
                 "sub_nid": "Destructible",
                 "highlight": null,
                 "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
+                "nid": "YogiIsSurpised",
+                "region_type": "normal",
+                "position": [
+                    17,
+                    20
+                ],
+                "size": [
+                    14,
+                    12
+                ],
+                "sub_nid": "",
+                "highlight": null,
+                "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false,
