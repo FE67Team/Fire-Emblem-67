@@ -33,7 +33,7 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    18,
+                    19,
                     2
                 ],
                 "starting_traveler": null,
@@ -111,7 +111,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
+                    19,
                     4
                 ],
                 "starting_traveler": null,
@@ -124,8 +124,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    0
+                    36,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -1771,6 +1771,27 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Granny",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Placeholder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -2292,7 +2313,12 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "1",
