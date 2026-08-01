@@ -5081,6 +5081,175 @@
         "nid": "Global skill_StaffProf"
     },
     {
+        "name": "skill_SwordProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Sword;2;no_banner",
+            "give_skill;{unit};Sword_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};Sword_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_SwordProf_Plus"
+    },
+    {
+        "name": "skill_LanceProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Lance;2;no_banner",
+            "give_skill;{unit};Lance_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};Lance_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_LanceProf_Plus"
+    },
+    {
+        "name": "skill_AxeProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Axe;2;no_banner",
+            "give_skill;{unit};Axe_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};Axe_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_AxeProf_Plus"
+    },
+    {
+        "name": "skill_BowProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Bow;2;no_banner",
+            "give_skill;{unit};Bow_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};Bow_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_BowProf_Plus"
+    },
+    {
+        "name": "skill_LightProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Light;2;no_banner",
+            "give_skill;{unit};Light_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};Light_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_LightProf_Plus"
+    },
+    {
+        "name": "skill_DarkProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Dark;2;no_banner",
+            "give_skill;{unit};Dark_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};Dark_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_DarkProf_Plus"
+    },
+    {
+        "name": "skill_FireProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Fire;2;no_banner",
+            "give_skill;{unit};Fire_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};Fire_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_FireProf_Plus"
+    },
+    {
+        "name": "skill_WindProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Wind;2;no_banner",
+            "give_skill;{unit};Wind_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};Wind_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_WindProf_Plus"
+    },
+    {
+        "name": "skill_MagicProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Fire;2;no_banner",
+            "give_wexp;{unit};Thunder;2;no_banner",
+            "give_wexp;{unit};Wind;2;no_banner",
+            "give_wexp;{unit};Dark;2;no_banner",
+            "give_wexp;{unit};Light;2;no_banner",
+            "give_skill;{unit};All_Magic_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};All_Magic_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_MagicProf_Plus"
+    },
+    {
+        "name": "skill_ThunderProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Thunder;2;no_banner",
+            "give_skill;{unit};Thunder_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};Thunder_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_ThunderProf_Plus"
+    },
+    {
+        "name": "skill_StaffProf_Plus",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_wexp;{unit};Staff;2;no_banner",
+            "give_skill;{unit};Staff_Proficiency_Plus_visonly;no_banner",
+            "remove_skill;{unit};Staff_Proficiency_Plus;no_banner"
+        ],
+        "nid": "Global skill_StaffProf_Plus"
+    },
+    {
         "name": "getItems_preCombat",
         "trigger": "combat_start",
         "level_nid": null,
