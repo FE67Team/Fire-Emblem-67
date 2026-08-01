@@ -6411,7 +6411,7 @@
         "name": "Death_Beyard/Generic",
         "trigger": "combat_death",
         "level_nid": "0",
-        "condition": "unit.nid == \"Beyard\" and check_default('Eagler',['Lyn','Sain','Kent'])",
+        "condition": "unit.nid == \"Beyard\" and check_default('Beyard',['Lyn','Sain','Kent'])",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -6614,7 +6614,7 @@
         "nid": "0 VillageGetsAttacked"
     },
     {
-        "name": "VillageAlmostGestroyed",
+        "name": "VillageAlmostDestroyed",
         "trigger": "turn_change",
         "level_nid": "0",
         "condition": "game.level_vars['Village04Damage'] == 5  or game.level_vars['Village05Damage'] == 5",
@@ -6631,6 +6631,8 @@
             "speak;Eagler;My loyalty demands I sit idly no more!",
             "remove_portrait;Lundgren",
             "remove_portrait;Eagler",
+            "change_team;Eagler;other",
+            "#Should also change Eagler's squad to green",
             "if;game.check_dead('Sain' == False);",
             "    add_portrait;Sain;Left",
             "    speak;Sain;Lyn, This is my hometown, we can't leave them like this!",
@@ -6640,9 +6642,10 @@
             "    add_portrait;Kent;Left",
             "    speak;Kent;...Are we really going to standby and let this happen?|Lady Lyn, if we can               help them...",
             "    remove_portrait;Kent",
+            "    ",
             ""
         ],
-        "nid": "0 VillageAlmostGestroyed"
+        "nid": "0 VillageAlmostDestroyed"
     },
     {
         "name": "Talk_Lyn/Eagler",
@@ -6663,8 +6666,9 @@
             "remove_portrait;Eagler",
             "remove_portrait;Lyn",
             "change_team;Eagler;player",
-            "add_region;Seize3;{unit};51,77;event;Seize",
-            "if; game.check_dead('Wallace') == False and ",
+            "add_region;Seize3;51,77;1,1;event;Seize",
+            "region_condition;Seize3;('Lord' in unit.tags)",
+            "if; game.check_dead('Wallace') == False ",
             "    trigger_script;0 HammerAndAnvil",
             "",
             "    "
@@ -6707,19 +6711,6 @@
             "game_var;acted_units;[]"
         ],
         "nid": "Global reset_castle_act_list"
-    },
-    {
-        "name": "Recruit_Eagler ",
-        "trigger": null,
-        "level_nid": "0",
-        "condition": "True",
-        "commands": [],
-        "only_once": false,
-        "priority": 20,
-        "_source": [
-            ""
-        ],
-        "nid": "0 Recruit_Eagler "
     },
     {
         "name": "VillageSaved_Sain",
@@ -6947,13 +6938,13 @@
             "add_portrait;SoldierFE7Red_1;MidRight",
             "speak;SoldierFE7Red;They're at the bridges!",
             "speak;SoldierFE7Red_1;Should we run? Is it over?",
-            "add_portrait;SoldierFE7Red_2;FarLeft",
-            "speak;SoldierFE7Red_2;E-everyone, remain calm!|Keep your formation, and-",
+            "add_portrait;Soldier 6;FarLeft",
+            "speak;Soldier 6;E-everyone, remain calm!|Keep your formation, and-",
             "add_portrait;Lundgren;MidLeft",
             "speak;Lundgren;STAND YOUR GROUND!",
             "bop_portrait;SoldierFE7Red;1",
             "bop_portrait;SoldierFE7Red_1;1",
-            "bop_portrait;SoldierFE7Red_2;1",
+            "bop_portrait;Soldier 6;1",
             "",
             "speak;Lundgren;The Sacaean scum has murdered your families.|Remember what they took from you! ",
             "speak;SoldierFE7Red;But Wallace and Sain have joined them!|We'll die!",
@@ -6963,7 +6954,7 @@
             "speak;;AYE!",
             "remove_portrait;SoldierFE7Red",
             "remove_portrait;SoldierFE7Red_1",
-            "remove_portrait;SoldierFE7Red_2",
+            "remove_portrait;Soldier 6",
             "remove_portrait;Lundgren"
         ],
         "nid": "0 LundgrenIntro"
