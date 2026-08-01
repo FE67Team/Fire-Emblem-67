@@ -3976,7 +3976,7 @@
             "t;close",
             "game_var;_castleType;1",
             "game_var;_return_no_exit;False",
-            "game_var;_currentCastle;\"Eagler's_castle\"",
+            "game_var;_currentCastle;\"Eagler's Castle\"",
             "game_var;_castleArmoryGoods;[\"Iron_Sword\",\"Vulnerary\"]",
             "game_var;_castleArmoryStock;[99,99]",
             "game_var;initial_unit;{unit.nid}",
@@ -3999,7 +3999,7 @@
             "t;close",
             "game_var;_castleType;1",
             "game_var;_return_no_exit;False",
-            "game_var;_currentCastle;\"Beyard's_castle\"",
+            "game_var;_currentCastle;\"Beyard's Castle\"",
             "game_var;_castleArmoryGoods;[\"Iron_Sword\",\"Vulnerary\"]",
             "game_var;_castleArmoryStock;[99,99]",
             "game_var;initial_unit;{unit.nid}",
@@ -6193,7 +6193,7 @@
     },
     {
         "name": "Seize2",
-        "trigger": "Seize ",
+        "trigger": "Seize",
         "level_nid": "0",
         "condition": "region.nid == 'Seize2' and 'Lord' in unit.tags",
         "commands": [],
@@ -6236,6 +6236,7 @@
             "give_item;Nils;Ninis_s_Grace",
             "remove_region;Seize2",
             "add_region;Visit2;7,13;1,1;event;Visit",
+            "game_var;_castleBeyard's Castle_occupants;[]",
             "battle_save;immediately",
             "has_visited;{unit}",
             "has_finished;{unit}"
@@ -6244,7 +6245,7 @@
     },
     {
         "name": "Seize3",
-        "trigger": "Seize ",
+        "trigger": "Seize",
         "level_nid": "0",
         "condition": "region.nid == 'Seize3' and 'Lord' in unit.tags",
         "commands": [],
@@ -6254,6 +6255,7 @@
             "hide_layer;Barrier2",
             "remove_region;Seize3",
             "add_region;Visit3;41,62;1,1;event;Visit",
+            "game_var;_castleEagler's Castle_occupants;[]",
             "battle_save;immediately",
             "has_visited;{unit}",
             "has_finished;{unit}"
@@ -6266,7 +6268,7 @@
         "level_nid": "0",
         "condition": "game.level_vars['Nils_Event'] == 1",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "wait;1000",
