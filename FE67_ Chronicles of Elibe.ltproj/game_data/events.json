@@ -6076,7 +6076,7 @@
     },
     {
         "name": "Seize3",
-        "trigger": "Seize ",
+        "trigger": "Seize",
         "level_nid": "0",
         "condition": "region.nid == 'Seize3' and 'Lord' in unit.tags",
         "commands": [],
