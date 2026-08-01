@@ -2079,6 +2079,22 @@
                 "only_once": false,
                 "interrupt_move": false,
                 "hide_time": false
+            },
+            {
+                "nid": "placeholder",
+                "region_type": "event",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
             }
         ],
         "unit_groups": [
