@@ -3942,7 +3942,7 @@
             "t;close",
             "#_castleType 0 is your home castle",
             "#_castleType 1 is a captured castle",
-            "game_var;_castleType;0",
+            "game_var;_castleType;1",
             "#Tells the game that this is a normal, exitable castle.",
             "game_var;_return_no_exit;False",
             "#_current_castle is a string that is used when looking up what castle's unit list to use. The home castle must always use \"Home\"",
@@ -3963,6 +3963,52 @@
             "trigger_script;Global RunCastle_units;{unit}"
         ],
         "nid": "0 Seize1_enter_castle"
+    },
+    {
+        "name": "Seize3_enter_castle",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Visit3'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close",
+            "game_var;_castleType;1",
+            "game_var;_return_no_exit;False",
+            "game_var;_currentCastle;\"Eagler's_castle\"",
+            "game_var;_castleArmoryGoods;[\"Iron_Sword\",\"Vulnerary\"]",
+            "game_var;_castleArmoryStock;[99,99]",
+            "game_var;initial_unit;{unit.nid}",
+            "game_var;_castlePosition;unit.position",
+            "remove_unit;{unit}",
+            "t;open;0;no_block",
+            "trigger_script;Global RunCastle_units;{unit}"
+        ],
+        "nid": "0 Seize3_enter_castle"
+    },
+    {
+        "name": "Seize2_enter_castle",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'Visit2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close",
+            "game_var;_castleType;1",
+            "game_var;_return_no_exit;False",
+            "game_var;_currentCastle;\"Beyard's_castle\"",
+            "game_var;_castleArmoryGoods;[\"Iron_Sword\",\"Vulnerary\"]",
+            "game_var;_castleArmoryStock;[99,99]",
+            "game_var;initial_unit;{unit.nid}",
+            "game_var;_castlePosition;unit.position",
+            "remove_unit;{unit}",
+            "t;open;0;no_block",
+            "trigger_script;Global RunCastle_units;{unit}"
+        ],
+        "nid": "0 Seize2_enter_castle"
     },
     {
         "name": "enter_castleReturn",
@@ -5782,10 +5828,10 @@
             "give_money;{unit};{e:5000 - 500 * game.level_vars['Village04Damage']}",
             "has_visited;{unit}",
             "if;unit.nid == \"Sain\"",
-            "    trigger_script;VillageSaved_Sain",
+            "    trigger_script;0 VillageSaved_Sain",
             "    end",
             "else;",
-            "    trigger_script;VillageSaved_Generic"
+            "    trigger_script;0 VillageSaved_Generic"
         ],
         "nid": "0 Village4"
     },
@@ -5808,11 +5854,12 @@
             "show_layer;Village5",
             "change_background",
             "transition;Open",
-            "#Heal to full and get +3 HP",
+            "set_current_hp;{unit};{e:unit.get_hp() + 15}",
+            "change_stats;{unit};HP,3",
             "give_item;{unit};Vulnerary",
             "give_money;{unit};{e:5000 - 500 * game.level_vars['Village05Damage']}",
             "has_visited;{unit}",
-            "trigger_script;VillageSaved_Generic"
+            "trigger_script;0 VillageSaved_Generic"
         ],
         "nid": "0 Village5_Lyn/Rath"
     },
@@ -5835,14 +5882,14 @@
             "show_layer;Village5",
             "change_background",
             "transition;Open",
-            "unit.hp += 5",
             "give_money;{unit};{e:5000 - 500 * game.level_vars['Village05Damage']}",
             "has_visited;{unit}",
+            "set_current_hp;{unit};{e:unit.get_hp() + 15}",
             "if;unit.nid == \"Sain\"",
-            "    trigger_script;VillageSaved_Sain",
+            "    trigger_script;0 VillageSaved_Sain",
             "    end",
             "else;",
-            "    trigger_script;VillageSaved_Generic"
+            "    trigger_script;0 VillageSaved_Generic"
         ],
         "nid": "0 Village5"
     },
@@ -5966,7 +6013,7 @@
             "change_background",
             "transition;Open",
             "remove_region;Seize1",
-            "level_var;Castle1_Seized;1",
+            "level_var;Nils_Event;1",
             "add_region;Visit1;22,22;1,1;event;Visit",
             "game_var;_castleKathelet_occupants;[]",
             "battle_save;immediately",
@@ -5994,7 +6041,7 @@
             "change_background;InsideCastle",
             "transition;Open",
             "add_portrait;Lyn;Left",
-            "if;x = True; ",
+            "if;game.level_vars['Nils_Event'] == 2",
             "    add_portrait;Nils;Right",
             "    bop_portrait;Nils",
             "    speak;Nils;That's my ring! I hate to ask, b-but...",
@@ -6017,6 +6064,7 @@
             "transition;Close",
             "change_background",
             "transition;Open",
+            "give_item;Nils;Ninis_s_Grace",
             "remove_region;Seize2",
             "add_region;Visit2;7,13;1,1;event;Visit",
             "battle_save;immediately",
@@ -6035,13 +6083,6 @@
         "priority": 20,
         "_source": [
             "hide_layer;Barrier2",
-            "transition;open",
-            "change_background;InsideCastle",
-            "add_portrait;Lyn;Left",
-            "speak;Lyn;Wait where is Kent?",
-            "transition;close",
-            "change_background",
-            "transition;Open",
             "remove_region;Seize3",
             "add_region;Visit3;41,62;1,1;event;Visit",
             "battle_save;immediately",
@@ -6054,7 +6095,7 @@
         "name": "NilsAppears",
         "trigger": "turn_change",
         "level_nid": "0",
-        "condition": "game.level_vars['Castle1_Seized'] == 1",
+        "condition": "game.level_vars['Nils_Event'] == 1",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -6478,6 +6519,13 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "level_var;move_pos_x;unit.position[0]",
+            "level_var;move_pos_y;unit.position[1]+1",
+            "move_cursor;40,17;",
+            "add_unit;Granny;40,17;",
+            "wait;100",
+            "",
+            "move_unit;Granny;{v:move_pos_x},{v:move_pos_y};normal",
             "add_portrait;Villager 10;Right;no_block",
             "add_portrait;Erk;Left",
             "speak;Villager 10;Erk! Erk, is that you boy?",
@@ -6487,7 +6535,9 @@
             "speak;Villager 10;Nonsense, you were one of my favourite guests!|Now I don't know too much about what's going on here, but if your little army can keep us fed and get the bandits off our back, that'd be two less problems than we had with Lundgren!",
             "remove_portrait;Erk;",
             "remove_portrait;Villager 10",
-            "give_item;Erk;Wind"
+            "give_item;Erk;Wind",
+            "move_unit;Granny;40, 17;normal",
+            "remove_unit;Granny"
         ],
         "nid": "0 ErkVillagerTalk"
     },
@@ -6501,7 +6551,7 @@
         "priority": 20,
         "_source": [
             "#Add region: name ; position (x,y) ; size (x,y) ; type ; command text",
-            "add_region;Seize1;28,22;1,1;event;Seize",
+            "add_region;Seize1;22,22;1,1;event;Seize",
             "#Makes it so the region's command only shows up for lords (the only ones who can seize)",
             "region_condition;Seize1;('Lord' in unit.tags)"
         ],
@@ -6516,7 +6566,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;Seize2;4,10;1,1;event;Seize",
+            "add_region;Seize2;7,13;1,1;event;Seize",
             "region_condition;Seize2;('Lord' in unit.tags)"
         ],
         "nid": "0 Defeat Beyard"
@@ -6530,8 +6580,10 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;Seize3;51,77;1,1;event;Seize",
-            "region_condition;Seize3;('Lord' in unit.tags)"
+            "add_region;Seize3;41,62;1,1;event;Seize",
+            "region_condition;Seize3;('Lord' in unit.tags)",
+            "hide_layer;Barrier2",
+            "battle_save;immediately"
         ],
         "nid": "0 Defeat Eagler"
     },
@@ -6544,7 +6596,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;Seize4;6,80;1,1;event;Seize",
+            "add_region;Seize4;2,56;1,1;event;Seize",
             "region_condition;Seize4;('Lord' in unit.tags)"
         ],
         "nid": "0 Defeat Lundgren"
@@ -6574,7 +6626,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "level_var;Castle1_Seized;True",
+            "level_var;Castle1_Seized;2",
             "add_portrait;Lyn;Left",
             "add_portrait;Nils;Right",
             "speak;Nils;Ah! F-found you! You lead the army, right?",
@@ -6632,7 +6684,7 @@
             "remove_portrait;Lundgren",
             "remove_portrait;Eagler",
             "change_team;Eagler;other",
-            "#Should also change Eagler's squad to green",
+            "#Should also change Eagler's squad to green and set their Ai to try to save the village",
             "if;game.check_dead('Sain' == False);",
             "    add_portrait;Sain;Left",
             "    speak;Sain;Lyn, This is my hometown, we can't leave them like this!",
@@ -6666,6 +6718,9 @@
             "remove_portrait;Eagler",
             "remove_portrait;Lyn",
             "change_team;Eagler;player",
+            "remove_region;Seize3",
+            "hide_layer;Barrier2",
+            "battle_save;immediately",
             "add_region;Seize3;51,77;1,1;event;Seize",
             "region_condition;Seize3;('Lord' in unit.tags)",
             "if; game.check_dead('Wallace') == False ",
@@ -6757,7 +6812,7 @@
             "add_portrait;Eagler;Left",
             "speak;Eagler;All units, retreat!|Lundgren has abandoned us while the enemy has saved our homes|we will serve that madman no more!",
             "remove_portrait;Eagler",
-            "move_cursor;Lundgren",
+            "flicker_cursor;Lundgren",
             "add_portrait;Lundgren;Left",
             "speak;Lundgren;You bastard|kill the traitors! Leave none alive!",
             "remove_portrait;Lundgren",
@@ -6906,7 +6961,7 @@
     },
     {
         "name": "PirateAttack",
-        "trigger": "turn_change",
+        "trigger": null,
         "level_nid": "0",
         "condition": "True",
         "commands": [],
