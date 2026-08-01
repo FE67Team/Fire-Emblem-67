@@ -3976,7 +3976,7 @@
             "t;close",
             "game_var;_castleType;1",
             "game_var;_return_no_exit;False",
-            "game_var;_currentCastle;\"Eagler's_castle\"",
+            "game_var;_currentCastle;\"Eagler's Castle\"",
             "game_var;_castleArmoryGoods;[\"Iron_Sword\",\"Vulnerary\"]",
             "game_var;_castleArmoryStock;[99,99]",
             "game_var;initial_unit;{unit.nid}",
@@ -6086,6 +6086,7 @@
             "hide_layer;Barrier2",
             "remove_region;Seize3",
             "add_region;Visit3;41,62;1,1;event;Visit",
+            "game_var;_castleEagler's Castle_occupants;[]",
             "battle_save;immediately",
             "has_visited;{unit}",
             "has_finished;{unit}"
