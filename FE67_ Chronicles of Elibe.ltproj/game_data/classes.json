@@ -164,10 +164,11 @@
             "Eirika_Great_Lord"
         ],
         "tags": [
+            "AutoPromote",
             "Sword",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 16,
             "STR": 4,
@@ -477,7 +478,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Eirika_Great_Lord",
+        "map_sprite_nid": "EirikaGreatLord",
         "combat_anim_nid": "Eirika_Great_Lord",
         "fields": []
     },
@@ -492,9 +493,10 @@
             "Ephraim_Great_Lord"
         ],
         "tags": [
+            "AutoPromote",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 18,
             "STR": 6,
@@ -638,7 +640,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Ephraim_Lord",
+        "map_sprite_nid": "EphraimLord",
         "combat_anim_nid": "Ephraim_Lord",
         "fields": []
     },
@@ -803,7 +805,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Ephraim_Great_Lord",
+        "map_sprite_nid": "EphraimGreatLord",
         "combat_anim_nid": "Ephraim_Great_Lord",
         "fields": []
     },
@@ -818,10 +820,11 @@
             "Blade_Lord"
         ],
         "tags": [
+            "AutoPromote",
             "Sword",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 21,
             "STR": 4,
@@ -891,7 +894,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                4,
+                2,
                 null
             ],
             "Lance": [
@@ -965,7 +968,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Lord (F) Lyn Sword {IS}-stand",
+        "map_sprite_nid": "LynLord",
         "combat_anim_nid": "Lyn_Lord",
         "fields": []
     },
@@ -1051,7 +1054,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                4,
+                3,
                 null
             ],
             "Lance": [
@@ -1125,7 +1128,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Blade Lord (F) Lyn Sword {IS}-stand",
+        "map_sprite_nid": "LynGreatLord",
         "combat_anim_nid": "Lyn_Great_Lord",
         "fields": []
     },
@@ -1140,10 +1143,11 @@
             "Knight_Lord"
         ],
         "tags": [
+            "AutoPromote",
             "Sword",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 23,
             "STR": 5,
@@ -1213,7 +1217,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                4,
+                2,
                 null
             ],
             "Lance": [
@@ -1287,7 +1291,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Lord (M) Eliwood Sword {IS}-stand",
+        "map_sprite_nid": "EliwoodLord",
         "combat_anim_nid": "Eliwood_Lord",
         "fields": []
     },
@@ -1453,7 +1457,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Knight Lord (M) Eliwood Sword {IS}-stand",
+        "map_sprite_nid": "EliwoodGreatLord",
         "combat_anim_nid": "Eliwood_Great_Lord",
         "fields": []
     },
@@ -1468,9 +1472,11 @@
             "Hector_Great_Lord"
         ],
         "tags": [
+            "Armor",
+            "AutoPromote",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "MOV": 24,
             "CON": 0,
@@ -1550,7 +1556,7 @@
             ],
             "Axe": [
                 true,
-                4,
+                2,
                 null
             ],
             "Bow": [
@@ -1614,7 +1620,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Lord (M) Hector Axe {IS}-stand",
+        "map_sprite_nid": "HectorLord",
         "combat_anim_nid": "Hectro_Lord",
         "fields": []
     },
@@ -1627,6 +1633,7 @@
         "promotes_from": "Hector_Lord",
         "turns_into": [],
         "tags": [
+            "Armor",
             "ArenaIgnore"
         ],
         "max_level": 40,
@@ -1773,7 +1780,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Great Lord (M) Hector {IS}-stand",
+        "map_sprite_nid": "HectorGreatLord",
         "combat_anim_nid": "Hector_Great_Lord",
         "fields": []
     },
@@ -1788,10 +1795,11 @@
             "Roy_Great_Lord"
         ],
         "tags": [
+            "AutoPromote",
             "Sword",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 18,
             "STR": 3,
@@ -1935,7 +1943,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Lord (M) Roy T1 {IS}-stand",
+        "map_sprite_nid": "RoyLord",
         "combat_anim_nid": "Roy_Lord",
         "fields": []
     },
@@ -2095,7 +2103,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Lord (M) Roy T2 {IS}-stand",
+        "map_sprite_nid": "RoyGreatLord",
         "combat_anim_nid": "Roy_Great_Lord",
         "fields": []
     },
@@ -2254,330 +2262,12 @@
             0,
             0
         ],
-        "map_sprite_nid": "Dancer (F) Ninian {IS}-stand",
-        "combat_anim_nid": "DancerNinian",
+        "map_sprite_nid": "Dancer",
+        "combat_anim_nid": "Dancer",
         "fields": []
     },
     {
-        "nid": "Dancer_Lalum",
-        "name": "Dancer",
-        "desc": "Entertainers who dance to support their\nallies. Cannot attack.",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [],
-        "tags": [
-            "ArenaIgnore"
-        ],
-        "max_level": 40,
-        "bases": {
-            "HP": 14,
-            "STR": 1,
-            "SKL": 2,
-            "SPD": 7,
-            "MAG": 1,
-            "MOV": 28,
-            "CON": 0,
-            "LCK": 0,
-            "DEF": 0,
-            "LEAD": 0
-        },
-        "growths": {
-            "HP": 60,
-            "STR": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 20,
-            "DEF": 20,
-            "MAG": 20,
-            "MOV": 0,
-            "CON": 0,
-            "LEAD": 0
-        },
-        "growth_bonus": {
-            "DEF": 0,
-            "MOV": 0,
-            "CON": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "HP": 0,
-            "SPD": 0,
-            "MAG": 0,
-            "LEAD": 0
-        },
-        "promotion": {
-            "DEF": 0,
-            "MOV": 0,
-            "CON": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "HP": 0,
-            "SPD": 0,
-            "MAG": 0,
-            "LEAD": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 20,
-            "SKL": 20,
-            "SPD": 20,
-            "LCK": 30,
-            "DEF": 20,
-            "MAG": 20,
-            "MOV": 60,
-            "CON": 20,
-            "LEAD": 30
-        },
-        "learned_skills": [
-            [
-                1,
-                "Refresh"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                null
-            ],
-            "Lance": [
-                false,
-                0,
-                null
-            ],
-            "Axe": [
-                false,
-                0,
-                null
-            ],
-            "Bow": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
-                false,
-                0,
-                null
-            ],
-            "Light": [
-                false,
-                0,
-                null
-            ],
-            "Dark": [
-                false,
-                0,
-                null
-            ],
-            "Fire": [
-                false,
-                0,
-                null
-            ],
-            "Thunder": [
-                false,
-                0,
-                null
-            ],
-            "Wind": [
-                false,
-                0,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                null
-            ],
-            "Dragonstone": [
-                true,
-                0,
-                null
-            ],
-            "Wind_1": [
-                false,
-                0,
-                null
-            ],
-            "": [
-                false,
-                0,
-                null
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Dancer (F) Larum {IS}-stand",
-        "combat_anim_nid": "DancerLalum",
-        "fields": []
-    },
-    {
-        "nid": "Bard_Nils",
-        "name": "Bard",
-        "desc": "Musicians whose melodies\naid allies. Unable to attack.",
-        "tier": 1,
-        "movement_group": "Light Foot",
-        "promotes_from": null,
-        "turns_into": [],
-        "tags": [
-            "ArenaIgnore"
-        ],
-        "max_level": 40,
-        "bases": {
-            "HP": 19,
-            "STR": 1,
-            "SKL": 2,
-            "SPD": 7,
-            "MAG": 0,
-            "MOV": 28,
-            "CON": 0,
-            "DEF": 1,
-            "LCK": 0,
-            "LEAD": 0
-        },
-        "growths": {
-            "HP": 45,
-            "STR": 45,
-            "SKL": 30,
-            "SPD": 60,
-            "LCK": 70,
-            "MAG": 13,
-            "MOV": 0,
-            "DEF": 0,
-            "CON": 0,
-            "LEAD": 0
-        },
-        "growth_bonus": {
-            "DEF": 0,
-            "MOV": 0,
-            "CON": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "HP": 0,
-            "SPD": 0,
-            "MAG": 0,
-            "LEAD": 0
-        },
-        "promotion": {
-            "HP": 0,
-            "STR": 0,
-            "SKL": 0,
-            "SPD": 0,
-            "DEF": 0,
-            "MOV": 0,
-            "CON": 0,
-            "LCK": 0,
-            "MAG": 0,
-            "LEAD": 0
-        },
-        "max_stats": {
-            "HP": 60,
-            "STR": 10,
-            "SKL": 10,
-            "SPD": 30,
-            "LCK": 30,
-            "DEF": 24,
-            "MAG": 26,
-            "MOV": 60,
-            "CON": 20,
-            "LEAD": 30
-        },
-        "learned_skills": [
-            [
-                1,
-                "Refresh"
-            ]
-        ],
-        "wexp_gain": {
-            "Sword": [
-                false,
-                0,
-                null
-            ],
-            "Lance": [
-                false,
-                0,
-                null
-            ],
-            "Axe": [
-                false,
-                0,
-                null
-            ],
-            "Bow": [
-                false,
-                0,
-                null
-            ],
-            "Staff": [
-                false,
-                0,
-                null
-            ],
-            "Light": [
-                false,
-                0,
-                null
-            ],
-            "Dark": [
-                false,
-                0,
-                null
-            ],
-            "Fire": [
-                false,
-                0,
-                null
-            ],
-            "Thunder": [
-                false,
-                0,
-                null
-            ],
-            "Wind": [
-                false,
-                0,
-                null
-            ],
-            "Default": [
-                false,
-                0,
-                null
-            ],
-            "Dragonstone": [
-                true,
-                0,
-                null
-            ],
-            "Wind_1": [
-                false,
-                0,
-                null
-            ],
-            "": [
-                false,
-                0,
-                null
-            ]
-        },
-        "icon_nid": "Generic_Portrait_Citizen",
-        "icon_index": [
-            0,
-            0
-        ],
-        "map_sprite_nid": "Bard (M) Nils {IS}-stand",
-        "combat_anim_nid": "BardNils",
-        "fields": []
-    },
-    {
-        "nid": "Bard_Elfin",
+        "nid": "Bard",
         "name": "Bard",
         "desc": "",
         "tier": 1,
@@ -2604,12 +2294,12 @@
             "DEF": 0,
             "MOV": 0,
             "CON": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "HP": 0,
-            "SPD": 0,
-            "MAG": 0,
+            "LCK": 70,
+            "SKL": 30,
+            "STR": 45,
+            "HP": 45,
+            "SPD": 60,
+            "MAG": 13,
             "LEAD": 0
         },
         "growth_bonus": {
@@ -2637,15 +2327,15 @@
             "LEAD": 0
         },
         "max_stats": {
-            "DEF": 0,
+            "DEF": 24,
             "MOV": 60,
-            "CON": 0,
-            "LCK": 0,
-            "SKL": 0,
-            "STR": 0,
-            "HP": 0,
-            "SPD": 0,
-            "MAG": 0,
+            "CON": 20,
+            "LCK": 30,
+            "SKL": 10,
+            "STR": 10,
+            "HP": 60,
+            "SPD": 30,
+            "MAG": 26,
             "LEAD": 30
         },
         "learned_skills": [
@@ -2731,8 +2421,8 @@
             0,
             0
         ],
-        "map_sprite_nid": "Bard (M) Elffin {IS}-stand",
-        "combat_anim_nid": "BardElphin",
+        "map_sprite_nid": "Bard",
+        "combat_anim_nid": "Bard",
         "fields": []
     },
     {
@@ -2747,9 +2437,10 @@
             "Assassin"
         ],
         "tags": [
+            "AutoPromote",
             "Sword"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 16,
             "STR": 4,
@@ -3080,9 +2771,10 @@
             "Nomad_Trooper"
         ],
         "tags": [
+            "AutoPromote",
             "Sword"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -3409,9 +3101,10 @@
             "Rogue"
         ],
         "tags": [
+            "AutoPromote",
             "Sword"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 16,
             "STR": 3,
@@ -4064,8 +3757,10 @@
         "movement_group": "Light Foot",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
-        "max_level": 40,
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 20,
         "bases": {
             "HP": 20,
             "STR": 3,
@@ -4226,9 +3921,10 @@
         ],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "AutoPromote"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -4393,9 +4089,10 @@
         ],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "AutoPromote"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -4560,9 +4257,10 @@
         ],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "AutoPromote"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -4727,9 +4425,10 @@
         ],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "AutoPromote"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -5223,9 +4922,10 @@
         ],
         "tags": [
             "Mounted",
+            "AutoPromote",
             "Flying"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 14,
             "STR": 4,
@@ -5553,9 +5253,10 @@
             "General"
         ],
         "tags": [
-            "Armor"
+            "Armor",
+            "AutoPromote"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 17,
             "STR": 5,
@@ -5715,9 +5416,10 @@
             "General"
         ],
         "tags": [
-            "Armor"
+            "Armor",
+            "AutoPromote"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 16,
             "STR": 5,
@@ -5877,9 +5579,10 @@
             "General"
         ],
         "tags": [
-            "Armor"
+            "Armor",
+            "AutoPromote"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 17,
             "STR": 5,
@@ -6364,8 +6067,10 @@
             "Hero",
             "Warrior"
         ],
-        "tags": [],
-        "max_level": 40,
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 20,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -6680,8 +6385,10 @@
         "turns_into": [
             "Berserker"
         ],
-        "tags": [],
-        "max_level": 40,
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 20,
         "bases": {
             "HP": 19,
             "STR": 4,
@@ -7000,8 +6707,10 @@
         "turns_into": [
             "Berserker"
         ],
-        "tags": [],
-        "max_level": 40,
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 20,
         "bases": {
             "HP": 20,
             "STR": 5,
@@ -7160,8 +6869,10 @@
             "Sniper",
             "Nomad_Trooper"
         ],
-        "tags": [],
-        "max_level": 40,
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 20,
         "bases": {
             "HP": 16,
             "STR": 4,
@@ -7640,9 +7351,10 @@
         "turns_into": [],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "AutoPromote"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 21,
             "STR": 7,
@@ -7790,7 +7502,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Nomad (M) {IS}-stand",
+        "map_sprite_nid": "Nomad",
         "combat_anim_nid": "Ranger",
         "fields": []
     },
@@ -7954,7 +7666,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Nomad Trooper (M) {IS}-stand",
+        "map_sprite_nid": "NomadTrooper",
         "combat_anim_nid": "Ranger",
         "fields": []
     },
@@ -7969,8 +7681,10 @@
             "Bishop",
             "Sage"
         ],
-        "tags": [],
-        "max_level": 40,
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 20,
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -8131,9 +7845,10 @@
             "Valkyrie"
         ],
         "tags": [
+            "AutoPromote",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 18,
             "STR": 0,
@@ -8611,8 +8326,10 @@
             "Sage",
             "Mage_Knight"
         ],
-        "tags": [],
-        "max_level": 40,
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 20,
         "bases": {
             "HP": 14,
             "STR": 0,
@@ -8771,8 +8488,10 @@
             "Sage",
             "Mage_Knight"
         ],
-        "tags": [],
-        "max_level": 40,
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 20,
         "bases": {
             "HP": 16,
             "STR": 0,
@@ -8931,8 +8650,10 @@
             "Sage",
             "Mage_Knight"
         ],
-        "tags": [],
-        "max_level": 40,
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 20,
         "bases": {
             "HP": 16,
             "STR": 0,
@@ -9248,8 +8969,10 @@
             "Druid",
             "Summoner"
         ],
-        "tags": [],
-        "max_level": 40,
+        "tags": [
+            "AutoPromote"
+        ],
+        "max_level": 20,
         "bases": {
             "HP": 16,
             "STR": 0,
@@ -9891,9 +9614,10 @@
         "tags": [
             "Horse",
             "Mounted",
+            "AutoPromote",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 15,
             "STR": 0,
@@ -10219,9 +9943,10 @@
         "tags": [
             "Mounted",
             "Dragon",
+            "AutoPromote",
             "Flying"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 20,
             "STR": 7,
@@ -11922,7 +11647,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Demon dragon stand",
+        "map_sprite_nid": "Demon Dragon",
         "combat_anim_nid": "Demon_Dragon",
         "fields": []
     },
@@ -12087,7 +11812,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 25,
             "STR": 2,
@@ -12399,7 +12124,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 20,
             "STR": 4,
@@ -12711,7 +12436,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 18,
             "STR": 4,
@@ -13024,7 +12749,7 @@
             "Monster",
             "ArenaIgnore"
         ],
-        "max_level": 40,
+        "max_level": 20,
         "bases": {
             "HP": 15,
             "STR": 0,
