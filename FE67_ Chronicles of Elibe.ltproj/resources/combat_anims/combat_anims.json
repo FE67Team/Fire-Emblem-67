@@ -11592,7 +11592,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_17"
+                "Lyn_Lord_GenericBlue"
             ]
         ]
     },
@@ -16005,7 +16005,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_20"
+                "Lyn_Great_Lord_GenericBlue"
             ]
         ]
     },
@@ -19321,7 +19321,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_19"
+                "Eliwood_Lord_GenericBlue"
             ]
         ]
     },
@@ -24005,7 +24005,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_18"
+                "Eliwood_Great_Lord_GenericBlue"
             ]
         ]
     },
@@ -25779,7 +25779,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_21"
+                "Hector_Lord_GenericBlue"
             ]
         ]
     },
@@ -30201,7 +30201,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_22"
+                "Hector_Great_Lord_GenericBlue"
             ]
         ]
     },
@@ -32637,7 +32637,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_23"
+                "Roy_Lord_GenericBlue"
             ]
         ]
     },
@@ -37821,7 +37821,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_24"
+                "Roy_Great_Lord_GenericBlue"
             ]
         ]
     },
@@ -42438,7 +42438,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_1"
+                "Dancer_Lalum"
             ]
         ]
     },
@@ -45418,7 +45418,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_6"
+                "Dancer_Ninian"
             ]
         ]
     },
@@ -47271,19 +47271,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_2"
-            ],
-            [
-                "GenericBlue_1",
-                "New Palette_3"
-            ],
-            [
-                "GenericBlue_2",
-                "New Palette_4"
-            ],
-            [
-                "GenericBlue_3",
-                "New Palette_5"
+                "Bard_Elphin"
             ]
         ]
     },
@@ -49513,7 +49501,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette"
+                "Bard_Nils"
             ]
         ]
     },
@@ -104765,24 +104753,12 @@
         ],
         "palettes": [
             [
-                "Amelia",
-                "General0_Gilliam"
-            ],
-            [
                 "GenericBlue",
                 "Lance_Armor_GenericBlue"
             ],
             [
                 "GenericRed",
                 "Lance_Armor_GenericRed"
-            ],
-            [
-                "Gilliam",
-                "Lance_Armor_Gilliam"
-            ],
-            [
-                "GenericBlue_1",
-                "New Palette_7"
             ]
         ]
     },
@@ -107393,28 +107369,12 @@
         ],
         "palettes": [
             [
-                "Amelia",
-                "Lance_Armor_Amelia"
+                "GenericRed",
+                "Axe_Armor_GenericRed"
             ],
             [
                 "GenericBlue",
-                "Lance_Armor_GenericBlue"
-            ],
-            [
-                "GenericRed",
-                "Lance_Armor_GenericRed"
-            ],
-            [
-                "Gilliam",
-                "Lance_Armor_Gilliam"
-            ],
-            [
-                "GenericBlue_1",
-                "New Palette_8"
-            ],
-            [
-                "GenericBlue_2",
-                "New Palette_9"
+                "Axe_Armor_GenericBlue"
             ]
         ]
     },
@@ -138925,11 +138885,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_28"
-            ],
-            [
-                "GenericBlue_1",
-                "New Palette_29"
+                "Balistissian_GenericBlue"
             ]
         ]
     },
@@ -147846,7 +147802,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_10"
+                "Nomad_GenericBlue"
             ]
         ]
     },
@@ -149313,7 +149269,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_13"
+                "Nomad_F_GenericBlue"
             ]
         ]
     },
@@ -152846,7 +152802,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_11"
+                "Nomad_Trooper_GenericBlue"
             ]
         ]
     },
@@ -156405,7 +156361,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_12"
+                "Nomad_Trooper_F_GenericBlue"
             ]
         ]
     },
@@ -165791,7 +165747,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_14"
+                "Lance_Knight_GenericBlue"
             ]
         ]
     },
@@ -167584,7 +167540,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_15"
+                "Sword_Knight_GenericBlue"
             ]
         ]
     },
@@ -169602,7 +169558,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_16"
+                "Axe_Knight_GenericBlue"
             ]
         ]
     },
@@ -216577,7 +216533,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_26"
+                "Mage_GenericBlue"
             ]
         ]
     },
@@ -217775,7 +217731,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_27"
+                "Mage_GenericBlue"
             ]
         ]
     },
@@ -218973,7 +218929,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_25"
+                "Mage_GenericBlue"
             ]
         ]
     },
@@ -258140,7 +258096,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_72"
+                "Arcsage"
             ]
         ]
     },
@@ -259656,7 +259612,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_80"
+                "Manakete_Fae"
             ]
         ]
     },
@@ -262857,7 +262813,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_73"
+                "Dark_Druid"
             ]
         ]
     },
@@ -264099,12 +264055,8 @@
         ],
         "palettes": [
             [
-                "GenericBlue",
-                "New Palette_79"
-            ],
-            [
-                "GenericBlue_1",
-                "New Palette_81"
+                "GenericRed",
+                "Manakete_Fire"
             ]
         ]
     },
@@ -265077,7 +265029,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_77"
+                "Fire_Dragon"
             ]
         ]
     },
@@ -265364,7 +265316,7 @@
         "palettes": [
             [
                 "GenericBlue",
-                "New Palette_78"
+                "Demon_Dragon"
             ]
         ]
     },
