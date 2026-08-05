@@ -72,6 +72,10 @@
             [
                 1,
                 "Love_Points_Tracker"
+            ],
+            [
+                1,
+                "Mast_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -421,6 +425,10 @@
             [
                 1,
                 "Adept"
+            ],
+            [
+                1,
+                "Prof_Bow_backend"
             ]
         ],
         "unit_notes": [],
@@ -536,6 +544,10 @@
             [
                 1,
                 "Critical_Meh"
+            ],
+            [
+                1,
+                "Prof_Axe_backend"
             ]
         ],
         "unit_notes": [],
@@ -885,6 +897,10 @@
             [
                 1,
                 "Adept"
+            ],
+            [
+                1,
+                "Prof_Thunder_backend"
             ]
         ],
         "unit_notes": [],
@@ -1025,6 +1041,10 @@
             [
                 1,
                 "Vantage"
+            ],
+            [
+                1,
+                "Prof_Axe_backend"
             ]
         ],
         "unit_notes": [],
@@ -1084,7 +1104,7 @@
         "nid": "Eagler",
         "name": "Eagler",
         "desc": "Knight Commander of Caelin",
-        "variant": null,
+        "variant": "",
         "level": 15,
         "klass": "Paladin",
         "tags": [
@@ -1136,7 +1156,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Mast_Sword_backend"
+            ],
+            [
+                1,
+                "Mast_Lance_backend"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -1194,9 +1223,9 @@
         "nid": "Nils",
         "name": "Nils",
         "desc": "A bard possessing arcane powers. Brother of Ninian.",
-        "variant": null,
+        "variant": "Nils",
         "level": 1,
-        "klass": "Bard_Nils",
+        "klass": "Bard",
         "tags": [
             "Male"
         ],
@@ -1362,6 +1391,10 @@
             [
                 1,
                 "Nihil"
+            ],
+            [
+                1,
+                "Mast_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -1485,6 +1518,10 @@
             [
                 1,
                 "Miracle"
+            ],
+            [
+                1,
+                "Prof_Lance_backend"
             ]
         ],
         "unit_notes": [],
@@ -1544,7 +1581,7 @@
         "nid": "Lowen",
         "name": "Lowen",
         "desc": "A knight in service to House Pherae. A fresh recruit.",
-        "variant": null,
+        "variant": "",
         "level": 2,
         "klass": "Knight_Axe",
         "tags": [
@@ -1655,7 +1692,7 @@
         "nid": "Rebecca",
         "name": "Rebecca",
         "desc": "A youth from Pherae. Very helpful and bright.",
-        "variant": "",
+        "variant": "Female",
         "level": 1,
         "klass": "Archer",
         "tags": [
@@ -1770,7 +1807,7 @@
         "nid": "Bartre",
         "name": "Bartre",
         "desc": "One of Eliwood\u2019s guardsmen. Duty is everything to him.",
-        "variant": "Female",
+        "variant": "",
         "level": 2,
         "klass": "Fighter",
         "tags": [
@@ -1942,6 +1979,10 @@
             [
                 1,
                 "Barricade"
+            ],
+            [
+                1,
+                "Mast_Axe_backend"
             ]
         ],
         "unit_notes": [],
@@ -2168,6 +2209,10 @@
             [
                 1,
                 "Grating_Personality"
+            ],
+            [
+                1,
+                "Prof_Staff_backend"
             ]
         ],
         "unit_notes": [],
@@ -2227,7 +2272,7 @@
         "nid": "Matthew",
         "name": "Matthew",
         "desc": "A cheery thief. His casual demeanor belies his skill.",
-        "variant": "Female",
+        "variant": "",
         "level": 2,
         "klass": "Thief",
         "tags": [
@@ -2293,7 +2338,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                1,
+                2,
                 251
             ],
             "Lance": [
@@ -2398,6 +2443,10 @@
             [
                 1,
                 "Luna"
+            ],
+            [
+                1,
+                "Prof_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -2730,6 +2779,10 @@
             [
                 1,
                 "Miracle"
+            ],
+            [
+                1,
+                "Prof_Staff_backend"
             ]
         ],
         "unit_notes": [],
@@ -2845,6 +2898,10 @@
             [
                 1,
                 "Wrath"
+            ],
+            [
+                1,
+                "Prof_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -2960,6 +3017,10 @@
             [
                 1,
                 "Nihil"
+            ],
+            [
+                1,
+                "Prof_Staff"
             ]
         ],
         "unit_notes": [],
@@ -3019,7 +3080,7 @@
         "nid": "Isadora",
         "name": "Isadora",
         "desc": "A paladin in the service of House Pherae. Modest and Polite.\n",
-        "variant": null,
+        "variant": "Female",
         "level": 20,
         "klass": "Paladin",
         "tags": [
@@ -3075,6 +3136,10 @@
             [
                 1,
                 "Miracle"
+            ],
+            [
+                1,
+                "Prof_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -3134,7 +3199,7 @@
         "nid": "Batta",
         "name": "Batta",
         "desc": "A Ganelon bandit. Called the Beast for this savagery.",
-        "variant": null,
+        "variant": "",
         "level": 2,
         "klass": "Brigand",
         "tags": [
@@ -3249,7 +3314,7 @@
         "nid": "Glass",
         "name": "Glass",
         "desc": "A Sacaen swordsman with a greedy heart.\n",
-        "variant": null,
+        "variant": "",
         "level": 3,
         "klass": "Mercenary",
         "tags": [
@@ -3305,6 +3370,10 @@
             [
                 1,
                 "Critical_Meh"
+            ],
+            [
+                1,
+                "Prof_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -3416,6 +3485,10 @@
             [
                 1,
                 "Pavise"
+            ],
+            [
+                1,
+                "Prof_Lance_backend"
             ]
         ],
         "unit_notes": [],
@@ -3531,6 +3604,10 @@
             [
                 1,
                 "Critical_Meh"
+            ],
+            [
+                1,
+                "Prof_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -3590,7 +3667,7 @@
         "nid": "Ninian",
         "name": "Ninian",
         "desc": "A somber girl, but filled with a solemn energy.",
-        "variant": "",
+        "variant": "Ninian",
         "level": 1,
         "klass": "Dancer",
         "tags": [
@@ -3758,6 +3835,10 @@
             [
                 1,
                 "Adept"
+            ],
+            [
+                1,
+                "Prof_Axe_backend"
             ]
         ],
         "unit_notes": [],
@@ -3817,7 +3898,7 @@
         "nid": "Karla",
         "name": "Karla",
         "desc": "A dedicated swordfighter. Cool and detached.",
-        "variant": null,
+        "variant": "Female",
         "level": 25,
         "klass": "Swordmaster",
         "tags": [
@@ -3873,6 +3954,10 @@
             [
                 1,
                 "Astra"
+            ],
+            [
+                1,
+                "Prof_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -3932,7 +4017,7 @@
         "nid": "Zealot",
         "name": "Zealot",
         "desc": "The lord of Edessa leading hte Ilia mercenary knights.",
-        "variant": null,
+        "variant": "",
         "level": 20,
         "klass": "Paladin",
         "tags": [
@@ -4096,12 +4181,12 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lance": [
                 false,
-                0,
+                2,
                 251
             ],
             "Axe": [
@@ -4201,6 +4286,10 @@
             [
                 1,
                 "Adept"
+            ],
+            [
+                1,
+                "Prof_Lance_backend"
             ]
         ],
         "unit_notes": [],
@@ -4260,7 +4349,7 @@
         "nid": "Pent",
         "name": "Pent",
         "desc": "Marquess of Reglay. Sole student of Archsage Athos.",
-        "variant": null,
+        "variant": "",
         "level": 26,
         "klass": "Sage",
         "tags": [
@@ -4316,6 +4405,18 @@
             [
                 1,
                 "Adept"
+            ],
+            [
+                1,
+                "Mast_Fire_backend"
+            ],
+            [
+                1,
+                "Prof_Thunder_backend"
+            ],
+            [
+                1,
+                "Prof_Wind_backend"
             ]
         ],
         "unit_notes": [],
@@ -4400,7 +4501,7 @@
         "nid": "Louise",
         "name": "Louise",
         "desc": "The wife of Marquess Reglay. A lethal beauty.",
-        "variant": null,
+        "variant": "Female",
         "level": 24,
         "klass": "Sniper",
         "tags": [
@@ -4452,6 +4553,10 @@
             [
                 1,
                 "Pursuit"
+            ],
+            [
+                1,
+                "Mast_Bow_backend"
             ]
         ],
         "unit_notes": [],
@@ -4511,7 +4616,7 @@
         "nid": "Karel",
         "name": "Karel",
         "desc": "An eastern swordmaster. Seeking worthy opponents.",
-        "variant": null,
+        "variant": "",
         "level": 28,
         "klass": "Swordmaster",
         "tags": [
@@ -4567,6 +4672,10 @@
             [
                 1,
                 "Astra"
+            ],
+            [
+                1,
+                "Mast_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -4682,6 +4791,10 @@
             [
                 1,
                 "Luna"
+            ],
+            [
+                1,
+                "Prof_Axe_backend"
             ]
         ],
         "unit_notes": [],
@@ -4793,6 +4906,10 @@
             [
                 1,
                 "Wary_Fighter"
+            ],
+            [
+                1,
+                "Prof_Axe_backend"
             ]
         ],
         "unit_notes": [],
@@ -4904,6 +5021,10 @@
             [
                 1,
                 "Vantage"
+            ],
+            [
+                1,
+                "Prof_Dark_backend"
             ]
         ],
         "unit_notes": [],
@@ -5138,6 +5259,10 @@
             [
                 1,
                 "Accost"
+            ],
+            [
+                1,
+                "Prof_Bow_backend"
             ]
         ],
         "unit_notes": [],
@@ -5253,6 +5378,10 @@
             [
                 1,
                 "Steal"
+            ],
+            [
+                1,
+                "Prof_Lance_backend"
             ]
         ],
         "unit_notes": [],
@@ -5312,7 +5441,7 @@
         "nid": "Nino",
         "name": "Nino",
         "desc": "One of the Black Fang. True and innocent.",
-        "variant": null,
+        "variant": "Female",
         "level": 5,
         "klass": "Wind_Mage",
         "tags": [
@@ -5368,6 +5497,10 @@
             [
                 1,
                 "Paragon"
+            ],
+            [
+                1,
+                "Prof_Wind_backend"
             ]
         ],
         "unit_notes": [],
@@ -5452,7 +5585,7 @@
         "nid": "Jaffar",
         "name": "Jaffar",
         "desc": "The Black Fangs Angel of Death. Once served Nergal.",
-        "variant": null,
+        "variant": "",
         "level": 33,
         "klass": "Assassin",
         "tags": [
@@ -5508,6 +5641,10 @@
             [
                 1,
                 "Luna"
+            ],
+            [
+                1,
+                "Mast_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -5567,7 +5704,7 @@
         "nid": "Leila",
         "name": "Leila",
         "desc": "A spy in service of House Ostia.",
-        "variant": null,
+        "variant": "Female",
         "level": 14,
         "klass": "Thief",
         "tags": [
@@ -5682,7 +5819,7 @@
         "nid": "Vaida",
         "name": "Vaida",
         "desc": "A deserter from Berns wyvern riders. Brutal.",
-        "variant": null,
+        "variant": "Female",
         "level": 29,
         "klass": "Wyvern_Lord",
         "tags": [
@@ -5738,13 +5875,17 @@
             [
                 1,
                 "Luna"
+            ],
+            [
+                1,
+                "Mast_Lance_backend"
             ]
         ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
                 false,
-                2,
+                0,
                 251
             ],
             "Lance": [
@@ -5754,7 +5895,7 @@
             ],
             "Axe": [
                 false,
-                0,
+                1,
                 251
             ],
             "Bow": [
@@ -5797,7 +5938,7 @@
         "nid": "Renault",
         "name": "Renault",
         "desc": "A cleric wandering Valor. Shrouded in mystery.",
-        "variant": null,
+        "variant": "",
         "level": 36,
         "klass": "Bishop",
         "tags": [
@@ -5853,6 +5994,10 @@
             [
                 1,
                 "Heavy_Strikes"
+            ],
+            [
+                1,
+                "Prof_Sword"
             ]
         ],
         "unit_notes": [],
@@ -5879,12 +6024,12 @@
             ],
             "Staff": [
                 false,
-                3,
+                1,
                 251
             ],
             "Light": [
                 false,
-                4,
+                3,
                 251
             ],
             "Anima": [
@@ -6087,6 +6232,10 @@
             [
                 1,
                 "Law_of_Sacae"
+            ],
+            [
+                1,
+                "Prof_Sword_backend"
             ]
         ],
         "unit_notes": [],
@@ -6406,7 +6555,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Mast_All_Magic_backend"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -6809,7 +6963,7 @@
         "nid": "Ellen",
         "name": "Ellen",
         "desc": "A young priest serving Guinevere.",
-        "variant": null,
+        "variant": "Female",
         "level": 9,
         "klass": "Cleric",
         "tags": [],
@@ -6873,7 +7027,7 @@
         "nid": "Dieck",
         "name": "Dieck",
         "desc": "An ex-pitfighter from Etruria. He is now a traveling mercenary.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Mercenary",
         "tags": [],
@@ -7428,7 +7582,7 @@
         "nid": "Tiena",
         "name": "Tiena",
         "desc": "",
-        "variant": null,
+        "variant": "Female",
         "level": 1,
         "klass": "Cleric",
         "tags": [],
@@ -7492,7 +7646,7 @@
         "nid": "Damas",
         "name": "Damas",
         "desc": "The leader of the brigands roaming around Pherae.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Brigand",
         "tags": [],
@@ -7556,7 +7710,7 @@
         "nid": "Clarine",
         "name": "Clarine",
         "desc": "A young Etrutrtian lady. General Kleins younger sister.",
-        "variant": null,
+        "variant": "",
         "level": 4,
         "klass": "Troubadour",
         "tags": [],
@@ -7801,7 +7955,7 @@
         "nid": "Dorothy",
         "name": "Dorothy",
         "desc": "A girl from Etruria serving the Elimine church.",
-        "variant": null,
+        "variant": "Female",
         "level": 4,
         "klass": "Archer",
         "tags": [],
@@ -7865,7 +8019,7 @@
         "nid": "Sue",
         "name": "Sue",
         "desc": "The granddaughter of Dayan, the Silver Wolf.",
-        "variant": null,
+        "variant": "Female",
         "level": 3,
         "klass": "Nomad",
         "tags": [],
@@ -7929,7 +8083,7 @@
         "nid": "Zealot_Old",
         "name": "Zealot",
         "desc": "The lord of Edessa leading the Ilia mercenary knights.",
-        "variant": null,
+        "variant": "",
         "level": 21,
         "klass": "Paladin",
         "tags": [],
@@ -8190,7 +8344,7 @@
         "nid": "Lilina",
         "name": "Lilina",
         "desc": "The Princess of Ostia",
-        "variant": null,
+        "variant": "Female",
         "level": 7,
         "klass": "Thunder_Mage",
         "tags": [],
@@ -8264,7 +8418,7 @@
         "nid": "Wendy",
         "name": "Wendy",
         "desc": "A knight serving Ostia. Bors younger sister.",
-        "variant": null,
+        "variant": "",
         "level": 12,
         "klass": "Sword_Armor",
         "tags": [],
@@ -8618,7 +8772,7 @@
         "nid": "Fir",
         "name": "Fir",
         "desc": "A girl traveliong around to hone her sword skills.",
-        "variant": null,
+        "variant": "Female",
         "level": 7,
         "klass": "Myrmidon",
         "tags": [],
@@ -8682,7 +8836,7 @@
         "nid": "Shin",
         "name": "Shin",
         "desc": "A survivor of one of the Sacaen clans decimated by Bern. One of the Silver wolfs followers.",
-        "variant": null,
+        "variant": "",
         "level": 9,
         "klass": "Nomad",
         "tags": [],
@@ -9002,9 +9156,9 @@
         "nid": "Lalum",
         "name": "Lalum",
         "desc": "A young dancer helping the rebel forces on the Western Isles.",
-        "variant": null,
+        "variant": "Lalum",
         "level": 6,
-        "klass": "Dancer_Lalum",
+        "klass": "Dancer",
         "tags": [],
         "bases": {
             "HP": 14,
@@ -9062,7 +9216,7 @@
         "desc": "A mysterious bard serving the rebel forces on the Western Isles.",
         "variant": null,
         "level": 8,
-        "klass": "Bard_Elfin",
+        "klass": "Bard",
         "tags": [],
         "bases": {
             "HP": 15,
@@ -9118,7 +9272,7 @@
         "nid": "Echidna",
         "name": "Echidna",
         "desc": "The leader of the rebels on the Western Isles.",
-        "variant": null,
+        "variant": "Female",
         "level": 24,
         "klass": "Hero",
         "tags": [],
@@ -9191,7 +9345,7 @@
         "nid": "Raigh",
         "name": "Bartre",
         "desc": "A young Shaman traveling to perfect the dark arts.",
-        "variant": null,
+        "variant": "",
         "level": 5,
         "klass": "Shaman",
         "tags": [],
@@ -9255,7 +9409,7 @@
         "nid": "Cath",
         "name": "Cath",
         "desc": "A young thief who only steals from the rich.",
-        "variant": null,
+        "variant": "Female",
         "level": 13,
         "klass": "Thief",
         "tags": [],
@@ -9319,7 +9473,7 @@
         "nid": "Kilmar_Merc",
         "name": "Kilmar",
         "desc": "",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Mercenary",
         "tags": [],
@@ -9447,7 +9601,7 @@
         "nid": "Miledy",
         "name": "Miledy",
         "desc": "The leader of Guineveres personal guards.",
-        "variant": null,
+        "variant": "Female",
         "level": 9,
         "klass": "Wyvern_Rider",
         "tags": [],
@@ -9511,7 +9665,7 @@
         "nid": "Percival",
         "name": "Percival",
         "desc": "The Knight General of Etruria.",
-        "variant": null,
+        "variant": "",
         "level": 20,
         "klass": "Paladin",
         "tags": [],
@@ -9584,7 +9738,7 @@
         "nid": "Sophia",
         "name": "Sophia",
         "desc": "A shaman from Nabata who can sense the future.",
-        "variant": null,
+        "variant": "Female",
         "level": 16,
         "klass": "Shaman",
         "tags": [],
@@ -9648,7 +9802,7 @@
         "nid": "Igrene",
         "name": "Igrene",
         "desc": "A sniper known as the Guardian of Nabata.\n",
-        "variant": null,
+        "variant": "Female",
         "level": 20,
         "klass": "Sniper",
         "tags": [],
@@ -10051,7 +10205,7 @@
         "nid": "Niime",
         "name": "Niime",
         "desc": "A mountain hermit devoting her life to historical and magical research.",
-        "variant": null,
+        "variant": "Female",
         "level": 20,
         "klass": "Druid",
         "tags": [],
@@ -10124,7 +10278,7 @@
         "nid": "Yoder",
         "name": "Yoder",
         "desc": "A bishop of the Elimine church aiding Roy on his Quest.",
-        "variant": null,
+        "variant": "",
         "level": 27,
         "klass": "Bishop",
         "tags": [],
@@ -10399,7 +10553,7 @@
         "nid": "Brunnya",
         "name": "Brunnya",
         "desc": "One of Berns Wyvern Generals. Led the attack on Sacae.",
-        "variant": null,
+        "variant": "Female",
         "level": 20,
         "klass": "Sage",
         "tags": [],
@@ -10482,7 +10636,7 @@
         "nid": "Guinevere",
         "name": "Guinevere",
         "desc": "The princess of Bern. Noble and self-sacrificing.",
-        "variant": null,
+        "variant": "Female",
         "level": 29,
         "klass": "Sage",
         "tags": [],

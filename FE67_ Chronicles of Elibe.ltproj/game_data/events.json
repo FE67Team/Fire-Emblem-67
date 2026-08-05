@@ -4150,7 +4150,7 @@
             "#This just clears most of the units out of the debug map.",
             "i = 0",
             "for pUnit in playerAliveParty:",
-            "    if (playerAliveParty[i].name != \"Lyn\") and (playerAliveParty[i].name != \"Sain\") and (playerAliveParty[i].name != \"Kent\"):",
+            "    if (playerAliveParty[i].name != \"Lyn\") and (playerAliveParty[i].name != \"Sain\") and (playerAliveParty[i].name != \"Kent\") and (playerAliveParty[i].name != \"Lucius\"):",
             "        $remove_unit playerAliveParty[i].name \"immediate\"",
             "    i += 1",
             "",
@@ -4185,7 +4185,9 @@
             "#$give_item \"Fae\" \"Return_Band\",no_banner",
             "$add_talk \"Lyn\" \"Priscilla\"",
             "#$give_item \"Lyn\" \"Metis_s_Tome\",no_banner",
-            "#$give_exp \"Lyn\" 99,silent"
+            "#$give_exp \"Lyn\" 99,silent",
+            "$set_unit_level \"Lucius\" 20",
+            "$set_exp \"Lucius\" 99"
         ],
         "nid": "test start_testMap"
     },
@@ -4895,10 +4897,10 @@
         "level_nid": "test",
         "condition": "True",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
-            "speak;;test"
+            "speak;;soldier react test"
         ],
         "nid": "test unitKilled_Soldier_react"
     },
@@ -4912,8 +4914,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Sword;1;no_banner",
-            "give_skill;{unit};Sword_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};Sword_Proficiency;no_banner"
+            "give_skill;{unit};Prof_Sword_backend;no_banner",
+            "remove_skill;{unit};Prof_Sword;no_banner"
         ],
         "nid": "Global skill_SwordProf"
     },
@@ -4927,8 +4929,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Lance;1;no_banner",
-            "give_skill;{unit};Lance_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};Lance_Proficiency;no_banner"
+            "give_skill;{unit};Prof_Lance_backend;no_banner",
+            "remove_skill;{unit};Prof_Lance;no_banner"
         ],
         "nid": "Global skill_LanceProf"
     },
@@ -4942,8 +4944,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Axe;1;no_banner",
-            "give_skill;{unit};Axe_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};Axe_Proficiency;no_banner"
+            "give_skill;{unit};Prof_Axe_backend;no_banner",
+            "remove_skill;{unit};Prof_Axe;no_banner"
         ],
         "nid": "Global skill_AxeProf"
     },
@@ -4957,8 +4959,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Bow;1;no_banner",
-            "give_skill;{unit};Bow_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};Bow_Proficiency;no_banner"
+            "give_skill;{unit};Prof_Bow_backend;no_banner",
+            "remove_skill;{unit};Prof_Bow;no_banner"
         ],
         "nid": "Global skill_BowProf"
     },
@@ -4972,8 +4974,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Light;1;no_banner",
-            "give_skill;{unit};Light_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};Light_Proficiency;no_banner"
+            "give_skill;{unit};Prof_Light_backend;no_banner",
+            "remove_skill;{unit};Prof_Light;no_banner"
         ],
         "nid": "Global skill_LightProf"
     },
@@ -4987,8 +4989,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Dark;1;no_banner",
-            "give_skill;{unit};Dark_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};Dark_Proficiency;no_banner"
+            "give_skill;{unit};Prof_Dark_backend;no_banner",
+            "remove_skill;{unit};Prof_Dark;no_banner"
         ],
         "nid": "Global skill_DarkProf"
     },
@@ -5002,8 +5004,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Fire;1;no_banner",
-            "give_skill;{unit};Fire_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};Fire_Proficiency;no_banner"
+            "give_skill;{unit};Prof_Fire_backend;no_banner",
+            "remove_skill;{unit};Prof_Fire;no_banner"
         ],
         "nid": "Global skill_FireProf"
     },
@@ -5017,8 +5019,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Wind;1;no_banner",
-            "give_skill;{unit};Wind_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};Wind_Proficiency;no_banner"
+            "give_skill;{unit};Prof_Wind_backend;no_banner",
+            "remove_skill;{unit};Prof_Wind;no_banner"
         ],
         "nid": "Global skill_WindProf"
     },
@@ -5036,8 +5038,9 @@
             "give_wexp;{unit};Wind;1;no_banner",
             "give_wexp;{unit};Dark;1;no_banner",
             "give_wexp;{unit};Light;1;no_banner",
-            "give_skill;{unit};All_Magic_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};All_Magic_Proficiency;no_banner"
+            "give_wexp;{unit};Staff;1;no_banner",
+            "give_skill;{unit};Prof_All_Magic_backend;no_banner",
+            "remove_skill;{unit};Prof_All_Magic;no_banner"
         ],
         "nid": "Global skill_MagicProf"
     },
@@ -5051,8 +5054,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Thunder;1;no_banner",
-            "give_skill;{unit};Thunder_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};Thunder_Proficiency;no_banner"
+            "give_skill;{unit};Prof_Thunder_backend;no_banner",
+            "remove_skill;{unit};Prof_Thunder;no_banner"
         ],
         "nid": "Global skill_ThunderProf"
     },
@@ -5066,8 +5069,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Staff;1;no_banner",
-            "give_skill;{unit};Staff_Proficiency_visonly;no_banner",
-            "remove_skill;{unit};Staff_Proficiency;no_banner"
+            "give_skill;{unit};Prof_Staff_backend;no_banner",
+            "remove_skill;{unit};Prof_Staff;no_banner"
         ],
         "nid": "Global skill_StaffProf"
     },
@@ -5081,8 +5084,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Sword;2;no_banner",
-            "give_skill;{unit};Sword_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};Sword_Proficiency_Plus;no_banner"
+            "give_skill;{unit};Mast_Sword_backend;no_banner",
+            "remove_skill;{unit};Mast_Sword;no_banner"
         ],
         "nid": "Global skill_SwordProf_Plus"
     },
@@ -5096,8 +5099,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Lance;2;no_banner",
-            "give_skill;{unit};Lance_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};Lance_Proficiency_Plus;no_banner"
+            "give_skill;{unit};Mast_Fire_backend;no_banner",
+            "remove_skill;{unit};Mast_Fire;no_banner"
         ],
         "nid": "Global skill_LanceProf_Plus"
     },
@@ -5111,8 +5114,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Axe;2;no_banner",
-            "give_skill;{unit};Axe_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};Axe_Proficiency_Plus;no_banner"
+            "give_skill;{unit};Mast_Axe_backend;no_banner",
+            "remove_skill;{unit};Mast_Axe;no_banner"
         ],
         "nid": "Global skill_AxeProf_Plus"
     },
@@ -5126,8 +5129,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Bow;2;no_banner",
-            "give_skill;{unit};Bow_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};Bow_Proficiency_Plus;no_banner"
+            "give_skill;{unit};Mast_Bow_backend;no_banner",
+            "remove_skill;{unit};Mast_Bow;no_banner"
         ],
         "nid": "Global skill_BowProf_Plus"
     },
@@ -5141,8 +5144,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Light;2;no_banner",
-            "give_skill;{unit};Light_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};Light_Proficiency_Plus;no_banner"
+            "give_skill;{unit};Mast_Light_backend;no_banner",
+            "remove_skill;{unit};Mast_Light;no_banner"
         ],
         "nid": "Global skill_LightProf_Plus"
     },
@@ -5156,8 +5159,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Dark;2;no_banner",
-            "give_skill;{unit};Dark_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};Dark_Proficiency_Plus;no_banner"
+            "give_skill;{unit};Mast_Dark_backend;no_banner",
+            "remove_skill;{unit};Mast_Dark;no_banner"
         ],
         "nid": "Global skill_DarkProf_Plus"
     },
@@ -5171,8 +5174,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Fire;2;no_banner",
-            "give_skill;{unit};Fire_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};Fire_Proficiency_Plus;no_banner"
+            "give_skill;{unit};Mast_Fire_backend;no_banner",
+            "remove_skill;{unit};Mast_Fire;no_banner"
         ],
         "nid": "Global skill_FireProf_Plus"
     },
@@ -5186,8 +5189,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Wind;2;no_banner",
-            "give_skill;{unit};Wind_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};Wind_Proficiency_Plus;no_banner"
+            "give_skill;{unit};Mast_Wind_backend;no_banner",
+            "remove_skill;{unit};Mast_Wind;no_banner"
         ],
         "nid": "Global skill_WindProf_Plus"
     },
@@ -5205,8 +5208,9 @@
             "give_wexp;{unit};Wind;2;no_banner",
             "give_wexp;{unit};Dark;2;no_banner",
             "give_wexp;{unit};Light;2;no_banner",
-            "give_skill;{unit};All_Magic_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};All_Magic_Proficiency_Plus;no_banner"
+            "give_wexp;{unit};Staff;2;no_banner",
+            "give_skill;{unit};Mast_All_Magic_backend;no_banner",
+            "remove_skill;{unit};Mast_All_Magic;no_banner"
         ],
         "nid": "Global skill_MagicProf_Plus"
     },
@@ -5220,8 +5224,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Thunder;2;no_banner",
-            "give_skill;{unit};Thunder_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};Thunder_Proficiency_Plus;no_banner"
+            "give_skill;{unit};Mast_Thunder_backend;no_banner",
+            "remove_skill;{unit};Mast_Thunder;no_banner"
         ],
         "nid": "Global skill_ThunderProf_Plus"
     },
@@ -5235,8 +5239,8 @@
         "priority": 20,
         "_source": [
             "give_wexp;{unit};Staff;2;no_banner",
-            "give_skill;{unit};Staff_Proficiency_Plus_visonly;no_banner",
-            "remove_skill;{unit};Staff_Proficiency_Plus;no_banner"
+            "give_skill;{unit};Mast_Light_backend;no_banner",
+            "remove_skill;{unit};Mast_Light;no_banner"
         ],
         "nid": "Global skill_StaffProf_Plus"
     },

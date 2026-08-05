@@ -2480,7 +2480,7 @@
         ]
     },
     {
-        "nid": "Sword_Proficiency",
+        "nid": "Prof_Sword",
         "name": "Sword Proficiency",
         "desc": "Unit has improved weapon rank with Swords.",
         "icon_nid": "wexp_icons",
@@ -2500,9 +2500,9 @@
         ]
     },
     {
-        "nid": "Sword_Proficiency_Plus",
+        "nid": "Mast_Sword",
         "name": "Sword Proficiency+",
-        "desc": "Unit has improved weapon rank with Swords.",
+        "desc": "Unit has highly improved weapon rank with Swords.",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2520,9 +2520,9 @@
         ]
     },
     {
-        "nid": "Sword_Proficiency_visonly",
+        "nid": "Prof_Sword_backend",
         "name": "Sword Proficiency",
-        "desc": "Unit has improved weapon rank with Swords.",
+        "desc": "This skill's purpose is to inform the engine of what icon to draw, and to inform future events that this unit's descendant should have Prof_Sword. Well, when we get there at anyway.",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2530,15 +2530,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Sword"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "Sword_Proficiency_Plus_visonly",
+        "nid": "Mast_Sword_backend",
         "name": "Sword Proficiency+",
-        "desc": "Unit has improved weapon rank with Swords.",
+        "desc": "This skill's purpose is to inform the engine of what icon to draw, and to inform future events that this unit's descendant should have Mast_Sword. Well, when we get there at anyway.",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2546,13 +2554,21 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Sword"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
     {
-        "nid": "Lance_Proficiency",
+        "nid": "Prof_Lance",
         "name": "Lance Proficiency",
         "desc": "Unit has improved weapon rank with Lances.",
         "icon_nid": "wexp_icons",
@@ -2572,9 +2588,9 @@
         ]
     },
     {
-        "nid": "Lance_Proficiency_Plus",
+        "nid": "Mast_Lance",
         "name": "Lance Proficiency+",
-        "desc": "Unit has improved weapon rank with Lances.",
+        "desc": "Unit has highly improved weapon rank with Lances.",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2592,9 +2608,9 @@
         ]
     },
     {
-        "nid": "Lance_Proficiency_visonly",
+        "nid": "Prof_Lance_backend",
         "name": "Lance Proficiency",
-        "desc": "Unit has improved weapon rank with Lances.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2602,15 +2618,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Lance"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "Lance_Proficiency_Plus_visonly",
+        "nid": "Mast_Lance_backend",
         "name": "Lance Proficiency+",
-        "desc": "Unit has improved weapon rank with Lances.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2618,13 +2642,21 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Lance"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
     {
-        "nid": "Axe_Proficiency",
+        "nid": "Prof_Axe",
         "name": "Axe Proficiency",
         "desc": "Unit has improved weapon rank with Axes.",
         "icon_nid": "wexp_icons",
@@ -2644,9 +2676,9 @@
         ]
     },
     {
-        "nid": "Axe_Proficiency_Plus",
+        "nid": "Mast_Axe",
         "name": "Axe Proficiency+",
-        "desc": "Unit has improved weapon rank with Axes.",
+        "desc": "Unit has highly improved weapon rank with Axes.",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2664,9 +2696,9 @@
         ]
     },
     {
-        "nid": "Axe_Proficiency_visonly",
+        "nid": "Prof_Axe_backend",
         "name": "Axe Proficiency",
-        "desc": "Unit has improved weapon rank with Axes.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2674,15 +2706,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Axe"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "Axe_Proficiency_Plus_visonly",
+        "nid": "Mast_Axe_backend",
         "name": "Axe Proficiency+",
-        "desc": "Unit has improved weapon rank with Axes.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2690,13 +2730,21 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Axe"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
     {
-        "nid": "Bow_Proficiency",
+        "nid": "Prof_Bow",
         "name": "Bow Proficiency",
         "desc": "Unit has improved weapon rank with Bows.",
         "icon_nid": "wexp_icons",
@@ -2716,9 +2764,9 @@
         ]
     },
     {
-        "nid": "Bow_Proficiency_Plus",
+        "nid": "Mast_Bow",
         "name": "Bow Proficiency+",
-        "desc": "Unit has improved weapon rank with Bows.",
+        "desc": "Unit has highly improved weapon rank with Bows.",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2736,9 +2784,9 @@
         ]
     },
     {
-        "nid": "Bow_Proficiency_visonly",
+        "nid": "Prof_Bow_backend",
         "name": "Bow Proficiency",
-        "desc": "Unit has improved weapon rank with Bows.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2746,15 +2794,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Bow"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "Bow_Proficiency_Plus_visonly",
+        "nid": "Mast_Bow_backend",
         "name": "Bow Proficiency+",
-        "desc": "Unit has improved weapon rank with Bows.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -2762,13 +2818,21 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Bow"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
     {
-        "nid": "Fire_Proficiency",
+        "nid": "Prof_Fire",
         "name": "Fire Proficiency",
         "desc": "Unit has improved weapon rank with Fire magic.",
         "icon_nid": "wexp_anima",
@@ -2788,9 +2852,9 @@
         ]
     },
     {
-        "nid": "Fire_Proficiency_Plus",
+        "nid": "Mast_Fire",
         "name": "Fire Proficiency+",
-        "desc": "Unit has improved weapon rank with Fire magic.",
+        "desc": "Unit has highly improved weapon rank with Fire magic.",
         "icon_nid": "wexp_anima",
         "icon_index": [
             0,
@@ -2808,9 +2872,9 @@
         ]
     },
     {
-        "nid": "Fire_Proficiency_visonly",
+        "nid": "Prof_Fire_backend",
         "name": "Fire Proficiency",
-        "desc": "Unit has improved weapon rank with Fire magic.",
+        "desc": "",
         "icon_nid": "wexp_anima",
         "icon_index": [
             0,
@@ -2818,15 +2882,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Fire"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "Fire_Proficiency_Plus_visonly",
+        "nid": "Mast_Fire_backend",
         "name": "Fire Proficiency+",
-        "desc": "Unit has improved weapon rank with Fire magic.",
+        "desc": "",
         "icon_nid": "wexp_anima",
         "icon_index": [
             0,
@@ -2834,13 +2906,21 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Fire"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
     {
-        "nid": "Thunder_Proficiency",
+        "nid": "Prof_Thunder",
         "name": "Thunder Proficiency",
         "desc": "Unit has improved weapon rank with Thunder magic.",
         "icon_nid": "wexp_anima",
@@ -2860,9 +2940,9 @@
         ]
     },
     {
-        "nid": "Thunder_Proficiency_Plus",
+        "nid": "Mast_Thunder",
         "name": "Thunder Proficiency+",
-        "desc": "Unit has improved weapon rank with Thunder magic.",
+        "desc": "Unit has highly improved weapon rank with Thunder magic.",
         "icon_nid": "wexp_anima",
         "icon_index": [
             0,
@@ -2880,9 +2960,9 @@
         ]
     },
     {
-        "nid": "Thunder_Proficiency_visonly",
+        "nid": "Prof_Thunder_backend",
         "name": "Thunder Proficiency",
-        "desc": "Unit has improved weapon rank with Thunder magic.",
+        "desc": "",
         "icon_nid": "wexp_anima",
         "icon_index": [
             0,
@@ -2890,15 +2970,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Thunder"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "Thunder_Proficiency_Plus_visonly",
+        "nid": "Mast_Thunder_backend",
         "name": "Thunder Proficiency+",
-        "desc": "Unit has improved weapon rank with Thunder magic.",
+        "desc": "",
         "icon_nid": "wexp_anima",
         "icon_index": [
             0,
@@ -2906,13 +2994,21 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Thunder"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
     {
-        "nid": "Wind_Proficiency",
+        "nid": "Prof_Wind",
         "name": "Wind Proficiency",
         "desc": "Unit has improved weapon rank with Wind magic.",
         "icon_nid": "wexp_anima",
@@ -2932,9 +3028,9 @@
         ]
     },
     {
-        "nid": "Wind_Proficiency_Plus",
+        "nid": "Mast_Wind",
         "name": "Wind Proficiency+",
-        "desc": "Unit has improved weapon rank with Wind magic.",
+        "desc": "Unit has highly improved weapon rank with Wind magic.",
         "icon_nid": "wexp_anima",
         "icon_index": [
             0,
@@ -2952,9 +3048,9 @@
         ]
     },
     {
-        "nid": "Wind_Proficiency_visonly",
+        "nid": "Prof_Wind_backend",
         "name": "Wind Proficiency",
-        "desc": "Unit has improved weapon rank with Wind magic.",
+        "desc": "",
         "icon_nid": "wexp_anima",
         "icon_index": [
             0,
@@ -2962,15 +3058,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Wind"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "Wind_Proficiency_Plus_visonly",
+        "nid": "Mast_Wind_backend",
         "name": "Wind Proficiency+",
-        "desc": "Unit has improved weapon rank with Wind magic.",
+        "desc": "",
         "icon_nid": "wexp_anima",
         "icon_index": [
             0,
@@ -2978,13 +3082,21 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Wind"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
     {
-        "nid": "Light_Proficiency",
+        "nid": "Prof_Light",
         "name": "Light Proficiency",
         "desc": "Unit has improved weapon rank with Light magic.",
         "icon_nid": "wexp_icons",
@@ -3004,9 +3116,9 @@
         ]
     },
     {
-        "nid": "Light_Proficiency_Plus",
+        "nid": "Mast_Light",
         "name": "Light Proficiency+",
-        "desc": "Unit has improved weapon rank with Light magic.",
+        "desc": "Unit has highly improved weapon rank with Light magic.",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -3024,9 +3136,9 @@
         ]
     },
     {
-        "nid": "Light_Proficiency_visonly",
+        "nid": "Prof_Light_backend",
         "name": "Light Proficiency",
-        "desc": "Unit has improved weapon rank with Light magic.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -3034,15 +3146,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Light"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "Light_Proficiency_Plus_visonly",
+        "nid": "Mast_Light_backend",
         "name": "Light Proficiency+",
-        "desc": "Unit has improved weapon rank with Light magic.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -3050,13 +3170,21 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Light"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
     {
-        "nid": "Dark_Proficiency",
+        "nid": "Prof_Dark",
         "name": "Dark Proficiency",
         "desc": "Unit has improved weapon rank with Dark magic.",
         "icon_nid": "wexp_icons",
@@ -3076,9 +3204,9 @@
         ]
     },
     {
-        "nid": "Dark_Proficiency_Plus",
+        "nid": "Mast_Dark",
         "name": "Dark Proficiency+",
-        "desc": "Unit has improved weapon rank with Dark magic.",
+        "desc": "Unit has highly improved weapon rank with Dark magic.",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -3096,9 +3224,9 @@
         ]
     },
     {
-        "nid": "Dark_Proficiency_visonly",
+        "nid": "Prof_Dark_backend",
         "name": "Dark Proficiency",
-        "desc": "Unit has improved weapon rank with Dark magic.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -3106,15 +3234,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Dark"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "Dark_Proficiency_Plus_visonly",
+        "nid": "Mast_Dark_backend",
         "name": "Dark Proficiency+",
-        "desc": "Unit has improved weapon rank with Dark magic.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -3122,13 +3258,21 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Dark"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
     {
-        "nid": "Staff_Proficiency",
+        "nid": "Prof_Staff",
         "name": "Staff Proficiency",
         "desc": "Unit has improved weapon rank with Staves.",
         "icon_nid": "wexp_icons",
@@ -3148,9 +3292,9 @@
         ]
     },
     {
-        "nid": "Staff_Proficiency_Plus",
+        "nid": "Mast_Staff",
         "name": "Staff Proficiency+",
-        "desc": "Unit has improved weapon rank with Staves.",
+        "desc": "Unit has highly improved weapon rank with Staves.",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -3168,9 +3312,9 @@
         ]
     },
     {
-        "nid": "Staff_Proficiency_visonly",
+        "nid": "Prof_Staff_backend",
         "name": "Staff Proficiency",
-        "desc": "Unit has improved weapon rank with Staves.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -3178,15 +3322,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Staff"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "Staff_Proficiency_Plus_visonly",
+        "nid": "Mast_Staff_backend",
         "name": "Staff Proficiency+",
-        "desc": "Unit has improved weapon rank with Staves.",
+        "desc": "",
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -3194,13 +3346,21 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Staff"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
     {
-        "nid": "All_Magic_Proficiency",
+        "nid": "Prof_All_Magic",
         "name": "All Magic Proficiency",
         "desc": "Unit has improved weapon rank with all Magic.",
         "icon_nid": "Affinity",
@@ -3220,9 +3380,9 @@
         ]
     },
     {
-        "nid": "All_Magic_Proficiency_Plus",
+        "nid": "Mast_All_Magic",
         "name": "All Magic Proficiency+",
-        "desc": "Unit has improved weapon rank with all Magic.",
+        "desc": "Unit has highly improved weapon rank with all Magic.",
         "icon_nid": "Affinity",
         "icon_index": [
             0,
@@ -3240,9 +3400,9 @@
         ]
     },
     {
-        "nid": "All_Magic_Proficiency_visonly",
+        "nid": "Prof_All_Magic_backend",
         "name": "All Magic Proficiency",
-        "desc": "Unit has improved weapon rank with all Magic.",
+        "desc": "",
         "icon_nid": "Affinity",
         "icon_index": [
             0,
@@ -3250,15 +3410,23 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Fire,Thunder,Wind,Light,Dark,Staff"
+            ],
+            [
+                "weapon_proficiency_value",
+                1
             ]
         ]
     },
     {
-        "nid": "All_Magic_Proficiency_Plus_visonly",
+        "nid": "Mast_All_Magic_backend",
         "name": "All Magic Proficiency+",
-        "desc": "Unit has improved weapon rank with all Magic.",
+        "desc": "",
         "icon_nid": "Affinity",
         "icon_index": [
             0,
@@ -3266,8 +3434,16 @@
         ],
         "components": [
             [
-                "class_skill",
+                "hidden",
                 null
+            ],
+            [
+                "weapon_proficiency_type",
+                "Fire,Thunder,Wind,Light,Dark,Staff"
+            ],
+            [
+                "weapon_proficiency_value",
+                2
             ]
         ]
     },
@@ -3547,7 +3723,7 @@
     {
         "nid": "Guardian",
         "name": "Guardian",
-        "desc": " If a Lord would die within 5 tiles of this unit, this unit will sacrifice themself.",
+        "desc": "Will sacrifice themself if a Lord would die within 5 tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             6,
@@ -3956,10 +4132,6 @@
         "components": [
             [
                 "class_skill",
-                null
-            ],
-            [
-                "wary_fighter",
                 null
             ]
         ]
