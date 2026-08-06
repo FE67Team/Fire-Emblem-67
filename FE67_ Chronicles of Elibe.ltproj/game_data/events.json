@@ -4085,9 +4085,6 @@
             "remove_region;OtherCastle",
             "add_region;CutthroatCastle;{unit};1,1;event;Visit",
             "",
-            "#This MUST follow the format \"_castle(name)_occupants\". The code will not execute properly if you don't do this!",
-            "game_var;_castleCutthroat_occupants;[]",
-            "",
             "battle_save;immediately",
             "",
             "#Makes the unit who seized this castle end their turn.",
@@ -4192,6 +4189,22 @@
         "nid": "test start_testMap"
     },
     {
+        "name": "start_testMap_1",
+        "trigger": "level_start",
+        "level_nid": "test",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "choice;_end_choice;End test map?;No,Yes;Scale=2",
+            "if;game.game_vars['_end_choice'] == 'Yes'",
+            "    win_game",
+            "end"
+        ],
+        "nid": "test start_testMap_1"
+    },
+    {
         "name": "RunCastle_units",
         "trigger": null,
         "level_nid": null,
@@ -4207,6 +4220,11 @@
             "#Get the current castle's variable and make it easier to reference",
             "castleVar = \"_castle\" + game.game_vars['_currentCastle'] + \"_occupants\"",
             "castleToCheck = game.game_vars[castleVar]",
+            "",
+            "#Initializes the castle variable if it hasn't been yet",
+            "if castleToCheck == 0:",
+            "    game.game_vars[castleVar] = []",
+            "    castleToCheck = []",
             "",
             "castleUnits = []",
             "#Add the visiting unit to castleUnits",
@@ -4395,8 +4413,10 @@
             "    $add_unit game.game_vars[\"_chosenUnit\"] (0,0) \"immediate\" \"stack\"",
             "    $add_unit choice (1,0) \"immediate\" \"stack\"",
             "    $t \"open\"",
+            "    #Get which refresh to use (determines which song plays)",
+            "    refresh_to_use = \"Refresh_\" + game.game_vars[\"_chosenUnit\"] + \"_castle\"",
             "    #Perform the refresh",
-            "    $interact_unit game.game_vars[\"_chosenUnit\"] choice [\"hit1\",\"end\"] \"Refresh_1\" Rounds=1, arena_2",
+            "    $interact_unit game.game_vars[\"_chosenUnit\"] choice [\"hit1\",\"end\"] refresh_to_use Rounds=1, arena_2",
             "    $reset choice",
             "    game.game_vars[\"acted_units\"].remove(choice)",
             "    $has_attacked game.game_vars[\"_chosenUnit\"]",
@@ -4588,7 +4608,8 @@
             "",
             "#Prevents the unit from getting to act within the castle if they already have.",
             "if chosen_unit.nid in game.game_vars[\"acted_units\"] or chosen_unit._has_attacked or chosen_unit._has_traded or chosen_unit.has_rescued or chosen_unit.has_dropped or chosen_unit.has_taken or chosen_unit.has_given:",
-            "    game.game_vars[\"acted_units\"].append(chosen_unit.nid)",
+            "    if chosen_unit.nid not in game.game_vars[\"acted_units\"]:",
+            "        game.game_vars[\"acted_units\"].append(chosen_unit.nid)",
             "    castle_options = [\"Deploy\"]",
             "else:",
             "    #Unit hasn't acted already, so they get all the options",
@@ -4692,8 +4713,13 @@
             "        if len(game.level_vars[\"valid_staves\"]) > 0:",
             "            castle_options.append(\"Staff\")",
             "    ",
+            "    #Since there's multiple refresh skills, we have to check for the presence of all 4",
+            "    can_refresh = False",
+            "    for skill in chosen_unit.skills:",
+            "        if 'Refresh' in skill.nid: can_refresh = True",
+            "    ",
             "    #If the unit can refresh, add that as an option",
-            "    if 'Refresh' in [skill.nid for skill in chosen_unit.skills]:",
+            "    if can_refresh:",
             "        #Check if the unit actually has anyone to Refresh",
             "        valid_targets = 0",
             "        for pUnit in playerAliveParty:",
@@ -6167,7 +6193,7 @@
             "remove_region;Seize1",
             "level_var;Nils_Event;1",
             "add_region;Visit1;22,22;1,1;event;Visit",
-            "game_var;_castleKathelet_occupants;[]",
+            "#game_var;_castleKathelet_occupants;[]",
             "battle_save;immediately",
             "has_visited;{unit}",
             "has_finished;{unit}"
@@ -6219,7 +6245,7 @@
             "give_item;Nils;Ninis_s_Grace",
             "remove_region;Seize2",
             "add_region;Visit2;7,13;1,1;event;Visit",
-            "game_var;_castleBeyard's Castle_occupants;[]",
+            "#game_var;_castleBeyard's Castle_occupants;[]",
             "battle_save;immediately",
             "has_visited;{unit}",
             "has_finished;{unit}"
@@ -6238,7 +6264,7 @@
             "hide_layer;Barrier2",
             "remove_region;Seize3",
             "add_region;Visit3;41,62;1,1;event;Visit",
-            "game_var;_castleEagler's Castle_occupants;[]",
+            "#game_var;_castleEagler's Castle_occupants;[]",
             "battle_save;immediately",
             "has_visited;{unit}",
             "has_finished;{unit}"
@@ -7165,5 +7191,29 @@
             "remove_portrait;Lundgren"
         ],
         "nid": "0 LundgrenIntro"
+    },
+    {
+        "name": "test_Outro",
+        "trigger": "level_end",
+        "level_nid": "test",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "t;close;500",
+            "music;Grasp at Victory;1000",
+            "t;open;1000",
+            "",
+            "wait;250",
+            "add_portrait;Lyn;Right",
+            "speak;Lyn;Yippee!",
+            "wait;250",
+            "",
+            "music_fade_back;2000",
+            "t;close;2000",
+            "wait;1000"
+        ],
+        "nid": "test test_Outro"
     }
 ]
