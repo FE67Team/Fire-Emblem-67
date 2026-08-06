@@ -7114,6 +7114,25 @@
                 "hide_time": false
             },
             {
+                "nid": "HomeCastle_input",
+                "region_type": "pressable",
+                "position": [
+                    2,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "on_region_press",
+                "highlight": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false,
+                "hide_time": false
+            },
+            {
                 "nid": "House1",
                 "region_type": "event",
                 "position": [
