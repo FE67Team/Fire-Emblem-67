@@ -2179,12 +2179,7 @@
             "MOV": 60,
             "LEAD": 30
         },
-        "learned_skills": [
-            [
-                1,
-                "Refresh"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -2338,12 +2333,7 @@
             "MAG": 26,
             "LEAD": 30
         },
-        "learned_skills": [
-            [
-                1,
-                "Refresh"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 false,
