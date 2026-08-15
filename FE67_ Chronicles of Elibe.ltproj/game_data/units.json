@@ -10980,6 +10980,10 @@
             [
                 "Flux",
                 false
+            ],
+            [
+                "Skill_Ring",
+                false
             ]
         ],
         "learned_skills": [],
