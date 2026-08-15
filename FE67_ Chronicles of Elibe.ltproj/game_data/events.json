@@ -302,7 +302,7 @@
             "speak;Lyn;!",
             "speak;Kent;!",
             "transition;Close",
-            "if;game.check_dead('Sain' == False and 'Wallace' == False);",
+            "if;game.check_dead('Sain') == False and game.check_dead('Wallace') == False;",
             "    change_background;CastleGarden1",
             "    transition;Open",
             "    add_portrait;SoldierFE7Gray;Left",
@@ -313,7 +313,7 @@
             "    speak;SoldierFE7Gray;Y-yes sir!",
             "    transition;Close",
             "end",
-            "if;game.check_dead('Rath' == False and 'Dorcas' == False);",
+            "if;game.check_dead('Rath') == False and game.check_dead('Dorcas') == False;",
             "    change_background;CastleGarden1",
             "    transition;Open",
             "    add_portrait;Rath;Left",
@@ -322,7 +322,7 @@
             "    speak;Dorcas;You too. Thanks for having my back.",
             "    transition;close",
             "end",
-            "if;game.check_dead('Wil' == False and 'Florina' == False);",
+            "if;game.check_dead('Wil') == False and game.check_dead('Florina') == False;",
             "    change_background;ClearingSunset",
             "    transition;Open",
             "    add_portrait;Florina;Left",
@@ -412,7 +412,7 @@
             "transition;Close",
             "change_background",
             "transition;Open",
-            "spawn_group;AntiWallaceSquad;north;AntiWallaceSquad;immediate;push",
+            "add_group;AntiWallaceSquad;AntiWallaceSquad;immediate;push",
             "wait;1000",
             "move_cursor;42,4",
             "disp_cursor;1",
@@ -454,7 +454,7 @@
         "level_nid": "0",
         "condition": "region.nid == 'MessengerArrivalSpot'",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "wait;1000",
@@ -472,7 +472,7 @@
             "remove_portrait;Soldier 1",
             "remove_unit;AfterWallaceSquad_Messenger;fade;fade",
             "remove_region;MessengerArrivalSpot",
-            "spawn_group;ArbalestsSquad;north;ArbalestsSquad;immediate",
+            "add_group;ArbalestsSquad;ArbalestsSquad;immediate;giveup",
             ""
         ],
         "nid": "0 MessengerArrives"
@@ -6216,6 +6216,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "add_talk;Nils;Lyn",
             "wait;1000",
             "move_cursor;7,13",
             "disp_cursor;1",
@@ -6239,11 +6240,12 @@
             "speak;Heintz;As you wish.",
             "remove_portrait;Beyard",
             "remove_portrait;Heintz",
-            "spawn_group;BlackFang;north;BlackFang;warp;",
+            "add_group;BlackFang;BlackFang;immediate",
             "if;game.check_dead(\"Erk\") == False;",
             "    add_portrait;Erk;Right",
             "    speak;Erk;Odd... This is the first time I've seen a dark mage working with bandits around here.",
-            "    remove_portrait;Erk"
+            "    remove_portrait;Erk",
+            "    end"
         ],
         "nid": "0 NilsAppears"
     },
@@ -6817,7 +6819,7 @@
         "name": "Talk_Lyn/Eagler",
         "trigger": "on_talk",
         "level_nid": "0",
-        "condition": "check_pair('Eagler','Lyn') and game.level_vars['RecruitEagler'] == 1",
+        "condition": "check_pair('Eagler','Lyn')",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -6900,7 +6902,7 @@
             "remove_portrait;Eagler",
             "speak;Sain;\"I\" won't, huh...",
             "remove_portrait;Sain",
-            "level_var;RecruitEagler;1"
+            "add_talk;Lyn;Eagler"
         ],
         "nid": "0 VillageSaved_Sain"
     },
@@ -6930,7 +6932,7 @@
             "add_portrait;Lundgren;Left",
             "speak;Lundgren;You bastard|kill the traitors! Leave none alive!",
             "remove_portrait;Lundgren",
-            "level_var;RecruitEagler;1"
+            "add_talk;Lyn;Eagler"
         ],
         "nid": "0 VillageSaved_Generic"
     },
@@ -6954,7 +6956,7 @@
             "remove_portrait;Eagler",
             "speak;Lundgren;...",
             "remove_portrait;Lundgren",
-            "level_var;RecruitEagler;1"
+            "add_talk;Lyn;Eagler"
         ],
         "nid": "0 VillageGetsDestoyed"
     },
@@ -7005,8 +7007,7 @@
             "speak;Eagler;...",
             "remove_portrait;Lundgren",
             "remove_portrait;Eagler",
-            "#Spawnbandits",
-            "trigger_script;Global StatUp"
+            "add_group;EaglerBandits;EaglerBandits;"
         ],
         "nid": "0 BanditsAppear"
     },
@@ -7014,7 +7015,7 @@
         "name": "YogiIsSurpised",
         "trigger": null,
         "level_nid": "0",
-        "condition": "any_unit_in_region('YogiIsSurpiseda', team='player') and game.check_dead('AfterWallaceSquad_Messenge' == True)",
+        "condition": "any_unit_in_region('YogiIsSurpiseda', team='player') and game.check_dead('AfterWallaceSquad_Messenge') == True",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -7035,7 +7036,7 @@
         "name": "NotOrdinaryBandits",
         "trigger": "combat_end",
         "level_nid": "0",
-        "condition": "check_default('',['Kent','Sain','Wallace']) and game.check_dead({unit} == False)",
+        "condition": "unit.nid in ['Kent','Sain','Wallace'] and unit2.nid in ['BlackFang','BlackFang_1','BlackFang_2','BlackFang_3','BlackFang_4','BlackFang_5'] and game.check_dead(unit) == False",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -7094,7 +7095,7 @@
             "speak;; I love the way you think, boss.|Alright lads, take what you can!|Let's have some fun while Caelin burns!",
             "remove_portrait;",
             "remove_portrait;",
-            "spawn_group;Pirates;north;Pirates;immediate;"
+            "add_group;Pirates;Pirates;immediate;giveup"
         ],
         "nid": "0 PirateAttack"
     },
