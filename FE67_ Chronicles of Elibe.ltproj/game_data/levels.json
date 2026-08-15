@@ -1792,6 +1792,363 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "EaglerBandits",
+                "variant": null,
+                "level": 5,
+                "klass": "Brigand",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Placeholder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursueVillage",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "EaglerBandits_1",
+                "variant": null,
+                "level": 5,
+                "klass": "Pirate",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "EaglerBandits_2",
+                "variant": null,
+                "level": 5,
+                "klass": "Pirate",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "EaglerBandits_3",
+                "variant": null,
+                "level": 5,
+                "klass": "Pirate",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Hand_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BlackFang",
+                "variant": null,
+                "level": 5,
+                "klass": "Shaman",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BlackFang_1",
+                "variant": null,
+                "level": 5,
+                "klass": "Shaman",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BlackFang_2",
+                "variant": null,
+                "level": 5,
+                "klass": "Shaman",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Pirate",
+                "variant": null,
+                "level": 5,
+                "klass": "Pirate",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Pirate_1",
+                "variant": null,
+                "level": 5,
+                "klass": "Pirate",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Pirate_2",
+                "variant": null,
+                "level": 5,
+                "klass": "Pirate",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Pirate_3",
+                "variant": null,
+                "level": 5,
+                "klass": "Pirate",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "EaglerSquad",
+                "variant": null,
+                "level": 7,
+                "klass": "Lance_Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "EaglerSquad_1",
+                "variant": null,
+                "level": 7,
+                "klass": "Lance_Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "EaglerSquad_2",
+                "variant": null,
+                "level": 7,
+                "klass": "Lance_Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "LundgrenSquad",
+                "variant": null,
+                "level": 7,
+                "klass": "Lance_Armor",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "LundgrenSquad_1",
+                "variant": null,
+                "level": 7,
+                "klass": "Sword_Armor",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "LundgrenSquad_2",
+                "variant": null,
+                "level": 7,
+                "klass": "Axe_Armor",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -2327,9 +2684,139 @@
                         8
                     ]
                 }
+            },
+            {
+                "nid": "EaglerBandits",
+                "units": [
+                    "EaglerBandits",
+                    "EaglerBandits_1",
+                    "EaglerBandits_2",
+                    "EaglerBandits_3"
+                ],
+                "positions": {
+                    "EaglerBandits": [
+                        41,
+                        39
+                    ],
+                    "EaglerBandits_1": [
+                        40,
+                        41
+                    ],
+                    "EaglerBandits_2": [
+                        41,
+                        42
+                    ],
+                    "EaglerBandits_3": [
+                        41,
+                        41
+                    ]
+                }
+            },
+            {
+                "nid": "BlackFang",
+                "units": [
+                    "Heintz",
+                    "BlackFang",
+                    "BlackFang_1",
+                    "BlackFang_2"
+                ],
+                "positions": {
+                    "Heintz": [
+                        7,
+                        14
+                    ],
+                    "BlackFang": [
+                        6,
+                        15
+                    ],
+                    "BlackFang_1": [
+                        8,
+                        15
+                    ],
+                    "BlackFang_2": [
+                        7,
+                        15
+                    ]
+                }
+            },
+            {
+                "nid": "Pirates",
+                "units": [
+                    "Pirate",
+                    "Pirate_1",
+                    "Pirate_2",
+                    "Pirate_3"
+                ],
+                "positions": {
+                    "Pirate": [
+                        9,
+                        67
+                    ],
+                    "Pirate_1": [
+                        11,
+                        68
+                    ],
+                    "Pirate_2": [
+                        10,
+                        64
+                    ],
+                    "Pirate_3": [
+                        11,
+                        66
+                    ]
+                }
+            },
+            {
+                "nid": "EaglerSquad",
+                "units": [
+                    "EaglerSquad",
+                    "EaglerSquad_1",
+                    "EaglerSquad_2"
+                ],
+                "positions": {
+                    "EaglerSquad": [
+                        40,
+                        63
+                    ],
+                    "EaglerSquad_1": [
+                        41,
+                        64
+                    ],
+                    "EaglerSquad_2": [
+                        42,
+                        63
+                    ]
+                }
+            },
+            {
+                "nid": "LundgrenSquad",
+                "units": [
+                    "LundgrenSquad",
+                    "LundgrenSquad_1",
+                    "LundgrenSquad_2"
+                ],
+                "positions": {
+                    "LundgrenSquad": [
+                        7,
+                        56
+                    ],
+                    "LundgrenSquad_2": [
+                        7,
+                        58
+                    ],
+                    "LundgrenSquad_1": [
+                        8,
+                        57
+                    ]
+                }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "1",
@@ -7134,12 +7621,7 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     },
     {
         "nid": "test2",
