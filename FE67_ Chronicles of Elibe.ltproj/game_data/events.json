@@ -6375,6 +6375,7 @@
             "speak;Heintz;As you wish.",
             "remove_portrait;Beyard",
             "remove_portrait;Heintz",
+            "spawn_group;BlackFang;north;BlackFang;warp;",
             "if;game.check_dead(\"Erk\") == False;",
             "    add_portrait;Erk;Right",
             "    speak;Erk;Odd... This is the first time I've seen a dark mage working with bandits around here.",
@@ -7131,6 +7132,8 @@
             "speak;Baandit 2;They must be dealing with something big.|All the more for us, right?|Get 'em boys!",
             "remove_portrait;Bandit1",
             "remove_portrait;Baandit 2",
+            "spawn_group;EaglerBandits;north;EaglerBandits;immediate;push",
+            "wait;1000",
             "add_portrait;Eagler;Right",
             "speak;Eagler;Now of all times?!|Lundgren, please let me retreat to take care of these vermin!",
             "add_portrait;Lundgren;Left",
@@ -7220,13 +7223,13 @@
         "_source": [
             "add_portrait;;Left",
             "add_portrait;;Right",
-            "speak;;Looks like Caelin\u2019s in some mighty trouble.",
+            "speak;;Looks like Caelin's in some mighty trouble.",
             "speak;;Aye, it does.",
             "speak;;How about we and the boys have some fun?",
             "speak;; I love the way you think, boss.|Alright lads, take what you can!|Let's have some fun while Caelin burns!",
             "remove_portrait;",
             "remove_portrait;",
-            "#spawn pirates"
+            "spawn_group;Pirates;north;Pirates;immediate;"
         ],
         "nid": "0 PirateAttack"
     },
