@@ -5030,6 +5030,10 @@
             [
                 "allowed_to_rescue",
                 null
+            ],
+            [
+                "ignore_rescue_penalty",
+                null
             ]
         ]
     }
