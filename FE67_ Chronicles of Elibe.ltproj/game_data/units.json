@@ -1270,6 +1270,10 @@
             [
                 1,
                 "Dragonblood"
+            ],
+            [
+                1,
+                "Refresh_Nils"
             ]
         ],
         "unit_notes": [],
@@ -3719,6 +3723,10 @@
             [
                 1,
                 "Dragonblood"
+            ],
+            [
+                1,
+                "Refresh_Ninian"
             ]
         ],
         "unit_notes": [],
@@ -9202,7 +9210,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Refresh_Lalum"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {},
         "alternate_classes": [],
@@ -9214,7 +9227,7 @@
         "nid": "Elffin",
         "name": "Elffin",
         "desc": "A mysterious bard serving the rebel forces on the Western Isles.",
-        "variant": null,
+        "variant": "",
         "level": 8,
         "klass": "Bard",
         "tags": [],
@@ -9260,7 +9273,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Refresh_Elffin"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {},
         "alternate_classes": [],
