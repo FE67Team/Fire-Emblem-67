@@ -76,6 +76,10 @@
         true
     ],
     [
+        "restrict_rescuing",
+        true
+    ],
+    [
         "reset_uses",
         false
     ],

@@ -1168,10 +1168,10 @@
         "nid": "NegateFlyEff",
         "name": "NegateFlyEff",
         "desc": "Negates effective damage against flying units.",
-        "icon_nid": "Skills",
+        "icon_nid": "Boosters",
         "icon_index": [
-            10,
-            3
+            0,
+            20
         ],
         "components": [
             [
@@ -1412,7 +1412,7 @@
     {
         "nid": "Charm",
         "name": "Charm",
-        "desc": "Grants +10 Hit/Avoid to allies with in 3 tiles.",
+        "desc": "Grants +10 Hit/Avoid to allies within 3 tiles.",
         "icon_nid": "Fe4-skills",
         "icon_index": [
             7,
@@ -1439,8 +1439,8 @@
     },
     {
         "nid": "Charm_child",
-        "name": "Charm child",
-        "desc": "Grants +10 Hit/Avoid",
+        "name": "Charm",
+        "desc": "Unit has +10 Hit/Avoid from a charming ally.",
         "icon_nid": "Fe4-skills",
         "icon_index": [
             7,
@@ -1460,7 +1460,7 @@
     {
         "nid": "Inspiration",
         "name": "Inspiration",
-        "desc": "Grants +1 damage and +1 resist to allies with in 3 tiles.",
+        "desc": "Grants +1 ATK/Resist to allies within 3 tiles.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             1,
@@ -1488,7 +1488,7 @@
     {
         "nid": "Inspiration_child",
         "name": "Inspired",
-        "desc": "Grants +1 damage and +1 resist.",
+        "desc": "Unit has +1 ATK/Resist from an inspiring ally.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             1,
@@ -1989,7 +1989,7 @@
     {
         "nid": "Pursuit",
         "name": "Pursuit",
-        "desc": "Allows the user to make follow-up attacks.",
+        "desc": "Unit can make follow-up attacks.",
         "icon_nid": "Fe4-skills",
         "icon_index": [
             4,
@@ -2009,7 +2009,7 @@
     {
         "nid": "Pavise",
         "name": "Pavise",
-        "desc": "Proc Rate: SKL/4%\nNullifies damage done to unit.",
+        "desc": "SKL/4% chance to nullify damage done to unit.",
         "icon_nid": "Skills",
         "icon_index": [
             10,
@@ -2049,7 +2049,7 @@
     {
         "nid": "Sure_Strike",
         "name": "Sure Strike",
-        "desc": "Proc rate: SKL/4%\nEnsures the user's attack will hit the foe.",
+        "desc": "SKL/4% chance to ensure the user's attack will hit.",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -2115,7 +2115,7 @@
     {
         "nid": "Refresh_Nils",
         "name": "Refresh",
-        "desc": "Allows a unit to act again.",
+        "desc": "Unit can allow allies to act again.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -2135,7 +2135,7 @@
     {
         "nid": "Refresh_Ninian",
         "name": "Refresh",
-        "desc": "Allows a unit to act again.",
+        "desc": "Unit can allow allies to act again.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -2155,7 +2155,7 @@
     {
         "nid": "Refresh_Elffin",
         "name": "Refresh",
-        "desc": "Allows a unit to act again.",
+        "desc": "Unit can allow allies to act again.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -2175,7 +2175,7 @@
     {
         "nid": "Refresh_Lalum",
         "name": "Refresh",
-        "desc": "Allows a unit to act again.",
+        "desc": "Unit can allow allies to act again.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -2195,7 +2195,7 @@
     {
         "nid": "Summon",
         "name": "Summon",
-        "desc": "Summon a phantom.",
+        "desc": "Unit can summon phantoms.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -2235,11 +2235,11 @@
     {
         "nid": "Ninis_s_Grace",
         "name": "Ninis's Grace",
-        "desc": "+5 Mag for three turns.",
-        "icon_nid": "Skills",
+        "desc": "+5 Magic for three turns.",
+        "icon_nid": "Ring",
         "icon_index": [
-            9,
-            10
+            0,
+            0
         ],
         "components": [
             [
@@ -2260,10 +2260,10 @@
     {
         "nid": "Filla_s_Might",
         "name": "Filla's Might",
-        "desc": "+5 Str for three turns.",
-        "icon_nid": "Skills",
+        "desc": "+5 Strength for three turns.",
+        "icon_nid": "Ring",
         "icon_index": [
-            11,
+            0,
             1
         ],
         "components": [
@@ -2285,11 +2285,11 @@
     {
         "nid": "Thor_s_Ire",
         "name": "Thor's Ire",
-        "desc": "Grant's Critical skill for three turns.",
-        "icon_nid": "Skills",
+        "desc": "Grants the Critical skill for three turns.",
+        "icon_nid": "Ring",
         "icon_index": [
-            11,
-            3
+            0,
+            2
         ],
         "components": [
             [
@@ -2309,11 +2309,11 @@
     {
         "nid": "Set_s_Litany",
         "name": "Set's Litany",
-        "desc": "Grants Nihil skill for three turns.",
-        "icon_nid": "Skills",
+        "desc": "Grants the Nihil skill for three turns.",
+        "icon_nid": "Ring",
         "icon_index": [
-            11,
-            9
+            0,
+            3
         ],
         "components": [
             [
@@ -3538,17 +3538,13 @@
     {
         "nid": "Knight_Instructor_buff",
         "name": "Knight Instructor",
-        "desc": "+10 Hit/Avoid, +1 ATK.\nTerrain Skill makes this unable to affect fliers.",
+        "desc": "Unit has +10 Hit/Avoid +1 ATK from their instructor.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             7,
             42
         ],
         "components": [
-            [
-                "is_terrain",
-                null
-            ],
             [
                 "condition",
                 "'Horse' in game.get_klass(unit.nid).tags"
@@ -3564,6 +3560,10 @@
             [
                 "damage",
                 1
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     },
@@ -3598,17 +3598,13 @@
     {
         "nid": "Intimidate_debuff",
         "name": "Intimidate",
-        "desc": "Unit has -10 Hit.",
+        "desc": "Unit's fear reduces Hit by 10.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
             10
         ],
         "components": [
-            [
-                "hidden",
-                null
-            ],
             [
                 "hit",
                 -10
@@ -3618,7 +3614,7 @@
     {
         "nid": "Provoke",
         "name": "Provoke",
-        "desc": "",
+        "desc": "Forces an enemy within 5 tiles to attack this unit. Usable 3 times per map.\nthis skill still isn't finished lmao",
         "icon_nid": "Skills",
         "icon_index": [
             8,
@@ -3628,17 +3624,13 @@
             [
                 "class_skill",
                 null
-            ],
-            [
-                "wexp_usable_skill",
-                "Sword"
             ]
         ]
     },
     {
         "nid": "Armored_March",
         "name": "Armored March",
-        "desc": "Gives armored units within 5 tiles +1 Move.",
+        "desc": "Gives allied armor units within 5 tiles +1 Move.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -3666,17 +3658,13 @@
     {
         "nid": "Armored_March_buff",
         "name": "Armored March",
-        "desc": "Unit has +1 Move.",
+        "desc": "Unit has +1 Move from joining the armored march.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
             6
         ],
         "components": [
-            [
-                "hidden",
-                null
-            ],
             [
                 "condition",
                 "'Armor' in game.get_klass(unit.nid).tags"
@@ -3689,13 +3677,17 @@
                         4
                     ]
                 ]
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     },
     {
         "nid": "Grating_Personality",
         "name": "Grating Personality",
-        "desc": "-20 Hit to all units within 3 tiles. ",
+        "desc": "-20 Hit to ALL units within 3 tiles. ",
         "icon_nid": "Skills",
         "icon_index": [
             9,
@@ -3723,17 +3715,13 @@
     {
         "nid": "Grating_Personality_debuff",
         "name": "Grating Personality",
-        "desc": "God this bitch is annoying. -20 Hit.",
+        "desc": "-20 Hit from a unit's grating personality.",
         "icon_nid": "Skills",
         "icon_index": [
             9,
             3
         ],
         "components": [
-            [
-                "hidden",
-                null
-            ],
             [
                 "hit",
                 -20
@@ -3743,7 +3731,7 @@
     {
         "nid": "Showoff",
         "name": "Showoff",
-        "desc": "+5 Crit per female unit within 3 tiles.",
+        "desc": "+5 Crit per ALL female units within 3 tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -3763,7 +3751,7 @@
     {
         "nid": "Showoff_opposite",
         "name": "Showoff",
-        "desc": "+5 Crit per male unit within 3 tiles.",
+        "desc": "+5 Crit per ALL male units within 3 tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -3781,9 +3769,9 @@
         ]
     },
     {
-        "nid": "Guardian",
+        "nid": "Guardian_to_Lyn",
         "name": "Guardian",
-        "desc": "Will sacrifice themself if a Lord would die within 5 tiles.",
+        "desc": "Will sacrifice themself if Lyn would die within 5 tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             6,
@@ -3793,6 +3781,260 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "aura",
+                "Guardian_Lyn_buff"
+            ],
+            [
+                "aura_range",
+                5
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "has_tags",
+                [
+                    "GuardToLyn"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Guardian_Lyn_buff",
+        "name": "Guardian",
+        "desc": "Is being defended by a guardian.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "condition",
+                "unit.nid == 'Lyn'"
+            ]
+        ]
+    },
+    {
+        "nid": "Guardian_to_Eliwood",
+        "name": "Guardian",
+        "desc": "Will sacrifice themself if Eliwood would die within 5 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Guardian_to_Eliwood"
+            ],
+            [
+                "aura_range",
+                5
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "has_tags",
+                [
+                    "GuardToEliwood"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Guardian_Eli_buff",
+        "name": "Guardian",
+        "desc": "Is being defended by a guardian.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "condition",
+                "unit.nid == 'Eliwood'"
+            ]
+        ]
+    },
+    {
+        "nid": "Guardian_to_Hector",
+        "name": "Guardian",
+        "desc": "Will sacrifice themself if Hector would die within 5 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Guardian_to_Hector"
+            ],
+            [
+                "aura_range",
+                5
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "has_tags",
+                [
+                    "GuardToHector"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Guardian_Hec_buff",
+        "name": "Guardian",
+        "desc": "Is being defended by a guardian.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "condition",
+                "unit.nid == 'Hector'"
+            ]
+        ]
+    },
+    {
+        "nid": "Guardian_to_Roy",
+        "name": "Guardian",
+        "desc": "Will sacrifice themself if Roy would die within 5 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Guardian_Roy_buff"
+            ],
+            [
+                "aura_range",
+                5
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "has_tags",
+                [
+                    "GuardToRoy"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Guardian_Roy_buff",
+        "name": "Guardian",
+        "desc": "Is being defended by a guardian.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "condition",
+                "unit.nid == 'Roy'"
+            ]
+        ]
+    },
+    {
+        "nid": "Guardian_to_Lilina",
+        "name": "Guardian",
+        "desc": "Will sacrifice themself if Lilina would die within 5 tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Guardian_Lil_buff"
+            ],
+            [
+                "aura_range",
+                5
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "has_tags",
+                [
+                    "GuardToLilina"
+                ]
+            ]
+        ]
+    },
+    {
+        "nid": "Guardian_Lil_buff",
+        "name": "Guardian",
+        "desc": "Is being defended by a guardian.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "condition",
+                "unit.nid == 'Lilina'"
             ]
         ]
     },
@@ -4487,7 +4729,7 @@
     {
         "nid": "Pegasus_Commander",
         "name": "Pegasus Commander",
-        "desc": "Gives pegasus cavalry within 5 tiles +1 Move.",
+        "desc": "Gives allied pegasus cavalry within 5 tiles +1 Move.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -4515,17 +4757,13 @@
     {
         "nid": "Pegasus_Commander_buff",
         "name": "Pegasus Commander",
-        "desc": "Unit has +1 Move.",
+        "desc": "Unit has +1 Move from their commander.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
             10
         ],
         "components": [
-            [
-                "hidden",
-                null
-            ],
             [
                 "condition",
                 "'Pegasus' in game.get_klass(unit.nid).tags"
@@ -4538,6 +4776,10 @@
                         4
                     ]
                 ]
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     },
@@ -4768,6 +5010,30 @@
             [
                 "avoid",
                 10
+            ]
+        ]
+    },
+    {
+        "nid": "Savior",
+        "name": "Savior",
+        "desc": "Unit can rescue their allies.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "allowed_to_rescue",
+                null
+            ],
+            [
+                "ignore_rescue_penalty",
+                null
             ]
         ]
     }
