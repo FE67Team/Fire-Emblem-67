@@ -309,7 +309,7 @@
             ],
             [
                 1,
-                "Guardian_to_Lyn"
+                "Guardian"
             ]
         ],
         "unit_notes": [],
@@ -1987,10 +1987,6 @@
             [
                 1,
                 "Mast_Axe_backend"
-            ],
-            [
-                1,
-                "Savior"
             ]
         ],
         "unit_notes": [],
@@ -6658,9 +6654,7 @@
         "variant": null,
         "level": 1,
         "klass": "Roy_Lord",
-        "tags": [
-            "Lord"
-        ],
+        "tags": [],
         "bases": {
             "HP": 18,
             "STR": 5,

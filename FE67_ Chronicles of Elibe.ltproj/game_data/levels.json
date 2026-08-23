@@ -3312,7 +3312,12 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     },
     {
         "nid": "1",
@@ -7958,7 +7963,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Brigand",
-                "faction": "Cutthroat",
+                "faction": "Enemy",
                 "starting_items": [
                     [
                         "Iron_Axe",
@@ -7979,7 +7984,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Brigand",
-                "faction": "Cutthroat",
+                "faction": "Enemy",
                 "starting_items": [
                     [
                         "Iron_Axe",
@@ -8000,7 +8005,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Brigand",
-                "faction": "Cutthroat",
+                "faction": "Enemy",
                 "starting_items": [
                     [
                         "Iron_Axe",
@@ -8021,7 +8026,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Brigand",
-                "faction": "Cutthroat",
+                "faction": "Enemy",
                 "starting_items": [
                     [
                         "Iron_Axe",
@@ -8042,7 +8047,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Brigand",
-                "faction": "Cutthroat",
+                "faction": "Enemy",
                 "starting_items": [
                     [
                         "Iron_Axe",
@@ -8063,7 +8068,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Brigand",
-                "faction": "Cutthroat",
+                "faction": "Enemy",
                 "starting_items": [
                     [
                         "Iron_Axe",
