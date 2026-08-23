@@ -2113,7 +2113,7 @@
         ]
     },
     {
-        "nid": "Refresh_Nils",
+        "nid": "Refresh",
         "name": "Refresh",
         "desc": "Allows a unit to act again.",
         "icon_nid": "Skills",
@@ -2128,67 +2128,7 @@
             ],
             [
                 "ability",
-                "Refresh_Nils"
-            ]
-        ]
-    },
-    {
-        "nid": "Refresh_Ninian",
-        "name": "Refresh",
-        "desc": "Allows a unit to act again.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            3,
-            9
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "ability",
-                "Refresh_Ninian"
-            ]
-        ]
-    },
-    {
-        "nid": "Refresh_Elffin",
-        "name": "Refresh",
-        "desc": "Allows a unit to act again.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            3,
-            9
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "ability",
-                "Refresh_Elffin"
-            ]
-        ]
-    },
-    {
-        "nid": "Refresh_Lalum",
-        "name": "Refresh",
-        "desc": "Allows a unit to act again.",
-        "icon_nid": "Skills",
-        "icon_index": [
-            3,
-            9
-        ],
-        "components": [
-            [
-                "class_skill",
-                null
-            ],
-            [
-                "ability",
-                "Refresh_Lalum"
+                "Refresh"
             ]
         ]
     },
